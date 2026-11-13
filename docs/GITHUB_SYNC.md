@@ -12,7 +12,9 @@
 
 `data/`、`artifacts/`、`third_party/` 的完整科研文件以 ZIP 分卷保存至本仓库 Release：`research-snapshot-g35-20261113`。初次同步期间 Release 可能仍为草稿，以远端正式 Release 和最终同步记录为完成依据。
 
-每卷不超过 2 GiB；研究文件清单记录每个原文件的相对路径、字节数、SHA256 及所在卷，另附各卷的 SHA256SUMS。各 ZIP 都是独立有效的压缩包，不必拼接二进制卷。恢复时先将对应Git提交克隆到一个新目录，再依次将全部ZIP解压到这个新克隆的根目录，保持 `data/`、`artifacts/`、`third_party/` 相对路径；不要解压覆盖已有研究工作区。重叠的可读文件应与对应提交字节相同，可按清单核验。
+归档共有29个独立ZIP。为避免大请求长连接中断，已上传的完整ZIP保留，剩余ZIP采用256MiB传输分片。`release-transport-manifest.json`记录各ZIP对应的完整资产或有序分片，分别附SHA256；`research-file-manifest.json`记录每个原文件的路径、大小、SHA256及所在ZIP，`SHA256SUMS.txt`用于拼接后的29个原ZIP校验。
+
+恢复流程：先将对应Git提交克隆到新目录；下载Release的全部附件到另一个备份目录，运行`python scripts/release_transport.py --restore 备份目录`。工具核验分片并无损拼接出29个ZIP，拒绝覆盖或接受不符哈希的已有文件。随后将全部ZIP解压到新克隆的项目根目录，保持`data/`、`artifacts/`、`third_party/`相对路径。不要解压覆盖已有研究工作区；与Git重叠的可读文件应保持相同字节。
 
 本次归档使用已有原生Python标准库（只读现有科研文件），上传使用`scripts/github_release_parallel.py`的三个有界流式连接；已完成资产按GitHub提供的SHA256校验复用。身份验证只在内存中读取Git凭据，不写入脚本、命令行或仓库。未完成的本次草稿上传临时资产可重传，绝不替换已完成或历史Release资产。
 

@@ -46,9 +46,13 @@ def main(check_only=False):
             api(API+'/releases/assets/'+str(a['id']),method='DELETE')
             removed.append({'id':a['id'],'name':a['name'],'state':a['state']})
         else:raise RuntimeError('Unexpected asset state; no replacement: '+a['name'])
+    from release_transport import prepare
+    transport,payloads=prepare(CACHE,verified)
+    payload_hashes={p.name:h for p,h in payloads}
     state={'status':'uploading','repository':'chenciquan/multichannel-speech-enhancement','private':True,
            'release_id':release['id'],'tag':release['tag_name'],'workers':3,'assets':[],
-           'resumed_completed_assets':len(verified),'removed_unfinished_draft_assets':removed}
+           'resumed_completed_assets':len(verified),'removed_unfinished_draft_assets':removed,
+           'transport_version':2,'source_zip_count':29,'transport_asset_count':len(payloads)}
     started=time.monotonic();completed={};inflight={};checksums={}
     upload_base=release['upload_url'].split('{')[0]
     def upload(p,expected):
@@ -96,12 +100,10 @@ def main(check_only=False):
     try:
         with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
             while True:
-                progress=json.loads((CACHE/'progress.json').read_text())
-                parts=sorted(CACHE.glob('research-part-*.zip'))[:progress['completed_parts']]
-                for p in parts:
+                for p,expected in payloads:
                     if len(inflight)>=3:break
                     if p.name not in completed and p.name not in {v[0].name for v in inflight.values()}:
-                        expected=checksums.setdefault(p.name,sha(p))
+                        assert p.stat().st_size>0
                         inflight[pool.submit(upload,p,expected)]=(p,expected)
                 if inflight:
                     ready,_=concurrent.futures.wait(inflight,timeout=2,return_when=concurrent.futures.FIRST_COMPLETED)
@@ -110,15 +112,22 @@ def main(check_only=False):
                         print('Verified '+p.name,flush=True)
                 else:time.sleep(2)
                 status()
-                complete=CACHE/'archive_complete.json'
-                if complete.exists() and not inflight and len(completed)==json.loads(complete.read_text())['parts']:break
-        for name in ['research-file-manifest.json','SHA256SUMS.txt']:
+                if not inflight and len(completed)==len(payloads):break
+        for name in ['research-file-manifest.json','SHA256SUMS.txt','release-transport-manifest.json']:
             p=CACHE/name;completed[name]=upload(p,sha(p));status();print('Verified '+name,flush=True)
         remote={a['name']:a for a in api(API+'/releases/'+str(release['id'])+'/assets?per_page=100')}
         for a in completed.values():
             r=remote[a['name']]
             assert r['state']=='uploaded' and r['size']==a['bytes'] and r['digest']=='sha256:'+a['sha256']
-        published=api(API+'/releases/'+str(release['id']),method='PATCH',body={'draft':False})
+        notes=('Complete research snapshot: 106409 files in data/, artifacts/, third_party/. '
+            'Code, reports, readable evidence and curves are also directly in the private repository. '
+            'Existing completed ZIP assets are retained; remaining ZIPs use 256-MiB transport chunks. '
+            'Download all assets, then run `python scripts/release_transport.py --restore DOWNLOADED_FOLDER` '
+            'to reconstruct the 29 original ZIPs. The transport manifest verifies each chunk and each ZIP. '
+            'The original research-file manifest verifies every archived file. '
+            'Extract only into a new project clone, never overwrite an existing research workspace. '
+            'Environment and caches excluded. No LFS, training or inference used for this backup.')
+        published=api(API+'/releases/'+str(release['id']),method='PATCH',body={'draft':False,'body':notes})
         state['status']='complete';state['release_url']=published['html_url'];status()
         print('Release complete: '+published['html_url'],flush=True)
     except BaseException as e:
