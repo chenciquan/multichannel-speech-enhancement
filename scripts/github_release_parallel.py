@@ -1,4 +1,4 @@
-"""Three streaming uploads; resumes verified assets, never stores credentials."""
+"""Bounded streaming uploads; resumes verified assets, never stores credentials."""
 import argparse,concurrent.futures,hashlib,json,subprocess,threading,time,urllib.request,urllib.error,ssl
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];CACHE=ROOT/'.cache/github_upload_20261113'
@@ -13,7 +13,8 @@ def sha(p):
 def atomic(p,v):
     tmp=p.with_suffix('.json.tmp');tmp.write_text(json.dumps(v,ensure_ascii=False,indent=2),encoding='utf-8');tmp.replace(p)
 
-def main(check_only=False):
+def main(check_only=False,workers=3):
+    assert 1<=workers<=6
     env=__import__('os').environ.copy();env.update(GIT_TERMINAL_PROMPT='0',GCM_INTERACTIVE='Never')
     raw=subprocess.check_output(['git','credential','fill'],input=b'protocol=https\nhost=github.com\n\n',env=env,cwd=ROOT)
     credential=dict(line.split('=',1) for line in raw.decode().splitlines() if '=' in line)
@@ -50,7 +51,7 @@ def main(check_only=False):
     transport,payloads=prepare(CACHE,verified)
     payload_hashes={p.name:h for p,h in payloads}
     state={'status':'uploading','repository':'chenciquan/multichannel-speech-enhancement','private':True,
-           'release_id':release['id'],'tag':release['tag_name'],'workers':3,'assets':[],
+           'release_id':release['id'],'tag':release['tag_name'],'workers':workers,'assets':[],
            'resumed_completed_assets':len(verified),'removed_unfinished_draft_assets':removed,
            'transport_version':2,'source_zip_count':29,'transport_asset_count':len(payloads)}
     started=time.monotonic();completed={};inflight={};checksums={}
@@ -98,10 +99,10 @@ def main(check_only=False):
         atomic(CACHE/'upload_state.json',state)
     status()
     try:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
             while True:
                 for p,expected in payloads:
-                    if len(inflight)>=3:break
+                    if len(inflight)>=workers:break
                     if p.name not in completed and p.name not in {v[0].name for v in inflight.values()}:
                         assert p.stat().st_size>0
                         inflight[pool.submit(upload,p,expected)]=(p,expected)
@@ -134,5 +135,6 @@ def main(check_only=False):
         state['status']='failed';state['error']=type(e).__name__+': '+str(e);status();raise
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--check-only',action='store_true');args=parser.parse_args()
-    main(args.check_only)
+    parser=argparse.ArgumentParser();parser.add_argument('--check-only',action='store_true')
+    parser.add_argument('--workers',type=int,choices=range(1,7),default=3);args=parser.parse_args()
+    main(args.check_only,args.workers)
