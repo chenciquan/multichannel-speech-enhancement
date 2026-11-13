@@ -136,7 +136,10 @@ def main(check_only=False,workers=3):
             'The original research-file manifest verifies every archived file. '
             'Extract only into a new project clone, never overwrite an existing research workspace. '
             'Environment and caches excluded. No LFS, training or inference used for this backup.')
-        published=api(API+'/releases/'+str(release['id']),method='PATCH',body={'draft':False,'body':notes})
+        published=api(API+'/releases/'+str(release['id']),method='PATCH',body={
+            'draft':False,'prerelease':False,'body':notes,'tag_name':state['tag'],
+            'target_commitish':release['target_commitish']})
+        assert published['tag_name']==state['tag'] and published['draft'] is False
         state['status']='complete';state['release_url']=published['html_url'];status()
         print('Release complete: '+published['html_url'],flush=True)
     except BaseException as e:
