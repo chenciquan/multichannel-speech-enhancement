@@ -5,7 +5,8 @@
 __pycache__/
 *.py[cod]
 
-# Original upstream checkout, weights, audio and generated results stay local.
+# Large research trees are ignored by default; selected readable evidence is tracked explicitly.
+# Full scientific files, including upstream checkout and weights, are preserved in a private Release.
 third_party/
 data/
 artifacts/

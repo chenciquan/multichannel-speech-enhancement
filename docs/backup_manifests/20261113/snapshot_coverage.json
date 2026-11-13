@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "current_project_files": 107020,
+  "git_tracked_files": 3879,
+  "archived_research_files": 106409,
+  "uncovered_files": [],
+  "excluded_root_directories": [
+    ".cache",
+    ".git",
+    ".tools",
+    ".venv"
+  ],
+  "excluded_bytecode": true
+}

@@ -6,17 +6,17 @@
 
 先读根 `AGENTS.md` 与 `docs/CODEX_PROJECT_MEMORY.md`，再按需读 `docs/G35_准入及19角信号扫描交付报告.md`、相关阶段报告及 `artifacts` 中的可读记录。仓库访问仍需已连接的 GitHub 账号具有该私有仓库权限；不会因为上传而自动读入全部文件。
 
-代码、配置、全部历史中文报告、研究清单/JSON/JSONL/日志、CSV、图表及本地适配权重直接入库，便于按路径核查。既有远端初始提交保留，本地旧 README 与项目记忆规则留在 `docs/history_before_github_20261113/`，不伪造逐阶段历史提交。
+代码、配置、全部历史中文报告、研究清单/JSON/JSONL/日志、CSV、图表及本地适配权重直接入库，便于按路径核查。官方McNet源码和其内部Git记录完整保存在Release；网页核对可使用[固定上游源码](https://github.com/Audio-WestlakeU/McNet/tree/9c194032659a3047a4b4c244a9f541f4d34b1682)，来源见`configs/baseline_provenance.json`。既有远端初始提交保留，本地旧 README 与项目记忆规则留在 `docs/history_before_github_20261113/`，不伪造逐阶段历史提交。
 
 ## 完整科研文件备份
 
-`data/`、`artifacts/`、`third_party/` 的完整科研文件以 ZIP 分卷保存至本仓库 Release：`research-snapshot-g35-20261113`。初次同步期间 Release 可能仍为草稿，以远端正式 Release 和最终同步记录为完成依据。
+`data/`、`artifacts/`、`third_party/` 的完整科研文件以 ZIP 分卷保存至本仓库 Release：`research-snapshot-g35-20261113`。首次完整同步已完成，90个远端附件的状态、字节数及SHA256均已核验。见[正式Release](https://github.com/chenciquan/multichannel-speech-enhancement/releases/tag/research-snapshot-g35-20261113)及[本次同步记录](GITHUB_UPLOAD_20261113.md)。
 
 归档共有29个独立ZIP。为避免大请求长连接中断，已上传的完整ZIP保留，剩余ZIP采用256MiB传输分片。`release-transport-manifest.json`记录各ZIP对应的完整资产或有序分片，分别附SHA256；`research-file-manifest.json`记录每个原文件的路径、大小、SHA256及所在ZIP，`SHA256SUMS.txt`用于拼接后的29个原ZIP校验。
 
 恢复流程：先将对应Git提交克隆到新目录；下载Release的全部附件到另一个备份目录，运行`python scripts/release_transport.py --restore 备份目录`。工具核验分片并无损拼接出29个ZIP，拒绝覆盖或接受不符哈希的已有文件。随后将全部ZIP解压到新克隆的项目根目录，保持`data/`、`artifacts/`、`third_party/`相对路径。不要解压覆盖已有研究工作区；与Git重叠的可读文件应保持相同字节。
 
-本次归档使用已有原生Python标准库（只读现有科研文件），上传使用`scripts/github_release_parallel.py`的有界流式连接（初始3路，后调整为6路）；已完成资产按GitHub提供的SHA256校验复用。身份验证只在内存中读取Git凭据，不写入脚本、命令行或仓库。未完成的本次草稿上传临时资产可重传，绝不替换已完成或历史Release资产。
+本次归档使用已有原生Python标准库（只读现有科研文件），上传使用`scripts/github_release_parallel.py`的有界流式连接（试用过3/6路并发，最终使用3路直连完成；不改系统代理设置）；已完成资产按GitHub提供的SHA256校验复用。身份验证只在内存中读取Git凭据，不写入脚本、命令行或仓库。未完成的本次草稿上传临时资产可重传，绝不替换已完成或历史Release资产。
 
 `.venv/`、工具缓存、下载缓存、Python字节码和根Git内部文件不是科研备份对象，不上传；依赖锁定、环境报告、官方来源/提交记录保留。官方 McNet 子仓库及权重属于私有科研备份，不据此推定公开再分发授权。没有启用 Git LFS 或付费存储。
 

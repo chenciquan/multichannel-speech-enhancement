@@ -1,0 +1,646 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-13T12:10:53.675758+00:00",
+  "repository": "chenciquan/multichannel-speech-enhancement",
+  "private": true,
+  "local_and_remote_commit": "41e33690e5edde15bda88a799f2ce6a223bcabf5",
+  "release_tag_commit": "766265669f348b9bb5efed11be96a702b026837b",
+  "restoration_tool_exists_in_tag": true,
+  "release_url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/tag/research-snapshot-g35-20261113",
+  "draft": false,
+  "release_asset_count": 90,
+  "research_payload_bytes": 25862710012,
+  "assets_bytes_with_manifests": 25894241516,
+  "assets": [
+    {
+      "name": "release-transport-manifest.json",
+      "bytes": 33921,
+      "sha256": "e84a1b68a48bf34140882611882de8ebd1992c5649c2c0f7f74424fd1e0040ac",
+      "provider_digest": "sha256:e84a1b68a48bf34140882611882de8ebd1992c5649c2c0f7f74424fd1e0040ac",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/release-transport-manifest.json"
+    },
+    {
+      "name": "research-file-manifest.json",
+      "bytes": 31494799,
+      "sha256": "105a0a2c20b8748e9e1b33e2382bfb9bf0357fd70af7c922aab436f20b641ef8",
+      "provider_digest": "sha256:105a0a2c20b8748e9e1b33e2382bfb9bf0357fd70af7c922aab436f20b641ef8",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-file-manifest.json"
+    },
+    {
+      "name": "research-part-001-of-029.zip",
+      "bytes": 987097130,
+      "sha256": "72698aee1c3b21652f67dc1c7e2ef444cc4113c28dc45b42995dcf9319ba2794",
+      "provider_digest": "sha256:72698aee1c3b21652f67dc1c7e2ef444cc4113c28dc45b42995dcf9319ba2794",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-001-of-029.zip"
+    },
+    {
+      "name": "research-part-002-of-029.zip",
+      "bytes": 454434096,
+      "sha256": "514b09f0fb50749d73abd03209239ce27953eee655cf9c13750aea5ae3b21cc0",
+      "provider_digest": "sha256:514b09f0fb50749d73abd03209239ce27953eee655cf9c13750aea5ae3b21cc0",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-002-of-029.zip"
+    },
+    {
+      "name": "research-part-003-of-029.zip",
+      "bytes": 952432656,
+      "sha256": "d5434e9eb3b8c6a7d92739b5c8b442de981151618fa9184ccbbb990fd660663e",
+      "provider_digest": "sha256:d5434e9eb3b8c6a7d92739b5c8b442de981151618fa9184ccbbb990fd660663e",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-003-of-029.zip"
+    },
+    {
+      "name": "research-part-004-of-029.zip",
+      "bytes": 971499904,
+      "sha256": "f22de017171104ae18ddea41663b5d241c8dd301a0eaf28e4785552b92744130",
+      "provider_digest": "sha256:f22de017171104ae18ddea41663b5d241c8dd301a0eaf28e4785552b92744130",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-004-of-029.zip"
+    },
+    {
+      "name": "research-part-005-of-029.zip",
+      "bytes": 940465316,
+      "sha256": "151ef20fecf09e21359e6a14059254f9ba232b29c24cceac18ba6041246a87bd",
+      "provider_digest": "sha256:151ef20fecf09e21359e6a14059254f9ba232b29c24cceac18ba6041246a87bd",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-005-of-029.zip"
+    },
+    {
+      "name": "research-part-006-of-029.zip",
+      "bytes": 627884063,
+      "sha256": "2f9912093d8b24f9c18effa40c142fdf1535ad695a117bc44da37335d758a3d5",
+      "provider_digest": "sha256:2f9912093d8b24f9c18effa40c142fdf1535ad695a117bc44da37335d758a3d5",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-006-of-029.zip"
+    },
+    {
+      "name": "research-part-007-of-029.zip",
+      "bytes": 958617807,
+      "sha256": "75a5da067753751fb2e0148890bce60135b139ee045ba612ee1c68f90ff32a08",
+      "provider_digest": "sha256:75a5da067753751fb2e0148890bce60135b139ee045ba612ee1c68f90ff32a08",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-007-of-029.zip"
+    },
+    {
+      "name": "research-part-008-of-029.zip",
+      "bytes": 918670209,
+      "sha256": "22ca0c36a4309726ce44340b237b4c5be361e2af8a5fe30f40ec354377e09a34",
+      "provider_digest": "sha256:22ca0c36a4309726ce44340b237b4c5be361e2af8a5fe30f40ec354377e09a34",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-008-of-029.zip"
+    },
+    {
+      "name": "research-part-009-of-029.zip",
+      "bytes": 859927249,
+      "sha256": "093a8150690c5b093e73ef64d05a7a7101fe704bb08be66e021cfd6181fa19e5",
+      "provider_digest": "sha256:093a8150690c5b093e73ef64d05a7a7101fe704bb08be66e021cfd6181fa19e5",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-009-of-029.zip"
+    },
+    {
+      "name": "research-part-010-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "906cb3ffaba3888b20e2e574c7360226fbc3c41f945d18366c51fa8fd496ec42",
+      "provider_digest": "sha256:906cb3ffaba3888b20e2e574c7360226fbc3c41f945d18366c51fa8fd496ec42",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-010-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-010-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "abc892d2ef3e4dedcdb1bd720cd1f28773129a8f373478622898a933b8c18487",
+      "provider_digest": "sha256:abc892d2ef3e4dedcdb1bd720cd1f28773129a8f373478622898a933b8c18487",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-010-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-010-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "52c8806b30860b3bd202bfcaba4ce581f9ab20c3367b3ef9eb597ac0a29c3879",
+      "provider_digest": "sha256:52c8806b30860b3bd202bfcaba4ce581f9ab20c3367b3ef9eb597ac0a29c3879",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-010-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-010-of-029.zip.chunk-004-of-004",
+      "bytes": 142926954,
+      "sha256": "ae12cf448c5025c0b9373fe6e53a8caf5c42c1dc83f1a5b7af34339a55252408",
+      "provider_digest": "sha256:ae12cf448c5025c0b9373fe6e53a8caf5c42c1dc83f1a5b7af34339a55252408",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-010-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-011-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "b7bb3bff63875cb70866b5eb4277cb0a4394a4ff670d0ae76819ad60ab55e389",
+      "provider_digest": "sha256:b7bb3bff63875cb70866b5eb4277cb0a4394a4ff670d0ae76819ad60ab55e389",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-011-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-011-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "0237150d5228d7d925d039dea14345d8de31bc62f277122c7c9fc7e2cf48047d",
+      "provider_digest": "sha256:0237150d5228d7d925d039dea14345d8de31bc62f277122c7c9fc7e2cf48047d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-011-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-011-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "7b699debf2ee2bf6b637f1756fdb68b8adf563aef035352759c5646300ddc369",
+      "provider_digest": "sha256:7b699debf2ee2bf6b637f1756fdb68b8adf563aef035352759c5646300ddc369",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-011-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-011-of-029.zip.chunk-004-of-004",
+      "bytes": 40005242,
+      "sha256": "c278926f8112dbcb5b3ec1f71adfd818825c430e19f6eee67e6241453efeb764",
+      "provider_digest": "sha256:c278926f8112dbcb5b3ec1f71adfd818825c430e19f6eee67e6241453efeb764",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-011-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-012-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "559e8d63ab495aa3b4011f2bdbb2bdc06d38914f5cc8ccef4a6acc60512949df",
+      "provider_digest": "sha256:559e8d63ab495aa3b4011f2bdbb2bdc06d38914f5cc8ccef4a6acc60512949df",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-012-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-012-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "2a3b63371229341219d8e0cf9fdac3b3e70af1433d62ed7dc371e8971cd3cb6d",
+      "provider_digest": "sha256:2a3b63371229341219d8e0cf9fdac3b3e70af1433d62ed7dc371e8971cd3cb6d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-012-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-012-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "1c4c4a10e6cbef0f2226bc8b13f1fa9850072d9e5ca1d83fa937e7251c2b620a",
+      "provider_digest": "sha256:1c4c4a10e6cbef0f2226bc8b13f1fa9850072d9e5ca1d83fa937e7251c2b620a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-012-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-012-of-029.zip.chunk-004-of-004",
+      "bytes": 105588702,
+      "sha256": "0230a83bde61337216a3e89d1b6b2328f82543434c6b09315c3f898f1d20f2d8",
+      "provider_digest": "sha256:0230a83bde61337216a3e89d1b6b2328f82543434c6b09315c3f898f1d20f2d8",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-012-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-013-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "9c0a5e7ed1d7baf78961e2cedd0c2052a87e9385886e51a96cb9a0acebe2dbc1",
+      "provider_digest": "sha256:9c0a5e7ed1d7baf78961e2cedd0c2052a87e9385886e51a96cb9a0acebe2dbc1",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-013-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-013-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "252e1a7fc95ac2c5d6addfd35b3d74bfd64b7b3d59297f66b316f90ffe4855ee",
+      "provider_digest": "sha256:252e1a7fc95ac2c5d6addfd35b3d74bfd64b7b3d59297f66b316f90ffe4855ee",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-013-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-013-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "c4dcfef7a5b45374da52a6128ae6f96a504e615204a62de7a10c4373b44e357a",
+      "provider_digest": "sha256:c4dcfef7a5b45374da52a6128ae6f96a504e615204a62de7a10c4373b44e357a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-013-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-013-of-029.zip.chunk-004-of-004",
+      "bytes": 135758785,
+      "sha256": "8a92a58f88b0d2554bf59f7727d12ea08911151251d142657c450fd3db5e20db",
+      "provider_digest": "sha256:8a92a58f88b0d2554bf59f7727d12ea08911151251d142657c450fd3db5e20db",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-013-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-014-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "c4195f0bcdcfc176cca38183284b7606b8211394645e3ff558882449d57a1b87",
+      "provider_digest": "sha256:c4195f0bcdcfc176cca38183284b7606b8211394645e3ff558882449d57a1b87",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-014-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-014-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "fe8566efa2e40a0d5e4d3e10d2a21ed0402e7a9bc6f588cd181138672b8eb1cb",
+      "provider_digest": "sha256:fe8566efa2e40a0d5e4d3e10d2a21ed0402e7a9bc6f588cd181138672b8eb1cb",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-014-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-014-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "dcec0af785368d3a0227bd9a8da64ce65a0686390bc78bd7444d034b09376675",
+      "provider_digest": "sha256:dcec0af785368d3a0227bd9a8da64ce65a0686390bc78bd7444d034b09376675",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-014-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-014-of-029.zip.chunk-004-of-004",
+      "bytes": 106097431,
+      "sha256": "59ec5668caa898c4c0bae29aa6c8b86aee64990ae276be9471b826ff07119b75",
+      "provider_digest": "sha256:59ec5668caa898c4c0bae29aa6c8b86aee64990ae276be9471b826ff07119b75",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-014-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-015-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "1d84d42a6239937b231a52b441e4deba0b3a261026a3cd66be7c682be0002318",
+      "provider_digest": "sha256:1d84d42a6239937b231a52b441e4deba0b3a261026a3cd66be7c682be0002318",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-015-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-015-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "7e25307c5c07436c9d1eb392bb1d47b6047277ffb86fe7e56155232412f157d0",
+      "provider_digest": "sha256:7e25307c5c07436c9d1eb392bb1d47b6047277ffb86fe7e56155232412f157d0",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-015-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-015-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "24a045e5ca449246f4199aacccd0c6f6a3751ec5348fbb8b35c14c69f95bc896",
+      "provider_digest": "sha256:24a045e5ca449246f4199aacccd0c6f6a3751ec5348fbb8b35c14c69f95bc896",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-015-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-015-of-029.zip.chunk-004-of-004",
+      "bytes": 70080953,
+      "sha256": "4749cc4165dd5a7e05405e52efbc37e77c4aac0aca8238930afb97b2cfa9d1d4",
+      "provider_digest": "sha256:4749cc4165dd5a7e05405e52efbc37e77c4aac0aca8238930afb97b2cfa9d1d4",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-015-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-016-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "5e87b07d672a93b4b70c1b6aaf068fe9c0da7d12c4d459b372d7f4a4ff40d6a0",
+      "provider_digest": "sha256:5e87b07d672a93b4b70c1b6aaf068fe9c0da7d12c4d459b372d7f4a4ff40d6a0",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-016-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-016-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "3b0264378987564f9f887415166bf3da9b88da004515832e7fa26144653e6354",
+      "provider_digest": "sha256:3b0264378987564f9f887415166bf3da9b88da004515832e7fa26144653e6354",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-016-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-016-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "5a9421d837f44bdd88c8023664c8e08565d0ad4cc6e501f89346a7f6db194c50",
+      "provider_digest": "sha256:5a9421d837f44bdd88c8023664c8e08565d0ad4cc6e501f89346a7f6db194c50",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-016-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-016-of-029.zip.chunk-004-of-004",
+      "bytes": 178874413,
+      "sha256": "0503fad414caef74f3eea335947a73bfb74311adef2893b0d80bfa90c73814da",
+      "provider_digest": "sha256:0503fad414caef74f3eea335947a73bfb74311adef2893b0d80bfa90c73814da",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-016-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-017-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "54b8c438d88a7d1e1710c7653e0afadd54148bcc5ee056980c25e1d40e4dfdf4",
+      "provider_digest": "sha256:54b8c438d88a7d1e1710c7653e0afadd54148bcc5ee056980c25e1d40e4dfdf4",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-017-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-017-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "ae92aa7d6af7de91faf66b293eaa78c0f109cab858e028c8c50d5f1420f73256",
+      "provider_digest": "sha256:ae92aa7d6af7de91faf66b293eaa78c0f109cab858e028c8c50d5f1420f73256",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-017-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-017-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "1a5f313c5077bafc1c70b3f08191a10a16bc4638482ed96264978665c02126c5",
+      "provider_digest": "sha256:1a5f313c5077bafc1c70b3f08191a10a16bc4638482ed96264978665c02126c5",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-017-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-017-of-029.zip.chunk-004-of-004",
+      "bytes": 93194211,
+      "sha256": "433a624b9656e4d66720cf46c6bc8b55b99d4143d8013749f92878d507bbae0c",
+      "provider_digest": "sha256:433a624b9656e4d66720cf46c6bc8b55b99d4143d8013749f92878d507bbae0c",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-017-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-018-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "ddf4acd196f4dec4a2e81c9f008907dea061a9d8b0eaa89504a7b88007e7a25d",
+      "provider_digest": "sha256:ddf4acd196f4dec4a2e81c9f008907dea061a9d8b0eaa89504a7b88007e7a25d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-018-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-018-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "cee6d92e79932961d61709b3077d5e7ccc8f1418ab74ff189e3ecef8fd6dd80a",
+      "provider_digest": "sha256:cee6d92e79932961d61709b3077d5e7ccc8f1418ab74ff189e3ecef8fd6dd80a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-018-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-018-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "8052ad20b03ac2ee6417309800adb757bd6c940de0c7f2c877ffc83a7ba69017",
+      "provider_digest": "sha256:8052ad20b03ac2ee6417309800adb757bd6c940de0c7f2c877ffc83a7ba69017",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-018-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-018-of-029.zip.chunk-004-of-004",
+      "bytes": 168121567,
+      "sha256": "4eea6492a85c3f1274c06576f2d2fb1a59378d10564407e0c4b6e81d948141fc",
+      "provider_digest": "sha256:4eea6492a85c3f1274c06576f2d2fb1a59378d10564407e0c4b6e81d948141fc",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-018-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-019-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "1bb12dbd64bf2b502b1d1790d9618ae55ebcb93459c67ce8f070fb69f9b1aa7a",
+      "provider_digest": "sha256:1bb12dbd64bf2b502b1d1790d9618ae55ebcb93459c67ce8f070fb69f9b1aa7a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-019-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-019-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "24eeb22133a5fc51ab2cc9071e6e7addfc37f8f9aa8923a3cb9c788984744a8d",
+      "provider_digest": "sha256:24eeb22133a5fc51ab2cc9071e6e7addfc37f8f9aa8923a3cb9c788984744a8d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-019-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-019-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "3205563dac5bc5808e9a32b37162cea545fe98a5344a2f6825f99724d2c8b91a",
+      "provider_digest": "sha256:3205563dac5bc5808e9a32b37162cea545fe98a5344a2f6825f99724d2c8b91a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-019-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-019-of-029.zip.chunk-004-of-004",
+      "bytes": 72774755,
+      "sha256": "009362c99a251f9b517339ebbf949aa0d210babe0ea89dc5e79750a2745b138e",
+      "provider_digest": "sha256:009362c99a251f9b517339ebbf949aa0d210babe0ea89dc5e79750a2745b138e",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-019-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-020-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "02c4c3f5c398bc8b2ba0a73d11832a54fbe596dd5a3d4d4448c4169bed186371",
+      "provider_digest": "sha256:02c4c3f5c398bc8b2ba0a73d11832a54fbe596dd5a3d4d4448c4169bed186371",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-020-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-020-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "5e6e947ee67163ffe7c178728125eac08a7b906313ecbf64d91931275402bb01",
+      "provider_digest": "sha256:5e6e947ee67163ffe7c178728125eac08a7b906313ecbf64d91931275402bb01",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-020-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-020-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "95131f0a7ccd8cc951e39d123c96a1cd06244d006631f8ecd691e790312e5c52",
+      "provider_digest": "sha256:95131f0a7ccd8cc951e39d123c96a1cd06244d006631f8ecd691e790312e5c52",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-020-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-020-of-029.zip.chunk-004-of-004",
+      "bytes": 187387745,
+      "sha256": "1a805d6e06982d29fb719c01e8b441bfef199808f2132e9d87634e17cb44a4c6",
+      "provider_digest": "sha256:1a805d6e06982d29fb719c01e8b441bfef199808f2132e9d87634e17cb44a4c6",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-020-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-021-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "64566a696dc212582231357ec941db2ddbafc0fdd31d9d8d82d22522bab144b1",
+      "provider_digest": "sha256:64566a696dc212582231357ec941db2ddbafc0fdd31d9d8d82d22522bab144b1",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-021-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-021-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "8fa7e100d6d229244cef96b4dfaa0631d5ddcf393a8098f41b68a63aea85d1e8",
+      "provider_digest": "sha256:8fa7e100d6d229244cef96b4dfaa0631d5ddcf393a8098f41b68a63aea85d1e8",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-021-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-021-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "46ea65f574567f714f65078873c7061b17b428220c59945abeee1d0ba70f4f0b",
+      "provider_digest": "sha256:46ea65f574567f714f65078873c7061b17b428220c59945abeee1d0ba70f4f0b",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-021-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-021-of-029.zip.chunk-004-of-004",
+      "bytes": 180442991,
+      "sha256": "4a7e0fca88b9d5d19380006edfdfacbe438bfd1a4c02a3d5677d0885ef3b604c",
+      "provider_digest": "sha256:4a7e0fca88b9d5d19380006edfdfacbe438bfd1a4c02a3d5677d0885ef3b604c",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-021-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-022-of-029.zip.chunk-001-of-003",
+      "bytes": 268435456,
+      "sha256": "cba89719135504bbbceb5a8751767d777c3c8fa9ef16a4d81ca7dbb78715c383",
+      "provider_digest": "sha256:cba89719135504bbbceb5a8751767d777c3c8fa9ef16a4d81ca7dbb78715c383",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-022-of-029.zip.chunk-001-of-003"
+    },
+    {
+      "name": "research-part-022-of-029.zip.chunk-002-of-003",
+      "bytes": 268435456,
+      "sha256": "46e65e493a11b9f11c93af5eebf1edeabe5b1522c117d8bc313996ced6636fca",
+      "provider_digest": "sha256:46e65e493a11b9f11c93af5eebf1edeabe5b1522c117d8bc313996ced6636fca",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-022-of-029.zip.chunk-002-of-003"
+    },
+    {
+      "name": "research-part-022-of-029.zip.chunk-003-of-003",
+      "bytes": 182079614,
+      "sha256": "8109f3c0a2b12482328973f435b8678be4902b1599e2215d7aa983674e870927",
+      "provider_digest": "sha256:8109f3c0a2b12482328973f435b8678be4902b1599e2215d7aa983674e870927",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-022-of-029.zip.chunk-003-of-003"
+    },
+    {
+      "name": "research-part-023-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "de5f0785920239c38a004657a947d36c7bfe54ecc882beff6137ea47c9392f23",
+      "provider_digest": "sha256:de5f0785920239c38a004657a947d36c7bfe54ecc882beff6137ea47c9392f23",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-023-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-023-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "b55d8de1e2a654fd0020deb6a80ee58bca6be105e3b4ccef7cfa32d2445ca527",
+      "provider_digest": "sha256:b55d8de1e2a654fd0020deb6a80ee58bca6be105e3b4ccef7cfa32d2445ca527",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-023-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-023-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "cd90940dd1e23add1b0fc717f6073e9806d9e9fa41219bef25407592e74cfe7b",
+      "provider_digest": "sha256:cd90940dd1e23add1b0fc717f6073e9806d9e9fa41219bef25407592e74cfe7b",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-023-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-023-of-029.zip.chunk-004-of-004",
+      "bytes": 104315116,
+      "sha256": "aaf1f1b3b2603643af170a868d651aca60f41c0dae4fe3125a8ac55cccf9de11",
+      "provider_digest": "sha256:aaf1f1b3b2603643af170a868d651aca60f41c0dae4fe3125a8ac55cccf9de11",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-023-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-024-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "e4bffaf4fe6d6bde506ee917a95513015ef899959b7ca4a11e97f40c6a42eb64",
+      "provider_digest": "sha256:e4bffaf4fe6d6bde506ee917a95513015ef899959b7ca4a11e97f40c6a42eb64",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-024-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-024-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "758df3fa35ea707b469bf3c18ea5ecc962eb27dc17690c926f45c0aa1c7430d8",
+      "provider_digest": "sha256:758df3fa35ea707b469bf3c18ea5ecc962eb27dc17690c926f45c0aa1c7430d8",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-024-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-024-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "fac765c428594674aa4584b0865b447d12d6cc9a1ddd5df1ef5f50ac03eef24a",
+      "provider_digest": "sha256:fac765c428594674aa4584b0865b447d12d6cc9a1ddd5df1ef5f50ac03eef24a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-024-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-024-of-029.zip.chunk-004-of-004",
+      "bytes": 199948928,
+      "sha256": "608374c19e52fe354fd057054b35e7e0a1675f1582d7531b0fd99f2240121802",
+      "provider_digest": "sha256:608374c19e52fe354fd057054b35e7e0a1675f1582d7531b0fd99f2240121802",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-024-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-025-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "c3638cb869316c782baab8fd277d2aa31120822a8b7432711c21bbb97fa05fb3",
+      "provider_digest": "sha256:c3638cb869316c782baab8fd277d2aa31120822a8b7432711c21bbb97fa05fb3",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-025-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-025-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "f97216d13ae024f95a430410780f036ae81cb10c148f6733d656d7ad264712d0",
+      "provider_digest": "sha256:f97216d13ae024f95a430410780f036ae81cb10c148f6733d656d7ad264712d0",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-025-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-025-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "f08268320dec15c3eca6fe9c43e2abd0a369bf09f086da07c5ff6a019ab8a5dc",
+      "provider_digest": "sha256:f08268320dec15c3eca6fe9c43e2abd0a369bf09f086da07c5ff6a019ab8a5dc",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-025-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-025-of-029.zip.chunk-004-of-004",
+      "bytes": 145577867,
+      "sha256": "0bf7f2cd58da6af6b1896151ecd32c96f12a2db9a41b03b60023eba3a13512af",
+      "provider_digest": "sha256:0bf7f2cd58da6af6b1896151ecd32c96f12a2db9a41b03b60023eba3a13512af",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-025-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-026-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "6dcb8e5372f114acbc249d26bbaefdce1d92d7b068da7c96acd731d18e67c4ee",
+      "provider_digest": "sha256:6dcb8e5372f114acbc249d26bbaefdce1d92d7b068da7c96acd731d18e67c4ee",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-026-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-026-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "7d5d94a73381e8ce8beb5345f595854131eb9bc886cb691faa18a17964b0ba59",
+      "provider_digest": "sha256:7d5d94a73381e8ce8beb5345f595854131eb9bc886cb691faa18a17964b0ba59",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-026-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-026-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "e2849b596b791e614ff9351d3a4aef859f3f4325fb4187745596f7c75af723ef",
+      "provider_digest": "sha256:e2849b596b791e614ff9351d3a4aef859f3f4325fb4187745596f7c75af723ef",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-026-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-026-of-029.zip.chunk-004-of-004",
+      "bytes": 159853522,
+      "sha256": "ba2675623e2ec43c77c142a2c040eaaff7267b8ecc0686fb950e5b527f440513",
+      "provider_digest": "sha256:ba2675623e2ec43c77c142a2c040eaaff7267b8ecc0686fb950e5b527f440513",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-026-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-027-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "0d67bdcf01c4dd3e7fbffa2603da84b9267fc2fc05576590d7d4249a1e99e78a",
+      "provider_digest": "sha256:0d67bdcf01c4dd3e7fbffa2603da84b9267fc2fc05576590d7d4249a1e99e78a",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-027-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-027-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "d224e0f802c72d4071bd92c853bec00d71dae9e4437cf2b99f669078945c062c",
+      "provider_digest": "sha256:d224e0f802c72d4071bd92c853bec00d71dae9e4437cf2b99f669078945c062c",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-027-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-027-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "03d9c90c7aad03fae835efc7ff59f1029cefbf366d1e2157711034774e0a12f0",
+      "provider_digest": "sha256:03d9c90c7aad03fae835efc7ff59f1029cefbf366d1e2157711034774e0a12f0",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-027-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-027-of-029.zip.chunk-004-of-004",
+      "bytes": 150490879,
+      "sha256": "96e1ccbb60c8b421867547c360b88ace437633fd0a74769ffdb0cbabd420dbd8",
+      "provider_digest": "sha256:96e1ccbb60c8b421867547c360b88ace437633fd0a74769ffdb0cbabd420dbd8",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-027-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-028-of-029.zip.chunk-001-of-004",
+      "bytes": 268435456,
+      "sha256": "accefdac20cf55a3c11f43278c43655075c6859e4b31e90a57a9822586982fe2",
+      "provider_digest": "sha256:accefdac20cf55a3c11f43278c43655075c6859e4b31e90a57a9822586982fe2",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-028-of-029.zip.chunk-001-of-004"
+    },
+    {
+      "name": "research-part-028-of-029.zip.chunk-002-of-004",
+      "bytes": 268435456,
+      "sha256": "fb5004c46e7d8b26d74a0c2a67f89d3cfe5d3bbb0955cf738fa1f4b3815f0dfa",
+      "provider_digest": "sha256:fb5004c46e7d8b26d74a0c2a67f89d3cfe5d3bbb0955cf738fa1f4b3815f0dfa",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-028-of-029.zip.chunk-002-of-004"
+    },
+    {
+      "name": "research-part-028-of-029.zip.chunk-003-of-004",
+      "bytes": 268435456,
+      "sha256": "910dbd3a7da91837b059900e08bb8aabb752ffe3cb3d07daef3706ae6a84bc1d",
+      "provider_digest": "sha256:910dbd3a7da91837b059900e08bb8aabb752ffe3cb3d07daef3706ae6a84bc1d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-028-of-029.zip.chunk-003-of-004"
+    },
+    {
+      "name": "research-part-028-of-029.zip.chunk-004-of-004",
+      "bytes": 184070436,
+      "sha256": "c20bd37c6303a7ede3118f6d9dd7d165d065b55c0cad3400b0046e573cfdf957",
+      "provider_digest": "sha256:c20bd37c6303a7ede3118f6d9dd7d165d065b55c0cad3400b0046e573cfdf957",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-028-of-029.zip.chunk-004-of-004"
+    },
+    {
+      "name": "research-part-029-of-029.zip.chunk-001-of-003",
+      "bytes": 268435456,
+      "sha256": "b30f3051fe470b22c5c29ef591ce34405aa8cbd9745f070c3db843f5d0ee25d5",
+      "provider_digest": "sha256:b30f3051fe470b22c5c29ef591ce34405aa8cbd9745f070c3db843f5d0ee25d5",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-029-of-029.zip.chunk-001-of-003"
+    },
+    {
+      "name": "research-part-029-of-029.zip.chunk-002-of-003",
+      "bytes": 268435456,
+      "sha256": "934895876dd24819954f3a575e781ad3c14332e2c5436e5ad524ca4704da84b3",
+      "provider_digest": "sha256:934895876dd24819954f3a575e781ad3c14332e2c5436e5ad524ca4704da84b3",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-029-of-029.zip.chunk-002-of-003"
+    },
+    {
+      "name": "research-part-029-of-029.zip.chunk-003-of-003",
+      "bytes": 14835023,
+      "sha256": "5200af1d5be8ea7b2d3bc8d9e85684099fae067fbde93a5a9b13a96dbb72320d",
+      "provider_digest": "sha256:5200af1d5be8ea7b2d3bc8d9e85684099fae067fbde93a5a9b13a96dbb72320d",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/research-part-029-of-029.zip.chunk-003-of-003"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 2784,
+      "sha256": "473481ac660590d9733512daa013f19c97460f91f99aa67e08250add62133270",
+      "provider_digest": "sha256:473481ac660590d9733512daa013f19c97460f91f99aa67e08250add62133270",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/research-snapshot-g35-20261113/SHA256SUMS.txt"
+    }
+  ]
+}

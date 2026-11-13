@@ -6,7 +6,7 @@
 >
 > [19角三项曲线](artifacts/g35_azimuth_scan_v1/curves/three_metrics_19_angles.png) · [矢量PDF](artifacts/g35_azimuth_scan_v1/curves/three_metrics_19_angles.pdf) · [19角CSV](artifacts/g35_azimuth_scan_v1/curves/mean_19_angles.csv)
 >
-> 本仓库保持私有。代码、报告、可读结果与图表直接入库；完整科研数据/音频/数组/权重另作同仓库Release分卷归档，首次同步期间以最终核验记录为准。详见[GitHub同步与恢复说明](docs/GITHUB_SYNC.md)。环境/工具/缓存不上传。
+> 本仓库保持私有。代码、报告、可读结果与图表直接入库；完整科研数据/音频/数组/权重已保存于[正式Release](https://github.com/chenciquan/multichannel-speech-enhancement/releases/tag/research-snapshot-g35-20261113)，106409个科研文件、90个远端附件全部校验通过，见[同步记录](docs/GITHUB_UPLOAD_20261113.md)。详见[GitHub同步与恢复说明](docs/GITHUB_SYNC.md)。环境/工具/缓存不上传。
 >
 > **以下内容是此前阶段入口与命令记录，原样保留；其中旧“当前/正在运行/尚未训练”不代表最新状态。** 更新前README完整副本见[历史入口](docs/history_before_github_20261113/README.md)。不要照抄下文首次安装命令或恢复旧队列。
 
