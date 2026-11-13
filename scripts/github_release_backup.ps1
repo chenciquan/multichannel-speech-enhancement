@@ -48,7 +48,7 @@ function Upload-File([string]$filePath,[string]$expectedHash) {
     $file=Get-Item -LiteralPath $filePath
     if($uploaded.ContainsKey($file.Name)) {
         $asset=$uploaded[$file.Name]
-        if($asset.size -ne $file.Length -or ($asset.digest -and $asset.digest -ne ('sha256:'+$expectedHash))) { throw ('Existing asset differs: '+$file.Name) }
+        if($asset.state -ne 'uploaded' -or $asset.size -ne $file.Length -or $asset.digest -ne ('sha256:'+$expectedHash)) { throw ('Existing asset differs or is unfinished: '+$file.Name) }
     } else {
         Write-Output ('Uploading '+$file.Name+' ('+$file.Length+' bytes)')
         $stream=[System.IO.File]::OpenRead($file.FullName)
@@ -62,7 +62,7 @@ function Upload-File([string]$filePath,[string]$expectedHash) {
             if(!$response.IsSuccessStatusCode) { throw ('GitHub upload HTTP '+[int]$response.StatusCode+': '+$responseBody) }
             $asset=$responseBody|ConvertFrom-Json
         } finally { $content.Dispose();$stream.Dispose() }
-        if($asset.size -ne $file.Length -or ($asset.digest -and $asset.digest -ne ('sha256:'+$expectedHash))) { throw ('Uploaded size/digest differs: '+$file.Name) }
+        if($asset.state -ne 'uploaded' -or $asset.size -ne $file.Length -or $asset.digest -ne ('sha256:'+$expectedHash)) { throw ('Uploaded size/digest differs: '+$file.Name) }
         $uploaded[$file.Name]=$asset
     }
     $state.assets+=@{name=$file.Name;bytes=$file.Length;sha256=$expectedHash;id=$asset.id;url=$asset.browser_download_url;provider_digest=$asset.digest}
@@ -97,7 +97,7 @@ try {
     $remoteAssets=@(Invoke-RestMethod "$api/releases/$($release.id)/assets?per_page=100" -Headers $headers)
     foreach($a in $state.assets) {
         $found=@($remoteAssets|Where-Object {$_.name -eq $a.name})
-        if($found.Count -ne 1 -or $found[0].size -ne $a.bytes) {throw ('Remote asset verification failed: '+$a.name)}
+        if($found.Count -ne 1 -or $found[0].state -ne 'uploaded' -or $found[0].size -ne $a.bytes -or $found[0].digest -ne ('sha256:'+$a.sha256)) {throw ('Remote asset verification failed: '+$a.name)}
     }
     $release=Invoke-RestMethod "$api/releases/$($release.id)" -Method Patch -Headers $headers -ContentType application/json -Body (@{draft=$false}|ConvertTo-Json)
     $state.status='complete';$state.release_url=$release.html_url;Save-State
