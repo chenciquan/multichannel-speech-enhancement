@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T04:36:45.984713+00:00",
+  "files": [
+    {
+      "source": "docs/G9_成熟波束形成对照与机制诊断报告.md",
+      "snapshot": "00_G9_成熟波束形成对照与机制诊断报告.md",
+      "sha256": "a4af94708d7e7ed2731adff3550a9044d411ba9519fff8c5f8a31f7f6c149ef8"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "b93087331d243893dc99a99dcd3c024008dab3cb728b4ea7358aa2dfc64559a1"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "99cea32a5ddec0c958337e7bf82aebca5d9262b965cb982226df68ae8644f7cf"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "1d18abe0ece395e6e10d9bdf0560c082b7e06338f69c7550d10c5de427fe40c8"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "271a2239a62e29473e8f8e787bae7c15ddec1c269e7e102a07fbc1274aadfdf6"
+    },
+    {
+      "source": "scripts/g9_finish.py",
+      "snapshot": "05_g9_finish.py",
+      "sha256": "496c6bdb00f56421dbf7c0be5562750b7b10ca9af9258ad6359b042db3842317"
+    }
+  ]
+}

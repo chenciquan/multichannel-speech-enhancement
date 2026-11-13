@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "closed_utc": "2026-11-12T02:34:36.914650+00:00",
+  "local_document_links_checked": 56,
+  "mono_playback_links_checked": 197,
+  "new_experiments_during_closing": false,
+  "G6_executed": false,
+  "files": [
+    {
+      "source": "docs/夜间实验_验收汇总.md",
+      "snapshot": "00_夜间实验_验收汇总.md",
+      "sha256": "fc61828606b5461a4ce10f269126410f4a61c36652b166bc61702c7e050d1bfa"
+    },
+    {
+      "source": "docs/连续实验_阶段总览.md",
+      "snapshot": "01_连续实验_阶段总览.md",
+      "sha256": "59b45c06be32a6090911f7c0135dfa41ce7d3b688f9ee4607cd74f7a1918a785"
+    },
+    {
+      "source": "README.md",
+      "snapshot": "02_README.md",
+      "sha256": "7e0ed12c6a9ee9937dd0387b71d536c82a3e04dd37bed41f5117b6114884e262"
+    },
+    {
+      "source": "configs/project_status.json",
+      "snapshot": "03_project_status.json",
+      "sha256": "a3a7f4ef9c88ee604dbb8f01971069ff4a290efa99133679f9f43822353174c1"
+    },
+    {
+      "source": "configs/improvement_direction.json",
+      "snapshot": "04_improvement_direction.json",
+      "sha256": "8c6753cd96d886c35892fb689f7db5d720d28b2854b2f58c7bdc474215219944"
+    },
+    {
+      "source": "configs/continuous_experiment_session.json",
+      "snapshot": "05_continuous_experiment_session.json",
+      "sha256": "e51cd6e468a5c36db43772c150835d09b7571884cd922e377a90578f3763a0f2"
+    },
+    {
+      "source": "docs/本科毕业设计_研究路线与创新方向分析.md",
+      "snapshot": "06_本科毕业设计_研究路线与创新方向分析.md",
+      "sha256": "f24a35a6a5eb1b33c7adc56427d21964d413cde3c0b14b6308dcd70f77a65b6d"
+    },
+    {
+      "source": "docs/开发阶段记录.md",
+      "snapshot": "07_开发阶段记录.md",
+      "sha256": "a26bea6c197d9500834688218ed4b526966cf6305daf91000450739e35c70aea"
+    },
+    {
+      "source": "artifacts/overnight_acceptance_v1/readback_audit.json",
+      "snapshot": "08_readback_audit.json",
+      "sha256": "dcae2b59d372f6956bd35ee624a35cd4f945bb44b022d67b2180d6bc7fa30864"
+    },
+    {
+      "source": "artifacts/overnight_acceptance_v1/process_check.json",
+      "snapshot": "09_process_check.json",
+      "sha256": "c7d3204ea5612ece23640f786072d2cca63f137727b1ed32c707ca50ca8c5aff"
+    },
+    {
+      "source": "artifacts/overnight_acceptance_v1/terminal_summary.txt",
+      "snapshot": "10_terminal_summary.txt",
+      "sha256": "921749c6547df3ed255b90428028fd944708832427e7d58b5d6090b7157c9b6a"
+    }
+  ],
+  "explicit_limit": "G3-G5 complete; no universal winner, real-room validation, new human verdict, G6 latency benchmark or standalone CLI claimed."
+}

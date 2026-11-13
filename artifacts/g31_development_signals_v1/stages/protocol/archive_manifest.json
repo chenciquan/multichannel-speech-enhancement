@@ -1,0 +1,80 @@
+{
+  "saved_utc": "2026-11-13T00:47:38.373265+00:00",
+  "files": [
+    {
+      "source": "docs/G31A_开发信号与干净语音预登记评价协议.md",
+      "snapshot": "00_G31A_开发信号与干净语音预登记评价协议.md",
+      "sha256": "cbb0aa0c584f6b791a888ee1d35a634a7098ea31895800596ccc6d305c019f52"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "2972d3cf73b15654668a765c9317acae755261db8862af7b68c5dc6428e7671b"
+    },
+    {
+      "source": "configs/g31_development_protocol.json",
+      "snapshot": "02_g31_development_protocol.json",
+      "sha256": "bc4f4c5c6d14c5a3d6ae509b432c7db557307c065e012045aafcade38ef8dc96"
+    },
+    {
+      "source": "scripts/g31_common.py",
+      "snapshot": "03_g31_common.py",
+      "sha256": "a4eccf156c6d807bca165376fb5a9daaad1704e70c43efcc9614d86b8abb7d48"
+    },
+    {
+      "source": "scripts/g31_worker.py",
+      "snapshot": "04_g31_worker.py",
+      "sha256": "f7434b416566c651bcf78721c70e23b9b367da5c0144aa420d1a0a2f66c100d4"
+    },
+    {
+      "source": "scripts/g31_evaluate.py",
+      "snapshot": "05_g31_evaluate.py",
+      "sha256": "776e5cf1df8350e0f2673af08dc519d4eb1086d5b1d711b8a70b0dd9b1da454b"
+    },
+    {
+      "source": "scripts/g31_finish.py",
+      "snapshot": "06_g31_finish.py",
+      "sha256": "2e62a07d370a5695350448ed05fb06adc39503dd8d09bfe2b63e64ff23e4fdc7"
+    },
+    {
+      "source": "scripts/g30_common.py",
+      "snapshot": "07_g30_common.py",
+      "sha256": "f518589cea1a6d2c3208f2e11d07025ff72a10ba37ba91c032b4590a5bcacf38"
+    },
+    {
+      "source": "scripts/g29_common.py",
+      "snapshot": "08_g29_common.py",
+      "sha256": "0cba92d54ef641337a1aed53b115d21214a5e03783f44050bb6d0d98eb007bc2"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "09_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "scripts/mcnet_infer.py",
+      "snapshot": "10_mcnet_infer.py",
+      "sha256": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "11_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "12_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "src/mcse/wiener.py",
+      "snapshot": "13_wiener.py",
+      "sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752"
+    },
+    {
+      "source": "src/mcse/evaluation.py",
+      "snapshot": "14_evaluation.py",
+      "sha256": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526"
+    }
+  ]
+}

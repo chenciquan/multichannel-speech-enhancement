@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T18:34:54.276020+00:00",
+  "cases": 504,
+  "rooms": 2,
+  "pairs": 252,
+  "RT0_pairs_recomputed": 84,
+  "shared_scale_groups": 28,
+  "stages": {
+    "data": "d97cef8106f349a084e81eded3552830499773df78f9684fc10ceefc0d18f6e7",
+    "physics": "fe69a8d60b6f03d7405be4f9d5b04c66aabbd16dcf75ef44a27f435fc2f4da19",
+    "protocol": "37abbcbd3da97881f1c17dd7ffd80a261184248fcc07200c704d764ca16eb216"
+  },
+  "manifest_sha256": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2",
+  "SNR_recomputed_cases": 432,
+  "max_SNR_error_db": 3.186626820761363e-06,
+  "max_RT0_input_abs": 0.0,
+  "max_RT0_reference_abs": 0.0,
+  "no_model_or_ASR_results": true
+}

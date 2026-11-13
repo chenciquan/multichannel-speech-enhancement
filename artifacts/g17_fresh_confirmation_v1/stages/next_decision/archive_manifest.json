@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T10:08:40.111757+00:00",
+  "files": [
+    {
+      "source": "docs/G17_确认结果读回与混响阶段决策.md",
+      "snapshot": "00_G17_确认结果读回与混响阶段决策.md",
+      "sha256": "a1333ac91b6fc19391f4dfb117f70e26e4ed3937dbbf53a357f1ece17c867cf1"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/NEXT_ROOM_DECISION.json",
+      "snapshot": "01_NEXT_ROOM_DECISION.json",
+      "sha256": "2e34610948127f84cde9b85c5b25b81e5f924140eed06101eb7f34473b604ce4"
+    },
+    {
+      "source": "configs/g18_room_candidate.json",
+      "snapshot": "02_g18_room_candidate.json",
+      "sha256": "674fca0bc875ecb67cb89f31301e7eb4ea62704b6484c6a4c0485f3245c44aad"
+    },
+    {
+      "source": "scripts/g17_decision.py",
+      "snapshot": "03_g17_decision.py",
+      "sha256": "454e357e6973885b262073fa48e0f5c9788090514ba9383cb29b3e9a62dc841b"
+    }
+  ]
+}

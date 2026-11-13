@@ -1,0 +1,6 @@
+{
+  "status": "stopped_before_forward_probes",
+  "reason": "Audit initially compared tuple and list using raw Python equality; v2 records both types and verifies sequence values canonically",
+  "evidence": "../g1_followup_v2/checkpoint_config_comparison.json",
+  "upstream_model_or_data_changed": false
+}

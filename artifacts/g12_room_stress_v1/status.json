@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-12T08:04:30.402008+00:00",
+  "stage": "failed",
+  "error_type": "RuntimeError",
+  "error": "G12 asset stage failed; preserve log and environment evidence before retry"
+}

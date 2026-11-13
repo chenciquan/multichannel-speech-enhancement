@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T04:52:49.346051+00:00",
+  "files": [
+    {
+      "source": "docs/G34_lora_3e4_固定预算训练记录.md",
+      "snapshot": "00_G34_lora_3e4_固定预算训练记录.md",
+      "sha256": "c876aad3cbf7ca1b7e1e086b0cca260181de087fdb52d156ece48af3b9781dbb"
+    },
+    {
+      "source": "artifacts/g34_matched_full_v1/train/lora_3e4/result.json",
+      "snapshot": "01_result.json",
+      "sha256": "d6baba581098f780353927ec79acd0f48eaec7313f987e90f2852ec28d55ef01"
+    },
+    {
+      "source": "artifacts/g34_matched_full_v1/train/lora_3e4/config.json",
+      "snapshot": "02_config.json",
+      "sha256": "215c655da21d93d4dc0750ee730c8ec7741f41db683d7bf6dc4c6f789b5c8f9d"
+    },
+    {
+      "source": "scripts/g34_train.py",
+      "snapshot": "03_g34_train.py",
+      "sha256": "1b3cae8bdcbdb6e3c09ae6c372f569f0189e69f86351b4e9fecaad65430444f6"
+    }
+  ]
+}

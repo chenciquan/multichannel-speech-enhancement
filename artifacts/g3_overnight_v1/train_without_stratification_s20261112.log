@@ -1,0 +1,9 @@
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/functional.py:704: UserWarning: stft with return_complex=False is deprecated. In a future pytorch release, stft will return complex tensors for all inputs, and return_complex=False will raise an error.
+Note: you can still call torch.view_as_real on the complex output to recover the old return format. (Triggered internally at ../aten/src/ATen/native/SpectralOps.cpp:873.)
+  return _VF.stft(  # type: ignore[attr-defined]
+{"variant": "without_stratification", "seed": 20261112, "step": 500, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_00500.pt", "si_sdr_db": -0.8778424483494872, "stoi": 0.8357422068752923}
+{"variant": "without_stratification", "seed": 20261112, "step": 1000, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_01000.pt", "si_sdr_db": 0.10036060619765104, "stoi": 0.8474873682121388}
+{"variant": "without_stratification", "seed": 20261112, "step": 1500, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_01500.pt", "si_sdr_db": 0.22055878124573858, "stoi": 0.8476753135182543}
+{"variant": "without_stratification", "seed": 20261112, "step": 2000, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_02000.pt", "si_sdr_db": 0.34616738063429126, "stoi": 0.854199910545553}
+{"variant": "without_stratification", "seed": 20261112, "step": 2500, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_02500.pt", "si_sdr_db": 0.5118871423483781, "stoi": 0.8576760227111769}
+{"variant": "without_stratification", "seed": 20261112, "step": 3000, "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_03000.pt", "si_sdr_db": 0.7908435785685869, "stoi": 0.8592215956395218}

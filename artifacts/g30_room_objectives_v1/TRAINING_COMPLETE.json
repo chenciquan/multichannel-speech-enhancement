@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:46:30.406524+00:00",
+  "variants": [
+    "cirm",
+    "cirm_mask",
+    "cirm_shape"
+  ],
+  "updates": 4500,
+  "elapsed_seconds": 425.98632256099995,
+  "development_evaluated": false,
+  "result_hashes": {
+    "cirm": "1072627bd7f51d537346eb6b9f51ea805ceddbe390380f223c23312ea49523c4",
+    "cirm_mask": "a81d5ca8fd6c54ec4defcba114f0febcdc9a4b14c8b2cbc1b789a9c373772bf7",
+    "cirm_shape": "e86e31ce0f3e53c302ee954e09a122d6e014ad579a43a8116c8091b6f57008f6"
+  }
+}

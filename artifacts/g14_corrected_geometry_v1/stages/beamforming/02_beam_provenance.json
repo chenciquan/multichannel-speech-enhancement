@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-11-12T08:45:37.266757+00:00",
+  "previous_archive_sha256": "df22162821352e35ebe7ca31f1b831cba4b5ba856d9bda4da9a837baba18c075",
+  "beamforming_code_sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+  "no_oracle_reference_or_DOA": true,
+  "no_new_neural_forward": true,
+  "CPU_precision": "float64/complex128"
+}

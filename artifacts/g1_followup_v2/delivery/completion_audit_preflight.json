@@ -1,0 +1,770 @@
+{
+  "created_at": "2026-11-11T22:30:59.840899+08:00",
+  "status": "passed",
+  "scope": "follow-up cause audit, candidate/control feedback and method-entry decision; not validation of a new method",
+  "checks": [
+    {
+      "requirement": "selection frozen before probes; seven ASR candidates plus first normal case per six speakers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "no experiment selection changed after outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "original cases, ASR and manifest hash chain intact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "full original evidence re-audit passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "full 48-case signal analysis retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "reported aggregate: correlation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "reported aggregate: projection_gain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "reported aggregate: rms_gain_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "reported aggregate: difference_energy_relative_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "all48 best global lags zero; no fitted delay used to change scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "exactly52 probes; one successful output per frozen case and four conditions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: original output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: original parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: original waveform repeats exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: common_gain_0.25 output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: common_gain_0.25 parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: nonreference_channels_reversed_ref4_fixed output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: nonreference_channels_reversed_ref4_fixed parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: reconstructed_clean_field output hash/metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: reconstructed_clean_field parity checks recorded within bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "checkpoint sequence values agree; tuple/list distinction explicitly recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "pinned model remains unmodified; no probe training",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "two explicit user replies cover all seven candidates exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "third explicit reply covers frozen six normal controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "all listening records say no obvious regression, with limited scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "control listening page has18 local mono16k audio resources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "decision denominator:13 mixes from12 sources; no full48 or blinded-listening claim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "unsupported stable deletion does not start a recovery module or confirmation batch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "final decision traces all numerical and user-feedback evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "candidate review keeps original ASR text and original denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "44 tests with analytic gain/lag/projection checks passed without skips",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "same92 installed packages remain compatible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "installed package list still equals G1 lock; no new dependencies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "Chinese decision report, figures and all local reference targets exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "requirement": "current project state matches reviewed negative decision",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed_checks": 143,
+  "error": null,
+  "evidence": {
+    "docs/G1_问题核查与阶段决策.md": {
+      "sha256": "3822c151dd026ea2a1ec1b3204c170dc00556dc60fae369170838c0fc086462d"
+    },
+    "configs/project_status.json": {
+      "sha256": "1c9194435acbae8c8c8e5c302df84d34745b08527eee451e76449550b0dd1431"
+    },
+    "artifacts/g1_followup_v2/frozen_plan.json": {
+      "sha256": "ea9fecc318dd3d91cee56aecd75fa3f35824a7f679edcfb879e97cb869217f0f"
+    },
+    "artifacts/g1_followup_v2/summary.json": {
+      "sha256": "cabcd9b73bd3aead8d13680bbb3322f9c58d7827eccb8b55ce77374b092f3fbb"
+    },
+    "artifacts/g1_followup_v2/probes.jsonl": {
+      "sha256": "7011704cfad4d63e42b2c46d0ae858672bf11c3760fe1c6b161878f5d56acc6a"
+    },
+    "artifacts/g1_followup_v2/delivery/decision.json": {
+      "sha256": "afbe348d133ea8d934f46a262bcf756a823c8253d1a02177f284fbe793d8c54f"
+    },
+    "artifacts/g1_followup_v2/listening_feedback.json": {
+      "sha256": "f240ab288f62811e639840e4f4edf2f917012f06ce973a8db93adc2bfa8f39a8"
+    },
+    "artifacts/g1_followup_v2/control_feedback.json": {
+      "sha256": "02183282f8177418ab90c9440698eea5b261b28b286246e343f48b2e7d9f0c25"
+    },
+    "scripts/probe_baseline_behavior.py": {
+      "sha256": "a4ae1d3707a987980c26547eeeee1c32a6760c408edde710e364f4a6f25e80f1"
+    },
+    "scripts/summarize_followup.py": {
+      "sha256": "c1b35cf573c8f9b6944260eb90839830f202fcc1b2f492f2181a6b36e1e2b24e"
+    },
+    "scripts/audit_followup_delivery.py": {
+      "sha256": "4c86cdc443f42333a43d8d7b011e322cd10b337d699d1703607fbe63a29020b6"
+    },
+    "tests/test_behavior_probe.py": {
+      "sha256": "c0d820b1ecf5b9f2e74478c269e156fed414862548437d711b597edfcd26aca4"
+    }
+  },
+  "remaining_research_unknowns": [
+    "exact cause of weak suppression",
+    "word-time and blinded human evaluation",
+    "recorded spatial-noise performance",
+    "independent failure confirmation if a failure is later supported"
+  ],
+  "next_stage_executed": false,
+  "training_performed": false
+}

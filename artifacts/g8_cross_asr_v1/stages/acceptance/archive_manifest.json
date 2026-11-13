@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T04:19:11.638647+00:00",
+  "files": [
+    {
+      "source": "docs/G8_验收补充记录.md",
+      "snapshot": "00_G8_验收补充记录.md",
+      "sha256": "483c168c7308b351be55152ebeba7f962a1a89dff12255adb80face02455aab8"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "5b6f880f7b02a7ab115042d0c25574abaf948ca911acfe90da963a0fa5cfb508"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/verification/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "1c336e6ce472079dc4fb6e655592c83c4ac81881286dc600382aebb86769b760"
+    },
+    {
+      "source": "scripts/g8_accept.py",
+      "snapshot": "03_g8_accept.py",
+      "sha256": "9b1c919b5c13050b7de860a5c6ae0d2edda225c8970d1ff9ee9c55a4f1fe7ba5"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "cases": 648,
+  "systems": 14,
+  "expected_pairs": 9072,
+  "groups_with_equal_raw_reference": 216,
+  "all_equal": true,
+  "elapsed_seconds": 93.617522332
+}

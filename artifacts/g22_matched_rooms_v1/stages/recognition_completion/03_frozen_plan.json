@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-11-12T19:20:28.376127+00:00",
+  "max_seconds": 7200,
+  "rows": 16488,
+  "signal_sha256": "e58a1b27a8579c0f410d4dbd288a40112f43133bb39f8921a35a357dfc8bd94d",
+  "hashes": {
+    "scripts/g22_asr.py": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e",
+    "scripts/g22_asr_finish.py": "f927ad60c3a59b49001242ea9b6dd4902e9761bd550b4385a179c3560ed51ab8",
+    "scripts/g22_final_accept.py": "3b5037e5e1b37607b4708f179e00c7b4a5fb292a8152154f015bb1a046f5aaa2",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537",
+    "artifacts/g22_matched_rooms_v1/SIGNAL_ACCEPTANCE_AUDIT.json": "c4a4cd110df990d7b3b4a969eb104d3c0acc61110f89faf9a4422cf7fe146d1f"
+  },
+  "prior": {
+    "Whisper": {
+      "provenance_sha256": "a5534411f8fceaf683694b4be28383f5f90b2748b60a5be41641bc801d4ea154",
+      "cache_sha256": "76e4f6df331cd3388827da7a00cfdb346099e20c2d2da9fbb3f266488c12ef7f"
+    },
+    "CTC": {
+      "provenance_sha256": "254fcff43c904f6e4a772a231c9f60b1faae8ab2e735ddb5755d5abeb4a10c65",
+      "cache_sha256": "8b31acb5026d84ca995be8c91112afc83de094e01ae66175a0d09ae96bae9319"
+    }
+  },
+  "new_references": "Decode only if PCM sample SHA absent in same recognizer cache; no transcript prompt"
+}

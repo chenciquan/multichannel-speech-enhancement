@@ -1,0 +1,17 @@
+{
+  "cirm": {
+    "step": 1500,
+    "path": "artifacts/g30_room_objectives_v1/train/cirm/adapter_01500.pt",
+    "sha256": "8ff7a3f0a10d957acd83d30f17a4d16fcbde7c567c8ad47e05a319ce34b3f622"
+  },
+  "cirm_mask": {
+    "step": 1500,
+    "path": "artifacts/g30_room_objectives_v1/train/cirm_mask/adapter_01500.pt",
+    "sha256": "15ea422c2eb2a39de724f79774a2a8715bdbf13cea7cc35e30dda67bb3ee44b6"
+  },
+  "cirm_shape": {
+    "step": 1500,
+    "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_01500.pt",
+    "sha256": "876a4c789ad749ff61b02b59decaa4dfb3f8682479e450a761bd280ae28b7a58"
+  }
+}

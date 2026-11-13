@@ -1,0 +1,62 @@
+{
+  "started_utc": "2026-11-12T13:30:12.344756+00:00",
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "source_caches": [
+    {
+      "path": "artifacts/g8_cross_asr_v1/evaluation/ctc_cache.jsonl",
+      "sha256": "ae13ae48a5994a39d3fd1dff0e529eeb958eb5def7fb3b12084272f85c7ddfb6"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "3710a32c2609fd76308416643ce41309a537b09b4cca483827c8b9713469c605"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "93b95409cc137a18631b5ef88adac3412bd65bdf00ad3154b9d7beb29b2dd984"
+    },
+    {
+      "path": "artifacts/g14_corrected_geometry_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "a1f9aafd72d5108747565a97c43613a467bfe37f252e88bbbdd92a0e147b0a07"
+    },
+    {
+      "path": "artifacts/g16_rigid_dev_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "cc10fe85093ed390d2eb8a63b6bd29ae3aa476fdb9d379fbde52c3ac98543f57"
+    },
+    {
+      "path": "artifacts/g17_fresh_confirmation_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "81dcec6e2c4e358a16c60d11a077c81124691adcb09c40d9888443af4a6795dc"
+    },
+    {
+      "path": "artifacts/g18_room_stress_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "abd172e7f5f7987ee8bbc36e161852d20adebd4b9ce323412108f5ee1903c741"
+    }
+  ],
+  "source_precedence": "G18 source_caches in listed order, followed by G18 cache_new; first observation retained",
+  "cache_hypothesis_conflicts": [],
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "signal_archive_sha256": "af7f0a7a03eb4b15ddd25b3d3da34307fdb7a296f33a821c033f4430322fcb78",
+  "previous_archive_sha256": "634ec4cdbda4d855a7667b189d8e0c4dbfb07a84342ba4671db42f333846e378",
+  "mwf_signals": {
+    "path": "artifacts/g19_room_mwf_v1/evaluation/mwf_signals.jsonl",
+    "sha256": "8597331d949795abee4efad9d4a1b402073e0af73a48a1ed9800c5c4520f4731"
+  },
+  "G18_scores": {
+    "path": "artifacts/g18_room_stress_v1/evaluation/CTC/asr_scores.jsonl",
+    "sha256": "ff0a546e840a0d2733f8882935766f8fea49ae4a98bde91e93defdaac00bf5f5"
+  },
+  "G18_provenance": {
+    "path": "artifacts/g18_room_stress_v1/evaluation/CTC/provenance.json",
+    "sha256": "cb9ee8cf3508252d112708e6231eb5b7ab679a2bc8264c923a67b3d48ca22b14"
+  }
+}

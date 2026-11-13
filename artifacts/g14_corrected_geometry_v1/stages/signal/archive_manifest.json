@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T08:45:37.260132+00:00",
+  "files": [
+    {
+      "source": "docs/G14B_配对几何直接输出信号报告.md",
+      "snapshot": "00_G14B_配对几何直接输出信号报告.md",
+      "sha256": "11c728d8f5cecdc5eecf7de3881f266966a71fad65454263d28c075ef23bf69f"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/DIRECT_COMPLETE.json",
+      "snapshot": "01_DIRECT_COMPLETE.json",
+      "sha256": "315670ef98c177e0275fbd4fc0cafdeadbb25298139932790b7b0c96bdcdf220"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "d0a373b04bb272ec53942f4dd7a34b5b884adec70757d8aa62beea603c3f2c2b"
+    },
+    {
+      "source": "scripts/g14_signal.py",
+      "snapshot": "03_g14_signal.py",
+      "sha256": "348205a665129e54e76458549317085981cea48ec6ee027a6bbc14d0a072f068"
+    }
+  ]
+}

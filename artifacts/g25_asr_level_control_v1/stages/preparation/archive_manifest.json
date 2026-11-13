@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T20:09:39.600048+00:00",
+  "files": [
+    {
+      "source": "docs/G25B_识别电平输入不变性验证.md",
+      "snapshot": "00_G25B_识别电平输入不变性验证.md",
+      "sha256": "65e833e1b155faaf760378f5b55a73b012e9e27e8e1bc5baac8f595c75ccd932"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "01_PREPARATION_COMPLETE.json",
+      "sha256": "9961f335824b695c5aa128ece06f8f5af792ee28cc9b2a017b3be775b4efbfe5"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/input_invariance.json",
+      "snapshot": "02_input_invariance.json",
+      "sha256": "71d4f6cb9fd36b9cc859d0929cb968dd6b8c7e67e5ed317305c71fefe126c3b8"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/manifest.jsonl",
+      "snapshot": "03_manifest.jsonl",
+      "sha256": "f76b42ac3fcd83edf3bec1aebc6c66659ca00468c1faacb369c11696ef3e3694"
+    },
+    {
+      "source": "scripts/g25_prepare.py",
+      "snapshot": "04_g25_prepare.py",
+      "sha256": "d6c7d10f7b8ef99916120d5a3ed639060b4b7205d98ce4064892d4bc5c7f5afd"
+    }
+  ]
+}

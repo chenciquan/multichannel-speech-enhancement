@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "scope": "A_B_C_and_three_signal_curves",
+  "signal_rows": 8512,
+  "enhancement_outputs": 7448,
+  "A_forwards": 14,
+  "ASR_decodes": 0,
+  "training_updates": 0,
+  "delivery_audit": "DELIVERY_AUDIT.json",
+  "next": "stop_wait_for_user_review"
+}

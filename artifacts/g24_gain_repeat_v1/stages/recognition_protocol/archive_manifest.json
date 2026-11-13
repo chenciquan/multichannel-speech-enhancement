@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T20:00:34.178724+00:00",
+  "files": [
+    {
+      "source": "docs/G24C_全观察真实解码执行协议.md",
+      "snapshot": "00_G24C_全观察真实解码执行协议.md",
+      "sha256": "38274f465962de3fd4229845e286619b7c2176cfb3fff2fde63e7ac473d0eaaa"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "38b04e5b5ffd004e8098163118c51ad924c5825ef13ba454732ffae92a2baa41"
+    },
+    {
+      "source": "scripts/g24_asr.py",
+      "snapshot": "02_g24_asr.py",
+      "sha256": "1c7d0afe9503228933a4f12ab80b6f1aaf4a8ebc77ca94a3618af71fbd418ec4"
+    },
+    {
+      "source": "scripts/g24_finish.py",
+      "snapshot": "03_g24_finish.py",
+      "sha256": "900ad50d808be7cd184325248271bcf584dff3ef169afe090344101cafaa9503"
+    },
+    {
+      "source": "scripts/g24_accept.py",
+      "snapshot": "04_g24_accept.py",
+      "sha256": "b814404030c8291975635d98bd530e03a6bcf2212525c8638ecf1e98c9216d7f"
+    },
+    {
+      "source": "scripts/g24_prepare.py",
+      "snapshot": "05_g24_prepare.py",
+      "sha256": "b6e51bdc8ca6d7de2e6850e34e96332b2d228b267fef9fe1c18e1cc2933af633"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "06_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "07_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "08_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "09_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/functional.py:704: UserWarning: stft with return_complex=False is deprecated. In a future pytorch release, stft will return complex tensors for all inputs, and return_complex=False will raise an error.
+Note: you can still call torch.view_as_real on the complex output to recover the old return format. (Triggered internally at ../aten/src/ATen/native/SpectralOps.cpp:873.)
+  return _VF.stft(  # type: ignore[attr-defined]
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/autograd/graph.py:825: UserWarning: ComplexHalf support is experimental and many operators don't support it yet. (Triggered internally at ../aten/src/ATen/EmptyTensor.cpp:46.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+{"variant": "ordinary", "seed": 20261112, "step": 500, "path": "artifacts/g3_overnight_v1/train/ordinary_s20261112/adapter_00500.pt", "si_sdr_db": -0.44390059889991074, "stoi": 0.8414978657779407}
+{"variant": "ordinary", "seed": 20261112, "step": 1000, "path": "artifacts/g3_overnight_v1/train/ordinary_s20261112/adapter_01000.pt", "si_sdr_db": 0.447227414769952, "stoi": 0.8504398718299134}
+{"variant": "ordinary", "seed": 20261112, "step": 1500, "path": "artifacts/g3_overnight_v1/train/ordinary_s20261112/adapter_01500.pt", "si_sdr_db": 0.718572855571721, "stoi": 0.8540757056095553}
+Traceback (most recent call last):
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g3_train.py", line 134, in <module>
+    try:main()
+        ^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g3_train.py", line 101, in main
+    grad_norm=torch.nn.utils.clip_grad_norm_([v for v in model.parameters() if v.requires_grad],5.,error_if_nonfinite=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 30, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 99, in clip_grad_norm_
+    raise RuntimeError(
+RuntimeError: The total norm of order 2.0 for gradients from `parameters` is non-finite, so it cannot be clipped. To disable this error and scale the gradients by the non-finite norm anyway, set `error_if_nonfinite=False`

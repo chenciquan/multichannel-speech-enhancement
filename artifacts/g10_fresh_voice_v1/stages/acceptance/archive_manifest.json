@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T07:27:34.952887+00:00",
+  "files": [
+    {
+      "source": "docs/G10_阶段验收与简明读回.md",
+      "snapshot": "00_G10_阶段验收与简明读回.md",
+      "sha256": "6cfebda365c0ae43601313c87db63b7bd50a108fc1ba4e090ac44662ac95d229"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "6f6637a1d634bbb08e6d9dd39b3ab302d1a2a093ee69be7ebea8bb939f9c3823"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/verification/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "02f08f062ddb0336fbff7c7cac35791b1c9fdf1214e89e5cdd842545ee957beb"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/per_seed_readback.json",
+      "snapshot": "03_per_seed_readback.json",
+      "sha256": "a3026d80a6eb4d403d158ecedddc891df1b2c67a0b9749f224e61424925cc585"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/runtime_resource_observation.json",
+      "snapshot": "04_runtime_resource_observation.json",
+      "sha256": "4a44de914ae631dfa1efedae4faeeb89f89f4a857b1b26505c5637cfced42895"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/runtime_resource_after_signal.json",
+      "snapshot": "05_runtime_resource_after_signal.json",
+      "sha256": "7270141c0b333af019ab10971529ca71ee0a390c2aa31f20f618a736c8feca0f"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/code_revisions/pre_asr/amendment.json",
+      "snapshot": "06_amendment.json",
+      "sha256": "cc27b0109d44d850cc3c1252501fd7424391e996205a75940aea71999e7ff256"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/code_revisions/pre_asr/initial_g10_asr.py",
+      "snapshot": "07_initial_g10_asr.py",
+      "sha256": "1be3262078ec9f0a2f36c162c4a7f5c8b9aa83a606a8c437dac48aaaf1e83ff9"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/PIPELINE_READY.json",
+      "snapshot": "08_PIPELINE_READY.json",
+      "sha256": "8e78a1aa90f21d5a6db52872a7e0d10f54eeef36520437d4402331361d91d1a3"
+    },
+    {
+      "source": "scripts/g10_accept.py",
+      "snapshot": "09_g10_accept.py",
+      "sha256": "27e8c8a1726d9298fde9ad62df1189979fff3b9523ce946b5a7f65ab98ec7bc1"
+    }
+  ]
+}

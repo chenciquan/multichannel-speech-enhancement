@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "verification_seconds": 62.95240911,
+  "A_forwards": 14,
+  "C_forwards": 7448,
+  "inputs": 1064,
+  "rows": 8512,
+  "all_models_all_19_angles_present": true,
+  "all_input_reference_output_hashes_verified": true,
+  "curve_independent_max_error": 1.3322676295501878e-15,
+  "protected_files_unchanged": true,
+  "all_7_weights_unchanged": true,
+  "disk_bytes": 2599482032,
+  "git_status": "## No commits yet on main\n?? .gitattributes\n?? .gitignore\n?? AGENTS.md\n?? README.md\n?? configs/\n?? docs/\n?? requirements-adaptation.lock.txt\n?? requirements-diagnostics.lock.txt\n?? requirements-diagnostics.txt\n?? requirements-inference.lock.txt\n?? requirements-inference.txt\n?? requirements-room.lock.txt\n?? scripts/\n?? src/\n?? tests/\n",
+  "ASR_executed": false,
+  "training_executed": false,
+  "B_seconds": 97.49708900399999,
+  "C_seconds": 1088.969612874,
+  "curves_seconds": 10.965446706999998,
+  "C_peak_allocated_bytes": 1712467968,
+  "C_peak_reserved_bytes": 3183476736,
+  "clean_fidelity": [
+    {
+      "system": "noisy",
+      "n": 152,
+      "NMSE_mean": 0.0,
+      "RMS_gain_mean": 1.0
+    },
+    {
+      "system": "mcnet",
+      "n": 152,
+      "NMSE_mean": 0.006317020950037401,
+      "RMS_gain_mean": 0.9789097314199696
+    },
+    {
+      "system": "g5/fixed_without_clean_identity_s20261112",
+      "n": 152,
+      "NMSE_mean": 0.0737700696530934,
+      "RMS_gain_mean": 0.8565496678485246
+    },
+    {
+      "system": "g5/fixed_without_clean_identity_s20261113",
+      "n": 152,
+      "NMSE_mean": 0.08354628422982875,
+      "RMS_gain_mean": 0.838611892797104
+    },
+    {
+      "system": "g5/fixed_without_clean_identity_s20261114",
+      "n": 152,
+      "NMSE_mean": 0.09095513052597937,
+      "RMS_gain_mean": 0.8313752662111291
+    },
+    {
+      "system": "g15/rigid_without_clean_identity_s20261112",
+      "n": 152,
+      "NMSE_mean": 0.01188931042553304,
+      "RMS_gain_mean": 0.9470283278557439
+    },
+    {
+      "system": "g15/rigid_without_clean_identity_s20261113",
+      "n": 152,
+      "NMSE_mean": 0.01446672543611713,
+      "RMS_gain_mean": 0.9472134705038613
+    },
+    {
+      "system": "g15/rigid_without_clean_identity_s20261114",
+      "n": 152,
+      "NMSE_mean": 0.013257096267314153,
+      "RMS_gain_mean": 0.9446552453041496
+    }
+  ],
+  "delivery_script_sha256": "24ce05bd4927126bfe7ae7b085048c2ec7ab149d40e04a98217d8bb04ae3e80c"
+}

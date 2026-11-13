@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:05:14.435937+00:00",
+  "files": [
+    {
+      "source": "docs/G27_CTC双电平识别覆盖.md",
+      "snapshot": "00_G27_CTC双电平识别覆盖.md",
+      "sha256": "061ade40c082bc443a0643cb731ef56f851dc938898d6522372f2cf957b11a8e"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/CTC/raw/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "525452a85d74db5b67594d8702b85e7e93562066e3c3df3f2b05b559b8f89d18"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/CTC/level_control/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "2adbab80fc66632382295dde2a1acdc22c2f7fda80a1112a2925d136d3897507"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/CTC/raw/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "39f14864e262928e9f3c63e76ba666d3e424ea1fae749016d6b9ae139fcdceef"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/CTC/level_control/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "5c55739d24f253abd9c2e9bab2d56c27210b00af5730cbae7a1ad3ae25930954"
+    }
+  ]
+}

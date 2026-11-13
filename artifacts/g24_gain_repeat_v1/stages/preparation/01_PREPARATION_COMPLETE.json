@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T19:54:20.146742+00:00",
+  "rows": 1920,
+  "base_pairs": 480,
+  "new_waveforms": 960,
+  "all_binary_inverse_samples_exact": true,
+  "manifest_sha256": "307753b1b677c506832bc19341cdf0a6f4c75a09abd1bbce3bbb5b08b3c57cc5",
+  "ASR_run": false
+}

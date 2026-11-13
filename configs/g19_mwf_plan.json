@@ -1,0 +1,19 @@
+{
+  "question": "同一增强前端、房间条件及掩码下，固定多通道 Wiener 滤波和 Souden MVDR 的噪声衰减与语音失真权衡如何随反射变化？",
+  "scope": "已查看的 G18 单房间配对对照。沿用 8 句、4 人、2 种录音、3 种请求 RT 和全部 504 个条件。",
+  "methods": "十个原有神经前端分别生成一个 MWF 输出。复用全部 10584 条历史信号，新增 5040 条。完整比较包含31个系统，各504例。",
+  "mu": 1.0,
+  "relative_diagonal_loading": 1e-7,
+  "absolute_diagonal_loading": 1e-10,
+  "mask_epsilon": 1e-10,
+  "reference_channel_zero_based": 4,
+  "stft": "512-point periodic Hann, hop128, center reflect, exact-length ISTFT",
+  "covariance": "Rs=sum(mXX^H)/T, Rn=sum((1-m)XX^H)/T. Half-power spectral masks come from the saved neural mono estimate and mixture minus estimate as in G18.",
+  "probe": "First source in G18 selected_sources, OOFFICE point relative -80 target20 at all three RTs, plus clean at RT.35 target20. All ten neural estimates. Compare mask means with the corresponding saved MVDR diagnostics.",
+  "analysis": "同前端 MWF 减 MVDR 为主对照，同时保留直接输出。按 RT、噪声、角度、种子和说话人读回。WER 用总错误数除以参考词数。干净控制另报 RMS 增益和归一化平方误差。",
+  "expected_new_rows": 5040,
+  "expected_total_rows": 15624,
+  "max_signal_seconds": 7200,
+  "max_ASR_seconds": 7200,
+  "development_only": true
+}

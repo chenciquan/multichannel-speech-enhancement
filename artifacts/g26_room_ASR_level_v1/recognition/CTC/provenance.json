@@ -1,0 +1,33 @@
+{
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "ASR_regime": "level_control_v1",
+  "input_preprocessing": {
+    "target_rms": 0.05,
+    "peak_limit": 0.95,
+    "formula": "min(target_rms/RMS(x),peak_limit/maxabs(x)); zero remains zero",
+    "precision": "float32 input -> float64 coefficient and multiply -> float32 output",
+    "code_sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "preprocessing_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851"
+  },
+  "seed": {
+    "provenance_sha256": "337fefa5f49b564f17d9d22646b958b455687130c9b97f05d258d34c224d7499",
+    "observations_sha256": "7d15dcbf1bbd6d60b47e325c17360ee0c1e59149802bff682e08dc58b94e9f0a"
+  },
+  "initial_compatible_cache_entries": 480,
+  "cache_policy": "Exact normalized PCM bytes, same preprocessing/model/options; G25 seed only, then new observations",
+  "plan_sha256": "1e834f0e2284e495b587287f7e17f0bb1b67df9e87b8c7aa295e8526cdf52582",
+  "previous_archive_sha256": "cc5453d59c47ca955e4ff93f84796d2ce27c20036f594f12dd3739ee03e19ff4",
+  "started_utc": "2026-11-12T23:50:33.134083+00:00"
+}

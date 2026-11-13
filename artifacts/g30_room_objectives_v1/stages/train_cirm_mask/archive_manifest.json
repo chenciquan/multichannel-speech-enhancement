@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:44:20.102834+00:00",
+  "files": [
+    {
+      "source": "docs/G30_cirm_mask_训练覆盖与资源.md",
+      "snapshot": "00_G30_cirm_mask_训练覆盖与资源.md",
+      "sha256": "7c1f31d606d610d956de8b7edc14dd6f5b62efeaee7a5c201a4be837929e892a"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/train/cirm_mask/result.json",
+      "snapshot": "01_result.json",
+      "sha256": "a81d5ca8fd6c54ec4defcba114f0febcdc9a4b14c8b2cbc1b789a9c373772bf7"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/train/cirm_mask/config.json",
+      "snapshot": "02_config.json",
+      "sha256": "f01a5106ef9ad671307fb4b847cfc52610dce698255eab224e7ee9ae8ee20878"
+    },
+    {
+      "source": "scripts/g30_train.py",
+      "snapshot": "03_g30_train.py",
+      "sha256": "fc344fd5c01058ff2e69de930715cc58782fc938aae8ccc0356b33cb006e83fd"
+    }
+  ]
+}

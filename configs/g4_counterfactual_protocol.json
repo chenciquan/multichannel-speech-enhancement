@@ -1,0 +1,110 @@
+{
+  "status": "frozen_before_G4_outputs",
+  "entry_gate": "G3 major report, completion audit and completion-stage archive must exist before any G4 experiment starts",
+  "rationale": "G3 target direction fixed; its point-source angle is coupled with SNR. Frozen-model counterfactual stress test should distinguish target-direction dependence from content/recognizer variation.",
+  "sources": "8 existing G3 test sources chosen round-robin by sorted speaker ID and source ID, exhausting short speakers; preserve all four speakers. Same-source diagnostic, not independent new final test.",
+  "systems": [
+    {
+      "system": "noisy",
+      "kind": "noisy"
+    },
+    {
+      "system": "mcnet",
+      "kind": "mcnet"
+    },
+    {
+      "system": "ordinary_s20261112",
+      "kind": "adapter",
+      "path": "artifacts/g3_overnight_v1/train/ordinary_s20261112/adapter_03000.pt",
+      "step": 3000,
+      "checkpoint_sha256": "58e7b5373d06d4a80300ca091b4df848de064809d39ea370840ba3ac8778070f"
+    },
+    {
+      "system": "complete_s20261112",
+      "kind": "adapter",
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_03000.pt",
+      "step": 3000,
+      "checkpoint_sha256": "4c5e5ec0707306cde52f26df5585d494eb97151916d263cfbdd0251b94b05921"
+    },
+    {
+      "system": "without_stratification_s20261112",
+      "kind": "adapter",
+      "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_03000.pt",
+      "step": 3000,
+      "checkpoint_sha256": "98b9a833ca2af913f2baf9a6a422376ebbb582c71bb2933eba6883d7aa5745eb"
+    },
+    {
+      "system": "without_clean_identity_s20261112",
+      "kind": "adapter",
+      "path": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "step": 3000,
+      "checkpoint_sha256": "b238fa81ad17dca8d31848e7dd1c88889ac0bd388bd91151429555dd1129cc89"
+    }
+  ],
+  "target_azimuth_deg": [
+    -30,
+    20,
+    60
+  ],
+  "target_elevation_deg": 10,
+  "noise_azimuth_deg": [
+    -60,
+    45
+  ],
+  "noise_elevation_deg": -15,
+  "snr_db": [
+    -5,
+    0,
+    5
+  ],
+  "noise_types": [
+    "OOFFICE",
+    "PCAFETER"
+  ],
+  "noise_time_interval_seconds": [
+    180,
+    295
+  ],
+  "core_cases": 288,
+  "extra_faults": "At target20/SNR0, gain and latency conditions crossed with both noise types and both angles, 64 additional cases",
+  "gain_db_per_channel": [
+    1.5,
+    -1.5,
+    0.75,
+    -0.75,
+    0,
+    1.0
+  ],
+  "latency_samples_per_channel": [
+    0,
+    1,
+    -1,
+    2,
+    0,
+    -2
+  ],
+  "latency_operator": "zero-padded fixed shifts, no circular wrap; not clock drift",
+  "clean_cases": 24,
+  "total_cases_per_system": 376,
+  "counterfactual_control": "Reuse same noise clip per source/noise type across geometry and SNR. Choose shared anti-clipping scalar across all target/noise-angle/fault variants for each source/noise/SNR. Ref microphone4 gain0dB/latency0, so its exact saved mono samples must match across spatial counterfactuals. Clean ref must also match. Quantify/audit equality, do not just assume.",
+  "analysis": "target x noise angle fully crossed within each SNR, noise type and source; clean-input direction dependence; paired gain/latency sensitivity; report all methods, no best-case selection; no acoustic word-deletion labels",
+  "simulation_scope": "plane-wave nominal geometry only, no measured diffuse field or reverberant-room claim",
+  "execution_candidate": "Generic frozen evaluator with BLAS limit1 and two CPU metric workers, single GPU inference. Reuse fixed Whisper options and verify any reused cache provenance. These are engineering choices, not model changes.",
+  "report_before_next_stage": true,
+  "session_deadline_utc": "2026-11-11T21:54:15Z",
+  "possible_followup_not_authorized_to_run_yet_by_stage_gate": "If fixed-target overfitting is supported, compare balanced LoRA with fixed-target vs randomized-target paired training as a strong ordinary augmentation control. Register before training; seek fresh speaker-balanced confirmation sources rather than recycling G3/G4 discovery for selection. One paired seed minimum, extra pairs only by pre-registered time margin. Components known; do not call augmentation an innovation. If no stable geometry issue, prioritize resource profiling and thesis evidence consolidation instead.",
+  "frozen_utc": "2026-11-11T19:29:49.537689+00:00",
+  "previous_major_report_sha256": "1ef4e868689e8aaa38d3fe9e4f1f4ac32ff8f3498ed9f413317b987a0c555c92",
+  "previous_completion_archive_sha256": "794a510def32307d564ae0af4db390d8c72fee8b0056bae7539078c48e73d2a5",
+  "selected_source_ids": [
+    "1673-143397-0009",
+    "5536-43358-0000",
+    "8297-275154-0005",
+    "84-121123-0000",
+    "5536-43358-0012",
+    "8297-275154-0009",
+    "84-121123-0007",
+    "5536-43358-0014"
+  ],
+  "seed": 2026111401
+}

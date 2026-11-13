@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-12T07:42:34.403094+00:00",
+  "plan_sha256": "1c9caaae315aaea2f624b5ea2c2c2d3fdd58287530f984f5a6321417854ca510",
+  "preflight_archive_sha256": "0b52b5d559520b79118ab2e64326a2223764dad717166e2e1078443b0235fefc",
+  "CUDA_initialized": false,
+  "CPU_threads": 2,
+  "precision": "float64/complex128; wavecomponents float32 like saved output",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "torchaudio": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "soundfile": "0.12.1"
+  },
+  "no_training_or_ASR": true,
+  "seeds": [
+    20261112,
+    20261113,
+    20261114
+  ],
+  "component_module_sha256": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a"
+}

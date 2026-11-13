@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:49:32.526125+00:00",
+  "rows": 1404,
+  "direct": 540,
+  "filters": 864,
+  "signals_sha256": "787c83be5cdc8c777b67374be2834f59c8017f4228c864a016fc7f87d6bb2bb7",
+  "elapsed_seconds": 121.42464628499988,
+  "ASR_performed": false
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:34:32.014655+00:00",
+  "files": [
+    {
+      "source": "docs/G22_房间配对差值图说明.md",
+      "snapshot": "00_G22_房间配对差值图说明.md",
+      "sha256": "8222b6f3db7db6d541e6515fbdd710e0d2c6e8cef32840551afcf3d33c8c1723"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/matched_room_MVDR_deltas.png",
+      "snapshot": "01_matched_room_MVDR_deltas.png",
+      "sha256": "3ff2aa4284df6ae8db3e15aaa7626024b634449844d562172d22c0bed8d1c1a5"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/matched_room_MVDR_deltas.pdf",
+      "snapshot": "02_matched_room_MVDR_deltas.pdf",
+      "sha256": "b60773fbd99daab97a912d8692488f08f7e99e6ce9857e517a15c675b7b9116a"
+    },
+    {
+      "source": "scripts/g22_plot.py",
+      "snapshot": "03_g22_plot.py",
+      "sha256": "1f3818470ccc4b8ac590acc6341088e87bb1006e9def1b8ac40b471b96315fe0"
+    }
+  ]
+}

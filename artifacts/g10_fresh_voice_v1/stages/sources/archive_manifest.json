@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T04:41:33.481062+00:00",
+  "files": [
+    {
+      "source": "docs/G10A_新说话人语料选择记录.md",
+      "snapshot": "00_G10A_新说话人语料选择记录.md",
+      "sha256": "1e9dd223e9477e96f8f8e1ab784bc54dc6893ddfde5011b5bea93d3e08220065"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "d5792011563d2ba542541216fb1d4c82808a169ae83a2933c21d7cbfcd9c9e8f"
+    },
+    {
+      "source": "data/g10_v1/sources/status.json",
+      "snapshot": "02_status.json",
+      "sha256": "0c68741d4ec37f5d694e2dfbfe54a3aac8ebbd27c5eee11c0d2120bc200ce6ae"
+    },
+    {
+      "source": "data/g10_v1/sources/speech_manifest.jsonl",
+      "snapshot": "03_speech_manifest.jsonl",
+      "sha256": "577522cfea94fb24f31001edd0e37a22109fe8c233da6f21e3bddfd8e97a8b7c"
+    },
+    {
+      "source": "configs/g10_fresh_speaker_plan.json",
+      "snapshot": "04_g10_fresh_speaker_plan.json",
+      "sha256": "9dc97a8830fc4e8dc6d48d981d820521f48974a6c5b5505aa67b8157f0fa4e9a"
+    },
+    {
+      "source": "scripts/g10_fetch.py",
+      "snapshot": "05_g10_fetch.py",
+      "sha256": "0de2af2f474668adcdf56da6e30fcd3b0f0f7edd9bd6ea8c532fc6677ab2d048"
+    }
+  ]
+}

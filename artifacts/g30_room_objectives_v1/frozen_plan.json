@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-13T00:39:17.273813+00:00",
+  "seed": 20261113,
+  "steps_each": 1500,
+  "variants": [
+    "cirm",
+    "cirm_mask",
+    "cirm_shape"
+  ],
+  "learning_rate": 0.0003,
+  "optimizer": "Adam",
+  "gradient_clip": 5.0,
+  "batch": 1,
+  "FP32": true,
+  "AMP": false,
+  "rank": 4,
+  "alpha": 4,
+  "trainable_parameters": 3584,
+  "checkpoint_steps": [
+    500,
+    1000,
+    1500
+  ],
+  "registration": "Prescribed1500 for all variants, no development/model selection during training",
+  "sampling": "Uniform fixed schedule of1500 indices from576, same for all variants; no validation/test in trainer",
+  "calibration_indices": [
+    0,
+    3,
+    10,
+    5,
+    7,
+    2
+  ],
+  "calibration_aux_strength": 0.1,
+  "coefficient_rule": "lambda=.1*median_over6(||grad originalcIRM||2/||grad auxiliary||2), separate maskedMSE and shape; initialsameLoRA, no updates, no dev/test score access",
+  "losses": {
+    "cirm": "original compressed cIRM MSE",
+    "cirm_mask": "cIRM+lambda_mask*power_ratio_mask_MSE",
+    "cirm_shape": "cIRM+lambda_shape*.5*(speech+noise true-mask-mixture covariance trace-shape loss)"
+  },
+  "truth_scope": "Auxiliary statistic target uses oracle power mask applied to noisy mixture, NOT true6ch source SCM",
+  "max_calibration_seconds": 600,
+  "max_run_seconds": 1200,
+  "max_queue_seconds": 4500,
+  "failure_policy": "Preserve and stop on timeout, nonfinite, wrong step count, unequal initial/base digests or data modification; no silent retry",
+  "hashes": {
+    "scripts/g30_prepare.py": "3887cd67cf32b546ffe846bba565206f45f8a37c970aaae463d83d1ea050b6f3",
+    "scripts/g30_common.py": "f518589cea1a6d2c3208f2e11d07025ff72a10ba37ba91c032b4590a5bcacf38",
+    "scripts/g30_calibrate.py": "9bff42da0d8301e9dd2f32f6f64c5838f109b8da8ac474319eb9421a1b652aa4",
+    "scripts/g30_train.py": "fc344fd5c01058ff2e69de930715cc58782fc938aae8ccc0356b33cb006e83fd",
+    "scripts/g30_queue.py": "bcfb49905142b4b08568ed5c6d8ba86f5d4893d697d36dacf008a9fd7c184656",
+    "scripts/g30_accept.py": "a3337c2eddd9b1805b5cf97e0e84905e9e4c55b7dd69a74ddbf95998c24e4bf3",
+    "scripts/g28_gradient_v2.py": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82",
+    "scripts/mcnet_infer.py": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "scripts/g29_common.py": "0cba92d54ef641337a1aed53b115d21214a5e03783f44050bb6d0d98eb007bc2",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "configs/g31_development_protocol.json": "bc4f4c5c6d14c5a3d6ae509b432c7db557307c065e012045aafcade38ef8dc96",
+    "data/g29_v1/train_x.npy": "9be99bf914f8cd341eed52ef34e845b081d63b18c811ff56b177b7d77e3dd701",
+    "data/g29_v1/train_y.npy": "c0552775cad705e610149b5efce5bc567072ca8688a852c560898d0dd7c6b551",
+    "data/g29_v1/train_manifest.jsonl": "f18bde8a94a656a9fa0ee322dfd91e61648427627b7e792d1cdb315450d3f568",
+    "artifacts/g29_room_development_v1/FINAL_ACCEPTANCE_AUDIT.json": "8e6e4ca75c47737219f4a5dc119bc9a630a64075804f45a6f58d02fa5e0bf559"
+  }
+}

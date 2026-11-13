@@ -1,0 +1,21 @@
+{
+  "manifest": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_factorial_v1/manifest.jsonl",
+  "valid": true,
+  "audio_checked": true,
+  "row_count": 48,
+  "schema_valid_records": 48,
+  "unique_sources": 6,
+  "unique_speakers": 6,
+  "by_split": {
+    "discovery": 48
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "PROVENANCE_REVIEW_REQUIRED",
+      "message": "Channel count does not verify a real array. Review geometry, timing, noise/RIR splits and permissions separately.",
+      "line": null,
+      "sample_id": null
+    }
+  ]
+}

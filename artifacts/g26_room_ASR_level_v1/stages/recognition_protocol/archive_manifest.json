@@ -1,0 +1,60 @@
+{
+  "saved_utc": "2026-11-12T23:38:17.938327+00:00",
+  "files": [
+    {
+      "source": "docs/G26C_完整电平双识别器执行协议.md",
+      "snapshot": "00_G26C_完整电平双识别器执行协议.md",
+      "sha256": "ee3fd42478c214f813e0f591a7fa9be1d94d130ff99afcd667c04569277097d8"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "1e834f0e2284e495b587287f7e17f0bb1b67df9e87b8c7aa295e8526cdf52582"
+    },
+    {
+      "source": "scripts/g26_asr.py",
+      "snapshot": "02_g26_asr.py",
+      "sha256": "0f5f6e8537c0bdf4b3d83234128d0b496231c1ec6988e0c3cb215776aa8f6795"
+    },
+    {
+      "source": "scripts/g26_finish.py",
+      "snapshot": "03_g26_finish.py",
+      "sha256": "b730875565571d6dbf7ea5ead963b629b0464df533d050751ed41a43556b2ea3"
+    },
+    {
+      "source": "scripts/g26_accept.py",
+      "snapshot": "04_g26_accept.py",
+      "sha256": "d5ea11d3e33d74752727cdcd7e796f57e7b92bc7858d1ab83e278e893d641a88"
+    },
+    {
+      "source": "scripts/g26_prepare.py",
+      "snapshot": "05_g26_prepare.py",
+      "sha256": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc"
+    },
+    {
+      "source": "src/mcse/asr_level.py",
+      "snapshot": "06_asr_level.py",
+      "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "07_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "08_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "09_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "10_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    }
+  ]
+}

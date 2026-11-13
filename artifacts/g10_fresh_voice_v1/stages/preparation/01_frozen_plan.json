@@ -1,0 +1,60 @@
+{
+  "status": "registered_before_fresh_source_download_and_outputs",
+  "entry_gate": "G9 FINAL_ACCEPTANCE_AUDIT ok and acceptance snapshot saved",
+  "question": "On genuinely new voices, does using a frozen spatial adapter as a standard MVDR mask source change the fixed-versus-rotated direction tradeoff compared with its direct waveform output?",
+  "selection_notice": "Narrowing to no-clean-identity branch follows viewed G5-G9 evidence; fresh voices test this narrowed hypothesis. No claim that the excluded identity branch is universally worse.",
+  "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+  "official_record": "https://www.openslr.org/12",
+  "source_license": "CC-BY-4.0",
+  "source_selection": "First4 fully eligible unseen speakers in archive order,4 complete1-3.8s mono16k FLACs each with full official transcripts. Exclude all G1/G2/G3/G5 speaker IDs,source IDs and source-file SHA. No ASR/quality selection and no fallback.",
+  "compressed_stream_cap_bytes": 234881024,
+  "fetch_timeout_seconds": 1200,
+  "noise_ids": [
+    "OOFFICE",
+    "PCAFETER",
+    "NPARK",
+    "PSTATION"
+  ],
+  "noise_notice": "Reuse four existing recordings; fresh speakers,not unseen noise recordings or real rooms. No new noise download.",
+  "target_azimuth_degrees": [
+    -40,
+    20,
+    70
+  ],
+  "target_elevation_degrees": 10,
+  "snr_db": [
+    0
+  ],
+  "fields": [
+    "point_relative_minus80",
+    "point_relative_plus25",
+    "multi8"
+  ],
+  "noise_interval_seconds": [
+    30,
+    240
+  ],
+  "seed": 2026111701,
+  "simulator": "Same nominal six-mic free-field,FIR guard64,HPF40 before active-SNR,whole-scene rotation,shared clips/common scale per3-target group; assert identical noisy ref mic4 and clean reference across target angles.",
+  "cases_per_system": 624,
+  "noisy_cases_per_system": 576,
+  "clean_cases_per_system": 48,
+  "direct_systems": "Noisy,originalMcNet,all3 G5 seeds each fixed/rotated without_clean_identity:8 systems.",
+  "MVDR_systems": "OriginalMcNet estimate and each of6 adapter estimates -> same frozen G9 mask_mvdr implementation/settings:7 systems. No oracle in primary G10.",
+  "expected_signal_pairs": 9360,
+  "expected_ASR_pairs_each_backend": 9360,
+  "primary_analysis": "Direct-to-MVDR change for originalMcNet and each geometry/all3 seeds, separately by target/noise; interaction of output mode and fixed/rotated training. No best-seed selection. All SI-SDR/PESQ/STOI and both original fixed ASR backends.",
+  "uncertainty": "Four independent speakers,four utterances each; descriptive per-speaker effects plus2000 speaker-cluster bootstrap,fixed seed20261112. Repeated conditions/seed rows do not increase independent sample count; no multiplicity-controlled significance claim.",
+  "clean_controls": "New full48 clean conditions for all15 systems, same sources and target-angle groups. ASR reference baseline is not a guaranteed mathematical WER lower bound.",
+  "stage_gates": "Source report/snapshot -> data+systems report/snapshot -> direct signals report -> MVDR signals report -> Whisper report -> CTC+joint total report/audit. Preserve failures and snapshots,never overwrite old projects.",
+  "max_data_seconds": 1500,
+  "max_signal_seconds": 5400,
+  "max_ASR_seconds": 7200,
+  "no_new_training_optimizer_dependency_ASR_or_SE_weights": true,
+  "novelty_claim": false,
+  "frozen_utc": "2026-11-12T04:40:39.358072+00:00",
+  "previous_archive_sha256": "bad3fd13c8d69b2ff573aa6cd2167f97fc6805395164247e20a7de4275ce78bc",
+  "geometry_sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+  "beamforming_code_sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+  "systems_sha256": "8031196852a13a7faf435c85b95ca92e51d7fe0455a45868fd1b1a1f6aef8b7b"
+}

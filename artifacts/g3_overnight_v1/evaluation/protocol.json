@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-11T18:29:18.359815+00:00",
+  "selection_manifest_sha256": "84aa3c231ffd96c5184fba232e2d13bd895c20a256ca027b2c1fa3ee4413f4fd",
+  "selection_manifest": "selected_checkpoints_extended.json",
+  "selection_before_test": true,
+  "inference_dtype": "float32",
+  "no_waveform_peak_normalization": true,
+  "no_resampling": true,
+  "scoring": "Read saved FLOAT WAVs; SI-SDR, wideband PESQ, standard STOI; no implicit alignment",
+  "independent_test_sources": 30,
+  "test_mixtures": 360,
+  "test_sources_used_to_tune": false,
+  "test_speakers": 4
+}

@@ -1,0 +1,505 @@
+{
+  "status": "ok",
+  "stage": "G0/G1 runtime or baseline inference only",
+  "input": {
+    "kind": "synthetic_non_speech_smoke",
+    "seed": 20261105,
+    "human_content_fidelity_experiment": false,
+    "notice": "Numeric/shape/runtime validation only; no speech enhancement claim."
+  },
+  "output": null,
+  "provenance": {
+    "expected_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+    "checkout_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+    "verified_source_files": {
+      "src/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/model/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/util/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/model/mc_net.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/mc_net.py",
+        "bytes": 33438,
+        "sha256": "3fd0ca8a9b7473869b17551fffb837a5cb5efd5ee424aae954dff07fd1389ed6",
+        "git_blob_sha1": "4e7e87dc03b598ef01b993f49af5f3fb50ec6fd2"
+      },
+      "src/util/acoustic_utils.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/acoustic_utils.py",
+        "bytes": 10797,
+        "sha256": "e59bfaa28113b215f91729fe9efba43dc573f35272fe68f360914ef787baa25b",
+        "git_blob_sha1": "6735bd941cbefb22165f4ad50a44a62f1ee2e6ae"
+      },
+      "src/util/cal_metrics.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/cal_metrics.py",
+        "bytes": 3123,
+        "sha256": "3cd0f09cbba6f43dc822528824e84ed01995084038ab4d681efd95de64afa18f",
+        "git_blob_sha1": "e17e276f7b8a249cb4d419097f26e8c7dcf6901d"
+      },
+      "src/util/git_tools.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/git_tools.py",
+        "bytes": 800,
+        "sha256": "6db5a0c6b67436d3e119f8474291b538c44b43f8a0ae0f433f6121eed17562a4",
+        "git_blob_sha1": "ec168f73e48add63a164a137f5d1c54b24195c44"
+      },
+      "src/util/my_json_encoder.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/my_json_encoder.py",
+        "bytes": 513,
+        "sha256": "5829889b0ca25bd4fe307617523ac6b936bec00b1e7e001ab6e65e872046019a",
+        "git_blob_sha1": "a12096ffc08aebc230a0682f3b73cf01b726ef1f"
+      },
+      "config/mc_net_offline.yaml": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/config/mc_net_offline.yaml",
+        "bytes": 3546,
+        "sha256": "184e4a02ec5e0e163fe6928e2c5eb5702b3d611a34adf5ab4d2a6679a5885618",
+        "git_blob_sha1": "cb197b8155cf5327b01ba9ba4ab6a83ebbbef3f5"
+      }
+    },
+    "checkpoint": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/model_checkpoints/offline/epoch494_criteria18.78_sdr18.78.ckpt",
+      "bytes": 39999375,
+      "sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+      "git_blob_sha1": "b48a7907aaf279d17182782f765c27ac261c137d"
+    },
+    "license_status": "No explicit upstream LICENSE found in prior audit; use under the separately confirmed local permission."
+  },
+  "model": {
+    "model_config": {
+      "io": {
+        "class_path": "src.model.mc_net.cIRMIO",
+        "init_args": {
+          "selected_channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "ref_channel": 4,
+          "loss_func": "src.model.mc_net.stft_y_mse",
+          "ft_len": 512,
+          "ft_hop": 256,
+          "sliding_window_len": 192,
+          "use_cumulative_normalization": false
+        }
+      },
+      "freq": {
+        "class_path": "src.model.mc_net.RNN_FC",
+        "init_args": {
+          "input_size": 12,
+          "output_size": 64,
+          "hidden_size": 128,
+          "num_layers": 1,
+          "bidirectional": true,
+          "act_funcs": [
+            "",
+            "ReLU"
+          ],
+          "use_FC": true
+        }
+      },
+      "narr": {
+        "class_path": "src.model.mc_net.RNN_FC",
+        "init_args": {
+          "input_size": 76,
+          "output_size": 64,
+          "hidden_size": 256,
+          "num_layers": 1,
+          "bidirectional": true,
+          "act_funcs": [
+            "",
+            "ReLU"
+          ],
+          "use_FC": true
+        }
+      },
+      "sub": {
+        "class_path": "src.model.mc_net.RNN_FC",
+        "init_args": {
+          "input_size": 327,
+          "output_size": 64,
+          "hidden_size": 384,
+          "num_layers": 1,
+          "bidirectional": true,
+          "act_funcs": [
+            "",
+            "ReLU"
+          ],
+          "use_FC": true
+        }
+      },
+      "full": {
+        "class_path": "src.model.mc_net.RNN_FC",
+        "init_args": {
+          "input_size": 75,
+          "output_size": 2,
+          "hidden_size": 128,
+          "num_layers": 1,
+          "bidirectional": true,
+          "act_funcs": [
+            "",
+            ""
+          ],
+          "use_FC": true
+        }
+      },
+      "order": [
+        "freq",
+        "narr+X",
+        "sub3+XrMag",
+        "full4freq+XrMag"
+      ],
+      "sub_freqs": [
+        3,
+        2
+      ],
+      "look_past_and_ahead": [
+        5,
+        5
+      ],
+      "learning_rate": 0.001,
+      "optimizer_kwargs": {},
+      "lr_scheduler": "ExponentialLR",
+      "lr_scheduler_kwargs": {
+        "gamma": 0.992
+      },
+      "exp_name": "exp",
+      "use_dense_net": false,
+      "use_time_domain_loss": false
+    },
+    "model_config_sha256": "606e2cf0e65d24969eb9a94fc99c38ccb1c871e442db855c002ad75eef3677ed",
+    "parameter_count": 3328706,
+    "state_dict_shapes": {
+      "freq.fc_output_layer.bias": {
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.fc_output_layer.weight": {
+        "shape": [
+          64,
+          256
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.bias_hh_l0": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.bias_hh_l0_reverse": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.bias_ih_l0": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.bias_ih_l0_reverse": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.weight_hh_l0": {
+        "shape": [
+          512,
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.weight_hh_l0_reverse": {
+        "shape": [
+          512,
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.weight_ih_l0": {
+        "shape": [
+          512,
+          12
+        ],
+        "dtype": "torch.float32"
+      },
+      "freq.sequence_model.weight_ih_l0_reverse": {
+        "shape": [
+          512,
+          12
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.fc_output_layer.bias": {
+        "shape": [
+          2
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.fc_output_layer.weight": {
+        "shape": [
+          2,
+          256
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.bias_hh_l0": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.bias_hh_l0_reverse": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.bias_ih_l0": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.bias_ih_l0_reverse": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.weight_hh_l0": {
+        "shape": [
+          512,
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.weight_hh_l0_reverse": {
+        "shape": [
+          512,
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.weight_ih_l0": {
+        "shape": [
+          512,
+          75
+        ],
+        "dtype": "torch.float32"
+      },
+      "full.sequence_model.weight_ih_l0_reverse": {
+        "shape": [
+          512,
+          75
+        ],
+        "dtype": "torch.float32"
+      },
+      "io.window": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.fc_output_layer.bias": {
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.fc_output_layer.weight": {
+        "shape": [
+          64,
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.bias_hh_l0": {
+        "shape": [
+          1024
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.bias_hh_l0_reverse": {
+        "shape": [
+          1024
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.bias_ih_l0": {
+        "shape": [
+          1024
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.bias_ih_l0_reverse": {
+        "shape": [
+          1024
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.weight_hh_l0": {
+        "shape": [
+          1024,
+          256
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.weight_hh_l0_reverse": {
+        "shape": [
+          1024,
+          256
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.weight_ih_l0": {
+        "shape": [
+          1024,
+          76
+        ],
+        "dtype": "torch.float32"
+      },
+      "narr.sequence_model.weight_ih_l0_reverse": {
+        "shape": [
+          1024,
+          76
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.fc_output_layer.bias": {
+        "shape": [
+          64
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.fc_output_layer.weight": {
+        "shape": [
+          64,
+          768
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.bias_hh_l0": {
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.bias_hh_l0_reverse": {
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.bias_ih_l0": {
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.bias_ih_l0_reverse": {
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.weight_hh_l0": {
+        "shape": [
+          1536,
+          384
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.weight_hh_l0_reverse": {
+        "shape": [
+          1536,
+          384
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.weight_ih_l0": {
+        "shape": [
+          1536,
+          327
+        ],
+        "dtype": "torch.float32"
+      },
+      "sub.sequence_model.weight_ih_l0_reverse": {
+        "shape": [
+          1536,
+          327
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "state_dict_sha256": "e80b8464a1904fc8f3cf690674d6968492cb11327b30ebb53e88ca7d0f269158",
+    "checkpoint_epoch": 494,
+    "checkpoint_global_step": 1178100,
+    "checkpoint_lightning_version": "1.7.1",
+    "strict_state_dict_load": true,
+    "torchmetrics_public_function_exports_added": [
+      "perceptual_evaluation_speech_quality",
+      "short_time_objective_intelligibility"
+    ],
+    "quality_metrics_computed": false
+  },
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "soundfile": "0.12.1",
+    "pytorch-lightning": "1.9.5",
+    "torchmetrics": "0.11.4",
+    "librosa": "0.10.2.post1"
+  },
+  "python": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch_cuda_runtime": "12.1",
+  "sample_rate_hz": 16000,
+  "channels": 6,
+  "reference_channel_zero_based": 4,
+  "duration_seconds": 4.0,
+  "samples": 64000,
+  "dtype": "torch.float32",
+  "stft": {
+    "n_fft": 512,
+    "hop_length": 256,
+    "window": "periodic Hann",
+    "center": true,
+    "frequencies": 257
+  },
+  "compatibility_adapter": "Original McNet forward + original icIRM decoder; real/imag pairs converted to complex before Torch 2.x ISTFT.",
+  "upstream_source_edited": false,
+  "training_performed": false,
+  "resampling_or_chunking": false,
+  "per_utterance_peak_normalization": false,
+  "output_format": null,
+  "output_abs_peak": 0.0032072453759610653,
+  "output_samples_above_one": 0,
+  "input_abs_peak": 0.043635305017232895,
+  "output_rms": 0.00038151207848981884,
+  "model_load_seconds": 77.7695099099983,
+  "inference_seconds": 0.8334785080005531,
+  "rtf_including_stft_istft_excluding_load_and_disk_io": 0.20836962700013828,
+  "cuda_peak_allocated_bytes_including_model_load": 1944559104,
+  "cuda_peak_reserved_bytes_including_model_load": 3611295744,
+  "timing_notice": "Single cold inference; not a warmed throughput benchmark or a streaming latency measurement."
+}

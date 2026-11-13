@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T18:20:33.488449+00:00",
+  "cases": 432,
+  "systems": 33,
+  "rows_per_ASR": 14256,
+  "new_rows_per_ASR": 864,
+  "ASR": {
+    "Whisper": {
+      "combined_rows": 14256,
+      "new_rows": 864,
+      "new_scores_and_cache_verified": true,
+      "cache_sha256": "76e4f6df331cd3388827da7a00cfdb346099e20c2d2da9fbb3f266488c12ef7f",
+      "score_sha256": "0a7231612e839acba34387a4c6866c030b850c0e2db3dbe3c606fa6343500a04"
+    },
+    "CTC": {
+      "combined_rows": 14256,
+      "new_rows": 864,
+      "new_scores_and_cache_verified": true,
+      "cache_sha256": "8b31acb5026d84ca995be8c91112afc83de094e01ae66175a0d09ae96bae9319",
+      "score_sha256": "1b90ee3e7511ac662731bf4dd7ff9e948a6360eef2188a61c78661b39669facf"
+    }
+  },
+  "signal_sha256": "f488c3456b28c9cdb9e273ebdbe790cb5a1a5e9bea8b7c085d4828b5fd365160",
+  "summary_sha256": "a5cd9c8d69514ab16a670b1d231b79d497995f59aa9eb28cc02c6a8ac9f75509"
+}

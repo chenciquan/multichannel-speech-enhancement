@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-12T18:34:05.697240+00:00",
+  "files": [
+    {
+      "source": "docs/G22B_匹配房间数据与负控制报告.md",
+      "snapshot": "00_G22B_匹配房间数据与负控制报告.md",
+      "sha256": "952a2ef29cd99bd9ca52636606cc36ff5058f455140f5dc03280604d265ab2d4"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/DATA_COMPLETE.json",
+      "snapshot": "01_DATA_COMPLETE.json",
+      "sha256": "26e76e311a22dc003918efc0688c0b8c3fd728b94c51b1e85434a91b77364e56"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/RT0_controls.json",
+      "snapshot": "02_RT0_controls.json",
+      "sha256": "ce89126d30d88fa9cb5c2a1934c35be1934e8a2b456e55e4813cd192665912df"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/verified_files.json",
+      "snapshot": "03_verified_files.json",
+      "sha256": "e71459f7153b6767570187ea0e1bdefd2c2246352c38e0f21dd04a8ac8dde953"
+    },
+    {
+      "source": "data/g22_v1/manifest.jsonl",
+      "snapshot": "04_manifest.jsonl",
+      "sha256": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/frozen_plan.json",
+      "snapshot": "05_frozen_plan.json",
+      "sha256": "d083483db07de0121fc91a4b76596ba9c142273ef6e08cf295b5b013887fe327"
+    },
+    {
+      "source": "scripts/g22_prepare.py",
+      "snapshot": "06_g22_prepare.py",
+      "sha256": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419"
+    }
+  ]
+}

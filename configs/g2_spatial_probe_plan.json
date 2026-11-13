@@ -1,0 +1,27 @@
+{
+  "stage": "G2_controlled_spatial_noise_discovery",
+  "purpose": "Test whether changing non-reference noise channels explains weak suppression, while holding reference audio and speech field fixed",
+  "selection": "first source_id in each of the six existing discovery speakers, independent of new model outputs",
+  "source_utterances": 6,
+  "noises": ["DWASHING_ch01", "DKITCHEN_ch01"],
+  "snr_db": 0,
+  "noise_fields": ["original_point", "opposite_azimuth_point", "target_direction_point", "conditioned_12wave"],
+  "expected_mixtures": 48,
+  "fixed_factors": ["speech waveform and its six-channel field", "array positions", "exact noisy reference-channel samples", "reference-channel active SNR", "common scale for all conditions of each source", "model and decoding"],
+  "conditioned_12wave": {
+    "sources": 12,
+    "directions": "fixed Fibonacci sphere",
+    "source_signals": "p_k=n/K+(q_k-mean(q))/sqrt(K), q_k independent random-phase surrogates of n; summed reference exactly n",
+    "interpretation": "physically renderable conditional finite-wave sound field; not a real recording or exact diffuse-field realization",
+    "roundoff_policy": "after verifying error<1e-10, set reference to analytic padded n to ensure identical PCM bytes"
+  },
+  "seed": 2026111102,
+  "primary_contrast": "conditioned_12wave minus original_point in enhanced SI-SDR; the noisy reference is bit-identical",
+  "secondary_contrasts": ["opposite point vs original point", "target-direction point vs original point"],
+  "screening_rule": "A >=3dB primary difference in at least five of six speakers for each noise is an operational strong spatial-sensitivity signal, not a population significance test",
+  "confirmation_policy": "If a material contrast is observed, freeze its interpretation then use eight new complete utterances excluded from the original24, with two new random seeds; same-speaker repetition must be disclosed",
+  "training": false,
+  "model_modification": false,
+  "new_dependencies": false,
+  "data_role": "diagnostic discovery; not final method test"
+}

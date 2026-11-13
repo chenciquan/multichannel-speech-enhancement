@@ -1,0 +1,559 @@
+{
+  "created_at": "2026-11-11T21:30:34.003347+08:00",
+  "cases": 48,
+  "unique_sources": 24,
+  "unique_speakers": 6,
+  "asr_regression_candidates": [
+    "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "2086-149220-0032__DWASHING_ch01__snr0",
+    "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "777-126732-0074__DWASHING_ch01__snr5",
+    "7976-110124-0021__DWASHING_ch01__snr5"
+  ],
+  "increased_ASR_deletion_candidates": [
+    "2035-147960-0006__DKITCHEN_ch01__snr5"
+  ],
+  "plots": [
+    "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "2086-149220-0032__DWASHING_ch01__snr0",
+    "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "777-126732-0074__DWASHING_ch01__snr5",
+    "7976-110124-0021__DWASHING_ch01__snr5",
+    "1988-147956-0013__DKITCHEN_ch01__snr5",
+    "1988-147956-0013__DWASHING_ch01__snr0",
+    "2277-149896-0021__DKITCHEN_ch01__snr5",
+    "2086-149220-0020__DWASHING_ch01__snr0",
+    "2086-149220-0042__DKITCHEN_ch01__snr0"
+  ],
+  "plot_policy": "all ASR regressions + first two nonregressions + seeded random three; max16; all audio cases retained",
+  "human_judgements_completed": 0,
+  "confirmed_acoustic_deletions": null,
+  "grouped": {
+    "noise_snr": {
+      "DKITCHEN_ch01|0.0dB": {
+        "n": 12,
+        "noisy_si_sdr_db": {
+          "n": 12,
+          "mean": -0.8556474370255721
+        },
+        "enhanced_si_sdr_db": {
+          "n": 12,
+          "mean": -0.7853861014009076
+        },
+        "noisy_stoi": {
+          "n": 12,
+          "mean": 0.936482256031324
+        },
+        "enhanced_stoi": {
+          "n": 12,
+          "mean": 0.9382729938850226
+        },
+        "noisy_pesq_wb": {
+          "n": 12,
+          "mean": 1.239518940448761
+        },
+        "enhanced_pesq_wb": {
+          "n": 12,
+          "mean": 1.2639128764470418
+        },
+        "reference_asr": {
+          "N": 110,
+          "S": 11,
+          "D": 0,
+          "I": 2,
+          "errors": 13,
+          "wer": 0.11818181818181818
+        },
+        "noisy_asr": {
+          "N": 110,
+          "S": 19,
+          "D": 1,
+          "I": 3,
+          "errors": 23,
+          "wer": 0.20909090909090908
+        },
+        "enhanced_asr": {
+          "N": 110,
+          "S": 20,
+          "D": 1,
+          "I": 2,
+          "errors": 23,
+          "wer": 0.20909090909090908
+        }
+      },
+      "DKITCHEN_ch01|5.0dB": {
+        "n": 12,
+        "noisy_si_sdr_db": {
+          "n": 12,
+          "mean": 4.099362804786273
+        },
+        "enhanced_si_sdr_db": {
+          "n": 12,
+          "mean": 4.225838480723887
+        },
+        "noisy_stoi": {
+          "n": 12,
+          "mean": 0.9498248004783543
+        },
+        "enhanced_stoi": {
+          "n": 12,
+          "mean": 0.9532706145704252
+        },
+        "noisy_pesq_wb": {
+          "n": 12,
+          "mean": 1.4137995938460033
+        },
+        "enhanced_pesq_wb": {
+          "n": 12,
+          "mean": 1.467018594344457
+        },
+        "reference_asr": {
+          "N": 115,
+          "S": 9,
+          "D": 1,
+          "I": 2,
+          "errors": 12,
+          "wer": 0.10434782608695652
+        },
+        "noisy_asr": {
+          "N": 115,
+          "S": 16,
+          "D": 1,
+          "I": 3,
+          "errors": 20,
+          "wer": 0.17391304347826086
+        },
+        "enhanced_asr": {
+          "N": 115,
+          "S": 16,
+          "D": 2,
+          "I": 3,
+          "errors": 21,
+          "wer": 0.1826086956521739
+        }
+      },
+      "DWASHING_ch01|0.0dB": {
+        "n": 12,
+        "noisy_si_sdr_db": {
+          "n": 12,
+          "mean": -1.229615141573225
+        },
+        "enhanced_si_sdr_db": {
+          "n": 12,
+          "mean": -1.054032246316752
+        },
+        "noisy_stoi": {
+          "n": 12,
+          "mean": 0.9699989976648876
+        },
+        "enhanced_stoi": {
+          "n": 12,
+          "mean": 0.970960484221031
+        },
+        "noisy_pesq_wb": {
+          "n": 12,
+          "mean": 2.8594123224417367
+        },
+        "enhanced_pesq_wb": {
+          "n": 12,
+          "mean": 3.112141271432241
+        },
+        "reference_asr": {
+          "N": 115,
+          "S": 9,
+          "D": 1,
+          "I": 2,
+          "errors": 12,
+          "wer": 0.10434782608695652
+        },
+        "noisy_asr": {
+          "N": 115,
+          "S": 10,
+          "D": 1,
+          "I": 2,
+          "errors": 13,
+          "wer": 0.11304347826086956
+        },
+        "enhanced_asr": {
+          "N": 115,
+          "S": 11,
+          "D": 1,
+          "I": 2,
+          "errors": 14,
+          "wer": 0.12173913043478261
+        }
+      },
+      "DWASHING_ch01|5.0dB": {
+        "n": 12,
+        "noisy_si_sdr_db": {
+          "n": 12,
+          "mean": 4.26238654598626
+        },
+        "enhanced_si_sdr_db": {
+          "n": 12,
+          "mean": 4.410383380759021
+        },
+        "noisy_stoi": {
+          "n": 12,
+          "mean": 0.9888084708115065
+        },
+        "enhanced_stoi": {
+          "n": 12,
+          "mean": 0.9889432392205683
+        },
+        "noisy_pesq_wb": {
+          "n": 12,
+          "mean": 3.574517399072647
+        },
+        "enhanced_pesq_wb": {
+          "n": 12,
+          "mean": 3.685708701610565
+        },
+        "reference_asr": {
+          "N": 110,
+          "S": 11,
+          "D": 0,
+          "I": 2,
+          "errors": 13,
+          "wer": 0.11818181818181818
+        },
+        "noisy_asr": {
+          "N": 110,
+          "S": 11,
+          "D": 0,
+          "I": 2,
+          "errors": 13,
+          "wer": 0.11818181818181818
+        },
+        "enhanced_asr": {
+          "N": 110,
+          "S": 12,
+          "D": 0,
+          "I": 2,
+          "errors": 14,
+          "wer": 0.12727272727272726
+        }
+      }
+    },
+    "speaker": {
+      "1988": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 2.268881711838079
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 2.4408182079812417
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.9300317195413466
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9320613508841611
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 1.9796897768974304
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.181651934981346
+        },
+        "reference_asr": {
+          "N": 72,
+          "S": 2,
+          "D": 0,
+          "I": 0,
+          "errors": 2,
+          "wer": 0.027777777777777776
+        },
+        "noisy_asr": {
+          "N": 72,
+          "S": 8,
+          "D": 0,
+          "I": 0,
+          "errors": 8,
+          "wer": 0.1111111111111111
+        },
+        "enhanced_asr": {
+          "N": 72,
+          "S": 9,
+          "D": 0,
+          "I": 0,
+          "errors": 9,
+          "wer": 0.125
+        }
+      },
+      "2035": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 1.255202508734716
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 1.2679894235024167
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.9558365846838676
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9550630189649336
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 2.3209235817193985
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.333660766482353
+        },
+        "reference_asr": {
+          "N": 60,
+          "S": 8,
+          "D": 2,
+          "I": 4,
+          "errors": 14,
+          "wer": 0.23333333333333334
+        },
+        "noisy_asr": {
+          "N": 60,
+          "S": 10,
+          "D": 2,
+          "I": 3,
+          "errors": 15,
+          "wer": 0.25
+        },
+        "enhanced_asr": {
+          "N": 60,
+          "S": 10,
+          "D": 3,
+          "I": 4,
+          "errors": 17,
+          "wer": 0.2833333333333333
+        }
+      },
+      "2086": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 1.1159261237507898
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 1.415857820899625
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.9800392233780616
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9820365804499701
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 2.18028824031353
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.32380673289299
+        },
+        "reference_asr": {
+          "N": 86,
+          "S": 8,
+          "D": 0,
+          "I": 2,
+          "errors": 10,
+          "wer": 0.11627906976744186
+        },
+        "noisy_asr": {
+          "N": 86,
+          "S": 10,
+          "D": 1,
+          "I": 3,
+          "errors": 14,
+          "wer": 0.16279069767441862
+        },
+        "enhanced_asr": {
+          "N": 86,
+          "S": 11,
+          "D": 1,
+          "I": 3,
+          "errors": 15,
+          "wer": 0.1744186046511628
+        }
+      },
+      "2277": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 1.7382866540032755
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 1.78169856745939
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.972935425849914
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9719166633607104
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 2.673037678003311
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.670465961098671
+        },
+        "reference_asr": {
+          "N": 78,
+          "S": 2,
+          "D": 0,
+          "I": 0,
+          "errors": 2,
+          "wer": 0.02564102564102564
+        },
+        "noisy_asr": {
+          "N": 78,
+          "S": 4,
+          "D": 0,
+          "I": 1,
+          "errors": 5,
+          "wer": 0.0641025641025641
+        },
+        "enhanced_asr": {
+          "N": 78,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "errors": 5,
+          "wer": 0.0641025641025641
+        }
+      },
+      "777": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 2.0341017913800536
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 2.1814365610877626
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.9622049359065188
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9662482084905553
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 2.43611541390419
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.608612895011902
+        },
+        "reference_asr": {
+          "N": 80,
+          "S": 6,
+          "D": 0,
+          "I": 0,
+          "errors": 6,
+          "wer": 0.075
+        },
+        "noisy_asr": {
+          "N": 80,
+          "S": 10,
+          "D": 0,
+          "I": 0,
+          "errors": 10,
+          "wer": 0.125
+        },
+        "enhanced_asr": {
+          "N": 80,
+          "S": 10,
+          "D": 0,
+          "I": 0,
+          "errors": 10,
+          "wer": 0.125
+        }
+      },
+      "7976": {
+        "n": 8,
+        "noisy_si_sdr_db": {
+          "n": 8,
+          "mean": 1.0023313685536883
+        },
+        "enhanced_si_sdr_db": {
+          "n": 8,
+          "mean": 1.1074046897174354
+        },
+        "noisy_stoi": {
+          "n": 8,
+          "mean": 0.9666238981193997
+        },
+        "enhanced_stoi": {
+          "n": 8,
+          "mean": 0.9698451756952398
+        },
+        "noisy_pesq_wb": {
+          "n": 8,
+          "mean": 2.040817692875862
+        },
+        "enhanced_pesq_wb": {
+          "n": 8,
+          "mean": 2.174973875284195
+        },
+        "reference_asr": {
+          "N": 74,
+          "S": 14,
+          "D": 0,
+          "I": 2,
+          "errors": 16,
+          "wer": 0.21621621621621623
+        },
+        "noisy_asr": {
+          "N": 74,
+          "S": 14,
+          "D": 0,
+          "I": 3,
+          "errors": 17,
+          "wer": 0.22972972972972974
+        },
+        "enhanced_asr": {
+          "N": 74,
+          "S": 14,
+          "D": 0,
+          "I": 2,
+          "errors": 16,
+          "wer": 0.21621621621621623
+        }
+      }
+    }
+  },
+  "listening_copy_policy": "noisy input selects zero-based channel4; float32 samples exactly preserved; reference/enhanced link original mono files",
+  "playback_manifest": "playback_manifest.json",
+  "evidence_sha256": {
+    "cases": "274b61a2555149c49f8da8206f9a8f3590a8a3ae47cc883295941bbfb92c0cae",
+    "asr": "c706ae85d9197b82519f398551dfa90a1c760fa60bf68ebd199d9b982176b772",
+    "scores": "bead56a8c11fd31a4cc49c844ec478ed2ff12c54578759e86992404791896286"
+  },
+  "training_performed": false
+}

@@ -1,0 +1,1 @@
+{"status": "ok", "excluded_speakers": ["1673", "1988", "2035", "2086", "2277", "5536", "777", "7976", "8297", "84"], "plan": "configs/g5_rotation_plan.json", "selected_speakers": ["6345", "6295", "6313"], "sources": 12, "compressed_bytes_streamed": 99870720, "full_archive_saved": false, "elapsed_seconds": 98.34865522384644}

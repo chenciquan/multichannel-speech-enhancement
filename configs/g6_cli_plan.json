@@ -1,0 +1,17 @@
+{
+  "status": "frozen_before_prototype_QA",
+  "entry_gate": "G6A benchmark report and snapshot saved",
+  "default_system": "mcnet",
+  "registered_adapter_sources": ["G3 archived evaluation systems", "G5 archived selected checkpoints"],
+  "input": "six real microphone channels,16000Hz,512..64000 samples, finite float32; no conversion/chunking; reference index4",
+  "outputs": "new mono FLOAT WAV plus new provenance JSON, refuse overwrites/alias paths before model load",
+  "primary_QA_input": "First lexicographic non-clean G5 confirmation sample ID, selected without outcome filtering",
+  "primary_QA_systems": ["mcnet","g5/fixed_without_clean_identity_s20261112","g5/rotated_without_clean_identity_s20261112","g5/fixed_complete_s20261112","g5/rotated_complete_s20261112"],
+  "GPU_saved_output_maxabs_tolerance": 0.00001,
+  "secondary_CPU_check": "Same fixed sample and original McNet; maxabs against saved CUDA output<=0.001, numerical backend check only",
+  "rejection_contracts": ["wrong channel count", "wrong sample rate", "too short/long", "nonfinite or overflow samples", "complex arrays", "existing output/report", "output-report alias", "unknown system", "tampered registry"],
+  "unit_tests_and_actual_CLI_QA": true,
+  "no_quality_or_generalization_claim": true,
+  "no_dependency_or_public_deployment": true,
+  "per_subprocess_timeout_seconds": 180
+}

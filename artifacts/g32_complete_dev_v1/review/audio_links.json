@@ -1,0 +1,282 @@
+[
+  {
+    "label": "全混响参考（无背景噪声）",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g32_v1/reference/g32_006_1988-147956-0014.wav",
+    "sha256": "c4ebdd56c70215d311cf310df360e24b2886ab8553e5fb673f512257e2249bf1"
+  },
+  {
+    "label": "带噪第5麦",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/noisy/g32_006_1988-147956-0014.wav",
+    "sha256": "30c8732b818845dbeecb940066cc33e76bde66f93818574555464e5ce311c56c"
+  },
+  {
+    "label": "原McNet + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mvdr/g32_006_1988-147956-0014.wav",
+    "sha256": "4d9fa56a7fcd6edc32f1a79dba41e615265a79ebd33be190f8259246a3ef401d"
+  },
+  {
+    "label": "原重建适配 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mvdr/g32_006_1988-147956-0014.wav",
+    "sha256": "59e9aa3a1707de4a7fd33747bf28b3b8a566b796f858abb126222b0903b1913b"
+  },
+  {
+    "label": "简单掩码辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mvdr/g32_006_1988-147956-0014.wav",
+    "sha256": "2647d9d8cb5ac2c23334dae80f8610d5f709bec4841fd163f69c0310daabf409"
+  },
+  {
+    "label": "统计辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mvdr/g32_006_1988-147956-0014.wav",
+    "sha256": "06d3f3be96d3e9e54cc0acac80ee8fbcf4c3c32a04f91b92c98f75e843d8aae2"
+  },
+  {
+    "label": "mcnet / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet/g32_006_1988-147956-0014.wav",
+    "sha256": "c8f12fc01355d9c50253894b6474cac70ea85314d27d7521d72e1b0b55d71822"
+  },
+  {
+    "label": "cirm / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm/g32_006_1988-147956-0014.wav",
+    "sha256": "ba4168c94ea3dc154d82ed1e5a0f3723381f924501773d16e72704f986873b51"
+  },
+  {
+    "label": "cirm_mask / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask/g32_006_1988-147956-0014.wav",
+    "sha256": "1bac206ed60dca69d1cceab7e53827731aed69b1bf4b768dad73a3ad80bfc1f9"
+  },
+  {
+    "label": "cirm_shape / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape/g32_006_1988-147956-0014.wav",
+    "sha256": "b701d05216b90704c516e03827b5020e874ca5dfd5f8305fb4f8c0d26c3007df"
+  },
+  {
+    "label": "mcnet / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mwf/g32_006_1988-147956-0014.wav",
+    "sha256": "4c7f1953ab2aa1077cd664b219a798a44fd3dc7ff23ab26229e0de697e9693df"
+  },
+  {
+    "label": "cirm / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mwf/g32_006_1988-147956-0014.wav",
+    "sha256": "418a5d88dccfe88d80f3976cddb9d0d7fdb5d7a0db2df2d19a697e38c30a4a37"
+  },
+  {
+    "label": "cirm_mask / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mwf/g32_006_1988-147956-0014.wav",
+    "sha256": "878ae244d08542788d2c49af0a4adf2e13c50ae4b3bf3dc61a2db8b0f41a75c9"
+  },
+  {
+    "label": "cirm_shape / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mwf/g32_006_1988-147956-0014.wav",
+    "sha256": "4ec21776eb098dde5e41a90307b97a9fdb69922d18666b40a8d10c9bcddcd32f"
+  },
+  {
+    "label": "全混响参考（无背景噪声）",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g32_v1/reference/g32_015_1988-147956-0003.wav",
+    "sha256": "1c341b2de20b92071e081d5f929c2edc990d4afc2ce84505f6da7b090bc2c43c"
+  },
+  {
+    "label": "带噪第5麦",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/noisy/g32_015_1988-147956-0003.wav",
+    "sha256": "cd21d3944ecfbf2a4c7114261cb757d532ab9bebe54bf662e2552061555ce39d"
+  },
+  {
+    "label": "原McNet + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mvdr/g32_015_1988-147956-0003.wav",
+    "sha256": "6588a23bcd79fa454fd146531c55849ae50ba419aa50ba548cdaebc9113371cf"
+  },
+  {
+    "label": "原重建适配 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mvdr/g32_015_1988-147956-0003.wav",
+    "sha256": "72fa1e3af6203a545e7a7b0a7f86ab258e7dc20b4b6e1be0b84462d1eac8e456"
+  },
+  {
+    "label": "简单掩码辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mvdr/g32_015_1988-147956-0003.wav",
+    "sha256": "58745ef86c2be5c5fb3876d009c5e5385d8d1e321d1b5b9b3ff79a42cc96e58b"
+  },
+  {
+    "label": "统计辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mvdr/g32_015_1988-147956-0003.wav",
+    "sha256": "04590c1f9b4d1396f9fe463d003f53e6b6ad939de87693643156369c76c12a06"
+  },
+  {
+    "label": "mcnet / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet/g32_015_1988-147956-0003.wav",
+    "sha256": "7f6e46ce83805951d4b7905d34323b585fa31afd072d967ccab83eb7e6c1c002"
+  },
+  {
+    "label": "cirm / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm/g32_015_1988-147956-0003.wav",
+    "sha256": "338807afe153f77b9d91421828bb917bc44a5ede3d180758f931cab692ba83ef"
+  },
+  {
+    "label": "cirm_mask / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask/g32_015_1988-147956-0003.wav",
+    "sha256": "b1daad8f696a3eb7a9d6ed7a34db2d4b1caa08226c0c7e35340facbb845257d8"
+  },
+  {
+    "label": "cirm_shape / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape/g32_015_1988-147956-0003.wav",
+    "sha256": "4168dcddbc5c61c8ea95299f0fe5c4f6c1731b6d32f4771c02a04f8197583073"
+  },
+  {
+    "label": "mcnet / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mwf/g32_015_1988-147956-0003.wav",
+    "sha256": "8c0b85c1be8019e7ee87b4e350d3043838a6c373dd29590694b2439a692fa5c9"
+  },
+  {
+    "label": "cirm / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mwf/g32_015_1988-147956-0003.wav",
+    "sha256": "a026a2272eb729aaa12c2b397abdd806847cab6cb4978f4c4ee58017d5c19c24"
+  },
+  {
+    "label": "cirm_mask / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mwf/g32_015_1988-147956-0003.wav",
+    "sha256": "ae78e589030a2b37596bb11f2f52229769becfd9f22a890d58520d488a7fa83b"
+  },
+  {
+    "label": "cirm_shape / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mwf/g32_015_1988-147956-0003.wav",
+    "sha256": "163f09b8ce665f2d02657324e8f3921bf7256716c0d369a551edfabb4327d47c"
+  },
+  {
+    "label": "全混响参考（无背景噪声）",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g32_v1/reference/g32_024_777-126732-0049.wav",
+    "sha256": "2a4074325b8ece8f7a31c30d59bcab5e0ece43debcc017bfaef9ba58062069b5"
+  },
+  {
+    "label": "带噪第5麦",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/noisy/g32_024_777-126732-0049.wav",
+    "sha256": "71eb4fff874d9a1067dd5470711a6d4107e6bc56ef2ce0a4a74d44c565129ab7"
+  },
+  {
+    "label": "原McNet + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mvdr/g32_024_777-126732-0049.wav",
+    "sha256": "0be061a04c30171d92648ada2501119e4194f1917bb45dc1d3e373a5c9402921"
+  },
+  {
+    "label": "原重建适配 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mvdr/g32_024_777-126732-0049.wav",
+    "sha256": "0c701777052c320abc157be313a233d8f742ade35f712a631709c75f1af6a102"
+  },
+  {
+    "label": "简单掩码辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mvdr/g32_024_777-126732-0049.wav",
+    "sha256": "f185e78bd7f84aed8e25eb7b5b779c3122b0a6a84579235b4b3d25227216c13a"
+  },
+  {
+    "label": "统计辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mvdr/g32_024_777-126732-0049.wav",
+    "sha256": "0af60f823fe916bb1805ea087fc9784f666aa21a474b7b3d6280d78b142ce2ee"
+  },
+  {
+    "label": "mcnet / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet/g32_024_777-126732-0049.wav",
+    "sha256": "011c478475b4dd4b79faaa96f086e7fe685b0b180616f5a765a95d4105f34246"
+  },
+  {
+    "label": "cirm / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm/g32_024_777-126732-0049.wav",
+    "sha256": "c214055241d4edbe01065026b8a3bcccb6ea2e7fd82c8577a6a779e9a66bd336"
+  },
+  {
+    "label": "cirm_mask / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask/g32_024_777-126732-0049.wav",
+    "sha256": "28ddae26ac4800741e4329036583ef3c49c8ee83614a801912ee198a3f3dd3f0"
+  },
+  {
+    "label": "cirm_shape / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape/g32_024_777-126732-0049.wav",
+    "sha256": "00d8c9cbf5ceb2251cba880fb9aa41c018a6b3c471a4044939a87742f3e63f0e"
+  },
+  {
+    "label": "mcnet / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mwf/g32_024_777-126732-0049.wav",
+    "sha256": "6e14dfc265408f0b41629fd1dae71111a25dd6483aab36d20b88f87aafc393af"
+  },
+  {
+    "label": "cirm / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mwf/g32_024_777-126732-0049.wav",
+    "sha256": "dc0fb816f933ee2c9b8abc15ad159ef209125ed863cf4e522ff71bbe7fd26ae5"
+  },
+  {
+    "label": "cirm_mask / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mwf/g32_024_777-126732-0049.wav",
+    "sha256": "8f9bae1b0b7b81f7c2bb2a4a1c3e8a7f4b93fafb50653f5772e3829cb69c06aa"
+  },
+  {
+    "label": "cirm_shape / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mwf/g32_024_777-126732-0049.wav",
+    "sha256": "f79b066d6eacb2f37b571b1932826eec5131e81518344a4ac1fec2aad0ca01e2"
+  },
+  {
+    "label": "全混响参考（无背景噪声）",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g32_v1/reference/g32_033_777-126732-0081.wav",
+    "sha256": "e3f00fc58e1777e4b99f331650d7b1e51ebe9b31c173a060377d5d74f3e1f3ca"
+  },
+  {
+    "label": "带噪第5麦",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/noisy/g32_033_777-126732-0081.wav",
+    "sha256": "6b897e2692e871060294c7f6a2be76487aec9e5bf9295314399755ab50504c03"
+  },
+  {
+    "label": "原McNet + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mvdr/g32_033_777-126732-0081.wav",
+    "sha256": "d0b44d58b0e2c00a80cb4d7ee9255973e03b8f9305dea42f73a2dedaac2936f4"
+  },
+  {
+    "label": "原重建适配 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mvdr/g32_033_777-126732-0081.wav",
+    "sha256": "63f808d02c8dec041836df4db833508eafc498e8477ee591adebe51d1ca57488"
+  },
+  {
+    "label": "简单掩码辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mvdr/g32_033_777-126732-0081.wav",
+    "sha256": "f7411d004077273145214c2eb6b47a9a5ee14023cbaf102c2add54fb4af4c17c"
+  },
+  {
+    "label": "统计辅助 + MVDR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mvdr/g32_033_777-126732-0081.wav",
+    "sha256": "834f8c1016ef79d1c129c49f3123cd1a340b16e0e5da7e2f0dfb5791c6f17ede"
+  },
+  {
+    "label": "mcnet / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet/g32_033_777-126732-0081.wav",
+    "sha256": "cfb322596135f1d439b24a8f0aa0c6e82e2c7a4453bc4dfb274303f2f76dc21a"
+  },
+  {
+    "label": "cirm / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm/g32_033_777-126732-0081.wav",
+    "sha256": "6b83a36a41f94b60107b6062ddbefe93f9feaae171a04345c90323c35cb51260"
+  },
+  {
+    "label": "cirm_mask / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask/g32_033_777-126732-0081.wav",
+    "sha256": "33eb19ec15d06e97cabe7d84b669fb1eece05aa2b5ce1310e36b5fbd358e7be1"
+  },
+  {
+    "label": "cirm_shape / direct",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape/g32_033_777-126732-0081.wav",
+    "sha256": "5e8fe43a70abe7e4fb8234ef16d6d2328eae1d20a4c6ad9092bd54f9bff5870b"
+  },
+  {
+    "label": "mcnet / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/mcnet_mask_mwf/g32_033_777-126732-0081.wav",
+    "sha256": "eb3ebd494e48b3b21f5503c3414743f5958fcd18e58493e33e7bb4e141923809"
+  },
+  {
+    "label": "cirm / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mwf/g32_033_777-126732-0081.wav",
+    "sha256": "19cbf7632601849ff9aa67c206888fe18ff478014313b034e1fe4482b7fd4381"
+  },
+  {
+    "label": "cirm_mask / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_mask_mask_mwf/g32_033_777-126732-0081.wav",
+    "sha256": "1a4a0fdc282eafb708e3e60f521d9331491a1dc78c043fc7b2892f366d5ded54"
+  },
+  {
+    "label": "cirm_shape / mwf",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g32_complete_dev_v1/audio/cirm_shape_mask_mwf/g32_033_777-126732-0081.wav",
+    "sha256": "1c837f10d2dd6c0c792e83272bbd7385f145a2e76b28d5b6ebf3a001c9e19011"
+  }
+]

@@ -1,0 +1,522 @@
+{
+  "created_at": "2026-11-11T23:31:56.877071+08:00",
+  "cases": 128,
+  "unique_sources": 8,
+  "unique_speakers": 6,
+  "asr_regression_candidates": [
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0017__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2035-147961-0017__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2035-147961-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "2035-147961-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "777-126732-0054__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "777-126732-0054__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "1988-147956-0005__DKITCHEN_ch01__original_point__raw__seed0",
+    "1988-147956-0005__DKITCHEN_ch01__original_point__raw__seed1",
+    "1988-147956-0016__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2035-147961-0017__DKITCHEN_ch01__original_point__raw__seed0",
+    "2035-147961-0017__DKITCHEN_ch01__original_point__raw__seed1",
+    "2035-147961-0017__DWASHING_ch01__conditioned_12wave__raw__seed1",
+    "2277-149896-0027__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "2277-149896-0027__DKITCHEN_ch01__original_point__raw__seed0",
+    "2277-149896-0027__DKITCHEN_ch01__original_point__raw__seed1",
+    "777-126732-0054__DKITCHEN_ch01__conditioned_12wave__raw__seed1",
+    "777-126732-0054__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__raw__seed0",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__raw__seed1",
+    "7976-110124-0007__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "1988-147956-0005__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0005__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "1988-147956-0005__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0"
+  ],
+  "increased_ASR_deletion_candidates": [
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2035-147961-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "2035-147961-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0017__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2035-147961-0017__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "2086-149220-0021__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "777-126732-0054__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "777-126732-0054__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed1"
+  ],
+  "plots": [
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "7976-110124-0007__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "777-126732-0054__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "2035-147961-0016__DKITCHEN_ch01__conditioned_12wave__highpass40_then_snr0__seed1",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2277-149896-0027__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "7976-110124-0007__DWASHING_ch01__conditioned_12wave__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed0",
+    "2086-149220-0021__DWASHING_ch01__original_point__highpass40_then_snr0__seed1",
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed0",
+    "1988-147956-0016__DKITCHEN_ch01__original_point__highpass40_then_snr0__seed1",
+    "2035-147961-0017__DWASHING_ch01__original_point__highpass40_then_snr0__seed0"
+  ],
+  "plot_policy": "all ASR regressions + first two nonregressions + seeded random three; max16; all audio cases retained",
+  "human_judgements_completed": 0,
+  "confirmed_acoustic_deletions": null,
+  "grouped": {
+    "noise_snr": {
+      "DKITCHEN_ch01|0.0dB": {
+        "n": 64,
+        "noisy_si_sdr_db": {
+          "n": 64,
+          "mean": -0.5540905135198066
+        },
+        "enhanced_si_sdr_db": {
+          "n": 64,
+          "mean": 0.416236082392971
+        },
+        "noisy_stoi": {
+          "n": 64,
+          "mean": 0.838607839113189
+        },
+        "enhanced_stoi": {
+          "n": 64,
+          "mean": 0.8530941180542104
+        },
+        "noisy_pesq_wb": {
+          "n": 64,
+          "mean": 1.1968207210302353
+        },
+        "enhanced_pesq_wb": {
+          "n": 64,
+          "mean": 1.4604057148098946
+        },
+        "reference_asr": {
+          "N": 600,
+          "S": 40,
+          "D": 0,
+          "I": 24,
+          "errors": 64,
+          "wer": 0.10666666666666667
+        },
+        "noisy_asr": {
+          "N": 600,
+          "S": 152,
+          "D": 28,
+          "I": 20,
+          "errors": 200,
+          "wer": 0.3333333333333333
+        },
+        "enhanced_asr": {
+          "N": 600,
+          "S": 139,
+          "D": 30,
+          "I": 36,
+          "errors": 205,
+          "wer": 0.3416666666666667
+        }
+      },
+      "DWASHING_ch01|0.0dB": {
+        "n": 64,
+        "noisy_si_sdr_db": {
+          "n": 64,
+          "mean": -0.6654515622903796
+        },
+        "enhanced_si_sdr_db": {
+          "n": 64,
+          "mean": -0.41183601058411323
+        },
+        "noisy_stoi": {
+          "n": 64,
+          "mean": 0.8110997026885656
+        },
+        "enhanced_stoi": {
+          "n": 64,
+          "mean": 0.8214413351186747
+        },
+        "noisy_pesq_wb": {
+          "n": 64,
+          "mean": 1.9915964305400848
+        },
+        "enhanced_pesq_wb": {
+          "n": 64,
+          "mean": 2.242370754480362
+        },
+        "reference_asr": {
+          "N": 600,
+          "S": 40,
+          "D": 0,
+          "I": 24,
+          "errors": 64,
+          "wer": 0.10666666666666667
+        },
+        "noisy_asr": {
+          "N": 600,
+          "S": 180,
+          "D": 44,
+          "I": 28,
+          "errors": 252,
+          "wer": 0.42
+        },
+        "enhanced_asr": {
+          "N": 600,
+          "S": 137,
+          "D": 95,
+          "I": 25,
+          "errors": 257,
+          "wer": 0.42833333333333334
+        }
+      }
+    },
+    "speaker": {
+      "1988": {
+        "n": 32,
+        "noisy_si_sdr_db": {
+          "n": 32,
+          "mean": -0.1597923642304299
+        },
+        "enhanced_si_sdr_db": {
+          "n": 32,
+          "mean": 0.40726384921012315
+        },
+        "noisy_stoi": {
+          "n": 32,
+          "mean": 0.7935948765151397
+        },
+        "enhanced_stoi": {
+          "n": 32,
+          "mean": 0.8097379294375717
+        },
+        "noisy_pesq_wb": {
+          "n": 32,
+          "mean": 1.5570866167545319
+        },
+        "enhanced_pesq_wb": {
+          "n": 32,
+          "mean": 1.8648073635995388
+        },
+        "reference_asr": {
+          "N": 304,
+          "S": 16,
+          "D": 0,
+          "I": 16,
+          "errors": 32,
+          "wer": 0.10526315789473684
+        },
+        "noisy_asr": {
+          "N": 304,
+          "S": 28,
+          "D": 24,
+          "I": 8,
+          "errors": 60,
+          "wer": 0.19736842105263158
+        },
+        "enhanced_asr": {
+          "N": 304,
+          "S": 46,
+          "D": 24,
+          "I": 7,
+          "errors": 77,
+          "wer": 0.2532894736842105
+        }
+      },
+      "2035": {
+        "n": 32,
+        "noisy_si_sdr_db": {
+          "n": 32,
+          "mean": -0.8666566716497042
+        },
+        "enhanced_si_sdr_db": {
+          "n": 32,
+          "mean": -0.382187759369368
+        },
+        "noisy_stoi": {
+          "n": 32,
+          "mean": 0.8168744188910471
+        },
+        "enhanced_stoi": {
+          "n": 32,
+          "mean": 0.824585987703622
+        },
+        "noisy_pesq_wb": {
+          "n": 32,
+          "mean": 1.617649957537651
+        },
+        "enhanced_pesq_wb": {
+          "n": 32,
+          "mean": 1.790861688554287
+        },
+        "reference_asr": {
+          "N": 240,
+          "S": 32,
+          "D": 0,
+          "I": 0,
+          "errors": 32,
+          "wer": 0.13333333333333333
+        },
+        "noisy_asr": {
+          "N": 240,
+          "S": 52,
+          "D": 28,
+          "I": 0,
+          "errors": 80,
+          "wer": 0.3333333333333333
+        },
+        "enhanced_asr": {
+          "N": 240,
+          "S": 51,
+          "D": 28,
+          "I": 6,
+          "errors": 85,
+          "wer": 0.3541666666666667
+        }
+      },
+      "2086": {
+        "n": 16,
+        "noisy_si_sdr_db": {
+          "n": 16,
+          "mean": -1.0555468310261522
+        },
+        "enhanced_si_sdr_db": {
+          "n": 16,
+          "mean": -0.3578517777596042
+        },
+        "noisy_stoi": {
+          "n": 16,
+          "mean": 0.9028462268986832
+        },
+        "enhanced_stoi": {
+          "n": 16,
+          "mean": 0.9122242869575872
+        },
+        "noisy_pesq_wb": {
+          "n": 16,
+          "mean": 1.6429556012153625
+        },
+        "enhanced_pesq_wb": {
+          "n": 16,
+          "mean": 1.8524328917264938
+        },
+        "reference_asr": {
+          "N": 192,
+          "S": 0,
+          "D": 0,
+          "I": 0,
+          "errors": 0,
+          "wer": 0.0
+        },
+        "noisy_asr": {
+          "N": 192,
+          "S": 40,
+          "D": 8,
+          "I": 0,
+          "errors": 48,
+          "wer": 0.25
+        },
+        "enhanced_asr": {
+          "N": 192,
+          "S": 28,
+          "D": 16,
+          "I": 0,
+          "errors": 44,
+          "wer": 0.22916666666666666
+        }
+      },
+      "2277": {
+        "n": 16,
+        "noisy_si_sdr_db": {
+          "n": 16,
+          "mean": -0.18432471238279974
+        },
+        "enhanced_si_sdr_db": {
+          "n": 16,
+          "mean": 0.46207435652908835
+        },
+        "noisy_stoi": {
+          "n": 16,
+          "mean": 0.8212890858766457
+        },
+        "enhanced_stoi": {
+          "n": 16,
+          "mean": 0.8363866169802415
+        },
+        "noisy_pesq_wb": {
+          "n": 16,
+          "mean": 1.7269552648067474
+        },
+        "enhanced_pesq_wb": {
+          "n": 16,
+          "mean": 1.9434093683958054
+        },
+        "reference_asr": {
+          "N": 176,
+          "S": 16,
+          "D": 0,
+          "I": 16,
+          "errors": 32,
+          "wer": 0.18181818181818182
+        },
+        "noisy_asr": {
+          "N": 176,
+          "S": 80,
+          "D": 4,
+          "I": 32,
+          "errors": 116,
+          "wer": 0.6590909090909091
+        },
+        "enhanced_asr": {
+          "N": 176,
+          "S": 67,
+          "D": 12,
+          "I": 25,
+          "errors": 104,
+          "wer": 0.5909090909090909
+        }
+      },
+      "777": {
+        "n": 16,
+        "noisy_si_sdr_db": {
+          "n": 16,
+          "mean": -0.00485255589888819
+        },
+        "enhanced_si_sdr_db": {
+          "n": 16,
+          "mean": 1.0317551628871002
+        },
+        "noisy_stoi": {
+          "n": 16,
+          "mean": 0.8685620220889131
+        },
+        "enhanced_stoi": {
+          "n": 16,
+          "mean": 0.889643562552593
+        },
+        "noisy_pesq_wb": {
+          "n": 16,
+          "mean": 1.6570798456668854
+        },
+        "enhanced_pesq_wb": {
+          "n": 16,
+          "mean": 2.0379195734858513
+        },
+        "reference_asr": {
+          "N": 144,
+          "S": 16,
+          "D": 0,
+          "I": 16,
+          "errors": 32,
+          "wer": 0.2222222222222222
+        },
+        "noisy_asr": {
+          "N": 144,
+          "S": 72,
+          "D": 0,
+          "I": 8,
+          "errors": 80,
+          "wer": 0.5555555555555556
+        },
+        "enhanced_asr": {
+          "N": 144,
+          "S": 51,
+          "D": 14,
+          "I": 22,
+          "errors": 87,
+          "wer": 0.6041666666666666
+        }
+      },
+      "7976": {
+        "n": 16,
+        "noisy_si_sdr_db": {
+          "n": 16,
+          "mean": -1.5805461321726368
+        },
+        "enhanced_si_sdr_db": {
+          "n": 16,
+          "mean": -1.1685296341026636
+        },
+        "noisy_stoi": {
+          "n": 16,
+          "mean": 0.7851942415304032
+        },
+        "enhanced_stoi": {
+          "n": 16,
+          "mean": 0.7912395119187314
+        },
+        "noisy_pesq_wb": {
+          "n": 16,
+          "mean": 1.3772047460079193
+        },
+        "enhanced_pesq_wb": {
+          "n": 16,
+          "mean": 1.666005939245224
+        },
+        "reference_asr": {
+          "N": 144,
+          "S": 0,
+          "D": 0,
+          "I": 0,
+          "errors": 0,
+          "wer": 0.0
+        },
+        "noisy_asr": {
+          "N": 144,
+          "S": 60,
+          "D": 8,
+          "I": 0,
+          "errors": 68,
+          "wer": 0.4722222222222222
+        },
+        "enhanced_asr": {
+          "N": 144,
+          "S": 33,
+          "D": 31,
+          "I": 1,
+          "errors": 65,
+          "wer": 0.4513888888888889
+        }
+      }
+    }
+  },
+  "listening_copy_policy": "noisy input selects zero-based channel4; float32 samples exactly preserved; reference/enhanced link original mono files",
+  "playback_manifest": "playback_manifest.json",
+  "evidence_sha256": {
+    "cases": "c0c002bda4687b16e213a2fa5037f55d2bdf604202433e1f39be92a66a2a6dcd",
+    "asr": "917c1a6bedd95ec4e8413c36060a51f186f3aeaf3efec0722727cfb64836ef17",
+    "scores": "c0c002bda4687b16e213a2fa5037f55d2bdf604202433e1f39be92a66a2a6dcd"
+  },
+  "training_performed": false
+}

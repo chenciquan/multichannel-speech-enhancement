@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-11T22:13:07.528573+08:00",
+  "source": "explicit user reply in this Codex conversation",
+  "reviews": [
+    {
+      "sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5",
+      "question_scope": "whether JUST is harder to hear after enhancement",
+      "answer_verbatim": "两者都能听清，没有明显退步",
+      "interpretation": "user-reported no obvious regression for this word; not a blinded listening study or all-case judgement"
+    }
+  ],
+  "scope": "one identified word in one case only; remaining cases unassessed"
+}

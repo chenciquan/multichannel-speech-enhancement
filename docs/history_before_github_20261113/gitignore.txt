@@ -1,0 +1,15 @@
+# Local tools and the single WSL environment
+.tools/
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Original upstream checkout, weights, audio and generated results stay local.
+third_party/
+data/
+artifacts/
+*.ckpt
+*.pth
+*.pt
+

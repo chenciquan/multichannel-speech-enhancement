@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T01:42:46.202085+00:00",
+  "files": [
+    {
+      "source": "docs/G33_full_梯度资源覆盖.md",
+      "snapshot": "00_G33_full_梯度资源覆盖.md",
+      "sha256": "01520e5c15b8756d15e0aa35d3be581fb90f2d8ecf5ac8a4f88d0197b6365887"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/full/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "5432bcb00d336aa621b09830a911ca684fcce546bc657432098bafad664b0118"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/full/records.json",
+      "snapshot": "02_records.json",
+      "sha256": "35ee81fc3510bd3058b38cec1d23dc8fa12e2ab6493c1c44f46d8832b55a66e8"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/full/initial_forward_outputs.npz",
+      "snapshot": "03_initial_forward_outputs.npz",
+      "sha256": "70ab1d6d5e79562e71ca7de3807c3ec909b2b50b1999a149a5bef164617202b3"
+    }
+  ]
+}

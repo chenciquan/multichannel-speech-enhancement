@@ -1,0 +1,85 @@
+{
+  "saved_utc": "2026-11-12T08:29:55.203349+00:00",
+  "files": [
+    {
+      "source": "docs/G13A_旋转坐标审计与历史结论更正.md",
+      "snapshot": "00_G13A_旋转坐标审计与历史结论更正.md",
+      "sha256": "abbde718fba008ddd285b6c25e0bea99a1878f7ae77e01aa7dea4bb35c8f6063"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/GEOMETRY_STOP_AUDIT.json",
+      "snapshot": "01_GEOMETRY_STOP_AUDIT.json",
+      "sha256": "00b951ebfde3ab9206201f711dc1c2fed4d57a7d61020a386f6bd7ff2027baa8"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/interrupted_G12_file_inventory.json",
+      "snapshot": "02_interrupted_G12_file_inventory.json",
+      "sha256": "7e91c0317c482100644cbe04a100f6f52b421ec395900c075652b4d3e90812f1"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/status.json",
+      "snapshot": "03_status.json",
+      "sha256": "34d1172946464d52e870743c8332a74c8ab0c4e48c89c4f25deff650a2f47ecc"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/PIPELINE_READY.json",
+      "snapshot": "04_PIPELINE_READY.json",
+      "sha256": "14c52f194ea4e9ec39c452b4ea570181472dd0e79c2586fd0501c6f974c6b540"
+    },
+    {
+      "source": "artifacts/g12_room_queue_v2.log",
+      "snapshot": "05_g12_room_queue_v2.log",
+      "sha256": "327e68d79638dff390c5903f79eebd49d9a27de6218f5d5ec857b179f20650cc"
+    },
+    {
+      "source": "scripts/g12_common.py",
+      "snapshot": "06_g12_common.py",
+      "sha256": "eecd0b80d6abacdf8ef2c8229d8bd2094d89da018d1569c0bca68234865ba100"
+    },
+    {
+      "source": "scripts/g12_queue.py",
+      "snapshot": "07_g12_queue.py",
+      "sha256": "d9d2b5fde2f80a3276a8a4cfa746c856e165767812cf79eaf1b0bc280fc514c2"
+    },
+    {
+      "source": "scripts/g12_build.py",
+      "snapshot": "08_g12_build.py",
+      "sha256": "e363a26efc9cb5036261a6bfea3d981739c4e61a573118fce2db920c09a50f82"
+    },
+    {
+      "source": "scripts/g12_signal.py",
+      "snapshot": "09_g12_signal.py",
+      "sha256": "eba51378321914bb937610bb2e480f590a633dfbd5f28fd057df10694f3766eb"
+    },
+    {
+      "source": "scripts/g12_asr.py",
+      "snapshot": "10_g12_asr.py",
+      "sha256": "afc30c298af9582e9a777166b0e502d1205dd777f8bf9ce4b5be5be6aeef0c38"
+    },
+    {
+      "source": "scripts/g12_finish.py",
+      "snapshot": "11_g12_finish.py",
+      "sha256": "3596c084249644ab73f26cc24f5972ce1eaa9689fe1559922f7c9e4d029800cb"
+    },
+    {
+      "source": "src/mcse/reverberation.py",
+      "snapshot": "12_reverberation.py",
+      "sha256": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "13_runtime.py",
+      "sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "14_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "tests/test_reverberation.py",
+      "snapshot": "15_test_reverberation.py",
+      "sha256": "ad350a68f42dab31d57d2815311d2b443ddb2acdfbd9b8b82c2573f9130a517e"
+    }
+  ]
+}

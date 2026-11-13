@@ -1,0 +1,85 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T04:12:13.992446+00:00",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "model_parameters": 94393245,
+  "labels": [
+    "-",
+    "|",
+    "E",
+    "T",
+    "A",
+    "O",
+    "N",
+    "I",
+    "H",
+    "S",
+    "R",
+    "D",
+    "L",
+    "U",
+    "M",
+    "W",
+    "C",
+    "F",
+    "G",
+    "Y",
+    "P",
+    "B",
+    "V",
+    "K",
+    "'",
+    "X",
+    "J",
+    "Q",
+    "Z"
+  ],
+  "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g5_v1/confirmation/reference/g5_confirmation_0000_6345-93302-0006.wav",
+  "reference_sha256": "2b5a806b5a8694fb6e8e54c14d1581928e68eac2910eb5ba797a6dbc75007eff",
+  "normalize_waveform": false,
+  "no_resampling": true,
+  "no_external_LM_or_prompt": true,
+  "FP32_batch1": true,
+  "probes": [
+    {
+      "name": "one_second",
+      "samples": 16000,
+      "seconds": 0.006648684000083449,
+      "emission_shape": [
+        1,
+        49,
+        29
+      ],
+      "peak_allocated_bytes": 415438336,
+      "peak_reserved_bytes": 463470592,
+      "hypothesis": "THE SETTING OF THE"
+    },
+    {
+      "name": "three_seconds",
+      "samples": 48000,
+      "seconds": 0.026788430000124208,
+      "emission_shape": [
+        1,
+        149,
+        29
+      ],
+      "peak_allocated_bytes": 439109120,
+      "peak_reserved_bytes": 528482304,
+      "hypothesis": "THE SETTING OF THE SCENE SEEMED TO HER ALL IMPORTANT"
+    },
+    {
+      "name": "fixed_actual_reference",
+      "samples": 49168,
+      "seconds": 0.01457575899985386,
+      "emission_shape": [
+        1,
+        153,
+        29
+      ],
+      "peak_allocated_bytes": 440889344,
+      "peak_reserved_bytes": 555745280,
+      "hypothesis": "THE SETTING OF THE SCENE SEEMED TO HER ALL IMPORTANT"
+    }
+  ],
+  "notice": "Capacity and finite-output probe only; no recognizer selection by measured WER."
+}

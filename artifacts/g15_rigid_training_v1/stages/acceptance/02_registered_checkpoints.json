@@ -1,0 +1,39 @@
+{
+  "registered_utc": "2026-11-12T09:21:03.732138+00:00",
+  "selection": "prescribed_step3000_for_all_seeds",
+  "systems": [
+    {
+      "system": "rigid_without_clean_identity_s20261112",
+      "geometry": "rigid",
+      "kind": "adapter",
+      "variant": "without_clean_identity",
+      "seed": 20261112,
+      "step": 3000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "checkpoint_sha256": "8ec1d74ade15fe02285386fa638c6272491b506a338f575464772c538aba82dc",
+      "registration_policy": "prescribed_final_step3000_no_validation_selection"
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261113",
+      "geometry": "rigid",
+      "kind": "adapter",
+      "variant": "without_clean_identity",
+      "seed": 20261113,
+      "step": 3000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/adapter_03000.pt",
+      "checkpoint_sha256": "9928379fe782ca418967a9d42454b77dc17631f2dd067e0cd55c607f057d6a31",
+      "registration_policy": "prescribed_final_step3000_no_validation_selection"
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261114",
+      "geometry": "rigid",
+      "kind": "adapter",
+      "variant": "without_clean_identity",
+      "seed": 20261114,
+      "step": 3000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/adapter_03000.pt",
+      "checkpoint_sha256": "73e32015d4abc5617dd2b9a4dcefdde868014d717b04500c36928d226123e38f",
+      "registration_policy": "prescribed_final_step3000_no_validation_selection"
+    }
+  ]
+}

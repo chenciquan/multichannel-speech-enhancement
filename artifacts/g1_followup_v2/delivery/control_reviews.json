@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-11-11T22:24:20.875769+08:00",
+  "source": "third explicit user reply in this Codex conversation",
+  "question_scope": "compare six frozen non-ASR-regression controls, one per speaker; noisy mic5 vs McNet",
+  "answer_verbatim": "这6条正常对照也没有明显退步",
+  "reviews": [
+    {
+      "sample_id": "1988-147956-0013__DKITCHEN_ch01__snr5",
+      "judgement": "no obvious regression reported"
+    },
+    {
+      "sample_id": "2035-147960-0006__DWASHING_ch01__snr0",
+      "judgement": "no obvious regression reported"
+    },
+    {
+      "sample_id": "2086-149220-0020__DKITCHEN_ch01__snr5",
+      "judgement": "no obvious regression reported"
+    },
+    {
+      "sample_id": "2277-149896-0012__DKITCHEN_ch01__snr5",
+      "judgement": "no obvious regression reported"
+    },
+    {
+      "sample_id": "777-126732-0021__DKITCHEN_ch01__snr5",
+      "judgement": "no obvious regression reported"
+    },
+    {
+      "sample_id": "7976-110124-0000__DKITCHEN_ch01__snr5",
+      "judgement": "no obvious regression reported"
+    }
+  ],
+  "blinded": false,
+  "formal_word_time_annotation": false
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:49:49.024086+00:00",
+  "files": [
+    {
+      "source": "docs/G31_完整开发评价验收.md",
+      "snapshot": "00_G31_完整开发评价验收.md",
+      "sha256": "d75561d37e67ef0672eae3a21884afebc114da166f92e78f5d1fe77db0126da1"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "30d62025a2c3b4740fd7ef5afba7e23df2d9b9c2ca63af69e4d11330faec0653"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/power_helper.json",
+      "snapshot": "02_power_helper.json",
+      "sha256": "03ce6442c3e5acfb52f245722c9aef6fe707d2541206df08d7ba37084323af82"
+    },
+    {
+      "source": "scripts/g31_finish.py",
+      "snapshot": "03_g31_finish.py",
+      "sha256": "2e62a07d370a5695350448ed05fb06adc39503dd8d09bfe2b63e64ff23e4fdc7"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "question": "同一增强前端、房间条件及掩码下，固定多通道 Wiener 滤波和 Souden MVDR 的噪声衰减与语音失真权衡如何随反射变化？",
+  "scope": "已查看的 G18 单房间配对对照。沿用 8 句、4 人、2 种录音、3 种请求 RT 和全部 504 个条件。",
+  "methods": "十个原有神经前端分别生成一个 MWF 输出。复用全部 10584 条历史信号，新增 5040 条。完整比较包含31个系统，各504例。",
+  "mu": 1.0,
+  "relative_diagonal_loading": 1e-07,
+  "absolute_diagonal_loading": 1e-10,
+  "mask_epsilon": 1e-10,
+  "reference_channel_zero_based": 4,
+  "stft": "512-point periodic Hann, hop128, center reflect, exact-length ISTFT",
+  "covariance": "Rs=sum(mXX^H)/T, Rn=sum((1-m)XX^H)/T. Half-power spectral masks come from the saved neural mono estimate and mixture minus estimate as in G18.",
+  "probe": "First source in G18 selected_sources, OOFFICE point relative -80 target20 at all three RTs, plus clean at RT.35 target20. All ten neural estimates. Compare mask means with the corresponding saved MVDR diagnostics.",
+  "analysis": "同前端 MWF 减 MVDR 为主对照，同时保留直接输出。按 RT、噪声、角度、种子和说话人读回。WER 用总错误数除以参考词数。干净控制另报 RMS 增益和归一化平方误差。",
+  "expected_new_rows": 5040,
+  "expected_total_rows": 15624,
+  "max_signal_seconds": 7200,
+  "max_ASR_seconds": 7200,
+  "development_only": true,
+  "frozen_utc": "2026-11-12T13:02:03.750504+00:00",
+  "G18_combined_signals_sha256": "df49d4ca09237a5e4fdf1b6b6987ecc8f09c51d0f540c98f8aac3bd586b969a8",
+  "G18_ASR_score_sha256": {
+    "Whisper": "46de59c4e1568b9b8e937107e6d2f05ff7143be3b8c4f7444c857de1183c7ce5",
+    "CTC": "ff0a546e840a0d2733f8882935766f8fea49ae4a98bde91e93defdaac00bf5f5"
+  },
+  "G18_ASR_provenance_sha256": {
+    "Whisper": "d86858e2c2dd10d0c854e61a3370ccf45c2f68fc9aa0a84c5989e859f99a1fd5",
+    "CTC": "cb9ee8cf3508252d112708e6231eb5b7ab679a2bc8264c923a67b3d48ca22b14"
+  },
+  "filter_sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752"
+}

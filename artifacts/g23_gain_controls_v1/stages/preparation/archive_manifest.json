@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:41:35.201074+00:00",
+  "files": [
+    {
+      "source": "docs/G23B_固定增益波形控制验证.md",
+      "snapshot": "00_G23B_固定增益波形控制验证.md",
+      "sha256": "e531de6c5eea5611d09d4fed0cb943a98b7d98584a9906f29a321852e858b853"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "01_PREPARATION_COMPLETE.json",
+      "sha256": "3fb63aa449f8cbda52eaae4fe3ea0dd8d9417071d8fa2a652fa451bd3ef22f85"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/manifest.jsonl",
+      "snapshot": "02_manifest.jsonl",
+      "sha256": "db142a1cb671edddbeb87a9f521428bb6c73d8c312615777720eb152ec29c31b"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "3d9a6cb0d6349dc8f37783594f1167b36069704eca9d8fcb1c635a54c898ef25"
+    },
+    {
+      "source": "scripts/g23_prepare.py",
+      "snapshot": "04_g23_prepare.py",
+      "sha256": "ef523fb6e04b93fc2d6410e21e8210c11b415817e06c9f8ec92704b511f89f17"
+    }
+  ]
+}

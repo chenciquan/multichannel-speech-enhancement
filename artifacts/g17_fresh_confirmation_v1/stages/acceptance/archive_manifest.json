@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T10:04:31.202240+00:00",
+  "files": [
+    {
+      "source": "docs/G17_新说话人确认验收与三策略简明读回.md",
+      "snapshot": "00_G17_新说话人确认验收与三策略简明读回.md",
+      "sha256": "f064ac29df040cea129d67bf8a6e096a88ddcf5cd9ad49f9e8071aff20bdfe18"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "901956832906194b277a025466be01b7b38dbcccb19a961faeb5ca901b7ccd69"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/readback.json",
+      "snapshot": "02_readback.json",
+      "sha256": "7cfa3858d5d79ce68f6de219ac61aa5b33355633668ab04f586c34ac2c1220f0"
+    },
+    {
+      "source": "scripts/g17_accept.py",
+      "snapshot": "03_g17_accept.py",
+      "sha256": "4d14a95bc8b22c3495a834ed26afd1bcdfdbf60b1af205e7e5fb6fa6c9c161b3"
+    }
+  ]
+}

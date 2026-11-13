@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "checks": {
+    "all10584_unique_pairs_each_backend": true,
+    "all_metrics_ok": true,
+    "all_input_reference_output_hashes_match": true,
+    "full_conditions": true,
+    "eight_reused_sources_four_speakers": true,
+    "whole_convolution_lengths": true,
+    "source_files_match": true,
+    "all99_RIR_files_match": true,
+    "all_nine_adapters_unchanged": true,
+    "beam_code_unchanged": true,
+    "both_ASR_scores_recompute": true,
+    "all_MVDR_masks_use_corresponding_neural_estimate": true,
+    "preparation_archived_before_signal": true,
+    "signal_archived_before_beamforming": true,
+    "beamforming_archived_before_Whisper": true,
+    "whisper_archived_before_CTC": true,
+    "original_base_unchanged": true
+  },
+  "coverage": {
+    "systems": 21,
+    "cases_per_system": 504,
+    "signal_and_each_ASR_rows": 10584,
+    "reused_utterances": 8,
+    "speakers": 4,
+    "new_training": false
+  },
+  "completed_utc": "2026-11-12T11:16:48.107256+00:00"
+}

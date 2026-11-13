@@ -1,0 +1,1346 @@
+[
+  {
+    "sample_id": "g22_0002_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0002_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0002_6930-75918-0000_reference.wav",
+    "input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "reference_sha256": "dbdb301dd43582a78f16d83762bba48b073373b667abf42edab12cb19fa8bf37",
+    "common_scale": 1.0,
+    "noise_gain": 30.753669295403686,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/001.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/010.npy"
+    ],
+    "saved_active_SNR_error_db": 3.619566371698297e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        53920
+      ],
+      [
+        54560,
+        56320
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 3.619566371698297e-08,
+    "old_G18_sample_id": "g18_0001_6930-75918-0000",
+    "old_input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0001_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0030692324856694663,
+      "true_mask_noise_shape_error": 0.008369176440324248,
+      "McNet_mask_speech_shape_error": 0.032183144073570855,
+      "McNet_mask_noise_shape_error": 0.05500492868074787,
+      "mask_mean": 0.2833059181956606,
+      "mask_fraction_below_001": 0.38635247147992485,
+      "partition_relative_max": 3.740616992625207e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.06209931348114042,
+      "target_gain_db": -2.188521651636233,
+      "noise_reduction_db": 31.347205600849,
+      "component_input_snr_db": -0.7673984988250557,
+      "component_output_snr_db": 28.391285450387713,
+      "input_speech_power": 0.0007582808993307977,
+      "input_noise_power": 0.0009048361983003033,
+      "output_speech_power": 0.0004581186279244314,
+      "output_noise_power": 6.63512954181884e-07,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 17.886730445066053,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 1.2063708254572703e-08,
+    "metrics": {
+      "si_sdr_db": 17.43251077005339,
+      "stoi": 0.9835001022829764,
+      "pesq_wb": 3.730224132537842,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0002_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0002_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0002_6930-75918-0000_reference.wav",
+    "input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "reference_sha256": "dbdb301dd43582a78f16d83762bba48b073373b667abf42edab12cb19fa8bf37",
+    "common_scale": 1.0,
+    "noise_gain": 30.753669295403686,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/001.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/010.npy"
+    ],
+    "saved_active_SNR_error_db": 3.619566371698297e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        53920
+      ],
+      [
+        54560,
+        56320
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 3.619566371698297e-08,
+    "old_G18_sample_id": "g18_0001_6930-75918-0000",
+    "old_input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0001_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0030692324856694663,
+      "true_mask_noise_shape_error": 0.008369176440324248,
+      "McNet_mask_speech_shape_error": 0.032183144073570855,
+      "McNet_mask_noise_shape_error": 0.05500492868074787,
+      "mask_mean": 0.2833059181956606,
+      "mask_fraction_below_001": 0.38635247147992485,
+      "partition_relative_max": 3.740616992625207e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.01182093711607543,
+      "target_gain_db": -0.43366551397397624,
+      "noise_reduction_db": 22.053980054792135,
+      "component_input_snr_db": -0.7673984988250557,
+      "component_output_snr_db": 20.852916041993097,
+      "input_speech_power": 0.0007582808993307977,
+      "input_noise_power": 0.0009048361983003033,
+      "output_speech_power": 0.0006862203059055577,
+      "output_noise_power": 5.6386087493288775e-06,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 19.996830970288887,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 3.552713678800501e-15
+    },
+    "linearity_max_abs": 2.130400389432907e-08,
+    "metrics": {
+      "si_sdr_db": 17.299442669388096,
+      "stoi": 0.9470257620549027,
+      "pesq_wb": 2.404200792312622,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0003_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0003_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0003_6930-75918-0000_new.wav",
+    "input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "reference_sha256": "dbdb301dd43582a78f16d83762bba48b073373b667abf42edab12cb19fa8bf37",
+    "common_scale": 1.0,
+    "noise_gain": 30.7536692954037,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/001.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/010.npy"
+    ],
+    "saved_active_SNR_error_db": 3.619566371698297e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        53920
+      ],
+      [
+        54560,
+        56320
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 3.619566371698297e-08,
+    "old_G18_sample_id": "g18_0001_6930-75918-0000",
+    "old_input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0001_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0030692324856694663,
+      "true_mask_noise_shape_error": 0.008369176440324248,
+      "McNet_mask_speech_shape_error": 0.032183144073570855,
+      "McNet_mask_noise_shape_error": 0.05500492868074787,
+      "mask_mean": 0.2833059181956606,
+      "mask_fraction_below_001": 0.38635247147992485,
+      "partition_relative_max": 3.740616992625207e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.06209931348114042,
+      "target_gain_db": -2.188521651636233,
+      "noise_reduction_db": 31.347205600849,
+      "component_input_snr_db": -0.7673984988250557,
+      "component_output_snr_db": 28.391285450387713,
+      "input_speech_power": 0.0007582808993307977,
+      "input_noise_power": 0.0009048361983003033,
+      "output_speech_power": 0.0004581186279244314,
+      "output_noise_power": 6.63512954181884e-07,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 17.886730445066053,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 1.2063708254572703e-08,
+    "metrics": {
+      "si_sdr_db": 17.43251077005339,
+      "stoi": 0.9835001022829764,
+      "pesq_wb": 3.730224132537842,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0003_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0003_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0003_6930-75918-0000_new.wav",
+    "input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "reference_sha256": "dbdb301dd43582a78f16d83762bba48b073373b667abf42edab12cb19fa8bf37",
+    "common_scale": 1.0,
+    "noise_gain": 30.7536692954037,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/001.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/010.npy"
+    ],
+    "saved_active_SNR_error_db": 3.619566371698297e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        53920
+      ],
+      [
+        54560,
+        56320
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 3.619566371698297e-08,
+    "old_G18_sample_id": "g18_0001_6930-75918-0000",
+    "old_input_sha256": "e561b23d23bcacc9a87db3134ed32703276235be314ca642b0e1061e0fe9ec18",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0001_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0030692324856694663,
+      "true_mask_noise_shape_error": 0.008369176440324248,
+      "McNet_mask_speech_shape_error": 0.032183144073570855,
+      "McNet_mask_noise_shape_error": 0.05500492868074787,
+      "mask_mean": 0.2833059181956606,
+      "mask_fraction_below_001": 0.38635247147992485,
+      "partition_relative_max": 3.740616992625207e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.01182093711607543,
+      "target_gain_db": -0.43366551397397624,
+      "noise_reduction_db": 22.053980054792135,
+      "component_input_snr_db": -0.7673984988250557,
+      "component_output_snr_db": 20.852916041993097,
+      "input_speech_power": 0.0007582808993307977,
+      "input_noise_power": 0.0009048361983003033,
+      "output_speech_power": 0.0006862203059055577,
+      "output_noise_power": 5.6386087493288775e-06,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 19.996830970288887,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 3.552713678800501e-15
+    },
+    "linearity_max_abs": 2.130400389432907e-08,
+    "metrics": {
+      "si_sdr_db": 17.299442669388096,
+      "stoi": 0.9470257620549027,
+      "pesq_wb": 2.404200792312622,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0008_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.15,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0008_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0008_6930-75918-0000_reference.wav",
+    "input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "reference_sha256": "7ace675929e2c8820d955b36b5ea602830e804f1a93e63e81a334ec91483a692",
+    "common_scale": 1.0,
+    "noise_gain": 44.72473316238892,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/004.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/013.npy"
+    ],
+    "saved_active_SNR_error_db": 4.425350795149626e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        54240
+      ],
+      [
+        54400,
+        56960
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 4.425350795149626e-08,
+    "old_G18_sample_id": "g18_0004_6930-75918-0000",
+    "old_input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0004_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0064274197362168,
+      "true_mask_noise_shape_error": 0.012133702051525915,
+      "McNet_mask_speech_shape_error": 0.07041474560282966,
+      "McNet_mask_noise_shape_error": 0.10627246127586636,
+      "mask_mean": 0.2459722086975483,
+      "mask_fraction_below_001": 0.4226195581825129,
+      "partition_relative_max": 2.1254324531884008e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.1539995696695289,
+      "target_gain_db": -4.051969305052877,
+      "noise_reduction_db": 28.044977401535252,
+      "component_input_snr_db": -0.6163067990606214,
+      "component_output_snr_db": 23.376701297421754,
+      "input_speech_power": 0.0009255101405216244,
+      "input_noise_power": 0.0010666252524947513,
+      "output_speech_power": 0.00036406946117981934,
+      "output_noise_power": 1.6730700361939268e-06,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 16.13026533693899,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 3.552713678800501e-15
+    },
+    "linearity_max_abs": 1.3154931366443634e-08,
+    "metrics": {
+      "si_sdr_db": 15.349693944650692,
+      "stoi": 0.957915127239942,
+      "pesq_wb": 2.7868144512176514,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0008_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.15,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0008_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0008_6930-75918-0000_reference.wav",
+    "input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "reference_sha256": "7ace675929e2c8820d955b36b5ea602830e804f1a93e63e81a334ec91483a692",
+    "common_scale": 1.0,
+    "noise_gain": 44.72473316238892,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/004.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/013.npy"
+    ],
+    "saved_active_SNR_error_db": 4.425350795149626e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        54240
+      ],
+      [
+        54400,
+        56960
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 4.425350795149626e-08,
+    "old_G18_sample_id": "g18_0004_6930-75918-0000",
+    "old_input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0004_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.0064274197362168,
+      "true_mask_noise_shape_error": 0.012133702051525915,
+      "McNet_mask_speech_shape_error": 0.07041474560282966,
+      "McNet_mask_noise_shape_error": 0.10627246127586636,
+      "mask_mean": 0.2459722086975483,
+      "mask_fraction_below_001": 0.4226195581825129,
+      "partition_relative_max": 2.1254324531884008e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.017497533744269645,
+      "target_gain_db": -0.6798607757396246,
+      "noise_reduction_db": 19.722811142715127,
+      "component_input_snr_db": -0.6163067990606214,
+      "component_output_snr_db": 18.42664356791488,
+      "input_speech_power": 0.0009255101405216244,
+      "input_noise_power": 0.0010666252524947513,
+      "output_speech_power": 0.0007913982834970032,
+      "output_noise_power": 1.1369222010514752e-05,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 18.888629063351058,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 3.552713678800501e-15
+    },
+    "linearity_max_abs": 2.2584572434425354e-08,
+    "metrics": {
+      "si_sdr_db": 15.498423720173838,
+      "stoi": 0.9247132506043472,
+      "pesq_wb": 2.2056658267974854,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0009_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.15,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0009_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0009_6930-75918-0000_new.wav",
+    "input_sha256": "6333c8802aef71d031cc18c2c1daba0fc6d779c9c340694e271b7bf519617e52",
+    "reference_sha256": "146a55f6a3fae81c7a5b7b04a1b64fd89a60a649dd0e9a898fbe37e3c89ddad3",
+    "common_scale": 1.0,
+    "noise_gain": 46.96972026016655,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/004.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/013.npy"
+    ],
+    "saved_active_SNR_error_db": 9.609024656773253e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        57440
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 9.609024656773253e-08,
+    "old_G18_sample_id": "g18_0004_6930-75918-0000",
+    "old_input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0004_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.007079722419117827,
+      "true_mask_noise_shape_error": 0.010229286709782688,
+      "McNet_mask_speech_shape_error": 0.06894800061604728,
+      "McNet_mask_noise_shape_error": 0.0695138973381919,
+      "mask_mean": 0.24613641150189072,
+      "mask_fraction_below_001": 0.4204206077524699,
+      "partition_relative_max": 2.8415242548988948e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.17063743936673303,
+      "target_gain_db": -4.29414796011081,
+      "noise_reduction_db": 23.183895801245825,
+      "component_input_snr_db": -0.6719804164611587,
+      "component_output_snr_db": 18.217767424673855,
+      "input_speech_power": 0.0016800286843433418,
+      "input_noise_power": 0.001961167729623808,
+      "output_speech_power": 0.0006250314936202292,
+      "output_noise_power": 9.421610766496111e-06,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 15.082277308166335,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 1.3620592653751373e-08,
+    "metrics": {
+      "si_sdr_db": 13.290113903641341,
+      "stoi": 0.9302974814271939,
+      "pesq_wb": 2.243485450744629,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0009_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.15,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0009_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0009_6930-75918-0000_new.wav",
+    "input_sha256": "6333c8802aef71d031cc18c2c1daba0fc6d779c9c340694e271b7bf519617e52",
+    "reference_sha256": "146a55f6a3fae81c7a5b7b04a1b64fd89a60a649dd0e9a898fbe37e3c89ddad3",
+    "common_scale": 1.0,
+    "noise_gain": 46.96972026016655,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/004.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/013.npy"
+    ],
+    "saved_active_SNR_error_db": 9.609024656773253e-08,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        57440
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 9.609024656773253e-08,
+    "old_G18_sample_id": "g18_0004_6930-75918-0000",
+    "old_input_sha256": "231f6372c4c99213399c005cf67f5122bba96b3ea00eaf5d7e6fb6a3cbf85863",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0004_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.007079722419117827,
+      "true_mask_noise_shape_error": 0.010229286709782688,
+      "McNet_mask_speech_shape_error": 0.06894800061604728,
+      "McNet_mask_noise_shape_error": 0.0695138973381919,
+      "mask_mean": 0.24613641150189072,
+      "mask_fraction_below_001": 0.4204206077524699,
+      "partition_relative_max": 2.8415242548988948e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.024130335388943595,
+      "target_gain_db": -0.9202600226002701,
+      "noise_reduction_db": 17.74243069533849,
+      "component_input_snr_db": -0.6719804164611587,
+      "component_output_snr_db": 16.15019025627706,
+      "input_speech_power": 0.0016800286843433418,
+      "input_noise_power": 0.001961167729623808,
+      "output_speech_power": 0.0013592229366064593,
+      "output_noise_power": 3.298159610077708e-05,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 18.020065498353283,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 2.1420419216156006e-08,
+    "metrics": {
+      "si_sdr_db": 13.912085883180826,
+      "stoi": 0.9064798442460121,
+      "pesq_wb": 2.0325779914855957,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0014_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.35,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0014_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0014_6930-75918-0000_reference.wav",
+    "input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "reference_sha256": "5e8e454c0cbfb64e6866139ed1454a79b5e1840d71183892c1bff90a8fabc7dc",
+    "common_scale": 1.0,
+    "noise_gain": 64.68404042416554,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/007.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/016.npy"
+    ],
+    "saved_active_SNR_error_db": 1.597512026307026e-07,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        60160
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 1.597512026307026e-07,
+    "old_G18_sample_id": "g18_0007_6930-75918-0000",
+    "old_input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0007_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.011757566038878932,
+      "true_mask_noise_shape_error": 0.013102227478872993,
+      "McNet_mask_speech_shape_error": 0.06941122772793319,
+      "McNet_mask_noise_shape_error": 0.07096094109111459,
+      "mask_mean": 0.2502749062342814,
+      "mask_fraction_below_001": 0.38609514749343044,
+      "partition_relative_max": 3.674125881033986e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.3089332255198112,
+      "target_gain_db": -6.028486001864012,
+      "noise_reduction_db": 20.041303940831376,
+      "component_input_snr_db": -0.25645598951879145,
+      "component_output_snr_db": 13.756361949448575,
+      "input_speech_power": 0.002122846632547296,
+      "input_noise_power": 0.0022519783871447043,
+      "output_speech_power": 0.0005297488456301567,
+      "output_noise_power": 2.230662282849433e-05,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 8.920300453370395,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 1.7763568394002505e-15
+    },
+    "linearity_max_abs": 1.3969838619232178e-08,
+    "metrics": {
+      "si_sdr_db": 7.585694229246234,
+      "stoi": 0.8256216047723236,
+      "pesq_wb": 1.502676248550415,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0014_6930-75918-0000_reference",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.35,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0014_6930-75918-0000_reference.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0014_6930-75918-0000_reference.wav",
+    "input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "reference_sha256": "5e8e454c0cbfb64e6866139ed1454a79b5e1840d71183892c1bff90a8fabc7dc",
+    "common_scale": 1.0,
+    "noise_gain": 64.68404042416554,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/007.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/016.npy"
+    ],
+    "saved_active_SNR_error_db": 1.597512026307026e-07,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        60160
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 1.597512026307026e-07,
+    "old_G18_sample_id": "g18_0007_6930-75918-0000",
+    "old_input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "room_id": "reference",
+    "room_dimensions_m": [
+      6,
+      5,
+      3
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0007_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.011757566038878932,
+      "true_mask_noise_shape_error": 0.013102227478872993,
+      "McNet_mask_speech_shape_error": 0.06941122772793319,
+      "McNet_mask_noise_shape_error": 0.07096094109111459,
+      "mask_mean": 0.2502749062342814,
+      "mask_fraction_below_001": 0.38609514749343044,
+      "partition_relative_max": 3.674125881033986e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.05861442015110843,
+      "target_gain_db": -1.4906284578959748,
+      "noise_reduction_db": 12.550516244302619,
+      "component_input_snr_db": -0.25645598951879145,
+      "component_output_snr_db": 10.803431796887853,
+      "input_speech_power": 0.002122846632547296,
+      "input_noise_power": 0.0022519783871447043,
+      "output_speech_power": 0.0015061068141106215,
+      "output_noise_power": 0.00012517355704897313,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 13.839647668171008,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 2.3283064365386963e-08,
+    "metrics": {
+      "si_sdr_db": 8.938016606756886,
+      "stoi": 0.7944180862590936,
+      "pesq_wb": 1.3652002811431885,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0015_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.35,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0015_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0015_6930-75918-0000_new.wav",
+    "input_sha256": "d895f1cb5ce4fb696b1ed35a8e51a467e3c47fa0ae5f0800e028545f375207ec",
+    "reference_sha256": "4aa0e8ab1bf20dbbd8d378c73113bc7b6c46e8928e2ccef2f6ffdeed5622fed1",
+    "common_scale": 1.0,
+    "noise_gain": 57.197840751429226,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/007.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/016.npy"
+    ],
+    "saved_active_SNR_error_db": 1.9062713657070927e-07,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        60640
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 1.9062713657070927e-07,
+    "old_G18_sample_id": "g18_0007_6930-75918-0000",
+    "old_input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0007_6930-75918-0000",
+    "system": "truth_ref_power_mask_mvdr",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.00967186379626779,
+      "true_mask_noise_shape_error": 0.01298787933792445,
+      "McNet_mask_speech_shape_error": 0.07781193211793078,
+      "McNet_mask_noise_shape_error": 0.06698716876310837,
+      "mask_mean": 0.2566471512251104,
+      "mask_fraction_below_001": 0.38067574838392737,
+      "partition_relative_max": 3.0454841258165837e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.2933844883377079,
+      "target_gain_db": -5.772300217291672,
+      "noise_reduction_db": 18.831035504418395,
+      "component_input_snr_db": -0.24052507080169822,
+      "component_output_snr_db": 12.818210216325024,
+      "input_speech_power": 0.004389945217515189,
+      "input_noise_power": 0.004639931913589913,
+      "output_speech_power": 0.0011620614091293752,
+      "output_noise_power": 6.073066788769817e-05,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 9.12593319413716,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0
+    },
+    "linearity_max_abs": 1.6938429325819016e-08,
+    "metrics": {
+      "si_sdr_db": 7.448381382819439,
+      "stoi": 0.7962587290131476,
+      "pesq_wb": 1.3855016231536865,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  },
+  {
+    "sample_id": "g22_0015_6930-75918-0000_new",
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+    "split": "matched_room_confirmation_reused_voices",
+    "condition": "point",
+    "noise_field": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "requested_rt60": 0.35,
+    "snr_db": 0,
+    "paired_room_group": "6930-75918-0000|OOFFICE|point|-80",
+    "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/noisy/g22_0015_6930-75918-0000_new.wav",
+    "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/reference/g22_0015_6930-75918-0000_new.wav",
+    "input_sha256": "d895f1cb5ce4fb696b1ed35a8e51a467e3c47fa0ae5f0800e028545f375207ec",
+    "reference_sha256": "4aa0e8ab1bf20dbbd8d378c73113bc7b6c46e8928e2ccef2f6ffdeed5622fed1",
+    "common_scale": 1.0,
+    "noise_gain": 57.197840751429226,
+    "frames": 63759,
+    "dry_frames": 56080,
+    "RIR_samples": 7680,
+    "noise_preroll_samples": 16000,
+    "noise_intervals": [
+      [
+        4185249,
+        4265008
+      ]
+    ],
+    "base_noise_directions": [
+      [
+        -0.8365163037378078,
+        0.48296291314453427,
+        -0.25881904510252074
+      ]
+    ],
+    "speech_RIR_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/007.npy",
+    "noise_RIR_paths": [
+      "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g22_v1/rir/016.npy"
+    ],
+    "saved_active_SNR_error_db": 1.9062713657070927e-07,
+    "activity_spans_from_unquantized_reference": [
+      [
+        0,
+        60640
+      ]
+    ],
+    "recomputed_PCM_activity_difference_samples": 0,
+    "saved_recomputed_PCM_activity_SNR_error_db": 1.9062713657070927e-07,
+    "old_G18_sample_id": "g18_0007_6930-75918-0000",
+    "old_input_sha256": "59a1e84ef09d76a393b67937a60a0f52d471066ed01768bec6c38d987ceb807e",
+    "room_id": "new",
+    "room_dimensions_m": [
+      4,
+      3.5,
+      2.8
+    ],
+    "old_G18_common_scale": 1.0,
+    "matched_room_pair": "g18_0007_6930-75918-0000",
+    "system": "truth_ref_power_mask_mwf",
+    "oracle_clean_information": true,
+    "deployable": false,
+    "theoretical_upper_bound": false,
+    "mask_target": "full reverberant quantized reference speech, not dry speech",
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.00967186379626779,
+      "true_mask_noise_shape_error": 0.01298787933792445,
+      "McNet_mask_speech_shape_error": 0.07781193211793078,
+      "McNet_mask_noise_shape_error": 0.06698716876310837,
+      "mask_mean": 0.2566471512251104,
+      "mask_fraction_below_001": 0.38067574838392737,
+      "partition_relative_max": 3.0454841258165837e-16
+    },
+    "components": {
+      "speech_error_nmse": 0.0533889854360804,
+      "target_gain_db": -1.5031835515373149,
+      "noise_reduction_db": 12.67478903422236,
+      "component_input_snr_db": -0.24052507080169822,
+      "component_output_snr_db": 10.93108041188335,
+      "input_speech_power": 0.004389945217515189,
+      "input_noise_power": 0.004639931913589913,
+      "output_speech_power": 0.0031055658723463733,
+      "output_noise_power": 0.0002506297981492861,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 14.643768999937611,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 3.552713678800501e-15
+    },
+    "linearity_max_abs": 2.8870999813079834e-08,
+    "metrics": {
+      "si_sdr_db": 9.27495266340568,
+      "stoi": 0.7679733185299791,
+      "pesq_wb": 1.3613274097442627,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "status": "ok"
+  }
+]

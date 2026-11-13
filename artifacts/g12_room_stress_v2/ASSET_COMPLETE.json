@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T08:09:04.440671+00:00",
+  "wheel_bytes": 36773,
+  "wheel_sha256": "8b595fa8de553b9b151f361851418d3fcd446aa22f1c1af9564fe78c0c115e9c",
+  "added_distributions": [
+    "rir-generator"
+  ],
+  "all_previous_distribution_versions_unchanged": true,
+  "uv_sha256": "6583a1d002bf6165be0a38366538268e028bbcbb8802880ca09cce80d5505447",
+  "dependency_check_before_returncode": 0,
+  "dependency_check_after_ok": true,
+  "unit_tests": 86,
+  "installed_module_files_sha256": {
+    "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/rir_generator/_rir.abi3.so": "430799335be5d8b5027e9f263cb0ce8c52ec25b0523a4cb975492f49adcf5ac3",
+    "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/rir_generator/_version.py": "f01c47562bbfb061e6ad750751dc543a282d20ac8afd1e25e7a0a134981ffa31",
+    "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/rir_generator/__init__.py": "c4569f4d02ad5818d4c01e99a31ce88c910f5d5866c382219fd2e7bc00e31490",
+    "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/rir_generator/_cffi/build.py": "c101b45e4beef48353aabe794484efae16fd272cf8a5e53b01a020f91ddcc3fa"
+  }
+}

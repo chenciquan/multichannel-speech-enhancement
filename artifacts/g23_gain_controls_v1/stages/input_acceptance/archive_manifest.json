@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T19:48:26.996309+00:00",
+  "files": [
+    {
+      "source": "docs/G23_增益控制输入独立核验.md",
+      "snapshot": "00_G23_增益控制输入独立核验.md",
+      "sha256": "943481d214af8a61138f4ae07611826fddefc89a130dc7b64abd20849ada0459"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/INPUT_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_INPUT_ACCEPTANCE_AUDIT.json",
+      "sha256": "ff6b8a8ffd5f648d0ecd46e94305aceeafdbfcc9de42ca17425d2b6b31d28a65"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-11T20:52:55.249191+00:00",
+  "model": "Whisper tiny.en",
+  "checkpoint_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+  "options": {
+    "language": "en",
+    "task": "transcribe",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "initial_prompt": null,
+    "beam_size": 1,
+    "word_timestamps": false,
+    "without_timestamps": true,
+    "compression_ratio_threshold": 2.4,
+    "logprob_threshold": -1.0,
+    "no_speech_threshold": 0.6,
+    "fp16": true,
+    "verbose": null
+  },
+  "previous_cache_sha256": "611c43b5e3fce381f612927df81dce35453b3e36e40960d6045aa2374b03fb1c",
+  "cache_initial_entries": 5923,
+  "reference_text_used_as_prompt": false
+}

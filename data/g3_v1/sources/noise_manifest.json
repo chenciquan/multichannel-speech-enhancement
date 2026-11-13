@@ -1,0 +1,34 @@
+[
+  {
+    "noise_id": "DWASHING",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DWASHING_ch01.wav",
+    "sha256": "da02faca8c6523d24ee86aae6c6889c950bb34d559f1379cc87e7e3b75690f4d",
+    "duration_seconds": 300.004,
+    "license": "CC-BY-SA-3.0",
+    "source_url": "https://zenodo.org/records/1227121"
+  },
+  {
+    "noise_id": "DKITCHEN",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DKITCHEN_ch01.wav",
+    "sha256": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d",
+    "duration_seconds": 300.004,
+    "license": "CC-BY-SA-3.0",
+    "source_url": "https://zenodo.org/records/1227121"
+  },
+  {
+    "noise_id": "OOFFICE",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/noise/OOFFICE_ch01.wav",
+    "sha256": "a831879b26e15732ed511a8d3bf72e23aa1689383aac6c5ba76bcaaa528bc2f2",
+    "duration_seconds": 300.004,
+    "license": "CC-BY-SA-3.0",
+    "source_url": "https://zenodo.org/records/1227121/files/OOFFICE_16k.zip?download=1"
+  },
+  {
+    "noise_id": "PCAFETER",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/noise/PCAFETER_ch01.wav",
+    "sha256": "854dd0e5ef334a66abdd02d6d2b3e9d01b685df033d0acd1cd06e471c062550b",
+    "duration_seconds": 300.004,
+    "license": "CC-BY-SA-3.0",
+    "source_url": "https://zenodo.org/records/1227121/files/PCAFETER_16k.zip?download=1"
+  }
+]

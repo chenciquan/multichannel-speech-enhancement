@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-11-12T09:48:41.695908+00:00",
+  "files": {
+    "configs/g17_fresh_confirmation_plan.json": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9",
+    "configs/g1_geometry.json": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+    "scripts/g17_common.py": "8898afac18b0dbac778c23cfb9c9c0b371324e2b67d4b84093005ff59b45b4fa",
+    "scripts/g17_queue.py": "0f04c465f42f8f4fbfb853bb487ff10f0e50aa8e8a4ade34eb52dff7200ce910",
+    "scripts/g17_fetch.py": "22ac9936c4ecb32af01f6949b80a5857ed77a87826486ef139d97259cf6c6e44",
+    "scripts/g17_build.py": "4557093e866711fb41a600affc0ab4f3ac85ab3af7da06b78c54c5597646b8d1",
+    "scripts/g17_signal.py": "2a0623d88b5193e406398da70a69dd837b68f4083e3b35200bf1dc7ba1d029a1",
+    "scripts/g17_asr.py": "89b66a88a8602ce141a1f2f350932d605d3289c071c803321d54a407187a8cb9",
+    "scripts/g17_finish.py": "e5dd80472e9b8dbd3b8982e09be4b6e2dafb62bc5d5bd0b957e3244731d98775",
+    "src/mcse/runtime.py": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0",
+    "src/mcse/geometry.py": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "src/mcse/simulation.py": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0",
+    "src/mcse/spatial_noise.py": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+  },
+  "shared_numeric_QA_log_sha256": "dd84790d5a47950011f37a71ac451b61bc0a2145c3b46d5a507c0b33e7105d57"
+}

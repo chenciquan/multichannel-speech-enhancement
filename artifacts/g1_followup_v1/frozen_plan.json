@@ -1,0 +1,68 @@
+{
+  "plan": {
+    "stage": "G1_followup_cause_audit",
+    "date_local": "2026-11-11",
+    "purpose": "Explain weak enhancement and adjudicate ASR candidates before any method design",
+    "source_evidence": "artifacts/g1_v1",
+    "all_case_analysis": 48,
+    "forward_probe_selection": "all seven ASR regression candidates plus the first nonregression by sample_id for each of six speakers; selection fixed before probe outputs",
+    "forward_conditions": [
+      "original",
+      "common_gain_0.25",
+      "nonreference_channels_reversed_ref4_fixed",
+      "reconstructed_clean_field"
+    ],
+    "maximum_forward_probes": 52,
+    "audit_checks": [
+      "official checkpoint/config agreement",
+      "independent feature ordering and normalization",
+      "independent cIRM formula",
+      "original prepare_time_domain with pair-to-complex ISTFT compatibility only",
+      "stored output repeatability",
+      "physical gain and lag",
+      "channel sensitivity",
+      "clean-input distortion"
+    ],
+    "interpretation_limits": [
+      "coefficient projections are descriptive, not true separated speech/noise components",
+      "channel permutation is an out-of-domain sensitivity probe, not an enhancement baseline",
+      "clean-input distortion does not by itself establish lost words",
+      "no human listening is inferred from ASR or plots"
+    ],
+    "human_feedback_received": [
+      {
+        "sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5",
+        "question_scope": "whether JUST is harder to hear after enhancement",
+        "answer_verbatim": "两者都能听清，没有明显退步",
+        "interpretation": "user-reported no obvious regression for this word; not a blinded listening study or all-case judgement"
+      }
+    ],
+    "new_utterance_confirmation": "only if an operational acoustic failure is supported; otherwise do not create a nominal confirmation set without a hypothesis",
+    "training": false,
+    "model_modification": false,
+    "new_dependencies": false,
+    "large_downloads": false
+  },
+  "plan_sha256": "c16c69253a0b66cbaa8142034836421cf4913909c53502b679d77918a324b791",
+  "selected_sample_ids": [
+    "1988-147956-0013__DKITCHEN_ch01__snr5",
+    "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "2035-147960-0006__DWASHING_ch01__snr0",
+    "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "2086-149220-0020__DKITCHEN_ch01__snr5",
+    "2086-149220-0032__DWASHING_ch01__snr0",
+    "2277-149896-0012__DKITCHEN_ch01__snr5",
+    "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "777-126732-0021__DKITCHEN_ch01__snr5",
+    "777-126732-0074__DWASHING_ch01__snr5",
+    "7976-110124-0000__DKITCHEN_ch01__snr5",
+    "7976-110124-0021__DWASHING_ch01__snr5"
+  ],
+  "input_hashes": {
+    "cases": "274b61a2555149c49f8da8206f9a8f3590a8a3ae47cc883295941bbfb92c0cae",
+    "asr": "c706ae85d9197b82519f398551dfa90a1c760fa60bf68ebd199d9b982176b772",
+    "manifest": "c09282b305d0eefa961e7af8b711306399071e32bfb147bc034eed4dd16642cf"
+  },
+  "frozen_before_probe_outputs": true
+}

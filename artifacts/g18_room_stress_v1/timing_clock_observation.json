@@ -1,0 +1,7 @@
+{
+  "signal_UTC_timestamp_difference_seconds": 2073.082504,
+  "reported_monotonic_stage_seconds": 1599.659195514,
+  "difference_seconds": 473.423308486,
+  "cause": "not established;possible guest/host clock or suspension differences,not asserted",
+  "interpretation": "Stage timing is not a measured continuously available wall-clock or streaming latency;does not change input/model/audio metrics"
+}

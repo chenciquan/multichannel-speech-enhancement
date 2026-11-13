@@ -1,0 +1,4 @@
+{
+  "command": "uv pip check --python .venv/bin/python",
+  "exit_code": 0
+}

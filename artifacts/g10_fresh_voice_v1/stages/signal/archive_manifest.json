@@ -1,0 +1,25 @@
+{
+  "saved_at_utc": "2026-11-12T05:23:19.786976+00:00",
+  "files": [
+    {
+      "source": "docs/G10C_新说话人直接输出信号报告.md",
+      "snapshot": "00_G10C_新说话人直接输出信号报告.md",
+      "sha256": "2f2a2798c1bdd99b4d47f818cbf7024301fa1dd4df0430b335dfbb8b223300f5"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "e08bf2534c2b7cae281b8a1f2b7cdb9309ef70e1a24af25843db798783398b36"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "6f0ba42e0c32b1d3b0003b3164ac6b949d4a2b22db3510113ce394e687f17068"
+    },
+    {
+      "source": "scripts/g4_run.py",
+      "snapshot": "03_g4_run.py",
+      "sha256": "1583c8d26e60b0a9abdce56fab6cb9a07d1fdefb9cd9e9d7e3d7833a250f643d"
+    }
+  ]
+}

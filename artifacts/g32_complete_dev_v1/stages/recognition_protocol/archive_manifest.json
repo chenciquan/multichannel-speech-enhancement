@@ -1,0 +1,65 @@
+{
+  "saved_utc": "2026-11-13T01:13:24.499764+00:00",
+  "files": [
+    {
+      "source": "docs/G32E_完整开发语句固定双识别器协议.md",
+      "snapshot": "00_G32E_完整开发语句固定双识别器协议.md",
+      "sha256": "4e8176be9298fc0dded8bca7875721a03fab1cea2dac8d79f43d2ced87787c81"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "5a8cdf9d0e2b4e12b28aebf1d02ffbd91adca361d6431856d96b23d5aae301e1"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/input_manifest.jsonl",
+      "snapshot": "02_input_manifest.jsonl",
+      "sha256": "4a6fe9890953be206533e77e3d6dec4dfe4497b09e9b1eb6bc12a61889760b0b"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/dry_anchors.json",
+      "snapshot": "03_dry_anchors.json",
+      "sha256": "22964b914c05a4e8fc5b3c044429d42ddb60b6c3e7ade552c934a2e96afb54f1"
+    },
+    {
+      "source": "scripts/g32_asr.py",
+      "snapshot": "04_g32_asr.py",
+      "sha256": "946fbe5711cafd1b21cb9b84306fe076e1d3059fa2cab5f414086c4b4fc2517e"
+    },
+    {
+      "source": "scripts/g32_asr_finish.py",
+      "snapshot": "05_g32_asr_finish.py",
+      "sha256": "cd9d8e96c646d9070bc4577ae06ee649b5d7dedaa7386405e4cb891f0360bba5"
+    },
+    {
+      "source": "scripts/g32_common.py",
+      "snapshot": "06_g32_common.py",
+      "sha256": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "07_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "08_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "09_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "10_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/asr_level.py",
+      "snapshot": "11_asr_level.py",
+      "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+    }
+  ]
+}

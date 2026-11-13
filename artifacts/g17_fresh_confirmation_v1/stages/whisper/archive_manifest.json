@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T10:01:52.826462+00:00",
+  "files": [
+    {
+      "source": "docs/G17E_Whisper新语音确认初评.md",
+      "snapshot": "00_G17E_Whisper新语音确认初评.md",
+      "sha256": "cb9a95444f53d593d77c69a381f2359b94c03f401e2a87fe20e2c1110b79c246"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "cad3357f049cdda0ea0a997c129c265a8ae2058c0eacbcfe97d4727d20b3c7ab"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "12ff02b47f8889f3c76d4a0cd319b405e6cc343cd9a83cdbea2ed85cfe2b56fb"
+    },
+    {
+      "source": "scripts/g17_asr.py",
+      "snapshot": "03_g17_asr.py",
+      "sha256": "89b66a88a8602ce141a1f2f350932d605d3289c071c803321d54a407187a8cb9"
+    }
+  ]
+}

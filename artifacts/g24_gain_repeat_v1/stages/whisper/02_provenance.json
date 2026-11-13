@@ -1,0 +1,83 @@
+{
+  "engine": "Whisper",
+  "model_id": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+  "decoding": {
+    "options": {
+      "language": "en",
+      "task": "transcribe",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "beam_size": 1,
+      "word_timestamps": false,
+      "without_timestamps": true,
+      "compression_ratio_threshold": 2.4,
+      "logprob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "fp16": true,
+      "verbose": null
+    },
+    "model_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03"
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "history_for_comparison_only": true,
+  "cache_skipping": false,
+  "source_caches": [
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/asr_cache.jsonl",
+      "sha256": "611c43b5e3fce381f612927df81dce35453b3e36e40960d6045aa2374b03fb1c"
+    },
+    {
+      "path": "artifacts/g5_rotation_v1/evaluation/asr_cache_new.jsonl",
+      "sha256": "eff599a8e1ef1b1757bc50fe1c0f4e6f79c0938cfff70d03b189805c77df6c38"
+    },
+    {
+      "path": "artifacts/g7_unseen_noise_v1/evaluation/asr_cache_new.jsonl",
+      "sha256": "a1563457dbdb93304128f7e4fffcf8ef2d6f23741d9daeb32c2eda7836809eb7"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "901792f662086455e0866d16ce17cda3d3ee8625522219fde84054fe25074a41"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "373346236cc6273cd2b59ebb77a90cfadf8b0590880d8d06467965f723de8b02"
+    },
+    {
+      "path": "artifacts/g14_corrected_geometry_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "cf8b072a32d31f2746de0c65298aa339bbbd4d49276e251298894fb588f79c5b"
+    },
+    {
+      "path": "artifacts/g16_rigid_dev_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "37696c0bc34ced50121d34f8c6cdffcd496501e1dcaabd57088f0b035ec4e6b0"
+    },
+    {
+      "path": "artifacts/g17_fresh_confirmation_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "9df46adbdc28bd26591ef05bd8d8b3506e8b966c8a44678eb3003c8c446a685a"
+    },
+    {
+      "path": "artifacts/g18_room_stress_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "61d43b54cceadf7ed31ec005f6304c18de3429467bdb163d3a0f7ef33c415e08"
+    },
+    {
+      "path": "artifacts/g19_room_mwf_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "d28b63752d4fb0297cf9829f5e72ad959452b1a426002fe327edb8fda05bbd4b"
+    },
+    {
+      "path": "artifacts/g21_truth_covariance_v1/recognition/Whisper/cache_new.jsonl",
+      "sha256": "76e4f6df331cd3388827da7a00cfdb346099e20c2d2da9fbb3f266488c12ef7f"
+    },
+    {
+      "path": "artifacts/g22_matched_rooms_v1/recognition/Whisper/cache_new.jsonl",
+      "sha256": "65bc61d124bdcc19da6ddc7664d36c716729336f44ab691059760b7395dcbbe1"
+    },
+    {
+      "path": "artifacts/g23_gain_controls_v1/recognition/Whisper/cache_new.jsonl",
+      "sha256": "bee329d4a3d4c08dc0b0f0517a2d8802e857ef285726f29b7c75bb811df11e05"
+    }
+  ],
+  "plan_sha256": "38b04e5b5ffd004e8098163118c51ad924c5825ef13ba454732ffae92a2baa41",
+  "previous_archive_sha256": "5969ef1c35f6ff1509a084f5c4746b877f651459d423a113e62f1206818edee9",
+  "started_utc": "2026-11-12T20:00:34.846747+00:00"
+}

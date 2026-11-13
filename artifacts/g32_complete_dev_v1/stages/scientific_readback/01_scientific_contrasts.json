@@ -1,0 +1,74 @@
+[
+  {
+    "method": "direct",
+    "comparator": "cirm",
+    "SI_delta": -0.04106470703484211,
+    "PESQ_delta": -0.006635869542757744,
+    "STOI_delta": 0.0004655246085205622,
+    "Whisper_raw_WER_pp": -7.2916666666666625,
+    "Whisper_level_control_WER_pp": -1.041666666666663,
+    "CTC_raw_WER_pp": -4.166666666666674,
+    "CTC_level_control_WER_pp": -1.041666666666674,
+    "all_four_WER_strictly_lower": true
+  },
+  {
+    "method": "direct",
+    "comparator": "cirm_mask",
+    "SI_delta": -0.48616126732143633,
+    "PESQ_delta": -0.010293975472450256,
+    "STOI_delta": -0.004954741197829349,
+    "Whisper_raw_WER_pp": -9.375,
+    "Whisper_level_control_WER_pp": -5.2083333333333375,
+    "CTC_raw_WER_pp": -5.2083333333333375,
+    "CTC_level_control_WER_pp": -3.125,
+    "all_four_WER_strictly_lower": true
+  },
+  {
+    "method": "mvdr",
+    "comparator": "cirm",
+    "SI_delta": 0.1835015285521171,
+    "PESQ_delta": -0.014564817150433784,
+    "STOI_delta": 0.005744950504437352,
+    "Whisper_raw_WER_pp": -10.416666666666675,
+    "Whisper_level_control_WER_pp": -13.541666666666663,
+    "CTC_raw_WER_pp": 4.1666666666666625,
+    "CTC_level_control_WER_pp": -3.125,
+    "all_four_WER_strictly_lower": false
+  },
+  {
+    "method": "mvdr",
+    "comparator": "cirm_mask",
+    "SI_delta": -0.08685876008796989,
+    "PESQ_delta": -0.015499413013458252,
+    "STOI_delta": 5.23485275288893e-05,
+    "Whisper_raw_WER_pp": -5.2083333333333375,
+    "Whisper_level_control_WER_pp": 2.083333333333337,
+    "CTC_raw_WER_pp": 5.2083333333333375,
+    "CTC_level_control_WER_pp": 0.0,
+    "all_four_WER_strictly_lower": false
+  },
+  {
+    "method": "mwf",
+    "comparator": "cirm",
+    "SI_delta": 0.020099553570110708,
+    "PESQ_delta": -0.04930277168750763,
+    "STOI_delta": 0.001946967208111161,
+    "Whisper_raw_WER_pp": -3.125,
+    "Whisper_level_control_WER_pp": -3.125,
+    "CTC_raw_WER_pp": -9.375,
+    "CTC_level_control_WER_pp": -6.25,
+    "all_four_WER_strictly_lower": true
+  },
+  {
+    "method": "mwf",
+    "comparator": "cirm_mask",
+    "SI_delta": -0.6916375423758369,
+    "PESQ_delta": -0.07349271078904462,
+    "STOI_delta": -0.0036703952032617337,
+    "Whisper_raw_WER_pp": -3.125,
+    "Whisper_level_control_WER_pp": 2.083333333333326,
+    "CTC_raw_WER_pp": -6.25,
+    "CTC_level_control_WER_pp": -5.2083333333333375,
+    "all_four_WER_strictly_lower": false
+  }
+]

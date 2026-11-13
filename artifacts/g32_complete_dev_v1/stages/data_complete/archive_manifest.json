@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:59:42.757168+00:00",
+  "files": [
+    {
+      "source": "docs/G32B_完整开发语句生成覆盖.md",
+      "snapshot": "00_G32B_完整开发语句生成覆盖.md",
+      "sha256": "ff6f0733104e9ffe5d1bf610e7e242a9195d6ef1202e8485a38c1b427fd65cde"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/DATA_COMPLETE.json",
+      "snapshot": "01_DATA_COMPLETE.json",
+      "sha256": "5716fb5ae2dee316ea10aaea8510953cec650402c9d270376941feaf643302ff"
+    },
+    {
+      "source": "data/g32_v1/manifest.jsonl",
+      "snapshot": "02_manifest.jsonl",
+      "sha256": "57bd5b2370fc249fcb0a01da12c10d33be191c290c6cc65a3c41454f221bff0f"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/used_RIR_hashes.json",
+      "snapshot": "03_used_RIR_hashes.json",
+      "sha256": "7aa5f5b75d7ec8a0f8ac710e254b23c179699707f59f68747e33a4b0f07bd5b4"
+    }
+  ]
+}

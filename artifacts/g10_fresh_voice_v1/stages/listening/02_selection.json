@@ -1,0 +1,445 @@
+{
+  "completed_utc": "2026-11-12T07:27:25.816899+00:00",
+  "plan_sha256": "ccf187c5651a5c9735a41dfe130a35ea02181440bb429c967aec372e84dc930b",
+  "selection": [
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "source_id": "5338-284437-0012",
+      "speaker_id": "5338",
+      "transcript": "THE QUEEN GAZED UPON OUR FRIENDS WITH EVIDENT INTEREST",
+      "split": "fresh_voice_confirmation",
+      "condition": "point",
+      "noise_field": "point",
+      "noise_id": "OOFFICE",
+      "relative_angle": -80,
+      "target_azimuth": -40,
+      "noise_azimuth": -120,
+      "snr_db": 0,
+      "counterfactual_group": "5338-284437-0012|OOFFICE|point|-80|0",
+      "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/noisy/g10_0000_5338-284437-0012.wav",
+      "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0000_5338-284437-0012.wav",
+      "input_sha256": "697c258d596ae3eddc67d609b5ee1d5fdce78854d8f5b4280832444c3413b9de",
+      "reference_sha256": "9b445e8b14a2d22a4ec5dc7c4274e935731d80c8ef8823706b5b72ee22eae92f",
+      "raw_mic5_sha256": "f8eba660d3df97ce85deb8be26873e294bb72ef2bf78dbc3e7c08e6ad9962b9e",
+      "reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+      "common_scale": 1.0,
+      "noise_gain": 65.6655477200815,
+      "noise_intervals": [
+        [
+          2554597,
+          2602997
+        ]
+      ],
+      "base_noise_directions": [
+        [
+          -0.8365163037378078,
+          0.48296291314453427,
+          -0.25881904510252074
+        ]
+      ]
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "source_id": "6319-57405-0007",
+      "speaker_id": "6319",
+      "transcript": "IS THERE ANYTHING THAT YOU WISH HE ASKED",
+      "split": "fresh_voice_confirmation",
+      "condition": "point",
+      "noise_field": "point",
+      "noise_id": "OOFFICE",
+      "relative_angle": -80,
+      "target_azimuth": 20,
+      "noise_azimuth": -60,
+      "snr_db": 0,
+      "counterfactual_group": "6319-57405-0007|OOFFICE|point|-80|0",
+      "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/noisy/g10_0157_6319-57405-0007.wav",
+      "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0157_6319-57405-0007.wav",
+      "input_sha256": "574008afaa4704ae7cf88af0e916cf413a1ae65d46e3fecec72fdfc0c665b6ce",
+      "reference_sha256": "48695f4db45279bddd5564b22a339cc6b58e76a1fcf431368b849944112bdc8a",
+      "raw_mic5_sha256": "6b4f889c3ce61e447b1a0adb7783d8c640a0a15154e35f73b5ee0d918cb82d3e",
+      "reference_samples_sha256": "2d1a0e9edba568eb86d8e7e83658d424399dc99b3dc2151bdd338531817c8e8d",
+      "common_scale": 0.8346578890473758,
+      "noise_gain": 103.16389393580059,
+      "noise_intervals": [
+        [
+          1559996,
+          1616076
+        ]
+      ],
+      "base_noise_directions": [
+        [
+          -0.8365163037378078,
+          0.48296291314453427,
+          -0.25881904510252074
+        ]
+      ]
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "source_id": "1993-147965-0001",
+      "speaker_id": "1993",
+      "transcript": "MORNING PRAYERS WERE LONGER THAN USUAL",
+      "split": "fresh_voice_confirmation",
+      "condition": "point",
+      "noise_field": "point",
+      "noise_id": "OOFFICE",
+      "relative_angle": -80,
+      "target_azimuth": 70,
+      "noise_azimuth": -10,
+      "snr_db": 0,
+      "counterfactual_group": "1993-147965-0001|OOFFICE|point|-80|0",
+      "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/noisy/g10_0314_1993-147965-0001.wav",
+      "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0314_1993-147965-0001.wav",
+      "input_sha256": "94ca37ce9be3fb234c7c309ea833b8ba225d33ae0e874176b1e2ae26ed3e80e7",
+      "reference_sha256": "11bc3a2aaea7628c61fa6f409586f3257f9652286bb025ed1e559eb8e94a656a",
+      "raw_mic5_sha256": "d0e09401320b8eb5d03a0c36f543b3a786e5746c0850ee1276515805a53ed23c",
+      "reference_samples_sha256": "2129ee1c6aedb400c4b417ac3fe179e033493dae1f982e0465d305560491df87",
+      "common_scale": 1.0,
+      "noise_gain": 83.38478081472302,
+      "noise_intervals": [
+        [
+          2201137,
+          2244097
+        ]
+      ],
+      "base_noise_directions": [
+        [
+          -0.8365163037378078,
+          0.48296291314453427,
+          -0.25881904510252074
+        ]
+      ]
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "source_id": "2078-142845-0001",
+      "speaker_id": "2078",
+      "transcript": "SEVENTEEN SEVENTEEN",
+      "split": "fresh_voice_confirmation",
+      "condition": "point",
+      "noise_field": "point",
+      "noise_id": "OOFFICE",
+      "relative_angle": -80,
+      "target_azimuth": -40,
+      "noise_azimuth": -120,
+      "snr_db": 0,
+      "counterfactual_group": "2078-142845-0001|OOFFICE|point|-80|0",
+      "noisy_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/noisy/g10_0468_2078-142845-0001.wav",
+      "reference_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0468_2078-142845-0001.wav",
+      "input_sha256": "0ab420172d38fc4e38d857030824af6b450d595e25f368051b2487cc4c6632bf",
+      "reference_sha256": "6b80d3d63b462eb1c648e39d3e9717c9e1a757154962d1c9f9c75cbbd78fa500",
+      "raw_mic5_sha256": "4150e5751021b75f6a9e5e4c57be664a4ed80d6cd662a8853de2fc99fec23429",
+      "reference_samples_sha256": "56d631920243ba7bf12a5a6dd8f9ad8af2a46bb23ef4d7a968be80d4a19d61b5",
+      "common_scale": 1.0,
+      "noise_gain": 72.26538326533758,
+      "noise_intervals": [
+        [
+          3386681,
+          3420841
+        ]
+      ],
+      "base_noise_directions": [
+        [
+          -0.8365163037378078,
+          0.48296291314453427,
+          -0.25881904510252074
+        ]
+      ]
+    }
+  ],
+  "common_page_gain": 1.0,
+  "source_peak": 0.8991509675979614,
+  "exports": [
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "干净参考",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "9b445e8b14a2d22a4ec5dc7c4274e935731d80c8ef8823706b5b72ee22eae92f",
+      "export": "audio/r0/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "4490e44e37fb4f4a50b2950ae46a43c721ef63dfb6c003b99206a5a453bf6904",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "带噪第5麦",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/noisy/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "c912bd6ababb90e0336f6c86cc54e50050dbb40a51b270f5624bc92e37433350",
+      "export": "audio/r1/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "8922470267227126c7874fff1d0b8faaf8cdc0acbf9306aadfbcef26cedc2070",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "原McNet",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/mcnet/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "297d08dd408a6d066b78ee158ebc6db8024c4da9875d05fa1b8fc4c94b0136b4",
+      "export": "audio/r2/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "f0d61a3bb10da5057d881a8ee2069fe2868b2ec6ef79d6b5e2c6f17d2768eaf5",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "固定方向适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/fixed_without_clean_identity_s20261112/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "ca4c5f588b780ac0e3f66c226754ce7c23e67b15d9ce929190fff444debd850d",
+      "export": "audio/r3/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "b76eebda912b5ad9b0ed12b72c6313d6c4a344da4bad025f5080cf05d76ddb81",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "旋转适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/rotated_without_clean_identity_s20261112/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "1efa7aedb774c2168becb76471f6fc304f60b18158db337527f53c55c81b7a88",
+      "export": "audio/r4/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "be8c6a0a80d22ee5e7df066f36055ad3c2f40da947abe446af836ce6e8468655",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "原McNet掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/mcnet_mask_mvdr/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "ab46bb17d75a7dac21e49659640cf56bb794f5215f9653469059422ebf874d4b",
+      "export": "audio/r5/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "128c6b138ba4aace431d32ed1b687c63ae6f9f51d68518b89615f79b2f3eebdc",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "固定适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/fixed_without_clean_identity_s20261112_mask_mvdr/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "a388866698feffd2c704038ba7627b861332d3db05fe65836a5a60338e7bb130",
+      "export": "audio/r6/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "9e2f34e80585204341bbbbba717a555a5db8c311ea55e13c3215369c42ba4d73",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0000_5338-284437-0012",
+      "role": "旋转适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/rotated_without_clean_identity_s20261112_mask_mvdr/g10_0000_5338-284437-0012.wav",
+      "source_sha256": "e209158b231a674f05d6ddef1a82940f8a7d7d944ac8fe68ea0674e865be75ee",
+      "export": "audio/r7/g10_0000_5338-284437-0012.wav",
+      "export_sha256": "e5560f1819f97beef52e7781a79236b0c014dd6a0a65afe36ab7de7638bee9a1",
+      "frames": 48528
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "干净参考",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "48695f4db45279bddd5564b22a339cc6b58e76a1fcf431368b849944112bdc8a",
+      "export": "audio/r0/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "789f68ef531177156600d6e1d948c82e41678580803a471819962a9852a08150",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "带噪第5麦",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/noisy/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "59e8ee627fb08f4f7e8c1b56bd106341e3c1471cdee8bdb1dfa7e04bd9873177",
+      "export": "audio/r1/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "2a795f434e12358bab9da9e73b0ff5031e7a27b6d6ccdde5d80f5fddfcf915a9",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "原McNet",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/mcnet/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "d42962971ead5cbc0a848f38e7b8a67880be7b422c147d518d438104b72cf81d",
+      "export": "audio/r2/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "41811ddbe215fcef00e0c9065dd876d5c7e2e2f866fab08dccad399cc3b70823",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "固定方向适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/fixed_without_clean_identity_s20261112/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "2d54b1d0507f79a084db12e19c06519f442f85c25bbaa141e7adaff9eb9e49ea",
+      "export": "audio/r3/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "ff2b6f77a9401368bf4f9ca33d3982f9caa70a0edb3cd34d4aa0d022990725a6",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "旋转适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/rotated_without_clean_identity_s20261112/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "6addb56af277f5891454b38c22cc25afaf65fb78a559bc78c6234c28706c2dc0",
+      "export": "audio/r4/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "ab44acacc565244e64fbef869eeaa7e6c0f41d116a693d82b93609b06157010a",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "原McNet掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/mcnet_mask_mvdr/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "9347f0651d8c442daa96a0cba7169a60c109ed29d25d73425b6194ab1a423022",
+      "export": "audio/r5/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "3eb0d157bbdf71a335e0bc2518435ae1ca63725737d21316e60479a2c977ee75",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "固定适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/fixed_without_clean_identity_s20261112_mask_mvdr/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "eaf546161f6a245b1d78dfa7f6fae89525a50f489638a3d7d078c051c84a5861",
+      "export": "audio/r6/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "c3986d27bb7b1f0ee79a4a8f45340622de25a8e13ef969b132c92001c9eecb53",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0157_6319-57405-0007",
+      "role": "旋转适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/rotated_without_clean_identity_s20261112_mask_mvdr/g10_0157_6319-57405-0007.wav",
+      "source_sha256": "cbbc772d7f2a31e3a41eb59c5c621e616c6d9cf164444a2aaa6599896b1dbfea",
+      "export": "audio/r7/g10_0157_6319-57405-0007.wav",
+      "export_sha256": "5360080b4bbeaf4d0b38a23b20451f43640590053e39e619ed518a1eab0984c1",
+      "frames": 56208
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "干净参考",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "11bc3a2aaea7628c61fa6f409586f3257f9652286bb025ed1e559eb8e94a656a",
+      "export": "audio/r0/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "8c2ea1f542e993f09e72ae1f1eeecc61a92039a9a7757cb540c5d0a22111bc89",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "带噪第5麦",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/noisy/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "98647e184588901770a35434a881bb28cc6fecb0bd517112907da06477b6b2ed",
+      "export": "audio/r1/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "1b517bcaacafa3740f7513bb260b110d268f6408921df65631ed933e5faf62f7",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "原McNet",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/mcnet/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "74d199b2a2551af293548b8cf062f8a71651aa89539b05e21efd93ba98f71796",
+      "export": "audio/r2/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "ad56646ffa0c882fc39811185edae342ac2645e1ef647542f2f8c1b1f30f41e7",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "固定方向适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/fixed_without_clean_identity_s20261112/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "6c099072b4615147c12291c6458f2b22991b3d57eb6640ad9532ad730ed8794c",
+      "export": "audio/r3/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "d94280a403a59d23c8ba59dcead7b6381164574a11dd7eb9ed8bdbaf0544b5a7",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "旋转适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/rotated_without_clean_identity_s20261112/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "be0c65e5da9d319f21c5797196ac2f32601ac36e055d26eaa762374482c46619",
+      "export": "audio/r4/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "3efd419e08cdd8d3f1bdd2396ae8bf651dc2eda79995ffaaa98593f58d5d9cd6",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "原McNet掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/mcnet_mask_mvdr/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "7cf49ecb2d9884819eed3739f0906f7ea35d07ec5724f743558855d96741815f",
+      "export": "audio/r5/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "722ab1d425cc5ff1532033e60ec95498185a66ba0bfd443b8baccfc288a269cd",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "固定适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/fixed_without_clean_identity_s20261112_mask_mvdr/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "0953a68f1ce09400ea45d88252f8a85abaa18edf9a4c3978652f7995818ac12e",
+      "export": "audio/r6/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "a5fa8a1567f544c8de7b59d2c9bd08e107dfbb7edea3ed0bce810bdbae3ce140",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0314_1993-147965-0001",
+      "role": "旋转适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/rotated_without_clean_identity_s20261112_mask_mvdr/g10_0314_1993-147965-0001.wav",
+      "source_sha256": "2e5d0f340abe10d32c875e345b1fe7d377e2bba42d9cd3c5316b5f63d6b61a5d",
+      "export": "audio/r7/g10_0314_1993-147965-0001.wav",
+      "export_sha256": "6ec6ab9ae3ea4946700a7b7aa5f59ac9f839a58d1322ee03ad6625da1fdd5e49",
+      "frames": 43088
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "干净参考",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g10_v1/reference/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "6b80d3d63b462eb1c648e39d3e9717c9e1a757154962d1c9f9c75cbbd78fa500",
+      "export": "audio/r0/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "4a1b599e8c9d2c6f6ef8c0e1cc352a11e877ac6c1c95fb353c1bc9dab8cf0db2",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "带噪第5麦",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/noisy/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "8852029acd7b3c79b6502747677bb4c7b48e0f5ab1177b01399c3f951894f5eb",
+      "export": "audio/r1/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "eb467c8ac9af21e4d9867fdc35ef5ea27d93662f7846194ea28a03b92d029885",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "原McNet",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/mcnet/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "80de4b93be6cf2af83e0d06a291df442f555c35fadd50be179e13d0f9d2e1a69",
+      "export": "audio/r2/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "58f9d1645074bcba1e9ce417659e084b3ee16eb83db7e8c03d5fdaa9461158a5",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "固定方向适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/fixed_without_clean_identity_s20261112/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "b783756c973d4031ca7e39b673f3293d715ca02a275c931c130d5c9e314240aa",
+      "export": "audio/r3/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "6d136c1b41c8705244fd3a965f981bca59c0928087413da80eebd663f8696e79",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "旋转适配器",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/audio/rotated_without_clean_identity_s20261112/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "a5b1537803b8aa303e3760bf0c8382019b0de856d9d345bc81259a47d9801528",
+      "export": "audio/r4/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "2fd01759a6e4e15a2af4a9855a9aaff741465fc5f27024060a929e1c7e39ce41",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "原McNet掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/mcnet_mask_mvdr/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "7aaa01d5316f31a192165e93779ee2771bfa990d1c5acd97be6a28a031076668",
+      "export": "audio/r5/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "bf264b22bceb90175051333b4bd3d32a7770ca2c0bc998f11d4b9f823fd73243",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "固定适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/fixed_without_clean_identity_s20261112_mask_mvdr/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "7ba13572d0a1731be366640abb69d2822c1a2ab65f54b0ae22ecd50be0edf346",
+      "export": "audio/r6/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "e1c24ed491b470dacb97b2689f860d8fc991ec1c6104b5e3c6b69e8ee8dd9449",
+      "frames": 34288
+    },
+    {
+      "sample_id": "g10_0468_2078-142845-0001",
+      "role": "旋转适配器掩码MVDR",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g10_fresh_voice_v1/evaluation/beam_audio/rotated_without_clean_identity_s20261112_mask_mvdr/g10_0468_2078-142845-0001.wav",
+      "source_sha256": "2159dd683bd7c626bc11212f05b47ac84b6d314ef8e8d5e76b719b2fd9ec0feb",
+      "export": "audio/r7/g10_0468_2078-142845-0001.wav",
+      "export_sha256": "b8dd83283f09e1b43126c210c0b18aa494aa751fa12b10bd85fda6f9582fd39c",
+      "frames": 34288
+    }
+  ],
+  "human_feedback_received": false,
+  "blind_listening": false,
+  "checks_32_valid_audio_links": true
+}

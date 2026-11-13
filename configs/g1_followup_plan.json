@@ -1,0 +1,18 @@
+{
+  "stage": "G1_followup_cause_audit",
+  "date_local": "2026-11-11",
+  "purpose": "Explain weak enhancement and adjudicate ASR candidates before any method design",
+  "source_evidence": "artifacts/g1_v1",
+  "all_case_analysis": 48,
+  "forward_probe_selection": "all seven ASR regression candidates plus the first nonregression by sample_id for each of six speakers; selection fixed before probe outputs",
+  "forward_conditions": ["original", "common_gain_0.25", "nonreference_channels_reversed_ref4_fixed", "reconstructed_clean_field"],
+  "maximum_forward_probes": 52,
+  "audit_checks": ["official checkpoint/config agreement", "independent feature ordering and normalization", "independent cIRM formula", "original prepare_time_domain with pair-to-complex ISTFT compatibility only", "stored output repeatability", "physical gain and lag", "channel sensitivity", "clean-input distortion"],
+  "interpretation_limits": ["coefficient projections are descriptive, not true separated speech/noise components", "channel permutation is an out-of-domain sensitivity probe, not an enhancement baseline", "clean-input distortion does not by itself establish lost words", "no human listening is inferred from ASR or plots"],
+  "human_feedback_received": [{"sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5", "question_scope": "whether JUST is harder to hear after enhancement", "answer_verbatim": "两者都能听清，没有明显退步", "interpretation": "user-reported no obvious regression for this word; not a blinded listening study or all-case judgement"}],
+  "new_utterance_confirmation": "only if an operational acoustic failure is supported; otherwise do not create a nominal confirmation set without a hypothesis",
+  "training": false,
+  "model_modification": false,
+  "new_dependencies": false,
+  "large_downloads": false
+}

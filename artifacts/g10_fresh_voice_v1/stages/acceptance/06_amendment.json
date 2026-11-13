@@ -1,0 +1,7 @@
+{
+  "saved_utc": "2026-11-12T05:00:36.277901+00:00",
+  "initial_sha256": "1be3262078ec9f0a2f36c162c4a7f5c8b9aa83a606a8c437dac48aaaf1e83ff9",
+  "current_sha256": "7460bb8937118201de2f6cb03dac19d400f78d99f12913b7505354ce87c3ccd9",
+  "before_ASR": true,
+  "changes": "Report cache-precedence text mentions G9; Whisper snapshot now includes actual g10_asr.py instead of g9_asr.py. No decoding,scoring,systems,weights,data or numeric changes."
+}

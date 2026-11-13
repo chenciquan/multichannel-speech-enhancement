@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T20:23:19.058327+00:00",
+  "files": [
+    {
+      "source": "docs/G25_科学读回与完整房间辅评分决策.md",
+      "snapshot": "00_G25_科学读回与完整房间辅评分决策.md",
+      "sha256": "7424939b89ef8cfbe92b5d008602774c89ed4e0669e8688772338c68059c7291"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "ec1d25706100d082590a50509e7282913ca89c2f085e961509415b976abd65c2"
+    }
+  ]
+}

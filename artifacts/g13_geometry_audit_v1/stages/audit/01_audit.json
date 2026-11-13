@@ -1,0 +1,308 @@
+{
+  "status": "ok",
+  "checks": {
+    "all24_saved_waveform_reconstructions_exact": true,
+    "all3_stored_training_reconstructions_exact": true,
+    "no_G12_room_model_scores_generated": true,
+    "G12_partial_data_retained": true,
+    "all_corrected_point_offsets_match": true
+  },
+  "coverage": {
+    "G5_validation": {
+      "manifest": "data/g5_v1/validation/manifest.jsonl",
+      "manifest_sha256": "94f2a348eb794207742c354ca9921d97e3b55e57e4cd47b6a6ba0e46fe598a8c",
+      "all_cases": 54,
+      "point_cases": 36,
+      "point_relative_mismatch_cases": 24,
+      "non_point_legacy_motion_also_opposite": true
+    },
+    "G5_confirmation": {
+      "manifest": "data/g5_v1/confirmation/manifest.jsonl",
+      "manifest_sha256": "8b4378a76866989ef3e5e34b54952869d2ee0020dd53a04810c047ebfc38b94d",
+      "all_cases": 252,
+      "point_cases": 144,
+      "point_relative_mismatch_cases": 96,
+      "non_point_legacy_motion_also_opposite": true
+    },
+    "G7": {
+      "manifest": "data/g7_v1/manifest.jsonl",
+      "manifest_sha256": "2c639faf57e748069d8c5d9de818220526d4835249cea0d344b3e4da0e626661",
+      "all_cases": 648,
+      "point_cases": 432,
+      "point_relative_mismatch_cases": 288,
+      "non_point_legacy_motion_also_opposite": true
+    },
+    "G10": {
+      "manifest": "data/g10_v1/manifest.jsonl",
+      "manifest_sha256": "623849b19269963fef2dc9c2e6603a54cfffd72f7c893941f50f13f013c8bdd4",
+      "all_cases": 624,
+      "point_cases": 384,
+      "point_relative_mismatch_cases": 256,
+      "non_point_legacy_motion_also_opposite": true
+    }
+  },
+  "table": [
+    {
+      "target": -40,
+      "nominal_relative": -80,
+      "actual_legacy_noise_azimuth": 0.0,
+      "actual_legacy_relative": 40.0,
+      "correct_relative": -79.99999999999999
+    },
+    {
+      "target": -40,
+      "nominal_relative": 25,
+      "actual_legacy_noise_azimuth": 105.0,
+      "actual_legacy_relative": 145.0,
+      "correct_relative": 25.0
+    },
+    {
+      "target": 20,
+      "nominal_relative": -80,
+      "actual_legacy_noise_azimuth": -59.99999999999999,
+      "actual_legacy_relative": -80.0,
+      "correct_relative": -80.0
+    },
+    {
+      "target": 20,
+      "nominal_relative": 25,
+      "actual_legacy_noise_azimuth": 45.0,
+      "actual_legacy_relative": 25.0,
+      "correct_relative": 25.0
+    },
+    {
+      "target": 70,
+      "nominal_relative": -80,
+      "actual_legacy_noise_azimuth": -110.0,
+      "actual_legacy_relative": -180.0,
+      "correct_relative": -80.0
+    },
+    {
+      "target": 70,
+      "nominal_relative": 25,
+      "actual_legacy_noise_azimuth": -4.999999999999999,
+      "actual_legacy_relative": -75.0,
+      "correct_relative": 25.0
+    }
+  ],
+  "saved_waveform_probes": [
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0000_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.30845677852630615,
+      "legacy_input_sha256": "3615df4f9992befeef5a56cbcec01e12db66ff1645cf4dab823118c97259dfc1",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0001_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "725703f03d9d01d690046c6abe5f0863a1e3d53a62e9f9faed73cd3a86434b51",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0002_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.2841421365737915,
+      "legacy_input_sha256": "d1c2924b87a90885bf2442a3893818cb631a11fc44276a175335f468cbfd0449",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0003_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.15043330192565918,
+      "legacy_input_sha256": "103d2784194434684e7129ab34c234d9a712ca918a4cd00ccc951af3ec88d346",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0004_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "e301138b1713f5ac475f7235458d14f8dc5111be3a7b770e22788c160a3b47c0",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_validation",
+      "sample_id": "g5_validation_0005_1988-147956-0003",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.1505112648010254,
+      "legacy_input_sha256": "62f1e4e985268c05e1045f00c3c39adaeb420bd6e427f4d1d1188d05e88b6322",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0000_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.35749900341033936,
+      "legacy_input_sha256": "9f0314f5f1d9c88e9ee287ab37f8cf374ea999c685a50bed8307cf99251ba164",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0001_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "01f017328a34d2447e106a91130956bdeeb164776bfb6c5cc45c85546f7f41c6",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0002_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.35741591453552246,
+      "legacy_input_sha256": "cb77e4602ea870be3b4d40c8f18e0ac5b13e2b458205b5ebb159452970c79164",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0003_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.3341817855834961,
+      "legacy_input_sha256": "2c0c29d979cee153aa6a5584de8e9a1098e5efdc337269f3f451a4ec3713163c",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0004_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "d0cc2fb8132d8a14cf7ef0db3e18168313618d31b1959d676531733cec682a83",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G5_confirmation",
+      "sample_id": "g5_confirmation_0005_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.36164939403533936,
+      "legacy_input_sha256": "51aba32e870391ac45745c0af99dcdab2a045571d2acc45de8b1239968b7f2a8",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0003_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.6561692953109741,
+      "legacy_input_sha256": "efa716b6cbc996daa163f43d899a8d2761f80485fa1e37c253d59fa868b11dc3",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0004_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "06164e796a6130781d4c2c1ae61720b2a8c793f37eb0539f34c929763afbcd12",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0005_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.6392649412155151,
+      "legacy_input_sha256": "eddb599af5c1ccdbc3f898b0ff825fcd680e468d10c12dc2f6ff6b375aff5c26",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0012_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.2407904863357544,
+      "legacy_input_sha256": "85b563a9da87e6d07169cc15171ad364d9567c529eff10a8a3566778f0e06aae",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0013_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "bb3d55fdf53cc721fad857aa716cb3ecb3afe5d5b94724345845b530c3d8a505",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G7",
+      "sample_id": "g7_0014_6345-93302-0006",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.2326270341873169,
+      "legacy_input_sha256": "0269435f8b3849ad71f0c49e13448b5a2e4fde4a4f7b5786123b9aea4c094510",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0000_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.5193969011306763,
+      "legacy_input_sha256": "697c258d596ae3eddc67d609b5ee1d5fdce78854d8f5b4280832444c3413b9de",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0001_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "e9daa2023a5b60155ba642afa4ac1d005d98e785c48da7faaf54d01f114dd7ca",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0002_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.4309830665588379,
+      "legacy_input_sha256": "46984c4a728cb087b74692d42e9974900356c9cc94a45cb0a8b7796962645a45",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0003_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.20497405529022217,
+      "legacy_input_sha256": "174383466c7f433874026e9b893c262712133dc5b8dfb539a52fbf117f77f063",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0004_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.0,
+      "legacy_input_sha256": "9b0fcaa68ad1c2da0a504e8ab41113974fbd7e4243437497463aaeb9349ea772",
+      "corrected_not_saved_as_new_case": true
+    },
+    {
+      "stage": "G10",
+      "sample_id": "g10_0005_5338-284437-0012",
+      "legacy_all6ch_max_error": 0.0,
+      "corrected_geometry_vs_saved_max_error": 0.22984671592712402,
+      "legacy_input_sha256": "df334daf3ecc256ec1b6ce9002082d1fe7c0aa5056a906152019d095d42c9b1e",
+      "corrected_not_saved_as_new_case": true
+    }
+  ],
+  "stored_training_probes": [
+    {
+      "index": 0,
+      "target": 22.64985105320342,
+      "actual_relative_noise_azimuth": -55.29970210640684,
+      "base_relative_noise_azimuth": -50.0,
+      "all6ch_float32_max_error": 0.0
+    },
+    {
+      "index": 1,
+      "target": -31.52083777989081,
+      "actual_relative_noise_azimuth": 53.04167555978162,
+      "base_relative_noise_azimuth": -50.0,
+      "all6ch_float32_max_error": 0.0
+    },
+    {
+      "index": 2,
+      "target": 58.554891643529245,
+      "actual_relative_noise_azimuth": -7.109783287058491,
+      "base_relative_noise_azimuth": 70.0,
+      "all6ch_float32_max_error": 0.0
+    }
+  ],
+  "training_policy": "Legacy rotated target moves +delta while noises move -delta in the declared azimuth convention. Not a rigid-scene rotation.",
+  "completed_utc": "2026-11-12T08:29:54.837162+00:00",
+  "original_files_modified": false
+}

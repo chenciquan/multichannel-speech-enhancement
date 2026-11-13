@@ -1,0 +1,342 @@
+{
+  "freq.sequence_model.weight_ih_l0": {
+    "shape": [
+      512,
+      12
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.weight_hh_l0": {
+    "shape": [
+      512,
+      128
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.bias_ih_l0": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.bias_hh_l0": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.weight_ih_l0_reverse": {
+    "shape": [
+      512,
+      12
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.weight_hh_l0_reverse": {
+    "shape": [
+      512,
+      128
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.bias_ih_l0_reverse": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.sequence_model.bias_hh_l0_reverse": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.fc_output_layer.weight": {
+    "shape": [
+      64,
+      256
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "freq.fc_output_layer.bias": {
+    "shape": [
+      64
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.weight_ih_l0": {
+    "shape": [
+      1024,
+      76
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.weight_hh_l0": {
+    "shape": [
+      1024,
+      256
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.bias_ih_l0": {
+    "shape": [
+      1024
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.bias_hh_l0": {
+    "shape": [
+      1024
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.weight_ih_l0_reverse": {
+    "shape": [
+      1024,
+      76
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.weight_hh_l0_reverse": {
+    "shape": [
+      1024,
+      256
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.bias_ih_l0_reverse": {
+    "shape": [
+      1024
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.sequence_model.bias_hh_l0_reverse": {
+    "shape": [
+      1024
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.fc_output_layer.weight": {
+    "shape": [
+      64,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "narr.fc_output_layer.bias": {
+    "shape": [
+      64
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.weight_ih_l0": {
+    "shape": [
+      1536,
+      327
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.weight_hh_l0": {
+    "shape": [
+      1536,
+      384
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.bias_ih_l0": {
+    "shape": [
+      1536
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.bias_hh_l0": {
+    "shape": [
+      1536
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.weight_ih_l0_reverse": {
+    "shape": [
+      1536,
+      327
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.weight_hh_l0_reverse": {
+    "shape": [
+      1536,
+      384
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.bias_ih_l0_reverse": {
+    "shape": [
+      1536
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.sequence_model.bias_hh_l0_reverse": {
+    "shape": [
+      1536
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.fc_output_layer.weight": {
+    "shape": [
+      64,
+      768
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "sub.fc_output_layer.bias": {
+    "shape": [
+      64
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.weight_ih_l0": {
+    "shape": [
+      512,
+      75
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.weight_hh_l0": {
+    "shape": [
+      512,
+      128
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.bias_ih_l0": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.bias_hh_l0": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.weight_ih_l0_reverse": {
+    "shape": [
+      512,
+      75
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.weight_hh_l0_reverse": {
+    "shape": [
+      512,
+      128
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.bias_ih_l0_reverse": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.sequence_model.bias_hh_l0_reverse": {
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.fc_output_layer.weight": {
+    "shape": [
+      2,
+      256
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  },
+  "full.fc_output_layer.bias": {
+    "shape": [
+      2
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "requires_grad": false
+  }
+}

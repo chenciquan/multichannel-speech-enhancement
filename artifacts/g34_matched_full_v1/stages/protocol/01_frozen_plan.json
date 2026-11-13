@@ -1,0 +1,92 @@
+{
+  "utc": "2026-11-13T02:27:33.464360+00:00",
+  "seed": 20261113,
+  "runs": [
+    {
+      "id": "lora_3e4",
+      "mode": "lora",
+      "lr": 0.0003,
+      "parameters": 3584
+    },
+    {
+      "id": "full_3e5",
+      "mode": "full",
+      "lr": 3e-05,
+      "parameters": 3328706
+    },
+    {
+      "id": "full_1e4",
+      "mode": "full",
+      "lr": 0.0001,
+      "parameters": 3328706
+    },
+    {
+      "id": "full_3e4",
+      "mode": "full",
+      "lr": 0.0003,
+      "parameters": 3328706
+    }
+  ],
+  "steps_each": 1500,
+  "total_updates": 6000,
+  "optimizer": "Adam",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0,
+  "gradient_clip": 5.0,
+  "batch": 1,
+  "precision": "FP32,no AMP; cuDNN enabled,TF32 false; matmulTF32 false; benchmark false; cuDNN deterministic false",
+  "rank": 4,
+  "alpha": 4,
+  "objective": "original compressed cIRM MSE; no auxiliary",
+  "checkpoint_steps": [
+    500,
+    1000,
+    1500
+  ],
+  "registration_step": 1500,
+  "selection": false,
+  "initial_indices": [
+    0,
+    3,
+    10,
+    5,
+    7,
+    2
+  ],
+  "initial_wave_rtol": 1e-05,
+  "initial_wave_atol": 1e-06,
+  "initial_cIRM_residual": "record without reclassifying G33 failed gate",
+  "max_initial_seconds": 1200,
+  "max_run_seconds": 2400,
+  "max_queue_seconds": 11200,
+  "schedule_sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+  "training_pool": "G29 576 fixed TRAIN records; same G30 sampling1500; no development/test audio loaded",
+  "rng": "Each independent construction seed20261113; reset seed20261113 after construction before training; initialcheck separateprocess",
+  "failure_policy": "first OOM,nonfinite,unconnected parameter,data change,initialwave failure or timeout: preserve and stop; no automatic retry/precision/batch change",
+  "resource_scope": "synchronized step GPU/API wall time separately from process/import/hash/I-O wall time; Adamstate actually allocated",
+  "limitations": "single seed/limited LR points/small oldtrain; not fully tuned strongest fullmodel; no content or innovation claim",
+  "hashes": {
+    "scripts/g34_common.py": "4094fe05403706e84de9ad320edc1e0d16646057a5c50ccdeb1ebb256d4760d1",
+    "scripts/g34_prepare.py": "c502f48f788bd92d9f5ecfc477edd75396a2560a5006aeaaf698b8fedd11b09c",
+    "scripts/g34_initial.py": "15236e3613ec253a52aef77c1ad93ce77d8aa860ba9aeee0856971c4f5e2d548",
+    "scripts/g34_train.py": "1b3cae8bdcbdb6e3c09ae6c372f569f0189e69f86351b4e9fecaad65430444f6",
+    "scripts/g34_queue.py": "a0bf9fcfe4a1e7a47c22e01a9718ca47824d2b9abe5103fb95ca65b83b681a71",
+    "scripts/g34_accept.py": "d295b61cb825fd302190e142f9252faeba40327da60c70b8d2912c8a35504c05",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "scripts/mcnet_infer.py": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "data/g29_v1/train_x.npy": "9be99bf914f8cd341eed52ef34e845b081d63b18c811ff56b177b7d77e3dd701",
+    "data/g29_v1/train_y.npy": "c0552775cad705e610149b5efce5bc567072ca8688a852c560898d0dd7c6b551",
+    "data/g29_v1/train_manifest.jsonl": "f18bde8a94a656a9fa0ee322dfd91e61648427627b7e792d1cdb315450d3f568",
+    "artifacts/g29_room_development_v1/FINAL_ACCEPTANCE_AUDIT.json": "8e6e4ca75c47737219f4a5dc119bc9a630a64075804f45a6f58d02fa5e0bf559",
+    "artifacts/g30_room_objectives_v1/FINAL_TRAINING_ACCEPTANCE.json": "86856fa2c9d1870d3c2a0987ce6754d4da3d647da31b9c2f79de3f45eff94984",
+    "artifacts/g30_room_objectives_v1/sample_indices.npy": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+    "artifacts/g33_precision_audit_v1/FINAL_DIAGNOSTIC_AUDIT.json": "610ab567ab1f605d030c96db397bda0677b6102629cfc10ab0927af9fe0ae703",
+    "artifacts/g33_precision_audit_v1/scientific_readback.json": "5c48d6ebdca29391b9ad41abe1b7fc17add2e7ae11aec310309256309a20fb62",
+    "docs/G34_统一精度全参数强对照准备草案.md": "57122dab91d7bc65b8a4f6ebec27ddc042087c2eddebcef80a2cedc7e38870be"
+  }
+}

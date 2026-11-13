@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:49:44.446682+00:00",
+  "files": [
+    {
+      "source": "docs/G23_固定增益与双识别器敏感性报告.md",
+      "snapshot": "00_G23_固定增益与双识别器敏感性报告.md",
+      "sha256": "d457b3ebdf4e913c55074d07b8f4a1b312b5dd0dc1b6752779963682bad65588"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "52806e973cc5ee472323dde8018a50d8471c7e0cc264816e64a2f881d72fbeea"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "f1fc04cdde8bafec6258c5320db4d1a7e440db6255de656662fc1fad43514f19"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "383d3076336c14436da7cc03a3e38312b2464c9611d3ae4991c7ce004d9a5f40"
+    },
+    {
+      "source": "scripts/g23_finish.py",
+      "snapshot": "04_g23_finish.py",
+      "sha256": "8798cd4f4157f1c29d0229194db135e11b0195afd544df02d775d0a2ea1a9371"
+    }
+  ]
+}

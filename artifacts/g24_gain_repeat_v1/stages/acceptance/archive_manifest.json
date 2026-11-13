@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:03:01.189544+00:00",
+  "files": [
+    {
+      "source": "docs/G24_独立重复验证阶段验收.md",
+      "snapshot": "00_G24_独立重复验证阶段验收.md",
+      "sha256": "8a8afa8dca1dae9b94b0845011ef75d00a5e7343200273d4ab9390799ddcd54f"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "a8b41fe51107ca383e2b71e8b48003f866fb9b03332bb9266c051226d2500e90"
+    },
+    {
+      "source": "scripts/g24_accept.py",
+      "snapshot": "02_g24_accept.py",
+      "sha256": "b814404030c8291975635d98bd530e03a6bcf2212525c8638ecf1e98c9216d7f"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "97a40e3184789f8373e87240d313f9679a72c01db67260657b4cd558c9946ce0"
+    }
+  ]
+}

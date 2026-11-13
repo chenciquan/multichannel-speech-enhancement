@@ -1,0 +1,70 @@
+{
+  "saved_utc": "2026-11-12T04:12:11.933356+00:00",
+  "files": [
+    {
+      "source": "docs/G8A_CTC识别器来源与资源验证.md",
+      "snapshot": "00_G8A_CTC识别器来源与资源验证.md",
+      "sha256": "027ec110013e01d5c1fc7eaffc407ed32f6c8b140811ca114cff8f2f653f8883"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "400b78b1c60a590d5cac48cb61757be578e1ab332ce95eef461df12b7f4559b3"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/asset_provenance.json",
+      "snapshot": "02_asset_provenance.json",
+      "sha256": "54014e4ccfb8db912a7864f5e9db48b309506076b8e4eb0f297201eebb550963"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/capacity_probe.json",
+      "snapshot": "03_capacity_probe.json",
+      "sha256": "32567ba32805c4c3641c7a73da20867d42120c93b1fe25d3a59f47b60b94e952"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/ctc_unit_tests.log",
+      "snapshot": "04_ctc_unit_tests.log",
+      "sha256": "3756fc12a0c54570a37377a740d2919fec4ac1127bba32c9c8c5494c1b429f80"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "05_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    },
+    {
+      "source": "tests/test_ctc.py",
+      "snapshot": "06_test_ctc.py",
+      "sha256": "67215e2aeb4862a4befbaf2c0f711ff4cb052f18b6fb35e7400e1664833cf370"
+    },
+    {
+      "source": "tests/test_g8_analysis.py",
+      "snapshot": "07_test_g8_analysis.py",
+      "sha256": "31b1f3d5edca1bd2eb12e9bcf806048e7b6fe7e5fc2d892abd57a80f91d449db"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "08_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "scripts/g8_evaluate.py",
+      "snapshot": "09_g8_evaluate.py",
+      "sha256": "bdcccf69f50051f7a45e5a0341466319e83a15182d5ed0bea65af36472b6f3e1"
+    },
+    {
+      "source": "scripts/g8_finish.py",
+      "snapshot": "10_g8_finish.py",
+      "sha256": "469e2dab377bb4a816375105f3da4d164f3794ceec355c6c93e8228bcacc636b"
+    },
+    {
+      "source": "scripts/g8_queue.py",
+      "snapshot": "11_g8_queue.py",
+      "sha256": "315d458a55317e8726ad9fd8bea3c3110c2b26df782238327cf46eb6d5bc564d"
+    },
+    {
+      "source": "scripts/g8_asset.py",
+      "snapshot": "12_g8_asset.py",
+      "sha256": "22dd727e2841e76c5e9a9a00be5e85d77dc191a8df611b800aa424831782d207"
+    }
+  ]
+}

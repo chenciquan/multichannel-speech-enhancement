@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:36:43.196614+00:00",
+  "files": [
+    {
+      "source": "docs/G16_开发诊断验收与三策略简明读回.md",
+      "snapshot": "00_G16_开发诊断验收与三策略简明读回.md",
+      "sha256": "f25e27717e0514428df297c1b34ba5d19f9c6b64b1aaedbbc1eba71983ef9aa4"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "20d110568c772f8c0b2291d3492172c79300e2806c306e3faca47905a932c8b2"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/readback.json",
+      "snapshot": "02_readback.json",
+      "sha256": "36c046e289e0077898c5c29ab9ca7cf8b9658fbb053a700acdf2b1859fb6745b"
+    },
+    {
+      "source": "scripts/g16_accept.py",
+      "snapshot": "03_g16_accept.py",
+      "sha256": "63e6fbf121d63e04382b744209466619cd47bf7da261e3684baf841c4d06a863"
+    }
+  ]
+}

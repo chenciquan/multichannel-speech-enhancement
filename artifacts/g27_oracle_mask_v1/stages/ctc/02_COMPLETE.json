@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:05:14.330411+00:00",
+  "rows": 864,
+  "fresh_decodes": 720,
+  "reference_new": 0,
+  "score_sha256": "92e2a0d987e046d66e2ba2830eb2e3a21c7dbdf6eea1dacd7f5fe99437bfba37",
+  "cache_sha256": "0d21de697733d6ed44d6828559ca88ca8072d7e9d34bdef10fd614008cec4947",
+  "elapsed_seconds": 12.311992247999996
+}

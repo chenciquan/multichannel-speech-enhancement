@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:14:18.895327+00:00",
+  "records": 6,
+  "gradient_probes": 18,
+  "optimizer_updates": 0,
+  "losses_with_finite_nonzero_gradients": [
+    "original_cIRM",
+    "power_mask_MSE",
+    "masked_covariance_shape"
+  ],
+  "max_Torch_allocated_bytes": 1188686848,
+  "parameter_digests_reported_unchanged": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "stages": {
+    "finite_difference": "535ae3d5bc475c4ff309f3fd597e2021bd8f8eb64de70f72916fa583a6fbeb40",
+    "gradient_results": "1e876b24467f5d661aa409d4859e7719f33c5e22fe165ca41f388fca02b46a56",
+    "protocol": "607afe63d19b4b7b2618b9dffca14b570b903629f98ed8a280815e3746c691b9"
+  },
+  "completed_sha256": "90c9db453887526da49bb798591cb981d30e00dc3ca34ff2c8c6fef65cb7aed9",
+  "failed_v1_preserved": true,
+  "helper_note": "Helper started after calculation completed and immediately released; did not cover calculation period",
+  "peak_scope": "16128sample FP32 forward+gradient, no optimizer; not whole GPU usage or4s batch capacity"
+}

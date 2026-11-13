@@ -1,0 +1,14 @@
+{
+  "completed": 6,
+  "total": 6,
+  "last": {
+    "system": "mcnet",
+    "device": "cpu",
+    "max_abs_error_against_saved_G5": 0.00027942657470703125,
+    "tolerance": 0.001,
+    "passed": true,
+    "subprocess_wall_seconds": 29.319700456999982,
+    "output_sha256": "fde6a4d7a2da3e9accfe479f2607e89896a48f59880487820a97894a54982b5f",
+    "report": "artifacts/g6_local_runtime_v1/prototype/mcnet_cpu.json"
+  }
+}

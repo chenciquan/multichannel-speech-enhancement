@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:19:34.253503+00:00",
+  "ASR": {
+    "Whisper": {
+      "fresh_observations": 960,
+      "cache_skips": 0,
+      "raw_parent_pairs": 480,
+      "observation_sha256": "fbbc633bd70d4799f603b66724228fee2d8400e247153fa0d9ed4088177964e5"
+    },
+    "CTC": {
+      "fresh_observations": 960,
+      "cache_skips": 0,
+      "raw_parent_pairs": 480,
+      "observation_sha256": "7d15dcbf1bbd6d60b47e325c17360ee0c1e59149802bff682e08dc58b94e9f0a"
+    }
+  },
+  "repeatability": [
+    {
+      "engine": "Whisper",
+      "pairs": 480,
+      "normalized_repeat_changes": 0,
+      "raw_repeat_changes": 0
+    },
+    {
+      "engine": "CTC",
+      "pairs": 480,
+      "normalized_repeat_changes": 0,
+      "raw_repeat_changes": 0
+    }
+  ],
+  "summary_sha256": "5f41c6e454fa891e7afe039260ce14845cc70926971c139e05e2fe2e37998df6",
+  "paired_sha256": "5f734d6ef45c99029021618d2835920b97f6d9303e17994cae0b9e78edbcc915"
+}

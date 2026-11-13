@@ -1,0 +1,31 @@
+{
+  "status": "registered_before_G30_training_and_any_G31_scores",
+  "stage": "G31 fixed development signal evaluation",
+  "data": "data/g29_v1/validation_x.npy and validation_y.npy, all108 cases",
+  "scope": "12 old validation sources from2 speakers, center1second with fullRIR tail, simulated heldout room; development only, no final generalization claim",
+  "source_access": "No G22/G27 waveforms or scores in evaluation or selection",
+  "systems": ["noisy", "mcnet", "cirm", "cirm_mask", "cirm_shape"],
+  "outputs": "noisy direct only; all4 neural systems direct, unchanged mask-MVDR and mu1 mask-MWF",
+  "expected_signal_records": 1404,
+  "trained_checkpoint": "G30 registered step1500 for all3variants, never select among500/1000/1500 bydevelopment",
+  "ASR_allowed": false,
+  "ASR_reason": "partial1second source crops; whole-utterance transcripts do not label these crops",
+  "primary_pipeline": "mask-MVDR on72noisy cases",
+  "primary_candidate": "cirm_shape",
+  "primary_comparators": ["cirm", "cirm_mask"],
+  "metrics": ["SI-SDR", "PESQ-WB", "STOI", "clean RMS gain ratio", "clean reference-normalized squared error"],
+  "extension_gate": {
+    "purpose": "decide whether to spend on more seeds/fresh complete-utterance confirmation, not declare statistical superiority",
+    "all_required": true,
+    "mean_SI_SDR_delta_vs_each_comparator_min_db": 0.25,
+    "mean_PESQ_delta_vs_each_comparator_min": 0.0,
+    "mean_STOI_delta_vs_each_comparator_min": 0.0,
+    "clean_mean_NMSE_increase_vs_each_comparator_max": 0.02,
+    "each_development_speaker_mean_SI_delta_vs_cirm_min_db": 0.0,
+    "no_broken_or_missing_case": true
+  },
+  "secondary": "Direct andMWF outcomes, allRT/noise/field/speaker breakdowns and clean behavior remain descriptive, do not replace failed primary gate",
+  "failure_interpretation": "Ifgatefails, preserve all results and diagnose; do not call simple maskcontrol a novel winner or retune usingG22G27",
+  "dependence": "Conditions share12 utterances and2speakers, not108 independent voice samples; no pvalues from treating conditions as independent",
+  "resource": "FP32 batch1 GPU inference sequential,2CPU metric/filter workers, no retraining or download"
+}

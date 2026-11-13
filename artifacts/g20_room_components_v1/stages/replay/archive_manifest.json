@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T17:49:52.638106+00:00",
+  "files": [
+    {
+      "source": "docs/G20A_房间分量还原验证报告.md",
+      "snapshot": "00_G20A_房间分量还原验证报告.md",
+      "sha256": "110701fdc30b7e86f1afa3f0cbf39b802e1f09b028b6a721c42d8caf39672d15"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/REPLAY_COMPLETE.json",
+      "snapshot": "01_REPLAY_COMPLETE.json",
+      "sha256": "923b8253763e67da8d2048118f449a05456b84e3d4db100c230f6cd09912bffc"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/replay.jsonl",
+      "snapshot": "02_replay.jsonl",
+      "sha256": "e7adf3c423fc3f8a7911a52b0f42f2dc48ca805fd060dbe0881fcdf50560bc6f"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/verified_files.json",
+      "snapshot": "03_verified_files.json",
+      "sha256": "12f9b8af753d316ffd1d17930dbf3375b255277c2191cc2373dd644e6559e965"
+    },
+    {
+      "source": "scripts/g20_replay.py",
+      "snapshot": "04_g20_replay.py",
+      "sha256": "45c309894f890c5af2803c0683fd815a308175ba6cd24ee0ffdac3fd9cd89076"
+    }
+  ]
+}

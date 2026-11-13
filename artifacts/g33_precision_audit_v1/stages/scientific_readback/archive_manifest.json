@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T02:16:35.381425+00:00",
+  "files": [
+    {
+      "source": "docs/G33B_科学读回与统一执行精度建议.md",
+      "snapshot": "00_G33B_科学读回与统一执行精度建议.md",
+      "sha256": "6ff552d99458ca5a66e159ce7613a52cb857d54a8509140dc2e279fbddbcea1a"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/scientific_readback.json",
+      "snapshot": "01_scientific_readback.json",
+      "sha256": "5c48d6ebdca29391b9ad41abe1b7fc17add2e7ae11aec310309256309a20fb62"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/precision_control_differences.png",
+      "snapshot": "02_precision_control_differences.png",
+      "sha256": "bc4074abd328053c069df8779f1f7c728417f241330f0ce23edc24914297634d"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/precision_control_differences.pdf",
+      "snapshot": "03_precision_control_differences.pdf",
+      "sha256": "9babb13f5531d92eebc97e083062c2bbad30aa75516d8a5deccc2bc21c90f77c"
+    },
+    {
+      "source": "scripts/g33b_readback.py",
+      "snapshot": "04_g33b_readback.py",
+      "sha256": "2dea6b6b470bdcd7e863218375fd93d17ec8027245d2ca9fd37edc01260f8479"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T19:19:59.080998+00:00",
+  "rows": 16488,
+  "RT0_pairs": 2748,
+  "RT0_exact_pairs": 2748,
+  "RT0_max_abs": 0.0,
+  "combined_sha256": "e58a1b27a8579c0f410d4dbd288a40112f43133bb39f8921a35a357dfc8bd94d",
+  "summary_sha256": "bc401943c0dd6d5e50675fd4fb39451b60dd3c87078f6dcd981c0e61663e7fb1"
+}

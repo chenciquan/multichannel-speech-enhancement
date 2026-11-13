@@ -1,0 +1,25 @@
+{
+  "groups": {
+    "DWASHING_ch01": {
+      "mixtures": 24,
+      "speech_band100_8000_snr_db": {
+        "min": 19.374724311911088,
+        "median": 30.923447470943195,
+        "mean": 30.040786789732437,
+        "max": 40.974861299888595
+      },
+      "clean_energy_below40_fraction_median": 0.00017406660273020479
+    },
+    "DKITCHEN_ch01": {
+      "mixtures": 24,
+      "speech_band100_8000_snr_db": {
+        "min": 4.628970880336477,
+        "median": 15.213745493496827,
+        "mean": 14.423476893924153,
+        "max": 20.642992619299292
+      },
+      "clean_energy_below40_fraction_median": 0.00017406660273020479
+    }
+  },
+  "definition": "whole-utterance FFT band100Hz through8kHz power ratio; distinct from declared active fullband SNR; diagnostic only"
+}

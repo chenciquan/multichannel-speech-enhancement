@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-13T00:49:46.422547+00:00",
+  "files": [
+    {
+      "source": "docs/G31_同预算目标开发信号与保真对照报告.md",
+      "snapshot": "00_G31_同预算目标开发信号与保真对照报告.md",
+      "sha256": "45c1ae1de4436c11aa3249cc01a117f6fc4e06a78b498674c22b38987759684c"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/ANALYSIS_COMPLETE.json",
+      "snapshot": "01_ANALYSIS_COMPLETE.json",
+      "sha256": "7f8f139a6a2576016bf13ce8ffeadee8225d4f128fd79af7e96dfc717bbb3506"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "13b10ad051d4e8fe00b96ad81af085a59e940f719132db9cc216333ae687f894"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/primary_decision.json",
+      "snapshot": "03_primary_decision.json",
+      "sha256": "616435ef451268be453a63da749793a4214762c37addcceb8880a37fad1df108"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/SIGNAL_COMPLETE.json",
+      "snapshot": "04_SIGNAL_COMPLETE.json",
+      "sha256": "c519540d94af1a6f41a1ccbed40da6ab7487787c9b58b752f14a74e6d5a5fc60"
+    },
+    {
+      "source": "scripts/g31_finish.py",
+      "snapshot": "05_g31_finish.py",
+      "sha256": "2e62a07d370a5695350448ed05fb06adc39503dd8d09bfe2b63e64ff23e4fdc7"
+    }
+  ]
+}

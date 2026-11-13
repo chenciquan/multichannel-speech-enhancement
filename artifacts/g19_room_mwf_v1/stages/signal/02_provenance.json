@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-12T13:10:47.829694+00:00",
+  "preflight_archive_sha256": "6281c01682da3992c7da1f567bfa902e4a0aaf1e95120290cd75f04853d051a3",
+  "frozen_plan_sha256": "3f6d1d9c6923e6530d0b3b828cbb90ffc252532659586d163513a92651f96011",
+  "g18_combined_sha256": "df49d4ca09237a5e4fdf1b6b6987ecc8f09c51d0f540c98f8aac3bd586b969a8",
+  "g18_manifest_sha256": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc",
+  "g18_systems_sha256": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f",
+  "reference_channel_zero_based": 4,
+  "mu": 1.0,
+  "mask_mean_absolute_tolerance": 1e-12,
+  "new_neural_forward": false,
+  "device": "cpu",
+  "filter_precision": "float64/complex128",
+  "cpu_workers": 2,
+  "torch_and_blas_threads_per_worker": 1,
+  "wiener_sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+  "beamforming_sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+  "evaluator_sha256": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+  "signal_code_sha256": "83efda34eea0be6ad3787da6c1efe7d33655813f976c3d30366516d6ab85ec19",
+  "rms_gain_ratio": "RMS(output)/RMS(reverberant clean reference), uncentered",
+  "input_rms_gain_ratio": "RMS(output)/RMS(noisy reference channel 4), uncentered",
+  "reference_normalized_squared_error": "sum((output-reference)^2)/sum(reference^2), uncentered"
+}

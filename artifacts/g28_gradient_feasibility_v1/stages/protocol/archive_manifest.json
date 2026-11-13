@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:10:41.295859+00:00",
+  "files": [
+    {
+      "source": "docs/G28A_训练输入可微路径与显存预检协议.md",
+      "snapshot": "00_G28A_训练输入可微路径与显存预检协议.md",
+      "sha256": "b71b339bd052a9223ed8f3d4fde15b17d29499c39dfbd177a37caee762cad716"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "bd27cb556912d4ffbe53fa882d91b7cc2160067d7c82f501f67663c6504e8ea4"
+    },
+    {
+      "source": "scripts/g28_gradient.py",
+      "snapshot": "02_g28_gradient.py",
+      "sha256": "8ab37566fbb1c9f72893f5835fe62dd6a06d09617735ae4bec882c5cef777441"
+    }
+  ]
+}

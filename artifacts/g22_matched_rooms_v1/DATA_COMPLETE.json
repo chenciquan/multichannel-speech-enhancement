@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T18:34:05.552379+00:00",
+  "cases": 504,
+  "rooms": 2,
+  "utterances": 4,
+  "speakers": 4,
+  "new_RIRs": 99,
+  "old_replay_exact_cases": 252,
+  "RT0_pairs": 84,
+  "max_RT0_input_abs": 0.0,
+  "max_RT0_reference_abs": 0.0,
+  "max_saved_SNR_error_db": 3.186626820761363e-06,
+  "manifest_sha256": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2",
+  "elapsed_seconds": 555.1049500610001
+}

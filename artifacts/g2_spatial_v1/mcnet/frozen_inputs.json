@@ -1,0 +1,2030 @@
+{
+  "manifest": {
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/manifest.jsonl",
+    "bytes": 52659,
+    "sha256": "83fb568fb406c031de65f62a30a35e8eda0f8498bdb4a3bc994703a4f53322a3",
+    "git_blob_sha1": "9839b10e75f8cf28e03fc378666e613ae5faf06d"
+  },
+  "records": [
+    {
+      "sample_id": "1988-147956-0013__DWASHING_ch01__original_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DWASHING_ch01__original_point.wav",
+        "bytes": 834668,
+        "sha256": "cec5f57ce5615aa8ff298b4bb049de42dd521620690f88e84bbae2ec7ee4afd4",
+        "git_blob_sha1": "73335b433a7f2e459b9bfb13ec44c91c4d3be095"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111102,
+        "noise_segment_start_sample": 3903467,
+        "noise_gain": 4.07401194449595,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998712332130666,
+            0.9996843981626541,
+            0.9981029969454712,
+            0.9992437883688943,
+            0.9992442502539107
+          ],
+          "mean": 0.9992293333887995,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -4.499430718066494e-08,
+        "noisy_sha256": "cec5f57ce5615aa8ff298b4bb049de42dd521620690f88e84bbae2ec7ee4afd4",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 834668,
+        "sha256": "170bb7010c9ef6adcc09a73c011f827ff23e1c20eecf3853dd4fb6c321b7c5c5",
+        "git_blob_sha1": "a8e46c0550c67330f6942c2a909aa3da664b386d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111102,
+        "noise_segment_start_sample": 3903467,
+        "noise_gain": 4.07401194449595,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9981029969454712,
+            0.9996843981626541,
+            0.9998712332130666,
+            0.9992442502539107,
+            0.9992437883688943
+          ],
+          "mean": 0.9992293333887995,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -4.499430718066494e-08,
+        "noisy_sha256": "170bb7010c9ef6adcc09a73c011f827ff23e1c20eecf3853dd4fb6c321b7c5c5",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DWASHING_ch01__target_direction_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 834668,
+        "sha256": "987aa4ec67babf90b4a68e1ea645b35573faec31ed9678f4addabb836057b698",
+        "git_blob_sha1": "eba9f3a0fcb6bc6279adbd99cbbc698fd80d3889"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111102,
+        "noise_segment_start_sample": 3903467,
+        "noise_gain": 4.07401194449595,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999485126193,
+            0.9999389328435099,
+            0.9995190582946198,
+            0.9998771206582642,
+            0.9998770902396801
+          ],
+          "mean": 0.9998424301097387,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -4.499430718066494e-08,
+        "noisy_sha256": "987aa4ec67babf90b4a68e1ea645b35573faec31ed9678f4addabb836057b698",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DWASHING_ch01__conditioned_12wave",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 834668,
+        "sha256": "24403fff6f19c14d507e0d8198b9e90c7122c6b0cc6674b22f05320c23ef29c6",
+        "git_blob_sha1": "74e0803ddbe4b543ba0b21cc5d68b1fe604c66ea"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111102,
+        "noise_segment_start_sample": 3903467,
+        "noise_gain": 4.07401194449595,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.12097757531646067,
+            0.12468278181584723,
+            0.09410932946037755,
+            0.4096446609250244,
+            0.37590156639171357
+          ],
+          "mean": 0.22506318278188467,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -4.499430718066494e-08,
+        "noisy_sha256": "24403fff6f19c14d507e0d8198b9e90c7122c6b0cc6674b22f05320c23ef29c6",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DKITCHEN_ch01__original_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DKITCHEN_ch01__original_point.wav",
+        "bytes": 834668,
+        "sha256": "eada99454f04b603edbeb53d2ff68822958140134cd0ae4709ff4ae54c94a7b3",
+        "git_blob_sha1": "89f4a91ee1a98be4beb20e1f1263a096cfc72084"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111103,
+        "noise_segment_start_sample": 3324348,
+        "noise_gain": 10.024846151767848,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998695012843933,
+            0.9996797030481435,
+            0.9980675224394595,
+            0.9992330679112362,
+            0.9992320699848941
+          ],
+          "mean": 0.9992163729336253,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 2.1086076907901892e-08,
+        "noisy_sha256": "eada99454f04b603edbeb53d2ff68822958140134cd0ae4709ff4ae54c94a7b3",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 834668,
+        "sha256": "8e039436a6619801fb02c6fb498ba39d46ef32fed5c7c6eedacabd67b73068a9",
+        "git_blob_sha1": "14557ee770ae73c269c3b83f543b94a9b831fc80"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111103,
+        "noise_segment_start_sample": 3324348,
+        "noise_gain": 10.024846151767848,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9980675224394595,
+            0.9996797030481435,
+            0.9998695012843933,
+            0.9992320699848941,
+            0.9992330679112362
+          ],
+          "mean": 0.9992163729336253,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 2.1086076907901892e-08,
+        "noisy_sha256": "8e039436a6619801fb02c6fb498ba39d46ef32fed5c7c6eedacabd67b73068a9",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DKITCHEN_ch01__target_direction_point",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 834668,
+        "sha256": "922f6805237f73f18da045ade9e9583ebc8c45b11025a4c3cdbbaade0d7f20b6",
+        "git_blob_sha1": "b03723f3c9d043b2de6fbdd2083f273f54895ddf"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111103,
+        "noise_segment_start_sample": 3324348,
+        "noise_gain": 10.024846151767848,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999478105115,
+            0.999938113258481,
+            0.9995124099131895,
+            0.999875373282937,
+            0.9998754376286404
+          ],
+          "mean": 0.9998402563787518,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 2.1086076907901892e-08,
+        "noisy_sha256": "922f6805237f73f18da045ade9e9583ebc8c45b11025a4c3cdbbaade0d7f20b6",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "1988-147956-0013__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/1988-147956-0013__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 834668,
+        "sha256": "220a75c5aa5d41bd89ae9d1b4fa81325f95650c66a58e6ecadf9b80a1829cdff",
+        "git_blob_sha1": "7afb58a700c41b58f4053469f6d7a7de248c565a"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/1988-147956-0013.wav",
+        "bytes": 139148,
+        "sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8",
+        "git_blob_sha1": "793c9903a344e3900326c3734e393e111404ff01"
+      },
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111103,
+        "noise_segment_start_sample": 3324348,
+        "noise_gain": 10.024846151767848,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.12337078995506176,
+            0.053346717962097015,
+            0.07810140165119657,
+            0.15287378278839966,
+            0.16062931845883055
+          ],
+          "mean": 0.1136644021631171,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 2.1086076907901892e-08,
+        "noisy_sha256": "220a75c5aa5d41bd89ae9d1b4fa81325f95650c66a58e6ecadf9b80a1829cdff",
+        "reference_sha256": "48658b41e0ec0442a430bcdf5231e0da9d1fc70c687949cd1b288d1053250dd8"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DWASHING_ch01__original_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DWASHING_ch01__original_point.wav",
+        "bytes": 957068,
+        "sha256": "16c59aff307669d612a9953099ca1ebcb56503a80c17308202933456ae8d6bf8",
+        "git_blob_sha1": "34052a14fd9b6f98c48900980d3ab8e9a110365d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111202,
+        "noise_segment_start_sample": 3569376,
+        "noise_gain": 4.954503702777603,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9995708775195694,
+            0.9989547441359236,
+            0.9940126281047025,
+            0.9975307959315545,
+            0.9975320988624639
+          ],
+          "mean": 0.9975202289108427,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.5476433975039682e-07,
+        "noisy_sha256": "16c59aff307669d612a9953099ca1ebcb56503a80c17308202933456ae8d6bf8",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 957068,
+        "sha256": "6e679b6600f463c648117a0d5f27b93d9056cf0c697f04ed010ae913c1f79ace",
+        "git_blob_sha1": "8183c5bbdd408910e1bd87d8f18068172bb45a79"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111202,
+        "noise_segment_start_sample": 3569376,
+        "noise_gain": 4.954503702777603,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9940126281047025,
+            0.9989547441359236,
+            0.9995708775195694,
+            0.9975320988624639,
+            0.9975307959315545
+          ],
+          "mean": 0.9975202289108427,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.5476433975039682e-07,
+        "noisy_sha256": "6e679b6600f463c648117a0d5f27b93d9056cf0c697f04ed010ae913c1f79ace",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DWASHING_ch01__target_direction_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 957068,
+        "sha256": "6827f604d727bc24732fffa98f17eef71bc764b7dde078d726cb1a034d20ad91",
+        "git_blob_sha1": "319fe2dd9fb36451d657b7232dfe7e8d6f9fcb80"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111202,
+        "noise_segment_start_sample": 3569376,
+        "noise_gain": 4.954503702777603,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999998276413905,
+            0.9997960192225764,
+            0.9984157861418579,
+            0.9995904165636939,
+            0.9995903154003054
+          ],
+          "mean": 0.999478472993965,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.5476433975039682e-07,
+        "noisy_sha256": "6827f604d727bc24732fffa98f17eef71bc764b7dde078d726cb1a034d20ad91",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DWASHING_ch01__conditioned_12wave",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 957068,
+        "sha256": "1543c3023b56d191cd0a5d84bfddd8abf732fdf51d857fdc1fedca1801730fd8",
+        "git_blob_sha1": "0db2499dbdd5db7c945a5eca3da98b2f38f2a36d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111202,
+        "noise_segment_start_sample": 3569376,
+        "noise_gain": 4.954503702777603,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.16446837810718973,
+            0.1926843171727291,
+            0.16297641488603956,
+            0.4606138138197217,
+            0.45486552886787573
+          ],
+          "mean": 0.2871216905707112,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.5476433975039682e-07,
+        "noisy_sha256": "1543c3023b56d191cd0a5d84bfddd8abf732fdf51d857fdc1fedca1801730fd8",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DKITCHEN_ch01__original_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DKITCHEN_ch01__original_point.wav",
+        "bytes": 957068,
+        "sha256": "6d63f26d416ebe09ea828048056d964aec4eb7b8316aafb8fb1afff145c78c79",
+        "git_blob_sha1": "95da2e8d8e7f3e3922a4d1e23dcfef5eec0f0763"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111203,
+        "noise_segment_start_sample": 3626805,
+        "noise_gain": 11.971683951272789,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998702692030611,
+            0.9996817339838865,
+            0.9980791743325927,
+            0.9992370527695869,
+            0.9992368974238486
+          ],
+          "mean": 0.9992210255425953,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0466542884273254e-07,
+        "noisy_sha256": "6d63f26d416ebe09ea828048056d964aec4eb7b8316aafb8fb1afff145c78c79",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 957068,
+        "sha256": "b801f42ec04bb8d98464ac675b0dfb77b0a3d5ed73506e403fdee96bdc3b9a9a",
+        "git_blob_sha1": "d40edfde8bd59fd45cd6ef361f54c320ef66519d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111203,
+        "noise_segment_start_sample": 3626805,
+        "noise_gain": 11.971683951272789,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9980791743325927,
+            0.9996817339838865,
+            0.9998702692030611,
+            0.9992368974238486,
+            0.9992370527695869
+          ],
+          "mean": 0.9992210255425953,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0466542884273254e-07,
+        "noisy_sha256": "b801f42ec04bb8d98464ac675b0dfb77b0a3d5ed73506e403fdee96bdc3b9a9a",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DKITCHEN_ch01__target_direction_point",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 957068,
+        "sha256": "3219e741e9221d42dc026e2289fda5088e765e41939588de769d97ae7bafd368",
+        "git_blob_sha1": "b4589096f4b3fa3bfd3820e8aad7687c9c3db8e6"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111203,
+        "noise_segment_start_sample": 3626805,
+        "noise_gain": 11.971683951272789,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999481341724,
+            0.9999384838108911,
+            0.9995150751496132,
+            0.9998761617990729,
+            0.9998761716502146
+          ],
+          "mean": 0.9998411681087929,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0466542884273254e-07,
+        "noisy_sha256": "3219e741e9221d42dc026e2289fda5088e765e41939588de769d97ae7bafd368",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2035-147960-0006__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2035-147960-0006__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 957068,
+        "sha256": "12d02a05f22b7818dbf5b5538eb2e4a6087859b49ba29ac3ec03ff1d6322d45c",
+        "git_blob_sha1": "d56d215c4c264a550d9f543db0a582923cfb207c"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2035-147960-0006.wav",
+        "bytes": 159548,
+        "sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb",
+        "git_blob_sha1": "fd35bbe9b9abf0b5df8742d8eaa1afaf6ce58157"
+      },
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111203,
+        "noise_segment_start_sample": 3626805,
+        "noise_gain": 11.971683951272789,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.13002479578462192,
+            0.04747040218810883,
+            0.0854282541305265,
+            0.15657260796142144,
+            0.14755811522783327
+          ],
+          "mean": 0.11341083505850238,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0466542884273254e-07,
+        "noisy_sha256": "12d02a05f22b7818dbf5b5538eb2e4a6087859b49ba29ac3ec03ff1d6322d45c",
+        "reference_sha256": "71bad7b739b9fe233e89a991f582a527154c4563b58f4f9956d4d14cc20e6cdb"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DWASHING_ch01__original_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DWASHING_ch01__original_point.wav",
+        "bytes": 846188,
+        "sha256": "60b8d4f317527fc9952b7c6dcd58346d8587b8fce479d3806954ccb703c0bbbf",
+        "git_blob_sha1": "d2b125069bb3bcf6e668317d7feb862e73a9d383"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111302,
+        "noise_segment_start_sample": 1317326,
+        "noise_gain": 5.693589311618115,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9996053432918173,
+            0.9990349764811954,
+            0.9944376921784461,
+            0.9977310491926592,
+            0.9977168896126984
+          ],
+          "mean": 0.9977051901513633,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 6.541333833672305e-08,
+        "noisy_sha256": "60b8d4f317527fc9952b7c6dcd58346d8587b8fce479d3806954ccb703c0bbbf",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 846188,
+        "sha256": "f0302b33626ef6bad8ba3ccadc5e0ff9d76e736d7b7b3e13289de727ebb73de5",
+        "git_blob_sha1": "982776e5711b4106b56b9a90c1fa56a03851a34d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111302,
+        "noise_segment_start_sample": 1317326,
+        "noise_gain": 5.693589311618115,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9944376921784461,
+            0.9990349764811954,
+            0.9996053432918173,
+            0.9977168896126984,
+            0.9977310491926592
+          ],
+          "mean": 0.9977051901513633,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 6.541333833672305e-08,
+        "noisy_sha256": "f0302b33626ef6bad8ba3ccadc5e0ff9d76e736d7b7b3e13289de727ebb73de5",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DWASHING_ch01__target_direction_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 846188,
+        "sha256": "91884bc93ce61d4df52e568baa384edfc95b1a7b7a1844817e8166013965031a",
+        "git_blob_sha1": "25fead5a552de86f239df00e83bdc0a06a425575"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111302,
+        "noise_segment_start_sample": 1317326,
+        "noise_gain": 5.693589311618115,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999998413083224,
+            0.9998123483574936,
+            0.9985439499533968,
+            0.9996223049226567,
+            0.9996232124700699
+          ],
+          "mean": 0.9995203314023877,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 6.541333833672305e-08,
+        "noisy_sha256": "91884bc93ce61d4df52e568baa384edfc95b1a7b7a1844817e8166013965031a",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DWASHING_ch01__conditioned_12wave",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 846188,
+        "sha256": "b83eb26bf5abbeedc7c96bba6d056180879e808786d3f08e1d59f0fdf05cdae6",
+        "git_blob_sha1": "4f29ee6ffe14628a961710c6b4852bd1210d8d2d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111302,
+        "noise_segment_start_sample": 1317326,
+        "noise_gain": 5.693589311618115,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.06792246564976179,
+            0.10645922274053703,
+            0.09333407185916733,
+            0.2841054421745444,
+            0.30865362556849674
+          ],
+          "mean": 0.17209496559850146,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 6.541333833672305e-08,
+        "noisy_sha256": "b83eb26bf5abbeedc7c96bba6d056180879e808786d3f08e1d59f0fdf05cdae6",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DKITCHEN_ch01__original_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DKITCHEN_ch01__original_point.wav",
+        "bytes": 846188,
+        "sha256": "1e258556036993c096b4859368d21cd332223865fc5624fb70adb1ff52bb4c0e",
+        "git_blob_sha1": "01d8070a5e3e92769e58dff134ff5b7119111525"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111303,
+        "noise_segment_start_sample": 952477,
+        "noise_gain": 13.530902127209679,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.999869137682723,
+            0.9996790945256253,
+            0.9980648178522065,
+            0.9992304222046516,
+            0.9992307790131484
+          ],
+          "mean": 0.9992148502556709,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4677674983661606e-07,
+        "noisy_sha256": "1e258556036993c096b4859368d21cd332223865fc5624fb70adb1ff52bb4c0e",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 846188,
+        "sha256": "8c566daead4c30e671ae4cd04afbc87b91161d31b2e6c77ca53637a668fede21",
+        "git_blob_sha1": "2ec3cfa5ee029fb58398ca23049e7290999db1ec"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111303,
+        "noise_segment_start_sample": 952477,
+        "noise_gain": 13.530902127209679,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9980648178522065,
+            0.9996790945256253,
+            0.999869137682723,
+            0.9992307790131484,
+            0.9992304222046516
+          ],
+          "mean": 0.9992148502556709,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4677674983661606e-07,
+        "noisy_sha256": "8c566daead4c30e671ae4cd04afbc87b91161d31b2e6c77ca53637a668fede21",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DKITCHEN_ch01__target_direction_point",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 846188,
+        "sha256": "330c523ab52129d6f4699b26a0c937d2e0ce2b4600cf5041243b53a8f8405927",
+        "git_blob_sha1": "fcc9a539ade4a7f92fc3b25d3777043db2426302"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111303,
+        "noise_segment_start_sample": 952477,
+        "noise_gain": 13.530902127209679,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999476912896,
+            0.9999379484369861,
+            0.9995108457656808,
+            0.9998751178276232,
+            0.9998750917234616
+          ],
+          "mean": 0.9998397902890084,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4677674983661606e-07,
+        "noisy_sha256": "330c523ab52129d6f4699b26a0c937d2e0ce2b4600cf5041243b53a8f8405927",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2086-149220-0020__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2086-149220-0020__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 846188,
+        "sha256": "4646b68457865dbd1e9fe9e520ce742eef97fd0e446ebba12d74eb973aa5cf8c",
+        "git_blob_sha1": "8e5ca9facf74d81a48f2b5db6700adbf1f0e19f8"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2086-149220-0020.wav",
+        "bytes": 141068,
+        "sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970",
+        "git_blob_sha1": "11ee4e9bf4b5194f0f670797bb9423fa6f4f3966"
+      },
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111303,
+        "noise_segment_start_sample": 952477,
+        "noise_gain": 13.530902127209679,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.12161680581534882,
+            0.053282360811567446,
+            0.08069938186023848,
+            0.16231956437754191,
+            0.1813654826367751
+          ],
+          "mean": 0.11985671910029434,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4677674983661606e-07,
+        "noisy_sha256": "4646b68457865dbd1e9fe9e520ce742eef97fd0e446ebba12d74eb973aa5cf8c",
+        "reference_sha256": "bf990219319d19b7f97debb33ab0950dd8a1299d6d84a4eaaef240c0b58d3970"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DWASHING_ch01__original_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DWASHING_ch01__original_point.wav",
+        "bytes": 720908,
+        "sha256": "ad6d7ebc5ca016c6cd02e711810fb4db7c67f2e455b8c7bb77c810e0c0b3f868",
+        "git_blob_sha1": "b7cb22e77e1bdad18c2e187f393e19177c24531d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111402,
+        "noise_segment_start_sample": 3555933,
+        "noise_gain": 3.473409877543092,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9996306573633693,
+            0.9990983726662588,
+            0.9948264804088329,
+            0.9978778249329643,
+            0.9978697390629643
+          ],
+          "mean": 0.9978606148868779,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0542125248639604e-08,
+        "noisy_sha256": "ad6d7ebc5ca016c6cd02e711810fb4db7c67f2e455b8c7bb77c810e0c0b3f868",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 720908,
+        "sha256": "5b57418feb28ee10409d2d7e0bd63da3d552643aa06a6ca29b696e51b2870745",
+        "git_blob_sha1": "ded28568e9db0676f1e7fb48d265ba7aa3882d8a"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111402,
+        "noise_segment_start_sample": 3555933,
+        "noise_gain": 3.473409877543092,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9948264804088329,
+            0.9990983726662588,
+            0.9996306573633693,
+            0.9978697390629643,
+            0.9978778249329643
+          ],
+          "mean": 0.9978606148868779,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0542125248639604e-08,
+        "noisy_sha256": "5b57418feb28ee10409d2d7e0bd63da3d552643aa06a6ca29b696e51b2870745",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DWASHING_ch01__target_direction_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 720908,
+        "sha256": "362e9adbd020d1778425cb58ef3c92abf917807335939d3d54316a1c0cb6a725",
+        "git_blob_sha1": "0bd6424e1cb83731f5bfa0eb63ed0156e38e6ac1"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111402,
+        "noise_segment_start_sample": 3555933,
+        "noise_gain": 3.473409877543092,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999998515148795,
+            0.9998243843137641,
+            0.9986377263971931,
+            0.9996468675304415,
+            0.9996473798008687
+          ],
+          "mean": 0.9995512419114293,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0542125248639604e-08,
+        "noisy_sha256": "362e9adbd020d1778425cb58ef3c92abf917807335939d3d54316a1c0cb6a725",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DWASHING_ch01__conditioned_12wave",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 720908,
+        "sha256": "86e0d585e2d89f1f78ea4f7ff78393283c39af3af91640b7b24e8f4e4b7939cf",
+        "git_blob_sha1": "1c34d1f73d7ce8f0995f54c6adc9f4a90dce6c11"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111402,
+        "noise_segment_start_sample": 3555933,
+        "noise_gain": 3.473409877543092,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.2293928896243487,
+            0.25383780164430836,
+            0.2126543945952698,
+            0.5184479107683239,
+            0.505309499010059
+          ],
+          "mean": 0.34392849912846196,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.0542125248639604e-08,
+        "noisy_sha256": "86e0d585e2d89f1f78ea4f7ff78393283c39af3af91640b7b24e8f4e4b7939cf",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DKITCHEN_ch01__original_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DKITCHEN_ch01__original_point.wav",
+        "bytes": 720908,
+        "sha256": "8003f2a116cfcee8d93427dc281aacfe59b58d85a3f2a5bcf7d1481177532630",
+        "git_blob_sha1": "ccaf2f4b3e92b29c599de7a29ba8a66077ae75c2"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111403,
+        "noise_segment_start_sample": 1969610,
+        "noise_gain": 6.443332589384837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998868641054981,
+            0.9997240333673953,
+            0.9983410378660549,
+            0.9993320551077032,
+            0.9993393767237412
+          ],
+          "mean": 0.9993246734340785,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4769795254763384e-07,
+        "noisy_sha256": "8003f2a116cfcee8d93427dc281aacfe59b58d85a3f2a5bcf7d1481177532630",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 720908,
+        "sha256": "465cb0248c0ea37a4fbb10229770db70932df65c45e745f04d7edb0e58c85b32",
+        "git_blob_sha1": "35f0a5caafa31415d35e18b16a38506532341901"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111403,
+        "noise_segment_start_sample": 1969610,
+        "noise_gain": 6.443332589384837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9983410378660549,
+            0.9997240333673953,
+            0.9998868641054981,
+            0.9993393767237412,
+            0.9993320551077032
+          ],
+          "mean": 0.9993246734340785,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4769795254763384e-07,
+        "noisy_sha256": "465cb0248c0ea37a4fbb10229770db70932df65c45e745f04d7edb0e58c85b32",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DKITCHEN_ch01__target_direction_point",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 720908,
+        "sha256": "aca1e29cca605b609578759bbd4aadcfede38e4cc54c399860089344f544581e",
+        "git_blob_sha1": "6d1bf544b0f7baf86cc314b137815be3d076628e"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111403,
+        "noise_segment_start_sample": 1969610,
+        "noise_gain": 6.443332589384837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999548809434,
+            0.9999463952264422,
+            0.999576045685664,
+            0.9998924951106146,
+            0.9998920179223707
+          ],
+          "mean": 0.9998613817652071,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4769795254763384e-07,
+        "noisy_sha256": "aca1e29cca605b609578759bbd4aadcfede38e4cc54c399860089344f544581e",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "2277-149896-0012__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/2277-149896-0012__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 720908,
+        "sha256": "855084bed5693722a92fd8e757e02a5d2c9603ff09477ade8e776a5d9b6b2074",
+        "git_blob_sha1": "b681357f5a42976d69ef6c845c4a17dd0ff3e42e"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/2277-149896-0012.wav",
+        "bytes": 120188,
+        "sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043",
+        "git_blob_sha1": "e98586b08a61fdd2cd00a368e10b2558fe42e957"
+      },
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111403,
+        "noise_segment_start_sample": 1969610,
+        "noise_gain": 6.443332589384837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.10945598810814117,
+            0.1080759763685926,
+            0.09765490738759643,
+            0.3223617395948575,
+            0.33245679201293404
+          ],
+          "mean": 0.19400108069442434,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": 1.4769795254763384e-07,
+        "noisy_sha256": "855084bed5693722a92fd8e757e02a5d2c9603ff09477ade8e776a5d9b6b2074",
+        "reference_sha256": "e3024223b8d9309ff2c700a24fbc6f8b233dd27ef1202e9ac8eb779e676ad043"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DWASHING_ch01__original_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DWASHING_ch01__original_point.wav",
+        "bytes": 1049228,
+        "sha256": "e04b6cf433ace19960f0077fb614a4c2514fe2c1c7431b87d6374088939998e1",
+        "git_blob_sha1": "f1ab2d52971ec3d6fcb9ef57981d313bf25935db"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111502,
+        "noise_segment_start_sample": 1543642,
+        "noise_gain": 1.4944739529915552,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.999861784819848,
+            0.999660895858157,
+            0.9979669491868687,
+            0.9991904280026983,
+            0.9991884854846579
+          ],
+          "mean": 0.999173708670446,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -6.638445952594056e-08,
+        "noisy_sha256": "e04b6cf433ace19960f0077fb614a4c2514fe2c1c7431b87d6374088939998e1",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 1049228,
+        "sha256": "846f82122c62a6bed127db5d68457cb4c236d3cd153e30526d9ac48ccb6a5000",
+        "git_blob_sha1": "d73a2effe43dd3cbe74efae008ccdedef5087077"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111502,
+        "noise_segment_start_sample": 1543642,
+        "noise_gain": 1.4944739529915552,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9979669491868687,
+            0.999660895858157,
+            0.999861784819848,
+            0.9991884854846579,
+            0.9991904280026983
+          ],
+          "mean": 0.999173708670446,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -6.638445952594056e-08,
+        "noisy_sha256": "846f82122c62a6bed127db5d68457cb4c236d3cd153e30526d9ac48ccb6a5000",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DWASHING_ch01__target_direction_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 1049228,
+        "sha256": "603abaf3011bcc3ac201e08c8a1118bd28c4c26c0e22541ce6cbf38f8042db65",
+        "git_blob_sha1": "317da0d409b62e85dd811405583ad6cb0b3601a4"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111502,
+        "noise_segment_start_sample": 1543642,
+        "noise_gain": 1.4944739529915552,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.999999944679823,
+            0.9999344268705069,
+            0.999484577261957,
+            0.9998679467432097,
+            0.9998680675558662
+          ],
+          "mean": 0.9998309926222726,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -6.638445952594056e-08,
+        "noisy_sha256": "603abaf3011bcc3ac201e08c8a1118bd28c4c26c0e22541ce6cbf38f8042db65",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DWASHING_ch01__conditioned_12wave",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 1049228,
+        "sha256": "c06759a1649b3ffecf558bc367fbf0f566d0e23025fefd03a0dbdfa32eb66a2e",
+        "git_blob_sha1": "73a6edf38c4b5ea3c40f30554f045596e81b466b"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111502,
+        "noise_segment_start_sample": 1543642,
+        "noise_gain": 1.4944739529915552,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.13123730856441776,
+            0.14404755644020825,
+            0.12817329792928714,
+            0.400216733533215,
+            0.3955929421239885
+          ],
+          "mean": 0.23985356771822333,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -6.638445952594056e-08,
+        "noisy_sha256": "c06759a1649b3ffecf558bc367fbf0f566d0e23025fefd03a0dbdfa32eb66a2e",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DKITCHEN_ch01__original_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DKITCHEN_ch01__original_point.wav",
+        "bytes": 1049228,
+        "sha256": "afd225b2cd357764e60c9671b1d21a642791d5b010b24d806b52c970ab4a40ea",
+        "git_blob_sha1": "5f55787554d4e2e1733a978121ced5fe6f8e25f1"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111503,
+        "noise_segment_start_sample": 4175914,
+        "noise_gain": 3.895551810473837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998699168643501,
+            0.9996811222471297,
+            0.9980774887899916,
+            0.9992347496199849,
+            0.999235725089042
+          ],
+          "mean": 0.9992198005220996,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.9894897070872524e-07,
+        "noisy_sha256": "afd225b2cd357764e60c9671b1d21a642791d5b010b24d806b52c970ab4a40ea",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 1049228,
+        "sha256": "50278e48a316348aadab5ad8e30e9244fa298fb2fd75f452e1b77f98f37ab1b2",
+        "git_blob_sha1": "7066a891a2331c719838fceef26038880d85c37d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111503,
+        "noise_segment_start_sample": 4175914,
+        "noise_gain": 3.895551810473837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9980774887899916,
+            0.9996811222471297,
+            0.9998699168643501,
+            0.999235725089042,
+            0.9992347496199849
+          ],
+          "mean": 0.9992198005220997,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.9894897070872524e-07,
+        "noisy_sha256": "50278e48a316348aadab5ad8e30e9244fa298fb2fd75f452e1b77f98f37ab1b2",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DKITCHEN_ch01__target_direction_point",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 1049228,
+        "sha256": "c93a2927d0c8ca5442094708fed589d7da9f42da86cc8856f595943c63f0ef2b",
+        "git_blob_sha1": "cf0144cf17d9dcd5ddddf3b597903e4b9e1672fc"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111503,
+        "noise_segment_start_sample": 4175914,
+        "noise_gain": 3.895551810473837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999480079279,
+            0.9999383215304927,
+            0.9995136530690308,
+            0.9998758958766086,
+            0.9998758360549407
+          ],
+          "mean": 0.9998407309078001,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.9894897070872524e-07,
+        "noisy_sha256": "c93a2927d0c8ca5442094708fed589d7da9f42da86cc8856f595943c63f0ef2b",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "777-126732-0021__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/777-126732-0021__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 1049228,
+        "sha256": "e7b75e1be52371d6f523b76158c90c4f1c10e8ed6e62529a9341f3ca55d77cfd",
+        "git_blob_sha1": "8e0299fa0ce2d343f3354bd6522f1b0c7d02ac63"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/777-126732-0021.wav",
+        "bytes": 174908,
+        "sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb",
+        "git_blob_sha1": "69a1a4dd08d3263936d90d0b49169c1faba9a254"
+      },
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111503,
+        "noise_segment_start_sample": 4175914,
+        "noise_gain": 3.895551810473837,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.12475774730084517,
+            0.04664035448254711,
+            0.09216528733208065,
+            0.14695601856584428,
+            0.15043012644607093
+          ],
+          "mean": 0.11218990682547762,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -1.9894897070872524e-07,
+        "noisy_sha256": "e7b75e1be52371d6f523b76158c90c4f1c10e8ed6e62529a9341f3ca55d77cfd",
+        "reference_sha256": "1d5ec5caa12228cf3b99ee57d145958f2aa83cdabf9e6fc7db8c1e128d79b1eb"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DWASHING_ch01__original_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DWASHING_ch01__original_point.wav",
+        "bytes": 1024730,
+        "sha256": "cd7726d622c474644426b1ba63123ce29ac1ec4a97f10b211b533ae9d67e3e67",
+        "git_blob_sha1": "4baa3e02db7916911d8e35f5f349cbccbefa8327"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111602,
+        "noise_segment_start_sample": 2445124,
+        "noise_gain": 4.950016140370368,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998681106721437,
+            0.9996766338219955,
+            0.9980536723515064,
+            0.9992250531679819,
+            0.9992253098126489
+          ],
+          "mean": 0.9992097559652553,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -2.0252968953281752e-08,
+        "noisy_sha256": "cd7726d622c474644426b1ba63123ce29ac1ec4a97f10b211b533ae9d67e3e67",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DWASHING_ch01__opposite_azimuth_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DWASHING_ch01__opposite_azimuth_point.wav",
+        "bytes": 1024730,
+        "sha256": "16d73bc2aad8ef447e55a78181f200ac134c109eecd2824ead414cd64b1ba7d4",
+        "git_blob_sha1": "57ff296b7bc0fd15a83313436e2d04ea6b284613"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111602,
+        "noise_segment_start_sample": 2445124,
+        "noise_gain": 4.950016140370368,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9980536723515064,
+            0.9996766338219955,
+            0.9998681106721437,
+            0.9992253098126489,
+            0.9992250531679819
+          ],
+          "mean": 0.9992097559652553,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -2.0252968953281752e-08,
+        "noisy_sha256": "16d73bc2aad8ef447e55a78181f200ac134c109eecd2824ead414cd64b1ba7d4",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DWASHING_ch01__target_direction_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DWASHING_ch01__target_direction_point.wav",
+        "bytes": 1024730,
+        "sha256": "e4c1fc90e74feb34b22c2cfd090543f6295e6d65b52129e9280fcf331f5a2c94",
+        "git_blob_sha1": "065f50f28b9452c564a39fa2e84d2cadbb4fb964"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111602,
+        "noise_segment_start_sample": 2445124,
+        "noise_gain": 4.950016140370368,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999472683303,
+            0.9999374553428669,
+            0.9995072519701671,
+            0.9998741268196903,
+            0.9998741103220115
+          ],
+          "mean": 0.9998385783446133,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -2.0252968953281752e-08,
+        "noisy_sha256": "e4c1fc90e74feb34b22c2cfd090543f6295e6d65b52129e9280fcf331f5a2c94",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DWASHING_ch01__conditioned_12wave",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DWASHING_ch01__conditioned_12wave.wav",
+        "bytes": 1024730,
+        "sha256": "6e2a61ce63c229beafb2ddf250a78b34355540d54fc6a0d719bc5b5f3b58a42f",
+        "git_blob_sha1": "94b66ba15d9a405824c74f895fc0cb0f4fab20aa"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DWASHING_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111602,
+        "noise_segment_start_sample": 2445124,
+        "noise_gain": 4.950016140370368,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.10516018292538014,
+            0.10158999519701967,
+            0.09696027911552822,
+            0.38068371189168143,
+            0.36508181568566883
+          ],
+          "mean": 0.20989519696305567,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -2.0252968953281752e-08,
+        "noisy_sha256": "6e2a61ce63c229beafb2ddf250a78b34355540d54fc6a0d719bc5b5f3b58a42f",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DKITCHEN_ch01__original_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DKITCHEN_ch01__original_point.wav",
+        "bytes": 1024730,
+        "sha256": "4a1f2ddc5035f1947078cee0a0ef57b6b055c3654048e28846a53f92cbc3ba88",
+        "git_blob_sha1": "9c3f1fe6d1ab6c8c10916b68a8aacc24e824ee9d"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "original_point",
+        "mix_seed": 2026111603,
+        "noise_segment_start_sample": 4356817,
+        "noise_gain": 9.45931111286381,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9998646008954218,
+            0.9996676886319944,
+            0.9979967151607126,
+            0.9992046500322578,
+            0.9992034601074915
+          ],
+          "mean": 0.9991874229655755,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -8.932816048743078e-10,
+        "noisy_sha256": "4a1f2ddc5035f1947078cee0a0ef57b6b055c3654048e28846a53f92cbc3ba88",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DKITCHEN_ch01__opposite_azimuth_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DKITCHEN_ch01__opposite_azimuth_point.wav",
+        "bytes": 1024730,
+        "sha256": "2dd50fc2dcec2ce9eb1a65cdbfa39d1bf91fa3e1a1c48418a049ab55edbd5393",
+        "git_blob_sha1": "c6b07356b2ae5b77b7a246f32b8ffa2757c53788"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "opposite_azimuth_point",
+        "mix_seed": 2026111603,
+        "noise_segment_start_sample": 4356817,
+        "noise_gain": 9.45931111286381,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9979967151607126,
+            0.9996676886319944,
+            0.9998646008954218,
+            0.9992034601074915,
+            0.9992046500322578
+          ],
+          "mean": 0.9991874229655757,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -8.932816048743078e-10,
+        "noisy_sha256": "2dd50fc2dcec2ce9eb1a65cdbfa39d1bf91fa3e1a1c48418a049ab55edbd5393",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DKITCHEN_ch01__target_direction_point",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DKITCHEN_ch01__target_direction_point.wav",
+        "bytes": 1024730,
+        "sha256": "0a22479da360c808f9ddc86fc066a61b39bf57ebd622c3270bce2a3429a2828c",
+        "git_blob_sha1": "a3080c0999cffe437a23a994bcdb2fee305302f0"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "target_direction_point",
+        "mix_seed": 2026111603,
+        "noise_segment_start_sample": 4356817,
+        "noise_gain": 9.45931111286381,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.9999999458448798,
+            0.9999357859462114,
+            0.9994942369630204,
+            0.9998706861379709,
+            0.999870759589969
+          ],
+          "mean": 0.9998342828964104,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -8.932816048743078e-10,
+        "noisy_sha256": "0a22479da360c808f9ddc86fc066a61b39bf57ebd622c3270bce2a3429a2828c",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    },
+    {
+      "sample_id": "7976-110124-0000__DKITCHEN_ch01__conditioned_12wave",
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "split": "discovery",
+      "noisy": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/noisy/7976-110124-0000__DKITCHEN_ch01__conditioned_12wave.wav",
+        "bytes": 1024730,
+        "sha256": "01b84ed66a0cc8d01c82688e61b6e1a2c8ced7bed42cdb2d8dd67a74dd740854",
+        "git_blob_sha1": "c9da541514f55ea99cd48c83293da66cace6ecbd"
+      },
+      "reference": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_spatial_v1/reference/7976-110124-0000.wav",
+        "bytes": 170826,
+        "sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8",
+        "git_blob_sha1": "41f7256e3f7d51e133f34d37285631b875a7d231"
+      },
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS",
+      "noise_id": "DKITCHEN_ch01",
+      "snr_db": 0.0,
+      "extras": {
+        "noise_field": "conditioned_12wave",
+        "mix_seed": 2026111603,
+        "noise_segment_start_sample": 4356817,
+        "noise_gain": 9.45931111286381,
+        "common_scale": 1.0,
+        "coherence": {
+          "reference_pair_msc_300_3500hz": [
+            0.11075012688234438,
+            0.03936432530012581,
+            0.08805737520331777,
+            0.13219591635653255,
+            0.12854769922945264
+          ],
+          "mean": 0.09978308859435463,
+          "definition": "Welch/STFT512 hop256 mean-time cross spectrum squared / powers, weighted by reference PSD; diagnostic only"
+        },
+        "achieved_snr_db": -8.932816048743078e-10,
+        "noisy_sha256": "01b84ed66a0cc8d01c82688e61b6e1a2c8ced7bed42cdb2d8dd67a74dd740854",
+        "reference_sha256": "abd5367acdeeff70bf42538b1428340a25a050a2a9a673277c81fb97b5ba6dc8"
+      }
+    }
+  ],
+  "max_seconds": 4.0,
+  "sample_rate": 16000,
+  "reference_channel_zero_based": 4,
+  "frozen_before_model_output": true
+}

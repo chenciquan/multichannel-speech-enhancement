@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T18:08:39.174671+00:00",
+  "rows": 8640,
+  "case_count": 432,
+  "frontends": 10,
+  "stages_checked": {
+    "filter_completion": "e4ca3c20f2c4e44d3a556ea7a5f3106093ce31524baa8177ff8cc3a579988d13",
+    "filter_preflight": "1c83dddbc2b9fe367c88b9d5983b72d842171ced5d99df5221ff35ff6b850fea",
+    "filter_protocol": "310e9574296f2dd048639e02a1db03d56a3d4ba60077518acc3669644d3b459d",
+    "protocol": "0ca97f288a1fcfe3c6a4c159f76754082da6e7a68ef005b35035edef574a2b4f",
+    "replay": "fe4a8d8283262cf66574a66bf7c538e15aeed734957b14c79435dc4eed63cfb4"
+  },
+  "preflight_exact_matches": 60,
+  "complete_sha256": "70fbe2bb15f42f2497f71c4c537bfc406440779dbb9e8c8ba5bc4f0245462cc3",
+  "stratified_sha256": "8b0eb3b5616c7f1b20e6bf70629b69ce1c44bd5ba1a15a31fa56ba2178629203",
+  "saved_output_max_abs": 0.0,
+  "linearity_max_abs": 5.960464477539063e-08,
+  "new_training_or_ASR": false
+}

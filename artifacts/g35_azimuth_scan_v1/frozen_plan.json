@@ -1,0 +1,51 @@
+{
+  "stage": "B_C_signal_only",
+  "authorization": "User explicitly approved B,C after A; prioritize three signal curves; no ASR/training",
+  "protocol_sha256": "be1ef50a2018850029092b626d30bbd234dea151ae28ef0469dadf68cb5480d6",
+  "admission_sha256": "9484d0d1cf888c4e2864afd17796f01bf039128b97a9ff6f1e2dcb42b55ed6c6",
+  "script_sha256": "d26ee0b77d2cd4a272ffb40db94046273d53f4089625ec634bc543f6f03250d1",
+  "angles": [
+    -90,
+    -80,
+    -70,
+    -60,
+    -50,
+    -40,
+    -30,
+    -20,
+    -10,
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90
+  ],
+  "systems": [
+    "noisy",
+    "mcnet",
+    "g5/fixed_without_clean_identity_s20261112",
+    "g5/fixed_without_clean_identity_s20261113",
+    "g5/fixed_without_clean_identity_s20261114",
+    "g15/rigid_without_clean_identity_s20261112",
+    "g15/rigid_without_clean_identity_s20261113",
+    "g15/rigid_without_clean_identity_s20261114"
+  ],
+  "seeds": [
+    20261112,
+    20261113,
+    20261114
+  ],
+  "expected_inputs": 1064,
+  "expected_outputs": 7448,
+  "expected_signal_rows": 8512,
+  "source_manifest_sha256": "67e2ce2e629503fed74980a4de4092912461f88c2ff34506bc297a4c0c3d52a0",
+  "parent_manifest_sha256": "5f4924318aa2c45619610bc0177f591c051735dc9071b3d3bfc53be215173ce0",
+  "max_B_seconds": 1200,
+  "max_C_seconds": 5400,
+  "max_plot_seconds": 1800
+}

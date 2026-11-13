@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T01:06:31.961199+00:00",
+  "files": [
+    {
+      "source": "docs/G32_完整开发语句信号阶段验收.md",
+      "snapshot": "00_G32_完整开发语句信号阶段验收.md",
+      "sha256": "3cc779d3f8e697f4d327775a5e1467b51dc528fb4ef3d6c7e802a48f06f954a5"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/SIGNAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_SIGNAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "9a771a44697d4f36df2a9f5d31010192c83b954b4b8eb4f53a711ae6ac349723"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/power_signal_helper.json",
+      "snapshot": "02_power_signal_helper.json",
+      "sha256": "f183b792db6b3d08f46bf487cc070a59a19221ee109db000dc7d97a5de853c46"
+    },
+    {
+      "source": "scripts/g32_signal_finish.py",
+      "snapshot": "03_g32_signal_finish.py",
+      "sha256": "6957b6f0220dedf584294e7e784594e5ca1116fd6770f02d61df783f90c1caeb"
+    }
+  ]
+}

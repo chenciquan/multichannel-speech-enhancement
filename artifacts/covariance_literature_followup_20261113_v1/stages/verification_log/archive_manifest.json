@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T18:50:43.371714+00:00",
+  "files": [
+    {
+      "source": "docs/研究补查_协方差学习与可控失真先例_20261113.md",
+      "snapshot": "00_研究补查_协方差学习与可控失真先例_20261113.md",
+      "sha256": "78f838fc26773dbefa184ecac30e616d6efc23668e842c093eb6e8335dae6a5f"
+    },
+    {
+      "source": "artifacts/covariance_literature_followup_20261113_v1/verification_record.json",
+      "snapshot": "01_verification_record.json",
+      "sha256": "7fc477b7f6dc8c730cfa47e814d7f555bc31160788e55c2f45afa97251db7d96"
+    }
+  ]
+}

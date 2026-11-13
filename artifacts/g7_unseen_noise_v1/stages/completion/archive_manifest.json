@@ -1,0 +1,40 @@
+{
+  "saved_at_utc": "2026-11-12T04:11:04.447358+00:00",
+  "files": [
+    {
+      "source": "docs/G7_新噪声迁移与方向权衡报告.md",
+      "snapshot": "00_G7_新噪声迁移与方向权衡报告.md",
+      "sha256": "fccd5ab3ddfc0624ea4dd8c4127288ba8515d4c182295eecfc6da4cfc8b8ff50"
+    },
+    {
+      "source": "artifacts/g7_unseen_noise_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "66264db1e2396c3bd42edec0b737bebc389fa18918b44f48a0ecf8870db13383"
+    },
+    {
+      "source": "artifacts/g7_unseen_noise_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "aa965b2fc72656a7c3157000af725ba5edf7072e5f6ffde0208145cd931703c1"
+    },
+    {
+      "source": "artifacts/g7_unseen_noise_v1/evaluation/asr_provenance.json",
+      "snapshot": "03_asr_provenance.json",
+      "sha256": "9b12cdc640e2bb691a0eeefa9ec7c29bad0c649b093b981457c3c738280599c9"
+    },
+    {
+      "source": "artifacts/g7_unseen_noise_v1/review/selection.json",
+      "snapshot": "04_selection.json",
+      "sha256": "0d997789c2d1d007c6ab36cac0834703f4db53f6aa562dd2ac7022d7577a90c8"
+    },
+    {
+      "source": "scripts/g7_evaluate.py",
+      "snapshot": "05_g7_evaluate.py",
+      "sha256": "8a5de4c000940554fab4343c32fb85479ef369988c1174edb7fd987c28a02884"
+    },
+    {
+      "source": "scripts/g7_finish.py",
+      "snapshot": "06_g7_finish.py",
+      "sha256": "eb6beaa201b6ce10fa5b2d2eaa39c9c1357359c6191034106d55d6fab0c24713"
+    }
+  ]
+}

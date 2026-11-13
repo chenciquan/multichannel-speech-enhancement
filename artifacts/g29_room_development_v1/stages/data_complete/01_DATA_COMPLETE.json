@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:36:53.892076+00:00",
+  "training_or_ASR_performed": false,
+  "summaries": {
+    "train": {
+      "rows": 576,
+      "unique_sources": 191,
+      "speaker_counts": {
+        "2035": 144,
+        "2086": 144,
+        "2277": 144,
+        "7976": 144
+      },
+      "field_counts": {
+        "point": 288,
+        "multi8": 288
+      },
+      "max_SNR_error_db": 3.539690496268122e-08
+    },
+    "validation": {
+      "rows": 108,
+      "unique_sources": 12,
+      "speaker_counts": {
+        "1988": 54,
+        "777": 54
+      },
+      "field_counts": {
+        "point": 36,
+        "multi8": 36,
+        "clean": 36
+      },
+      "max_SNR_error_db": 2.7780512112940414e-08
+    }
+  },
+  "RIRs": 264,
+  "hashes": {
+    "data/g29_v1/train_x.npy": "9be99bf914f8cd341eed52ef34e845b081d63b18c811ff56b177b7d77e3dd701",
+    "data/g29_v1/train_y.npy": "c0552775cad705e610149b5efce5bc567072ca8688a852c560898d0dd7c6b551",
+    "data/g29_v1/train_manifest.jsonl": "f18bde8a94a656a9fa0ee322dfd91e61648427627b7e792d1cdb315450d3f568",
+    "data/g29_v1/validation_x.npy": "ac79ee79c711b26c3c84eb5ee9f73591f984922a1266904c88361de2a7e564ec",
+    "data/g29_v1/validation_y.npy": "1c5e845589e7948260898e48dc409f88990389769b6b8363e2d5e1c6c393f889",
+    "data/g29_v1/validation_manifest.jsonl": "f5e43aeb8f46c93e74567a3ccb80aee74bcbb0c154178230f12e0f0493735d84"
+  },
+  "elapsed_seconds": 842.0530673630001
+}

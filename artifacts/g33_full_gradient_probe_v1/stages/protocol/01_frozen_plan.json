@@ -1,0 +1,319 @@
+{
+  "utc": "2026-11-13T01:26:39.388073+00:00",
+  "modes": [
+    "lora",
+    "full"
+  ],
+  "indices": [
+    0,
+    3,
+    10,
+    5,
+    7,
+    2
+  ],
+  "training_records": [
+    {
+      "index": 0,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 1,
+      "source_id": "2035-152373-0004",
+      "speaker_id": "2035",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/2035-152373-0004.flac",
+      "source_sha256": "c9da34f841dcd6a2dd34f31e3df350314b512b03446f2fb0c104e039971a9693",
+      "source_samples": 117440,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "point",
+      "relative_azimuth": -80,
+      "noise_id": "DWASHING",
+      "snr_db": -5,
+      "sample_id": "g29_train_0000",
+      "frames": 23679,
+      "source_crop_start": 43733,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          1319590,
+          1359269
+        ]
+      ],
+      "noise_gain": 274.9835053116229,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 6.170189692511485e-09,
+      "input_samples_sha256": "e75c90e4f6ad6fab8e51fe4db643b4c203be53b0c5a945b5382f7d5c03998afa",
+      "reference_samples_sha256": "db9ca9356030abd0f3bb8041e551b4b9e0967726580b6c179aeafe7150607210"
+    },
+    {
+      "index": 3,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 3,
+      "source_id": "7976-105575-0005",
+      "speaker_id": "7976",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/7976-105575-0005.flac",
+      "source_sha256": "572c54b42783441fdb6a016653b010ec124837f1d1cd7bb606fe43ae4640d628",
+      "source_samples": 88960,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "multi8",
+      "relative_azimuth": null,
+      "noise_id": "DWASHING",
+      "snr_db": 0,
+      "sample_id": "g29_train_0003",
+      "frames": 23679,
+      "source_crop_start": 20808,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          156452,
+          196131
+        ],
+        [
+          407158,
+          446837
+        ],
+        [
+          529934,
+          569613
+        ],
+        [
+          870437,
+          910116
+        ],
+        [
+          997365,
+          1037044
+        ],
+        [
+          1334318,
+          1373997
+        ],
+        [
+          1531603,
+          1571282
+        ],
+        [
+          1720844,
+          1760523
+        ]
+      ],
+      "noise_gain": 171.66600233295634,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 1.860653452749055e-09,
+      "input_samples_sha256": "4ccc063ac026f64872edd3c6a571f044a2daa45db0ae16c98a4def633931c409",
+      "reference_samples_sha256": "022f029d28a795a91b1daa7ca830e841e7bebab6ba9c1043afe104e9c23b5749"
+    },
+    {
+      "index": 10,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 9,
+      "source_id": "7976-105575-0004",
+      "speaker_id": "7976",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/7976-105575-0004.flac",
+      "source_sha256": "008e7a73516fe07bf2dcf7870bd2fb2a4ecd139c7a2f575575245f6130185e31",
+      "source_samples": 96240,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "point",
+      "relative_azimuth": 25,
+      "noise_id": "DKITCHEN",
+      "snr_db": -5,
+      "sample_id": "g29_train_0010",
+      "frames": 23679,
+      "source_crop_start": 44868,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          746207,
+          785886
+        ]
+      ],
+      "noise_gain": 135.03135187684765,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 1.7033467969440608e-09,
+      "input_samples_sha256": "d831e74c5f33352641a6f04f5a1862b046918644fd906c59ba6d0e42c52d1cb9",
+      "reference_samples_sha256": "2a6e569e18b3a5ff511c1213a25c04f16d7c6079e1d0ef79398a96f878ef28d1"
+    },
+    {
+      "index": 5,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 11,
+      "source_id": "2035-147960-0003",
+      "speaker_id": "2035",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/2035-147960-0003.flac",
+      "source_sha256": "7da451d60107c832dc17633fc400f4429115c11665e44346b9840c7ed00a981b",
+      "source_samples": 93440,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "multi8",
+      "relative_azimuth": null,
+      "noise_id": "OOFFICE",
+      "snr_db": 0,
+      "sample_id": "g29_train_0005",
+      "frames": 23679,
+      "source_crop_start": 7086,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          188389,
+          228068
+        ],
+        [
+          302227,
+          341906
+        ],
+        [
+          664441,
+          704120
+        ],
+        [
+          910528,
+          950207
+        ],
+        [
+          1144692,
+          1184371
+        ],
+        [
+          1293072,
+          1332751
+        ],
+        [
+          1525864,
+          1565543
+        ],
+        [
+          1720009,
+          1759688
+        ]
+      ],
+      "noise_gain": 57.75461157251509,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 3.717863776667319e-09,
+      "input_samples_sha256": "ec367242d18030e9180598f7f2d603b034511e071ff740766b524fdfa48844d0",
+      "reference_samples_sha256": "1ade529419c96c356ad783e2e7e0003ea6beb9ec48c460b891baae2379dedc71"
+    },
+    {
+      "index": 7,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 13,
+      "source_id": "2086-149220-0005",
+      "speaker_id": "2086",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/2086-149220-0005.flac",
+      "source_sha256": "38c678fef0ea298e730bfa9393ecee7d4e8e62b937b5a8631c14c5480d4f4390",
+      "source_samples": 145440,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "point",
+      "relative_azimuth": 25,
+      "noise_id": "DKITCHEN",
+      "snr_db": 5,
+      "sample_id": "g29_train_0007",
+      "frames": 23679,
+      "source_crop_start": 77123,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          1615183,
+          1654862
+        ]
+      ],
+      "noise_gain": 24.95936230488046,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 1.3282291710936533e-08,
+      "input_samples_sha256": "e38f93edfc0e137f32384a384c2a6c886ff68aea0d7f9c0fc611ca592de7189b",
+      "reference_samples_sha256": "00879fbf7ff577d9ede46587d9f4bb2ad4d8843bfa1ae9a41fe758c3cc4bf9d3"
+    },
+    {
+      "index": 2,
+      "split": "train",
+      "repeat": 0,
+      "template_id": 13,
+      "source_id": "2277-149896-0014",
+      "speaker_id": "2277",
+      "source_path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/2277-149896-0014.flac",
+      "source_sha256": "759e0c012e13e7394478aa50535bd3a0a59078044101ae50ebd417bafc28f848",
+      "source_samples": 65120,
+      "crop_policy": "seeded random non-silent16000 samples, up to30attempts",
+      "field": "multi8",
+      "relative_azimuth": null,
+      "noise_id": "OOFFICE",
+      "snr_db": -5,
+      "sample_id": "g29_train_0002",
+      "frames": 23679,
+      "source_crop_start": 35740,
+      "crop_attempts": 1,
+      "noise_intervals": [
+        [
+          184840,
+          224519
+        ],
+        [
+          262979,
+          302658
+        ],
+        [
+          676889,
+          716568
+        ],
+        [
+          886283,
+          925962
+        ],
+        [
+          960139,
+          999818
+        ],
+        [
+          1236412,
+          1276091
+        ],
+        [
+          1580481,
+          1620160
+        ],
+        [
+          1850309,
+          1889988
+        ]
+      ],
+      "noise_gain": 130.6293255818082,
+      "common_scale": 1.0,
+      "saved_active_SNR_error_db": 9.584911531135276e-09,
+      "input_samples_sha256": "28b680432d1357c2b7da94caadb3cdf3468f76d0d6bfaa94843b9ad27525dbcb",
+      "reference_samples_sha256": "fc0241ff5b80e11e533cc1e89e966793ad2f24f95b33dc8ecc809dc52b6555f0"
+    }
+  ],
+  "seed": 20261113,
+  "FP32": true,
+  "batch": 1,
+  "frames": 23679,
+  "loss": "unchanged original compressedcIRM MSE",
+  "optimizer_updates": 0,
+  "optimizer_created": false,
+  "max_mode_seconds": 600,
+  "max_queue_seconds": 1500,
+  "comparison": "same source CP and same six training inputs; reset forwardRNG perindex, independent processes permode",
+  "forward_equivalence_rtol": 1e-05,
+  "forward_equivalence_atol": 1e-06,
+  "memory": "torch allocated/reserved at end of forward+autograd.grad, no Adam state;2FP32moment bytes estimated separately",
+  "timing": "synchronized forward+gradient only, excludes audit/CPUcopies/sourcehashes; firstcase cold reported separately, oneordernotthroughputbenchmark",
+  "no_development_or_test_audio": true,
+  "hashes": {
+    "scripts/g33_common.py": "5e33d376bdc3dd9eb22a10660b2bd2f2c365181c32b385226d068390c001ebde",
+    "scripts/g33_prepare.py": "6a17ad4a59b14b7171cd64c968c4754675f4874dc4155c147f9e0fbb57fd68d0",
+    "scripts/g33_probe.py": "144fe2d1070e6bb92689b9e42b1f4e4237102fec3f0ca6264d2592ac65c10c06",
+    "scripts/g33_queue.py": "b8c5b122ac0ef1a2d2fb2881f7bac3bb3810824be14a937917ba4765e4df6d2d",
+    "scripts/g33_accept.py": "35c6390f1eafffc52760b69433b2dadec230e1ac0323c202b4a06a1e7dda2633",
+    "scripts/g28_gradient_v2.py": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82",
+    "scripts/mcnet_infer.py": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "data/g29_v1/train_x.npy": "9be99bf914f8cd341eed52ef34e845b081d63b18c811ff56b177b7d77e3dd701",
+    "data/g29_v1/train_y.npy": "c0552775cad705e610149b5efce5bc567072ca8688a852c560898d0dd7c6b551",
+    "data/g29_v1/train_manifest.jsonl": "f18bde8a94a656a9fa0ee322dfd91e61648427627b7e792d1cdb315450d3f568",
+    "artifacts/g29_room_development_v1/FINAL_ACCEPTANCE_AUDIT.json": "8e6e4ca75c47737219f4a5dc119bc9a630a64075804f45a6f58d02fa5e0bf559",
+    "artifacts/g30_room_objectives_v1/frozen_plan.json": "7e1ccd8321e5a083c65811ba0d47e086a9578301be71f159e33e825667d266a7",
+    "artifacts/g32_complete_dev_v1/FINAL_ACCEPTANCE_AUDIT.json": "deca4a1ef24e8ce8ec281e008c559017c328cd5923c318a43df766b7b547a99c"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T18:51:19.366220+00:00",
+  "files": [
+    {
+      "source": "docs/G22_直接输出信号阶段报告.md",
+      "snapshot": "00_G22_直接输出信号阶段报告.md",
+      "sha256": "ceec750fce9ddf199b72a971d743b0eae7101c24305f5079028e5d1f347bfeb2"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/DIRECT_COMPLETE.json",
+      "snapshot": "01_DIRECT_COMPLETE.json",
+      "sha256": "3d40fe68960c8ede4a1d554f1aa35f0d2d83aa64fec647c31684ba7c2d37b41d"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "26802db8469d5f45628d699e12f559d45ef08db3f4627c3d3517afbb68f575d5"
+    },
+    {
+      "source": "scripts/g22_signal.py",
+      "snapshot": "03_g22_signal.py",
+      "sha256": "3228dc2f916452aa2136d941dc3a76e15d8282515adaf3dc6fe9c80cdc776d7f"
+    },
+    {
+      "source": "scripts/g22_filter_worker.py",
+      "snapshot": "04_g22_filter_worker.py",
+      "sha256": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "geometry_id": "chime3_nominal_tablet_simplified_freefield_v1",
+  "microphone_positions_m": [
+    [
+      -0.1,
+      0.0,
+      0.095
+    ],
+    [
+      0.0,
+      -0.01,
+      0.095
+    ],
+    [
+      0.1,
+      0.0,
+      0.095
+    ],
+    [
+      -0.1,
+      0.0,
+      -0.095
+    ],
+    [
+      0.0,
+      0.0,
+      -0.095
+    ],
+    [
+      0.1,
+      0.0,
+      -0.095
+    ]
+  ],
+  "reference_channel_zero_based": 4,
+  "coordinate_convention": "x=image-right, y=front/toward talker, z=up; meters; microphone order is official labels 1..6 minus one",
+  "array_domain_label": "official_nominal_dimensions_but_simplified_freefield_not_exact_McNet_training_match",
+  "target_direction_unit": [
+    0.33682408883346515,
+    0.9254165783983234,
+    0.17364817766693033
+  ],
+  "noise_directions_unit": [
+    [
+      -0.8365163037378078,
+      0.4829629131445342,
+      -0.25881904510252074
+    ],
+    [
+      -0.8365163037378078,
+      0.4829629131445342,
+      -0.25881904510252074
+    ]
+  ],
+  "speed_of_sound_m_s": 343.0,
+  "geometry_source": "https://www.chimechallenge.org/challenges/chime3/overview",
+  "geometry_image": "https://www.chimechallenge.org/challenges/chime3/images/mic_array_annotated.jpg",
+  "dimension_evidence": "Official image: adjacent columns 10cm, rows 19cm; official text: top-center microphone on back of 1cm frame.",
+  "approximation_notes": "Nominal center coordinates reconstructed from official dimensions, not calibrated coordinates; 1cm back offset is an approximation. Omnidirectional freefield plane waves; tablet baffle, frequency response, real noise spatial field and room reverberation are not reproduced. This is custom-data exploration, not exact CHiME replication.",
+  "direction_angles_degrees": {
+    "target_azimuth": 20,
+    "target_elevation": 10,
+    "noise_elevation": -15,
+    "noise_azimuth": -60
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:24:12.503381+00:00",
+  "records": 16488,
+  "reference_cases": 504,
+  "RT0_exact_normalized_pairs": 2748,
+  "peak_limited_output_records": 1015,
+  "manifest_sha256": "6f5a42384a2e54e3fcc8ef8080fd60784cea014ced339132557ff736cb08e93e",
+  "reference_inputs_sha256": "8bdadf9b8a2827d26f9c3db4b42036fbe9304666e2334df792bb83bd010cf2c7",
+  "elapsed_seconds": 55.588308666,
+  "ASR_run": false,
+  "new_audio_files": 0
+}

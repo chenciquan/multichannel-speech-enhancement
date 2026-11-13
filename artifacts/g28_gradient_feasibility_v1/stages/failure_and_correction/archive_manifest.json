@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:11:39.880972+00:00",
+  "files": [
+    {
+      "source": "docs/G28_v1_CPU复数类型失败记录与修正.md",
+      "snapshot": "00_G28_v1_CPU复数类型失败记录与修正.md",
+      "sha256": "c8eb75f4addfeeb1693d0643db1f37fe5a3b5e7ca56c6ff72ccdc7cac442f50f"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v1/failure.json",
+      "snapshot": "01_failure.json",
+      "sha256": "65647c2247aa0cf82fbd1dfc61f5e23831da44a74aa478cb2cd05ce5921aa7ae"
+    },
+    {
+      "source": "scripts/g28_gradient.py",
+      "snapshot": "02_g28_gradient.py",
+      "sha256": "8ab37566fbb1c9f72893f5835fe62dd6a06d09617735ae4bec882c5cef777441"
+    },
+    {
+      "source": "scripts/g28_gradient_v2.py",
+      "snapshot": "03_g28_gradient_v2.py",
+      "sha256": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82"
+    }
+  ]
+}

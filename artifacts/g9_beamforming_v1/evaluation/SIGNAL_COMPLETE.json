@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-11-12T04:31:43.273248+00:00",
+  "rows": 2700,
+  "elapsed_seconds": 289.28242493900007,
+  "status": "ok",
+  "checks": {
+    "all_input_and_saved_McNet_hashes": true,
+    "exact_FLOAT_roundtrip": true
+  }
+}

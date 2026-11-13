@@ -1,0 +1,1784 @@
+[
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.633022221559489,
+      0.7544065067354889,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      2.050466667660767,
+      3.6316097601032333,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/000.npy",
+    "sha256": "9c932bfbc36895cafabc960febee98a50b55b8a769aeb71d2f46a5b5196e178c",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.33682408883346515,
+      0.9254165783983234,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      3.5052361332501976,
+      3.888124867597485,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/001.npy",
+    "sha256": "c0534d1f021c5a4b70f9c616d6c1694057e4457c629011d7e95aa3e5517ae48d",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.9254165783983233,
+      0.33682408883346526,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      4.388124867597485,
+      3.005236133250198,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/002.npy",
+    "sha256": "8f5ff8a528f23e74c2e9cb31f5131a9d1a043f417e5bc2a7989c69954b419574",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.633022221559489,
+      0.7544065067354889,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      2.050466667660767,
+      3.6316097601032333,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/003.npy",
+    "sha256": "259e5af12f1f041cc1d7e32b0099091ff0cec88d0bb8b34ca48e8bd3ca6515e9",
+    "measured_T20_extrapolated_RT60": 0.1010124994073003,
+    "tail_fraction20ms": 0.04292684607955029,
+    "truncated_480ms_last20ms_energy_fraction": 4.204347791056282e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.33682408883346515,
+      0.9254165783983234,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      3.5052361332501976,
+      3.888124867597485,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/004.npy",
+    "sha256": "8d6b6bb7a2be425c50533cba44d228bc5a29ec42e7328ac03f642028857d5129",
+    "measured_T20_extrapolated_RT60": 0.10422444916800234,
+    "tail_fraction20ms": 0.03142685067323014,
+    "truncated_480ms_last20ms_energy_fraction": 4.628881794987738e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.9254165783983233,
+      0.33682408883346526,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      4.388124867597485,
+      3.005236133250198,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/005.npy",
+    "sha256": "cf41ccfc6437f0f3c673153772692566ba407382fac1e9e891134947957c6b38",
+    "measured_T20_extrapolated_RT60": 0.09748027144154182,
+    "tail_fraction20ms": 0.03352700913274272,
+    "truncated_480ms_last20ms_energy_fraction": 4.448336016808949e-21
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.633022221559489,
+      0.7544065067354889,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      2.050466667660767,
+      3.6316097601032333,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/006.npy",
+    "sha256": "78bd8a8f93f98399abb54e84a02e070a824c9e775e75202fe824e26d4789ef6c",
+    "measured_T20_extrapolated_RT60": 0.45858581452327574,
+    "tail_fraction20ms": 0.5125065540257381,
+    "truncated_480ms_last20ms_energy_fraction": 3.8174119582431936e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.33682408883346515,
+      0.9254165783983234,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      3.5052361332501976,
+      3.888124867597485,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/007.npy",
+    "sha256": "c7a143a5af22de315435429cd045a93162a34d1badebe41410590ce958f1c779",
+    "measured_T20_extrapolated_RT60": 0.4576677065051179,
+    "tail_fraction20ms": 0.49405011484202666,
+    "truncated_480ms_last20ms_energy_fraction": 3.900653745119386e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.9254165783983233,
+      0.33682408883346526,
+      0.17364817766693033
+    ],
+    "source_position_m": [
+      4.388124867597485,
+      3.005236133250198,
+      1.6604722665003955
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/008.npy",
+    "sha256": "929a7beb51ee8baee7015946c773ee1d734c447b34554c70ac5046d9f1cc8ce5",
+    "measured_T20_extrapolated_RT60": 0.4599947000944752,
+    "tail_fraction20ms": 0.46994310090330343,
+    "truncated_480ms_last20ms_energy_fraction": 3.8136841548528127e-07
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.836516303737808,
+      -0.482962913144534,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932878,
+      1.775555630283199,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/009.npy",
+    "sha256": "73a2831d02f395a7b44df238c251e8a489572fa38c2785c091ce4206180c46ff",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.8365163037378078,
+      0.48296291314453427,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932883,
+      3.2244443697168013,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/010.npy",
+    "sha256": "f7c10368bb2d9fc040adb79cfb630dead7610e18d3853f0d9080512171319403",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.1677312594965205,
+      0.9512512425641978,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.7484031107552194,
+      3.9268768638462968,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/011.npy",
+    "sha256": "e3e534df75534d05f3f7caea0f976d020715d1cb5a528fd156b2a40e6f530f8f",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.836516303737808,
+      -0.482962913144534,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932878,
+      1.775555630283199,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/012.npy",
+    "sha256": "66ee40187d5a17677a6cbd76d52ff1ac6ef843321061c0f8d303ebfce81285a3",
+    "measured_T20_extrapolated_RT60": 0.10195307171049584,
+    "tail_fraction20ms": 0.03405228819515995,
+    "truncated_480ms_last20ms_energy_fraction": 4.671585262084559e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.8365163037378078,
+      0.48296291314453427,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932883,
+      3.2244443697168013,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/013.npy",
+    "sha256": "7f5898ca9b2eee5f10314e2bc33c11426c62c834f61dfd88dd09aef146b0dc9a",
+    "measured_T20_extrapolated_RT60": 0.10195307171049564,
+    "tail_fraction20ms": 0.03405228819515984,
+    "truncated_480ms_last20ms_energy_fraction": 4.6715852620845565e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.1677312594965205,
+      0.9512512425641978,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.7484031107552194,
+      3.9268768638462968,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/014.npy",
+    "sha256": "797958a2e100b6e4f516bdbc1bdc0f204e521f10af90275a107c8009281e7b28",
+    "measured_T20_extrapolated_RT60": 0.10259424023078664,
+    "tail_fraction20ms": 0.033033327772429635,
+    "truncated_480ms_last20ms_energy_fraction": 4.689166834188665e-21
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.836516303737808,
+      -0.482962913144534,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932878,
+      1.775555630283199,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/015.npy",
+    "sha256": "fe7faa4852cc5b968986cf8fdc6d1816df8d0ed46f6f53aee4d0c2831b934169",
+    "measured_T20_extrapolated_RT60": 0.46206783952266345,
+    "tail_fraction20ms": 0.48107816527273367,
+    "truncated_480ms_last20ms_energy_fraction": 3.8761493815293273e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.8365163037378078,
+      0.48296291314453427,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      1.7452255443932883,
+      3.2244443697168013,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/016.npy",
+    "sha256": "09ab8a3b0530ef7159e0336d91f2aa5598c4ceb1ef4848361fc5011a00e7660a",
+    "measured_T20_extrapolated_RT60": 0.46206783952266256,
+    "tail_fraction20ms": 0.4810781652727332,
+    "truncated_480ms_last20ms_energy_fraction": 3.876149381529327e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.1677312594965205,
+      0.9512512425641978,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.7484031107552194,
+      3.9268768638462968,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/017.npy",
+    "sha256": "8836ab045e20d2067aa32ae13505cfa267ff8aa914956e49e591fc7ac55057be",
+    "measured_T20_extrapolated_RT60": 0.4632675704526308,
+    "tail_fraction20ms": 0.49132416894345793,
+    "truncated_480ms_last20ms_energy_fraction": 3.736546140534539e-07
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.25,
+      0.9330127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.625,
+      3.899519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/018.npy",
+    "sha256": "9266e2ee96af2701c45f806f0d459963854f73bcdda953ff039cbe38c662a8df",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.6830127018922193,
+      0.6830127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.024519052838329,
+      3.524519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/019.npy",
+    "sha256": "3c3aaf5743507306d3441f162459d67b40df22c333b97cf2ea9230c589797b20",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.9622501868990583,
+      -0.08418598282936912,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.4433752803485875,
+      2.3737210257559465,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/020.npy",
+    "sha256": "17fc386461ac8858bdf08f6fb52ce2aa646a8a236620e38c65666dbba5777036",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.25,
+      0.9330127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.625,
+      3.899519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/021.npy",
+    "sha256": "99250f4d191ff89527a26cc649907fb520179f7a023b7113c52df1c1644056a1",
+    "measured_T20_extrapolated_RT60": 0.10239101048932202,
+    "tail_fraction20ms": 0.037590733831189736,
+    "truncated_480ms_last20ms_energy_fraction": 4.5264142138604165e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.6830127018922193,
+      0.6830127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.024519052838329,
+      3.524519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/022.npy",
+    "sha256": "b6a88607b26310e57998f1fc0a8d60128ec069e15a7ac07f05e4d4afaec4a032",
+    "measured_T20_extrapolated_RT60": 0.1069778539772049,
+    "tail_fraction20ms": 0.03602252154316696,
+    "truncated_480ms_last20ms_energy_fraction": 4.358578374976589e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.9622501868990583,
+      -0.08418598282936912,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.4433752803485875,
+      2.3737210257559465,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/023.npy",
+    "sha256": "e42f92c8d1ffb303a608b27e8a5521889825c1bf555a0b4de4686d198fc0f702",
+    "measured_T20_extrapolated_RT60": 0.09673466082574457,
+    "tail_fraction20ms": 0.032266013954808596,
+    "truncated_480ms_last20ms_energy_fraction": 5.211464855851611e-21
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.25,
+      0.9330127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      2.625,
+      3.899519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/024.npy",
+    "sha256": "738877e521e62dfa8b590b660060fd161d3f3406594521a9c25a40e85e677a2a",
+    "measured_T20_extrapolated_RT60": 0.45546400530625086,
+    "tail_fraction20ms": 0.5044379542931554,
+    "truncated_480ms_last20ms_energy_fraction": 3.469873622633271e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.6830127018922193,
+      0.6830127018922194,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.024519052838329,
+      3.524519052838329,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/025.npy",
+    "sha256": "6cae0ba5b4b4ad9c5c7a1a942d43e3f2c82b8cd86985183a06c43abd7ad12885",
+    "measured_T20_extrapolated_RT60": 0.45975775915467926,
+    "tail_fraction20ms": 0.48887530838350207,
+    "truncated_480ms_last20ms_energy_fraction": 3.778807513162936e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.9622501868990583,
+      -0.08418598282936912,
+      -0.25881904510252074
+    ],
+    "source_position_m": [
+      4.4433752803485875,
+      2.3737210257559465,
+      1.0117714323462188
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/026.npy",
+    "sha256": "9cb445804c1c1cf18f01d61fd2c9d9535d17664858fc1ececcef5d86f0e7ffcb",
+    "measured_T20_extrapolated_RT60": 0.46006954805095224,
+    "tail_fraction20ms": 0.47255556822816186,
+    "truncated_480ms_last20ms_energy_fraction": 3.7963504020775175e-07
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.851355801931381,
+      -0.46837648493908446,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      4.2770337028970715,
+      1.7974352725913734,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/027.npy",
+    "sha256": "1e73f94ff4379868d04f15bb5aeade2a4c7f502d88de22b3f69cc6a58958ae9b",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.8054728171634999,
+      -0.3679424083232039,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.79179077425475,
+      1.9480863875151941,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/028.npy",
+    "sha256": "ee4e22ae6e5ba4ebcb91a8ba11b260d3d2388977333bab08e8fd0b0e0ee9c1f7",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.5237673720594653,
+      -0.8431829614160872,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      3.785651058089198,
+      1.2352255578758693,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/029.npy",
+    "sha256": "f2e15ce3fd9a3b1e919bae09d3766286b4f972647f523a837158fc775a5c0b2f",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.9803193888907411,
+      0.07683567651844753,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      4.470479083336111,
+      2.615253514777671,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/030.npy",
+    "sha256": "7840edecfc27eeb837d648adf04ecd825a54f07bea2d185f26dcb263b6f3540b",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.8976923468913711,
+      -0.4176111518772986,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.6534614796629432,
+      1.8735832721840522,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/031.npy",
+    "sha256": "f9fc8cdfdc0207a93cb275ca72ff4525f151754db35bf23eafa11718f9f56074",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.9324745060902488,
+      -0.13655781764702396,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      1.6012882408646267,
+      2.295163273529464,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/032.npy",
+    "sha256": "268cd9c1a9d4c1f51a5015c10ec20501af8560af160fa0b4fc378276a7a6e9c4",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.0697676835981651,
+      -0.9879145617259573,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      3.1046515253972475,
+      1.018128157411064,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/033.npy",
+    "sha256": "1baa3361ffe402d8ee517eb4cbf2ad6e9abb32f329ef4ee96374670f98be0c8c",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.9060634067208884,
+      0.12548269091419362,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      4.359095110081332,
+      2.6882240363712904,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/034.npy",
+    "sha256": "a668eb15dc5544f4293d930d62191e3541f7d6dac85b6616cf5102cf803c9e16",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.02005196647318397,
+      -0.971483994601391,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      3.030077949709776,
+      1.0427740080979135,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/035.npy",
+    "sha256": "dfa8c9332096ef7fb0c675fd7839ade96123eec7ab8a18be0d96a10d8d9a4444",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.7213838813192716,
+      0.5135887175598074,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.9179241780210927,
+      3.2703830763397113,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/036.npy",
+    "sha256": "12c3f13f7d66beff4ddf7157dc994c8fc65b7137758e0b777203d32416b03292",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.4683341785947928,
+      -0.8751873305849565,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      2.297498732107811,
+      1.1872190041225652,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/037.npy",
+    "sha256": "acc3be5838b44fc2b1b5ea40df3069100dbd61f3bde7440e465f65d9665ed17f",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.5567013422273097,
+      -0.8105636563425944,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      3.8350520133409645,
+      1.2841545154861085,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/038.npy",
+    "sha256": "910e60e05b66ff474e34ec319fc5ad0389d587c8be29155b994b6abbff26a177",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.8105080398751077,
+      0.5686188012521506,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.7842379401873385,
+      3.3529282018782256,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/039.npy",
+    "sha256": "106105a8412a10c5b3563662c8e820720941c1897706c3dd4d7268a481fdbfdd",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.5844997922128101,
+      0.7392677018319906,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      2.123250311680785,
+      3.608901552747986,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/040.npy",
+    "sha256": "6c7bdc9d0b088d09543c7fb787b6eac8f764c9be96e1a43de597d2d9e3e470eb",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.8206752654241662,
+      -0.5543778672221846,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.7689871018637506,
+      1.668433199166723,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/041.npy",
+    "sha256": "2113492f31866c8e7c6622b826ba0b57768d01cd526ff42a38f0a415acc66b9b",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.5617029014273667,
+      -0.7219325822026645,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      3.84255435214105,
+      1.4171011266960032,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/042.npy",
+    "sha256": "a071e7048f5f1b613e9d07149fe0893cf078a4aa40cff0905368586d452e45dc",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.7313107600446103,
+      -0.6398185722289497,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      1.9030338599330845,
+      1.5402721416565754,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/043.npy",
+    "sha256": "f7cb5d6109c1e8a412974bffd70f986507cb64a5e9fc961b77dfb941a1151173",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.07026483760432001,
+      0.8827405777624722,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      2.89460274359352,
+      3.824110866643708,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/044.npy",
+    "sha256": "4a66fbf87749f75a196a23e28574545876927e9a984fcab9e5ae73000e2472f1",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.9714717984761936,
+      -0.2037947772194152,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      1.5427923022857097,
+      2.194307834170877,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/045.npy",
+    "sha256": "90ba838ac5fb3296e93ec820f913bbb97cf8bee1346e090cac7e82880dc6b04f",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.2630870596558649,
+      -0.9474782448493448,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      2.605369410516203,
+      1.0787826327259826,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/046.npy",
+    "sha256": "8c1835f0abd5dffb9e2f0f090c8c20ca44835ab4aa4f3ee8d043c035dc9879f7",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.08539725263085823,
+      0.9863863001292765,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      2.8719041210537126,
+      3.979579450193915,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/047.npy",
+    "sha256": "ad6f08825d6ea7682cec4d0f5dd85e21e248d922e12d6c00800a644cf94ba34d",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      0.19060269066698282,
+      0.922944936807867,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      3.285904036000474,
+      3.8844174052118006,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/048.npy",
+    "sha256": "a96f2fccf598ec713f9b93ac5115b88fc774ae5c2006491cdde50235145693ae",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.9521979767645712,
+      0.2723265025485052,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.5717030348531433,
+      2.908489753822758,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/049.npy",
+    "sha256": "f5c261be9781b4f44c1be0c78df1dc8e9ae7c3a653f86705017caeae4320b7e9",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0,
+    "source_direction": [
+      -0.19197677754039516,
+      -0.8943387051911231,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      2.7120348336894073,
+      1.1584919422133153,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/050.npy",
+    "sha256": "ddfc99de708edb989bdffc6c7e11243beefb9f10100fe35962ce338487522751",
+    "measured_T20_extrapolated_RT60": null,
+    "tail_fraction20ms": 0.0,
+    "truncated_480ms_last20ms_energy_fraction": 0.0
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.851355801931381,
+      -0.46837648493908446,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      4.2770337028970715,
+      1.7974352725913734,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/051.npy",
+    "sha256": "f981ece0984165c1dc0d1bc24b7946d78ed9628c7fe76f3f99aab31fe3c03ec9",
+    "measured_T20_extrapolated_RT60": 0.10248370494557212,
+    "tail_fraction20ms": 0.033060024992218155,
+    "truncated_480ms_last20ms_energy_fraction": 4.2530667460741905e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.8054728171634999,
+      -0.3679424083232039,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.79179077425475,
+      1.9480863875151941,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/052.npy",
+    "sha256": "5a34e2c1565489afcc411f6852d6abfc784aafc3dcc103332916aa9a9d201acb",
+    "measured_T20_extrapolated_RT60": 0.10315243939704685,
+    "tail_fraction20ms": 0.033209720410569125,
+    "truncated_480ms_last20ms_energy_fraction": 4.558355320580543e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.5237673720594653,
+      -0.8431829614160872,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      3.785651058089198,
+      1.2352255578758693,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/053.npy",
+    "sha256": "2453926bddce61dfb5d8512022e995e11ae93a51eff7ff3c737867b5f5838356",
+    "measured_T20_extrapolated_RT60": 0.11483372186144444,
+    "tail_fraction20ms": 0.045970697272832775,
+    "truncated_480ms_last20ms_energy_fraction": 4.3958524628492305e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.9803193888907411,
+      0.07683567651844753,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      4.470479083336111,
+      2.615253514777671,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/054.npy",
+    "sha256": "e7f27fd076b663fff61e414f933ac930e08e2df92febda6df273683edd15e64c",
+    "measured_T20_extrapolated_RT60": 0.09868850483067824,
+    "tail_fraction20ms": 0.03341073112676537,
+    "truncated_480ms_last20ms_energy_fraction": 6.665499368398539e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.8976923468913711,
+      -0.4176111518772986,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.6534614796629432,
+      1.8735832721840522,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/055.npy",
+    "sha256": "ee5d2a0974f08b911dcf674ad17043361775f7e0e5d13f1aca2b89fb05e018f5",
+    "measured_T20_extrapolated_RT60": 0.1014269483657551,
+    "tail_fraction20ms": 0.03933962136745953,
+    "truncated_480ms_last20ms_energy_fraction": 4.249627252604781e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.9324745060902488,
+      -0.13655781764702396,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      1.6012882408646267,
+      2.295163273529464,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/056.npy",
+    "sha256": "db2aef3094fe80ddd73e23888e1806403b3a64fccd0184611130bfc4156b4318",
+    "measured_T20_extrapolated_RT60": 0.09592830094010786,
+    "tail_fraction20ms": 0.039287850324701404,
+    "truncated_480ms_last20ms_energy_fraction": 4.787047610893956e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.0697676835981651,
+      -0.9879145617259573,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      3.1046515253972475,
+      1.018128157411064,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/057.npy",
+    "sha256": "838c014ce9d5779b75b82e70f5ee2d593b0532c5f3f778c17422d8d676ed1ffa",
+    "measured_T20_extrapolated_RT60": 0.10053886810041282,
+    "tail_fraction20ms": 0.046488524400023525,
+    "truncated_480ms_last20ms_energy_fraction": 5.4193254804390675e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.9060634067208884,
+      0.12548269091419362,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      4.359095110081332,
+      2.6882240363712904,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/058.npy",
+    "sha256": "9c4936b220639de93f15e34f3bedf92ddcee98ee6c42d882f9c9ae58dd840d7d",
+    "measured_T20_extrapolated_RT60": 0.10100631787307943,
+    "tail_fraction20ms": 0.03434017948826226,
+    "truncated_480ms_last20ms_energy_fraction": 5.043395206746176e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.02005196647318397,
+      -0.971483994601391,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      3.030077949709776,
+      1.0427740080979135,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/059.npy",
+    "sha256": "0e74f109745a192f0d9a3d6a4657cbfc97a23de03f39a61db0f113932ff7ce80",
+    "measured_T20_extrapolated_RT60": 0.10084639803926294,
+    "tail_fraction20ms": 0.035869933161252116,
+    "truncated_480ms_last20ms_energy_fraction": 5.451385504016551e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.7213838813192716,
+      0.5135887175598074,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.9179241780210927,
+      3.2703830763397113,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/060.npy",
+    "sha256": "d79c26834a7267f5846aab43edbbc2b7b0a339b129afba60b9eb65f110d73c0e",
+    "measured_T20_extrapolated_RT60": 0.1010090635511116,
+    "tail_fraction20ms": 0.033586398459866044,
+    "truncated_480ms_last20ms_energy_fraction": 4.376554745031635e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.4683341785947928,
+      -0.8751873305849565,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      2.297498732107811,
+      1.1872190041225652,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/061.npy",
+    "sha256": "3a7c812f7e0f1c2b01c3ee640bbb31a8102c8c9ed0b124893c97bf5597399dc8",
+    "measured_T20_extrapolated_RT60": 0.10572267366181701,
+    "tail_fraction20ms": 0.03958557675944451,
+    "truncated_480ms_last20ms_energy_fraction": 4.564316668001212e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.5567013422273097,
+      -0.8105636563425944,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      3.8350520133409645,
+      1.2841545154861085,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/062.npy",
+    "sha256": "21f05ff1ac288a958a0213a6daac2064c7418dceded6016e0fb8c65985283791",
+    "measured_T20_extrapolated_RT60": 0.1027290330662277,
+    "tail_fraction20ms": 0.03870218695935885,
+    "truncated_480ms_last20ms_energy_fraction": 4.21475538065407e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.8105080398751077,
+      0.5686188012521506,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.7842379401873385,
+      3.3529282018782256,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/063.npy",
+    "sha256": "d11ca3be496d034c7db264dd2b82979000653634f869412db77c39f1c358dc3b",
+    "measured_T20_extrapolated_RT60": 0.10150190260932537,
+    "tail_fraction20ms": 0.04327373733228908,
+    "truncated_480ms_last20ms_energy_fraction": 4.045585688452184e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.5844997922128101,
+      0.7392677018319906,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      2.123250311680785,
+      3.608901552747986,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/064.npy",
+    "sha256": "4973fc94887406beb41868e2ffa33ce12df9d5c185776ba54de0841e37bc2830",
+    "measured_T20_extrapolated_RT60": 0.10172266937465732,
+    "tail_fraction20ms": 0.04107565689068959,
+    "truncated_480ms_last20ms_energy_fraction": 4.156919315772515e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.8206752654241662,
+      -0.5543778672221846,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.7689871018637506,
+      1.668433199166723,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/065.npy",
+    "sha256": "592bc7c38936d6f8b1dc739d061fb9fe0986c0143251df98b49c4266329e34a3",
+    "measured_T20_extrapolated_RT60": 0.10047729852790288,
+    "tail_fraction20ms": 0.041307857761606545,
+    "truncated_480ms_last20ms_energy_fraction": 3.964148236287029e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.5617029014273667,
+      -0.7219325822026645,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      3.84255435214105,
+      1.4171011266960032,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/066.npy",
+    "sha256": "779c0645d1fb63e22be7e64ff622411f421413de14133dfec2a8cd2e17ddf919",
+    "measured_T20_extrapolated_RT60": 0.09873930119335922,
+    "tail_fraction20ms": 0.03691546532275826,
+    "truncated_480ms_last20ms_energy_fraction": 4.316101280492212e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.7313107600446103,
+      -0.6398185722289497,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      1.9030338599330845,
+      1.5402721416565754,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/067.npy",
+    "sha256": "9652c39f801b11caadbeb83a42bfdc69912fab279827743983edf187bd2ef739",
+    "measured_T20_extrapolated_RT60": 0.10251396644675785,
+    "tail_fraction20ms": 0.03503874462880155,
+    "truncated_480ms_last20ms_energy_fraction": 4.071299471909955e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.07026483760432001,
+      0.8827405777624722,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      2.89460274359352,
+      3.824110866643708,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/068.npy",
+    "sha256": "6d9e10cbe9ac94cf7e98da5b2cdc820df55f41027813a3c2f0602e14fc6c8a6b",
+    "measured_T20_extrapolated_RT60": 0.09608830356292988,
+    "tail_fraction20ms": 0.033606540824656174,
+    "truncated_480ms_last20ms_energy_fraction": 4.942928993284687e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.9714717984761936,
+      -0.2037947772194152,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      1.5427923022857097,
+      2.194307834170877,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/069.npy",
+    "sha256": "9e2989b9c17ee5cd6f1632f8639177bbe305ec6a27064092c0d6615709ac85cb",
+    "measured_T20_extrapolated_RT60": 0.10658911335397672,
+    "tail_fraction20ms": 0.038193137796164754,
+    "truncated_480ms_last20ms_energy_fraction": 5.6987704021958676e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.2630870596558649,
+      -0.9474782448493448,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      2.605369410516203,
+      1.0787826327259826,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/070.npy",
+    "sha256": "17f1ae6bde344b28c826d09c669dec9219a8bb73069937cbb652e832780a5222",
+    "measured_T20_extrapolated_RT60": 0.10134448559846343,
+    "tail_fraction20ms": 0.038288681600529284,
+    "truncated_480ms_last20ms_energy_fraction": 4.709608325697229e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.08539725263085823,
+      0.9863863001292765,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      2.8719041210537126,
+      3.979579450193915,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/071.npy",
+    "sha256": "2b1c2a57e9ab1e5f2bb6e7b7a8f0c801d0f2438082336b390083eb57cef25167",
+    "measured_T20_extrapolated_RT60": 0.10591933974097269,
+    "tail_fraction20ms": 0.041925542103816764,
+    "truncated_480ms_last20ms_energy_fraction": 5.220824844966512e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      0.19060269066698282,
+      0.922944936807867,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      3.285904036000474,
+      3.8844174052118006,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/072.npy",
+    "sha256": "c4bc76e8195a721a4221ce04e4f16d78b58c68fb9489aec0d3d60b623ef953f7",
+    "measured_T20_extrapolated_RT60": 0.105597486388611,
+    "tail_fraction20ms": 0.028992405952928898,
+    "truncated_480ms_last20ms_energy_fraction": 4.820699084922428e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.9521979767645712,
+      0.2723265025485052,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.5717030348531433,
+      2.908489753822758,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/073.npy",
+    "sha256": "ab93b87f94b383a6763329c65bf4e9e6a42efcd8d75e7e9c8d28c87e0e76300b",
+    "measured_T20_extrapolated_RT60": 0.10036420108754716,
+    "tail_fraction20ms": 0.03712876887312301,
+    "truncated_480ms_last20ms_energy_fraction": 4.687695755450027e-21
+  },
+  {
+    "requested_rt60": 0.15,
+    "source_direction": [
+      -0.19197677754039516,
+      -0.8943387051911231,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      2.7120348336894073,
+      1.1584919422133153,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/074.npy",
+    "sha256": "aaa9482fc9fed5297155fe843f9357bc9c303c7c301b914ceb00dd7318fa9942",
+    "measured_T20_extrapolated_RT60": 0.10573888243720335,
+    "tail_fraction20ms": 0.026728538036060654,
+    "truncated_480ms_last20ms_energy_fraction": 4.9683451755489276e-21
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.851355801931381,
+      -0.46837648493908446,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      4.2770337028970715,
+      1.7974352725913734,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/075.npy",
+    "sha256": "b89b69c65b3ef22d9de75da2fb1c8c9383cb609eb9e42957db85a2c8c41f0716",
+    "measured_T20_extrapolated_RT60": 0.4617275330698171,
+    "tail_fraction20ms": 0.4788531499582619,
+    "truncated_480ms_last20ms_energy_fraction": 3.938283762018517e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.8054728171634999,
+      -0.3679424083232039,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.79179077425475,
+      1.9480863875151941,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/076.npy",
+    "sha256": "79d0d07f5d6b22ff0885faeb2debbe99de7dbaf8a226ba693ac00f2851689c46",
+    "measured_T20_extrapolated_RT60": 0.46162669691042996,
+    "tail_fraction20ms": 0.47919803840051595,
+    "truncated_480ms_last20ms_energy_fraction": 3.9546926025881615e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.5237673720594653,
+      -0.8431829614160872,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      3.785651058089198,
+      1.2352255578758693,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/077.npy",
+    "sha256": "3db2cfd02d46784a70f86245f7869e8da6df44fbfec19d805c14c1736fd945b6",
+    "measured_T20_extrapolated_RT60": 0.4586928921933786,
+    "tail_fraction20ms": 0.5313386014824413,
+    "truncated_480ms_last20ms_energy_fraction": 3.7910458712299836e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.9803193888907411,
+      0.07683567651844753,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      4.470479083336111,
+      2.615253514777671,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/078.npy",
+    "sha256": "1b32845942155c187e1ca1bff0527c81209c97185c325b6b1a9babb8fd5a656d",
+    "measured_T20_extrapolated_RT60": 0.45942865382717735,
+    "tail_fraction20ms": 0.4858447399559204,
+    "truncated_480ms_last20ms_energy_fraction": 4.182856722185318e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.8976923468913711,
+      -0.4176111518772986,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.6534614796629432,
+      1.8735832721840522,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/079.npy",
+    "sha256": "d043e69f42c321cbecfe13f44e00bf039571fe1fa75bf18e76a0bd728b7547c5",
+    "measured_T20_extrapolated_RT60": 0.45641319510048906,
+    "tail_fraction20ms": 0.4904820897660776,
+    "truncated_480ms_last20ms_energy_fraction": 3.4981127777164607e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.9324745060902488,
+      -0.13655781764702396,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      1.6012882408646267,
+      2.295163273529464,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/080.npy",
+    "sha256": "a59a8c193c431f4b32a567e8c51dd0d9d5502681c2be8a8c80ee6ffbc1596992",
+    "measured_T20_extrapolated_RT60": 0.46118987969943953,
+    "tail_fraction20ms": 0.4780874190217,
+    "truncated_480ms_last20ms_energy_fraction": 3.5819711663988843e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.0697676835981651,
+      -0.9879145617259573,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      3.1046515253972475,
+      1.018128157411064,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/081.npy",
+    "sha256": "ffb6e31eda6be2854fb78f358015089c0dfc799f13c55042a09500be92809ab1",
+    "measured_T20_extrapolated_RT60": 0.45484906667552805,
+    "tail_fraction20ms": 0.5177680074672797,
+    "truncated_480ms_last20ms_energy_fraction": 3.211256729832348e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.9060634067208884,
+      0.12548269091419362,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      4.359095110081332,
+      2.6882240363712904,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/082.npy",
+    "sha256": "5052faf5e3f3d9b1c1177b8f08f901e25a85ebfc7808c90ca0ff756a94f99c52",
+    "measured_T20_extrapolated_RT60": 0.46002766124790195,
+    "tail_fraction20ms": 0.48624189478692126,
+    "truncated_480ms_last20ms_energy_fraction": 3.775661902931979e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.02005196647318397,
+      -0.971483994601391,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      3.030077949709776,
+      1.0427740080979135,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/083.npy",
+    "sha256": "4c83e26afec873c37c8a2709a6d8d49cc4db91543a3587849cd765ce50df1acc",
+    "measured_T20_extrapolated_RT60": 0.46534687284043147,
+    "tail_fraction20ms": 0.48721324690871226,
+    "truncated_480ms_last20ms_energy_fraction": 3.8841791055789346e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.7213838813192716,
+      0.5135887175598074,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      1.9179241780210927,
+      3.2703830763397113,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/084.npy",
+    "sha256": "9817d8c2f8a85987fc684ba67a3695357d5b4310e4e7dee09886c9e99502cb88",
+    "measured_T20_extrapolated_RT60": 0.4576645971640475,
+    "tail_fraction20ms": 0.4744730676264854,
+    "truncated_480ms_last20ms_energy_fraction": 3.6732195539058757e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.4683341785947928,
+      -0.8751873305849565,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      2.297498732107811,
+      1.1872190041225652,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/085.npy",
+    "sha256": "ea15b3b4a257fa894616a4285e7aabf522ae427584e843e31fca5f5ee47162cc",
+    "measured_T20_extrapolated_RT60": 0.45508435118388224,
+    "tail_fraction20ms": 0.521506669944447,
+    "truncated_480ms_last20ms_energy_fraction": 3.698651342380024e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.5567013422273097,
+      -0.8105636563425944,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      3.8350520133409645,
+      1.2841545154861085,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/086.npy",
+    "sha256": "446f539a5b57efa4e1a13cfe19dd94a3b14bd92742bcd401418606b10b7c296f",
+    "measured_T20_extrapolated_RT60": 0.45559682143557884,
+    "tail_fraction20ms": 0.5112883916022262,
+    "truncated_480ms_last20ms_energy_fraction": 3.796918082833761e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.8105080398751077,
+      0.5686188012521506,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      1.7842379401873385,
+      3.3529282018782256,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/087.npy",
+    "sha256": "eb6228f8d5a0548128eccdf47451d7fe60cc1fb2a2158078e2ea19f67d25ca25",
+    "measured_T20_extrapolated_RT60": 0.45113235888457187,
+    "tail_fraction20ms": 0.507211824102865,
+    "truncated_480ms_last20ms_energy_fraction": 3.326323184656072e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.5844997922128101,
+      0.7392677018319906,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      2.123250311680785,
+      3.608901552747986,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/088.npy",
+    "sha256": "64dc2b0ef3928db053097005dd99534330752fd3398498a82c56c433a2494486",
+    "measured_T20_extrapolated_RT60": 0.45503459976538485,
+    "tail_fraction20ms": 0.49196100206955173,
+    "truncated_480ms_last20ms_energy_fraction": 3.6784818987145677e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.8206752654241662,
+      -0.5543778672221846,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.7689871018637506,
+      1.668433199166723,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/089.npy",
+    "sha256": "a9188f6c939577f44a2eaea743eba17607983d17ffdf7a2994920baf9aa7b2da",
+    "measured_T20_extrapolated_RT60": 0.4588487142040588,
+    "tail_fraction20ms": 0.49238308335492,
+    "truncated_480ms_last20ms_energy_fraction": 3.334074394678254e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.5617029014273667,
+      -0.7219325822026645,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      3.84255435214105,
+      1.4171011266960032,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/090.npy",
+    "sha256": "5d7a691431ac8f25949a67ed42e79d9d6b1a3656294c4d568a49aba519212ebe",
+    "measured_T20_extrapolated_RT60": 0.4573120140684741,
+    "tail_fraction20ms": 0.455291890954811,
+    "truncated_480ms_last20ms_energy_fraction": 3.4703464424878397e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.7313107600446103,
+      -0.6398185722289497,
+      0.23625572347327947
+    ],
+    "source_position_m": [
+      1.9030338599330845,
+      1.5402721416565754,
+      1.754383585209919
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/091.npy",
+    "sha256": "7a81bd53fb24c2ed626b3de2469076b0b525049daf5adac7a55ec9a592768533",
+    "measured_T20_extrapolated_RT60": 0.46322526987711926,
+    "tail_fraction20ms": 0.4869800024326697,
+    "truncated_480ms_last20ms_energy_fraction": 3.782235425406306e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.07026483760432001,
+      0.8827405777624722,
+      0.46457714641167563
+    ],
+    "source_position_m": [
+      2.89460274359352,
+      3.824110866643708,
+      2.0968657196175133
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/092.npy",
+    "sha256": "7d2491b838d65925bcad95bade645fe06ce09c5e7a2805a9b4ae2fd5abf4d558",
+    "measured_T20_extrapolated_RT60": 0.465727687309115,
+    "tail_fraction20ms": 0.45415241126939365,
+    "truncated_480ms_last20ms_energy_fraction": 3.659345384682301e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.9714717984761936,
+      -0.2037947772194152,
+      0.1212857516096542
+    ],
+    "source_position_m": [
+      1.5427923022857097,
+      2.194307834170877,
+      1.5819286274144813
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/093.npy",
+    "sha256": "24afec0a35d7f5b301495a26e28ced992e314080f146d1f919e366807e1c45d1",
+    "measured_T20_extrapolated_RT60": 0.4531234563872201,
+    "tail_fraction20ms": 0.5207542667526318,
+    "truncated_480ms_last20ms_energy_fraction": 3.90508108904476e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.2630870596558649,
+      -0.9474782448493448,
+      0.18185206784316793
+    ],
+    "source_position_m": [
+      2.605369410516203,
+      1.0787826327259826,
+      1.6727781017647518
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/094.npy",
+    "sha256": "ca753bab8e60801a485709f2ff0a05314412556c71969d7f2c911a9472f69b47",
+    "measured_T20_extrapolated_RT60": 0.46098794844934227,
+    "tail_fraction20ms": 0.5006444411994453,
+    "truncated_480ms_last20ms_energy_fraction": 3.6539772670615923e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.08539725263085823,
+      0.9863863001292765,
+      0.14053247368625585
+    ],
+    "source_position_m": [
+      2.8719041210537126,
+      3.979579450193915,
+      1.6107987105293837
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/095.npy",
+    "sha256": "a9349fcbb0b6b7df303fd0c1986acde28c3cbbd9f215631b013a0ff045f13fae",
+    "measured_T20_extrapolated_RT60": 0.4544493368742285,
+    "tail_fraction20ms": 0.5227737127309954,
+    "truncated_480ms_last20ms_energy_fraction": 3.479916783705045e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      0.19060269066698282,
+      0.922944936807867,
+      0.33442975036803907
+    ],
+    "source_position_m": [
+      3.285904036000474,
+      3.8844174052118006,
+      1.9016446255520585
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/096.npy",
+    "sha256": "52ec8f582b0960addd913e8025773352d404f5c5f712d94895610afd294ac2b1",
+    "measured_T20_extrapolated_RT60": 0.4574323811348479,
+    "tail_fraction20ms": 0.48487673678488724,
+    "truncated_480ms_last20ms_energy_fraction": 3.823069331805774e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.9521979767645712,
+      0.2723265025485052,
+      0.13840985895215763
+    ],
+    "source_position_m": [
+      1.5717030348531433,
+      2.908489753822758,
+      1.6076147884282364
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/097.npy",
+    "sha256": "707fa98bf99f4900309b3e96d855799e26b1ff265dcf03542331ce5553d1d3fb",
+    "measured_T20_extrapolated_RT60": 0.4547683868251166,
+    "tail_fraction20ms": 0.48833119524377355,
+    "truncated_480ms_last20ms_energy_fraction": 3.5489389166783217e-07
+  },
+  {
+    "requested_rt60": 0.35,
+    "source_direction": [
+      -0.19197677754039516,
+      -0.8943387051911231,
+      -0.40410790301882366
+    ],
+    "source_position_m": [
+      2.7120348336894073,
+      1.1584919422133153,
+      0.7938381454717645
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g18_v1/rir/098.npy",
+    "sha256": "063962a837ab0eccb2566b9f460d9cddaf868224c057f1be2f283a7bbb0b974e",
+    "measured_T20_extrapolated_RT60": 0.46008236120226254,
+    "tail_fraction20ms": 0.46246930543072595,
+    "truncated_480ms_last20ms_energy_fraction": 3.8949587457009394e-07
+  }
+]

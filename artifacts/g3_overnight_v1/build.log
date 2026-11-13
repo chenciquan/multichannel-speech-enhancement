@@ -1,0 +1,10 @@
+{"stage": "train_pool", "examples": 256, "total": 2048}
+{"stage": "train_pool", "examples": 512, "total": 2048}
+{"stage": "train_pool", "examples": 768, "total": 2048}
+{"stage": "train_pool", "examples": 1024, "total": 2048}
+{"stage": "train_pool", "examples": 1280, "total": 2048}
+{"stage": "train_pool", "examples": 1536, "total": 2048}
+{"stage": "train_pool", "examples": 1792, "total": 2048}
+{"stage": "train_pool", "examples": 2048, "total": 2048}
+{"stage": "validation", "mixtures": 48, "sources": 12}
+{"stage": "test", "mixtures": 360, "sources": 30}

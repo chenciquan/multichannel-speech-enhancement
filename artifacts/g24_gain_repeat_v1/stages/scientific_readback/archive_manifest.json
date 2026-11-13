@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:07:47.063589+00:00",
+  "files": [
+    {
+      "source": "docs/G24_科学读回与识别电平控制决策.md",
+      "snapshot": "00_G24_科学读回与识别电平控制决策.md",
+      "sha256": "30d3fa4df4db1659c9fc17f7a25e9f5947445f5398e6a95c892d09c6bfe212fd"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/readback_counts.json",
+      "snapshot": "01_readback_counts.json",
+      "sha256": "15f2c44200aad2b2232cc743d81955baeefe6d85dafb60effe88a0674330888a"
+    },
+    {
+      "source": "scripts/g24_readback.py",
+      "snapshot": "02_g24_readback.py",
+      "sha256": "4c6a4c60c05b6399c31a894229ff25f033669b9b58956ff3d33bf5fab934654b"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "03_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "a8b41fe51107ca383e2b71e8b48003f866fb9b03332bb9266c051226d2500e90"
+    }
+  ]
+}

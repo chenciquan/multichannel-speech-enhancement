@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T08:50:49.943232+00:00",
+  "files": [
+    {
+      "source": "docs/G14C_配对几何MVDR信号报告.md",
+      "snapshot": "00_G14C_配对几何MVDR信号报告.md",
+      "sha256": "551e48b78c491665f7c6d9b5252ec119ab44963c28fb88bbd1213ddb6d211332"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/BEAM_COMPLETE.json",
+      "snapshot": "01_BEAM_COMPLETE.json",
+      "sha256": "fb065a2bc9ebf3dc4909ccf7744297348d7c352ba0736d1473343d415b670a56"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/beam_provenance.json",
+      "snapshot": "02_beam_provenance.json",
+      "sha256": "1f34535680ce02ec193910a8302db1050a45b40222bb22642fac69ac2eebec17"
+    },
+    {
+      "source": "scripts/g14_signal.py",
+      "snapshot": "03_g14_signal.py",
+      "sha256": "348205a665129e54e76458549317085981cea48ec6ee027a6bbc14d0a072f068"
+    }
+  ]
+}

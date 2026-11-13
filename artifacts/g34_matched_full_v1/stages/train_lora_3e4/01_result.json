@@ -1,0 +1,63 @@
+{
+  "utc": "2026-11-13T04:52:48.161543+00:00",
+  "status": "ok",
+  "run": {
+    "id": "lora_3e4",
+    "mode": "lora",
+    "lr": 0.0003,
+    "parameters": 3584
+  },
+  "steps": 1500,
+  "optimizer_updates": 1500,
+  "initial": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "all": "9904ccc5fa6f3a4ac1de463d94fcb9b86817445bb7c81ba74c9905f0fc6b0068",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "final_base_digest": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "final_all_digest": "62ae1bc5c5b3085659cd994d5c83bf07e8f497e612e558de50d2594a524ab342",
+  "final_saved_weight_digest": "dc17c5fe827bd4b5e6cd9178276f2dcd3766d3894a75cd281861c293b2bfab64",
+  "backend": {
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "matmul_tf32": false,
+    "global_deterministic": false,
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cudnn_version": 90100
+  },
+  "actual_indices_sha256": "e9bae9124dd68b5f85425e06182c4a6fe35a25644ce4643fadf5b781c9e6cdad",
+  "schedule_sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+  "checkpoints": [
+    {
+      "step": 500,
+      "path": "artifacts/g34_matched_full_v1/train/lora_3e4/checkpoint_00500.pt",
+      "sha256": "bb91007b1b5f79cf8f73bb9a386d492e9285200024a6ed27401b8e28502e0773"
+    },
+    {
+      "step": 1000,
+      "path": "artifacts/g34_matched_full_v1/train/lora_3e4/checkpoint_01000.pt",
+      "sha256": "2b3ec65d776fa84806e5b88f0b8e07bdeda0124367401528918b65671afd72a6"
+    },
+    {
+      "step": 1500,
+      "path": "artifacts/g34_matched_full_v1/train/lora_3e4/checkpoint_01500.pt",
+      "sha256": "11973e9402b686a91ffe88352e14786f2aee5bde8b5dfd65cdc35f0ef3f71d95"
+    }
+  ],
+  "registered": {
+    "step": 1500,
+    "path": "artifacts/g34_matched_full_v1/train/lora_3e4/checkpoint_01500.pt",
+    "sha256": "11973e9402b686a91ffe88352e14786f2aee5bde8b5dfd65cdc35f0ef3f71d95"
+  },
+  "peak_allocated_bytes": 1690848256,
+  "peak_reserved_bytes": 1767899136,
+  "GPU_total_bytes": 8585216000,
+  "warm_step_median_seconds": 0.1045155760000398,
+  "synchronized_step_seconds_sum": 197.6577172360012,
+  "elapsed_seconds": 549.261250567,
+  "no_development_or_test_audio": true,
+  "training_log_sha256": "683979e8ecd894df3df5f62905fd7f5dbba4b500212d0050733468436c35f569"
+}

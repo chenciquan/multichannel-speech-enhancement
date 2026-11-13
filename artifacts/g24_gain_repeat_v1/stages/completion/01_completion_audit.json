@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:02:57.622568+00:00",
+  "ASR": {
+    "Whisper": {
+      "observations": 1920,
+      "actual_forwards": 1920,
+      "cache_skips": 0,
+      "observation_sha256": "53493941847027847c4619b05cf824e5ec32c895ca7f53ed37532974d0c0985f"
+    },
+    "CTC": {
+      "observations": 1920,
+      "actual_forwards": 1920,
+      "cache_skips": 0,
+      "observation_sha256": "8c0bf3069ea4a48953c158ec643a0785619db4fcb037362779a55337b073ae80"
+    }
+  },
+  "repeatability": [
+    {
+      "engine": "Whisper",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    },
+    {
+      "engine": "CTC",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    }
+  ],
+  "summary_sha256": "6ea9c155d098d9de681c352d98c004164d275e7f0e01c907a12a38c21572f157",
+  "paired_observations_sha256": "3f755f7ce885cfe29e228c8d507f87550c317f17536c351549addbc447081a11"
+}

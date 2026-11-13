@@ -1,0 +1,85 @@
+{
+  "status": "registered_before_dependency_install_RIR_probes_and_room_results",
+  "entry_gate": "G11 FINAL_ACCEPTANCE_AUDIT ok and acceptance snapshot saved",
+  "question": "Do the frozen direct/MVDR and fixed/rotated tradeoffs survive simulated room reverberation? No additional training or performance-based model selection.",
+  "official_package": "rir-generator==0.3.0",
+  "package_metadata": "https://pypi.org/pypi/rir-generator/0.3.0/json",
+  "package_license": "MIT,official repository LICENSE verified",
+  "package_docs": "https://rir-generator.readthedocs.io/en/latest/module.html",
+  "package_repo": "https://github.com/audiolabs/rir-generator",
+  "wheel_filename": "rir_generator-0.3.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "wheel_url": "https://files.pythonhosted.org/packages/d9/99/08d6175e603019ab568635ec6e90f85924cc17954bfa5a9772917ff2e721/rir_generator-0.3.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "wheel_bytes": 36773,
+  "wheel_sha256": "8b595fa8de553b9b151f361851418d3fcd446aa22f1c1af9564fe78c0c115e9c",
+  "download_cap_bytes": 1048576,
+  "execution_revision": "v2:preinstall v1 failed because pip absent; archived unchanged environment at artifacts/g12_room_stress_v1/stages/failure. Use original bundled uv instead. No acoustic/metric/model setting changed.",
+  "install_policy": "Existing venv only,verified local wheel,bundled uv pip install --python existing_venv --offline --no-index --no-deps --no-build --no-python-downloads --link-mode copy. No pip/compiler/build-tool installation,no old-package changes. Compare before/after all distribution versions,uv pip check,full existing86 tests,and original/adapter waveform parity.",
+  "source_selection": "First2 complete G10 utterances per speaker with duration<=3.51s in original manifest order:8 reused utterances4 speakers. Duration bound plus0.48s full RIR tail keeps every complete input<4s; no trimming of words or tail,no new-source download. Not new independent speakers.",
+  "room_dimensions_m": [
+    6,
+    5,
+    3
+  ],
+  "reference_mic4_position_m": [
+    3,
+    2.5,
+    1.4
+  ],
+  "array_positions": "Original nominal six-mic offsets relative to microphone4,translated to room reference; same geometry across RIR conditions",
+  "source_distance_m": 1.5,
+  "sound_speed_m_s": 343,
+  "requested_RT60_seconds": [
+    0,
+    0.15,
+    0.35
+  ],
+  "RIR_samples": 7680,
+  "RIR_global_gain": "4*pi*1.5 applied identically to all RIRs/channels,calibrating nominal reference direct-path gain; no per-RIR peak normalization",
+  "RIR_settings": "Omnidirectional,3D,max reflection order(-1),hp_filter=False. RT0 via beta=zeros(6),not a zero-time Sabine call. Positive requested RT via official argument. Report Schroeder T20 extrapolation separately; requested Sabine parameter not assumed measuredRT60.",
+  "target_angles": [
+    -40,
+    20,
+    70
+  ],
+  "target_elevation": 10,
+  "noise_ids": [
+    "OOFFICE",
+    "NPARK"
+  ],
+  "noise_selection_notice": "One G5-training recording and one recording first introducedG7; resource-limited two-record stress test,not all four recordings and not new recordings. All target angles and all3 spatial fields retained.",
+  "fields": [
+    "point_relative_minus80",
+    "point_relative_plus25",
+    "multi8"
+  ],
+  "multi_noise_elevation_degrees": [
+    -30,
+    30
+  ],
+  "noise_preroll_samples": 16000,
+  "noise_convolution": "Continuous noise clip with1s preroll>=RIR length; convolve then take post-preroll segment matching entire speech convolution. Noise does not stop at end of dry speech. HPF40 before propagation and active-SNR calibration.",
+  "SNR_db": 0,
+  "reference_target": "Reverberant clean speech at mic4 for denoising-only metrics. No dry-reference dereverberation claim. Full speech convolution including tail retained. Report reference ASR separately by RIR setting.",
+  "common_scale": "One anticlip scalar across all3 target angles and all3 RIR settings per source/noise/field; shared clips/directions across paired RIR settings. Clean controls similarly share scalar across9 renderings. Reference waveform need not be identical across RT/angle because room responses differ.",
+  "expected_cases_per_system": 504,
+  "expected_noisy_cases": 432,
+  "expected_clean_cases": 72,
+  "systems": "Same G10 direct8 and estimated-mask MVDR7,all3 adapter seeds,15 systems,7560signal and eachASR pairs. No oracle primary method,no tuning with new room scores.",
+  "analysis": "Separate requested/measured RIR conditions,noise,angle,field,all seeds and4 speakers. Primary direct-to-MVDR and fixed-to-rotated effects,clean controls,target reference ASR baselines. Bootstrap only exploratory4speaker clusters. Single room,not real-room recordings or broad room generalization.",
+  "resource": "CPU RIR generation;GPU batch1 FP32 inference with each registered runtime freed and CUDA cache released between systems. Record actual peak allocated/reserved across every system,not just max-length probe. No driver/CUDA/power-plan changes.",
+  "asset_GPU_parity_tolerance": 1e-05,
+  "asset_probe": "OriginalMcNet and first rotated adapter;existing G10 first-case output parity and synthetic maximum63759-frame finite-output/capacity probe. No recognizer/model selection by probe quality.",
+  "seed": 2026111901,
+  "max_asset_seconds": 1200,
+  "max_data_seconds": 1800,
+  "max_signal_seconds": 7200,
+  "max_ASR_seconds": 7200,
+  "stage_gates": "Asset/source/license/numerical compatibility report before data; data report before direct inference; direct report before MVDR;signal report beforeWhisper;Whisper report beforeCTC joint audit. Preserve all prior evidence and failures.",
+  "novelty_claim": false,
+  "frozen_utc": "2026-11-12T08:08:03.142761+00:00",
+  "previous_archive_sha256": "6d4ce9cb1dbb08c1c8fde924e9d32c724b74021e0da5ceeb7bf810ed570a06e6",
+  "geometry_sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+  "G10_systems_sha256": "8031196852a13a7faf435c85b95ca92e51d7fe0455a45868fd1b1a1f6aef8b7b",
+  "sources_manifest_sha256": "577522cfea94fb24f31001edd0e37a22109fe8c233da6f21e3bddfd8e97a8b7c",
+  "beamforming_sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "checks": {
+    "shapes": true,
+    "noisy_reference_mic_equal": true,
+    "clean_supervision_equal": true,
+    "clean_bank_reference_equal": true
+  },
+  "array_sha256": {
+    "fixed": {
+      "train_x": "afdc3fcf62c9f71415f502712d05c547c5b65f5c116e0bdf47e03ce6278c2913",
+      "train_y": "3150b3d8573ec3f2f4f70cb0496ae64c97e2b9d67dfa32014cece57726773cd1",
+      "clean_x": "041cb4e3c8cf48bf29aa05d36c19ba8fd53b0592e941340f59e9e92277648c7e"
+    },
+    "rotated": {
+      "train_x": "dd3d83b06268263750f9cd8c398b54d51b15308de2c26772c0b20951fdbcaf48",
+      "train_y": "3150b3d8573ec3f2f4f70cb0496ae64c97e2b9d67dfa32014cece57726773cd1",
+      "clean_x": "7c94d9ea93b1ff2a7c7825520da36b6dc75b255520c1c94648c1088bfcc0c825"
+    }
+  },
+  "readback_at_utc": "2026-11-11T20:23:36.245893+00:00",
+  "role": "Read-only saved-array verification during training; not a model or confirmation-data selection step"
+}

@@ -1,0 +1,9 @@
+test_invalid_inputs (test_asr_level.LevelControlTests.test_invalid_inputs) ... ok
+test_peak_limit_and_binary_invariance (test_asr_level.LevelControlTests.test_peak_limit_and_binary_invariance) ... ok
+test_rms_target_and_exact_binary_invariance (test_asr_level.LevelControlTests.test_rms_target_and_exact_binary_invariance) ... ok
+test_silence_stays_silence (test_asr_level.LevelControlTests.test_silence_stays_silence) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T07:27:25.884257+00:00",
+  "files": [
+    {
+      "source": "docs/G10_辅助试听入口说明.md",
+      "snapshot": "00_G10_辅助试听入口说明.md",
+      "sha256": "8694b9130bbc46b24d43d212dad84a4ecd974390dffb657e7b27240c7f4942a6"
+    },
+    {
+      "source": "configs/g10_review_plan.json",
+      "snapshot": "01_g10_review_plan.json",
+      "sha256": "ccf187c5651a5c9735a41dfe130a35ea02181440bb429c967aec372e84dc930b"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/review/selection.json",
+      "snapshot": "02_selection.json",
+      "sha256": "b021e5c5a5070b6b2657e87a8fb064ae192baef067191106098b1d5af05208dc"
+    },
+    {
+      "source": "scripts/g10_review.py",
+      "snapshot": "03_g10_review.py",
+      "sha256": "9c2288a7a5f19928d940b44726a3fc9c52f1159d75bceb01e9525ef9c94355a9"
+    }
+  ]
+}

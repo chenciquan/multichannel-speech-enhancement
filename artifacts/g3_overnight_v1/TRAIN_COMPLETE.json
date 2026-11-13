@@ -1,0 +1,6 @@
+{
+  "status": "ok",
+  "runs": 8,
+  "steps": 24000,
+  "selection_manifest": "selected_checkpoints.json"
+}

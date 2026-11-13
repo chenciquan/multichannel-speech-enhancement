@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:46:41.515248+00:00",
+  "training_runs": 3,
+  "optimizer_updates": 4500,
+  "seed": 20261113,
+  "registration_step": 1500,
+  "same_initial_parameters": true,
+  "same_sample_indices": true,
+  "base_unchanged": true,
+  "coefficients_recomputed": true,
+  "all_checkpoint_optimizer_step_counts_verified": true,
+  "matched_RNG_at_checkpoints": true,
+  "development_or_test_scored": false,
+  "stages": {
+    "calibration": "1a66440e4306cbb3eacfeba2e9f9d70617e0ae14c4800e9a523223d77f6b4e06",
+    "protocol": "102aaff36fab14869946731effcbfdbbc6776b8491863fa833de4439eba0d221",
+    "train_cirm": "998ccfb2e54468ba87c531b1461d40c57514458fc8de5bc3b4514ddf58cbfcaf",
+    "train_cirm_mask": "1f317a480b1978c34b0ae0070b3e9aae6697aba7eb29f0eb8214ab886a0addfa",
+    "train_cirm_shape": "3a02f67c8a89f6b0815d454e2294402ce92f58840d8c034c3a0b17e11f779ccb"
+  },
+  "registry_sha256": "deff1e31c5495693629f3fec5290b22d1f142767caae067e69fc97adc3a84ca6",
+  "training_complete_sha256": "3f258ad68595db9dfa0f0f3a256faa9c7d70de3c035063a3f64565c2a6aa478d"
+}

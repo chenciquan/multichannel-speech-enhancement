@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:23:19.352379+00:00",
+  "files": [
+    {
+      "source": "docs/G26A_完整房间统一电平辅评分协议.md",
+      "snapshot": "00_G26A_完整房间统一电平辅评分协议.md",
+      "sha256": "e7f9d1fb4f7bf01fff2a2b2bd42d963dade188aeba2bb3f9a1bd9000bb55737b"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "41440d157da6494000f692be2e538fbf4e1ba63c7db7e085607961369c5dfe10"
+    },
+    {
+      "source": "scripts/g26_prepare.py",
+      "snapshot": "02_g26_prepare.py",
+      "sha256": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "03_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "ec1d25706100d082590a50509e7282913ca89c2f085e961509415b976abd65c2"
+    }
+  ]
+}

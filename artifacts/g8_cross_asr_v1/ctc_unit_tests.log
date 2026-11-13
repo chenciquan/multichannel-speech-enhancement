@@ -1,0 +1,16 @@
+test_boundary_apostrophe_and_repeats (test_ctc.GreedyCTCTest.test_boundary_apostrophe_and_repeats) ... ok
+test_collapse_before_removing_blank (test_ctc.GreedyCTCTest.test_collapse_before_removing_blank) ... ok
+test_empty_and_blank_only (test_ctc.GreedyCTCTest.test_empty_and_blank_only) ... ok
+test_invalid_indices_rejected (test_ctc.GreedyCTCTest.test_invalid_indices_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
+test_micro_not_mean_sentence_wer (test_g8_analysis.PairedWERTest.test_micro_not_mean_sentence_wer) ... ok
+test_missing_pair_rejected (test_g8_analysis.PairedWERTest.test_missing_pair_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+OK

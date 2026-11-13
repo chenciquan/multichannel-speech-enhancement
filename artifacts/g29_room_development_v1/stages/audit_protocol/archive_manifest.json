@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:37:45.235622+00:00",
+  "files": [
+    {
+      "source": "docs/G29D_完整输入与标签重放验收协议.md",
+      "snapshot": "00_G29D_完整输入与标签重放验收协议.md",
+      "sha256": "9bc2f21092ec9eb1f61fd1d59268fbe319cc85c2ecda1aa5e5819456c8903298"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/audit_frozen_plan.json",
+      "snapshot": "01_audit_frozen_plan.json",
+      "sha256": "5ebf8b7a54455b0bd23adf9fd4ec4966d3c7401f02f43c126d7551691efacd22"
+    },
+    {
+      "source": "scripts/g29_accept.py",
+      "snapshot": "02_g29_accept.py",
+      "sha256": "d503ed7febcdbd47aeba5191d1d246c6b6e702aff88417cbc6bb171c023f4abb"
+    }
+  ]
+}

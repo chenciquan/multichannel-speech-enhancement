@@ -1,0 +1,66 @@
+{
+  "repeatability": [
+    {
+      "engine": "Whisper",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    },
+    {
+      "engine": "CTC",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    }
+  ],
+  "gain_counts": [
+    {
+      "engine": "Whisper",
+      "observation": "half",
+      "pairs": 480,
+      "normalized_changes": 93,
+      "S_delta": 13,
+      "D_delta": -4,
+      "I_delta": 6,
+      "errors_delta": 15,
+      "N": 3000
+    },
+    {
+      "engine": "Whisper",
+      "observation": "quarter",
+      "pairs": 480,
+      "normalized_changes": 156,
+      "S_delta": 27,
+      "D_delta": -6,
+      "I_delta": 2,
+      "errors_delta": 23,
+      "N": 3000
+    },
+    {
+      "engine": "CTC",
+      "observation": "half",
+      "pairs": 480,
+      "normalized_changes": 233,
+      "S_delta": 42,
+      "D_delta": 6,
+      "I_delta": 2,
+      "errors_delta": 50,
+      "N": 3000
+    },
+    {
+      "engine": "CTC",
+      "observation": "quarter",
+      "pairs": 480,
+      "normalized_changes": 275,
+      "S_delta": 47,
+      "D_delta": 26,
+      "I_delta": -4,
+      "errors_delta": 69,
+      "N": 3000
+    }
+  ]
+}

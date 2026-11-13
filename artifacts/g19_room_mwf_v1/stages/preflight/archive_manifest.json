@@ -1,0 +1,45 @@
+{
+  "saved_utc": "2026-11-12T13:02:10.564409+00:00",
+  "files": [
+    {
+      "source": "docs/G19A_多通道Wiener对照协议与验证.md",
+      "snapshot": "00_G19A_多通道Wiener对照协议与验证.md",
+      "sha256": "a4fc080dc574003959371677e17350e07f53ed48b3e40ca689a6d31d0976c2aa"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/preflight.json",
+      "snapshot": "01_preflight.json",
+      "sha256": "ac1f44de2b29fefd5eefcc3dad61d04e179f2f5b8cc3ee1b991791e51a0672ae"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/frozen_plan.json",
+      "snapshot": "02_frozen_plan.json",
+      "sha256": "3f6d1d9c6923e6530d0b3b828cbb90ffc252532659586d163513a92651f96011"
+    },
+    {
+      "source": "artifacts/wiener_preflight_unit_v1.log",
+      "snapshot": "03_wiener_preflight_unit_v1.log",
+      "sha256": "58a75eca2193c5bd2395fb570b5c216694c626d6976ae15d7f4e896e708da307"
+    },
+    {
+      "source": "configs/g19_mwf_plan.json",
+      "snapshot": "04_g19_mwf_plan.json",
+      "sha256": "de2cde7dca28db6cb2dc8befd4ffefb37c385397a7729d43c1cbf2c89cb33308"
+    },
+    {
+      "source": "src/mcse/wiener.py",
+      "snapshot": "05_wiener.py",
+      "sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752"
+    },
+    {
+      "source": "tests/test_wiener.py",
+      "snapshot": "06_test_wiener.py",
+      "sha256": "fac34d2b120e0e6b54f15c2a2b0714be4e94ef6b3d3841dc22867c092c85c934"
+    },
+    {
+      "source": "scripts/g19_prepare.py",
+      "snapshot": "07_g19_prepare.py",
+      "sha256": "b25cf2eaead534f5d4b28b90e1bbc3549f8f3b5757e90cf40f0af78c9271d8c3"
+    }
+  ]
+}

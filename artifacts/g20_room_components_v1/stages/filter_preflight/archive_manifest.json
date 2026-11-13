@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T17:51:44.651321+00:00",
+  "files": [
+    {
+      "source": "docs/G20B_滤波分量预检报告.md",
+      "snapshot": "00_G20B_滤波分量预检报告.md",
+      "sha256": "f2dfde90d3d0863d1c362e77b7892785cff717ef2230175f7818fa9cee9d48a3"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/preflight.json",
+      "snapshot": "01_preflight.json",
+      "sha256": "ecc6ec51e28dd667309e246849c53f9eae01a936d0684be39f386a308829c76d"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/frozen_plan.json",
+      "snapshot": "02_frozen_plan.json",
+      "sha256": "e9187588fa07f62b9c82bd1d5a9c563e7a759facbf8c7b59d6f8dbe9e4774cfd"
+    }
+  ]
+}

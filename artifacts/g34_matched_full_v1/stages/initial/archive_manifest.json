@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T02:37:01.323338+00:00",
+  "files": [
+    {
+      "source": "docs/G34A_训练前六条波形接口核查.md",
+      "snapshot": "00_G34A_训练前六条波形接口核查.md",
+      "sha256": "860d3bf2ece6fdd329c2108b7c34e5c05fa6b440a8b573ccd36d12bc3808173f"
+    },
+    {
+      "source": "artifacts/g34_matched_full_v1/INITIAL_COMPLETE.json",
+      "snapshot": "01_INITIAL_COMPLETE.json",
+      "sha256": "b70dad93c137688b69cb7590372d4da454084df9052c65387cbd08b00dc4ddc1"
+    },
+    {
+      "source": "artifacts/g34_matched_full_v1/initial_records.json",
+      "snapshot": "02_initial_records.json",
+      "sha256": "9b0b07d42ee3f899a32b1abfaff98e2c38037a4dad39f0e5ebd8cd72be8820cf"
+    }
+  ]
+}

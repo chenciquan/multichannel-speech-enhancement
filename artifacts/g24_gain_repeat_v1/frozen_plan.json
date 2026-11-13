@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-11-12T19:54:04.984132+00:00",
+  "base_pairs": 480,
+  "cases": 48,
+  "wave_gains": [
+    1.0,
+    0.5,
+    0.25
+  ],
+  "observation_order": [
+    "original_first",
+    "half",
+    "quarter",
+    "original_second"
+  ],
+  "expected_observations_each_ASR": 1920,
+  "new_waveforms": 960,
+  "fresh_decode_every_observation": true,
+  "preserve_historical_cache": true,
+  "exact_inverse_expected": true,
+  "selection": "Exactly all G23 zero-dB bases; no new score-based sample selection",
+  "limits": "Exploratory ASR reproducibility/amplitude control, no training, enhancement, best-gain optimization or human-label claims",
+  "hashes": {
+    "scripts/g24_prepare.py": "b6e51bdc8ca6d7de2e6850e34e96332b2d228b267fef9fe1c18e1cc2933af633",
+    "artifacts/g23_gain_controls_v1/manifest.jsonl": "db142a1cb671edddbeb87a9f521428bb6c73d8c312615777720eb152ec29c31b",
+    "artifacts/g23_gain_controls_v1/FINAL_ACCEPTANCE_AUDIT.json": "3eb722b302ef09d1098597867adb61ccce7e7b9026d9dca205200dae34842b18"
+  }
+}

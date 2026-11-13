@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T08:51:20.704967+00:00",
+  "files": [
+    {
+      "source": "docs/技术路线_几何审计后修订摘要.md",
+      "snapshot": "00_技术路线_几何审计后修订摘要.md",
+      "sha256": "0471eb96ae4431348932ebdcc4131b2996c263bb938c8400aa65f65a0362c759"
+    },
+    {
+      "source": "README.md",
+      "snapshot": "01_README.md",
+      "sha256": "5a09fd9fb29ef859daa6b2591f580a64a62836f5c3cf9fa7bc33f610e1e4002f"
+    },
+    {
+      "source": "docs/持续研究_第二轮阶段总览.md",
+      "snapshot": "02_持续研究_第二轮阶段总览.md",
+      "sha256": "611aa568f6e04892cfa029f04876260d8f02e5396b6996d67c63a86d8220a14c"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "saved_at_utc": "2026-11-11T19:39:12.610455+00:00",
+  "files": [
+    {
+      "source": "docs/G4B_冻结模型信号评估报告.md",
+      "snapshot": "00_G4B_冻结模型信号评估报告.md",
+      "sha256": "8fa719ca91b15231c3ae322b82b3febb5026921ccf96cdba129ed8d48144e3d5"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "02f3311d8e1bb7b5f1e4ab75b68ad158fffd63af22df1c3fbee0df2c6c538ea5"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "17e033d559a028103889bb49778b5bcd91ddfb7b70099990f8433b94d3d6e3e3"
+    },
+    {
+      "source": "scripts/g4_run.py",
+      "snapshot": "03_g4_run.py",
+      "sha256": "7a5b4e24accec589524e64b81e26491fa89b10d028f166277b75d8181c5aae21"
+    }
+  ]
+}

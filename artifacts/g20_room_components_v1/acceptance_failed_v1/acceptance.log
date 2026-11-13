@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g20_accept.py", line 67, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g20_accept.py", line 31, in main
+    for r in read(folder/'preflight.json'):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g8_common.py", line 22, in read
+    def read(p): return [json.loads(s) for s in Path(p).read_text().splitlines() if s.strip()]
+                         ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)

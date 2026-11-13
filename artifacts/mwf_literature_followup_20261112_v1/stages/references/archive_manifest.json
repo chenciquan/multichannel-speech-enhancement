@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T10:38:34.315484+00:00",
+  "files": [
+    {
+      "source": "docs/研究补查_失真加权Wiener成熟对照_20261112.md",
+      "snapshot": "00_研究补查_失真加权Wiener成熟对照_20261112.md",
+      "sha256": "071367e3f9b3d322bdaffa49907bcaad90f3cdfcbf09e546594ba58d122d4e57"
+    },
+    {
+      "source": "artifacts/mwf_literature_followup_20261112_v1/verification.json",
+      "snapshot": "01_verification.json",
+      "sha256": "47377bf942983558601efdfd8e66e0ee904e4e25c1e2d444be1b41b5bafc3c33"
+    },
+    {
+      "source": "artifacts/mwf_literature_followup_20261112_v1/installed_psd_source.txt",
+      "snapshot": "02_installed_psd_source.txt",
+      "sha256": "546d403c87c0607aa4ff1a085aac76ce4fba6351537e7d44098c84d7909c7809"
+    },
+    {
+      "source": "scripts/mwf_literature_record.py",
+      "snapshot": "03_mwf_literature_record.py",
+      "sha256": "18d86f51930f066a8a6e28ebf8415761f87c145a56d9fadf8a426690e1ccab6e"
+    }
+  ]
+}

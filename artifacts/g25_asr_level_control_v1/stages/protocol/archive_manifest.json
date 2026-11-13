@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T20:09:26.721934+00:00",
+  "files": [
+    {
+      "source": "docs/G25A_识别输入电平控制协议.md",
+      "snapshot": "00_G25A_识别输入电平控制协议.md",
+      "sha256": "6ab695d1f1b97a7bc094770e2a66961b9ac07b1983bf0487cc2472711d5745f4"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "676a768932e8b65c704494c4743f7630a398a37caf3fb8bfce75e919ea4eb4c9"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/normalization_unit_tests.log",
+      "snapshot": "02_normalization_unit_tests.log",
+      "sha256": "7456230ed1b6b582ea5d12da26fd4ff56d9c5df916646e7d8a9f238596316c27"
+    },
+    {
+      "source": "src/mcse/asr_level.py",
+      "snapshot": "03_asr_level.py",
+      "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+    },
+    {
+      "source": "tests/test_asr_level.py",
+      "snapshot": "04_test_asr_level.py",
+      "sha256": "44716189ef338d9c629bac20ba9ad41ca9f21061c1d1480930526eb1cd093575"
+    }
+  ]
+}

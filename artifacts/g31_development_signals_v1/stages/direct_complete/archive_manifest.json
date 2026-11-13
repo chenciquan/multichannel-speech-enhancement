@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:48:26.426013+00:00",
+  "files": [
+    {
+      "source": "docs/G31B_完整开发直接输出覆盖.md",
+      "snapshot": "00_G31B_完整开发直接输出覆盖.md",
+      "sha256": "90436760828550cd81f90e0ca4ffe90faf3fb8d9e97e807518026f4c8919211b"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/direct_signals.jsonl",
+      "snapshot": "01_direct_signals.jsonl",
+      "sha256": "cd66b63f293c9a789ccadfc9fb6347bac93f67049dc5cf19cef15c967eacae11"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/cases.json",
+      "snapshot": "02_cases.json",
+      "sha256": "ffe89120cbcc4a614672f7742396ce5989f213ee85b749b9413cb10c74b14bb9"
+    }
+  ]
+}

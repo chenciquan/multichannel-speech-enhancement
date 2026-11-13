@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:38:15.204854+00:00",
+  "summary": {
+    "train": {
+      "rows": 576,
+      "exact_input_replays": 576,
+      "exact_target_replays": 576,
+      "speaker_counts": {
+        "2035": 144,
+        "2086": 144,
+        "2277": 144,
+        "7976": 144
+      },
+      "field_counts": {
+        "point": 288,
+        "multi8": 288
+      },
+      "max_recomputed_activity_SNR_error_db": 3.539690496268122e-08,
+      "unique_sources": 191
+    },
+    "validation": {
+      "rows": 108,
+      "exact_input_replays": 108,
+      "exact_target_replays": 108,
+      "speaker_counts": {
+        "1988": 54,
+        "777": 54
+      },
+      "field_counts": {
+        "point": 36,
+        "multi8": 36,
+        "clean": 36
+      },
+      "max_recomputed_activity_SNR_error_db": 2.7780512112940414e-08,
+      "unique_sources": 12
+    }
+  },
+  "RIRs_verified": 264,
+  "full_replays": 684,
+  "frozen_audit_sha256": "5ebf8b7a54455b0bd23adf9fd4ec4966d3c7401f02f43c126d7551691efacd22",
+  "data_complete_sha256": "e7acbe4d3d0d10eece6ac230a2f7b8024bfa10d6bb559ba6d56a909ea93a38cb",
+  "training_or_ASR_performed": false,
+  "elapsed_seconds": 27.734238677000008,
+  "stages": {
+    "audit_protocol": "1fab07424b85221613ede6881a0f06ea27669ecf19ab21544e9dc450f8fe4ea9",
+    "data_complete": "0c0828375b74e0ea19d9a879403570e4c531869f7da90c0463464e930d91adb1",
+    "physical_complete": "57d6b18a138d9251c01a9431da7f6bf6e97e3b58463431a9cc8a6e96a590251d",
+    "physical_preflight": "8c83b77373448cf533dbc1c84ed31ee40b086886ef18d03600087a7d5f8f0d4f",
+    "protocol": "13b4f8148d51b0ca62b7bc5ac1025d9fb0dc3d3f60134ce7545c7eea28df3717"
+  },
+  "numerical_acceptance_sha256": "776d878892525fe7594ea1a2c73ab2cab9439fc03797e5cf2075c918302080aa",
+  "data_and_audit_power_released": true,
+  "code_sha256": "d503ed7febcdbd47aeba5191d1d246c6b6e702aff88417cbc6bb171c023f4abb"
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:19:13.177930+00:00",
+  "files": [
+    {
+      "source": "docs/G25_Whisper规范化独立识别覆盖.md",
+      "snapshot": "00_G25_Whisper规范化独立识别覆盖.md",
+      "sha256": "f7ffab8cb1d01aed9aea37775df53bee6cc3bd8300feead86789e8269314a175"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "604d6e73c97ffbf32c4413f0747132a54f7fff6e7fe2fc9dc77fb16b7f0ff93c"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "c30fcc9b7b69a4d701316b89f667bb9cf8a298ebaae6c7fe61d2017bfd48907f"
+    },
+    {
+      "source": "scripts/g25_asr.py",
+      "snapshot": "03_g25_asr.py",
+      "sha256": "086eeafcc4b790befcd6846827d15868a8fe1a9ba6c1f892141eb445e55adc7c"
+    }
+  ]
+}

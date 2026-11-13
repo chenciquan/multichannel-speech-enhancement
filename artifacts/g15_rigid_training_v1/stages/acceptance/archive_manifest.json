@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:22:05.933657+00:00",
+  "files": [
+    {
+      "source": "docs/G15_训练阶段验收与后续评估边界.md",
+      "snapshot": "00_G15_训练阶段验收与后续评估边界.md",
+      "sha256": "e116de987682a748b3249a4605f9e5e7d8353e46b91c315d83184b6f5d7781dd"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "1180f7ae6f84bf7299a8aab2ec158cd716ff3e6d0ab478bc01dccf09d1533b4b"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+      "snapshot": "02_registered_checkpoints.json",
+      "sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f"
+    },
+    {
+      "source": "scripts/g15_accept.py",
+      "snapshot": "03_g15_accept.py",
+      "sha256": "e453d99cc4aec4364d39fe2cc8f504f363956a443253ce215e0e290d72af311c"
+    }
+  ]
+}

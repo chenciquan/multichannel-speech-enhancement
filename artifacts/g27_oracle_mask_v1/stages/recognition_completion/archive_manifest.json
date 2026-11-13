@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:05:21.489326+00:00",
+  "files": [
+    {
+      "source": "docs/G27_真值功率比掩码信号与识别综合报告.md",
+      "snapshot": "00_G27_真值功率比掩码信号与识别综合报告.md",
+      "sha256": "429c2e7bc9a70b2cbb7bfbab1c618afa69d78ecfa30941b792e349e074502109"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/ASR_COMPLETE.json",
+      "snapshot": "01_ASR_COMPLETE.json",
+      "sha256": "b402f0db1b83ea5f55a94ffdea65c6acc4a255d74562abf2ad488164db70ae61"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "e472a34ea820c7a9aa17d8b2e72cfb492c264bdf372a939f8970f45245adbb37"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "4ea0223df172e064a362d2f139ed8d8fdd07a2908cf95694328f3bb2ea3ee3db"
+    },
+    {
+      "source": "scripts/g27_asr_finish.py",
+      "snapshot": "04_g27_asr_finish.py",
+      "sha256": "c489c43c5f30780ba7b602086cfe60d236de0ea98938d1d004f954084ddda96a"
+    }
+  ]
+}

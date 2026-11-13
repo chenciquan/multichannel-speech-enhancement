@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:24:03.249358+00:00",
+  "files": [
+    {
+      "source": "docs/G29A_房间物理预检与角色隔离.md",
+      "snapshot": "00_G29A_房间物理预检与角色隔离.md",
+      "sha256": "fc06d364781cb6991980986a9c2fefbba7a812edad65403e7e4ceeec44bec5b7"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/source_role_audit.json",
+      "snapshot": "01_source_role_audit.json",
+      "sha256": "da0fe930a97d1cb4070278a84d3370f5d204c65cf4e89a8daeb7e6aff2095e7f"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/RIR_preflight.json",
+      "snapshot": "02_RIR_preflight.json",
+      "sha256": "63490204e5eeabe1a844a6caa936fa5a2107220b1310fc95d7f92dc6f92b2819"
+    }
+  ]
+}

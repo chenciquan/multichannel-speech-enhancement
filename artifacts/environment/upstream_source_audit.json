@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "expected_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+  "source_files": {
+    "src/__init__.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "src/model/__init__.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "src/util/__init__.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "src/model/mc_net.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/mc_net.py",
+      "bytes": 33438,
+      "sha256": "3fd0ca8a9b7473869b17551fffb837a5cb5efd5ee424aae954dff07fd1389ed6",
+      "git_blob_sha1": "4e7e87dc03b598ef01b993f49af5f3fb50ec6fd2"
+    },
+    "src/util/acoustic_utils.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/acoustic_utils.py",
+      "bytes": 10797,
+      "sha256": "e59bfaa28113b215f91729fe9efba43dc573f35272fe68f360914ef787baa25b",
+      "git_blob_sha1": "6735bd941cbefb22165f4ad50a44a62f1ee2e6ae"
+    },
+    "src/util/cal_metrics.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/cal_metrics.py",
+      "bytes": 3123,
+      "sha256": "3cd0f09cbba6f43dc822528824e84ed01995084038ab4d681efd95de64afa18f",
+      "git_blob_sha1": "e17e276f7b8a249cb4d419097f26e8c7dcf6901d"
+    },
+    "src/util/git_tools.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/git_tools.py",
+      "bytes": 800,
+      "sha256": "6db5a0c6b67436d3e119f8474291b538c44b43f8a0ae0f433f6121eed17562a4",
+      "git_blob_sha1": "ec168f73e48add63a164a137f5d1c54b24195c44"
+    },
+    "src/util/my_json_encoder.py": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/my_json_encoder.py",
+      "bytes": 513,
+      "sha256": "5829889b0ca25bd4fe307617523ac6b936bec00b1e7e001ab6e65e872046019a",
+      "git_blob_sha1": "a12096ffc08aebc230a0682f3b73cf01b726ef1f"
+    },
+    "config/mc_net_offline.yaml": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/config/mc_net_offline.yaml",
+      "bytes": 3546,
+      "sha256": "184e4a02ec5e0e163fe6928e2c5eb5702b3d611a34adf5ab4d2a6679a5885618",
+      "git_blob_sha1": "cb197b8155cf5327b01ba9ba4ab6a83ebbbef3f5"
+    }
+  },
+  "mismatches": [],
+  "checkpoint_loaded": false,
+  "training_performed": false
+}

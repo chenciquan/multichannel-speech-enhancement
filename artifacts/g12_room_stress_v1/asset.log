@@ -1,0 +1,11 @@
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/bin/python: No module named pip
+Traceback (most recent call last):
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_asset.py", line 100, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_asset.py", line 21, in main
+    with (assets/'freeze_before.txt').open('x') as f:subprocess.run([sys.executable,'-m','pip','freeze','--all'],stdout=f,check=True,timeout=60)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/bin/python', '-m', 'pip', 'freeze', '--all']' returned non-zero exit status 1.

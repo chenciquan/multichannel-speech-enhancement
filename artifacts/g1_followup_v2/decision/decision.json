@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-11-11T22:21:22.589101+08:00",
+  "status": "complete_for_followup_decision",
+  "discovery_cases": 48,
+  "asr_candidates": 7,
+  "user_feedback_cases": 7,
+  "user_reported_obvious_regression_cases": 0,
+  "whole_discovery_set_listened": false,
+  "formal_word_time_annotations": 0,
+  "stable_acoustic_deletion_supported": false,
+  "absence_of_all_possible_deletions_proven": false,
+  "method_design_gate": "not_passed",
+  "start_recovery_module": false,
+  "new_utterance_confirmation_run": false,
+  "confirmation_skip_reason": "No supported operational acoustic failure to confirm; do not manufacture a failure-confirmation batch",
+  "verified_facts": [
+    "Original decoder agrees with adapter on 52 probes",
+    "13 stored outputs repeat exactly",
+    "No best global input-output lag in ±16ms for48 cases",
+    "Input/output high correlation and weak noise-projection attenuation",
+    "Seven ASR candidates have no obvious user-reported listening regression"
+  ],
+  "possible_cause": "Synthetic single-direction mono-noise rendering differs from original recorded multichannel noise; causal contribution not isolated",
+  "unknowns": [
+    "Exact cause of weak suppression",
+    "Robustness in recorded spatial noise",
+    "Phoneme-level and blinded human intelligibility",
+    "Unseen-utterance generalization"
+  ],
+  "next_recommended_stage": "pre-register a small noise-spatial-condition diagnostic before selecting any method; no training yet",
+  "evidence_sha256": {
+    "probe_summary": "cabcd9b73bd3aead8d13680bbb3322f9c58d7827eccb8b55ce77374b092f3fbb",
+    "probes": "7011704cfad4d63e42b2c46d0ae858672bf11c3760fe1c6b161878f5d56acc6a",
+    "signal_analysis": "acdf013ec4f32a1268d7098bbaeff734acfea94271edbf2c97482fd467e868f5",
+    "feedback": "f240ab288f62811e639840e4f4edf2f917012f06ce973a8db93adc2bfa8f39a8"
+  },
+  "training_performed": false,
+  "upstream_model_modified": false
+}

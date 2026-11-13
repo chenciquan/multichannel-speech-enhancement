@@ -1,0 +1,9 @@
+{"stage": "paired_train_build", "completed": 256, "total": 2048}
+{"stage": "paired_train_build", "completed": 512, "total": 2048}
+{"stage": "paired_train_build", "completed": 768, "total": 2048}
+{"stage": "paired_train_build", "completed": 1024, "total": 2048}
+{"stage": "paired_train_build", "completed": 1280, "total": 2048}
+{"stage": "paired_train_build", "completed": 1536, "total": 2048}
+{"stage": "paired_train_build", "completed": 1792, "total": 2048}
+{"stage": "paired_train_build", "completed": 2048, "total": 2048}
+G5 preparation complete

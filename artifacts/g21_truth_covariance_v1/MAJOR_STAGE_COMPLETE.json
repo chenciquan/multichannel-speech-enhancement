@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "stage": "G21",
+  "utc": "2026-11-12T18:20:33.589912+00:00",
+  "report": "docs/G21_真值统计与识别保真综合报告.md",
+  "report_sha256": "ac7ebe7a66b1bf4f0b487dbf6fd157343cc6a9b470b3b42805725e6fab23523a",
+  "archive_sha256": "882317ff2b76058ca198b6facc0a138b71e85274f5c98c4e899f0c0dae36ca58"
+}

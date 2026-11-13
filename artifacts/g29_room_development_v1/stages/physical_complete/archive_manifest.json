@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:36:07.834665+00:00",
+  "files": [
+    {
+      "source": "docs/G29B_完整RIR与无反射控制.md",
+      "snapshot": "00_G29B_完整RIR与无反射控制.md",
+      "sha256": "b4949511d8fa8b97a800ad54372e9c699ae66d75b87d15b3deeab85753c565f7"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/RIR_manifest.json",
+      "snapshot": "01_RIR_manifest.json",
+      "sha256": "a796098d3f5da659d56962494aecba47a49f001ff54c0b8767c96cb2613fb2c2"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/RT0_RIR_room_controls.json",
+      "snapshot": "02_RT0_RIR_room_controls.json",
+      "sha256": "5292aae7b3a6ae1030e13d4e5c6a6bcaf3a51564b0713cb45c05202b519c5118"
+    }
+  ]
+}

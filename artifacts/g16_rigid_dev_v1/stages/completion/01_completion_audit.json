@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "checks": {
+    "all3528_unique_pairs_each_backend": true,
+    "all_metrics_ok": true,
+    "all2520_baseline_records_unchanged": true,
+    "all_new_models_registered_step3000": true,
+    "both_ASR_scores_recompute": true,
+    "frozen_beamforming_unchanged": true,
+    "all_audio_hashes_match": true,
+    "all_MVDR_mask_sources_match_neural_outputs": true,
+    "preparation_before_signal": true,
+    "signal_before_beamforming": true,
+    "beamforming_before_Whisper": true,
+    "whisper_before_CTC": true,
+    "original_base_unchanged": true
+  },
+  "coverage": {
+    "systems": 21,
+    "conditions_per_system": 168,
+    "combined_rows_each_backend": 3528,
+    "new_outputs": 1008,
+    "reused_baseline_rows": 2520,
+    "reused_sources": 8,
+    "speakers": 4
+  },
+  "completed_utc": "2026-11-12T09:35:46.890846+00:00"
+}

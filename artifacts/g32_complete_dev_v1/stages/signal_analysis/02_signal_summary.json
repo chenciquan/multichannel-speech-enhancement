@@ -1,0 +1,4809 @@
+{
+  "overall": [
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -4.570289877397914,
+      "pesq_wb": 1.0727809419234593,
+      "stoi": 0.620819465079342
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999982,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -4.107951868009089,
+      "pesq_wb": 1.0896773984034855,
+      "stoi": 0.6257629512551893
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 20.287829952314357,
+      "pesq_wb": 3.9556246399879456,
+      "stoi": 0.9733580343765658,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9637960255365088,
+        "reference_normalized_squared_error": 0.016840807301386727
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.8115270541726801,
+      "pesq_wb": 1.2057249198357265,
+      "stoi": 0.6572543244697157
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 17.80023881939933,
+      "pesq_wb": 3.094662974278132,
+      "stoi": 0.94976811369849,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8918070239255274,
+        "reference_normalized_squared_error": 0.03034900780037
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.3664304938860859,
+      "pesq_wb": 1.209383025765419,
+      "stoi": 0.6626745902760656
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 17.40040178191342,
+      "pesq_wb": 3.08433735370636,
+      "stoi": 0.9476949351195819,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8798763251918699,
+        "reference_normalized_squared_error": 0.0361959130161325
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.8525917612075222,
+      "pesq_wb": 1.1990890502929688,
+      "stoi": 0.6577198490782362
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 18.260703252241942,
+      "pesq_wb": 3.1083116928736367,
+      "stoi": 0.950211487912544,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9012146663895636,
+        "reference_normalized_squared_error": 0.027035364917099892
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -2.9991556735603546,
+      "pesq_wb": 1.1301013082265854,
+      "stoi": 0.6564340213508876
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -3.9784055728251118,
+      "pesq_wb": 1.101525788505872,
+      "stoi": 0.6422608985864184
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 11.415508068876436,
+      "pesq_wb": 3.9111688137054443,
+      "stoi": 0.9660237001179834,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6276380704949268,
+        "reference_normalized_squared_error": 0.1943583116517041
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 32.154065454151294,
+      "pesq_wb": 4.519377589225769,
+      "stoi": 0.9930961875977337,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9799407295008393,
+        "reference_normalized_squared_error": 0.009434228807684663
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.9413075056748313,
+      "pesq_wb": 1.2708957940340042,
+      "stoi": 0.700370697560543
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": 0.058723816952940065,
+      "pesq_wb": 1.4396489808956783,
+      "stoi": 0.6899697254862275
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 11.28651706541899,
+      "pesq_wb": 4.005736966927846,
+      "stoi": 0.9673527236838139,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5767556146045213,
+        "reference_normalized_squared_error": 0.2317884212903034
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 25.55028859814035,
+      "pesq_wb": 4.49618395169576,
+      "stoi": 0.9944644490049183,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9579638032496893,
+        "reference_normalized_squared_error": 0.00901846566297453
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.6709472170347444,
+      "pesq_wb": 1.2718303898970287,
+      "stoi": 0.7060632995374515
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": 0.7704609128988876,
+      "pesq_wb": 1.4638389199972153,
+      "stoi": 0.6955870878976004
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 11.701336917575125,
+      "pesq_wb": 4.0242493947347,
+      "stoi": 0.9678920684204053,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5744997940625899,
+        "reference_normalized_squared_error": 0.22881952582227724
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 24.422579828814122,
+      "pesq_wb": 4.497046868006389,
+      "stoi": 0.9942068346050243,
+      "clean_levels": {
+        "rms_gain_ratio": 0.947662066545456,
+        "reference_normalized_squared_error": 0.011118445056538894
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": -0.7578059771227142,
+      "pesq_wb": 1.2563309768835704,
+      "stoi": 0.7061156480649804
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "clean": false,
+      "rows": 24,
+      "unique_sources": 4,
+      "si_sdr_db": 0.07882337052305077,
+      "pesq_wb": 1.3903462092081706,
+      "stoi": 0.6919166926943386
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 11.965237572709688,
+      "pesq_wb": 3.998488465944926,
+      "stoi": 0.9701106009353416,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5961405214237685,
+        "reference_normalized_squared_error": 0.21429018586420004
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "clean": true,
+      "rows": 12,
+      "unique_sources": 4,
+      "si_sdr_db": 25.828791262711018,
+      "pesq_wb": 4.505331714948018,
+      "stoi": 0.9952253509211665,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9620005936911481,
+        "reference_normalized_squared_error": 0.007082989819530451
+      }
+    }
+  ],
+  "by_rt": [
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.6428471224763515,
+      "pesq_wb": 1.0592336356639862,
+      "stoi": 0.6719711604036676
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.999999999999998,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.9471355748114547,
+      "pesq_wb": 1.0550894141197205,
+      "stoi": 0.6534827747001211
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999986,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -6.120886934905937,
+      "pesq_wb": 1.1040197759866714,
+      "stoi": 0.5370044601342374
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999978,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.356467819889436,
+      "pesq_wb": 1.101522982120514,
+      "stoi": 0.6922828315961296
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 27.86042048153448,
+      "pesq_wb": 4.508896708488464,
+      "stoi": 0.9950488242650528,
+      "clean_levels": {
+        "rms_gain_ratio": 0.999657998332495,
+        "reference_normalized_squared_error": 0.0017634213949916306
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.828055467343984,
+      "pesq_wb": 1.0807958543300629,
+      "stoi": 0.6640241939936138
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 20.117171314982993,
+      "pesq_wb": 4.3039668798446655,
+      "stoi": 0.9849839066996303,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9677702715904515,
+        "reference_normalized_squared_error": 0.009360002336499937
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -5.139332316793848,
+      "pesq_wb": 1.08671335875988,
+      "stoi": 0.5209818281758247
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 12.885898060425601,
+      "pesq_wb": 3.054010331630707,
+      "stoi": 0.9400413721650145,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9239598066865797,
+        "reference_normalized_squared_error": 0.03939899817266862
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -1.2705889869172045,
+      "pesq_wb": 1.2842605859041214,
+      "stoi": 0.7249878508352123
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 21.89709046708441,
+      "pesq_wb": 3.6497467756271362,
+      "stoi": 0.9709216880874116,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9555821813072335,
+        "reference_normalized_squared_error": 0.008802964915334733
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 0.34832730892016317,
+      "pesq_wb": 1.1772645711898804,
+      "stoi": 0.6978922760307484
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 17.65600749784334,
+      "pesq_wb": 3.26506370306015,
+      "stoi": 0.9611250250444401,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8913037916128674,
+        "reference_normalized_squared_error": 0.028143157575483586
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -1.512319484521,
+      "pesq_wb": 1.1556496024131775,
+      "stoi": 0.5488828465431862
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 13.847618493270229,
+      "pesq_wb": 2.36917844414711,
+      "stoi": 0.9172576279636182,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8285350988564812,
+        "reference_normalized_squared_error": 0.05410090091029167
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.8802421413074111,
+      "pesq_wb": 1.2861462831497192,
+      "stoi": 0.7298329511659929
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 21.719940805959038,
+      "pesq_wb": 3.636527121067047,
+      "stoi": 0.9708132077661986,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9505917230837312,
+        "reference_normalized_squared_error": 0.009859435013592852
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 1.04965717016329,
+      "pesq_wb": 1.1953470259904861,
+      "stoi": 0.702603834351134
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.785601766034905,
+      "pesq_wb": 3.247480630874634,
+      "stoi": 0.9592754308340401,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8699382830806955,
+        "reference_normalized_squared_error": 0.04113239040331836
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -1.268706510514137,
+      "pesq_wb": 1.1466557681560516,
+      "stoi": 0.55558698531107
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 13.695662773746314,
+      "pesq_wb": 2.3690043091773987,
+      "stoi": 0.9129961667585071,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8190989694111831,
+        "reference_normalized_squared_error": 0.05759591363148628
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -1.045874181973917,
+      "pesq_wb": 1.2454005032777786,
+      "stoi": 0.7233974034707287
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 22.149704056630547,
+      "pesq_wb": 3.5915791392326355,
+      "stoi": 0.9708985562397405,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9569385424656655,
+        "reference_normalized_squared_error": 0.008836652122610322
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 0.7804405387418851,
+      "pesq_wb": 1.183914914727211,
+      "stoi": 0.6974940904956997
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 18.09793179084474,
+      "pesq_wb": 3.2894808650016785,
+      "stoi": 0.9609144541131884,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8888752516006345,
+        "reference_normalized_squared_error": 0.031197375464142384
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -2.292341640390535,
+      "pesq_wb": 1.1679517328739166,
+      "stoi": 0.5522680532682802
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 14.53447390925054,
+      "pesq_wb": 2.4438750743865967,
+      "stoi": 0.9188214533847027,
+      "clean_levels": {
+        "rms_gain_ratio": 0.857830205102391,
+        "reference_normalized_squared_error": 0.041072067164546956
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -2.5657113419624222,
+      "pesq_wb": 1.1811579167842865,
+      "stoi": 0.7143513169863401
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.393517848706137,
+      "pesq_wb": 1.1012525260448456,
+      "stoi": 0.6966440555964721
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.05963449307396,
+      "pesq_wb": 4.415923357009888,
+      "stoi": 0.9941056811973719,
+      "clean_levels": {
+        "rms_gain_ratio": 0.707891533694064,
+        "reference_normalized_squared_error": 0.11180082323254745
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 50.96572249474559,
+      "pesq_wb": 4.63985550403595,
+      "stoi": 0.9999976692032464,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9981499835851574,
+        "reference_normalized_squared_error": 2.3590801100642375e-05
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -2.835990597642955,
+      "pesq_wb": 1.089310109615326,
+      "stoi": 0.6930546151331856
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.686922993082038,
+      "pesq_wb": 1.088642954826355,
+      "stoi": 0.683314769840413
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.16796508669021,
+      "pesq_wb": 3.964024245738983,
+      "stoi": 0.9715986171310148,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5308333479383585,
+        "reference_normalized_squared_error": 0.26313928101221906
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 30.38887027646,
+      "pesq_wb": 4.613112449645996,
+      "stoi": 0.9991640905125491,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9882668108786503,
+        "reference_normalized_squared_error": 0.0015614456882192373
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.5957650810756867,
+      "pesq_wb": 1.1198358982801437,
+      "stoi": 0.5618961319331373
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -4.8547758766871585,
+      "pesq_wb": 1.1146818846464157,
+      "stoi": 0.54682387032237
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.018924626865141,
+      "pesq_wb": 3.353558838367462,
+      "stoi": 0.9323668020255637,
+      "clean_levels": {
+        "rms_gain_ratio": 0.644189329852358,
+        "reference_normalized_squared_error": 0.20813483071034578
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 15.107603591248298,
+      "pesq_wb": 4.305164813995361,
+      "stoi": 0.9801268030774053,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9534053940387099,
+        "reference_normalized_squared_error": 0.026717649933734107
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.6693026068770892,
+      "pesq_wb": 1.3518590778112411,
+      "stoi": 0.7711629164948873
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -1.00679919377131,
+      "pesq_wb": 1.4306707233190536,
+      "stoi": 0.7565735399733692
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 15.661159578617907,
+      "pesq_wb": 4.4510074853897095,
+      "stoi": 0.9927685595480474,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6711795229329461,
+        "reference_normalized_squared_error": 0.1345613779349747
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 32.03582704284212,
+      "pesq_wb": 4.5398383140563965,
+      "stoi": 0.9996919983791133,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9885827997023208,
+        "reference_normalized_squared_error": 0.0008967843904382879
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 0.2859557782154187,
+      "pesq_wb": 1.2142962366342545,
+      "stoi": 0.7397393489004264
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 1.4448865959299102,
+      "pesq_wb": 1.4242454171180725,
+      "stoi": 0.734081964051271
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 9.448238996370472,
+      "pesq_wb": 4.029276072978973,
+      "stoi": 0.9739254054527956,
+      "clean_levels": {
+        "rms_gain_ratio": 0.4905896604151146,
+        "reference_normalized_squared_error": 0.3080125945237049
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 26.72402691912675,
+      "pesq_wb": 4.536760687828064,
+      "stoi": 0.9988928972622231,
+      "clean_levels": {
+        "rms_gain_ratio": 0.959998049978159,
+        "reference_normalized_squared_error": 0.0057481807059916335
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -2.440575688362823,
+      "pesq_wb": 1.246532067656517,
+      "stoi": 0.5902098272863153
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.26191595129977985,
+      "pesq_wb": 1.4640308022499084,
+      "stoi": 0.579253672434042
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.750152621268581,
+      "pesq_wb": 3.536927342414856,
+      "stoi": 0.9353642060505986,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5684976604655037,
+        "reference_normalized_squared_error": 0.2527912914122306
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 17.89101183245219,
+      "pesq_wb": 4.41195285320282,
+      "stoi": 0.9848084513734181,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9253105600685878,
+        "reference_normalized_squared_error": 0.02041043189249367
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.26038997034895917,
+      "pesq_wb": 1.3540859669446945,
+      "stoi": 0.7812379129497826
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.5800016745367822,
+      "pesq_wb": 1.4407937079668045,
+      "stoi": 0.7634847770729285
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.181956111071713,
+      "pesq_wb": 4.488987445831299,
+      "stoi": 0.9938978656075502,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6704070034566338,
+        "reference_normalized_squared_error": 0.13081186700756922
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 30.887290601218744,
+      "pesq_wb": 4.541393995285034,
+      "stoi": 0.9996315864742373,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9870497439753388,
+        "reference_normalized_squared_error": 0.001158721747147432
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 0.9083612179215445,
+      "pesq_wb": 1.228619560599327,
+      "stoi": 0.7468899157425124
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 2.53447075441988,
+      "pesq_wb": 1.4515342116355896,
+      "stoi": 0.7390618150208537
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.131901000606824,
+      "pesq_wb": 4.071686148643494,
+      "stoi": 0.9752068910343291,
+      "clean_levels": {
+        "rms_gain_ratio": 0.49192417978481334,
+        "reference_normalized_squared_error": 0.300379340833861
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 23.885349997016917,
+      "pesq_wb": 4.528670072555542,
+      "stoi": 0.9987451933671426,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9364873250077751,
+        "reference_normalized_squared_error": 0.011795806267071567
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -2.660812898676818,
+      "pesq_wb": 1.2327856421470642,
+      "stoi": 0.5900620699200596
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 0.3569136588135643,
+      "pesq_wb": 1.4991888403892517,
+      "stoi": 0.5842146715990186
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.790153641046839,
+      "pesq_wb": 3.512074589729309,
+      "stoi": 0.9345714486193366,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5611681989463223,
+        "reference_normalized_squared_error": 0.25526736962540153
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 18.495098888206698,
+      "pesq_wb": 4.421076536178589,
+      "stoi": 0.9842437239736929,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9194491306532534,
+        "reference_normalized_squared_error": 0.020400807155397684
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.1437948484631567,
+      "pesq_wb": 1.334283396601677,
+      "stoi": 0.7860306412664289
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.9275439586193037,
+      "pesq_wb": 1.3758327066898346,
+      "stoi": 0.758267956431829
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.576171347319782,
+      "pesq_wb": 4.494488477706909,
+      "stoi": 0.9941185883488259,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6793538597330313,
+        "reference_normalized_squared_error": 0.11991428250139334
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 31.36446739707876,
+      "pesq_wb": 4.534899353981018,
+      "stoi": 0.9996867704566461,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9884516954464494,
+        "reference_normalized_squared_error": 0.0010798248347710922
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 1.0972463427418122,
+      "pesq_wb": 1.21969173848629,
+      "stoi": 0.7476270525338728
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": 1.98120751684379,
+      "pesq_wb": 1.3924714624881744,
+      "stoi": 0.734186455086682
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.39463084156786,
+      "pesq_wb": 4.084495663642883,
+      "stoi": 0.9768182583144468,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5032297432920705,
+        "reference_normalized_squared_error": 0.2898810802008752
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0.16,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 26.203550352473474,
+      "pesq_wb": 4.53325080871582,
+      "stoi": 0.9989194061511795,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9533003671493087,
+        "reference_normalized_squared_error": 0.006755769864890854
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -3.2268694256467985,
+      "pesq_wb": 1.2150177955627441,
+      "stoi": 0.5846892503946395
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": false,
+      "rows": 8,
+      "unique_sources": 4,
+      "si_sdr_db": -0.8171934466553334,
+      "pesq_wb": 1.4027344584465027,
+      "stoi": 0.5832956665645046
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.92491052924142,
+      "pesq_wb": 3.4164812564849854,
+      "stoi": 0.9393949561427519,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6058379612462036,
+        "reference_normalized_squared_error": 0.23307519489033168
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "requested_rt60": 0.28,
+      "clean": true,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 19.918356038580825,
+      "pesq_wb": 4.447844982147217,
+      "stoi": 0.9870698761556744,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9442497184776861,
+        "reference_normalized_squared_error": 0.01341337475892941
+      }
+    }
+  ],
+  "by_speaker": [
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -5.967998086764876,
+      "pesq_wb": 1.045182853937149,
+      "stoi": 0.6296487194650011
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999992,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -3.172581668030953,
+      "pesq_wb": 1.1003790299097698,
+      "stoi": 0.6119902106936829
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.999999999999997,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -5.51965735068774,
+      "pesq_wb": 1.0567434926827748,
+      "stoi": 0.6265889734739049
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 20.75644456145444,
+      "pesq_wb": 4.0213729540507,
+      "stoi": 0.9830136547849122,
+      "clean_levels": {
+        "rms_gain_ratio": 0.978352345308009,
+        "reference_normalized_squared_error": 0.0063327158043360214
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -2.6962463853304386,
+      "pesq_wb": 1.1226113041241963,
+      "stoi": 0.6249369290364738
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 19.819215343174278,
+      "pesq_wb": 3.8898763259251914,
+      "stoi": 0.9637024139682197,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9492397057650086,
+        "reference_normalized_squared_error": 0.027348898798437438
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.4726444756780062,
+      "pesq_wb": 1.1709318061669667,
+      "stoi": 0.6610241559558068
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 18.744294799129534,
+      "pesq_wb": 3.3942195574442544,
+      "stoi": 0.9584199455867908,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9006155900459091,
+        "reference_normalized_squared_error": 0.021080735704959275
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -0.15040963266735438,
+      "pesq_wb": 1.240518033504486,
+      "stoi": 0.6534844929836247
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 16.85618283966912,
+      "pesq_wb": 2.7951063911120095,
+      "stoi": 0.9411162818101891,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8829984578051456,
+        "reference_normalized_squared_error": 0.03961727989578071
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -0.8384210547597952,
+      "pesq_wb": 1.1777162849903107,
+      "stoi": 0.6676679015868502
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 18.10432655472219,
+      "pesq_wb": 3.3759273687998452,
+      "stoi": 0.9545975540161996,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8816393999607764,
+        "reference_normalized_squared_error": 0.031565775586086205
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.10556006698762314,
+      "pesq_wb": 1.2410497665405273,
+      "stoi": 0.657681278965281
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 16.696477009104647,
+      "pesq_wb": 2.7927473386128745,
+      "stoi": 0.9407923162229643,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8781132504229635,
+        "reference_normalized_squared_error": 0.040826050446178784
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.4100034211711325,
+      "pesq_wb": 1.1519186794757843,
+      "stoi": 0.6615087747813999
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 18.871249100933614,
+      "pesq_wb": 3.3347729444503784,
+      "stoi": 0.9546614472403884,
+      "clean_levels": {
+        "rms_gain_ratio": 0.907891124308002,
+        "reference_normalized_squared_error": 0.022374451324879713
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -0.29518010124391175,
+      "pesq_wb": 1.2462594211101532,
+      "stoi": 0.6539309233750724
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 17.650157403550267,
+      "pesq_wb": 2.8818504412968955,
+      "stoi": 0.9457615285846995,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8945382084711252,
+        "reference_normalized_squared_error": 0.03169627850932006
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -4.20194787683717,
+      "pesq_wb": 1.0827043652534485,
+      "stoi": 0.6535128866173672
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -5.386747830324853,
+      "pesq_wb": 1.0562111636002858,
+      "stoi": 0.6424005812011484
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.044433060904277,
+      "pesq_wb": 3.9935363133748374,
+      "stoi": 0.969382670391023,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6913493832337517,
+        "reference_normalized_squared_error": 0.14289338079539013
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 34.73308330404128,
+      "pesq_wb": 4.551796118418376,
+      "stoi": 0.9968686873800513,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9920387982094717,
+        "reference_normalized_squared_error": 0.0020650485424689464
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.7963634702835396,
+      "pesq_wb": 1.1774982511997223,
+      "stoi": 0.6593551560844081
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -2.57006331532537,
+      "pesq_wb": 1.1468404134114583,
+      "stoi": 0.6421212159716883
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.786583076848599,
+      "pesq_wb": 3.8288013140360513,
+      "stoi": 0.9626647298449441,
+      "clean_levels": {
+        "rms_gain_ratio": 0.563926757756102,
+        "reference_normalized_squared_error": 0.24582324250801801
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 29.575047604261314,
+      "pesq_wb": 4.486959060033162,
+      "stoi": 0.9893236878154159,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9678426607922068,
+        "reference_normalized_squared_error": 0.016803409072900382
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.9216636693712854,
+      "pesq_wb": 1.185779482126236,
+      "stoi": 0.6891004491716782
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -0.6577774593136524,
+      "pesq_wb": 1.3344923555850983,
+      "stoi": 0.6815957308201767
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.18994385319179,
+      "pesq_wb": 4.085081219673157,
+      "stoi": 0.9709604300424809,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6510400997788298,
+        "reference_normalized_squared_error": 0.16193755851323852
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 28.166956714766552,
+      "pesq_wb": 4.52293062210083,
+      "stoi": 0.996569546691954,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9698428105119102,
+        "reference_normalized_squared_error": 0.0025968891637335946
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.03904865802162316,
+      "pesq_wb": 1.3560121059417725,
+      "stoi": 0.7116409459494079
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.7752250932195324,
+      "pesq_wb": 1.544805606206258,
+      "stoi": 0.6983437201522782
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.383090277646184,
+      "pesq_wb": 3.9263927141825357,
+      "stoi": 0.9637450173251466,
+      "clean_levels": {
+        "rms_gain_ratio": 0.502471129430213,
+        "reference_normalized_squared_error": 0.3016392840673683
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 22.933620481514158,
+      "pesq_wb": 4.46943728129069,
+      "stoi": 0.992359351317882,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9460847959874682,
+        "reference_normalized_squared_error": 0.015440042162215464
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.5227491403174522,
+      "pesq_wb": 1.1864239871501923,
+      "stoi": 0.6993395101374413
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.4069898739990158,
+      "pesq_wb": 1.3592746357123058,
+      "stoi": 0.6906407508387971
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.916126554967255,
+      "pesq_wb": 4.097574750582377,
+      "stoi": 0.9714263985783861,
+      "clean_levels": {
+        "rms_gain_ratio": 0.647981033046578,
+        "reference_normalized_squared_error": 0.15573137727103128
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 26.080088410991806,
+      "pesq_wb": 4.522331953048706,
+      "stoi": 0.9960393885586396,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9512275801754911,
+        "reference_normalized_squared_error": 0.007036972074634627
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.18085470624796376,
+      "pesq_wb": 1.3572367926438649,
+      "stoi": 0.7127870889374618
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 1.1339319517987594,
+      "pesq_wb": 1.5684032042821248,
+      "stoi": 0.7005334249564034
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.486547280182997,
+      "pesq_wb": 3.950924038887024,
+      "stoi": 0.9643577382624245,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5010185550786016,
+        "reference_normalized_squared_error": 0.30190767437352317
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 22.765071246636435,
+      "pesq_wb": 4.47176178296407,
+      "stoi": 0.9923742806514088,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9440965529154206,
+        "reference_normalized_squared_error": 0.015199918038443163
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -1.5951068164493618,
+      "pesq_wb": 1.1756394902865093,
+      "stoi": 0.7013103555486451
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": -0.34876047196626286,
+      "pesq_wb": 1.3014607230822246,
+      "stoi": 0.6891124903776774
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 12.251062914348951,
+      "pesq_wb": 4.015843391418457,
+      "stoi": 0.9725610900261575,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6875465356956926,
+        "reference_normalized_squared_error": 0.13180259380860548
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "speaker_id": "1988",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 27.520175032796633,
+      "pesq_wb": 4.527715126673381,
+      "stoi": 0.9967015742432562,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9667763736516503,
+        "reference_normalized_squared_error": 0.004208333089803122
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.07949486220393316,
+      "pesq_wb": 1.3370224634806316,
+      "stoi": 0.7109209405813157
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": false,
+      "rows": 12,
+      "unique_sources": 2,
+      "si_sdr_db": 0.5064072130123646,
+      "pesq_wb": 1.4792316953341167,
+      "stoi": 0.6947208950109998
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 11.679412231070422,
+      "pesq_wb": 3.981133540471395,
+      "stoi": 0.9676601118445257,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5047345071518443,
+        "reference_normalized_squared_error": 0.29677777791979465
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "speaker_id": "777",
+      "clean": true,
+      "rows": 6,
+      "unique_sources": 2,
+      "si_sdr_db": 24.137407492625403,
+      "pesq_wb": 4.482948303222656,
+      "stoi": 0.9937491275990772,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9572248137306459,
+        "reference_normalized_squared_error": 0.009957646549257782
+      }
+    }
+  ],
+  "by_source": [
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -5.6898038814117315,
+      "pesq_wb": 1.055136541525523,
+      "stoi": 0.6185571274338467
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999992,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -6.24619229211802,
+      "pesq_wb": 1.0352291663487752,
+      "stoi": 0.6407403114961555
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999991,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.2078960650164987,
+      "pesq_wb": 1.124425967534383,
+      "stoi": 0.6322023758997117
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999973,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.1372672710454075,
+      "pesq_wb": 1.0763320922851562,
+      "stoi": 0.5917780454876539
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999969,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -5.943326985195139,
+      "pesq_wb": 1.0605425635973613,
+      "stoi": 0.6215172968982764
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 21.22566660270452,
+      "pesq_wb": 4.013390938440959,
+      "stoi": 0.9854774256648328,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9730218029168597,
+        "reference_normalized_squared_error": 0.00540116409728944
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -5.095987716180342,
+      "pesq_wb": 1.0529444217681885,
+      "stoi": 0.6316606500495333
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 20.28722252020436,
+      "pesq_wb": 4.029354969660441,
+      "stoi": 0.9805498839049916,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9836828876991582,
+        "reference_normalized_squared_error": 0.007264267511382603
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.7589484678462437,
+      "pesq_wb": 1.1825012564659119,
+      "stoi": 0.6583125569507917
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 19.95819262118463,
+      "pesq_wb": 3.838780164718628,
+      "stoi": 0.9750477045840754,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9362537780689836,
+        "reference_normalized_squared_error": 0.025270829675486245
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.6335443028146335,
+      "pesq_wb": 1.062721351782481,
+      "stoi": 0.591561301122156
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 19.680238065163923,
+      "pesq_wb": 3.9409724871317544,
+      "stoi": 0.9523571233523637,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9622256334610336,
+        "reference_normalized_squared_error": 0.029426967921388627
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.596921847319973,
+      "pesq_wb": 1.190053661664327,
+      "stoi": 0.6575338741756108
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.8734859487486,
+      "pesq_wb": 3.324636777242025,
+      "stoi": 0.9634406794270065,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8901890465151564,
+        "reference_normalized_squared_error": 0.023777520851081563
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.3483671040360397,
+      "pesq_wb": 1.1518099506696065,
+      "stoi": 0.6645144377360029
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.615103649510463,
+      "pesq_wb": 3.4638023376464844,
+      "stoi": 0.953399211746575,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9110421335766618,
+        "reference_normalized_squared_error": 0.018383950558836983
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.5132622788189917,
+      "pesq_wb": 1.370433767636617,
+      "stoi": 0.6881992589973388
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 15.626532999710053,
+      "pesq_wb": 2.7681200901667276,
+      "stoi": 0.9456677448465802,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8643842696637009,
+        "reference_normalized_squared_error": 0.05087872861662779
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.21244301348428288,
+      "pesq_wb": 1.1106022993723552,
+      "stoi": 0.6187697269699103
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.085832679628187,
+      "pesq_wb": 2.8220926920572915,
+      "stoi": 0.9365648187737982,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9016126459465905,
+        "reference_normalized_squared_error": 0.028355831174933645
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.8920668556041976,
+      "pesq_wb": 1.204555094242096,
+      "stoi": 0.6558758980316434
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.275047432050357,
+      "pesq_wb": 3.237433354059855,
+      "stoi": 0.9599529130322053,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8794902185305561,
+        "reference_normalized_squared_error": 0.030361194331388775
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.7847752539153928,
+      "pesq_wb": 1.1508774757385254,
+      "stoi": 0.6794599051420569
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 17.933605677394024,
+      "pesq_wb": 3.5144213835398355,
+      "stoi": 0.9492421950001937,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8837885813909968,
+        "reference_normalized_squared_error": 0.03277035684078363
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.06311417245526811,
+      "pesq_wb": 1.3851717114448547,
+      "stoi": 0.6884172921445141
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 15.369111376505336,
+      "pesq_wb": 2.7512613932291665,
+      "stoi": 0.9461514179234719,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8624758774652751,
+        "reference_normalized_squared_error": 0.05239912367197377
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.2742343064305144,
+      "pesq_wb": 1.0969278216362,
+      "stoi": 0.6269452657860478
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.02384264170396,
+      "pesq_wb": 2.834233283996582,
+      "stoi": 0.935433214522457,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8937506233806518,
+        "reference_normalized_squared_error": 0.02925297722038381
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -2.2009230023428716,
+      "pesq_wb": 1.1744253834088643,
+      "stoi": 0.6459628382396484
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 19.468801016328573,
+      "pesq_wb": 3.2027650674184165,
+      "stoi": 0.9612537600442747,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9138320231093724,
+        "reference_normalized_squared_error": 0.01767169075373436
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.619083839999394,
+      "pesq_wb": 1.1294119755427043,
+      "stoi": 0.6770547113231514
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.27369718553866,
+      "pesq_wb": 3.4667808214823403,
+      "stoi": 0.9480691344365019,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9019502255066318,
+        "reference_normalized_squared_error": 0.027077211896025067
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.36582495947149435,
+      "pesq_wb": 1.3964234391848247,
+      "stoi": 0.6799677333731111
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 16.47670658541706,
+      "pesq_wb": 2.867595116297404,
+      "stoi": 0.9481481742417124,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8788722298933739,
+        "reference_normalized_squared_error": 0.04064699900706244
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.2245352430163291,
+      "pesq_wb": 1.0960954030354817,
+      "stoi": 0.6278941133770337
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 18.823608221683482,
+      "pesq_wb": 2.8961057662963867,
+      "stoi": 0.9433748829276866,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9102041870488766,
+        "reference_normalized_squared_error": 0.022745558011577682
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -2.927900016405781,
+      "pesq_wb": 1.1050530473391216,
+      "stoi": 0.6591908594656867
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -5.997379314633643,
+      "pesq_wb": 1.0661095976829529,
+      "stoi": 0.6426903637340485
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 8.514686090839692,
+      "pesq_wb": 3.8660470644632974,
+      "stoi": 0.9608111796961785,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6734414813230128,
+        "reference_normalized_squared_error": 0.16809759558090387
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 35.44730004358101,
+      "pesq_wb": 4.565573215484619,
+      "stoi": 0.9958074313192443,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9932198051976551,
+        "reference_normalized_squared_error": 0.0015795471521228314
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -5.475995737268559,
+      "pesq_wb": 1.0603556831677754,
+      "stoi": 0.6478349137690479
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -4.776116346016062,
+      "pesq_wb": 1.046312729517619,
+      "stoi": 0.6421107986682483
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 13.574180030968861,
+      "pesq_wb": 4.121025562286377,
+      "stoi": 0.9779541610858674,
+      "clean_levels": {
+        "rms_gain_ratio": 0.7092572851444904,
+        "reference_normalized_squared_error": 0.11768916600987646
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 34.01886656450155,
+      "pesq_wb": 4.538019021352132,
+      "stoi": 0.9979299434408585,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9908577912212881,
+        "reference_normalized_squared_error": 0.002550549932815061
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.8334184818045074,
+      "pesq_wb": 1.2597506244977315,
+      "stoi": 0.6934425184882658
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.6560058586612727,
+      "pesq_wb": 1.208515961964925,
+      "stoi": 0.6724294870544782
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.539677262270457,
+      "pesq_wb": 3.8922614256540933,
+      "stoi": 0.9710453691041598,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5595180172247872,
+        "reference_normalized_squared_error": 0.2507399937811188
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 29.24812989655906,
+      "pesq_wb": 4.5804392496744795,
+      "stoi": 0.9957916781972761,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9678168655771939,
+        "reference_normalized_squared_error": 0.010387202815216854
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.759308458762572,
+      "pesq_wb": 1.0952458779017131,
+      "stoi": 0.6252677936805503
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.4841207719894667,
+      "pesq_wb": 1.0851648648579915,
+      "stoi": 0.6118129448888986
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 12.03348889142674,
+      "pesq_wb": 3.7653412024180093,
+      "stoi": 0.9542840905857283,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5683354982874168,
+        "reference_normalized_squared_error": 0.24090649123491728
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 29.90196531196357,
+      "pesq_wb": 4.393478870391846,
+      "stoi": 0.9828556974335556,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9678684560072198,
+        "reference_normalized_squared_error": 0.023219615330583906
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.03076285402551952,
+      "pesq_wb": 1.2540172338485718,
+      "stoi": 0.7067060898796016
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.9899843305511703,
+      "pesq_wb": 1.2923912207285564,
+      "stoi": 0.6862331856497145
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 8.404470598975738,
+      "pesq_wb": 3.9480909506479898,
+      "stoi": 0.9631358689426378,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6357356201922805,
+        "reference_normalized_squared_error": 0.19121217115835906
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 28.116021445893495,
+      "pesq_wb": 4.512014547983806,
+      "stoi": 0.9952975398873818,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9654399132733417,
+        "reference_normalized_squared_error": 0.003397029811978156
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.87409019276809,
+      "pesq_wb": 1.1175417304039001,
+      "stoi": 0.6714948084637548
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.32557058807613437,
+      "pesq_wb": 1.3765934904416401,
+      "stoi": 0.6769582759906386
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 13.975417107407841,
+      "pesq_wb": 4.222071488698323,
+      "stoi": 0.978784991142324,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6663445793653793,
+        "reference_normalized_squared_error": 0.13266294586811794
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 28.217891983639607,
+      "pesq_wb": 4.5338466962178545,
+      "stoi": 0.9978415534965265,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9742457077504789,
+        "reference_normalized_squared_error": 0.0017967485154890342
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 2.0430934158881744,
+      "pesq_wb": 1.6091654896736145,
+      "stoi": 0.7607708415795793
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.1334518743865211,
+      "pesq_wb": 1.8951409061749775,
+      "stoi": 0.7362720412620862
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.724312535118228,
+      "pesq_wb": 3.9390278657277427,
+      "stoi": 0.9679349064851186,
+      "clean_levels": {
+        "rms_gain_ratio": 0.48736478325890403,
+        "reference_normalized_squared_error": 0.3153001147688573
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 20.934561775528724,
+      "pesq_wb": 4.512980302174886,
+      "stoi": 0.9912659788435633,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9299078163814252,
+        "reference_normalized_squared_error": 0.022418712647329184
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.9649960998449283,
+      "pesq_wb": 1.1028587222099304,
+      "stoi": 0.6625110503192363
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 1.416998312052544,
+      "pesq_wb": 1.1944703062375386,
+      "stoi": 0.66041539904247
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.041868020174142,
+      "pesq_wb": 3.913757562637329,
+      "stoi": 0.959555128165175,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5175774756015218,
+        "reference_normalized_squared_error": 0.2879784533658793
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 24.9326791874996,
+      "pesq_wb": 4.425894260406494,
+      "stoi": 0.9934527237922012,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9622617755935111,
+        "reference_normalized_squared_error": 0.008461371677101743
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.17288438587468372,
+      "pesq_wb": 1.2593285044034321,
+      "stoi": 0.7080586713360334
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.20926674191269642,
+      "pesq_wb": 1.3211987415949504,
+      "stoi": 0.6878275078148596
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 9.522422813876982,
+      "pesq_wb": 3.9619147777557373,
+      "stoi": 0.9637371338399218,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6296851793442277,
+        "reference_normalized_squared_error": 0.18091269108954
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 25.68193487633748,
+      "pesq_wb": 4.511972268422444,
+      "stoi": 0.9939855455503972,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9536760999496368,
+        "reference_normalized_squared_error": 0.006496873336014956
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -3.2183826665095885,
+      "pesq_wb": 1.1135194698969524,
+      "stoi": 0.6906203489388489
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.6047130060853355,
+      "pesq_wb": 1.3973505298296611,
+      "stoi": 0.6934539938627345
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 14.309830296057527,
+      "pesq_wb": 4.233234723409017,
+      "stoi": 0.9791156633168504,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6662768867489283,
+        "reference_normalized_squared_error": 0.1305500634525226
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 26.478241945646133,
+      "pesq_wb": 4.532691637674968,
+      "stoi": 0.9980932315668821,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9487790604013456,
+        "reference_normalized_squared_error": 0.007577070813254299
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 2.2016024180533518,
+      "pesq_wb": 1.6076271335283916,
+      "stoi": 0.7596927265304506
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.7797748124744994,
+      "pesq_wb": 1.9532555937767029,
+      "stoi": 0.7364830275672413
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.883741828035888,
+      "pesq_wb": 3.9746936162312827,
+      "stoi": 0.9686040175370022,
+      "clean_levels": {
+        "rms_gain_ratio": 0.4883616507640405,
+        "reference_normalized_squared_error": 0.3143622222999833
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 20.563893043873417,
+      "pesq_wb": 4.515640576680501,
+      "stoi": 0.9905621715919586,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9272703173576483,
+        "reference_normalized_squared_error": 0.02280131733679494
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.839893005557424,
+      "pesq_wb": 1.1068464517593384,
+      "stoi": 0.6658814513444731
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 1.4880890911230191,
+      "pesq_wb": 1.1835508147875469,
+      "stoi": 0.6645838223455655
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.089352732330108,
+      "pesq_wb": 3.927154461542765,
+      "stoi": 0.9601114589878469,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5136754593931628,
+        "reference_normalized_squared_error": 0.28945312644706317
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 24.966249449399452,
+      "pesq_wb": 4.42788298924764,
+      "stoi": 0.9941863897108592,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9609227884731927,
+        "reference_normalized_squared_error": 0.007598518740091383
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -0.3746119161588985,
+      "pesq_wb": 1.2388414939244587,
+      "stoi": 0.7060877021977535
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.7399253478820678,
+      "pesq_wb": 1.2653622229894002,
+      "stoi": 0.6822862917383734
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 10.331765677150065,
+      "pesq_wb": 3.794884443283081,
+      "stoi": 0.9649757871384628,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6816425093079541,
+        "reference_normalized_squared_error": 0.14454890430424933
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "1988-147956-0014",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 27.976476942050482,
+      "pesq_wb": 4.517982800801595,
+      "stoi": 0.995047929259098,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9752207902803849,
+        "reference_normalized_squared_error": 0.0023026107043842745
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -2.8156017167398253,
+      "pesq_wb": 1.1124374866485596,
+      "stoi": 0.6965330088995367
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 1.0424044039495424,
+      "pesq_wb": 1.3375592231750488,
+      "stoi": 0.6959386890169813
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 14.17036015154784,
+      "pesq_wb": 4.236802339553833,
+      "stoi": 0.9801463929138522,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6934505620834309,
+        "reference_normalized_squared_error": 0.11905628331296163
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "1988-147956-0003",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 27.063873123542788,
+      "pesq_wb": 4.537447452545166,
+      "stoi": 0.9983552192274141,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9583319570229155,
+        "reference_normalized_squared_error": 0.0061140554752219705
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 1.964517391770973,
+      "pesq_wb": 1.5771599610646565,
+      "stoi": 0.7594813151462012
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.24996005832797988,
+      "pesq_wb": 1.7922768791516621,
+      "stoi": 0.7340523349166382
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 12.019125984530229,
+      "pesq_wb": 3.946188449859619,
+      "stoi": 0.971181982874136,
+      "clean_levels": {
+        "rms_gain_ratio": 0.4939473417834388,
+        "reference_normalized_squared_error": 0.30650730853637453
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "777-126732-0049",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 22.820876424871816,
+      "pesq_wb": 4.522022088368733,
+      "stoi": 0.9920362008907672,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9435525682228935,
+        "reference_normalized_squared_error": 0.014560810521688545
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": -1.8055276673631067,
+      "pesq_wb": 1.0968849658966064,
+      "stoi": 0.6623605660164301
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": false,
+      "rows": 6,
+      "unique_sources": 1,
+      "si_sdr_db": 0.7628543676967494,
+      "pesq_wb": 1.166186511516571,
+      "stoi": 0.6553894551053611
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 11.339698477610616,
+      "pesq_wb": 4.016078631083171,
+      "stoi": 0.9641382408149152,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5155216725202498,
+        "reference_normalized_squared_error": 0.28704824730321477
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "source_id": "777-126732-0081",
+      "clean": true,
+      "rows": 3,
+      "unique_sources": 1,
+      "si_sdr_db": 25.453938560378987,
+      "pesq_wb": 4.443874518076579,
+      "stoi": 0.9954620543073872,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9708970592383982,
+        "reference_normalized_squared_error": 0.005354482576827018
+      }
+    }
+  ],
+  "by_field": [
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.7693478954338746,
+      "pesq_wb": 1.0738587379455566,
+      "stoi": 0.7360776169819977
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.5163463495188285,
+      "pesq_wb": 1.0446085333824158,
+      "stoi": 0.6078647038253373
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.999999999999998,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.6663577537379948,
+      "pesq_wb": 1.056205928325653,
+      "stoi": 0.71505418348784
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.227913395884915,
+      "pesq_wb": 1.0539728999137878,
+      "stoi": 0.5919113659124021
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999986,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.5730871571089446,
+      "pesq_wb": 1.1249953508377075,
+      "stoi": 0.6245076882123779
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -8.66868671270293,
+      "pesq_wb": 1.0830442011356354,
+      "stoi": 0.44950123205609693
+    },
+    {
+      "source_system": "noisy",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 156.53559774527022,
+      "pesq_wb": 4.643888473510742,
+      "stoi": 0.9999999999999978,
+      "clean_levels": {
+        "rms_gain_ratio": 1.0,
+        "reference_normalized_squared_error": 0.0
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.641879333596896,
+      "pesq_wb": 1.140725165605545,
+      "stoi": 0.7405853754778251
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.071056306181976,
+      "pesq_wb": 1.0623207986354828,
+      "stoi": 0.6439802877144342
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 27.86042048153448,
+      "pesq_wb": 4.508896708488464,
+      "stoi": 0.9950488242650528,
+      "clean_levels": {
+        "rms_gain_ratio": 0.999657998332495,
+        "reference_normalized_squared_error": 0.0017634213949916306
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.4223796405209506,
+      "pesq_wb": 1.0688053965568542,
+      "stoi": 0.7165917108810901
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.233731294167017,
+      "pesq_wb": 1.0927863121032715,
+      "stoi": 0.6114566771061374
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 20.117171314982993,
+      "pesq_wb": 4.3039668798446655,
+      "stoi": 0.9849839066996303,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9677702715904515,
+        "reference_normalized_squared_error": 0.009360002336499937
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.2805929356742682,
+      "pesq_wb": 1.1161173284053802,
+      "stoi": 0.6052052549264307
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -7.998071697913427,
+      "pesq_wb": 1.0573093891143799,
+      "stoi": 0.43675840142521877
+    },
+    {
+      "source_system": "mcnet",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 12.885898060425601,
+      "pesq_wb": 3.054010331630707,
+      "stoi": 0.9400413721650145,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9239598066865797,
+        "reference_normalized_squared_error": 0.03939899817266862
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 0.6291825048861541,
+      "pesq_wb": 1.3643725514411926,
+      "stoi": 0.7738027581189159
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.1703604787205633,
+      "pesq_wb": 1.2041486203670502,
+      "stoi": 0.6761729435515089
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 21.89709046708441,
+      "pesq_wb": 3.6497467756271362,
+      "stoi": 0.9709216880874116,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9555821813072335,
+        "reference_normalized_squared_error": 0.008802964915334733
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 4.174597890894394,
+      "pesq_wb": 1.1896702647209167,
+      "stoi": 0.7583889329184054
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.477943273054068,
+      "pesq_wb": 1.164858877658844,
+      "stoi": 0.6373956191430916
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 17.65600749784334,
+      "pesq_wb": 3.26506370306015,
+      "stoi": 0.9611250250444401,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8913037916128674,
+        "reference_normalized_squared_error": 0.028143157575483586
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 2.3632957014029192,
+      "pesq_wb": 1.1963888704776764,
+      "stoi": 0.6425760490128409
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.387934670444919,
+      "pesq_wb": 1.1149103343486786,
+      "stoi": 0.45518964407353146
+    },
+    {
+      "source_system": "cirm",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 13.847618493270229,
+      "pesq_wb": 2.36917844414711,
+      "stoi": 0.9172576279636182,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8285350988564812,
+        "reference_normalized_squared_error": 0.05410090091029167
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 0.8104169097483773,
+      "pesq_wb": 1.3655406534671783,
+      "stoi": 0.7796480883066881
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.5709011923631993,
+      "pesq_wb": 1.2067519128322601,
+      "stoi": 0.6800178140252976
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 21.719940805959038,
+      "pesq_wb": 3.636527121067047,
+      "stoi": 0.9708132077661986,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9505917230837312,
+        "reference_normalized_squared_error": 0.009859435013592852
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 5.101664167213451,
+      "pesq_wb": 1.2206709682941437,
+      "stoi": 0.7630750102906114
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.0023498268868707,
+      "pesq_wb": 1.1700230836868286,
+      "stoi": 0.6421326584116566
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.785601766034905,
+      "pesq_wb": 3.247480630874634,
+      "stoi": 0.9592754308340401,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8699382830806955,
+        "reference_normalized_squared_error": 0.04113239040331836
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 2.709749345269578,
+      "pesq_wb": 1.181992918252945,
+      "stoi": 0.6489831884563213
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.247162366297852,
+      "pesq_wb": 1.1113186180591583,
+      "stoi": 0.4621907821658184
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 13.695662773746314,
+      "pesq_wb": 2.3690043091773987,
+      "stoi": 0.9129961667585071,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8190989694111831,
+        "reference_normalized_squared_error": 0.05759591363148628
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 0.47337307810071927,
+      "pesq_wb": 1.2915740311145782,
+      "stoi": 0.7730507407776864
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.5651214420485533,
+      "pesq_wb": 1.199226975440979,
+      "stoi": 0.6737440661637708
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 22.149704056630547,
+      "pesq_wb": 3.5915791392326355,
+      "stoi": 0.9708985562397405,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9569385424656655,
+        "reference_normalized_squared_error": 0.008836652122610322
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 4.712242298352607,
+      "pesq_wb": 1.2087029218673706,
+      "stoi": 0.7625518812890698
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.1513612208688366,
+      "pesq_wb": 1.1591269075870514,
+      "stoi": 0.6324362997023295
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 18.09793179084474,
+      "pesq_wb": 3.2894808650016785,
+      "stoi": 0.9609144541131884,
+      "clean_levels": {
+        "rms_gain_ratio": 0.8888752516006345,
+        "reference_normalized_squared_error": 0.031197375464142384
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.959111105641357,
+      "pesq_wb": 1.2095995843410492,
+      "stoi": 0.6447057670020921
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.543794386422427,
+      "pesq_wb": 1.126303881406784,
+      "stoi": 0.4598303395344683
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "direct",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 14.53447390925054,
+      "pesq_wb": 2.4438750743865967,
+      "stoi": 0.9188214533847027,
+      "clean_levels": {
+        "rms_gain_ratio": 0.857830205102391,
+        "reference_normalized_squared_error": 0.041072067164546956
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 0.6792712995468546,
+      "pesq_wb": 1.1961592435836792,
+      "stoi": 0.7908543020425054
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.5224496005340558,
+      "pesq_wb": 1.1416089832782745,
+      "stoi": 0.7515146610739388
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.810693983471699,
+      "pesq_wb": 1.1661565899848938,
+      "stoi": 0.6378483319301749
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.264586096878219,
+      "pesq_wb": 1.0608960688114166,
+      "stoi": 0.6417734501190056
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.05963449307396,
+      "pesq_wb": 4.415923357009888,
+      "stoi": 0.9941056811973719,
+      "clean_levels": {
+        "rms_gain_ratio": 0.707891533694064,
+        "reference_normalized_squared_error": 0.11180082323254745
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 50.96572249474559,
+      "pesq_wb": 4.63985550403595,
+      "stoi": 0.9999976692032464,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9981499835851574,
+        "reference_normalized_squared_error": 2.3590801100642375e-05
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 0.44048628379586097,
+      "pesq_wb": 1.084540843963623,
+      "stoi": 0.7607404428242268
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -0.9951698300074396,
+      "pesq_wb": 1.0714989006519318,
+      "stoi": 0.7440071742948325
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.11246747908177,
+      "pesq_wb": 1.0940793752670288,
+      "stoi": 0.6253687874421442
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.378676156156636,
+      "pesq_wb": 1.1057870090007782,
+      "stoi": 0.6226223653859935
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.16796508669021,
+      "pesq_wb": 3.964024245738983,
+      "stoi": 0.9715986171310148,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5308333479383585,
+        "reference_normalized_squared_error": 0.26313928101221906
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 30.38887027646,
+      "pesq_wb": 4.613112449645996,
+      "stoi": 0.9991640905125491,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9882668108786503,
+        "reference_normalized_squared_error": 0.0015614456882192373
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -0.5800598341777171,
+      "pesq_wb": 1.1505084335803986,
+      "stoi": 0.6614565212803727
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.0061540908561684,
+      "pesq_wb": 1.162717878818512,
+      "stoi": 0.6341244636319366
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -6.611470327973657,
+      "pesq_wb": 1.089163362979889,
+      "stoi": 0.4623357425859018
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -7.7033976625181495,
+      "pesq_wb": 1.0666458904743195,
+      "stoi": 0.45952327701280354
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.018924626865141,
+      "pesq_wb": 3.353558838367462,
+      "stoi": 0.9323668020255637,
+      "clean_levels": {
+        "rms_gain_ratio": 0.644189329852358,
+        "reference_normalized_squared_error": 0.20813483071034578
+      }
+    },
+    {
+      "source_system": "mcnet",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 15.107603591248298,
+      "pesq_wb": 4.305164813995361,
+      "stoi": 0.9801268030774053,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9534053940387099,
+        "reference_normalized_squared_error": 0.026717649933734107
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.21510416380316,
+      "pesq_wb": 1.451357215642929,
+      "stoi": 0.8556523694376753
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.353140038032535,
+      "pesq_wb": 1.643641620874405,
+      "stoi": 0.831598433190309
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.5537093775573387,
+      "pesq_wb": 1.2523609399795532,
+      "stoi": 0.6866734635520995
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.366738425575155,
+      "pesq_wb": 1.2176998257637024,
+      "stoi": 0.6815486467564295
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 15.661159578617907,
+      "pesq_wb": 4.4510074853897095,
+      "stoi": 0.9927685595480474,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6711795229329461,
+        "reference_normalized_squared_error": 0.1345613779349747
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 32.03582704284212,
+      "pesq_wb": 4.5398383140563965,
+      "stoi": 0.9996919983791133,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9885827997023208,
+        "reference_normalized_squared_error": 0.0008967843904382879
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 4.6894349795348855,
+      "pesq_wb": 1.2911442816257477,
+      "stoi": 0.8439915419969627
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 5.7494644635437595,
+      "pesq_wb": 1.5853744447231293,
+      "stoi": 0.828591915360118
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -4.117523423104048,
+      "pesq_wb": 1.1374481916427612,
+      "stoi": 0.6354871558038899
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.8596912716839387,
+      "pesq_wb": 1.2631163895130157,
+      "stoi": 0.6395720127424241
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 9.448238996370472,
+      "pesq_wb": 4.029276072978973,
+      "stoi": 0.9739254054527956,
+      "clean_levels": {
+        "rms_gain_ratio": 0.4905896604151146,
+        "reference_normalized_squared_error": 0.3080125945237049
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 26.72402691912675,
+      "pesq_wb": 4.536760687828064,
+      "stoi": 0.9988928972622231,
+      "clean_levels": {
+        "rms_gain_ratio": 0.959998049978159,
+        "reference_normalized_squared_error": 0.0057481807059916335
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 2.2164735636481554,
+      "pesq_wb": 1.3419064581394196,
+      "stoi": 0.6965808093885311
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 3.6384548164650257,
+      "pesq_wb": 1.7402622401714325,
+      "stoi": 0.680051502099166
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -7.097624940373802,
+      "pesq_wb": 1.1511576771736145,
+      "stoi": 0.4838388451840997
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -4.162286719064586,
+      "pesq_wb": 1.1877993643283844,
+      "stoi": 0.47845584276891784
+    },
+    {
+      "source_system": "cirm",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.750152621268581,
+      "pesq_wb": 3.536927342414856,
+      "stoi": 0.9353642060505986,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5684976604655037,
+        "reference_normalized_squared_error": 0.2527912914122306
+      }
+    },
+    {
+      "source_system": "cirm",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 17.89101183245219,
+      "pesq_wb": 4.41195285320282,
+      "stoi": 0.9848084513734181,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9253105600685878,
+        "reference_normalized_squared_error": 0.02041043189249367
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.4864651034022347,
+      "pesq_wb": 1.4494376182556152,
+      "stoi": 0.8587740432993565
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.5070908428603198,
+      "pesq_wb": 1.6601401567459106,
+      "stoi": 0.8336540998714657
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.007245044100153,
+      "pesq_wb": 1.2587343156337738,
+      "stoi": 0.7037017826002087
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.667094191933884,
+      "pesq_wb": 1.2214472591876984,
+      "stoi": 0.6933154542743911
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.181956111071713,
+      "pesq_wb": 4.488987445831299,
+      "stoi": 0.9938978656075502,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6704070034566338,
+        "reference_normalized_squared_error": 0.13081186700756922
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 30.887290601218744,
+      "pesq_wb": 4.541393995285034,
+      "stoi": 0.9996315864742373,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9870497439753388,
+        "reference_normalized_squared_error": 0.001158721747147432
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 5.308676996654488,
+      "pesq_wb": 1.3203159272670746,
+      "stoi": 0.850854684179511
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 7.3508490440857965,
+      "pesq_wb": 1.6245047450065613,
+      "stoi": 0.8337969361412962
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.4919545608113998,
+      "pesq_wb": 1.1369231939315796,
+      "stoi": 0.6429251473055136
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.2819075352460367,
+      "pesq_wb": 1.278563678264618,
+      "stoi": 0.6443266939004109
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.131901000606824,
+      "pesq_wb": 4.071686148643494,
+      "stoi": 0.9752068910343291,
+      "clean_levels": {
+        "rms_gain_ratio": 0.49192417978481334,
+        "reference_normalized_squared_error": 0.300379340833861
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 23.885349997016917,
+      "pesq_wb": 4.528670072555542,
+      "stoi": 0.9987451933671426,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9364873250077751,
+        "reference_normalized_squared_error": 0.011795806267071567
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 2.0607431157976186,
+      "pesq_wb": 1.3371070623397827,
+      "stoi": 0.69689460549445
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 4.446768342993383,
+      "pesq_wb": 1.7429232895374298,
+      "stoi": 0.6881498776607154
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -7.382368913151255,
+      "pesq_wb": 1.1284642219543457,
+      "stoi": 0.48322953434566907
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.7329410253662534,
+      "pesq_wb": 1.2554543912410736,
+      "stoi": 0.4802794655373218
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.790153641046839,
+      "pesq_wb": 3.512074589729309,
+      "stoi": 0.9345714486193366,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5611681989463223,
+        "reference_normalized_squared_error": 0.25526736962540153
+      }
+    },
+    {
+      "source_system": "cirm_mask",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 18.495098888206698,
+      "pesq_wb": 4.421076536178589,
+      "stoi": 0.9842437239736929,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9194491306532534,
+        "reference_normalized_squared_error": 0.020400807155397684
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.1437707457261785,
+      "pesq_wb": 1.4152400195598602,
+      "stoi": 0.8591918931136904
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.0661179466064348,
+      "pesq_wb": 1.5428248643875122,
+      "stoi": 0.8264168494493833
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -1.4313604426524922,
+      "pesq_wb": 1.2533267736434937,
+      "stoi": 0.7128693894191673
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.921205863845042,
+      "pesq_wb": 1.208840548992157,
+      "stoi": 0.6901190634142746
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 16.576171347319782,
+      "pesq_wb": 4.494488477706909,
+      "stoi": 0.9941185883488259,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6793538597330313,
+        "reference_normalized_squared_error": 0.11991428250139334
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 31.36446739707876,
+      "pesq_wb": 4.534899353981018,
+      "stoi": 0.9996867704566461,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9884516954464494,
+        "reference_normalized_squared_error": 0.0010798248347710922
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 5.19719412804371,
+      "pesq_wb": 1.3016022443771362,
+      "stoi": 0.8498534720153982
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 6.76361473788832,
+      "pesq_wb": 1.551605075597763,
+      "stoi": 0.8257011650935189
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -3.002701442560086,
+      "pesq_wb": 1.1377812325954437,
+      "stoi": 0.6454006330523476
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -2.8011997042007404,
+      "pesq_wb": 1.2333378493785858,
+      "stoi": 0.6426717450798453
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 10.39463084156786,
+      "pesq_wb": 4.084495663642883,
+      "stoi": 0.9768182583144468,
+      "clean_levels": {
+        "rms_gain_ratio": 0.5032297432920705,
+        "reference_normalized_squared_error": 0.2898810802008752
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.16,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 26.203550352473474,
+      "pesq_wb": 4.53325080871582,
+      "stoi": 0.9989194061511795,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9533003671493087,
+        "reference_normalized_squared_error": 0.006755769864890854
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 1.043209441836961,
+      "pesq_wb": 1.3139275014400482,
+      "stoi": 0.6904107518514271
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "point",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 3.983699203340293,
+      "pesq_wb": 1.6582954823970795,
+      "stoi": 0.6918550611149732
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -7.496948293130558,
+      "pesq_wb": 1.11610808968544,
+      "stoi": 0.4789677489378519
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "multi8",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": -5.61808609665096,
+      "pesq_wb": 1.147173434495926,
+      "stoi": 0.474736272014036
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mvdr",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 8.92491052924142,
+      "pesq_wb": 3.4164812564849854,
+      "stoi": 0.9393949561427519,
+      "clean_levels": {
+        "rms_gain_ratio": 0.6058379612462036,
+        "reference_normalized_squared_error": 0.23307519489033168
+      }
+    },
+    {
+      "source_system": "cirm_shape",
+      "method": "mwf",
+      "noise_field": "clean",
+      "requested_rt60": 0.28,
+      "rows": 4,
+      "unique_sources": 4,
+      "si_sdr_db": 19.918356038580825,
+      "pesq_wb": 4.447844982147217,
+      "stoi": 0.9870698761556744,
+      "clean_levels": {
+        "rms_gain_ratio": 0.9442497184776861,
+        "reference_normalized_squared_error": 0.01341337475892941
+      }
+    }
+  ]
+}

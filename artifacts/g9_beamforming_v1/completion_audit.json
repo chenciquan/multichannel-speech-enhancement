@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "checks": {
+    "all2700_new_signal_pairs_unique": true,
+    "all17_systems_on_all900_cases": true,
+    "all_new_metric_rows_ok": true,
+    "all_new_output_hashes": true,
+    "all_new_input_and_reference_hashes": true,
+    "both_new_ASR_exact_pair_coverage": true,
+    "both_new_ASR_scores_recompute": true,
+    "main_mask_input_is_frozen_McNet_not_clean_or_DOA": true,
+    "preflight_archived_before_benchmark": true,
+    "signal_report_before_Whisper": true,
+    "Whisper_report_before_CTC": true,
+    "all12_adapters_unchanged": true,
+    "official_base_unchanged": true
+  },
+  "coverage": {
+    "new_signals": 2700,
+    "new_asr_per_engine": 2700,
+    "combined_per_engine": 15300,
+    "sources": 12,
+    "speakers": 3
+  },
+  "completed_utc": "2026-11-12T04:36:44.136524+00:00"
+}

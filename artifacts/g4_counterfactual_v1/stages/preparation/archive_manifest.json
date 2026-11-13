@@ -1,0 +1,31 @@
+{
+  "saved_at_utc": "2026-11-11T19:32:23.777335+00:00",
+  "files": [
+    {
+      "source": "artifacts/g4_counterfactual_v1/frozen_protocol.json",
+      "snapshot": "00_frozen_protocol.json",
+      "sha256": "c04b12fb3cfa2c7ed185c4e41c2152c204d2f0015e942a2dacdcacae43b9acde"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/rotation_supplement.json",
+      "snapshot": "01_rotation_supplement.json",
+      "sha256": "e1638e444a45e8bad248390572f440e018d9fedb4260c76c9ee46ec5de3dcb63"
+    },
+    {
+      "source": "docs/G4A_数据与压力测试协议.md",
+      "snapshot": "02_G4A_数据与压力测试协议.md",
+      "sha256": "384c15a60f47705504781965c02a8c79f560a6798b8dea2978a87585df2cbd3a"
+    },
+    {
+      "source": "scripts/g4_build.py",
+      "snapshot": "03_g4_build.py",
+      "sha256": "1f95faf2ebcbbe18bd88fceb720dc8b2c3e74e5cf32530b9fd925601451f87bc"
+    },
+    {
+      "source": "scripts/g4_rotation_supplement.py",
+      "snapshot": "04_g4_rotation_supplement.py",
+      "sha256": "807feb36e175fa63b3f3be5a86c4e8c0ad7d73f6888ead8841ea391b57435835"
+    }
+  ],
+  "manifest_sha256": "a400fd3e2088450b0e9c76ab2a9dee607e432b4b76e8596e5d662b587e707ff8"
+}

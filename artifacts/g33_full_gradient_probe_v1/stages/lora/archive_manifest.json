@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T01:35:44.995904+00:00",
+  "files": [
+    {
+      "source": "docs/G33_lora_梯度资源覆盖.md",
+      "snapshot": "00_G33_lora_梯度资源覆盖.md",
+      "sha256": "c619124a8bae2dda3bbb2f4b8743517a7bc803ebd3ac6b78c5cf4fc5da4e13da"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/lora/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "c94781817bbfca1e08d28ba23ff12d78b7584e3853c025aa8de48c2a547b55d2"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/lora/records.json",
+      "snapshot": "02_records.json",
+      "sha256": "697a0838fc751eb5e6c72168eb2bd88b69d3ad0f5f13a0a3a959f8b8306b31aa"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/lora/initial_forward_outputs.npz",
+      "snapshot": "03_initial_forward_outputs.npz",
+      "sha256": "edb2b3d6bd4749c9fc1a96dfd4867778bb2ec0259a2b65aee5e27c80fd9037c6"
+    }
+  ]
+}

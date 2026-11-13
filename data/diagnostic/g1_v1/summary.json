@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "source_utterances": 24,
+  "speakers": 6,
+  "mixtures": 48,
+  "conditions": {
+    "kitchen_activity|0dB": 12,
+    "kitchen_activity|5dB": 12,
+    "washing_machine|0dB": 12,
+    "washing_machine|5dB": 12
+  },
+  "max_duration_seconds": 3.768,
+  "max_snr_error_db_pcm24": 6.224721786907139e-07,
+  "array_domain_label": "official_nominal_dimensions_but_simplified_freefield_not_exact_McNet_training_match",
+  "noise_spatial_model": "synthetic_directional_noise; original recording spatial field is not retained",
+  "manifest_sha256": "c09282b305d0eefa961e7af8b711306399071e32bfb147bc034eed4dd16642cf",
+  "protocol_sha256": "3644be24248223f8f5e9c93246a00b55c5fe8d099dfb6e9dedc88edff8c10a30",
+  "frozen_inputs_sha256": "30953ed8ff05ee2b72a6b5504139cc5b47bbc5c48d8415ff71a499f11dc330aa",
+  "enhancement_or_asr_executed": false,
+  "training_performed": false,
+  "notice": "Synthetic directional-noise discovery set; no intrinsic McNet error or human intelligibility conclusion follows from generation."
+}

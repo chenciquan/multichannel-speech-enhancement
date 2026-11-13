@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:33:23.496628+00:00",
+  "files": [
+    {
+      "source": "docs/G16D_正确训练MVDR信号报告.md",
+      "snapshot": "00_G16D_正确训练MVDR信号报告.md",
+      "sha256": "cbbc26ecc2be2d550ebec7aae13eadb9c691a68526125f3b41e6d147130426af"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/BEAM_COMPLETE.json",
+      "snapshot": "01_BEAM_COMPLETE.json",
+      "sha256": "6b3d7aa24ec1497fa3dea58796b15c4f6b6bcbd115eeda47c2e8b57927520daa"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/beam_provenance.json",
+      "snapshot": "02_beam_provenance.json",
+      "sha256": "863473f18da91b8cbf0ef8da83c98a505f07d3ddc2d9625905f64c7038ed4f5b"
+    },
+    {
+      "source": "scripts/g16_signal.py",
+      "snapshot": "03_g16_signal.py",
+      "sha256": "6b423e66848b08ed2ff41377569481a20e7ed1e5fca60dfe7af2455af74bb4c6"
+    }
+  ]
+}

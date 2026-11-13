@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:19:36.740149+00:00",
+  "ASR": {
+    "Whisper": {
+      "fresh_forwards": 960,
+      "raw_parent_pairs": 480,
+      "cache_skips": 0
+    },
+    "CTC": {
+      "fresh_forwards": 960,
+      "raw_parent_pairs": 480,
+      "cache_skips": 0
+    }
+  },
+  "repeatability": [
+    {
+      "engine": "Whisper",
+      "pairs": 480,
+      "normalized_repeat_changes": 0,
+      "raw_repeat_changes": 0
+    },
+    {
+      "engine": "CTC",
+      "pairs": 480,
+      "normalized_repeat_changes": 0,
+      "raw_repeat_changes": 0
+    }
+  ],
+  "stages": {
+    "completion": "c4f34385da1105dd6af46b152a559217b3aca081812c1a3a2ecc436c9d06e2c3",
+    "ctc": "e470e6b271cbc3f28384b652ebe9a9e49b1d6881894c483721a3511f4c2f9646",
+    "input_acceptance": "ca09bdb0416bce8f65490e96e7d3f5f7be3790516aee1bde34e5b7b32c366c2e",
+    "preparation": "a5917acf6372dc49a7e6cb9050426b708358337dab97bb2a8039e6ffb4905afc",
+    "protocol": "37596e1115d94b2db1d6baa9b6528e04ea8076b633aa8fd3434073b295a531ac",
+    "recognition_protocol": "df530c9dc551dedd8f35ab75132f622d133253c6da9ec2991043ce12d9a54ba8",
+    "whisper": "6864c53585bc0a67d1f6bfbe0109c9dca84bc68c98b66add8eb5ae40606e816b"
+  },
+  "normalization_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851",
+  "completion_audit_sha256": "d25e4ebc2b82753f7c72e58ed1ac92aff212dc4d90e73e400464b9ece78171b2"
+}

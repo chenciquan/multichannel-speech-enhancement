@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T12:57:09.021721+00:00",
+  "files": [
+    {
+      "source": "docs/G18_双识别器异常插入补查.md",
+      "snapshot": "00_G18_双识别器异常插入补查.md",
+      "sha256": "00e966e4e335a045575abd42401bb6b7152db745b8dded4254d73a61e3ac35f5"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/posthoc_ASR_insertions.json",
+      "snapshot": "01_posthoc_ASR_insertions.json",
+      "sha256": "51720c61149ad6103fad976e744a60513123a75887dbb3bcf5a6f75af4b0ad98"
+    },
+    {
+      "source": "scripts/g18_asr_diagnostics.py",
+      "snapshot": "02_g18_asr_diagnostics.py",
+      "sha256": "21f19aa3e9fc3785c441a7a2058b7e7dd88946563e41f7b7b973ffa3ece8b549"
+    }
+  ]
+}

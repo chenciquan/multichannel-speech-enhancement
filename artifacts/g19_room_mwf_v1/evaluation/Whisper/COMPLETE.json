@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-11-12T13:30:11.199767+00:00",
+  "rows": 5040,
+  "unique_paths": 5544,
+  "new_decodes": 5040,
+  "cache_entries": 51355,
+  "asr_scores_sha256": "76a5be1c4e859d57d7d8713d377dfec15ae03896a8c7ec74e4b40f2358202ab8",
+  "cache_new_sha256": "d28b63752d4fb0297cf9829f5e72ad959452b1a426002fe327edb8fda05bbd4b"
+}

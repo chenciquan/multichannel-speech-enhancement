@@ -1,0 +1,26 @@
+[
+  {
+    "noise_id": "OOFFICE",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/noise/OOFFICE_ch01.wav",
+    "sha256": "a831879b26e15732ed511a8d3bf72e23aa1689383aac6c5ba76bcaaa528bc2f2",
+    "duration_seconds": 300.004,
+    "license": "CC-BY-SA-3.0",
+    "source_url": "https://zenodo.org/records/1227121/files/OOFFICE_16k.zip?download=1"
+  },
+  {
+    "noise_id": "NPARK",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g7_v1/noise/NPARK_ch01.wav",
+    "source_url": "https://zenodo.org/records/1227121/files/NPARK_16k.zip?download=1",
+    "official_record": "https://zenodo.org/records/1227121",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "ca69cfa179502c0d16b233dde3735f49392c72e2838934aa179143d61a3e8034",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_seconds": 300.004,
+    "range_bytes_received": 5377865,
+    "remote_archive_bytes": 86029332,
+    "archive_member": "NPARK/ch01.wav",
+    "member_crc32": 2507587302,
+    "full_archive_hash_verified": false
+  }
+]

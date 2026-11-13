@@ -1,0 +1,41 @@
+{
+  "status": "freeze_only_after_G14acceptance_and_decision_report",
+  "question": "With identical source crops,noise clips,target-angle sequence,reference-mic samples,loss,sampler and budget,does rigid rather than counter-rotating TRAIN augmentation change the quality/ASR tradeoff? Improvement is not assumed.",
+  "entry_gate": "G14 FINAL_ACCEPTANCE_AUDIT ok and decision report archived",
+  "training_pool": "Exact2048 G5rotated records; use their target angle sequence and saved base_noise_directions,noise_intervals,source_crop_start,common_scale. New correctly rotated input arrays;preserve all old data.",
+  "training_rotation": "rotate_azimuth(u,target_azimuth-20) in x=right,y=front; target/noise dot products preserved per example",
+  "training_scale": "Exact old G5 common_scale per example unchanged,not recalibrated using new outcomes. FLOAT32 NPY,not clipped PCM. Record peak/range and any abs>1. Old and new reference-mic samples and target labels must be exactly equal.",
+  "training_shape": [
+    2048,
+    6,
+    16128
+  ],
+  "validation": "Replay originalG5 validation RNG2026111503,interval draws and sphere directions;reproduce all54 old inputs exactly before correction. Correct all54 geometries,common anticlip scale across legacy+rigid three-angle variants per group;savecorrected validation only. Development diagnostic,not checkpoint selection;no G10/G14 audio access in trainer.",
+  "seeds": [
+    20261112,
+    20261113,
+    20261114
+  ],
+  "steps_per_seed": 3000,
+  "registration": "Prescribed final-step3000 for all3new seeds irrespective validation scores. All6 G5 no-identity selected comparisons verified to be step3000;do not select different budgets or best new checkpoint. Engine's historical validation selection is retained as diagnostic only and explicitly ignored for registration.",
+  "architecture": "Original frozen McNet CP,rank4 alpha4 LoRA on the same two spatial output FCs;3584trainable parameters,no original source/model modifications",
+  "variant": "without_clean_identity",
+  "optimizer": "Adam",
+  "learning_rate": 0.0003,
+  "gradient_clip_norm": 5.0,
+  "point_sampling_fraction": 0.5,
+  "identity_weight": 0,
+  "batch_size": 1,
+  "AMP": false,
+  "old_engine": "Reuse original g3_train.py via scoped BASE/OUT/PLAN wrapper;do not edit original trainer or old artifacts. Per-run600second process bound and fresh deadline. Same numpy sampler;compare final sampler states/counts with archived same-seed G5fixed and counter runs.",
+  "resource": "Existing local venv only,no new dependency or download. Prior matching G5run measured241s/3000updates and1.45GiB Torch allocated;estimate only,newactualpeaks recorded.Three runs serial;no simultaneous GPU evaluation.",
+  "max_data_seconds": 1800,
+  "max_per_seed_seconds": 600,
+  "max_total_training_seconds": 1900,
+  "stage_gates": "Freeze plan and code;save paired training data/validation/whole-reference checks report before training. Save all3training outcomes,sampler/base digest checks,hashes and registration report before evaluation.",
+  "failure_policy": "On nonfinite loss/gradient,partial updates,base parameter change or timeout,preserve run and stop;no silent retry or omitted seed. No promise ofbetter performance.",
+  "evaluation_after_training": "First use already-viewed corrected-geometry development conditions for diagnosis;then independently preregister and obtain modest fresh speakers with source/speaker/hash exclusions before final confirmation. Compare fixed/counter/rigid all3seeds and matureMVDR outputs. G14isnotfresh finaltest.",
+  "novelty_claim": false,
+  "frozen_utc": "2026-11-12T09:06:33.955155+00:00",
+  "G14_decision_archive_sha256": "4092f6462a2c7bf0013e2ff0af013688213226e9ff26d31d841bd7d5d05cb374"
+}

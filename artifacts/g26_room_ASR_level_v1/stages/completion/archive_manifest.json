@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T23:53:50.656830+00:00",
+  "files": [
+    {
+      "source": "docs/G26_完整双房间原始与电平控制识别对照.md",
+      "snapshot": "00_G26_完整双房间原始与电平控制识别对照.md",
+      "sha256": "14fe65b9d81e36280d22e6b2f7cab1404b42a296d6320323fe1446ee27e4a224"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "19bf0243f3ddb03bc3032a8d3fb0417c7d9d2d7d4d2fedd021104a1aa8febe64"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "652df806992e443f88b3fc3a9e2e0c10f374b8c25179a7bbec46ea91925924d7"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "1e834f0e2284e495b587287f7e17f0bb1b67df9e87b8c7aa295e8526cdf52582"
+    },
+    {
+      "source": "scripts/g26_finish.py",
+      "snapshot": "04_g26_finish.py",
+      "sha256": "b730875565571d6dbf7ea5ead963b629b0464df533d050751ed41a43556b2ea3"
+    }
+  ]
+}

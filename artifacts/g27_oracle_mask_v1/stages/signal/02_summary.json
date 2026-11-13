@@ -1,0 +1,254 @@
+[
+  {
+    "room": "new",
+    "rt": 0,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 15.708528824005421,
+    "pesq_wb": 2.8620720323589115,
+    "stoi": 0.976989266585034,
+    "speech_error_nmse": 0.05828833583940655,
+    "target_gain_db": -1.8921818529174885,
+    "noise_reduction_db": 27.197305004415227,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.005399060809528394,
+      "true_mask_noise_shape_error": 0.0036884151930538698,
+      "McNet_mask_speech_shape_error": 0.05848844929902238,
+      "McNet_mask_noise_shape_error": 0.05821670716571416,
+      "mask_mean": 0.13383365603653052,
+      "mask_fraction_below_001": 0.6391357301117667,
+      "partition_relative_max": 2.7863022099739605e-16
+    }
+  },
+  {
+    "room": "new",
+    "rt": 0,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 15.93753884481757,
+    "pesq_wb": 2.175652311907874,
+    "stoi": 0.9647173383000395,
+    "speech_error_nmse": 0.015288738227400444,
+    "target_gain_db": -0.6022337864143725,
+    "noise_reduction_db": 21.556143771756673,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.005399060809528394,
+      "true_mask_noise_shape_error": 0.0036884151930538698,
+      "McNet_mask_speech_shape_error": 0.05848844929902238,
+      "McNet_mask_noise_shape_error": 0.05821670716571416,
+      "mask_mean": 0.13383365603653052,
+      "mask_fraction_below_001": 0.6391357301117667,
+      "partition_relative_max": 2.7863022099739605e-16
+    }
+  },
+  {
+    "room": "new",
+    "rt": 0.15,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 11.070756497729597,
+    "pesq_wb": 1.9629678924878438,
+    "stoi": 0.9106950486214065,
+    "speech_error_nmse": 0.1470293986078514,
+    "target_gain_db": -3.4918174039243306,
+    "noise_reduction_db": 22.19448978616886,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.008141498045499187,
+      "true_mask_noise_shape_error": 0.0054851833075548855,
+      "McNet_mask_speech_shape_error": 0.08985835402484438,
+      "McNet_mask_noise_shape_error": 0.055856870757183895,
+      "mask_mean": 0.12394945655558239,
+      "mask_fraction_below_001": 0.6463674730173936,
+      "partition_relative_max": 2.915427249339729e-16
+    }
+  },
+  {
+    "room": "new",
+    "rt": 0.15,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 12.980362296546142,
+    "pesq_wb": 1.8523306747277577,
+    "stoi": 0.8974194151465716,
+    "speech_error_nmse": 0.030645735960230798,
+    "target_gain_db": -0.866226429281251,
+    "noise_reduction_db": 18.25621163928782,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.008141498045499187,
+      "true_mask_noise_shape_error": 0.0054851833075548855,
+      "McNet_mask_speech_shape_error": 0.08985835402484438,
+      "McNet_mask_noise_shape_error": 0.055856870757183895,
+      "mask_mean": 0.12394945655558239,
+      "mask_fraction_below_001": 0.6463674730173936,
+      "partition_relative_max": 2.915427249339729e-16
+    }
+  },
+  {
+    "room": "new",
+    "rt": 0.35,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 6.703685035329826,
+    "pesq_wb": 1.325720437698894,
+    "stoi": 0.7672652804091894,
+    "speech_error_nmse": 0.29144409355212814,
+    "target_gain_db": -5.608292380119021,
+    "noise_reduction_db": 18.911206587702427,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.008033618063580071,
+      "true_mask_noise_shape_error": 0.005365504763224903,
+      "McNet_mask_speech_shape_error": 0.07856421403861819,
+      "McNet_mask_noise_shape_error": 0.04573221731007868,
+      "mask_mean": 0.13771151561499867,
+      "mask_fraction_below_001": 0.6017052745874653,
+      "partition_relative_max": 3.050940483004981e-16
+    }
+  },
+  {
+    "room": "new",
+    "rt": 0.35,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 8.537516054828806,
+    "pesq_wb": 1.4659248226218753,
+    "stoi": 0.7555194237928498,
+    "speech_error_nmse": 0.06592666392517871,
+    "target_gain_db": -1.4948591361506034,
+    "noise_reduction_db": 13.59533852884443,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.008033618063580071,
+      "true_mask_noise_shape_error": 0.005365504763224903,
+      "McNet_mask_speech_shape_error": 0.07856421403861819,
+      "McNet_mask_noise_shape_error": 0.04573221731007868,
+      "mask_mean": 0.13771151561499867,
+      "mask_fraction_below_001": 0.6017052745874653,
+      "partition_relative_max": 3.050940483004981e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 15.708528824005421,
+    "pesq_wb": 2.8620720323589115,
+    "stoi": 0.976989266585034,
+    "speech_error_nmse": 0.05828833583940655,
+    "target_gain_db": -1.8921818529174885,
+    "noise_reduction_db": 27.197305004415227,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.005399060809528394,
+      "true_mask_noise_shape_error": 0.0036884151930538698,
+      "McNet_mask_speech_shape_error": 0.05848844929902238,
+      "McNet_mask_noise_shape_error": 0.05821670716571416,
+      "mask_mean": 0.13383365603653052,
+      "mask_fraction_below_001": 0.6391357301117667,
+      "partition_relative_max": 2.7863022099739605e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 15.93753884481757,
+    "pesq_wb": 2.175652311907874,
+    "stoi": 0.9647173383000395,
+    "speech_error_nmse": 0.015288738227400444,
+    "target_gain_db": -0.6022337864143725,
+    "noise_reduction_db": 21.556143771756673,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.005399060809528394,
+      "true_mask_noise_shape_error": 0.0036884151930538698,
+      "McNet_mask_speech_shape_error": 0.05848844929902238,
+      "McNet_mask_noise_shape_error": 0.05821670716571416,
+      "mask_mean": 0.13383365603653052,
+      "mask_fraction_below_001": 0.6391357301117667,
+      "partition_relative_max": 2.7863022099739605e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0.15,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 12.050375727796158,
+    "pesq_wb": 2.102057902349366,
+    "stoi": 0.9399789679311006,
+    "speech_error_nmse": 0.13543389132026215,
+    "target_gain_db": -3.3791231709299705,
+    "noise_reduction_db": 23.58287316232501,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.006633103464940827,
+      "true_mask_noise_shape_error": 0.004976169273493144,
+      "McNet_mask_speech_shape_error": 0.08325491815006768,
+      "McNet_mask_noise_shape_error": 0.058894242308427894,
+      "mask_mean": 0.12552722373502473,
+      "mask_fraction_below_001": 0.6467107762633906,
+      "partition_relative_max": 2.7495507764578833e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0.15,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 13.864879637612553,
+    "pesq_wb": 1.968094054195616,
+    "stoi": 0.9284472699580637,
+    "speech_error_nmse": 0.024183264917989986,
+    "target_gain_db": -0.7930056602231873,
+    "noise_reduction_db": 18.95946286279914,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.006633103464940827,
+      "true_mask_noise_shape_error": 0.004976169273493144,
+      "McNet_mask_speech_shape_error": 0.08325491815006768,
+      "McNet_mask_noise_shape_error": 0.058894242308427894,
+      "mask_mean": 0.12552722373502473,
+      "mask_fraction_below_001": 0.6467107762633906,
+      "partition_relative_max": 2.7495507764578833e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0.35,
+    "system": "truth_ref_power_mask_mvdr",
+    "rows": 72,
+    "si_sdr_db": 7.144171567871859,
+    "pesq_wb": 1.4011398288938735,
+    "stoi": 0.7917107116759966,
+    "speech_error_nmse": 0.2765583957917194,
+    "target_gain_db": -5.410936522436024,
+    "noise_reduction_db": 19.00182093641881,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.006560531486768022,
+      "true_mask_noise_shape_error": 0.004773023151564042,
+      "McNet_mask_speech_shape_error": 0.08205646564528479,
+      "McNet_mask_noise_shape_error": 0.03611352017379411,
+      "mask_mean": 0.14043919043652545,
+      "mask_fraction_below_001": 0.5977869797229637,
+      "partition_relative_max": 2.9875281343811927e-16
+    }
+  },
+  {
+    "room": "reference",
+    "rt": 0.35,
+    "system": "truth_ref_power_mask_mwf",
+    "rows": 72,
+    "si_sdr_db": 9.219555723248739,
+    "pesq_wb": 1.5367862830559413,
+    "stoi": 0.7794882508360865,
+    "speech_error_nmse": 0.056665526582959695,
+    "target_gain_db": -1.3455136610404648,
+    "noise_reduction_db": 13.82796849265967,
+    "mask_diagnostics": {
+      "true_mask_speech_shape_error": 0.006560531486768022,
+      "true_mask_noise_shape_error": 0.004773023151564042,
+      "McNet_mask_speech_shape_error": 0.08205646564528479,
+      "McNet_mask_noise_shape_error": 0.03611352017379411,
+      "mask_mean": 0.14043919043652545,
+      "mask_fraction_below_001": 0.5977869797229637,
+      "partition_relative_max": 2.9875281343811927e-16
+    }
+  }
+]

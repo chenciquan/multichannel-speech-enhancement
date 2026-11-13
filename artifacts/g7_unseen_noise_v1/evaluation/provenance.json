@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-12T03:39:47.805756+00:00",
+  "training_performed": false,
+  "manifest_sha256": "2c639faf57e748069d8c5d9de818220526d4835249cea0d344b3e4da0e626661",
+  "protocol_sha256": "3a92452f55b21aa4a915090629b0dddf2f08eef2dbf485b7c69e78658baf8af6",
+  "supplement_sha256": null,
+  "previous_stage_archive_sha256": "25116fcc9faab6e0ca8438337338d24a562692ee9a0b2d9a4924c1178481d861",
+  "fp32_inference": true,
+  "blas_threads": 1,
+  "cpu_metric_workers": 2,
+  "metric_source": "saved FLOAT WAV, no resampling/normalization/alignment fitting",
+  "checkpoint_selection": "All G5 checkpoints frozen from prior validation,3 complete seed blocks; no new tuning or best-seed selection"
+}

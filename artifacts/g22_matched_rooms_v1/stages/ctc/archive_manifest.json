@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:32:11.972051+00:00",
+  "files": [
+    {
+      "source": "docs/G22_CTC识别覆盖.md",
+      "snapshot": "00_G22_CTC识别覆盖.md",
+      "sha256": "8128bce070c3c477c2b1e9136fb5fe8407ac59b4d3c9b2121f8fe750916b11bc"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/CTC/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "7e185908c2f59637c04ca79fb486ed04348eb4f290f8f1cf7881fdee64fb5fbf"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/CTC/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "56df391b53b1df16d47e0f3730c612b58c19b6ccbcbbda2d93e7cc65fa846691"
+    },
+    {
+      "source": "scripts/g22_asr.py",
+      "snapshot": "03_g22_asr.py",
+      "sha256": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e"
+    }
+  ]
+}

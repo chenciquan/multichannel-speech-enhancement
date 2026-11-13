@@ -1,0 +1,2302 @@
+[
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\本科毕业设计_研究路线与创新方向分析.md",
+    "sha256": "f24a35a6a5eb1b33c7adc56427d21964d413cde3c0b14b6308dcd70f77a65b6d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\持续研究_第二轮阶段总览.md",
+    "sha256": "a1a1568135383ddd474eedfdaa97f97adb91feddc9e679a2c682e2f38d40ba10"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\技术路线_几何审计后修订摘要.md",
+    "sha256": "6b532f0dfedc04b8d508adb7f59c4939f1f3cf6acd9e17257b8f53801d99cb37"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\阶段总结_G19后研究判断.md",
+    "sha256": "93839d61f64800de5f4f3aea963ef19febb3763aaa8ae7f0e61e4c95112ee85d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\开发阶段记录.md",
+    "sha256": "a26bea6c197d9500834688218ed4b526966cf6305daf91000450739e35c70aea"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\连续实验_阶段总览.md",
+    "sha256": "59b45c06be32a6090911f7c0135dfa41ce7d3b688f9ee4607cd74f7a1918a785"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\研究补查_轻量适配与神经波束形成先例_20261112.md",
+    "sha256": "094f4a17864177de59fd587349d890d559f99620295bc76dcdca57be452a15bf"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\研究补查_失真加权Wiener成熟对照_20261112.md",
+    "sha256": "071367e3f9b3d322bdaffa49907bcaad90f3cdfcbf09e546594ba58d122d4e57"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\研究补查_协方差学习与可控失真先例_20261113.md",
+    "sha256": "78f838fc26773dbefa184ecac30e616d6efc23668e842c093eb6e8335dae6a5f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\研究补查_掩码协方差监督与在线适配先例_20261113.md",
+    "sha256": "9b9166969b8a54b917c0ac326c0d9b251155d22d4f3ce16d78d60a34d896f127"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\研究补查_TSOS来源与尺度控制_20261113.md",
+    "sha256": "c29134847d0ca0a6622f62545628068210e3b7071b377b2c0a59b85d4d559069"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\夜间实验_验收汇总.md",
+    "sha256": "fc61828606b5461a4ce10f269126410f4a61c36652b166bc61702c7e050d1bfa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\诊断数据规范.md",
+    "sha256": "bc3d10591ae18f41132fd2ee4fe4063049bb7927ae5f88da4e8014920b584429"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G1_首轮诊断报告.md",
+    "sha256": "9c72541f85172ab32ffc06e4fd8b007ad75671ccba046478e4ff796ce3a5edad"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G1_问题核查与阶段决策.md",
+    "sha256": "b179bfef49e644f7dbef3978d93be12165a272b11b2edc5e038d948a387a92df"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10_辅助试听入口说明.md",
+    "sha256": "8694b9130bbc46b24d43d212dad84a4ecd974390dffb657e7b27240c7f4942a6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10_阶段验收与简明读回.md",
+    "sha256": "6cfebda365c0ae43601313c87db63b7bd50a108fc1ba4e090ac44662ac95d229"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10_新说话人直接输出与MVDR机制验证报告.md",
+    "sha256": "b29100a87e4ab7add8b334f11dc5485ad174dd763b79dd0c1b37c796330cb046"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10A_新说话人语料选择记录.md",
+    "sha256": "1e9dd223e9477e96f8f8e1ab784bc54dc6893ddfde5011b5bea93d3e08220065"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10B_新说话人匹配模拟协议与数据.md",
+    "sha256": "33afb23419755d43f0a5d0c0f7648618581640044b80255a64b528d9df324899"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10C_新说话人直接输出信号报告.md",
+    "sha256": "2f2a2798c1bdd99b4d47f818cbf7024301fa1dd4df0430b335dfbb8b223300f5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10D_新说话人MVDR输出信号报告.md",
+    "sha256": "4f9b76a5229c53366cb41688265fe3bdef3ea45be241826bb422ccd30a5fe288"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G10E_Whisper新说话人初评.md",
+    "sha256": "4471d4f9676e95df8a1f67b46883c92d80d7d5ede55cf9a176c636cf96f3fbc6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G11_固定MVDR目标语音与残余噪声诊断报告.md",
+    "sha256": "5366908b9f9d1bdee793918b3e710d172002cdaa52eedbf9c1c0481c3aa445ad"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G11_验收与分量诊断简明读回.md",
+    "sha256": "4d37324bf87ed0eee2e906253442e9b1a6e5c3812fafefeb51d9c0010616e486"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G11A_分量诊断协议与还原验证.md",
+    "sha256": "484691d8a2cb0ff96fa4aaf919d622ab5e79f1a1dc762a068ebae983ea0d7f83"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G11B_完整分量诊断核对记录.md",
+    "sha256": "359948893bc473a7b9197dd68b6cb8963020eaab3a68b287643fb32996117d2b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G12A_房间响应生成器与资源验证.md",
+    "sha256": "76ed4af5616a9ef86ddab79678548d5bcea33827ad3d8258fbc2341a94d92d23"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G12A_前置包管理检查失败记录.md",
+    "sha256": "3e25a561cb4d496ad734926ddededeb95130fc56a27c832f863abadf0dab647a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G13_几何审计验收与后续决策.md",
+    "sha256": "5311ded2acd55871d868a19bc52128c8cd71d9a13c51db00b0d0d79bf35befe3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G13A_旋转坐标审计与历史结论更正.md",
+    "sha256": "abbde718fba008ddd285b6c25e0bea99a1878f7ae77e01aa7dea4bb35c8f6063"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14_阶段验收与正确几何简明读回.md",
+    "sha256": "7515808485a33c7d34adb96c6a6b10179d3d57429bd4221e56c4cf50dcbecdff"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14_结论读回与正确训练阶段决策.md",
+    "sha256": "fc128fddcd31963729c3fbd52dcfbf42c50059ae6e38113d2007cb13d6c30407"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14_正确几何配对自由场诊断报告.md",
+    "sha256": "6084a9a0c656394158e480898a66732336de031885598778573c88722d84083d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14A_正确几何配对自由场协议与数据.md",
+    "sha256": "373fec7e5cff9a433a2ebbd36cb07cde0137f50e59c6fc61648a4774314c7c0e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14B_配对几何直接输出信号报告.md",
+    "sha256": "11c728d8f5cecdc5eecf7de3881f266966a71fad65454263d28c075ef23bf69f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14C_配对几何MVDR信号报告.md",
+    "sha256": "551e48b78c491665f7c6d9b5252ec119ab44963c28fb88bbd1213ddb6d211332"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G14D_Whisper正确几何配对初评.md",
+    "sha256": "a33dcc4ae421966f5588810f9761f38408f0ec6f6665744a840b01f36667534e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G15_训练阶段验收与后续评估边界.md",
+    "sha256": "e116de987682a748b3249a4605f9e5e7d8353e46b91c315d83184b6f5d7781dd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G15A_正确旋转训练数据与验证重放.md",
+    "sha256": "c0f8e50dc10b2312345c04ef6153d26fdf85b980a13a832c0167c398b6257c42"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G15B_正确旋转三种子训练与注册报告.md",
+    "sha256": "9db1cacc03545c7b969726b84ee32dc49d02c1bc7bc2ba77e5291ea81bcde15a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16_开发负结果与新语音确认决策.md",
+    "sha256": "e7e05d7634f5fb14a77da203ba2da5934ae7e796a90b7b62d65c6ff5d7bf9daa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16_开发诊断验收与三策略简明读回.md",
+    "sha256": "f25e27717e0514428df297c1b34ba5d19f9c6b64b1aaedbbc1eba71983ef9aa4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16_三种方向训练策略开发诊断报告.md",
+    "sha256": "4826de46803e7fcf76189dd7e50608c7770abee36990652cefeb851740e7a584"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16A_正确训练权重注册与推理兼容验证.md",
+    "sha256": "a66b4d0f456d4eeb410612a0e467a73ff375168c38b54cd2b6f056029b8d3ee2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16B_正确几何开发诊断输入与基线复用.md",
+    "sha256": "13cae9ec702b18cfc0356986d553dcc72b80f80b8b7639de93dd3033da1b98c1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16C_正确训练直接输出信号报告.md",
+    "sha256": "e42ed85f3910a0df6e502b698c12576c18a521eb64b98e09e13d5be690cc989a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16D_正确训练MVDR信号报告.md",
+    "sha256": "cbbc26ecc2be2d550ebec7aae13eadb9c691a68526125f3b41e6d147130426af"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G16E_Whisper正确训练开发初评.md",
+    "sha256": "7801f45bd11e7ef2ce2f737dbef9958eb030ac7e7e018fee1de11131d06a35a2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17_确认结果读回与混响阶段决策.md",
+    "sha256": "a1333ac91b6fc19391f4dfb117f70e26e4ed3937dbbf53a357f1ece17c867cf1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17_三种方向训练策略新说话人确认报告.md",
+    "sha256": "cb87c33f66db3de19f2eacf1810d97412b86f4fa173e1a1bf395a58c2c15478d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17_新说话人确认验收与三策略简明读回.md",
+    "sha256": "f064ac29df040cea129d67bf8a6e096a88ddcf5cd9ad49f9e8071aff20bdfe18"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17_新语音辅助试听入口说明.md",
+    "sha256": "7217ee16661c94bbac2a640f64f4bff4f3ad411bf85b4cbe03cd2a652ebf452d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17A_新确认语音选择与排除记录.md",
+    "sha256": "c9b26abe368dd1427cf8bc19207d9fb083c58e3df6f266573cf9bd194812ccf1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17B_新语音正确几何模拟协议与数据.md",
+    "sha256": "b51624657fe3f15e0df9fd0fb58a2a48536b9ef729ff6256aad2518c6053c01c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17C_新语音直接输出信号报告.md",
+    "sha256": "757c1cc654dc379c6edc2e948d3e966f5b6d8e78dec0e7a7f4a4b8ea4e6ce9ad"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17D_新语音MVDR信号报告.md",
+    "sha256": "97028d0b9c8a25256dddfcedf06d12bb1fa68c9954e20b343b31e7b42f73335a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G17E_Whisper新语音确认初评.md",
+    "sha256": "cb9a95444f53d593d77c69a381f2359b94c03f401e2a87fe20e2c1110b79c246"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18_单房间压力验收与简明读回.md",
+    "sha256": "23ba789f1a861e3c5c21ddf69db25e25c791c306cbf75f2351f5a6eec3015a4c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18_房间结果与滤波对照决策.md",
+    "sha256": "45544e43b6734c2b003b6a155742c2a8467d9af07a4dcb08bf295b5722975f12"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18_固定房间反射压力测试报告.md",
+    "sha256": "d6ca8f66d152628bb0164e206c875f59b066a1ced6c17ba6f30f8e38db17fd95"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18_双识别器异常插入补查.md",
+    "sha256": "00e966e4e335a045575abd42401bb6b7152db745b8dded4254d73a61e3ac35f5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18A_固定房间物理协议与容量验证.md",
+    "sha256": "d1eb02d1530f038789f1943a1fa58fe806c385848ca8f020eca1859af952bf5c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18B_单房间反射压力数据与几何协议.md",
+    "sha256": "059fd58fad5b70da899c0856a0b334612aba4161e2bdda114dcf606535043ddd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18C_房间直接输出信号报告.md",
+    "sha256": "87d56d9ce78ded031d8c022f08084bf4fbcc86a364c466e9b8c2318c4272fc60"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18D_房间MVDR信号报告.md",
+    "sha256": "050a084c8a00a372542f93e6e756c750dd71df4b2a03cb02c9485261cdd58a71"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G18E_Whisper单房间反射压力初评.md",
+    "sha256": "7e3898f8146bdb27b5586dd828d37334f1cd0edd90610695ba76de616352a34b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_多通道Wiener对照验收读回.md",
+    "sha256": "390e905a27cf50c762394fb24b0617b13d0f5813a72a1d00372dc192e1745e1c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_多通道Wiener与MVDR对照报告.md",
+    "sha256": "23346d3d2a8f7bdf8dbbe6f00311f7475d923d10ed2865f700b27fbe2c479bd4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_结果读回与房间分量诊断决策.md",
+    "sha256": "ece57bd52b7f8b9e91bf0b3bce51ef0d83c95eb994f5bcc3a7372a2694ff6ea9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_配对差值图说明.md",
+    "sha256": "a9780a3edd56f3325cbb6484890548e9f3715d84530a275efb4cbec0d74f1e4b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_掩码定义文字澄清.md",
+    "sha256": "1f29c60a970745de5511ccb184b548bb07bce06789627941236921b9717fb6b9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_CTC识别覆盖.md",
+    "sha256": "c19d5a3e9d99d40e574219d923148b11305204f34b87b7951a84bfa4c3d0d4f4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19_Whisper识别覆盖.md",
+    "sha256": "bdcf3985106752b25f6a310aace3dc2f776cefdf2294c01207e2d55ca93cb9d9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19A_多通道Wiener对照协议与验证.md",
+    "sha256": "a4fc080dc574003959371677e17350e07f53ed48b3e40ca689a6d31d0976c2aa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G19B_房间MWF信号报告.md",
+    "sha256": "d66d02ac6f4b5c77f4ca4ed304ad60f32a49be9170d226f53e882c52bea99d7e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G2_原因分析与改进方向.md",
+    "sha256": "b10545cac2e036af8a1b5b4db4e8295f31e01485d82268f8f7bb0e305ebf94d9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20_分量结论与真值统计诊断决策.md",
+    "sha256": "dc84bbd1d9cf8f82a4b24ca03ea7de677ea0fbaf38309ee2566936a0fd1f63e8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20_分量诊断验收与简明读回.md",
+    "sha256": "f0eb436c4bea0f3e42335f83d44cdb1fdf953c69c672fb1e2eb22559378d165b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20_固定房间滤波分量诊断报告.md",
+    "sha256": "c8e1ce2db596603ea5c7488d424434d543bf59f7b82a9a45b48c7647c4f60fb2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20_验收读取错误更正.md",
+    "sha256": "5b4adffb1a1862b662ace27d1ab3aee0550a7183315893208793768af353fc16"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20A_房间分量还原协议.md",
+    "sha256": "a0d7663296eac4cd77e52e2f383439dcbb889bf90eda3be2e120f9b2b732c975"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20A_房间分量还原验证报告.md",
+    "sha256": "110701fdc30b7e86f1afa3f0cbf39b802e1f09b028b6a721c42d8caf39672d15"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20B_固定房间滤波分量诊断协议.md",
+    "sha256": "bfe85b1b911e3c385be73ee3da413f2b62d7b4e004e32f466bf028cef33c1fc4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G20B_滤波分量预检报告.md",
+    "sha256": "f2dfde90d3d0863d1c362e77b7892785cff717ef2230175f7818fa9cee9d48a3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_识别结论与配对房间确认决策.md",
+    "sha256": "5ecddffea1536807194bfd2b92fd35ab0ada391e0c875b4e56e0e621d1305520"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_信号读回与识别补查决策.md",
+    "sha256": "30c7f92ec8c8edd6816bb0ff427cd54bff2adcf32058e70948661a5fd6971c5c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_真值统计双识别器验收读回.md",
+    "sha256": "1167e76679146fb461335962f4b03accb6714559086fc0ead5be4c8e7f21da5b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_真值统计信号阶段验收.md",
+    "sha256": "246450e98ffa6aacdb7a822b644066122cad60909fa99f106f055e2b1a691ae3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_真值统计与识别保真综合报告.md",
+    "sha256": "ac7ebe7a66b1bf4f0b487dbf6fd157343cc6a9b470b3b42805725e6fab23523a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_真值统计质量与识别图说明.md",
+    "sha256": "b5e8e69006705f69109bd0bd03cdce58ae604457addfa4d2e6cca69a675731b6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_CTC识别覆盖.md",
+    "sha256": "d8189c673c8fdf773416402b86c22bff3eb9c8919bb1c1c57396bcaeb6c83e0e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21_Whisper识别覆盖.md",
+    "sha256": "857b067ab41d0a7913604fc78853b8f240998fda15e772d7d820ba92bbf45e28"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21A_真值统计预检报告.md",
+    "sha256": "9a77439bdf89a78976fc9b7db829ebc71c8843c08ea6eca40a45c4a14425b5ec"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21A_真值协方差诊断协议.md",
+    "sha256": "e98fbc5a98fdb9060d63b13df72d666872e6c387f686b3688904515e960eb33d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21B_真值协方差信号报告.md",
+    "sha256": "b3913b14b2d30867469a892caed6a80dc64922a5707d86058f09fd4407d4f1ac"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G21C_固定双识别器补查协议.md",
+    "sha256": "33b07b6b6d1b532232a1020d1d8609884245fae2af6ec227b5cf0ecf0e074670"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_房间配对差值图说明.md",
+    "sha256": "8222b6f3db7db6d541e6515fbdd710e0d2c6e8cef32840551afcf3d33c8c1723"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_估计掩码滤波信号阶段报告.md",
+    "sha256": "473e93e1c2d8556b0c59afa765dafa639fd75127020c20c3a9eb76bbf4294a53"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_科学结论与下一阶段问题.md",
+    "sha256": "baaffd40c9bf54a4617eda3574f550587f2e79ed5a8cbf3db6c45f64b6678005"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_数据读回与完整系统评估决策.md",
+    "sha256": "1fca54c2bcdffb6b3f4e0fc1de5a541738531f436b7ecbc659910006020c73e7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_双房间配对信号与识别综合报告.md",
+    "sha256": "24b15cbd38594eb32916225aaab5c61c04a30333252a0ab2a8a06e6604dcad77"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_双房间数据阶段验收.md",
+    "sha256": "bf232e41295202af132e037de429371c7f978bac1eb2c612b878b0ac44df7968"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_完整双房间阶段验收与简明读回.md",
+    "sha256": "9eb72a135299f773de4141d732ff6213915f79897f58ba13c96c891340985423"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_完整信号阶段验收报告.md",
+    "sha256": "879d28a8bae0841b556432e811bb4585302821c2c305a81c2cf2edce1247e021"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_信号阶段独立验收与资源读回.md",
+    "sha256": "a7b0e4fccfbbee25826079c8e99482c0e9c740477039fa3295ec052b91313aca"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_验收后增益控制阶段决策.md",
+    "sha256": "5c9d9fa7affd49f30956db3d127602c8483990a333a52e444ec321a458f74b36"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_真值协方差诊断信号阶段报告.md",
+    "sha256": "26070a1c5145aac9cf90c60986710d22919569be61f645775fb75333ca44770b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_直接输出信号阶段报告.md",
+    "sha256": "ceec750fce9ddf199b72a971d743b0eae7101c24305f5079028e5d1f347bfeb2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_CTC识别覆盖.md",
+    "sha256": "8128bce070c3c477c2b1e9136fb5fe8407ac59b4d3c9b2121f8fe750916b11bc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22_Whisper识别覆盖.md",
+    "sha256": "b316b6f5dd3906af5014f3f6e6f6f616c970bcdf2ea6b0256be33176e59b4119"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22A_匹配电平的新房间确认协议.md",
+    "sha256": "0de221eb01c270f3b2edb9982fa5f878022cfc40eb4b57ef68f4926929fde5ce"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22A_新房间物理核查.md",
+    "sha256": "92db9f969a199a1730dc6f11a0f3a05eb3a69517adc975cd4af8051ce1ab22d2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22B_匹配房间数据与负控制报告.md",
+    "sha256": "952a2ef29cd99bd9ca52636606cc36ff5058f455140f5dc03280604d265ab2d4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22C_完整系统信号评估冻结协议.md",
+    "sha256": "a4f26df59b7e86de87a98d52deac67999eeea82b4089cccf115205fcdb298e7a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G22D_新房间固定双识别器协议.md",
+    "sha256": "6fe48aeb916afd038e185a34ee34edd155d37e8b34a760493900ecbd3d051245"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_固定增益与双识别器敏感性报告.md",
+    "sha256": "d457b3ebdf4e913c55074d07b8f4a1b312b5dd0dc1b6752779963682bad65588"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_识别变化读回与重复性验证决策.md",
+    "sha256": "f2b1e61f8d784527d29f58d64ccf7c8b820325cc9af0730ce37c42846f070d18"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_增益控制阶段验收.md",
+    "sha256": "f51ad61ccbcdebf9c42c4057684af7b6b780c10a50648314de39f34f67e2c713"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_增益控制输入独立核验.md",
+    "sha256": "943481d214af8a61138f4ae07611826fddefc89a130dc7b64abd20849ada0459"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_CTC控制识别覆盖.md",
+    "sha256": "42b971cb85d36493bd27b6d86826ead900aa7b25f658f0911bed546a86a26564"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23_Whisper控制识别覆盖.md",
+    "sha256": "6276e54a60e40a3dc59534bed8b241e5c101e24c3a1a5815283a6e9fefe7bee2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23A_识别器增益敏感性控制协议.md",
+    "sha256": "c60e51bc9611ab129d49e59c53af2f3fa66d04b9316846b2690feeb150216e34"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23B_固定增益波形控制验证.md",
+    "sha256": "e531de6c5eea5611d09d4fed0cb943a98b7d98584a9906f29a321852e858b853"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G23C_固定双识别器执行协议.md",
+    "sha256": "e455bb8b5755527b6a5d1baa26ce1cb68311c4e3c9173b9b6d9a8400226aa522"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_独立重复验证阶段验收.md",
+    "sha256": "8a8afa8dca1dae9b94b0845011ef75d00a5e7343200273d4ab9390799ddcd54f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_独立重复与精确增益识别验证报告.md",
+    "sha256": "98dbe151a46c4e96ab288624ada604626466dab395b3f83e92dcba34b6af9c63"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_精确增益识别变化图说明.md",
+    "sha256": "750504cbde20ab9f2ac5c8d2512ea391b5ad4b22c99d28bc63b9bb05d4811354"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_科学读回与识别电平控制决策.md",
+    "sha256": "30d3fa4df4db1659c9fc17f7a25e9f5947445f5398e6a95c892d09c6bfe212fd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_重复观察输入独立核验.md",
+    "sha256": "a4c9c893df708379e7127d5b0862aa40e9ceaa6b70b6af13dbe7980abf1da366"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_CTC独立推理覆盖.md",
+    "sha256": "4f50bc36a2e8e4c6d73ce0bff2181bd618969cdc914ffaefe7e5995b127e1d56"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24_Whisper独立推理覆盖.md",
+    "sha256": "ecd55218222e23d7f8463d4062bbb7c4a4d041dcafd69e0cca5e99b5c6af5521"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24A_基准重复与精确二进制增益协议.md",
+    "sha256": "6df5b368cf8fd2e54338b5fe1bf195d72c7cdaf4f516163cbdd47e1bcb104026"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24B_二进制增益精确还原验证.md",
+    "sha256": "5f7e915d845fdaf4c814a69d3080da3c571ee88f5cd09723f5fd72307b28c76b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G24C_全观察真实解码执行协议.md",
+    "sha256": "38274f465962de3fd4229845e286619b7c2176cfb3fff2fde63e7ac473d0eaaa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_科学读回与完整房间辅评分决策.md",
+    "sha256": "7424939b89ef8cfbe92b5d008602774c89ed4e0669e8688772338c68059c7291"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_识别电平控制阶段验收.md",
+    "sha256": "effec4167c3c587c1fb113dca552498d1dc8466e4bf26f258cff08d514082e52"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_识别输入电平控制与原始评分对照报告.md",
+    "sha256": "6b7c2956c1b28ce58463104c187a0360f565871889ab0cd235fa8c8c6e4c120c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_输入标准化独立核验.md",
+    "sha256": "a60795f49e468c3bb5fd7028070907f4d13eb9fffce27894e6dbe629c32ccddb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_CTC规范化独立识别覆盖.md",
+    "sha256": "275ec6843213563b6e6730326dc81aa234365faed5ba624abf8a55ff1b5c7099"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25_Whisper规范化独立识别覆盖.md",
+    "sha256": "f7ffab8cb1d01aed9aea37775df53bee6cc3bd8300feead86789e8269314a175"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25A_识别输入电平控制协议.md",
+    "sha256": "6ab695d1f1b97a7bc094770e2a66961b9ac07b1983bf0487cc2472711d5745f4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25B_识别电平输入不变性验证.md",
+    "sha256": "65e833e1b155faaf760378f5b55a73b012e9e27e8e1bc5baac8f595c75ccd932"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G25C_规范化双识别器执行协议.md",
+    "sha256": "5903cfb6e7129540910c2d71f43a1e7b09b15ae1e830374cdde68e9bef6a721a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26_科学读回与掩码瓶颈定位决策.md",
+    "sha256": "902c30c1119db02ad5575fa54c5df2b0306a8497c4971c3d0f1a7882407074df"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26_完整电平辅评分阶段验收.md",
+    "sha256": "66bb8e925cecf9acd45d2c073d363bfe173ea3cf4230670c9f5053c378927aa3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26_完整双房间原始与电平控制识别对照.md",
+    "sha256": "14fe65b9d81e36280d22e6b2f7cab1404b42a296d6320323fe1446ee27e4a224"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26_CTC完整电平辅评分覆盖.md",
+    "sha256": "0471d1d5b9f3e6ba410227f3ae499977fc1f287c9f538be02ebda182a763e435"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26_Whisper完整电平辅评分覆盖.md",
+    "sha256": "529c3ec33ada49c5b588d4fd992826cd34c3797eb237ac36bf8cedf4a9e81dab"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26A_完整房间统一电平辅评分协议.md",
+    "sha256": "e7f9d1fb4f7bf01fff2a2b2bd42d963dade188aeba2bb3f9a1bd9000bb55737b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26B_完整规范化输入清单与负控制.md",
+    "sha256": "8e9007db02f41df20f2e7bf3d1fc15c868baf280cab9c2c978979576e8615924"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G26C_完整电平双识别器执行协议.md",
+    "sha256": "ee3fd42478c214f813e0f591a7fa9be1d94d130ff99afcd667c04569277097d8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_科学结论与训练可行性门槛.md",
+    "sha256": "29a675b4484178d3d7dc133017e7a8b10015008dc325a96ca4065b9a88c9ce18"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_完整真值掩码诊断验收.md",
+    "sha256": "028e3799322843208417bafbda48d4e67a0b2321d711c5c3080b6b5b4beaeca2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_验收文件哈希假设更正.md",
+    "sha256": "ea92b54e511af580719bd6c521e9ca13f71b3aee40d8351c0b5b44f96d631fdd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_真值功率比掩码信号与识别综合报告.md",
+    "sha256": "429c2e7bc9a70b2cbb7bfbab1c618afa69d78ecfa30941b792e349e074502109"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_真值掩码信号验收与瓶颈读回.md",
+    "sha256": "801c5ca402cfbba81e22b2d9ec2a6f12f1741133484976e5933d46ad89044dd4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_CTC双电平识别覆盖.md",
+    "sha256": "061ade40c082bc443a0643cb731ef56f851dc938898d6522372f2cf957b11a8e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27_Whisper双电平识别覆盖.md",
+    "sha256": "db3b1156328c8975e38f8006fe959c5608d76581e1143342245ae54685159af7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27A_真值功率比掩码瓶颈诊断协议.md",
+    "sha256": "c1a91bac8a632f020f1c870be2ee0c40c8ef7e41ec8d4feda69467949028c1e0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27A_真值掩码预检结果.md",
+    "sha256": "652af608b80597da3373f1a31406404e18ae14952f4dba6bfb3d548f0c4689a7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27B_真值功率比掩码信号诊断.md",
+    "sha256": "50230a35e5984349b9cb0f0e4804f084acbda0815e0912fda3f61afff68b0324"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G27C_真值掩码双识别器原始与电平评分协议.md",
+    "sha256": "b7373bd660dca4bcbdf9b6f246ec70650be981104b5fe9f220d9eca9b0b7e076"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28_梯度预检验收与后续边界.md",
+    "sha256": "bfc1c594f7fb3c5bf44ed4978229616fa51a58f17f1a511dc6f187a63d892e7d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28_v1_CPU复数类型失败记录与修正.md",
+    "sha256": "c8eb75f4addfeeb1693d0643db1f37fe5a3b5e7ca56c6ff72ccdc7cac442f50f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28_v2_可微路径与训练显存预检结果.md",
+    "sha256": "d7ba966008769ea7b067ebb139431bb9d42028a9e3713adede2ed40bc8b67cb4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28A_训练输入可微路径与显存预检协议.md",
+    "sha256": "b71b339bd052a9223ed8f3d4fde15b17d29499c39dfbd177a37caee762cad716"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28A_v2_协方差形状损失梯度数值核对.md",
+    "sha256": "f9f485a6dd8e6a7ce99cfe1ecf978e3a5c5fc9d02552023a113eb92d388cd618"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G28A_v2_训练输入可微路径与显存预检协议.md",
+    "sha256": "b71b339bd052a9223ed8f3d4fde15b17d29499c39dfbd177a37caee762cad716"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29_共享混响训练开发数据完整验收.md",
+    "sha256": "0c2e3c58ebd10cc4bfcb6aa079359aae089aeab4e187037d58af95d4f433f60e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29_实际衰减与共享数据范围说明.md",
+    "sha256": "1f89c3ea262a73e3eadeac65df8ece318ddda3b7a7d176a0c97cb4e4bbae475c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29_小规模混响开发实验准备草案.md",
+    "sha256": "ad34dcb2d4c5c506b5b27a4749a337ef984c422dcfca52dbc3ce068af1e5a881"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29A_房间物理预检与角色隔离.md",
+    "sha256": "fc06d364781cb6991980986a9c2fefbba7a812edad65403e7e4ceeec44bec5b7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29A_小规模混响训练开发数据冻结协议.md",
+    "sha256": "671e110c377b4bb219f17d0b02c28613c945f040c2bd0cbb5435cdf1764ad84b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29B_完整RIR与无反射控制.md",
+    "sha256": "b4949511d8fa8b97a800ad54372e9c699ae66d75b87d15b3deeab85753c565f7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29C_共享混响训练开发数据完成报告.md",
+    "sha256": "449ff8d9c4a6a8941d30b41736d0b2be1b3a85e6c70f38daf9736582c4745d85"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G29D_完整输入与标签重放验收协议.md",
+    "sha256": "9bc2f21092ec9eb1f61fd1d59268fbe319cc85c2ecda1aa5e5819456c8903298"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G3_五小时实验验收报告.md",
+    "sha256": "1ef4e868689e8aaa38d3fe9e4f1f4ac32ff8f3498ed9f413317b987a0c555c92"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G3_夜间实验执行说明.md",
+    "sha256": "c9ed8db58465168546d79addd420d992867673311d2c8e2027fd52c86b7ec3ef"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30_同预算混响适配训练验收.md",
+    "sha256": "9e4c2565d2c947e0fd734e051675f419bd901054b3daf2df4121018643cad43b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30_cirm_训练覆盖与资源.md",
+    "sha256": "9c87080239b560bcc9edea02f08b0744cef023600cb9ea429f0cc99ce146f6d8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30_cirm_mask_训练覆盖与资源.md",
+    "sha256": "7c1f31d606d610d956de8b7edc14dd6f5b62efeaee7a5c201a4be837929e892a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30_cirm_shape_训练覆盖与资源.md",
+    "sha256": "a6b11975862a73e2033e7782093a9073e4f428fd433e0f3ad77c8c37d1456df1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30A_混响轻量适配同预算目标对照协议.md",
+    "sha256": "752f382c44407287c4d842aca6d7f66fac3f547e954213be4089edf4153afe28"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G30B_训练输入辅助目标尺度校准.md",
+    "sha256": "cb2ab2bb6cdaf8a1f589415d5ddb88d8ceaee14874c40df51ed524ecdaa6a766"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_科学读回与完整开发语句补充诊断决策.md",
+    "sha256": "3d3582ddc3bbfbcf2cf1d107e5cb2f5a01f290d97e68016128f4f980abcec7cb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_同预算目标开发信号与保真对照报告.md",
+    "sha256": "45c1ae1de4436c11aa3249cc01a117f6fc4e06a78b498674c22b38987759684c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_完整开发评价验收.md",
+    "sha256": "d75561d37e67ef0672eae3a21884afebc114da166f92e78f5d1fe77db0126da1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_cirm_直接输出覆盖.md",
+    "sha256": "4e7c79386361cb4bce8d28dec788644905e86d61a23d1ea874c929c8afbedf2a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_cirm_mask_直接输出覆盖.md",
+    "sha256": "83f3e67c5640cbc79c27a63141f8eb0528bab63551994cd961a3b040e37d053a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_cirm_shape_直接输出覆盖.md",
+    "sha256": "2ff0e5fe882c5bda8859fc87e339aa1b723482c6c1869fbb0a0733903784d4ce"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31_mcnet_直接输出覆盖.md",
+    "sha256": "df1080ec1d0fc88bbdd4cbe31344a2dedab319ecfeeac35ca649b25e43a6cd93"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31A_开发信号与干净语音预登记评价协议.md",
+    "sha256": "cbb0aa0c584f6b791a888ee1d35a634a7098ea31895800596ccc6d305c019f52"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G31B_完整开发直接输出覆盖.md",
+    "sha256": "90436760828550cd81f90e0ca4ffe90faf3fb8d9e97e807518026f4c8919211b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_冻结前词数接口错误记录.md",
+    "sha256": "0b72182d7932f6bde8cea68cbc163e8b4862c0e255d26f7837574d566262e21f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_科学读回与完整语句试听入口.md",
+    "sha256": "3989a5298ed3c1fd1ca01781701a16f894dcd4978b3d422c8b4a7470fb08e786"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_完整开发语句补充诊断验收.md",
+    "sha256": "54ed60ffedaf81e4a94c131833b9f24d09b15257a482c8c910ad3a66148c3d33"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_完整开发语句数据验收.md",
+    "sha256": "13d3b7ef4617d5f6cf0b8ab7d2ac3af172a21c71c5d3b59d9443bc0bffce9613"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_完整开发语句信号阶段验收.md",
+    "sha256": "3cc779d3f8e697f4d327775a5e1467b51dc528fb4ef3d6c7e802a48f06f954a5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_完整开发语句信号与干净电平报告.md",
+    "sha256": "923cf872f565d52371c534025e2ad1752f8cee331349829ac4d568ef59690b52"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_完整开发语句信号与双识别器综合报告.md",
+    "sha256": "69d36b0ab7018c95153f0b61aadd0a9b563669daaaa9055f4412923861051340"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_cirm_整句直接输出覆盖.md",
+    "sha256": "feca1b102a03a5931bc2b6bba6d504f294fbda97cac4572deb9dc0f09b2037d4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_cirm_mask_整句直接输出覆盖.md",
+    "sha256": "7d584dba33ddc7b58bb71cf0961fc608b4e340897b8a2d24f9900de110401928"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_cirm_shape_整句直接输出覆盖.md",
+    "sha256": "7336198ff0e3869c283f774a1f9eb418d6c66ca4901baa3840154e42615efcc9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_CTC_双条件识别覆盖.md",
+    "sha256": "94165932e4077baaf872a43546ee8be3e22b04cef5b1c673fd60a2c9295a8dda"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_mcnet_整句直接输出覆盖.md",
+    "sha256": "abff99644274255f471a74b034e6f8d1326e6ac417f6ea2e101039d6b654cfb0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32_Whisper_双条件识别覆盖.md",
+    "sha256": "3cbda0784b65d010539dd51c8c7e59f41782411f085a5c687ad1c89ad02dfc97"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32A_完整开发语句补充诊断冻结协议.md",
+    "sha256": "eeb456c892a277dd539ea4aff9fe5d452c33d2db83ea5e7be326e151932aff10"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32B_完整开发语句生成覆盖.md",
+    "sha256": "ff6f0733104e9ffe5d1bf610e7e242a9195d6ef1202e8485a38c1b427fd65cde"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32C_完整开发语句信号评价协议.md",
+    "sha256": "a99b0be19283ac0f8d0a3d5c0cdff3c354744f757f76ebcce72ee6d725e3311e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32D_整句直接输出完整覆盖.md",
+    "sha256": "d8fb3b7f3981a60b0d0486ae0aaee865c72472c8965abdfaecb95d42fe0a225b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G32E_完整开发语句固定双识别器协议.md",
+    "sha256": "4e8176be9298fc0dded8bca7875721a03fab1cea2dac8d79f43d2ced87787c81"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33_前向等价验收未通过与数值核查计划.md",
+    "sha256": "3177a54cf99564f9f4c36a2a6e11797f20ab0aa87018edf03e5639deffc38b06"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33_full_梯度资源覆盖.md",
+    "sha256": "01520e5c15b8756d15e0aa35d3be581fb90f2d8ecf5ac8a4f88d0197b6365887"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33_lora_梯度资源覆盖.md",
+    "sha256": "c619124a8bae2dda3bbb2f4b8743517a7bc803ebd3ac6b78c5cf4fc5da4e13da"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33A_全参数与LoRA训练资源预检协议.md",
+    "sha256": "60aa6ba6e6ddadd911c4a3c066fdfce8d06aeab5af803b2479c5fe2c2c689447"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33B_科学读回与统一执行精度建议.md",
+    "sha256": "6ff552d99458ca5a66e159ce7613a52cb857d54a8509140dc2e279fbddbcea1a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33B_数值矩阵独立验收.md",
+    "sha256": "3a88a31f4fdbb92f4da3288c62ab3b577a7a93098c731f3f72f56e15075ab98b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33B_自动求导与后端数值定位结果.md",
+    "sha256": "26837e80b279aa627ca029c4469c4360dd67c19ab968d3061c36e44d84d6c0ca"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G33B_自动求导与后端数值定位协议.md",
+    "sha256": "59a9f328b8c32d1a5bf479bbc333872e75bba14214dadf393f4d2d7b34ccb0e7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G34_统一精度全参数强对照准备草案.md",
+    "sha256": "57122dab91d7bc65b8a4f6ebec27ddc042087c2eddebcef80a2cedc7e38870be"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G34_lora_3e4_固定预算训练记录.md",
+    "sha256": "c876aad3cbf7ca1b7e1e086b0cca260181de087fdb52d156ece48af3b9781dbb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G34A_统一精度适配强对照冻结协议.md",
+    "sha256": "03127f568fbd057806ff0a9e82918b16a4f9f62fb6067d06f35d28c09f9a3c44"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G34A_训练前六条波形接口核查.md",
+    "sha256": "860d3bf2ece6fdd329c2108b7c34e5c05fa6b440a8b573ccd36d12bc3808173f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G3A_训练阶段报告.md",
+    "sha256": "8bbf4dddaa488bd30f688e60bbb75be81c572df8f55190f61a7ce3aa4348c0cd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G3B_信号指标阶段报告.md",
+    "sha256": "c55dff0c6173e99e3a1727df0529298f1960a3185bc863d53f629ae25ebe09c1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G4_结果研判与后续选择.md",
+    "sha256": "7e601d35be28e6be4edea55db229217bef62ca621363a8bd419a962094e86e3c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G4_空间泛化压力测试报告.md",
+    "sha256": "76d53fb5784887cfefdc48b41538ed22938188d0f15fcd23b900b977d75c28c3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G4A_数据与压力测试协议.md",
+    "sha256": "384c15a60f47705504781965c02a8c79f560a6798b8dea2978a87585df2cbd3a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G4B_冻结模型信号评估报告.md",
+    "sha256": "8fa719ca91b15231c3ae322b82b3febb5026921ccf96cdba129ed8d48144e3d5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G5_整场景旋转与新说话人确认报告.md",
+    "sha256": "2c30fb255281fec1ab3d2e8550a9371b62eddb5248e9f7b110bb6a0cd62a4cc2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G5A_配对旋转数据与新语句协议.md",
+    "sha256": "476e74d0b5eb73781cb0644aab96e9b93484a3f3b2f8dc69750662593fd3c4c6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G5B_整场景旋转训练报告.md",
+    "sha256": "a69132e50c1db8b8f00899ccdb9ec9d954996a9ec939e8fb171f78ec9fff8c2d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G5C_新说话人信号指标报告.md",
+    "sha256": "399f1a25b8e466d49cd0bb6350646b6622a7cdad8d8eed9744faa612c4c51093"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G6_本地推理阶段验收.md",
+    "sha256": "d6a42ad64d7c8c0d0dd9614874825acef0edd9f34c909ca701e1916235cc67a6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G6A_本地推理资源实测.md",
+    "sha256": "b904989636296f3423536c41e7fbba900ef73ef913627ad7fc5fed511e4547be"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G6B_本地推理命令与一致性验证.md",
+    "sha256": "466435124a5d4d0672ec7f5f5335948648b4ecb6fbdd47772af5689ab910f369"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G7_新噪声迁移与方向权衡报告.md",
+    "sha256": "fccd5ab3ddfc0624ea4dd8c4127288ba8515d4c182295eecfc6da4cfc8b8ff50"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G7A_新噪声迁移协议与数据.md",
+    "sha256": "a2055f601e9ba173847b17e2fdbb666585410c8ebae993414cc40ac1cd3bd0c3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G7B_新噪声信号指标报告.md",
+    "sha256": "2a00de4d2060e5a57b929ebb475ef76ee0b184a6204a6d418e558db2fc341b98"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G8_双识别器交叉核查报告.md",
+    "sha256": "ff49198d929110ad1803257199fb00eb5dc11eef8de00ee67f8828305437bc10"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G8_验收补充记录.md",
+    "sha256": "483c168c7308b351be55152ebeba7f962a1a89dff12255adb80face02455aab8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G8A_CTC识别器来源与资源验证.md",
+    "sha256": "027ec110013e01d5c1fc7eaffc407ed32f6c8b140811ca114cff8f2f653f8883"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G9_成熟波束形成对照与机制诊断报告.md",
+    "sha256": "a4af94708d7e7ed2731adff3550a9044d411ba9519fff8c5f8a31f7f6c149ef8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G9_验收与后续研究决策.md",
+    "sha256": "dae0fe010839ae7081f834f5e19d6253cd474feebdbff501bdbc027943bff9fe"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G9A_成熟波束形成对照协议与验证.md",
+    "sha256": "5793fae4848af342da28a75de3f67841e8b3cb49a352a5a7cef0c393c309d794"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G9B_波束形成信号与耗时报告.md",
+    "sha256": "34945c78124ff2e00ee8e4c34057d7701fbe89eae7997621a9ff1bd00eab1c6c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\docs\\G9C_Whisper波束形成初评.md",
+    "sha256": "750d0659ac482302a732fd3dab263f8166b699200e7b556f75e36e91af3a4fc2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\baseline_provenance.json",
+    "sha256": "c397d7a657a44e3c31fdaadfb5cc55d2f67f81f50d1c18e4396d7b700805f065"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\continuous_experiment_session.json",
+    "sha256": "e51cd6e468a5c36db43772c150835d09b7571884cd922e377a90578f3763a0f2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\diagnostic_protocol.json",
+    "sha256": "87a8e60a4fc5439b0a43df22aaa9fe5f78c4ef5e0ae36b4d650cd9f7502bb2e4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g1_followup_plan.json",
+    "sha256": "c16c69253a0b66cbaa8142034836421cf4913909c53502b679d77918a324b791"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g1_geometry.json",
+    "sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g1_protocol_frozen.json",
+    "sha256": "78ab0822fe9dac4b4650c123e00f374999bddb1efb5b0a1cdbe6958a9f047373"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g1_source_plan.json",
+    "sha256": "a1e67023c2c6cce478b37b943b291d7e8ed6a62e42fc64b5dd1d3e0440506522"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g10_fresh_speaker_candidate.json",
+    "sha256": "9eafd804b7ba20ff1b6b104418036bdc4eda160b52d6ae2c79fc6d9b311c98d4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g10_fresh_speaker_plan.json",
+    "sha256": "9dc97a8830fc4e8dc6d48d981d820521f48974a6c5b5505aa67b8157f0fa4e9a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g10_review_plan.json",
+    "sha256": "ccf187c5651a5c9735a41dfe130a35ea02181440bb429c967aec372e84dc930b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g11_component_diagnostic_candidate.json",
+    "sha256": "8be357e73b9db565924447d872937c195ce0c4dc51148652770dcfc308193dad"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g11_component_plan.json",
+    "sha256": "4135c15b528a077c080567bf1658e699f4aa280c9c1a81ba0593563c4e37b191"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g12_reverb_plan.json",
+    "sha256": "6af1ac0e00ba213053f68e3a0c158f27320d83eda4dbdbe9c56fdb26dc79c64e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g14_corrected_geometry_plan.json",
+    "sha256": "d4b86f12c7647df28ff4bbec3bed98e72194809277dd0b5edf112fa269684c45"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g15_rigid_training_plan.json",
+    "sha256": "1b9ac545c2d7eda43385356c4965f1249d6f40d9ce3523f4be5548f17f08b6be"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g16_rigid_dev_plan.json",
+    "sha256": "d3965da22947c9372421aeee55defb0e4e2a0bee7c8f7a0c95c8b3481da9eb55"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g17_fresh_confirmation_plan.json",
+    "sha256": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g18_room_candidate.json",
+    "sha256": "674fca0bc875ecb67cb89f31301e7eb4ea62704b6484c6a4c0485f3245c44aad"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g19_mwf_plan.json",
+    "sha256": "de2cde7dca28db6cb2dc8befd4ffefb37c385397a7729d43c1cbf2c89cb33308"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_angle_followup_plan.json",
+    "sha256": "dca35363aaac5c6f67c0bed03389671b292f02ed1ddad44d61cb4605f896e408"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_confirmation_plan.json",
+    "sha256": "bbb947537c9ad2e08c407a531eae81e69d4cdbb1de8afc0e070e7dbccc246891"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_confirmation_render_plan.json",
+    "sha256": "29bb4c9590697a07718918fbc13be811251460c98afd6ce42b32b8427b88e287"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_literature_evidence.json",
+    "sha256": "306a4655e3d46b8d5573aab7f8ae440fd9f29e7fe7128f73bb3b5ccfa1d152f6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_spatial_probe_plan.json",
+    "sha256": "0dea57dba795f22a8935b9f55ee1b62f66f0fc2c9071471157e1e83188f47658"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g2_spectral_spatial_plan.json",
+    "sha256": "bbe7fcc12f52d1dfe2d767944f51c846c92a907e7524a181b94d978d14169b5e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g3_execution_supplement.json",
+    "sha256": "e9344084d3f486d47c0dbf26cc2cc720286a27835f1eb17e3341bb44c81312bb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g3_factorial_extension.json",
+    "sha256": "fb7dec7fcca474c5c0598d9601416f9a0a708acceecbe75d8bb30d269287ddb2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g3_overnight_plan.json",
+    "sha256": "b6ff9d1c8a508b974eb851781ccb88569c214acc89dc52b9617b11f4e3cd6c21"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g31_development_protocol.json",
+    "sha256": "bc4f4c5c6d14c5a3d6ae509b432c7db557307c065e012045aafcade38ef8dc96"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g4_candidate_draft.json",
+    "sha256": "2301ba40baecb7577dd4bdf6921df299508e47164e79cae7a72dfc773d4666cc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g4_counterfactual_protocol.json",
+    "sha256": "c04b12fb3cfa2c7ed185c4e41c2152c204d2f0015e942a2dacdcacae43b9acde"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g5_rotation_plan.json",
+    "sha256": "6e0eb40445039c307c4ecc6d1b51343c8fb9a7ee2266e7d330d05ada4947648d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g6_candidate_draft.json",
+    "sha256": "e33434aa343ddc4a7e51bda783e76afa7704819edfa0e630f8e1e09b8d72d1a5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g6_cli_plan.json",
+    "sha256": "191a0cc93c25bc045574c5317c86edc3bbefe1cea627442fa167e5aedd89a4fc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g6_runtime_plan.json",
+    "sha256": "06b45405bdbc103cee7b358b95ef73e4d4e1b33cfadc15e99d3923e5b51a4a7c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g7_unseen_noise_plan.json",
+    "sha256": "96327d90717b9c0bb1e483f908a2638aadcdff833757953e68069f91c8a9231c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g8_ctc_candidate.json",
+    "sha256": "cac03efc112cbadb1c19fa58e835ddefe2a9f88df2d831a8925ad2f74365a0aa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g9_beamforming_candidate.json",
+    "sha256": "3d012c4588f9929f1146158aa620856eec785205a01f0625e3d21409a6741c7f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\g9_beamforming_plan.json",
+    "sha256": "50ad9be241fe1dcaeae7f1f4c8ccacd68cb2096039b3059031e3923b3d33b652"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\improvement_direction.json",
+    "sha256": "8c6753cd96d886c35892fb689f7db5d720d28b2854b2f58c7bdc474215219944"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\project_status.json",
+    "sha256": "849ea72e37c473422ab1e5edb3608bdb6e2a55f294f2d10c5fe1a65f1e2a9961"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\configs\\research_session_v2.json",
+    "sha256": "6af9ccd1a1175487a887609d9f0f336f671e61ee787dcfe3fa009bf5516acf54"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\__init__.py",
+    "sha256": "148bca2c406e4a0e370c6a90590e43caf7486fde8cc994557c01258efefaed21"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\adaptation.py",
+    "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\asr_level.py",
+    "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\asr_scoring.py",
+    "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\beamforming.py",
+    "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\components.py",
+    "sha256": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\ctc.py",
+    "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\evaluation.py",
+    "sha256": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\geometry.py",
+    "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\manifest.py",
+    "sha256": "68aece6a0839ce8bd06283ac131df019de7d21eb74c28363813e9f87000b340e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\reverberation.py",
+    "sha256": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\runtime.py",
+    "sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\simulation.py",
+    "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\spatial_noise.py",
+    "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\src\\mcse\\wiener.py",
+    "sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\analyze_noise_spectrum.py",
+    "sha256": "835fc0fe22c7670f035b517901d3622e47cbfa19d4fbbb9aaaf895e7792c3251"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\audit_followup_delivery.py",
+    "sha256": "4c86cdc443f42333a43d8d7b011e322cd10b337d699d1703607fbe63a29020b6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\audit_g1_delivery.py",
+    "sha256": "7917569bc6006c9b157644231c8590c6bfc9796df769767c1808596358b9a4e2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\audit_g2_delivery.py",
+    "sha256": "eaf35be97514e9dcb480b1e8e77f89d0a7f2f37c88c4465bbe64bf0816dbc571"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\bootstrap_wsl.sh",
+    "sha256": "c858244f0430a1822aeeaa6c8449327c99db5e5eecb73bdb74130b73833dcbae"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\build_diagnostics.py",
+    "sha256": "f0cbaa0b2417f996e532d5bf8eb03f6fcf54d7981e24bba7ae88015135cc8e5e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\build_review_bundle.py",
+    "sha256": "31ca2da969aa6b722af64d8193ae661f3939466702c3d1777195c836883a744a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\build_spatial_probe.py",
+    "sha256": "e30bdf5d3ff9b00a81d51ac4a53d64726af54fa284a1fd5280d7f8d424785d13"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\check_runtime.py",
+    "sha256": "6750d4334331d721aec0cc6f7c0812398846f004989793162b25273dd8c15bef"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\close_overnight_reports.py",
+    "sha256": "c0dff9ae506eb2dccab2377e86c7db52766c2cbff9506e8faeff04cf3f254021"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\enhance_registered.py",
+    "sha256": "cc4d9f816219ae8a76f5403f0e9e8abb6450d2caa8941b5a5e54f933f86266e4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\fetch_confirmation_sources.py",
+    "sha256": "9cfaecee1ae9559ea769081bc2634d649f4aec72e7b6333a5aecc933ce3c374f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\fetch_diagnostic_sources.py",
+    "sha256": "3bb0c11f40f41280ddb604297deabb57952b46d72fe2373f8e218ea7ab3b689e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\fetch_mcnet.sh",
+    "sha256": "9755feed8fe672b94b2d39bd5b1ad58dd8b8bfff38789cefbda283bcf7abe66a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\final_readback_audit.py",
+    "sha256": "8229368f98be57a9050664a12d3d25a4334159eb94c3521fa849b6837c37e9a8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_accept.py",
+    "sha256": "27e8c8a1726d9298fde9ad62df1189979fff3b9523ce946b5a7f65ab98ec7bc1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_asr.py",
+    "sha256": "7460bb8937118201de2f6cb03dac19d400f78d99f12913b7505354ce87c3ccd9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_build.py",
+    "sha256": "0e41c9b314c7de6a1bd73011a1d136ec1f108f8ad035788b1a672e114f6a7724"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_common.py",
+    "sha256": "357a9ae849039ebe43721df5c2d0a95fbcb2f4aa3fdc367a2d482de93a731ec4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_fetch.py",
+    "sha256": "0de2af2f474668adcdf56da6e30fcd3b0f0f7edd9bd6ea8c532fc6677ab2d048"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_finish.py",
+    "sha256": "58a65a420990f528409420c8d47d294e5319128015b942c1d346e0f5dffed6fb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_queue.py",
+    "sha256": "7c0622de302ec1018a4b54c959c942680fbb39d2d346d8792426ec9ef90f624d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_review.py",
+    "sha256": "9c2288a7a5f19928d940b44726a3fc9c52f1159d75bceb01e9525ef9c94355a9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g10_signal.py",
+    "sha256": "6957ed5971b29f062adce0e43b5f741540d0ffbdc2266267a46824c8e728a6b1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_accept.py",
+    "sha256": "324f15046e03785c547f80eac2eec6977ff8f6a896ac3c60f5c0901b9026569b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_common.py",
+    "sha256": "eb6da3b33083501949f5ea4ebd1b8b9fc422077882877447c45abab52a77fe11"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_finish.py",
+    "sha256": "b529b5407f39adead6bfee10b84c836ed257869291fc1a3d973d7633293311f4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_preflight.py",
+    "sha256": "68ff09212650f7f347d6bea54cddfe23b8b2e0456e1e9c2cb29116a24667970b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_queue.py",
+    "sha256": "ad6c40e091e7afefbacee7ab555478e45ccce9edafaeeda09deedfef4f71128a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g11_run.py",
+    "sha256": "0e059a7f585e8da6006eecfe38440c08d6e5e8e353da343b295ed73f2cee1244"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_accept.py",
+    "sha256": "43ab674cb15c28cb6264c09249e13152f9d60d6d3b3d8eb2ccddba3331456c6b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_asr.py",
+    "sha256": "afc30c298af9582e9a777166b0e502d1205dd777f8bf9ce4b5be5be6aeef0c38"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_asset.py",
+    "sha256": "ba522bdd1c52fb4946cb20c5f998a6b3ec1c013a63afa8d6ceb7a3c557e8f9cd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_build.py",
+    "sha256": "e363a26efc9cb5036261a6bfea3d981739c4e61a573118fce2db920c09a50f82"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_common.py",
+    "sha256": "eecd0b80d6abacdf8ef2c8229d8bd2094d89da018d1569c0bca68234865ba100"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_failure_close.py",
+    "sha256": "53f957efe4c8a057e399ecc9db0f1a81e41a6e228b78a127eeb35c28b6340c27"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_finish.py",
+    "sha256": "3596c084249644ab73f26cc24f5972ce1eaa9689fe1559922f7c9e4d029800cb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_queue.py",
+    "sha256": "d9d2b5fde2f80a3276a8a4cfa746c856e165767812cf79eaf1b0bc280fc514c2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_signal.py",
+    "sha256": "eba51378321914bb937610bb2e480f590a633dfbd5f28fd057df10694f3766eb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g12_start_asset.py",
+    "sha256": "c7810fcea76167a1ada5a7e8ef589147f4dbca1f99f5660496ea2731d9e69d84"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g13_accept.py",
+    "sha256": "f7689124db9c1be28b8a072164d07418f8f92135656e0574070558b38893c26b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g13_geometry_audit.py",
+    "sha256": "824530e8ae49f4f3ccbcd0492367a51f7d2708daf31266e8f884b0c0c383137a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_accept.py",
+    "sha256": "a5c9d8fd40d5e8f3cc1ec8d88b0aecfcd0d5e01fabd8ce09c9c49161d2138ee2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_asr.py",
+    "sha256": "95457887246434f03bd151f706cc0f9288dacbff393c6a6c10ff344faa87d634"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_build.py",
+    "sha256": "f887bd4241f35dfa44eb326b242a8d242f7b765e92157b7b95812e455e3eb302"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_common.py",
+    "sha256": "5b1dbae1f22183f74e26e7ba88c0bbbc3d90d4bb92789356e6628e44ec88ea81"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_decision.py",
+    "sha256": "1807e658a6709796ae91c26112fada2996b64aeda4ddb854edbaeadf0d4c1838"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_finish.py",
+    "sha256": "90ba4e3ecc1f380fd382b1f2a62d3f364155c084ca3257665e4e5fd73a5cf747"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_queue.py",
+    "sha256": "3f96cfa98f10420a3754ad65a0814b168c60158b6f09a307530192c7d2fbf2cb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g14_signal.py",
+    "sha256": "348205a665129e54e76458549317085981cea48ec6ee027a6bbc14d0a072f068"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_accept.py",
+    "sha256": "e453d99cc4aec4364d39fe2cc8f504f363956a443253ce215e0e290d72af311c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_common.py",
+    "sha256": "7a4f26e1501c384981ffe9e636cb8de880a0d9d08e2921fa9b513357deb70fc0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_finish.py",
+    "sha256": "e270f703b59668b2e83cb18a239e609e896278a18fb08a855d39a1148e9b8470"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_prepare.py",
+    "sha256": "a19c0687018eabd4eb542771576cbe599b4448042f6f2ad4a3d6358475594db8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_queue.py",
+    "sha256": "64e7d595b112ac04f380c32a041c6102d4f802ca429c30d955560c553e6461aa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g15_train.py",
+    "sha256": "dc543b1a20bd09cd0e7e5fa72d4e58d920e58336ef4527bfcff359b68b360b8c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_accept.py",
+    "sha256": "63e6fbf121d63e04382b744209466619cd47bf7da261e3684baf841c4d06a863"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_asr.py",
+    "sha256": "3d7f8d56c2faa2da8827fb6101578da1d45a5f53ae330e9df2ce4533265caa46"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_common.py",
+    "sha256": "1da3d465152b3395d412bc706246e17ea2275b9db3094037743bd1c4556a9fd4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_decision.py",
+    "sha256": "3d32d7b9a59a11a04c77d7886daa653c812c126934a87abbe1592d9c163d1ecb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_finish.py",
+    "sha256": "a89f14ac3206d96852557323a6f8e135ac09b89f7f6788b9730ef2486ddd0fac"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_preflight.py",
+    "sha256": "10b7f5c00a3a9825a851b2030e11a8d9893187f4b65d4e444a81d8d318b034b2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_prepare.py",
+    "sha256": "6b52e67ec72b60f2ba52b101e6c2750a5cd671ce4208305eee386469f9814469"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_queue.py",
+    "sha256": "e7ec133c38a0af4846ffe64104416a9299dc37b6d6b121110d6695aabadd9341"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g16_signal.py",
+    "sha256": "6b423e66848b08ed2ff41377569481a20e7ed1e5fca60dfe7af2455af74bb4c6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_accept.py",
+    "sha256": "4d14a95bc8b22c3495a834ed26afd1bcdfdbf60b1af205e7e5fb6fa6c9c161b3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_asr.py",
+    "sha256": "89b66a88a8602ce141a1f2f350932d605d3289c071c803321d54a407187a8cb9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_build.py",
+    "sha256": "4557093e866711fb41a600affc0ab4f3ac85ab3af7da06b78c54c5597646b8d1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_common.py",
+    "sha256": "8898afac18b0dbac778c23cfb9c9c0b371324e2b67d4b84093005ff59b45b4fa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_decision.py",
+    "sha256": "454e357e6973885b262073fa48e0f5c9788090514ba9383cb29b3e9a62dc841b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_fetch.py",
+    "sha256": "22ac9936c4ecb32af01f6949b80a5857ed77a87826486ef139d97259cf6c6e44"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_finish.py",
+    "sha256": "e5dd80472e9b8dbd3b8982e09be4b6e2dafb62bc5d5bd0b957e3244731d98775"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_queue.py",
+    "sha256": "0f04c465f42f8f4fbfb853bb487ff10f0e50aa8e8a4ade34eb52dff7200ce910"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_review.py",
+    "sha256": "6ff78d53a9bba44be2b82d39cd438eb88dbf2271e9f66f5ba5551a8c7efd055a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g17_signal.py",
+    "sha256": "2a0623d88b5193e406398da70a69dd837b68f4083e3b35200bf1dc7ba1d029a1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_accept.py",
+    "sha256": "f6a9678663b29f5441a5f1a9c1ddcf76c399d7033199d5e7eba4e37e7510b996"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_asr_diagnostics.py",
+    "sha256": "21f19aa3e9fc3785c441a7a2058b7e7dd88946563e41f7b7b973ffa3ece8b549"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_asr.py",
+    "sha256": "137692284e0d512c12afa171f3fda0c00d0525b0d4ab5421089c46e73ed6ec5e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_build.py",
+    "sha256": "16ce33f952ca844b2ed2ddb81b3e5e5dd8f6bb31057b9d8be815c3494a3b0430"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_common.py",
+    "sha256": "7a41d63e37df2ce5b3233dfe42eb9ae6b7d0ce6e45548dd81eb7400d7d4b01ef"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_finish.py",
+    "sha256": "820b27eca200e8401e35aec638b888a01720063b348771abf11d1c4b1c4ba760"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_physics.py",
+    "sha256": "84346e71e9d7c22f2577c4716c3ff305588eee9f9fbe30db4edeac770affca51"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_queue.py",
+    "sha256": "3a855ae8e9035153a195a205b60f0a910f6db68e7763e10327da6a85abc7fd50"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_signal.py",
+    "sha256": "c55fd5e66cf98ddc05d1ea8aec206d01b89628dd547bee5980700f48132045de"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g18_start_physics.py",
+    "sha256": "3efeb96dbba985506b130760bff8c1f47188f355f50ceb2214c7b75024d8217b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_accept.py",
+    "sha256": "2678414320511eee92d747c96efce1fdf1329fb38fea101f894b028010bc2fe6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_common.py",
+    "sha256": "79f477a856ebbe021b681e0c12caa97555640d948f77a2fb61bb02f43af9a634"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_finish.py",
+    "sha256": "3b34bf6d83f0e9703591beb7bb3b288f9673e08fb3a3f8bc06ffa8e5b4842e84"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_plot.py",
+    "sha256": "3bf5d5ddd896ba4186ec722bcee96de29baeaf4a36e320f5d18a02e4c68dd508"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_prepare.py",
+    "sha256": "b25cf2eaead534f5d4b28b90e1bbc3549f8f3b5757e90cf40f0af78c9271d8c3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_queue.py",
+    "sha256": "d40cba16fc2335b544aa6a37970e471c7b6882108020cb30849c08d2fcddb733"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_scores.py",
+    "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g19_signal.py",
+    "sha256": "83efda34eea0be6ad3787da6c1efe7d33655813f976c3d30366516d6ab85ec19"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g20_accept.py",
+    "sha256": "88b17826492f6652c40de1fa7d05acc85c0da76ba321227cff43ac89d004e599"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g20_filter.py",
+    "sha256": "f1ba73d3e88a9f8e7b212b9f6fc4d5613628182598076ba8de921482035b2135"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g20_replay.py",
+    "sha256": "45c309894f890c5af2803c0683fd815a308175ba6cd24ee0ffdac3fd9cd89076"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g20_wait_accept.py",
+    "sha256": "dc78214d36e16f2651950e79118866044d4521f1d08941fc490cc9fea944b25a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_accept.py",
+    "sha256": "a5c2806e83cb16d6f07ce315e3fa85cfbdd7a17b113e6514e0960918ab5b4125"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_asr_finish.py",
+    "sha256": "c5bf5387f7c5cafcbba8cd63f0758c77614d13278c6ea7f45f32a9af7db9ed2c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_asr.py",
+    "sha256": "8a633629f4612015b9510bcaa7ffb3d97091e17add4da2d2f1cfa51e550c13a8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_final_accept.py",
+    "sha256": "087754653d4187e140a82b4593875b206be09af0839fc55187b1f46bcb7755de"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_plot.py",
+    "sha256": "d4e04117dd918ff4750f616eafe201f48ff236efa0821e45a726e875f33ec90f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g21_truth_covariance.py",
+    "sha256": "950fe804cbd0e7c4c63dd1ff71cde68f4b2243d310cc8a4ea28c31f19e2a68dc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_asr_finish.py",
+    "sha256": "f927ad60c3a59b49001242ea9b6dd4902e9761bd550b4385a179c3560ed51ab8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_asr.py",
+    "sha256": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_common.py",
+    "sha256": "0a9afe7e0b794b67e30dfcf4089260b5aa9d117bdbb4207f5b6a86f1d3d632c8"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_continue.py",
+    "sha256": "e4c75536f20a9f731b6d39e8766010b4f28793c752682d9c099bf11271ebc46f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_data_accept.py",
+    "sha256": "0ef803379321d3878e271cb104dbfbff3d77c6b65338c8cb8478c965d2ee0ed9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_filter_worker.py",
+    "sha256": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_final_accept.py",
+    "sha256": "3b5037e5e1b37607b4708f179e00c7b4a5fb292a8152154f015bb1a046f5aaa2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_plot.py",
+    "sha256": "1f3818470ccc4b8ac590acc6341088e87bb1006e9def1b8ac40b471b96315fe0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_prepare.py",
+    "sha256": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_readback.py",
+    "sha256": "4daa4ef1159c91a98388dcd7877c74c819ac4531e45abc7de4117fe472fdf269"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_signal_accept.py",
+    "sha256": "f2ddc66585bb5969bf13d3026e09ac581c1eb807274bf16e8c1200527b2f3060"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_signal_finish.py",
+    "sha256": "d543a3a717532ce6da326792289cebcc68148181cab3ad73603b47584322f2e4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_signal_queue.py",
+    "sha256": "2093c7ba41340f93df54cb9a4708859144a4588062e4a644aa3f2b6f1aba0838"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g22_signal.py",
+    "sha256": "3228dc2f916452aa2136d941dc3a76e15d8282515adaf3dc6fe9c80cdc776d7f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g23_accept.py",
+    "sha256": "42255bd2b94b8a745f0f7ceee11c6fab6b76c50b8e4ee40cd75ebc6b67bf4d77"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g23_asr.py",
+    "sha256": "bf71b3257a0a183315d286a05798e6bea0c658e4f3c28814294c30814ef4b1a2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g23_finish.py",
+    "sha256": "8798cd4f4157f1c29d0229194db135e11b0195afd544df02d775d0a2ea1a9371"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g23_prepare.py",
+    "sha256": "ef523fb6e04b93fc2d6410e21e8210c11b415817e06c9f8ec92704b511f89f17"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g23_readback.py",
+    "sha256": "4346e9416971e28a0748f1d1e2c97625093e41d0361e521f87d5ede39fc44056"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_accept.py",
+    "sha256": "b814404030c8291975635d98bd530e03a6bcf2212525c8638ecf1e98c9216d7f"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_asr.py",
+    "sha256": "1c7d0afe9503228933a4f12ab80b6f1aaf4a8ebc77ca94a3618af71fbd418ec4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_finish.py",
+    "sha256": "900ad50d808be7cd184325248271bcf584dff3ef169afe090344101cafaa9503"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_plot.py",
+    "sha256": "33af15a285e587b75c5db28f1252fce5762f5f6890f8bc6e9b89414a0d075d6b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_prepare.py",
+    "sha256": "b6e51bdc8ca6d7de2e6850e34e96332b2d228b267fef9fe1c18e1cc2933af633"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g24_readback.py",
+    "sha256": "4c6a4c60c05b6399c31a894229ff25f033669b9b58956ff3d33bf5fab934654b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g25_accept.py",
+    "sha256": "c02bdfa903ec0754310f5cb83d23e5ffd79552b5664b61ed0c27c5489806fb95"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g25_asr.py",
+    "sha256": "086eeafcc4b790befcd6846827d15868a8fe1a9ba6c1f892141eb445e55adc7c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g25_finish.py",
+    "sha256": "e334925c34613abd9252d29ad363395f155924941919eb3fa035bddfad9ece36"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g25_prepare.py",
+    "sha256": "d6c7d10f7b8ef99916120d5a3ed639060b4b7205d98ce4064892d4bc5c7f5afd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g26_accept.py",
+    "sha256": "d5ea11d3e33d74752727cdcd7e796f57e7b92bc7858d1ab83e278e893d641a88"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g26_asr.py",
+    "sha256": "0f5f6e8537c0bdf4b3d83234128d0b496231c1ec6988e0c3cb215776aa8f6795"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g26_finish.py",
+    "sha256": "b730875565571d6dbf7ea5ead963b629b0464df533d050751ed41a43556b2ea3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g26_prepare.py",
+    "sha256": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g26_readback.py",
+    "sha256": "ae370e4b93ec19848f6d4ae204cdef98a8b21ba42cfb30e9936f4022011e8356"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g27_asr_finish.py",
+    "sha256": "c489c43c5f30780ba7b602086cfe60d236de0ea98938d1d004f954084ddda96a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g27_asr.py",
+    "sha256": "f49d30d4e2c06c07f45f61b0736ca9c7aba5abb979e34b08fc4a591627f1c826"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g27_readback.py",
+    "sha256": "524ff287b4d6df54d677d41fc12ed21ccf2cdfaa0fa26f9a03161cf18794b864"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g27_scientific.py",
+    "sha256": "b11d041ea123ca7ef97fdff7e717a458974ebdad2df12d2f2417114dddf4f7bf"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g27_signal.py",
+    "sha256": "89d4b1c0e3a7d9865f3cd796278394f08660ce6432ff9c37d159975833be03ab"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g28_accept.py",
+    "sha256": "d45ccf71e63b698fe17f19e5090d05140373b73292902670ebcf34289a5eed62"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g28_gradient_v2.py",
+    "sha256": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g28_gradient.py",
+    "sha256": "8ab37566fbb1c9f72893f5835fe62dd6a06d09617735ae4bec882c5cef777441"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g29_accept.py",
+    "sha256": "d503ed7febcdbd47aeba5191d1d246c6b6e702aff88417cbc6bb171c023f4abb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g29_common.py",
+    "sha256": "0cba92d54ef641337a1aed53b115d21214a5e03783f44050bb6d0d98eb007bc2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g29_prepare.py",
+    "sha256": "1aadf8d097699cd3e111f68ec2b954d70adf2d954d4a0414e5a3dc01c5446979"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g29_scientific.py",
+    "sha256": "083c07291c890ef710af4054deea275cd2a93bd6ce06e5dd433fad97f93af8be"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_audit.py",
+    "sha256": "067ef3145cb85e59b25539784697e37019ba0d8a71c7f88779dd2808b1d9c48e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_build.py",
+    "sha256": "db5d5632e455a168dabfa77af98c86bfe404f92681c6c0e6aa4ee81e3c5daccc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_evaluate.py",
+    "sha256": "8312b3ae3852b33bdca175f3eb0e3149eec19c6e778417c29fe2347fccc65284"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_factorial_extension.py",
+    "sha256": "2d6a3b1c91c85e7837b7c96cb75d54c4badef9ed4647ee60b1245d9e4aeb2de6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_fetch.py",
+    "sha256": "fc958f1769c18b43d0d2b2508113ba028aca543f1214be9f45d36fa28111ff3d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_finalize_queue.py",
+    "sha256": "1d357dbffa4f7143bd47b8ecf969c103b4c067d23ed8109364bf7837c59673df"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_metric_timing.py",
+    "sha256": "9783fb012ac5c394958b47c7d52d0c516f86aec6b9811167244ace8eea61dc89"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_plot.py",
+    "sha256": "26b6fd5c97269abc2f5cfc9a7287134965024b2140fc9ad83ade8cd7dc0c5306"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_probe.py",
+    "sha256": "7a9ddfb3d26be26ce20e8b708a2bbcc09996eb84fcf5988033f2c32e28a7bb0c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_report.py",
+    "sha256": "1de6c82e98021d3211420d236b4827c5035d1131155b80381fb253845212fa46"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_stage_archive.py",
+    "sha256": "7587c8d61c682d7cbc978c2ea3e2b7f90dc2c8fc7604005b43b75a91a808c8e5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_status.py",
+    "sha256": "097678f9e1d5583f2417ffe04f13173b45affb988f3953bdb96f493ef31c70aa"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_summarize.py",
+    "sha256": "c63d56600f7b6f60c1b7ebb9d7564305c0afa8487656fe48900c3bf594675aaf"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_train_queue.py",
+    "sha256": "c3a86d94543003add16a6a3b458337735724d33d71f43540384ac6d45ef705af"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g3_train.py",
+    "sha256": "a57c58c489aa86af159dc7a916e87774a7e337c905f1e9951485e80ff7d3839e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_accept.py",
+    "sha256": "a3337c2eddd9b1805b5cf97e0e84905e9e4c55b7dd69a74ddbf95998c24e4bf3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_calibrate.py",
+    "sha256": "9bff42da0d8301e9dd2f32f6f64c5838f109b8da8ac474319eb9421a1b652aa4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_common.py",
+    "sha256": "f518589cea1a6d2c3208f2e11d07025ff72a10ba37ba91c032b4590a5bcacf38"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_prepare.py",
+    "sha256": "3887cd67cf32b546ffe846bba565206f45f8a37c970aaae463d83d1ea050b6f3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_queue.py",
+    "sha256": "bcfb49905142b4b08568ed5c6d8ba86f5d4893d697d36dacf008a9fd7c184656"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g30_train.py",
+    "sha256": "fc344fd5c01058ff2e69de930715cc58782fc938aae8ccc0356b33cb006e83fd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g31_common.py",
+    "sha256": "a4eccf156c6d807bca165376fb5a9daaad1704e70c43efcc9614d86b8abb7d48"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g31_evaluate.py",
+    "sha256": "776e5cf1df8350e0f2673af08dc519d4eb1086d5b1d711b8a70b0dd9b1da454b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g31_finish.py",
+    "sha256": "2e62a07d370a5695350448ed05fb06adc39503dd8d09bfe2b63e64ff23e4fdc7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g31_scientific.py",
+    "sha256": "d6a092a1b3ea98410198a31e2a8a7d71ac631bef75611a4b4a4f9822ee63aac6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g31_worker.py",
+    "sha256": "f7434b416566c651bcf78721c70e23b9b367da5c0144aa420d1a0a2f66c100d4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_asr_finish.py",
+    "sha256": "cd9d8e96c646d9070bc4577ae06ee649b5d7dedaa7386405e4cb891f0360bba5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_asr.py",
+    "sha256": "946fbe5711cafd1b21cb9b84306fe076e1d3059fa2cab5f414086c4b4fc2517e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_common.py",
+    "sha256": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_data_accept.py",
+    "sha256": "3a74fbc1f3c9edace29abb8f43cf42eaf803411eec7464cee1e46b8f9a2b7e9b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_prepare.py",
+    "sha256": "18be0296449bbd0f1965c62112dfe695f698842fba454c069378b7cee25a1b49"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_readback.py",
+    "sha256": "4c24599c9e7b428a551a9e4a335777594fa533dc3b896a01e2d787d7dded3d57"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_signal_finish.py",
+    "sha256": "6957b6f0220dedf584294e7e784594e5ca1116fd6770f02d61df783f90c1caeb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_signal.py",
+    "sha256": "6805bdc9dd6bac1e4adeaf59c5aefbb9b99dc75849ac5cd66983178d2ddd7d5c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g32_worker.py",
+    "sha256": "faff95d02c7a4a89456949dfab5ca48c3593d2e939fe8dee4a7375bbaa440c94"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33_accept.py",
+    "sha256": "35c6390f1eafffc52760b69433b2dadec230e1ac0323c202b4a06a1e7dda2633"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33_common.py",
+    "sha256": "5e33d376bdc3dd9eb22a10660b2bd2f2c365181c32b385226d068390c001ebde"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33_prepare.py",
+    "sha256": "6a17ad4a59b14b7171cd64c968c4754675f4874dc4155c147f9e0fbb57fd68d0"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33_probe.py",
+    "sha256": "144fe2d1070e6bb92689b9e42b1f4e4237102fec3f0ca6264d2592ac65c10c06"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33_queue.py",
+    "sha256": "b8c5b122ac0ef1a2d2fb2881f7bac3bb3810824be14a937917ba4765e4df6d2d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33b_accept.py",
+    "sha256": "58df64ce981b21c41aa9f18c062c32469e7bf567036c9b6337cbd08849aa8e21"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33b_precision_audit.py",
+    "sha256": "a1b8ab528569535755b0944ae729e272c07cd3c94ee64f290777945cede50652"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g33b_readback.py",
+    "sha256": "2dea6b6b470bdcd7e863218375fd93d17ec8027245d2ca9fd37edc01260f8479"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_accept.py",
+    "sha256": "d295b61cb825fd302190e142f9252faeba40327da60c70b8d2912c8a35504c05"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_common.py",
+    "sha256": "4094fe05403706e84de9ad320edc1e0d16646057a5c50ccdeb1ebb256d4760d1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_initial.py",
+    "sha256": "15236e3613ec253a52aef77c1ad93ce77d8aa860ba9aeee0856971c4f5e2d548"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_prepare.py",
+    "sha256": "c502f48f788bd92d9f5ecfc477edd75396a2560a5006aeaaf698b8fedd11b09c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_queue.py",
+    "sha256": "a0bf9fcfe4a1e7a47c22e01a9718ca47824d2b9abe5103fb95ca65b83b681a71"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g34_train.py",
+    "sha256": "1b3cae8bdcbdb6e3c09ae6c372f569f0189e69f86351b4e9fecaad65430444f6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g4_build.py",
+    "sha256": "1f95faf2ebcbbe18bd88fceb720dc8b2c3e74e5cf32530b9fd925601451f87bc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g4_finish.py",
+    "sha256": "71813b9278c2b1db82c78c7ece095addb74c5f4f24fb9b53c130612ad8852b66"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g4_rotation_supplement.py",
+    "sha256": "807feb36e175fa63b3f3be5a86c4e8c0ad7d73f6888ead8841ea391b57435835"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g4_run.py",
+    "sha256": "1583c8d26e60b0a9abdce56fab6cb9a07d1fdefb9cd9e9d7e3d7833a250f643d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_audit_paired_data.py",
+    "sha256": "025e772e2a235575d32afa5e962f3397816304a77ac2c4939d9b1ddc962aad32"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_evaluate.py",
+    "sha256": "95d86f317a28d1f03baa87fb76cd11a36c7fa95081ab9d698cb4c505dabf9581"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_fetch.py",
+    "sha256": "c6300c9d2c68d54111ed00f23ec6785976d3254e9535aecda07d2445eb71eb64"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_finish.py",
+    "sha256": "7e9e919b54ea76ef8cb0b793f7a533ead51b55c6abf5a46b90a1755289f98fb9"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_prepare.py",
+    "sha256": "2a3cd60a8d10240881ce3e8cb5e5aace0b5c999daeb3396c5f5743c3a5acdda5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_queue.py",
+    "sha256": "d59321361c1ffa145d31dc816a58ec130196d8865591da83f041a869818a19ab"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_status.py",
+    "sha256": "d2d8f5204467c1e97210b0e6624763598c560fe978b2cefe0210aba50acaa938"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g5_train.py",
+    "sha256": "e49c161a0be5da5459d37c17754271a1abce2c9de3abc524f4f496dd8296f02b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g6_benchmark.py",
+    "sha256": "749cdbf4d62142fde26dc9b67a331843b960d76eab74d0a177f8c4f618609250"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g6_cli_qa.py",
+    "sha256": "45e085604c299d2d6894931ca468f07e24c34d6240236e0668a665717234d2ff"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g6_close.py",
+    "sha256": "26a0e6c70c158d9a2776f8a74342ca007b43afc6137d30c67eca139579ee767b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g7_build.py",
+    "sha256": "11e60a0b54317b17eb0145e740fc143ccc432cc3fd24b9a839cdf7c7683962bb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g7_evaluate.py",
+    "sha256": "8a5de4c000940554fab4343c32fb85479ef369988c1174edb7fd987c28a02884"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g7_finish.py",
+    "sha256": "eb6beaa201b6ce10fa5b2d2eaa39c9c1357359c6191034106d55d6fab0c24713"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g7_queue.py",
+    "sha256": "19e2a505de156b961a636ff1e31977373a0cbee649ab66e0023807b4640adc22"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_accept.py",
+    "sha256": "9b1c919b5c13050b7de860a5c6ae0d2edda225c8970d1ff9ee9c55a4f1fe7ba5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_asset.py",
+    "sha256": "22dd727e2841e76c5e9a9a00be5e85d77dc191a8df611b800aa424831782d207"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_common.py",
+    "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_evaluate.py",
+    "sha256": "bdcccf69f50051f7a45e5a0341466319e83a15182d5ed0bea65af36472b6f3e1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_finish.py",
+    "sha256": "469e2dab377bb4a816375105f3da4d164f3794ceec355c6c93e8228bcacc636b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g8_queue.py",
+    "sha256": "315d458a55317e8726ad9fd8bea3c3110c2b26df782238327cf46eb6d5bc564d"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_accept.py",
+    "sha256": "227794ae9a222f55c86135a62c9868a391174a679d71f6a705fcef020ad60c64"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_asr.py",
+    "sha256": "12979e3bf6755480707bf2048104f76c2d3a78ae5723e1e81ae6b8a429a1d22c"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_common.py",
+    "sha256": "4952147f16752ee2dc8777ed1fcc4053120f967bdb0f0c52dcad453786524ddd"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_finish.py",
+    "sha256": "496c6bdb00f56421dbf7c0be5562750b7b10ca9af9258ad6359b042db3842317"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_preflight.py",
+    "sha256": "09410c13f310667ea3e77a23605fc72194d9d5eef41c2aeeda59b0d502a9b005"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_queue.py",
+    "sha256": "77b82aacc80f8907525df43e55214df97f4aa59d072860c51ac4087ea72b9765"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\g9_signal.py",
+    "sha256": "fff13607872f80b77ee60865e3a9933c3e1e2869aa379ff9c43f0c4cb75fadcf"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\install_diagnostics.sh",
+    "sha256": "28702883b4cb0f1db943df7b8a311d6410a380f538f0b374a73f12ca88fb976e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\install_inference.sh",
+    "sha256": "0fdf55b1f2b4925d7a374dad2a511e41f6f2a57da618f998ef7acdb1eea06021"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\keep_awake_g3.ps1",
+    "sha256": "65cb8a4b31a8b03973d537d1018790029782b2a4812951ac3b196607b81070ac"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\keep_awake_job.ps1",
+    "sha256": "baa26fccc184eb1ed271df0c928e2af7c84570164169e2a21fa0b8229ff0e7d7"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\mcnet_infer.py",
+    "sha256": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\mwf_literature_record.py",
+    "sha256": "18d86f51930f066a8a6e28ebf8415761f87c145a56d9fadf8a426690e1ccab6e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\plot_g2_evidence.py",
+    "sha256": "cd5f7b753bfcfeb85cb884d6914e212a9f87fa51e9ac6538179574e40da79f07"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\probe_baseline_behavior.py",
+    "sha256": "a4ae1d3707a987980c26547eeeee1c32a6760c408edde710e364f4a6f25e80f1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\run_diagnostics.py",
+    "sha256": "09509421a12f732d772f4256fca6761087143e9d53df71d2e86c5105cea55446"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\run_filter_controls.py",
+    "sha256": "34b2666a4dcdf9a428eae1ed97ff54a069476ea2162dee1003c888be919c23f4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\score_diagnostics.py",
+    "sha256": "515fef8e37d371ec921b71cfd3b6fe8c2c2c9573c3719ecc9f8205e6833096a1"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\score_filter_controls.py",
+    "sha256": "49bc1140e0ab153fddad36afe2cf16f8e7d885df02a1c4559c3347870c497e10"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\stage_status.py",
+    "sha256": "a1d9afcb011c8086926d92db53122dfda5322217e56cb43c8eced3b8cb75efcc"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\summarize_followup.py",
+    "sha256": "c1b35cf573c8f9b6944260eb90839830f202fcc1b2f492f2181a6b36e1e2b24e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\summarize_spatial_probe.py",
+    "sha256": "7229507de12c4da3bbb0b07ecca84b6bc00dc1dc475e73d263fe6fb551d27c4a"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\transcribe_diagnostics.py",
+    "sha256": "b884d763c680f225aa363f9b0306621b78e9ceefc0023899558925d5b08e0a75"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\tsos_formula_check.py",
+    "sha256": "f51a760f34f71363f16b257d003183ea7afd2e35925f57eb0ba0f8a021cf37e2"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\scripts\\validate_manifest.py",
+    "sha256": "98e885de904154b9e7fd54b2dada4e11930da4f1ec25ab05af6414f7c2435229"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_adaptation.py",
+    "sha256": "cd86c3bd45af5277f4f4e11285685e8d7938b8123e03e957c6a188a8684674ee"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_asr_level.py",
+    "sha256": "44716189ef338d9c629bac20ba9ad41ca9f21061c1d1480930526eb1cd093575"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_asr_scoring.py",
+    "sha256": "d0e325329dbb4694b3e6ca3ac935dab1c4e6354fff04d9ff8774d416b2bf7d36"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_azimuth_geometry.py",
+    "sha256": "a27d07cfec01998336c654bb1d142448e08604792b8818a3717673c9d2e490bb"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_beamforming.py",
+    "sha256": "b26ac37b7fb9366baed8ba089dc4658122b9f8138dbf06332276d27cea3d6a92"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_behavior_probe.py",
+    "sha256": "c0d820b1ecf5b9f2e74478c269e156fed414862548437d711b597edfcd26aca4"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_components.py",
+    "sha256": "beab50795774ded33fe73a22f43c33fc3fce45f41a880b88ff470fa136e8f481"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_ctc.py",
+    "sha256": "67215e2aeb4862a4befbaf2c0f711ff4cb052f18b6fb35e7400e1664833cf370"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_evaluation.py",
+    "sha256": "4ac4747b904eeac22d081c6fd5d0993589a4b868a343ae2fcf8249faace8832b"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_g10_analysis.py",
+    "sha256": "8e556539c53202ac4f908f8020ec9f342bc3899c2d4b2309637c7c3122880988"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_g11_analysis.py",
+    "sha256": "2218ee9ea28ce57ff9c5f4ddad64bc55edb3cd2d2258725f9751f3ce3bcc3ca5"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_g14_analysis.py",
+    "sha256": "c3e267448d19d5fdb675b61d4d8c6909d579beadf66cdb4ce40bc663a344bcf6"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_g8_analysis.py",
+    "sha256": "31b1f3d5edca1bd2eb12e9bcf806048e7b6fe7e5fc2d892abd57a80f91d449db"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_manifest.py",
+    "sha256": "48f711417f7ec97a7780a65c77d431e77fd183f6dfd211f92f65f70f7b4c93de"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_mcnet_io.py",
+    "sha256": "7016736c0d1c3940f2a37fcede0262e1cab9a20a200267612006fdb09aa75037"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_reverberation.py",
+    "sha256": "ad350a68f42dab31d57d2815311d2b443ddb2acdfbd9b8b82c2573f9130a517e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_runtime_interface.py",
+    "sha256": "4196d3005b097d5cf2246cfd1a62adecb8b107c14a53ffd438913b7e8f14e2e3"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_simulation.py",
+    "sha256": "42ecacf210a2af527604db7cea749e082f3eff24e31fb5bfb9d1765f1757c607"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_spatial_noise.py",
+    "sha256": "f0f78dfbffdd9f1aa94fe0c3deba48682f91ed60643ae6a3852d7b37227a05af"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_spectral_controls.py",
+    "sha256": "e16ad9d9a2da6746a0a8b716e604f5214a8d415af530ec9d682acb5bbc52fe1e"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\tests\\test_wiener.py",
+    "sha256": "fac34d2b120e0e6b54f15c2a2b0714be4e94ef6b3d3841dc22867c092c85c934"
+  },
+  {
+    "path": "C:\\Users\\chenciquan\\Desktop\\multichannel_speech_enhancement\\README.md",
+    "sha256": "2e8455649ec7879e86b01ab13956dbfbd232ad65c8c9bc78fc42b1032c106ada"
+  }
+]

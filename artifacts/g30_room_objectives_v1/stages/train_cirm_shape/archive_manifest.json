@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:46:28.981469+00:00",
+  "files": [
+    {
+      "source": "docs/G30_cirm_shape_训练覆盖与资源.md",
+      "snapshot": "00_G30_cirm_shape_训练覆盖与资源.md",
+      "sha256": "a6b11975862a73e2033e7782093a9073e4f428fd433e0f3ad77c8c37d1456df1"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/train/cirm_shape/result.json",
+      "snapshot": "01_result.json",
+      "sha256": "e86e31ce0f3e53c302ee954e09a122d6e014ad579a43a8116c8091b6f57008f6"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/train/cirm_shape/config.json",
+      "snapshot": "02_config.json",
+      "sha256": "2ff3c8158a759f98a90ecc29b407e431770a991e8a8b785ad0d74c3e28d33dcf"
+    },
+    {
+      "source": "scripts/g30_train.py",
+      "snapshot": "03_g30_train.py",
+      "sha256": "fc344fd5c01058ff2e69de930715cc58782fc938aae8ccc0356b33cb006e83fd"
+    }
+  ]
+}

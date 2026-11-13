@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-12T04:49:18.689459+00:00",
+  "training_performed": false,
+  "manifest_sha256": "623849b19269963fef2dc9c2e6603a54cfffd72f7c893941f50f13f013c8bdd4",
+  "protocol_sha256": "d5792011563d2ba542541216fb1d4c82808a169ae83a2933c21d7cbfcd9c9e8f",
+  "supplement_sha256": null,
+  "previous_stage_archive_sha256": "75f61aeb48af312f2ea9b6ee63aff4a816a06e00b60ef1265a4a24b88899a589",
+  "fp32_inference": true,
+  "blas_threads": 1,
+  "cpu_metric_workers": 2,
+  "metric_source": "saved FLOAT WAV, no resampling/normalization/alignment fitting",
+  "checkpoint_selection": "All3 previously validation-selected G5 no-identity fixed/rotated seeds; no fresh-source tuning"
+}

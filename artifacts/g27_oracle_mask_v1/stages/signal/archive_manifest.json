@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T23:58:28.755099+00:00",
+  "files": [
+    {
+      "source": "docs/G27B_真值功率比掩码信号诊断.md",
+      "snapshot": "00_G27B_真值功率比掩码信号诊断.md",
+      "sha256": "50230a35e5984349b9cb0f0e4804f084acbda0815e0912fda3f61afff68b0324"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "79f60a4b9dc559d02f157abc9340202892d47a5dd7bd6089096e2a032ce57629"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "f04261fac3e6f35ae3761e67d1577520338869594fb6381fa2f289928d963122"
+    },
+    {
+      "source": "scripts/g27_signal.py",
+      "snapshot": "03_g27_signal.py",
+      "sha256": "89d4b1c0e3a7d9865f3cd796278394f08660ce6432ff9c37d159975833be03ab"
+    }
+  ]
+}

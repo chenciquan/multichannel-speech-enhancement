@@ -1,0 +1,46 @@
+{
+  "stage": "signal",
+  "saved_at_utc": "2026-11-11T19:18:57.477905+00:00",
+  "report": "docs/G3B_\u4fe1\u53f7\u6307\u6807\u9636\u6bb5\u62a5\u544a.md",
+  "files": [
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "00_SIGNAL_COMPLETE.json",
+      "sha256": "946dc505739d448cb92061184033ff701b32bd41f8907ad41dea43f908eaa1ba"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/protocol.json",
+      "snapshot": "01_protocol.json",
+      "sha256": "93ff039af10a8fc67de8217e7a5802e4a7e1ebfb8e73eac882971340a790d495"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/systems.json",
+      "snapshot": "02_systems.json",
+      "sha256": "69fd03d7a4d87418a1f59c45345557a7298e319f3e3940d26fbe36944fe92ef2"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/metric_backends.json",
+      "snapshot": "03_metric_backends.json",
+      "sha256": "e2e4843efd5889282142e0e1a65e979906191cc70d8c9ad8a132014ce50f6350"
+    },
+    {
+      "source": "scripts/g3_evaluate.py",
+      "snapshot": "04_g3_evaluate.py",
+      "sha256": "8312b3ae3852b33bdca175f3eb0e3149eec19c6e778417c29fe2347fccc65284"
+    },
+    {
+      "source": "docs/G3B_\u4fe1\u53f7\u6307\u6807\u9636\u6bb5\u62a5\u544a.md",
+      "snapshot": "05_G3B_\u4fe1\u53f7\u6307\u6807\u9636\u6bb5\u62a5\u544a.md",
+      "sha256": "c55dff0c6173e99e3a1727df0529298f1960a3185bc863d53f629ae25ebe09c1"
+    }
+  ],
+  "referenced_artifacts": [
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/signals.jsonl",
+      "sha256": "797c0773c79fb97b1dec8cddc3a121ff3af7f1168baf04e05d1461a951ebfdba",
+      "role": "all_signal_scores_and_waveform_hashes"
+    }
+  ],
+  "large_audio_checkpoints_copied": false,
+  "large_outputs": "Kept in original per-run directories; hashes and exact checkpoint paths in manifests, no evidence deleted."
+}

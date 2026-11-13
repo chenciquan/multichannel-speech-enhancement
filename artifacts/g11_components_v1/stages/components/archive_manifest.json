@@ -1,0 +1,45 @@
+{
+  "saved_utc": "2026-11-12T07:50:56.656974+00:00",
+  "files": [
+    {
+      "source": "docs/G11B_完整分量诊断核对记录.md",
+      "snapshot": "00_G11B_完整分量诊断核对记录.md",
+      "sha256": "359948893bc473a7b9197dd68b6cb8963020eaab3a68b287643fb32996117d2b"
+    },
+    {
+      "source": "artifacts/g11_components_v1/analysis/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "0590da5dad71dd5834daa068357f4f3c7bffe02b398136672e15922796b3bf82"
+    },
+    {
+      "source": "artifacts/g11_components_v1/analysis/COMPONENTS_COMPLETE.json",
+      "snapshot": "02_COMPONENTS_COMPLETE.json",
+      "sha256": "58bf8437e8491df93a0e6e75b78f8ba01b3cfaf05645fbe4fc376c24a01ad292"
+    },
+    {
+      "source": "artifacts/g11_components_v1/analysis_unit_tests.log",
+      "snapshot": "03_analysis_unit_tests.log",
+      "sha256": "b69f76db9e86da441fd2d0ac71fd8811602894cea7cd0d1da654d708696e49d1"
+    },
+    {
+      "source": "tests/test_g11_analysis.py",
+      "snapshot": "04_test_g11_analysis.py",
+      "sha256": "2218ee9ea28ce57ff9c5f4ddad64bc55edb3cd2d2258725f9751f3ce3bcc3ca5"
+    },
+    {
+      "source": "src/mcse/components.py",
+      "snapshot": "05_components.py",
+      "sha256": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a"
+    },
+    {
+      "source": "scripts/g11_run.py",
+      "snapshot": "06_g11_run.py",
+      "sha256": "0e059a7f585e8da6006eecfe38440c08d6e5e8e353da343b295ed73f2cee1244"
+    },
+    {
+      "source": "scripts/g11_finish.py",
+      "snapshot": "07_g11_finish.py",
+      "sha256": "b529b5407f39adead6bfee10b84c836ed257869291fc1a3d973d7633293311f4"
+    }
+  ]
+}

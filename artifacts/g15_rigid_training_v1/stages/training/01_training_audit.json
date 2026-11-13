@@ -1,0 +1,97 @@
+{
+  "status": "ok",
+  "checks": {
+    "all_three_seeds9000_updates": true,
+    "all_prepared_data_hashes_still_match": true,
+    "all_frozen_code_unchanged": true,
+    "all_sampler_counts_and_states_match_both_old_policies": true,
+    "CPU_and_CUDA_RNG_match_both_old_policies": true,
+    "original_source_and_checkpoint_unchanged": true
+  },
+  "runs": [
+    {
+      "seed": 20261112,
+      "effective_updates": 3000,
+      "validation_final_SI": 1.788902548479182,
+      "validation_final_STOI": 0.8586823646206534,
+      "diagnostic_engine_selected_step_not_used": 3000,
+      "elapsed_seconds": 244.753404346,
+      "peak_allocated_bytes": 1558007808,
+      "peak_reserved_bytes": 3498049536,
+      "base_unchanged": true,
+      "sampler_checks": {
+        "fixed": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "117cb69f05daf10e437db1db6022dd64f97f356ad28fe41c05d5960d3dfe7881"
+        },
+        "rotated": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522"
+        }
+      }
+    },
+    {
+      "seed": 20261113,
+      "effective_updates": 3000,
+      "validation_final_SI": 1.9817085731365975,
+      "validation_final_STOI": 0.8632830837778912,
+      "diagnostic_engine_selected_step_not_used": 3000,
+      "elapsed_seconds": 251.217343525,
+      "peak_allocated_bytes": 1558007808,
+      "peak_reserved_bytes": 3498049536,
+      "base_unchanged": true,
+      "sampler_checks": {
+        "fixed": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "780c6ee32cda78d0eb0d994a1302ae1e3572838af1dfd6cce2789b9f245e2fd7"
+        },
+        "rotated": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "a9af5016b0253c1348cb71814c0edcba2c86d1d6f7f3ba5bfcc5f0ea9b695f12"
+        }
+      }
+    },
+    {
+      "seed": 20261114,
+      "effective_updates": 3000,
+      "validation_final_SI": 2.248728428544629,
+      "validation_final_STOI": 0.8621011809945537,
+      "diagnostic_engine_selected_step_not_used": 3000,
+      "elapsed_seconds": 252.957921221,
+      "peak_allocated_bytes": 1558007808,
+      "peak_reserved_bytes": 3498049536,
+      "base_unchanged": true,
+      "sampler_checks": {
+        "fixed": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "77e525e9aa58d5604e69948c85bceb2be56b87b739a48efcfb2c18167813022d"
+        },
+        "rotated": {
+          "numpy_and_identity_sampler_states_equal": true,
+          "sampler_counts_equal": true,
+          "CPU_torch_RNG_equal": true,
+          "CUDA_torch_RNG_equal": true,
+          "comparison_final_checkpoint_sha256": "558e2812fc31833ee87e6e9dbd3f5963ce62a83982ffbef3f8d6af7983ac2f4c"
+        }
+      }
+    }
+  ],
+  "training_updates": 9000,
+  "completed_utc": "2026-11-12T09:21:03.729593+00:00",
+  "new_test_results": false
+}

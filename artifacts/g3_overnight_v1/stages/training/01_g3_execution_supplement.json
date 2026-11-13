@@ -1,0 +1,14 @@
+{
+  "frozen_before_training": true,
+  "planned_order": ["ordinary_s20261112", "complete_s20261112", "without_stratification_s20261112", "without_clean_identity_s20261112", "ordinary_s20261113", "complete_s20261113"],
+  "steps_per_run": 3000,
+  "batch_size": 1,
+  "checkpoint_every_steps": 500,
+  "validation_metric_selection": "Maximum mean SI-SDR among checkpoints with STOI >= initial baseline STOI - 0.005; if all fail, retain max SI-SDR with gate-failure flag. No ASR or test selection.",
+  "clean_identity_loss": "Every fifth optimizer step: 0.1 * waveform mean squared reconstruction error / reference mean square, using clean multichannel training speech only. No additional fivefold interval multiplier.",
+  "balanced_sampling": "point probability 0.5, point angle uniform over seven training angles; multi8 probability 0.5; ordinary uniform over same fixed pool (point probability 0.25)",
+  "extension": "Only an optional third paired seed at the same 3000 steps, if the first two pairs and both ablations finish successfully before cutoff with >=30 minutes estimated training margin. No post-test tuning.",
+  "evaluation": "360 locked test mixtures, fixed FP32 inference, saved FLOAT WAV metrics, single fixed tiny.en recognizer. Clean-input diagnostic on 30 test sources. No human acoustic-deletion labels assigned automatically.",
+  "independent_unit": "Source utterance for paired bootstrap; repeated mixtures and seeds are not additional independent speakers.",
+  "hard_deadline_utc": "2026-11-11T22:09:35Z"
+}

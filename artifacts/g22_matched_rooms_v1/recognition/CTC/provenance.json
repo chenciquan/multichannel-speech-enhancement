@@ -1,0 +1,58 @@
+{
+  "started_utc": "2026-11-12T19:29:44.691951+00:00",
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "source_caches": [
+    {
+      "path": "artifacts/g8_cross_asr_v1/evaluation/ctc_cache.jsonl",
+      "sha256": "ae13ae48a5994a39d3fd1dff0e529eeb958eb5def7fb3b12084272f85c7ddfb6"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "3710a32c2609fd76308416643ce41309a537b09b4cca483827c8b9713469c605"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "93b95409cc137a18631b5ef88adac3412bd65bdf00ad3154b9d7beb29b2dd984"
+    },
+    {
+      "path": "artifacts/g14_corrected_geometry_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "a1f9aafd72d5108747565a97c43613a467bfe37f252e88bbbdd92a0e147b0a07"
+    },
+    {
+      "path": "artifacts/g16_rigid_dev_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "cc10fe85093ed390d2eb8a63b6bd29ae3aa476fdb9d379fbde52c3ac98543f57"
+    },
+    {
+      "path": "artifacts/g17_fresh_confirmation_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "81dcec6e2c4e358a16c60d11a077c81124691adcb09c40d9888443af4a6795dc"
+    },
+    {
+      "path": "artifacts/g18_room_stress_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "abd172e7f5f7987ee8bbc36e161852d20adebd4b9ce323412108f5ee1903c741"
+    },
+    {
+      "path": "artifacts/g19_room_mwf_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "b267c3ff3a03285c079ff93d8591c72a5e180fcf1cbed8e898d4c090e980eeff"
+    },
+    {
+      "path": "artifacts/g21_truth_covariance_v1/recognition/CTC/cache_new.jsonl",
+      "sha256": "8b31acb5026d84ca995be8c91112afc83de094e01ae66175a0d09ae96bae9319"
+    }
+  ],
+  "frozen_plan_sha256": "ae633de321883f291011c4b945ed21c4330000184e0b92d6ad91ca74c734d7c6",
+  "previous_stage_sha256": "4d074d5fa81c7d5c0cb2423b7b085cb5519229993c4b5ab8a8cbcd8fc2a19faa",
+  "signal_sha256": "e58a1b27a8579c0f410d4dbd288a40112f43133bb39f8921a35a357dfc8bd94d",
+  "references": "Decode each uncached PCM hash; never reuse by transcript, room label, or old sample ID"
+}

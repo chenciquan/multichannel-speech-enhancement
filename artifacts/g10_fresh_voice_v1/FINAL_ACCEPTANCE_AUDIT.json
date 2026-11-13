@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "checks": {
+    "G10_audit_ok": true,
+    "full77_tests_passed": true,
+    "temporary_awake_released": true,
+    "report_only_revision_before_ASR": true,
+    "Whisper_used_archived_corrected_ASR_version": true,
+    "all_stage_snapshots_match": true
+  },
+  "snapshot_files_checked": 40,
+  "completed_utc": "2026-11-12T07:27:33.794896+00:00"
+}

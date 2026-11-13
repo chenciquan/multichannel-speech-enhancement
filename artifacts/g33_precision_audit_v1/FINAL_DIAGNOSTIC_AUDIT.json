@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T02:10:08.232062+00:00",
+  "forwards": 240,
+  "comparisons_independently_recomputed": 240,
+  "stored_waveforms_verified": 240,
+  "old_replays_recomputed": 12,
+  "optimizer_updates": 0,
+  "scope": "matrix integrity/replication, not a guarantee of forwardequivalence or oldG33acceptance",
+  "G33_original_gate_still_failed": true,
+  "stages": {
+    "numerical_results": "4fb20cf1dc9971cd8899be7d354f68162ee3ab8acfc33a33ac83f8b2093145fa",
+    "protocol": "050bb94c0c0ade15ed092fe8fad9e4cc3bdaf05402b37c547d2cee44b2245faa"
+  },
+  "numerical_complete_sha256": "2505f58b27478f2918ac82160daab5d6a0898b5fda413f02d39557104f04f8dd"
+}

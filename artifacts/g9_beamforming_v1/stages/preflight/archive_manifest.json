@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-12T04:22:23.621983+00:00",
+  "files": [
+    {
+      "source": "docs/G9A_成熟波束形成对照协议与验证.md",
+      "snapshot": "00_G9A_成熟波束形成对照协议与验证.md",
+      "sha256": "5793fae4848af342da28a75de3f67841e8b3cb49a352a5a7cef0c393c309d794"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "cec7aadf145cc9c36c4c0e9d31f77612d12512ed5f8cffb7b5edeff5243b22e1"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/preflight_tests.log",
+      "snapshot": "02_preflight_tests.log",
+      "sha256": "f8bfb96bdfc04656ee64d3ec4839c10f852d5f6f95c67a025265927db09434a2"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "03_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "tests/test_beamforming.py",
+      "snapshot": "04_test_beamforming.py",
+      "sha256": "b26ac37b7fb9366baed8ba089dc4658122b9f8138dbf06332276d27cea3d6a92"
+    },
+    {
+      "source": "scripts/g9_common.py",
+      "snapshot": "05_g9_common.py",
+      "sha256": "4952147f16752ee2dc8777ed1fcc4053120f967bdb0f0c52dcad453786524ddd"
+    },
+    {
+      "source": "scripts/g9_preflight.py",
+      "snapshot": "06_g9_preflight.py",
+      "sha256": "09410c13f310667ea3e77a23605fc72194d9d5eef41c2aeeda59b0d502a9b005"
+    }
+  ]
+}

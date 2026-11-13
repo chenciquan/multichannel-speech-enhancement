@@ -1,0 +1,81 @@
+{
+  "total_cases": 48,
+  "successful_cases": 48,
+  "failed_cases": 0,
+  "metrics": {
+    "si_sdr_db": {
+      "noisy": {
+        "n": 48,
+        "mean": -0.9795101331526729,
+        "median": -0.5524525194639599
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": -0.8635239430533753,
+        "median": -0.5662498845015271
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.11598619009929755,
+        "median": 0.14751969079655047
+      }
+    },
+    "stoi": {
+      "noisy": {
+        "n": 48,
+        "mean": 0.9499879532485368,
+        "median": 0.9732438986314522
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 0.9529537314397745,
+        "median": 0.9764887194792706
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.0029657781912376413,
+        "median": 0.00036750325759360436
+      }
+    },
+    "pesq_wb": {
+      "noisy": {
+        "n": 48,
+        "mean": 2.1753959357738495,
+        "median": 1.552968442440033
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 2.3863495091597238,
+        "median": 2.1398987770080566
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.21095357338587442,
+        "median": 0.09568750858306885
+      }
+    }
+  },
+  "human_content_loss_judgement": "not_assessed",
+  "status": "ok",
+  "input_manifest_sha256": "83fb568fb406c031de65f62a30a35e8eda0f8498bdb4a3bc994703a4f53322a3",
+  "model_loaded_once": true,
+  "unique_sources": 6,
+  "unique_speakers": 6,
+  "metric_backends": {
+    "stoi": {
+      "status": "available",
+      "package": "pystoi",
+      "version": "0.4.1"
+    },
+    "pesq_wb": {
+      "status": "available",
+      "package": "pesq",
+      "version": "0.0.4"
+    }
+  },
+  "training_performed": false,
+  "cuda_peak_allocated_bytes": 1772049408,
+  "cuda_peak_reserved_bytes": 5282725888,
+  "asr_performed": false,
+  "notice": "Exploratory signal-level diagnostics only. No human content-loss event has been adjudicated."
+}

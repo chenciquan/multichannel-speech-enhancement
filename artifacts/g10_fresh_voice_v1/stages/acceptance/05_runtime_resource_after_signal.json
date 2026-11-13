@@ -1,0 +1,9 @@
+{
+  "recorded_utc":"2026-11-12T05:36:36Z",
+  "stage":"Signal subprocess finished; Whisper ASR active",
+  "command":"wsl.exe -d Ubuntu --exec /usr/lib/wsl/lib/nvidia-smi --query-gpu=utilization.gpu,memory.used,memory.total,temperature.gpu,power.draw --format=csv,noheader",
+  "output":"34 %, 1282 MiB, 8188 MiB, 72, 16.26 W",
+  "scope":"Device-wide snapshot,not a phase peak or process allocated tensor statistic",
+  "signal_result":"9360 signal pairs successful,direct and MVDR reports archived; no OOM interruption",
+  "interpretation":"Device use fell after signal subprocess ended. This does not independently separate active tensors from cached allocations during the previous process. No driver/CUDA/power-plan adjustment made."
+}

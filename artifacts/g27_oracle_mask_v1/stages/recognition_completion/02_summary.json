@@ -1,0 +1,4500 @@
+{
+  "systems": [
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 4.738478284280036,
+      "pesq_wb": 1.399286711105594,
+      "stoi": 0.870071153645363,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 239,
+          "D": 3,
+          "I": 52,
+          "correct": 1108,
+          "errors": 294,
+          "utterances": 216,
+          "wer": 0.21777777777777776,
+          "deletion_rate": 0.0022222222222222222
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 243,
+          "D": 2,
+          "I": 51,
+          "correct": 1105,
+          "errors": 296,
+          "utterances": 216,
+          "wer": 0.21925925925925926,
+          "deletion_rate": 0.0014814814814814814
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 196,
+          "D": 6,
+          "I": 15,
+          "correct": 1148,
+          "errors": 217,
+          "utterances": 216,
+          "wer": 0.16074074074074074,
+          "deletion_rate": 0.0044444444444444444
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 195,
+          "D": 2,
+          "I": 14,
+          "correct": 1153,
+          "errors": 211,
+          "utterances": 216,
+          "wer": 0.1562962962962963,
+          "deletion_rate": 0.0014814814814814814
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -0.18374892520081104,
+      "pesq_wb": 1.1220857716268964,
+      "stoi": 0.7655712714185879,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 148,
+          "D": 44,
+          "I": 23,
+          "correct": 258,
+          "errors": 215,
+          "utterances": 72,
+          "wer": 0.4777777777777778,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 141,
+          "D": 48,
+          "I": 23,
+          "correct": 261,
+          "errors": 212,
+          "utterances": 72,
+          "wer": 0.4711111111111111,
+          "deletion_rate": 0.10666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 133,
+          "D": 57,
+          "I": 10,
+          "correct": 260,
+          "errors": 200,
+          "utterances": 72,
+          "wer": 0.4444444444444444,
+          "deletion_rate": 0.12666666666666668
+        },
+        "level_control": {
+          "N": 450,
+          "S": 130,
+          "D": 68,
+          "I": 7,
+          "correct": 252,
+          "errors": 205,
+          "utterances": 72,
+          "wer": 0.45555555555555555,
+          "deletion_rate": 0.1511111111111111
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 5.861616624672946,
+      "pesq_wb": 1.4635937219416653,
+      "stoi": 0.9096520308829962,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 210,
+          "D": 0,
+          "I": 45,
+          "correct": 1140,
+          "errors": 255,
+          "utterances": 216,
+          "wer": 0.18888888888888888,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 207,
+          "D": 0,
+          "I": 43,
+          "correct": 1143,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 106,
+          "D": 0,
+          "I": 5,
+          "correct": 1244,
+          "errors": 111,
+          "utterances": 216,
+          "wer": 0.08222222222222222,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 113,
+          "D": 0,
+          "I": 6,
+          "correct": 1237,
+          "errors": 119,
+          "utterances": 216,
+          "wer": 0.08814814814814814,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 5.832508831402093,
+      "pesq_wb": 1.4772663646274142,
+      "stoi": 0.9088887069465952,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 211,
+          "D": 0,
+          "I": 46,
+          "correct": 1139,
+          "errors": 257,
+          "utterances": 216,
+          "wer": 0.19037037037037038,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 213,
+          "D": 0,
+          "I": 49,
+          "correct": 1137,
+          "errors": 262,
+          "utterances": 216,
+          "wer": 0.19407407407407407,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 123,
+          "D": 0,
+          "I": 10,
+          "correct": 1227,
+          "errors": 133,
+          "utterances": 216,
+          "wer": 0.09851851851851852,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 124,
+          "D": 0,
+          "I": 8,
+          "correct": 1226,
+          "errors": 132,
+          "utterances": 216,
+          "wer": 0.09777777777777778,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 25.238856391595537,
+      "pesq_wb": 3.623137359817823,
+      "stoi": 0.9875437063752821,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 38,
+          "D": 0,
+          "I": 16,
+          "correct": 412,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 39,
+          "D": 0,
+          "I": 16,
+          "correct": 411,
+          "errors": 55,
+          "utterances": 72,
+          "wer": 0.12222222222222222,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 15.708528824005421,
+      "pesq_wb": 2.8620720323589115,
+      "stoi": 0.976989266585034,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 5,
+          "correct": 414,
+          "errors": 41,
+          "utterances": 72,
+          "wer": 0.09111111111111111,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 34,
+          "D": 0,
+          "I": 5,
+          "correct": 416,
+          "errors": 39,
+          "utterances": 72,
+          "wer": 0.08666666666666667,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 17,
+          "D": 0,
+          "I": 0,
+          "correct": 433,
+          "errors": 17,
+          "utterances": 72,
+          "wer": 0.03777777777777778,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 4.236002491468948,
+      "pesq_wb": 1.5235481907924016,
+      "stoi": 0.8502555392653784,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 357,
+          "D": 7,
+          "I": 99,
+          "correct": 986,
+          "errors": 463,
+          "utterances": 216,
+          "wer": 0.34296296296296297,
+          "deletion_rate": 0.005185185185185185
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 350,
+          "D": 4,
+          "I": 101,
+          "correct": 996,
+          "errors": 455,
+          "utterances": 216,
+          "wer": 0.337037037037037,
+          "deletion_rate": 0.002962962962962963
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 265,
+          "D": 21,
+          "I": 29,
+          "correct": 1064,
+          "errors": 315,
+          "utterances": 216,
+          "wer": 0.23333333333333334,
+          "deletion_rate": 0.015555555555555555
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 276,
+          "D": 17,
+          "I": 32,
+          "correct": 1057,
+          "errors": 325,
+          "utterances": 216,
+          "wer": 0.24074074074074073,
+          "deletion_rate": 0.012592592592592593
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -2.1631344228020932,
+      "pesq_wb": 1.060093058480157,
+      "stoi": 0.7607206204229838,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 168,
+          "D": 30,
+          "I": 39,
+          "correct": 252,
+          "errors": 237,
+          "utterances": 72,
+          "wer": 0.5266666666666666,
+          "deletion_rate": 0.06666666666666667
+        },
+        "level_control": {
+          "N": 450,
+          "S": 170,
+          "D": 25,
+          "I": 42,
+          "correct": 255,
+          "errors": 237,
+          "utterances": 72,
+          "wer": 0.5266666666666666,
+          "deletion_rate": 0.05555555555555555
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 169,
+          "D": 44,
+          "I": 7,
+          "correct": 237,
+          "errors": 220,
+          "utterances": 72,
+          "wer": 0.4888888888888889,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 170,
+          "D": 45,
+          "I": 8,
+          "correct": 235,
+          "errors": 223,
+          "utterances": 72,
+          "wer": 0.4955555555555556,
+          "deletion_rate": 0.1
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 2.5183227440088234,
+      "pesq_wb": 1.2864313423633575,
+      "stoi": 0.8758553905240296,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 280,
+          "D": 0,
+          "I": 62,
+          "correct": 1070,
+          "errors": 342,
+          "utterances": 216,
+          "wer": 0.25333333333333335,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 275,
+          "D": 0,
+          "I": 64,
+          "correct": 1075,
+          "errors": 339,
+          "utterances": 216,
+          "wer": 0.2511111111111111,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 215,
+          "D": 1,
+          "I": 33,
+          "correct": 1134,
+          "errors": 249,
+          "utterances": 216,
+          "wer": 0.18444444444444444,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 217,
+          "D": 1,
+          "I": 29,
+          "correct": 1132,
+          "errors": 247,
+          "utterances": 216,
+          "wer": 0.18296296296296297,
+          "deletion_rate": 0.0007407407407407407
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 2.767493707300489,
+      "pesq_wb": 1.3159349466915484,
+      "stoi": 0.8792465241977995,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 291,
+          "D": 1,
+          "I": 77,
+          "correct": 1058,
+          "errors": 369,
+          "utterances": 216,
+          "wer": 0.2733333333333333,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 290,
+          "D": 2,
+          "I": 78,
+          "correct": 1058,
+          "errors": 370,
+          "utterances": 216,
+          "wer": 0.2740740740740741,
+          "deletion_rate": 0.0014814814814814814
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 211,
+          "D": 5,
+          "I": 34,
+          "correct": 1134,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 213,
+          "D": 3,
+          "I": 29,
+          "correct": 1134,
+          "errors": 245,
+          "utterances": 216,
+          "wer": 0.1814814814814815,
+          "deletion_rate": 0.0022222222222222222
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 30.94535042893055,
+      "pesq_wb": 3.6844383743074207,
+      "stoi": 0.9880483931824726,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 37,
+          "D": 0,
+          "I": 15,
+          "correct": 413,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 37,
+          "D": 0,
+          "I": 15,
+          "correct": 413,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 15.93753884481757,
+      "pesq_wb": 2.175652311907874,
+      "stoi": 0.9647173383000395,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 40,
+          "D": 0,
+          "I": 8,
+          "correct": 410,
+          "errors": 48,
+          "utterances": 72,
+          "wer": 0.10666666666666667,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 10,
+          "correct": 408,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 1.367378998784342,
+      "pesq_wb": 1.2734340042979628,
+      "stoi": 0.7258073195307962,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 431,
+          "D": 150,
+          "I": 80,
+          "correct": 769,
+          "errors": 661,
+          "utterances": 216,
+          "wer": 0.48962962962962964,
+          "deletion_rate": 0.1111111111111111
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 444,
+          "D": 128,
+          "I": 95,
+          "correct": 778,
+          "errors": 667,
+          "utterances": 216,
+          "wer": 0.49407407407407405,
+          "deletion_rate": 0.09481481481481481
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 366,
+          "D": 156,
+          "I": 23,
+          "correct": 828,
+          "errors": 545,
+          "utterances": 216,
+          "wer": 0.40370370370370373,
+          "deletion_rate": 0.11555555555555555
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 360,
+          "D": 171,
+          "I": 19,
+          "correct": 819,
+          "errors": 550,
+          "utterances": 216,
+          "wer": 0.4074074074074074,
+          "deletion_rate": 0.12666666666666668
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -0.9746080652469082,
+      "pesq_wb": 1.1013830055793126,
+      "stoi": 0.650736393223503,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 203,
+          "D": 72,
+          "I": 45,
+          "correct": 175,
+          "errors": 320,
+          "utterances": 72,
+          "wer": 0.7111111111111111,
+          "deletion_rate": 0.16
+        },
+        "level_control": {
+          "N": 450,
+          "S": 212,
+          "D": 66,
+          "I": 52,
+          "correct": 172,
+          "errors": 330,
+          "utterances": 72,
+          "wer": 0.7333333333333333,
+          "deletion_rate": 0.14666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 204,
+          "D": 94,
+          "I": 12,
+          "correct": 152,
+          "errors": 310,
+          "utterances": 72,
+          "wer": 0.6888888888888889,
+          "deletion_rate": 0.2088888888888889
+        },
+        "level_control": {
+          "N": 450,
+          "S": 198,
+          "D": 100,
+          "I": 10,
+          "correct": 152,
+          "errors": 308,
+          "utterances": 72,
+          "wer": 0.6844444444444444,
+          "deletion_rate": 0.2222222222222222
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 4.092555865407383,
+      "pesq_wb": 1.285783267131558,
+      "stoi": 0.7833025776470302,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 424,
+          "D": 12,
+          "I": 69,
+          "correct": 914,
+          "errors": 505,
+          "utterances": 216,
+          "wer": 0.37407407407407406,
+          "deletion_rate": 0.008888888888888889
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 431,
+          "D": 8,
+          "I": 77,
+          "correct": 911,
+          "errors": 516,
+          "utterances": 216,
+          "wer": 0.38222222222222224,
+          "deletion_rate": 0.005925925925925926
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 389,
+          "D": 21,
+          "I": 23,
+          "correct": 940,
+          "errors": 433,
+          "utterances": 216,
+          "wer": 0.3207407407407407,
+          "deletion_rate": 0.015555555555555555
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 414,
+          "D": 26,
+          "I": 17,
+          "correct": 910,
+          "errors": 457,
+          "utterances": 216,
+          "wer": 0.3385185185185185,
+          "deletion_rate": 0.01925925925925926
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 4.137729840287131,
+      "pesq_wb": 1.2962554301376696,
+      "stoi": 0.7825068908029893,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 432,
+          "D": 18,
+          "I": 62,
+          "correct": 900,
+          "errors": 512,
+          "utterances": 216,
+          "wer": 0.37925925925925924,
+          "deletion_rate": 0.013333333333333334
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 441,
+          "D": 8,
+          "I": 91,
+          "correct": 901,
+          "errors": 540,
+          "utterances": 216,
+          "wer": 0.4,
+          "deletion_rate": 0.005925925925925926
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 405,
+          "D": 24,
+          "I": 12,
+          "correct": 921,
+          "errors": 441,
+          "utterances": 216,
+          "wer": 0.32666666666666666,
+          "deletion_rate": 0.017777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 425,
+          "D": 37,
+          "I": 12,
+          "correct": 888,
+          "errors": 474,
+          "utterances": 216,
+          "wer": 0.3511111111111111,
+          "deletion_rate": 0.027407407407407408
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 8.66243414023929,
+      "pesq_wb": 2.0926605231232114,
+      "stoi": 0.9117676138145142,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 68,
+          "D": 0,
+          "I": 11,
+          "correct": 382,
+          "errors": 79,
+          "utterances": 72,
+          "wer": 0.17555555555555555,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 71,
+          "D": 0,
+          "I": 11,
+          "correct": 379,
+          "errors": 82,
+          "utterances": 72,
+          "wer": 0.18222222222222223,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 41,
+          "D": 0,
+          "I": 0,
+          "correct": 409,
+          "errors": 41,
+          "utterances": 72,
+          "wer": 0.09111111111111111,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 0,
+          "correct": 408,
+          "errors": 42,
+          "utterances": 72,
+          "wer": 0.09333333333333334,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 11.070756497729597,
+      "pesq_wb": 1.9629678924878438,
+      "stoi": 0.9106950486214065,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 75,
+          "D": 0,
+          "I": 14,
+          "correct": 375,
+          "errors": 89,
+          "utterances": 72,
+          "wer": 0.19777777777777777,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 73,
+          "D": 1,
+          "I": 16,
+          "correct": 376,
+          "errors": 90,
+          "utterances": 72,
+          "wer": 0.2,
+          "deletion_rate": 0.0022222222222222222
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 43,
+          "D": 0,
+          "I": 0,
+          "correct": 407,
+          "errors": 43,
+          "utterances": 72,
+          "wer": 0.09555555555555556,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 43,
+          "D": 0,
+          "I": 0,
+          "correct": 407,
+          "errors": 43,
+          "utterances": 72,
+          "wer": 0.09555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 0.7803818881819519,
+      "pesq_wb": 1.4954337085838671,
+      "stoi": 0.7071117010100778,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 467,
+          "D": 188,
+          "I": 114,
+          "correct": 695,
+          "errors": 769,
+          "utterances": 216,
+          "wer": 0.5696296296296296,
+          "deletion_rate": 0.13925925925925925
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 517,
+          "D": 143,
+          "I": 350,
+          "correct": 690,
+          "errors": 1010,
+          "utterances": 216,
+          "wer": 0.7481481481481481,
+          "deletion_rate": 0.10592592592592592
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 464,
+          "D": 266,
+          "I": 24,
+          "correct": 620,
+          "errors": 754,
+          "utterances": 216,
+          "wer": 0.5585185185185185,
+          "deletion_rate": 0.19703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 469,
+          "D": 233,
+          "I": 28,
+          "correct": 648,
+          "errors": 730,
+          "utterances": 216,
+          "wer": 0.5407407407407407,
+          "deletion_rate": 0.1725925925925926
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -3.077837065974886,
+      "pesq_wb": 1.1001917206578784,
+      "stoi": 0.642112906213374,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 231,
+          "D": 62,
+          "I": 55,
+          "correct": 157,
+          "errors": 348,
+          "utterances": 72,
+          "wer": 0.7733333333333333,
+          "deletion_rate": 0.13777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 222,
+          "D": 61,
+          "I": 60,
+          "correct": 167,
+          "errors": 343,
+          "utterances": 72,
+          "wer": 0.7622222222222222,
+          "deletion_rate": 0.13555555555555557
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 247,
+          "D": 100,
+          "I": 8,
+          "correct": 103,
+          "errors": 355,
+          "utterances": 72,
+          "wer": 0.7888888888888889,
+          "deletion_rate": 0.2222222222222222
+        },
+        "level_control": {
+          "N": 450,
+          "S": 243,
+          "D": 105,
+          "I": 6,
+          "correct": 102,
+          "errors": 354,
+          "utterances": 72,
+          "wer": 0.7866666666666666,
+          "deletion_rate": 0.23333333333333334
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 3.3169932503720294,
+      "pesq_wb": 1.3903331248848527,
+      "stoi": 0.766244959789418,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 509,
+          "D": 5,
+          "I": 141,
+          "correct": 836,
+          "errors": 655,
+          "utterances": 216,
+          "wer": 0.48518518518518516,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 510,
+          "D": 5,
+          "I": 121,
+          "correct": 835,
+          "errors": 636,
+          "utterances": 216,
+          "wer": 0.4711111111111111,
+          "deletion_rate": 0.003703703703703704
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 507,
+          "D": 51,
+          "I": 17,
+          "correct": 792,
+          "errors": 575,
+          "utterances": 216,
+          "wer": 0.42592592592592593,
+          "deletion_rate": 0.03777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 516,
+          "D": 46,
+          "I": 18,
+          "correct": 788,
+          "errors": 580,
+          "utterances": 216,
+          "wer": 0.42962962962962964,
+          "deletion_rate": 0.034074074074074076
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 3.4544825029194106,
+      "pesq_wb": 1.4190426838618737,
+      "stoi": 0.7663184424871603,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 514,
+          "D": 10,
+          "I": 155,
+          "correct": 826,
+          "errors": 679,
+          "utterances": 216,
+          "wer": 0.502962962962963,
+          "deletion_rate": 0.007407407407407408
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 493,
+          "D": 14,
+          "I": 127,
+          "correct": 843,
+          "errors": 634,
+          "utterances": 216,
+          "wer": 0.4696296296296296,
+          "deletion_rate": 0.01037037037037037
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 515,
+          "D": 63,
+          "I": 25,
+          "correct": 772,
+          "errors": 603,
+          "utterances": 216,
+          "wer": 0.44666666666666666,
+          "deletion_rate": 0.04666666666666667
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 520,
+          "D": 64,
+          "I": 31,
+          "correct": 766,
+          "errors": 615,
+          "utterances": 216,
+          "wer": 0.45555555555555555,
+          "deletion_rate": 0.047407407407407405
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 15.802191482616447,
+      "pesq_wb": 2.082104467683368,
+      "stoi": 0.9211178317303053,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 80,
+          "D": 0,
+          "I": 14,
+          "correct": 370,
+          "errors": 94,
+          "utterances": 72,
+          "wer": 0.2088888888888889,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 79,
+          "D": 0,
+          "I": 15,
+          "correct": 371,
+          "errors": 94,
+          "utterances": 72,
+          "wer": 0.2088888888888889,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 0,
+          "correct": 414,
+          "errors": 36,
+          "utterances": 72,
+          "wer": 0.08,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 37,
+          "D": 0,
+          "I": 1,
+          "correct": 413,
+          "errors": 38,
+          "utterances": 72,
+          "wer": 0.08444444444444445,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 12.980362296546142,
+      "pesq_wb": 1.8523306747277577,
+      "stoi": 0.8974194151465716,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 91,
+          "D": 0,
+          "I": 9,
+          "correct": 359,
+          "errors": 100,
+          "utterances": 72,
+          "wer": 0.2222222222222222,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 88,
+          "D": 0,
+          "I": 10,
+          "correct": 362,
+          "errors": 98,
+          "utterances": 72,
+          "wer": 0.21777777777777776,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 0,
+          "correct": 408,
+          "errors": 42,
+          "utterances": 72,
+          "wer": 0.09333333333333334,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 41,
+          "D": 0,
+          "I": 0,
+          "correct": 409,
+          "errors": 41,
+          "utterances": 72,
+          "wer": 0.09111111111111111,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": -1.0718417365364956,
+      "pesq_wb": 1.1217373973793454,
+      "stoi": 0.5584205332092332,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 725,
+          "D": 248,
+          "I": 152,
+          "correct": 377,
+          "errors": 1125,
+          "utterances": 216,
+          "wer": 0.8333333333333334,
+          "deletion_rate": 0.1837037037037037
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 731,
+          "D": 230,
+          "I": 179,
+          "correct": 389,
+          "errors": 1140,
+          "utterances": 216,
+          "wer": 0.8444444444444444,
+          "deletion_rate": 0.17037037037037037
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 685,
+          "D": 384,
+          "I": 31,
+          "correct": 281,
+          "errors": 1100,
+          "utterances": 216,
+          "wer": 0.8148148148148148,
+          "deletion_rate": 0.28444444444444444
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 663,
+          "D": 430,
+          "I": 26,
+          "correct": 257,
+          "errors": 1119,
+          "utterances": 216,
+          "wer": 0.8288888888888889,
+          "deletion_rate": 0.31851851851851853
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -2.7237083447347583,
+      "pesq_wb": 1.0729660673273935,
+      "stoi": 0.5188702031153204,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 233,
+          "D": 134,
+          "I": 148,
+          "correct": 83,
+          "errors": 515,
+          "utterances": 72,
+          "wer": 1.1444444444444444,
+          "deletion_rate": 0.29777777777777775
+        },
+        "level_control": {
+          "N": 450,
+          "S": 225,
+          "D": 143,
+          "I": 145,
+          "correct": 82,
+          "errors": 513,
+          "utterances": 72,
+          "wer": 1.14,
+          "deletion_rate": 0.31777777777777777
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 232,
+          "D": 168,
+          "I": 6,
+          "correct": 50,
+          "errors": 406,
+          "utterances": 72,
+          "wer": 0.9022222222222223,
+          "deletion_rate": 0.37333333333333335
+        },
+        "level_control": {
+          "N": 450,
+          "S": 209,
+          "D": 194,
+          "I": 5,
+          "correct": 47,
+          "errors": 408,
+          "utterances": 72,
+          "wer": 0.9066666666666666,
+          "deletion_rate": 0.4311111111111111
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 1.0449635566450237,
+      "pesq_wb": 1.126216518106284,
+      "stoi": 0.6029800634433294,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 731,
+          "D": 190,
+          "I": 171,
+          "correct": 429,
+          "errors": 1092,
+          "utterances": 216,
+          "wer": 0.8088888888888889,
+          "deletion_rate": 0.14074074074074075
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 753,
+          "D": 155,
+          "I": 177,
+          "correct": 442,
+          "errors": 1085,
+          "utterances": 216,
+          "wer": 0.8037037037037037,
+          "deletion_rate": 0.11481481481481481
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 712,
+          "D": 306,
+          "I": 30,
+          "correct": 332,
+          "errors": 1048,
+          "utterances": 216,
+          "wer": 0.7762962962962963,
+          "deletion_rate": 0.22666666666666666
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 689,
+          "D": 348,
+          "I": 32,
+          "correct": 313,
+          "errors": 1069,
+          "utterances": 216,
+          "wer": 0.7918518518518518,
+          "deletion_rate": 0.2577777777777778
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 1.1482116517317962,
+      "pesq_wb": 1.1297142295925706,
+      "stoi": 0.6050626197033471,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 756,
+          "D": 167,
+          "I": 196,
+          "correct": 427,
+          "errors": 1119,
+          "utterances": 216,
+          "wer": 0.8288888888888889,
+          "deletion_rate": 0.1237037037037037
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 763,
+          "D": 137,
+          "I": 233,
+          "correct": 450,
+          "errors": 1133,
+          "utterances": 216,
+          "wer": 0.8392592592592593,
+          "deletion_rate": 0.10148148148148148
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 729,
+          "D": 281,
+          "I": 32,
+          "correct": 340,
+          "errors": 1042,
+          "utterances": 216,
+          "wer": 0.7718518518518519,
+          "deletion_rate": 0.20814814814814814
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 704,
+          "D": 322,
+          "I": 28,
+          "correct": 324,
+          "errors": 1054,
+          "utterances": 216,
+          "wer": 0.7807407407407407,
+          "deletion_rate": 0.23851851851851852
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 3.832233267694957,
+      "pesq_wb": 1.3218533198038738,
+      "stoi": 0.7578968341439568,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 151,
+          "D": 1,
+          "I": 36,
+          "correct": 298,
+          "errors": 188,
+          "utterances": 72,
+          "wer": 0.4177777777777778,
+          "deletion_rate": 0.0022222222222222222
+        },
+        "level_control": {
+          "N": 450,
+          "S": 148,
+          "D": 1,
+          "I": 37,
+          "correct": 301,
+          "errors": 186,
+          "utterances": 72,
+          "wer": 0.41333333333333333,
+          "deletion_rate": 0.0022222222222222222
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 140,
+          "D": 25,
+          "I": 4,
+          "correct": 285,
+          "errors": 169,
+          "utterances": 72,
+          "wer": 0.37555555555555553,
+          "deletion_rate": 0.05555555555555555
+        },
+        "level_control": {
+          "N": 450,
+          "S": 144,
+          "D": 25,
+          "I": 3,
+          "correct": 281,
+          "errors": 172,
+          "utterances": 72,
+          "wer": 0.38222222222222224,
+          "deletion_rate": 0.05555555555555555
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 6.703685035329826,
+      "pesq_wb": 1.325720437698894,
+      "stoi": 0.7672652804091894,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 172,
+          "D": 8,
+          "I": 36,
+          "correct": 270,
+          "errors": 216,
+          "utterances": 72,
+          "wer": 0.48,
+          "deletion_rate": 0.017777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 168,
+          "D": 7,
+          "I": 36,
+          "correct": 275,
+          "errors": 211,
+          "utterances": 72,
+          "wer": 0.4688888888888889,
+          "deletion_rate": 0.015555555555555555
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 159,
+          "D": 33,
+          "I": 0,
+          "correct": 258,
+          "errors": 192,
+          "utterances": 72,
+          "wer": 0.4266666666666667,
+          "deletion_rate": 0.07333333333333333
+        },
+        "level_control": {
+          "N": 450,
+          "S": 156,
+          "D": 37,
+          "I": 1,
+          "correct": 257,
+          "errors": 194,
+          "utterances": 72,
+          "wer": 0.4311111111111111,
+          "deletion_rate": 0.08222222222222222
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": -2.42128999708219,
+      "pesq_wb": 1.2679746846357982,
+      "stoi": 0.5422919345997678,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 633,
+          "D": 428,
+          "I": 658,
+          "correct": 289,
+          "errors": 1719,
+          "utterances": 216,
+          "wer": 1.2733333333333334,
+          "deletion_rate": 0.31703703703703706
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 707,
+          "D": 340,
+          "I": 306,
+          "correct": 303,
+          "errors": 1353,
+          "utterances": 216,
+          "wer": 1.0022222222222221,
+          "deletion_rate": 0.2518518518518518
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 682,
+          "D": 504,
+          "I": 32,
+          "correct": 164,
+          "errors": 1218,
+          "utterances": 216,
+          "wer": 0.9022222222222223,
+          "deletion_rate": 0.37333333333333335
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 720,
+          "D": 445,
+          "I": 35,
+          "correct": 185,
+          "errors": 1200,
+          "utterances": 216,
+          "wer": 0.8888888888888888,
+          "deletion_rate": 0.3296296296296296
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -5.398160338828472,
+      "pesq_wb": 1.0962445454465017,
+      "stoi": 0.5130041733837332,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 249,
+          "D": 135,
+          "I": 68,
+          "correct": 66,
+          "errors": 452,
+          "utterances": 72,
+          "wer": 1.0044444444444445,
+          "deletion_rate": 0.3
+        },
+        "level_control": {
+          "N": 450,
+          "S": 235,
+          "D": 152,
+          "I": 68,
+          "correct": 63,
+          "errors": 455,
+          "utterances": 72,
+          "wer": 1.011111111111111,
+          "deletion_rate": 0.3377777777777778
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 192,
+          "D": 234,
+          "I": 2,
+          "correct": 24,
+          "errors": 428,
+          "utterances": 72,
+          "wer": 0.9511111111111111,
+          "deletion_rate": 0.52
+        },
+        "level_control": {
+          "N": 450,
+          "S": 182,
+          "D": 246,
+          "I": 1,
+          "correct": 22,
+          "errors": 429,
+          "utterances": 72,
+          "wer": 0.9533333333333334,
+          "deletion_rate": 0.5466666666666666
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 1.4084747140650913,
+      "pesq_wb": 1.2914020479829222,
+      "stoi": 0.5985245623858441,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 824,
+          "D": 158,
+          "I": 1086,
+          "correct": 368,
+          "errors": 2068,
+          "utterances": 216,
+          "wer": 1.5318518518518518,
+          "deletion_rate": 0.11703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 809,
+          "D": 176,
+          "I": 609,
+          "correct": 365,
+          "errors": 1594,
+          "utterances": 216,
+          "wer": 1.1807407407407406,
+          "deletion_rate": 0.13037037037037036
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 778,
+          "D": 380,
+          "I": 35,
+          "correct": 192,
+          "errors": 1193,
+          "utterances": 216,
+          "wer": 0.8837037037037037,
+          "deletion_rate": 0.2814814814814815
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 771,
+          "D": 376,
+          "I": 39,
+          "correct": 203,
+          "errors": 1186,
+          "utterances": 216,
+          "wer": 0.8785185185185185,
+          "deletion_rate": 0.2785185185185185
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 1.5717891449219854,
+      "pesq_wb": 1.3104944654085018,
+      "stoi": 0.5997407610229559,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 809,
+          "D": 170,
+          "I": 615,
+          "correct": 371,
+          "errors": 1594,
+          "utterances": 216,
+          "wer": 1.1807407407407406,
+          "deletion_rate": 0.1259259259259259
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 826,
+          "D": 172,
+          "I": 527,
+          "correct": 352,
+          "errors": 1525,
+          "utterances": 216,
+          "wer": 1.1296296296296295,
+          "deletion_rate": 0.1274074074074074
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 808,
+          "D": 364,
+          "I": 44,
+          "correct": 178,
+          "errors": 1216,
+          "utterances": 216,
+          "wer": 0.9007407407407407,
+          "deletion_rate": 0.2696296296296296
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 809,
+          "D": 364,
+          "I": 35,
+          "correct": 177,
+          "errors": 1208,
+          "utterances": 216,
+          "wer": 0.8948148148148148,
+          "deletion_rate": 0.2696296296296296
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 9.519712991132678,
+      "pesq_wb": 1.4919604394170973,
+      "stoi": 0.779424859107211,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 182,
+          "D": 10,
+          "I": 24,
+          "correct": 258,
+          "errors": 216,
+          "utterances": 72,
+          "wer": 0.48,
+          "deletion_rate": 0.022222222222222223
+        },
+        "level_control": {
+          "N": 450,
+          "S": 180,
+          "D": 10,
+          "I": 28,
+          "correct": 260,
+          "errors": 218,
+          "utterances": 72,
+          "wer": 0.48444444444444446,
+          "deletion_rate": 0.022222222222222223
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 168,
+          "D": 27,
+          "I": 7,
+          "correct": 255,
+          "errors": 202,
+          "utterances": 72,
+          "wer": 0.4488888888888889,
+          "deletion_rate": 0.06
+        },
+        "level_control": {
+          "N": 450,
+          "S": 170,
+          "D": 28,
+          "I": 7,
+          "correct": 252,
+          "errors": 205,
+          "utterances": 72,
+          "wer": 0.45555555555555555,
+          "deletion_rate": 0.06222222222222222
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 8.537516054828806,
+      "pesq_wb": 1.4659248226218753,
+      "stoi": 0.7555194237928498,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 209,
+          "D": 11,
+          "I": 39,
+          "correct": 230,
+          "errors": 259,
+          "utterances": 72,
+          "wer": 0.5755555555555556,
+          "deletion_rate": 0.024444444444444446
+        },
+        "level_control": {
+          "N": 450,
+          "S": 209,
+          "D": 12,
+          "I": 45,
+          "correct": 229,
+          "errors": 266,
+          "utterances": 72,
+          "wer": 0.5911111111111111,
+          "deletion_rate": 0.02666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 186,
+          "D": 35,
+          "I": 6,
+          "correct": 229,
+          "errors": 227,
+          "utterances": 72,
+          "wer": 0.5044444444444445,
+          "deletion_rate": 0.07777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 191,
+          "D": 33,
+          "I": 6,
+          "correct": 226,
+          "errors": 230,
+          "utterances": 72,
+          "wer": 0.5111111111111111,
+          "deletion_rate": 0.07333333333333333
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 4.738478284280036,
+      "pesq_wb": 1.399286711105594,
+      "stoi": 0.870071153645363,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 239,
+          "D": 3,
+          "I": 52,
+          "correct": 1108,
+          "errors": 294,
+          "utterances": 216,
+          "wer": 0.21777777777777776,
+          "deletion_rate": 0.0022222222222222222
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 243,
+          "D": 2,
+          "I": 51,
+          "correct": 1105,
+          "errors": 296,
+          "utterances": 216,
+          "wer": 0.21925925925925926,
+          "deletion_rate": 0.0014814814814814814
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 196,
+          "D": 6,
+          "I": 15,
+          "correct": 1148,
+          "errors": 217,
+          "utterances": 216,
+          "wer": 0.16074074074074074,
+          "deletion_rate": 0.0044444444444444444
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 195,
+          "D": 2,
+          "I": 14,
+          "correct": 1153,
+          "errors": 211,
+          "utterances": 216,
+          "wer": 0.1562962962962963,
+          "deletion_rate": 0.0014814814814814814
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -0.18374892520081104,
+      "pesq_wb": 1.1220857716268964,
+      "stoi": 0.7655712714185879,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 148,
+          "D": 44,
+          "I": 23,
+          "correct": 258,
+          "errors": 215,
+          "utterances": 72,
+          "wer": 0.4777777777777778,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 141,
+          "D": 48,
+          "I": 23,
+          "correct": 261,
+          "errors": 212,
+          "utterances": 72,
+          "wer": 0.4711111111111111,
+          "deletion_rate": 0.10666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 133,
+          "D": 57,
+          "I": 10,
+          "correct": 260,
+          "errors": 200,
+          "utterances": 72,
+          "wer": 0.4444444444444444,
+          "deletion_rate": 0.12666666666666668
+        },
+        "level_control": {
+          "N": 450,
+          "S": 130,
+          "D": 68,
+          "I": 7,
+          "correct": 252,
+          "errors": 205,
+          "utterances": 72,
+          "wer": 0.45555555555555555,
+          "deletion_rate": 0.1511111111111111
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 5.861616624672946,
+      "pesq_wb": 1.4635937219416653,
+      "stoi": 0.9096520308829962,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 210,
+          "D": 0,
+          "I": 45,
+          "correct": 1140,
+          "errors": 255,
+          "utterances": 216,
+          "wer": 0.18888888888888888,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 207,
+          "D": 0,
+          "I": 43,
+          "correct": 1143,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 106,
+          "D": 0,
+          "I": 5,
+          "correct": 1244,
+          "errors": 111,
+          "utterances": 216,
+          "wer": 0.08222222222222222,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 113,
+          "D": 0,
+          "I": 6,
+          "correct": 1237,
+          "errors": 119,
+          "utterances": 216,
+          "wer": 0.08814814814814814,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 5.832508831402093,
+      "pesq_wb": 1.4772663646274142,
+      "stoi": 0.9088887069465952,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 211,
+          "D": 0,
+          "I": 46,
+          "correct": 1139,
+          "errors": 257,
+          "utterances": 216,
+          "wer": 0.19037037037037038,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 213,
+          "D": 0,
+          "I": 49,
+          "correct": 1137,
+          "errors": 262,
+          "utterances": 216,
+          "wer": 0.19407407407407407,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 123,
+          "D": 0,
+          "I": 10,
+          "correct": 1227,
+          "errors": 133,
+          "utterances": 216,
+          "wer": 0.09851851851851852,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 124,
+          "D": 0,
+          "I": 8,
+          "correct": 1226,
+          "errors": 132,
+          "utterances": 216,
+          "wer": 0.09777777777777778,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 25.238856391595537,
+      "pesq_wb": 3.623137359817823,
+      "stoi": 0.9875437063752821,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 38,
+          "D": 0,
+          "I": 16,
+          "correct": 412,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 39,
+          "D": 0,
+          "I": 16,
+          "correct": 411,
+          "errors": 55,
+          "utterances": 72,
+          "wer": 0.12222222222222222,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 15.708528824005421,
+      "pesq_wb": 2.8620720323589115,
+      "stoi": 0.976989266585034,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 5,
+          "correct": 414,
+          "errors": 41,
+          "utterances": 72,
+          "wer": 0.09111111111111111,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 34,
+          "D": 0,
+          "I": 5,
+          "correct": 416,
+          "errors": 39,
+          "utterances": 72,
+          "wer": 0.08666666666666667,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 17,
+          "D": 0,
+          "I": 0,
+          "correct": 433,
+          "errors": 17,
+          "utterances": 72,
+          "wer": 0.03777777777777778,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 4.236002491468948,
+      "pesq_wb": 1.5235481907924016,
+      "stoi": 0.8502555392653784,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 357,
+          "D": 7,
+          "I": 99,
+          "correct": 986,
+          "errors": 463,
+          "utterances": 216,
+          "wer": 0.34296296296296297,
+          "deletion_rate": 0.005185185185185185
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 350,
+          "D": 4,
+          "I": 101,
+          "correct": 996,
+          "errors": 455,
+          "utterances": 216,
+          "wer": 0.337037037037037,
+          "deletion_rate": 0.002962962962962963
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 265,
+          "D": 21,
+          "I": 29,
+          "correct": 1064,
+          "errors": 315,
+          "utterances": 216,
+          "wer": 0.23333333333333334,
+          "deletion_rate": 0.015555555555555555
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 276,
+          "D": 17,
+          "I": 32,
+          "correct": 1057,
+          "errors": 325,
+          "utterances": 216,
+          "wer": 0.24074074074074073,
+          "deletion_rate": 0.012592592592592593
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -2.1631344228020932,
+      "pesq_wb": 1.060093058480157,
+      "stoi": 0.7607206204229838,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 168,
+          "D": 30,
+          "I": 39,
+          "correct": 252,
+          "errors": 237,
+          "utterances": 72,
+          "wer": 0.5266666666666666,
+          "deletion_rate": 0.06666666666666667
+        },
+        "level_control": {
+          "N": 450,
+          "S": 170,
+          "D": 25,
+          "I": 42,
+          "correct": 255,
+          "errors": 237,
+          "utterances": 72,
+          "wer": 0.5266666666666666,
+          "deletion_rate": 0.05555555555555555
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 169,
+          "D": 44,
+          "I": 7,
+          "correct": 237,
+          "errors": 220,
+          "utterances": 72,
+          "wer": 0.4888888888888889,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 170,
+          "D": 45,
+          "I": 8,
+          "correct": 235,
+          "errors": 223,
+          "utterances": 72,
+          "wer": 0.4955555555555556,
+          "deletion_rate": 0.1
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 2.5183227440088234,
+      "pesq_wb": 1.2864313423633575,
+      "stoi": 0.8758553905240296,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 280,
+          "D": 0,
+          "I": 62,
+          "correct": 1070,
+          "errors": 342,
+          "utterances": 216,
+          "wer": 0.25333333333333335,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 275,
+          "D": 0,
+          "I": 64,
+          "correct": 1075,
+          "errors": 339,
+          "utterances": 216,
+          "wer": 0.2511111111111111,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 215,
+          "D": 1,
+          "I": 33,
+          "correct": 1134,
+          "errors": 249,
+          "utterances": 216,
+          "wer": 0.18444444444444444,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 217,
+          "D": 1,
+          "I": 29,
+          "correct": 1132,
+          "errors": 247,
+          "utterances": 216,
+          "wer": 0.18296296296296297,
+          "deletion_rate": 0.0007407407407407407
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 2.767493707300489,
+      "pesq_wb": 1.3159349466915484,
+      "stoi": 0.8792465241977995,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 291,
+          "D": 1,
+          "I": 77,
+          "correct": 1058,
+          "errors": 369,
+          "utterances": 216,
+          "wer": 0.2733333333333333,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 290,
+          "D": 2,
+          "I": 78,
+          "correct": 1058,
+          "errors": 370,
+          "utterances": 216,
+          "wer": 0.2740740740740741,
+          "deletion_rate": 0.0014814814814814814
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 211,
+          "D": 5,
+          "I": 34,
+          "correct": 1134,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 213,
+          "D": 3,
+          "I": 29,
+          "correct": 1134,
+          "errors": 245,
+          "utterances": 216,
+          "wer": 0.1814814814814815,
+          "deletion_rate": 0.0022222222222222222
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 30.94535042893055,
+      "pesq_wb": 3.6844383743074207,
+      "stoi": 0.9880483931824726,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 37,
+          "D": 0,
+          "I": 15,
+          "correct": 413,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 37,
+          "D": 0,
+          "I": 15,
+          "correct": 413,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 16,
+          "D": 0,
+          "I": 0,
+          "correct": 434,
+          "errors": 16,
+          "utterances": 72,
+          "wer": 0.035555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 15.93753884481757,
+      "pesq_wb": 2.175652311907874,
+      "stoi": 0.9647173383000395,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 40,
+          "D": 0,
+          "I": 8,
+          "correct": 410,
+          "errors": 48,
+          "utterances": 72,
+          "wer": 0.10666666666666667,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 10,
+          "correct": 408,
+          "errors": 52,
+          "utterances": 72,
+          "wer": 0.11555555555555555,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 2.081363459163313,
+      "pesq_wb": 1.3012341923183866,
+      "stoi": 0.7857217730828886,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 356,
+          "D": 116,
+          "I": 84,
+          "correct": 878,
+          "errors": 556,
+          "utterances": 216,
+          "wer": 0.41185185185185186,
+          "deletion_rate": 0.08592592592592592
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 361,
+          "D": 84,
+          "I": 306,
+          "correct": 905,
+          "errors": 751,
+          "utterances": 216,
+          "wer": 0.5562962962962963,
+          "deletion_rate": 0.06222222222222222
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 318,
+          "D": 113,
+          "I": 16,
+          "correct": 919,
+          "errors": 447,
+          "utterances": 216,
+          "wer": 0.33111111111111113,
+          "deletion_rate": 0.0837037037037037
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 314,
+          "D": 117,
+          "I": 16,
+          "correct": 919,
+          "errors": 447,
+          "utterances": 216,
+          "wer": 0.33111111111111113,
+          "deletion_rate": 0.08666666666666667
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -1.357024784765872,
+      "pesq_wb": 1.0861912717421849,
+      "stoi": 0.7045845358875079,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 165,
+          "D": 72,
+          "I": 36,
+          "correct": 213,
+          "errors": 273,
+          "utterances": 72,
+          "wer": 0.6066666666666667,
+          "deletion_rate": 0.16
+        },
+        "level_control": {
+          "N": 450,
+          "S": 188,
+          "D": 53,
+          "I": 38,
+          "correct": 209,
+          "errors": 279,
+          "utterances": 72,
+          "wer": 0.62,
+          "deletion_rate": 0.11777777777777777
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 187,
+          "D": 82,
+          "I": 6,
+          "correct": 181,
+          "errors": 275,
+          "utterances": 72,
+          "wer": 0.6111111111111112,
+          "deletion_rate": 0.18222222222222223
+        },
+        "level_control": {
+          "N": 450,
+          "S": 171,
+          "D": 99,
+          "I": 4,
+          "correct": 180,
+          "errors": 274,
+          "utterances": 72,
+          "wer": 0.6088888888888889,
+          "deletion_rate": 0.22
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 4.566600541609536,
+      "pesq_wb": 1.3285402142339282,
+      "stoi": 0.8464008396511871,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 337,
+          "D": 5,
+          "I": 68,
+          "correct": 1008,
+          "errors": 410,
+          "utterances": 216,
+          "wer": 0.3037037037037037,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 331,
+          "D": 10,
+          "I": 64,
+          "correct": 1009,
+          "errors": 405,
+          "utterances": 216,
+          "wer": 0.3,
+          "deletion_rate": 0.007407407407407408
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 318,
+          "D": 11,
+          "I": 9,
+          "correct": 1021,
+          "errors": 338,
+          "utterances": 216,
+          "wer": 0.25037037037037035,
+          "deletion_rate": 0.008148148148148147
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 342,
+          "D": 6,
+          "I": 11,
+          "correct": 1002,
+          "errors": 359,
+          "utterances": 216,
+          "wer": 0.2659259259259259,
+          "deletion_rate": 0.0044444444444444444
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 4.55720834972245,
+      "pesq_wb": 1.3348039107190237,
+      "stoi": 0.8443076780266249,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 335,
+          "D": 5,
+          "I": 68,
+          "correct": 1010,
+          "errors": 408,
+          "utterances": 216,
+          "wer": 0.3022222222222222,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 321,
+          "D": 10,
+          "I": 59,
+          "correct": 1019,
+          "errors": 390,
+          "utterances": 216,
+          "wer": 0.28888888888888886,
+          "deletion_rate": 0.007407407407407408
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 334,
+          "D": 10,
+          "I": 12,
+          "correct": 1006,
+          "errors": 356,
+          "utterances": 216,
+          "wer": 0.2637037037037037,
+          "deletion_rate": 0.007407407407407408
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 339,
+          "D": 11,
+          "I": 11,
+          "correct": 1000,
+          "errors": 361,
+          "utterances": 216,
+          "wer": 0.2674074074074074,
+          "deletion_rate": 0.008148148148148147
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 10.107528230744245,
+      "pesq_wb": 2.4603008694118924,
+      "stoi": 0.9442359426168453,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 61,
+          "D": 0,
+          "I": 18,
+          "correct": 389,
+          "errors": 79,
+          "utterances": 72,
+          "wer": 0.17555555555555555,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 66,
+          "D": 0,
+          "I": 17,
+          "correct": 384,
+          "errors": 83,
+          "utterances": 72,
+          "wer": 0.18444444444444444,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 33,
+          "D": 0,
+          "I": 0,
+          "correct": 417,
+          "errors": 33,
+          "utterances": 72,
+          "wer": 0.07333333333333333,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 34,
+          "D": 0,
+          "I": 0,
+          "correct": 416,
+          "errors": 34,
+          "utterances": 72,
+          "wer": 0.07555555555555556,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 12.050375727796158,
+      "pesq_wb": 2.102057902349366,
+      "stoi": 0.9399789679311006,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 58,
+          "D": 0,
+          "I": 9,
+          "correct": 392,
+          "errors": 67,
+          "utterances": 72,
+          "wer": 0.14888888888888888,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 62,
+          "D": 0,
+          "I": 9,
+          "correct": 388,
+          "errors": 71,
+          "utterances": 72,
+          "wer": 0.15777777777777777,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 35,
+          "D": 0,
+          "I": 0,
+          "correct": 415,
+          "errors": 35,
+          "utterances": 72,
+          "wer": 0.07777777777777778,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 38,
+          "D": 0,
+          "I": 0,
+          "correct": 412,
+          "errors": 38,
+          "utterances": 72,
+          "wer": 0.08444444444444445,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": 1.8863563835035615,
+      "pesq_wb": 1.515942817484891,
+      "stoi": 0.7650797176066857,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 449,
+          "D": 105,
+          "I": 250,
+          "correct": 796,
+          "errors": 804,
+          "utterances": 216,
+          "wer": 0.5955555555555555,
+          "deletion_rate": 0.07777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 454,
+          "D": 99,
+          "I": 235,
+          "correct": 797,
+          "errors": 788,
+          "utterances": 216,
+          "wer": 0.5837037037037037,
+          "deletion_rate": 0.07333333333333333
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 455,
+          "D": 153,
+          "I": 32,
+          "correct": 742,
+          "errors": 640,
+          "utterances": 216,
+          "wer": 0.4740740740740741,
+          "deletion_rate": 0.11333333333333333
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 441,
+          "D": 141,
+          "I": 37,
+          "correct": 768,
+          "errors": 619,
+          "utterances": 216,
+          "wer": 0.4585185185185185,
+          "deletion_rate": 0.10444444444444445
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -3.0831327408756817,
+      "pesq_wb": 1.0663847476243973,
+      "stoi": 0.6934669468361475,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 198,
+          "D": 70,
+          "I": 46,
+          "correct": 182,
+          "errors": 314,
+          "utterances": 72,
+          "wer": 0.6977777777777778,
+          "deletion_rate": 0.15555555555555556
+        },
+        "level_control": {
+          "N": 450,
+          "S": 214,
+          "D": 58,
+          "I": 61,
+          "correct": 178,
+          "errors": 333,
+          "utterances": 72,
+          "wer": 0.74,
+          "deletion_rate": 0.1288888888888889
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 220,
+          "D": 99,
+          "I": 8,
+          "correct": 131,
+          "errors": 327,
+          "utterances": 72,
+          "wer": 0.7266666666666667,
+          "deletion_rate": 0.22
+        },
+        "level_control": {
+          "N": 450,
+          "S": 226,
+          "D": 98,
+          "I": 8,
+          "correct": 126,
+          "errors": 332,
+          "utterances": 72,
+          "wer": 0.7377777777777778,
+          "deletion_rate": 0.21777777777777776
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 4.008083583228504,
+      "pesq_wb": 1.3518719871838887,
+      "stoi": 0.8228216768567604,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 357,
+          "D": 7,
+          "I": 90,
+          "correct": 986,
+          "errors": 454,
+          "utterances": 216,
+          "wer": 0.3362962962962963,
+          "deletion_rate": 0.005185185185185185
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 360,
+          "D": 7,
+          "I": 91,
+          "correct": 983,
+          "errors": 458,
+          "utterances": 216,
+          "wer": 0.33925925925925926,
+          "deletion_rate": 0.005185185185185185
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 388,
+          "D": 44,
+          "I": 30,
+          "correct": 918,
+          "errors": 462,
+          "utterances": 216,
+          "wer": 0.3422222222222222,
+          "deletion_rate": 0.03259259259259259
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 392,
+          "D": 39,
+          "I": 33,
+          "correct": 919,
+          "errors": 464,
+          "utterances": 216,
+          "wer": 0.3437037037037037,
+          "deletion_rate": 0.028888888888888888
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 4.205578264458938,
+      "pesq_wb": 1.3828375687201817,
+      "stoi": 0.8242477029403219,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 382,
+          "D": 9,
+          "I": 95,
+          "correct": 959,
+          "errors": 486,
+          "utterances": 216,
+          "wer": 0.36,
+          "deletion_rate": 0.006666666666666667
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 372,
+          "D": 9,
+          "I": 95,
+          "correct": 969,
+          "errors": 476,
+          "utterances": 216,
+          "wer": 0.35259259259259257,
+          "deletion_rate": 0.006666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 403,
+          "D": 39,
+          "I": 17,
+          "correct": 908,
+          "errors": 459,
+          "utterances": 216,
+          "wer": 0.34,
+          "deletion_rate": 0.028888888888888888
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 399,
+          "D": 36,
+          "I": 27,
+          "correct": 915,
+          "errors": 462,
+          "utterances": 216,
+          "wer": 0.3422222222222222,
+          "deletion_rate": 0.02666666666666667
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 18.564172679882905,
+      "pesq_wb": 2.3681291424565845,
+      "stoi": 0.9517523584137566,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 52,
+          "D": 0,
+          "I": 11,
+          "correct": 398,
+          "errors": 63,
+          "utterances": 72,
+          "wer": 0.14,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 53,
+          "D": 0,
+          "I": 7,
+          "correct": 397,
+          "errors": 60,
+          "utterances": 72,
+          "wer": 0.13333333333333333,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 31,
+          "D": 0,
+          "I": 0,
+          "correct": 419,
+          "errors": 31,
+          "utterances": 72,
+          "wer": 0.06888888888888889,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 31,
+          "D": 0,
+          "I": 0,
+          "correct": 419,
+          "errors": 31,
+          "utterances": 72,
+          "wer": 0.06888888888888889,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 13.864879637612553,
+      "pesq_wb": 1.968094054195616,
+      "stoi": 0.9284472699580637,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 56,
+          "D": 0,
+          "I": 12,
+          "correct": 394,
+          "errors": 68,
+          "utterances": 72,
+          "wer": 0.1511111111111111,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 56,
+          "D": 0,
+          "I": 11,
+          "correct": 394,
+          "errors": 67,
+          "utterances": 72,
+          "wer": 0.14888888888888888,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 46,
+          "D": 0,
+          "I": 0,
+          "correct": 404,
+          "errors": 46,
+          "utterances": 72,
+          "wer": 0.10222222222222223,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 49,
+          "D": 0,
+          "I": 0,
+          "correct": 401,
+          "errors": 49,
+          "utterances": 72,
+          "wer": 0.10888888888888888,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": -1.3850439594568111,
+      "pesq_wb": 1.1388623195665855,
+      "stoi": 0.5910448143341946,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 627,
+          "D": 255,
+          "I": 149,
+          "correct": 468,
+          "errors": 1031,
+          "utterances": 216,
+          "wer": 0.7637037037037037,
+          "deletion_rate": 0.18888888888888888
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 713,
+          "D": 157,
+          "I": 153,
+          "correct": 480,
+          "errors": 1023,
+          "utterances": 216,
+          "wer": 0.7577777777777778,
+          "deletion_rate": 0.1162962962962963
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 658,
+          "D": 299,
+          "I": 11,
+          "correct": 393,
+          "errors": 968,
+          "utterances": 216,
+          "wer": 0.717037037037037,
+          "deletion_rate": 0.22148148148148147
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 635,
+          "D": 330,
+          "I": 19,
+          "correct": 385,
+          "errors": 984,
+          "utterances": 216,
+          "wer": 0.7288888888888889,
+          "deletion_rate": 0.24444444444444444
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -3.3207386088755433,
+      "pesq_wb": 1.077060482568211,
+      "stoi": 0.554220936565303,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 231,
+          "D": 121,
+          "I": 267,
+          "correct": 98,
+          "errors": 619,
+          "utterances": 72,
+          "wer": 1.3755555555555556,
+          "deletion_rate": 0.2688888888888889
+        },
+        "level_control": {
+          "N": 450,
+          "S": 245,
+          "D": 97,
+          "I": 53,
+          "correct": 108,
+          "errors": 395,
+          "utterances": 72,
+          "wer": 0.8777777777777778,
+          "deletion_rate": 0.21555555555555556
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 218,
+          "D": 153,
+          "I": 9,
+          "correct": 79,
+          "errors": 380,
+          "utterances": 72,
+          "wer": 0.8444444444444444,
+          "deletion_rate": 0.34
+        },
+        "level_control": {
+          "N": 450,
+          "S": 202,
+          "D": 168,
+          "I": 7,
+          "correct": 80,
+          "errors": 377,
+          "utterances": 72,
+          "wer": 0.8377777777777777,
+          "deletion_rate": 0.37333333333333335
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 0.8502798982814431,
+      "pesq_wb": 1.1420220705094162,
+      "stoi": 0.6354987587853853,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 710,
+          "D": 117,
+          "I": 170,
+          "correct": 523,
+          "errors": 997,
+          "utterances": 216,
+          "wer": 0.7385185185185185,
+          "deletion_rate": 0.08666666666666667
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 745,
+          "D": 71,
+          "I": 179,
+          "correct": 534,
+          "errors": 995,
+          "utterances": 216,
+          "wer": 0.737037037037037,
+          "deletion_rate": 0.052592592592592594
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 634,
+          "D": 234,
+          "I": 9,
+          "correct": 482,
+          "errors": 877,
+          "utterances": 216,
+          "wer": 0.6496296296296297,
+          "deletion_rate": 0.17333333333333334
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 614,
+          "D": 259,
+          "I": 13,
+          "correct": 477,
+          "errors": 886,
+          "utterances": 216,
+          "wer": 0.6562962962962963,
+          "deletion_rate": 0.19185185185185186
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 0.8809778724511903,
+      "pesq_wb": 1.1425848614286493,
+      "stoi": 0.6344830485212357,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 730,
+          "D": 117,
+          "I": 185,
+          "correct": 503,
+          "errors": 1032,
+          "utterances": 216,
+          "wer": 0.7644444444444445,
+          "deletion_rate": 0.08666666666666667
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 766,
+          "D": 73,
+          "I": 172,
+          "correct": 511,
+          "errors": 1011,
+          "utterances": 216,
+          "wer": 0.7488888888888889,
+          "deletion_rate": 0.05407407407407407
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 634,
+          "D": 247,
+          "I": 11,
+          "correct": 469,
+          "errors": 892,
+          "utterances": 216,
+          "wer": 0.6607407407407407,
+          "deletion_rate": 0.18296296296296297
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 615,
+          "D": 273,
+          "I": 15,
+          "correct": 462,
+          "errors": 903,
+          "utterances": 216,
+          "wer": 0.6688888888888889,
+          "deletion_rate": 0.20222222222222222
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 4.529139314953815,
+      "pesq_wb": 1.4260136054621801,
+      "stoi": 0.7856481016548078,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 118,
+          "D": 3,
+          "I": 21,
+          "correct": 329,
+          "errors": 142,
+          "utterances": 72,
+          "wer": 0.31555555555555553,
+          "deletion_rate": 0.006666666666666667
+        },
+        "level_control": {
+          "N": 450,
+          "S": 124,
+          "D": 3,
+          "I": 24,
+          "correct": 323,
+          "errors": 151,
+          "utterances": 72,
+          "wer": 0.33555555555555555,
+          "deletion_rate": 0.006666666666666667
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 108,
+          "D": 5,
+          "I": 6,
+          "correct": 337,
+          "errors": 119,
+          "utterances": 72,
+          "wer": 0.2644444444444444,
+          "deletion_rate": 0.011111111111111112
+        },
+        "level_control": {
+          "N": 450,
+          "S": 109,
+          "D": 5,
+          "I": 5,
+          "correct": 336,
+          "errors": 119,
+          "utterances": 72,
+          "wer": 0.2644444444444444,
+          "deletion_rate": 0.011111111111111112
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 7.144171567871859,
+      "pesq_wb": 1.4011398288938735,
+      "stoi": 0.7917107116759966,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 141,
+          "D": 6,
+          "I": 24,
+          "correct": 303,
+          "errors": 171,
+          "utterances": 72,
+          "wer": 0.38,
+          "deletion_rate": 0.013333333333333334
+        },
+        "level_control": {
+          "N": 450,
+          "S": 140,
+          "D": 6,
+          "I": 20,
+          "correct": 304,
+          "errors": 166,
+          "utterances": 72,
+          "wer": 0.3688888888888889,
+          "deletion_rate": 0.013333333333333334
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 122,
+          "D": 8,
+          "I": 3,
+          "correct": 320,
+          "errors": 133,
+          "utterances": 72,
+          "wer": 0.29555555555555557,
+          "deletion_rate": 0.017777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 121,
+          "D": 13,
+          "I": 1,
+          "correct": 316,
+          "errors": 135,
+          "utterances": 72,
+          "wer": 0.3,
+          "deletion_rate": 0.028888888888888888
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "fixed",
+      "rows": 216,
+      "si_sdr_db": -1.6489708161892522,
+      "pesq_wb": 1.3354508369057267,
+      "stoi": 0.5762865696327846,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 678,
+          "D": 266,
+          "I": 194,
+          "correct": 406,
+          "errors": 1138,
+          "utterances": 216,
+          "wer": 0.8429629629629629,
+          "deletion_rate": 0.19703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 731,
+          "D": 217,
+          "I": 470,
+          "correct": 402,
+          "errors": 1418,
+          "utterances": 216,
+          "wer": 1.0503703703703704,
+          "deletion_rate": 0.16074074074074074
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 625,
+          "D": 480,
+          "I": 20,
+          "correct": 245,
+          "errors": 1125,
+          "utterances": 216,
+          "wer": 0.8333333333333334,
+          "deletion_rate": 0.35555555555555557
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 638,
+          "D": 448,
+          "I": 29,
+          "correct": 264,
+          "errors": 1115,
+          "utterances": 216,
+          "wer": 0.825925925925926,
+          "deletion_rate": 0.33185185185185184
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "mcnet",
+      "rows": 72,
+      "si_sdr_db": -6.379396980070556,
+      "pesq_wb": 1.0930228730042775,
+      "stoi": 0.5460411674318963,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 275,
+          "D": 87,
+          "I": 275,
+          "correct": 88,
+          "errors": 637,
+          "utterances": 72,
+          "wer": 1.4155555555555555,
+          "deletion_rate": 0.19333333333333333
+        },
+        "level_control": {
+          "N": 450,
+          "S": 263,
+          "D": 98,
+          "I": 268,
+          "correct": 89,
+          "errors": 629,
+          "utterances": 72,
+          "wer": 1.3977777777777778,
+          "deletion_rate": 0.21777777777777776
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 200,
+          "D": 217,
+          "I": 10,
+          "correct": 33,
+          "errors": 427,
+          "utterances": 72,
+          "wer": 0.9488888888888889,
+          "deletion_rate": 0.4822222222222222
+        },
+        "level_control": {
+          "N": 450,
+          "S": 201,
+          "D": 218,
+          "I": 8,
+          "correct": 31,
+          "errors": 427,
+          "utterances": 72,
+          "wer": 0.9488888888888889,
+          "deletion_rate": 0.48444444444444446
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "rigid",
+      "rows": 216,
+      "si_sdr_db": 1.20564976546894,
+      "pesq_wb": 1.3117080391557128,
+      "stoi": 0.6311107402293338,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 772,
+          "D": 132,
+          "I": 387,
+          "correct": 446,
+          "errors": 1291,
+          "utterances": 216,
+          "wer": 0.9562962962962963,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 756,
+          "D": 142,
+          "I": 170,
+          "correct": 452,
+          "errors": 1068,
+          "utterances": 216,
+          "wer": 0.7911111111111111,
+          "deletion_rate": 0.10518518518518519
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 747,
+          "D": 290,
+          "I": 15,
+          "correct": 313,
+          "errors": 1052,
+          "utterances": 216,
+          "wer": 0.7792592592592592,
+          "deletion_rate": 0.21481481481481482
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 737,
+          "D": 283,
+          "I": 17,
+          "correct": 330,
+          "errors": 1037,
+          "utterances": 216,
+          "wer": 0.7681481481481481,
+          "deletion_rate": 0.20962962962962964
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "rotated",
+      "rows": 216,
+      "si_sdr_db": 1.2924141396944504,
+      "pesq_wb": 1.3212724096245236,
+      "stoi": 0.6294075170870996,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 749,
+          "D": 155,
+          "I": 189,
+          "correct": 446,
+          "errors": 1093,
+          "utterances": 216,
+          "wer": 0.8096296296296296,
+          "deletion_rate": 0.11481481481481481
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 724,
+          "D": 166,
+          "I": 181,
+          "correct": 460,
+          "errors": 1071,
+          "utterances": 216,
+          "wer": 0.7933333333333333,
+          "deletion_rate": 0.12296296296296297
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 774,
+          "D": 301,
+          "I": 15,
+          "correct": 275,
+          "errors": 1090,
+          "utterances": 216,
+          "wer": 0.8074074074074075,
+          "deletion_rate": 0.22296296296296297
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 769,
+          "D": 282,
+          "I": 23,
+          "correct": 299,
+          "errors": 1074,
+          "utterances": 216,
+          "wer": 0.7955555555555556,
+          "deletion_rate": 0.2088888888888889
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "truth_covariance",
+      "rows": 72,
+      "si_sdr_db": 10.171132786466634,
+      "pesq_wb": 1.5479155845112271,
+      "stoi": 0.8027329373751357,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 162,
+          "D": 8,
+          "I": 24,
+          "correct": 280,
+          "errors": 194,
+          "utterances": 72,
+          "wer": 0.4311111111111111,
+          "deletion_rate": 0.017777777777777778
+        },
+        "level_control": {
+          "N": 450,
+          "S": 165,
+          "D": 9,
+          "I": 24,
+          "correct": 276,
+          "errors": 198,
+          "utterances": 72,
+          "wer": 0.44,
+          "deletion_rate": 0.02
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 145,
+          "D": 13,
+          "I": 5,
+          "correct": 292,
+          "errors": 163,
+          "utterances": 72,
+          "wer": 0.3622222222222222,
+          "deletion_rate": 0.028888888888888888
+        },
+        "level_control": {
+          "N": 450,
+          "S": 143,
+          "D": 17,
+          "I": 4,
+          "correct": 290,
+          "errors": 164,
+          "utterances": 72,
+          "wer": 0.36444444444444446,
+          "deletion_rate": 0.03777777777777778
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "group": "truth_ref_power_mask",
+      "rows": 72,
+      "si_sdr_db": 9.219555723248739,
+      "pesq_wb": 1.5367862830559413,
+      "stoi": 0.7794882508360865,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 191,
+          "D": 6,
+          "I": 34,
+          "correct": 253,
+          "errors": 231,
+          "utterances": 72,
+          "wer": 0.5133333333333333,
+          "deletion_rate": 0.013333333333333334
+        },
+        "level_control": {
+          "N": 450,
+          "S": 192,
+          "D": 5,
+          "I": 33,
+          "correct": 253,
+          "errors": 230,
+          "utterances": 72,
+          "wer": 0.5111111111111111,
+          "deletion_rate": 0.011111111111111112
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 169,
+          "D": 23,
+          "I": 7,
+          "correct": 258,
+          "errors": 199,
+          "utterances": 72,
+          "wer": 0.44222222222222224,
+          "deletion_rate": 0.051111111111111114
+        },
+        "level_control": {
+          "N": 450,
+          "S": 167,
+          "D": 27,
+          "I": 7,
+          "correct": 256,
+          "errors": 201,
+          "utterances": 72,
+          "wer": 0.44666666666666666,
+          "deletion_rate": 0.06
+        }
+      }
+    }
+  ],
+  "references": [
+    {
+      "room": "reference",
+      "rt": 0,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 18,
+          "correct": 414,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 18,
+          "correct": 414,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 0,
+          "correct": 408,
+          "errors": 42,
+          "utterances": 72,
+          "wer": 0.09333333333333334,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 0,
+          "correct": 408,
+          "errors": 42,
+          "utterances": 72,
+          "wer": 0.09333333333333334,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 23,
+          "D": 0,
+          "I": 0,
+          "correct": 427,
+          "errors": 23,
+          "utterances": 72,
+          "wer": 0.051111111111111114,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 24,
+          "D": 0,
+          "I": 0,
+          "correct": 426,
+          "errors": 24,
+          "utterances": 72,
+          "wer": 0.05333333333333334,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 78,
+          "D": 6,
+          "I": 6,
+          "correct": 366,
+          "errors": 90,
+          "utterances": 72,
+          "wer": 0.2,
+          "deletion_rate": 0.013333333333333334
+        },
+        "level_control": {
+          "N": 450,
+          "S": 78,
+          "D": 6,
+          "I": 6,
+          "correct": 366,
+          "errors": 90,
+          "utterances": 72,
+          "wer": 0.2,
+          "deletion_rate": 0.013333333333333334
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 54,
+          "D": 0,
+          "I": 0,
+          "correct": 396,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 54,
+          "D": 0,
+          "I": 0,
+          "correct": 396,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 18,
+          "correct": 414,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 36,
+          "D": 0,
+          "I": 18,
+          "correct": 414,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 12,
+          "correct": 408,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 12,
+          "correct": 408,
+          "errors": 54,
+          "utterances": 72,
+          "wer": 0.12,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 431,
+          "errors": 19,
+          "utterances": 72,
+          "wer": 0.042222222222222223,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 18,
+          "D": 0,
+          "I": 0,
+          "correct": 432,
+          "errors": 18,
+          "utterances": 72,
+          "wer": 0.04,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "cases": 72,
+      "Whisper": {
+        "raw": {
+          "N": 450,
+          "S": 86,
+          "D": 6,
+          "I": 6,
+          "correct": 358,
+          "errors": 98,
+          "utterances": 72,
+          "wer": 0.21777777777777776,
+          "deletion_rate": 0.013333333333333334
+        },
+        "level_control": {
+          "N": 450,
+          "S": 84,
+          "D": 6,
+          "I": 6,
+          "correct": 360,
+          "errors": 96,
+          "utterances": 72,
+          "wer": 0.21333333333333335,
+          "deletion_rate": 0.013333333333333334
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 450,
+          "S": 42,
+          "D": 0,
+          "I": 0,
+          "correct": 408,
+          "errors": 42,
+          "utterances": 72,
+          "wer": 0.09333333333333334,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 450,
+          "S": 48,
+          "D": 0,
+          "I": 0,
+          "correct": 402,
+          "errors": 48,
+          "utterances": 72,
+          "wer": 0.10666666666666667,
+          "deletion_rate": 0.0
+        }
+      }
+    }
+  ]
+}

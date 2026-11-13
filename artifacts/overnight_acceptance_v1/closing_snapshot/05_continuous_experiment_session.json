@@ -1,0 +1,18 @@
+{
+  "authorization": "每次完成一个阶段，暂留保存该阶段的实验报告等后再进入下一个阶段；当前大阶段完成后继续后续大阶段，直至4小时后或者额度耗尽",
+  "received_utc": "2026-11-11T17:54:15Z",
+  "hard_deadline_utc": "2026-11-11T21:54:15Z",
+  "timezone": "Asia/Shanghai",
+  "deadline_local": "2026-11-12 05:54:15",
+  "stage_gate": "Persist Chinese report, immutable configuration/result manifests and checksums before entering the next stage. No user confirmation needed between stages during this authorized window.",
+  "current_major_stage": "G5 completed and archived; session closed",
+  "next_stage_candidate": "None in this expired window; G6 remains an unexecuted proposal",
+  "boundaries": "Single local project/environment, no driver/CUDA changes, no deletion of past evidence, no test-driven retuning of completed G3 method, no public publishing or messaging, preserve failed/negative runs. Stop current work and save partial evidence at deadline.",
+  "quota_percent_readable_by_agent": false,
+  "quota_policy": "Use bounded local queues and compact status reads; do not claim a remaining-account percentage. No extra agent delegation.",
+  "session_status": "closed_after_G5",
+  "last_experiment_completed_utc": "2026-11-11T20:57:51.791990+00:00",
+  "closing_observation_utc": "2026-11-12T02:19:32Z",
+  "closing_report": "docs/夜间实验_验收汇总.md",
+  "G6_executed": false
+}

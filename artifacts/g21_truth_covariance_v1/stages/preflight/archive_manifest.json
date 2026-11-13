@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T18:11:13.305542+00:00",
+  "files": [
+    {
+      "source": "docs/G21A_真值统计预检报告.md",
+      "snapshot": "00_G21A_真值统计预检报告.md",
+      "sha256": "9a77439bdf89a78976fc9b7db829ebc71c8843c08ea6eca40a45c4a14425b5ec"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/preflight.json",
+      "snapshot": "01_preflight.json",
+      "sha256": "1a9cc4e4861a550a47f70a93dd72920a278c203b7da4a58e98467294bb57f83a"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/frozen_plan.json",
+      "snapshot": "02_frozen_plan.json",
+      "sha256": "6cfd518eec953166dab62a42d1db8a6d00a69b57ebffe06b07e379b951bd2a1f"
+    }
+  ]
+}

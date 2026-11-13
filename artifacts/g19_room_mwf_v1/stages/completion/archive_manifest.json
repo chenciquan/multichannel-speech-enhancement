@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T13:32:39.997511+00:00",
+  "files": [
+    {
+      "source": "docs/G19_多通道Wiener与MVDR对照报告.md",
+      "snapshot": "00_G19_多通道Wiener与MVDR对照报告.md",
+      "sha256": "23346d3d2a8f7bdf8dbbe6f00311f7475d923d10ed2865f700b27fbe2c479bd4"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "de0ccf11dba93cf6bda00e1f2becba11dcfaa1dc594c5fbff62a9291892fd8d7"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "1067e585d67f959f3ecea43ce022151f6f4df89fd381b7b5ca5645217b35dd47"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "3f6d1d9c6923e6530d0b3b828cbb90ffc252532659586d163513a92651f96011"
+    },
+    {
+      "source": "scripts/g19_finish.py",
+      "snapshot": "04_g19_finish.py",
+      "sha256": "3b34bf6d83f0e9703591beb7bb3b288f9673e08fb3a3f8bc06ffa8e5b4842e84"
+    }
+  ]
+}

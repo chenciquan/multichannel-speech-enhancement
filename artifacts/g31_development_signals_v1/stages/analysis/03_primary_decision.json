@@ -1,0 +1,53 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:49:42.995415+00:00",
+  "extension_gate_passed": false,
+  "comparisons": [
+    {
+      "comparator": "cirm",
+      "deltas": {
+        "si_sdr_db": 0.5333314611433096,
+        "pesq_wb": 0.0006730357805888598,
+        "stoi": 0.014423972957701037
+      },
+      "clean_NMSE_increase": 0.0003777605407017104,
+      "checks": {
+        "SI": true,
+        "PESQ": true,
+        "STOI": true,
+        "clean_NMSE": true
+      },
+      "passed": true
+    },
+    {
+      "comparator": "cirm_mask",
+      "deltas": {
+        "si_sdr_db": 0.23827008260320423,
+        "pesq_wb": -0.00901198221577526,
+        "stoi": 0.004339062232277424
+      },
+      "clean_NMSE_increase": -0.0026534175771184,
+      "checks": {
+        "SI": false,
+        "PESQ": false,
+        "STOI": true,
+        "clean_NMSE": true
+      },
+      "passed": false
+    }
+  ],
+  "speaker_checks": [
+    {
+      "speaker": "1988",
+      "SI_delta_vs_cirm": 0.48163323943752223,
+      "passed": true
+    },
+    {
+      "speaker": "777",
+      "SI_delta_vs_cirm": 0.5850296828490971,
+      "passed": true
+    }
+  ],
+  "protocol_sha256": "bc4f4c5c6d14c5a3d6ae509b432c7db557307c065e012045aafcade38ef8dc96",
+  "scope": "single-seed development spending gate, not statistical significance/novelty/content retention proof"
+}

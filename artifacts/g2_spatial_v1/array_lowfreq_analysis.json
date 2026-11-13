@@ -1,0 +1,9 @@
+{
+  "dominant_noise_frequency_hz": 16.38311489180144,
+  "max_array_aperture_m": 0.2758622844826744,
+  "speed_of_sound_m_s": 343.0,
+  "wavelength_m": 20.936189623601223,
+  "maximum_single_plane_wave_pair_phase_radians": 0.08278936539209622,
+  "maximum_single_plane_wave_pair_phase_degrees": 4.743481225533553,
+  "interpretation": "Wavelength is much larger than array; small low-frequency phase variation is a physical explanation supporting the spectrum finding, not a direct observation of learned network internals"
+}

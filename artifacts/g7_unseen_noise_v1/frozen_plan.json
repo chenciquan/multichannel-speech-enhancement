@@ -1,0 +1,52 @@
+{
+  "status": "frozen_before_new_noise_results",
+  "authorization": "configs/research_session_v2.json",
+  "entry_gate": "G6 acceptance report/audit/snapshot saved",
+  "question": "Does the -40deg rescue and20/70deg penalty persist on two noise recordings not previously used by this project, across SNRs? No tuning of G5 weights.",
+  "noise_ids": [
+    "NPARK",
+    "PSTATION"
+  ],
+  "official_record": "https://zenodo.org/records/1227121",
+  "source_verified": "Official record lists both16k ZIPs and CC-BY-SA3.0; checked before download. Environmental PDF details not used because browser extraction failed.",
+  "download_policy": "HTTP206 ranges only, extract onlych01.wav, <=20MiB per archive, ZIP member CRC and saved-file SHA256; do not claim whole-ZIP MD5 verification",
+  "sources": "All12 G5 confirmation sources,3 speakers4 each; reused-source stress test, not new independent-speaker confirmation",
+  "target_azimuth_degrees": [
+    -40,
+    20,
+    70
+  ],
+  "target_elevation_degrees": 10,
+  "relative_noise_azimuth_degrees": [
+    -80,
+    25
+  ],
+  "fields": [
+    "point_relative_minus80",
+    "point_relative_plus25",
+    "multi8"
+  ],
+  "snr_db": [
+    -5,
+    0,
+    5
+  ],
+  "noise_time_interval_seconds": [
+    0,
+    295
+  ],
+  "generator": "Same nominal six-mic free-field renderer. Entire scene rotates, relative geometry and noise clips shared across targets. Noise HPF40 before active-speech SNR calibration. Common anti-clipping scalar per source/noise/field/SNR across targets; ref mic4 and clean reference must match exactly.",
+  "seed": 2026111601,
+  "cases_per_system": 648,
+  "systems": "Original McNet, noisy reference, every G5 selected complete seed block (12 adapters,3 seeds). No best-seed or new-checkpoint selection.",
+  "expected_signal_asr_pairs": 9072,
+  "primary_analysis": "Rotated minus fixed separately for each clean-identity setting, noise, SNR and target. Do not headline off-target average without -40/70 separation. Also report point/multi8 and per-speaker counts.",
+  "ASR": "Same fixed local tiny.en/options; keep micro-WER untrimmed, S/D/I and casesWER>100%/I>N as recognizer-degeneracy candidates, not acoustic deletion",
+  "intervals": "Exploratory paired source bootstrap2000,12 sources3 speakers; seeds/conditions not independent source sentences",
+  "no_new_training_or_dependency": true,
+  "no_new_clean_claim": "Existing G5 clean-input analysis remains applicable; do not duplicate it as new independent evidence",
+  "max_data_stage_seconds": 1200,
+  "max_evaluation_stage_seconds": 7200,
+  "save_reports_before_advancing": true,
+  "frozen_utc": "2026-11-12T03:34:40.319297+00:00"
+}

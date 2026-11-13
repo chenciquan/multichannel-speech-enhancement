@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T01:15:50.127132+00:00",
+  "files": [
+    {
+      "source": "docs/G32_Whisper_双条件识别覆盖.md",
+      "snapshot": "00_G32_Whisper_双条件识别覆盖.md",
+      "sha256": "3cbda0784b65d010539dd51c8c7e59f41782411f085a5c687ad1c89ad02dfc97"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/Whisper/raw/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "fc2fb0201915d9870bbca464b64df8a58e532bdc9a2ccedcb628d8e1026d17fb"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/Whisper/level_control/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "1219317803572249c867d453c9e43a9af9bcb1183e28d16628f210478138fa4e"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/Whisper/raw/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "17cb37fed0761c1a26058555c7c71de7e6f190293cf3c8d8d916fd88354226a8"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/Whisper/level_control/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "c778d1988b38def809364b26ad2be6763b69e9e3c2c9704dbf056757991aa410"
+    }
+  ]
+}

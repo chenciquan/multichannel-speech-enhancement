@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T04:35:16.175665+00:00",
+  "files": [
+    {
+      "source": "docs/G9C_Whisper波束形成初评.md",
+      "snapshot": "00_G9C_Whisper波束形成初评.md",
+      "sha256": "750d0659ac482302a732fd3dab263f8166b699200e7b556f75e36e91af3a4fc2"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "1d18abe0ece395e6e10d9bdf0560c082b7e06338f69c7550d10c5de427fe40c8"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "c439241213852d39e05048588687abb47473d9c87016e38b9f907010ac0eafa9"
+    },
+    {
+      "source": "scripts/g9_asr.py",
+      "snapshot": "03_g9_asr.py",
+      "sha256": "12979e3bf6755480707bf2048104f76c2d3a78ae5723e1e81ae6b8a429a1d22c"
+    }
+  ]
+}

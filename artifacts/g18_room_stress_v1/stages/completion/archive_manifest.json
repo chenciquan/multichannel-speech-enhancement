@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T11:16:49.682789+00:00",
+  "files": [
+    {
+      "source": "docs/G18_固定房间反射压力测试报告.md",
+      "snapshot": "00_G18_固定房间反射压力测试报告.md",
+      "sha256": "d6ca8f66d152628bb0164e206c875f59b066a1ced6c17ba6f30f8e38db17fd95"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "8119214ffd6443889b391be2ff74544af667eaf4192c416af9453b28b6a2d027"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "88272f482ceead2a80341f727e1d6fc3e83197eb667cc936b847aa372c57ec4a"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "d86858e2c2dd10d0c854e61a3370ccf45c2f68fc9aa0a84c5989e859f99a1fd5"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "cb9ee8cf3508252d112708e6231eb5b7ab679a2bc8264c923a67b3d48ca22b14"
+    },
+    {
+      "source": "scripts/g18_finish.py",
+      "snapshot": "05_g18_finish.py",
+      "sha256": "820b27eca200e8401e35aec638b888a01720063b348771abf11d1c4b1c4ba760"
+    }
+  ]
+}

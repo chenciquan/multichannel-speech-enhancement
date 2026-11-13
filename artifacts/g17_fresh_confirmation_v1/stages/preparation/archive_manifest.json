@@ -1,0 +1,120 @@
+{
+  "saved_utc": "2026-11-12T09:49:09.982814+00:00",
+  "files": [
+    {
+      "source": "docs/G17B_新语音正确几何模拟协议与数据.md",
+      "snapshot": "00_G17B_新语音正确几何模拟协议与数据.md",
+      "sha256": "b51624657fe3f15e0df9fd0fb58a2a48536b9ef729ff6256aad2518c6053c01c"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "c265bc4e2d322a652dd82033fb90907949ebb352a3e6e276e17c2d4ace2ae8f9"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/PIPELINE_READY.json",
+      "snapshot": "02_PIPELINE_READY.json",
+      "sha256": "35be8155ec88edf81ac299c8a55646d3db34a3593448fc70d7fdb084f738984b"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/systems.json",
+      "snapshot": "03_systems.json",
+      "sha256": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/noise_sources.json",
+      "snapshot": "04_noise_sources.json",
+      "sha256": "3abca9a3e629a0d48083d26c540c0fccfbfc55576a605c6ffe29e22c5413f491"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "05_PREPARATION_COMPLETE.json",
+      "sha256": "5684cad9895f5df33fb217266fcc66bc8944aac754eb1d7063744d2a9bef6401"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/noise_training_relationship.json",
+      "snapshot": "06_noise_training_relationship.json",
+      "sha256": "3f3ce8ca387db3d1bb031e26eb00926d2d237c5e5c5fdaf6a6b571a232b1bb21"
+    },
+    {
+      "source": "data/g17_v1/manifest.jsonl",
+      "snapshot": "07_manifest.jsonl",
+      "sha256": "5f4924318aa2c45619610bc0177f591c051735dc9071b3d3bfc53be215173ce0"
+    },
+    {
+      "source": "configs/g17_fresh_confirmation_plan.json",
+      "snapshot": "08_g17_fresh_confirmation_plan.json",
+      "sha256": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9"
+    },
+    {
+      "source": "configs/g1_geometry.json",
+      "snapshot": "09_g1_geometry.json",
+      "sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd"
+    },
+    {
+      "source": "scripts/g17_common.py",
+      "snapshot": "10_g17_common.py",
+      "sha256": "8898afac18b0dbac778c23cfb9c9c0b371324e2b67d4b84093005ff59b45b4fa"
+    },
+    {
+      "source": "scripts/g17_queue.py",
+      "snapshot": "11_g17_queue.py",
+      "sha256": "0f04c465f42f8f4fbfb853bb487ff10f0e50aa8e8a4ade34eb52dff7200ce910"
+    },
+    {
+      "source": "scripts/g17_fetch.py",
+      "snapshot": "12_g17_fetch.py",
+      "sha256": "22ac9936c4ecb32af01f6949b80a5857ed77a87826486ef139d97259cf6c6e44"
+    },
+    {
+      "source": "scripts/g17_build.py",
+      "snapshot": "13_g17_build.py",
+      "sha256": "4557093e866711fb41a600affc0ab4f3ac85ab3af7da06b78c54c5597646b8d1"
+    },
+    {
+      "source": "scripts/g17_signal.py",
+      "snapshot": "14_g17_signal.py",
+      "sha256": "2a0623d88b5193e406398da70a69dd837b68f4083e3b35200bf1dc7ba1d029a1"
+    },
+    {
+      "source": "scripts/g17_asr.py",
+      "snapshot": "15_g17_asr.py",
+      "sha256": "89b66a88a8602ce141a1f2f350932d605d3289c071c803321d54a407187a8cb9"
+    },
+    {
+      "source": "scripts/g17_finish.py",
+      "snapshot": "16_g17_finish.py",
+      "sha256": "e5dd80472e9b8dbd3b8982e09be4b6e2dafb62bc5d5bd0b957e3244731d98775"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "17_runtime.py",
+      "sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "18_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "19_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "20_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/simulation.py",
+      "snapshot": "21_simulation.py",
+      "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+    },
+    {
+      "source": "src/mcse/spatial_noise.py",
+      "snapshot": "22_spatial_noise.py",
+      "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+    }
+  ]
+}

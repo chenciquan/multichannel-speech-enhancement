@@ -1,0 +1,36 @@
+{
+  "saved_at_utc": "2026-11-11T19:52:27.844795+00:00",
+  "files": [
+    {
+      "source": "configs/g5_rotation_plan.json",
+      "snapshot": "00_g5_rotation_plan.json",
+      "sha256": "6e0eb40445039c307c4ecc6d1b51343c8fb9a7ee2266e7d330d05ada4947648d"
+    },
+    {
+      "source": "docs/G5A_配对旋转数据与新语句协议.md",
+      "snapshot": "01_G5A_配对旋转数据与新语句协议.md",
+      "sha256": "476e74d0b5eb73781cb0644aab96e9b93484a3f3b2f8dc69750662593fd3c4c6"
+    },
+    {
+      "source": "scripts/g5_prepare.py",
+      "snapshot": "02_g5_prepare.py",
+      "sha256": "2a3cd60a8d10240881ce3e8cb5e5aace0b5c999daeb3396c5f5743c3a5acdda5"
+    },
+    {
+      "source": "data/g5_v1/sources/status.json",
+      "snapshot": "03_status.json",
+      "sha256": "fdbbff4c66526dbafc7c75169cb857d55d500c824414eacdecbdf3d04ed8e39e"
+    },
+    {
+      "source": "data/g5_v1/sources/speech_manifest.jsonl",
+      "snapshot": "04_speech_manifest.jsonl",
+      "sha256": "32b66d0623d3066f96d034b95735a9d9e86f7a14fa3c1753429312501f7fe8f5"
+    },
+    {
+      "source": "data/g5_v1/validation/manifest.jsonl",
+      "snapshot": "05_manifest.jsonl",
+      "sha256": "94f2a348eb794207742c354ca9921d97e3b55e57e4cd47b6a6ba0e46fe598a8c"
+    }
+  ],
+  "confirmation_manifest_sha256": "8b4378a76866989ef3e5e34b54952869d2ee0020dd53a04810c047ebfc38b94d"
+}

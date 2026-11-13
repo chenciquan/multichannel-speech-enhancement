@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-11-11T17:53:20Z",
+  "classification": "validation-triggered exploratory extension, registered before final-test access; original primary comparison remains unchanged",
+  "trigger": "First-seed validation SI-SDR: ordinary 1.756355, complete 1.533790, without stratification 0.790844, without clean identity 4.036127 dB. This motivates checking component consistency across seeds, not tuning from test results.",
+  "extra_runs": ["without_stratification_s20261113", "without_clean_identity_s20261113", "without_stratification_s20261114", "without_clean_identity_s20261114"],
+  "same_seeds_as_primary": true,
+  "steps_each": 3000,
+  "change_to_rank_layers_loss_weight_learning_rate_pool": false,
+  "original_primary_selection_preserved": "artifacts/g3_overnight_v1/selected_checkpoints.json",
+  "extended_selection": "artifacts/g3_overnight_v1/selected_checkpoints_extended.json",
+  "test_stays_locked_until": "all original and four additional runs complete and checkpoints selected on validation only",
+  "purpose": "Complete three-seed 2x2 factorial comparison: balanced vs uniform sampling, clean identity on vs off. This is not evidence of innovation or acoustic word deletion.",
+  "hard_deadline_utc": "2026-11-11T22:09:35Z"
+}

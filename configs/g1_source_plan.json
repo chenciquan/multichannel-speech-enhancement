@@ -1,0 +1,29 @@
+{
+  "status": "fixed_before_model_outputs",
+  "speech": {
+    "dataset": "LibriSpeech dev-clean",
+    "url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "license": "CC-BY-4.0",
+    "license_source": "https://www.openslr.org/12/",
+    "selection": "First six speakers in archive traversal with four eligible complete utterances each; 1.0-3.8 seconds, transcripts available; no output/ASR-based selection.",
+    "target_sources": 24,
+    "target_speakers": 6,
+    "max_stream_bytes": 201326592,
+    "download_policy": "Stream only an archive prefix; save selected utterances and transcripts, not the full corpus; stop if cap reached."
+  },
+  "noise": {
+    "dataset": "DEMAND",
+    "record": "https://zenodo.org/records/1227121",
+    "license": "CC-BY-SA-3.0",
+    "selection": ["DWASHING_16k.zip:ch01.wav", "DKITCHEN_16k.zip:ch01.wav"],
+    "download_policy": "HTTP byte-range read of ZIP central directory and one mono channel per archive; do not download all 16 channels.",
+    "spatial_policy": "Render the selected mono recording as a synthetic directional source in the same geometry as speech; do not inherit or claim the original recorded DEMAND spatial field."
+  },
+  "conditions": {"mixtures_per_source": 2, "snr_db": [0, 5], "training": false},
+  "limitations": [
+    "Duration- and archive-order-selected read English subset is not representative of all speech.",
+    "Nominal array simulation is not exact training-domain replication.",
+    "Public ASR pretraining overlap cannot be completely excluded.",
+    "Discovery subset is not a final independent test set."
+  ]
+}

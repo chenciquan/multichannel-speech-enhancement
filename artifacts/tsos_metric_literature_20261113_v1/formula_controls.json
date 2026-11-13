@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "p": 0.3,
+  "gamma": 0.1,
+  "controls": [
+    {
+      "clean_magnitude": 0.1,
+      "estimate_magnitude": 0.020000000000000004,
+      "constant_relative_gain": 0.2,
+      "suppression_ratio": 0.07350565447102325,
+      "flag": false
+    },
+    {
+      "clean_magnitude": 1.0,
+      "estimate_magnitude": 0.2,
+      "constant_relative_gain": 0.2,
+      "suppression_ratio": 0.14666306230315637,
+      "flag": true
+    }
+  ],
+  "scaling_law_error": 1.1102230246251565e-16,
+  "one_bin_coherent_noise_example": {
+    "clean": 1.0,
+    "target_component": 0.2,
+    "noise_component": 0.8,
+    "mixture_magnitude": 1.0,
+    "suppression_ratio": 0.0,
+    "flag": false
+  },
+  "scope": "Single-bin algebra with clean C and estimate E, no input/STFT amplitude normalization. Not speech experiments or an official TSOS implementation.",
+  "model_data_or_G22_outputs_changed": false
+}

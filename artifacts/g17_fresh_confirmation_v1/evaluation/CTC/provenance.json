@@ -1,0 +1,41 @@
+{
+  "started_utc": "2026-11-12T10:01:57.949721+00:00",
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "source_caches": [
+    {
+      "path": "artifacts/g8_cross_asr_v1/evaluation/ctc_cache.jsonl",
+      "sha256": "ae13ae48a5994a39d3fd1dff0e529eeb958eb5def7fb3b12084272f85c7ddfb6"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "3710a32c2609fd76308416643ce41309a537b09b4cca483827c8b9713469c605"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "93b95409cc137a18631b5ef88adac3412bd65bdf00ad3154b9d7beb29b2dd984"
+    },
+    {
+      "path": "artifacts/g14_corrected_geometry_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "a1f9aafd72d5108747565a97c43613a467bfe37f252e88bbbdd92a0e147b0a07"
+    },
+    {
+      "path": "artifacts/g16_rigid_dev_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "cc10fe85093ed390d2eb8a63b6bd29ae3aa476fdb9d379fbde52c3ac98543f57"
+    }
+  ],
+  "source_precedence": "Whisper G3 then G5 then G7 then G9 then G10 then G14 then G16; first observation retained regardless of score; CTC G8 then G9 then G10 then G14 then G16 exact recognizer identity",
+  "cache_hypothesis_conflicts": [],
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "signal_archive_sha256": "080cb4e51793eb396653dccbce7aede34049dce42b3e3b9381cdb2d88d27212a"
+}

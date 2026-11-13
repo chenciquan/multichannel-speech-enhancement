@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-11-12T18:40:45.682546+00:00",
+  "hashes": {
+    "scripts/g22_common.py": "0a9afe7e0b794b67e30dfcf4089260b5aa9d117bdbb4207f5b6a86f1d3d632c8",
+    "scripts/g22_signal.py": "3228dc2f916452aa2136d941dc3a76e15d8282515adaf3dc6fe9c80cdc776d7f",
+    "scripts/g22_filter_worker.py": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807",
+    "scripts/g22_signal_queue.py": "2093c7ba41340f93df54cb9a4708859144a4588062e4a644aa3f2b6f1aba0838",
+    "scripts/g22_signal_finish.py": "d543a3a717532ce6da326792289cebcc68148181cab3ad73603b47584322f2e4",
+    "scripts/g22_prepare.py": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419",
+    "scripts/g4_run.py": "1583c8d26e60b0a9abdce56fab6cb9a07d1fdefb9cd9e9d7e3d7833a250f643d",
+    "src/mcse/runtime.py": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/components.py": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "artifacts/g18_room_stress_v1/systems.json": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f"
+  },
+  "max_phase_seconds": 7200,
+  "registry_sha256": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f",
+  "registry_source_sha256": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f",
+  "manifest_sha256": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2",
+  "RT0_output_max_abs": 1e-05,
+  "expected_total_rows": 16488,
+  "data_acceptance_sha256": "f8ca7118c407f206d40ebe99b9b902550330e903b79870144c908a798bbe9be5"
+}

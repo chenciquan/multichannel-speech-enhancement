@@ -1,0 +1,113 @@
+{
+  "utc": "2026-11-13T00:59:39.689822+00:00",
+  "seed": 2026111302,
+  "max_seconds": 600,
+  "sources": [
+    {
+      "source_id": "1988-147956-0014",
+      "speaker_id": "1988",
+      "split": "validation",
+      "path": "speech/1988-147956-0014.flac",
+      "samples": 34960,
+      "duration_seconds": 2.185,
+      "sha256": "dc974b44b14fbd3c779509b837ae38fd74c8d0b2300915471450e72277d490e2",
+      "license": "CC-BY-4.0",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "transcript": "AMBROSCH HE MAKE GOOD FARMER"
+    },
+    {
+      "source_id": "1988-147956-0003",
+      "speaker_id": "1988",
+      "split": "validation",
+      "path": "speech/1988-147956-0003.flac",
+      "samples": 39920,
+      "duration_seconds": 2.495,
+      "sha256": "ed36822f33be73c914abb5ec40c2c0c533dcec3f5c9f5ea0814cd4a625250b4b",
+      "license": "CC-BY-4.0",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "transcript": "NOW WHY IS THAT OTTO"
+    },
+    {
+      "source_id": "777-126732-0049",
+      "speaker_id": "777",
+      "split": "validation",
+      "path": "speech/777-126732-0049.flac",
+      "samples": 36000,
+      "duration_seconds": 2.25,
+      "sha256": "cd33b59323d1cf021ed8480752ef7ad97f9e362d92531b908bd746674420f9eb",
+      "license": "CC-BY-4.0",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "transcript": "THIS SURVEY WAS UNFAVOURABLE"
+    },
+    {
+      "source_id": "777-126732-0081",
+      "speaker_id": "777",
+      "split": "validation",
+      "path": "speech/777-126732-0081.flac",
+      "samples": 24080,
+      "duration_seconds": 1.505,
+      "sha256": "80e22d9e18af66dd827d0510b031de894ee77f11328a5608033cea7d648e8d8d",
+      "license": "CC-BY-4.0",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "transcript": "COMFORTABLE DEAR"
+    }
+  ],
+  "source_count": 4,
+  "speakers": 2,
+  "unique_reference_word_tokens": 16,
+  "requests": [
+    0,
+    0.16,
+    0.28
+  ],
+  "fields": [
+    "point",
+    "multi8",
+    "clean"
+  ],
+  "cases": 36,
+  "source_crop": false,
+  "RIR_samples": 7680,
+  "max_output_samples": 64000,
+  "source_max_samples": 56320,
+  "reference_target": "full reverberant speech channel4",
+  "room": "sameG29dev0",
+  "source_distance_m": 1.2,
+  "angle_policy": "source-index parity -30/+30, each olddevspeaker has bothangles",
+  "noise_policy": "source-index parity OOFFICE/DKITCHEN;point rel-80/+25,SNR0;multi8SNR-5;cleanNone",
+  "noise_block": [
+    125,
+    175
+  ],
+  "noise_preprocessing": "highpass40 independently inside devblock,1sinner margin",
+  "preroll_samples": 16000,
+  "SNR_tolerance_db": 0.001,
+  "training": false,
+  "new_model_or_data_download": false,
+  "scope": "secondary complete-utterance development diagnostic; no G31 gateoverride, no new-speaker finaltest",
+  "planned_outputs": 468,
+  "planned_ASR_rows_each_backend": 936,
+  "ASR_regimes": [
+    "raw",
+    "level_control"
+  ],
+  "dry_ASR_anchors": "4original complete dry sources, bothregimes, supplemental only; transcripts never prompts",
+  "hashes": {
+    "scripts/g32_common.py": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a",
+    "scripts/g32_prepare.py": "18be0296449bbd0f1965c62112dfe695f698842fba454c069378b7cee25a1b49",
+    "scripts/g32_data_accept.py": "3a74fbc1f3c9edace29abb8f43cf42eaf803411eec7464cee1e46b8f9a2b7e9b",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/spatial_noise.py": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b",
+    "src/mcse/simulation.py": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "data/g3_v1/sources/speech_manifest.jsonl": "ba7a37227a52d638c7f1014ecc12172a731c461f2589ec01e045c0a39c6ab6d0",
+    "data/g3_v1/sources/noise_manifest.json": "5c2d0f0e2500618c8d167c777c56ca9fa6ac31af2aae8f252c60b67e822db1df",
+    "artifacts/g29_room_development_v1/frozen_plan.json": "4c41fd85fc345e972456bd8a8711b05cb16200ce7107e07762713120175976bd",
+    "artifacts/g29_room_development_v1/RIR_manifest.json": "a796098d3f5da659d56962494aecba47a49f001ff54c0b8767c96cb2613fb2c2",
+    "artifacts/g29_room_development_v1/FINAL_ACCEPTANCE_AUDIT.json": "8e6e4ca75c47737219f4a5dc119bc9a630a64075804f45a6f58d02fa5e0bf559",
+    "artifacts/g30_room_objectives_v1/registered_checkpoints.json": "deff1e31c5495693629f3fec5290b22d1f142767caae067e69fc97adc3a84ca6",
+    "artifacts/g31_development_signals_v1/FINAL_ACCEPTANCE_AUDIT.json": "30d62025a2c3b4740fd7ef5afba7e23df2d9b9c2ca63af69e4d11330faec0653",
+    "artifacts/g31_development_signals_v1/primary_decision.json": "616435ef451268be453a63da749793a4214762c37addcceb8880a37fad1df108",
+    "artifacts/g31_development_signals_v1/next_complete_development_sources.json": "5a4f7465ac367b96e91c80e94c630014f6058f4af74ed30048c3f963b85ea906"
+  }
+}

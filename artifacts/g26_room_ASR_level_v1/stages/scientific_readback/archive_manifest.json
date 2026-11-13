@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T23:54:14.023665+00:00",
+  "files": [
+    {
+      "source": "docs/G26_科学读回与掩码瓶颈定位决策.md",
+      "snapshot": "00_G26_科学读回与掩码瓶颈定位决策.md",
+      "sha256": "902c30c1119db02ad5575fa54c5df2b0306a8497c4971c3d0f1a7882407074df"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/scientific_readback.json",
+      "snapshot": "01_scientific_readback.json",
+      "sha256": "cd32437821616b75f4263d8edfcb656c9e028979792fd51ab1efdc6d89164a63"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/raw_level_wer.png",
+      "snapshot": "02_raw_level_wer.png",
+      "sha256": "2abb0339c8580a0d4f0854fd629117f5e6a9417d8776a8dac3f386a66f7ba48f"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/raw_level_wer.pdf",
+      "snapshot": "03_raw_level_wer.pdf",
+      "sha256": "77d1f77f1346a2b1e278e985d2d29308db70c9ffd958ac0ea735ee9064713bb1"
+    },
+    {
+      "source": "scripts/g26_readback.py",
+      "snapshot": "04_g26_readback.py",
+      "sha256": "ae370e4b93ec19848f6d4ae204cdef98a8b21ba42cfb30e9936f4022011e8356"
+    },
+    {
+      "source": "docs/研究补查_掩码协方差监督与在线适配先例_20261113.md",
+      "snapshot": "05_研究补查_掩码协方差监督与在线适配先例_20261113.md",
+      "sha256": "9b9166969b8a54b917c0ac326c0d9b251155d22d4f3ce16d78d60a34d896f127"
+    }
+  ]
+}

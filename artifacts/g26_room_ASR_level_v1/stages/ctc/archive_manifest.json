@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T23:53:42.353245+00:00",
+  "files": [
+    {
+      "source": "docs/G26_CTC完整电平辅评分覆盖.md",
+      "snapshot": "00_G26_CTC完整电平辅评分覆盖.md",
+      "sha256": "0471d1d5b9f3e6ba410227f3ae499977fc1f287c9f538be02ebda182a763e435"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/CTC/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "7ecb5deaa1ebc65ecf649ffaf45f64979344acfeb9ee44eb11bdae16d494dc92"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/CTC/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "9bce195415a274b270538a30a1c709dc8d33b19a4541ed9c9a48e04aa75972fc"
+    },
+    {
+      "source": "scripts/g26_asr.py",
+      "snapshot": "03_g26_asr.py",
+      "sha256": "0f5f6e8537c0bdf4b3d83234128d0b496231c1ec6988e0c3cb215776aa8f6795"
+    }
+  ]
+}

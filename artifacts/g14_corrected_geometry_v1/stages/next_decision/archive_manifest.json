@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:01:04.115842+00:00",
+  "files": [
+    {
+      "source": "docs/G14_结论读回与正确训练阶段决策.md",
+      "snapshot": "00_G14_结论读回与正确训练阶段决策.md",
+      "sha256": "fc128fddcd31963729c3fbd52dcfbf42c50059ae6e38113d2007cb13d6c30407"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/NEXT_TRAINING_DECISION.json",
+      "snapshot": "01_NEXT_TRAINING_DECISION.json",
+      "sha256": "45f2b98ce109b74bde5b5a3464a8951418e1a161aa06514f89f2391a650e09cc"
+    },
+    {
+      "source": "configs/g15_rigid_training_plan.json",
+      "snapshot": "02_g15_rigid_training_plan.json",
+      "sha256": "1b9ac545c2d7eda43385356c4965f1249d6f40d9ce3523f4be5548f17f08b6be"
+    },
+    {
+      "source": "scripts/g14_decision.py",
+      "snapshot": "03_g14_decision.py",
+      "sha256": "1807e658a6709796ae91c26112fada2996b64aeda4ddb854edbaeadf0d4c1838"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "checks": {
+    "fresh_speakers_disjoint_from_entire_project": true,
+    "three_balanced_fresh_speakers": true,
+    "fresh_source_hashes_disjoint": true,
+    "all_cases_and_asr_present": true,
+    "all_metric_pairs_ok": true,
+    "inputs_unchanged": true,
+    "counterfactual_reference_samples_equal": true,
+    "outputs_unchanged": true,
+    "all_complete_cells_3000_steps": true,
+    "all_original_bases_frozen": true,
+    "paired_training_references_equal": true,
+    "saved_paired_arrays_verified": true,
+    "preparation_archived_before_training": true,
+    "training_archived_before_confirmation": true,
+    "signal_archived_before_asr": true,
+    "confirmation_selection_sha_unchanged": true,
+    "official_base_unchanged": true,
+    "review_63_mono_links": true
+  },
+  "coverage": {
+    "systems": 14,
+    "signal_rows": 3528,
+    "asr_rows": 3528,
+    "fresh_sources": 12,
+    "fresh_speakers": 3,
+    "sources_per_speaker": 4,
+    "completed_seeds": [
+      20261112,
+      20261113,
+      20261114
+    ]
+  }
+}

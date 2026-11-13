@@ -1,0 +1,12 @@
+{
+  "stoi": {
+    "status": "available",
+    "package": "pystoi",
+    "version": "0.4.1"
+  },
+  "pesq_wb": {
+    "status": "available",
+    "package": "pesq",
+    "version": "0.0.4"
+  }
+}

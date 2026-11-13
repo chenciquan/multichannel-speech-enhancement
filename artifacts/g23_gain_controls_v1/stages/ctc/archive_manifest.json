@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:49:38.438162+00:00",
+  "files": [
+    {
+      "source": "docs/G23_CTC控制识别覆盖.md",
+      "snapshot": "00_G23_CTC控制识别覆盖.md",
+      "sha256": "42b971cb85d36493bd27b6d86826ead900aa7b25f658f0911bed546a86a26564"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/CTC/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "414011fa2866d9b58426d9110edb45128eee821c726af13d2c332a9d5ec12e7a"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/CTC/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "48bda399269e53c0bde8ec7a7292a52d37134c2d80b3caae810bcb39aeddf055"
+    },
+    {
+      "source": "scripts/g23_asr.py",
+      "snapshot": "03_g23_asr.py",
+      "sha256": "bf71b3257a0a183315d286a05798e6bea0c658e4f3c28814294c30814ef4b1a2"
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+{
+  "cells": {
+    "0": {
+      "noisy": {
+        "-40": {
+          "si_sdr_db": -1.4512907442783718,
+          "Whisper_WER": 0.3915343915343915,
+          "CTC_WER": 0.5291005291005291
+        },
+        "20": {
+          "si_sdr_db": -1.4512907442783718,
+          "Whisper_WER": 0.3915343915343915,
+          "CTC_WER": 0.5291005291005291
+        },
+        "70": {
+          "si_sdr_db": -1.4512907442783718,
+          "Whisper_WER": 0.3915343915343915,
+          "CTC_WER": 0.5291005291005291
+        }
+      },
+      "mcnet": {
+        "-40": {
+          "si_sdr_db": -2.0295783426237097,
+          "Whisper_WER": 0.3968253968253968,
+          "CTC_WER": 0.47883597883597884
+        },
+        "20": {
+          "si_sdr_db": -1.988412944640956,
+          "Whisper_WER": 0.4417989417989418,
+          "CTC_WER": 0.46296296296296297
+        },
+        "70": {
+          "si_sdr_db": -3.6691463801957678,
+          "Whisper_WER": 0.6587301587301587,
+          "CTC_WER": 0.6931216931216931
+        }
+      },
+      "fixed": {
+        "-40": {
+          "si_sdr_db": -0.11356132195443136,
+          "Whisper_WER": 0.5776014109347443,
+          "CTC_WER": 0.6058201058201058
+        },
+        "20": {
+          "si_sdr_db": 5.793118305672705,
+          "Whisper_WER": 0.2495590828924162,
+          "CTC_WER": 0.13932980599647266
+        },
+        "70": {
+          "si_sdr_db": 2.3077906091341163,
+          "Whisper_WER": 0.4109347442680776,
+          "CTC_WER": 0.3306878306878307
+        }
+      },
+      "counter": {
+        "-40": {
+          "si_sdr_db": 2.268597698431477,
+          "Whisper_WER": 0.35008818342151676,
+          "CTC_WER": 0.328042328042328
+        },
+        "20": {
+          "si_sdr_db": 2.9134244778703504,
+          "Whisper_WER": 0.24338624338624337,
+          "CTC_WER": 0.22310405643738976
+        },
+        "70": {
+          "si_sdr_db": 1.1045336633755438,
+          "Whisper_WER": 0.42151675485008816,
+          "CTC_WER": 0.4532627865961199
+        }
+      },
+      "rigid": {
+        "-40": {
+          "si_sdr_db": 2.0631135304000345,
+          "Whisper_WER": 0.3474426807760141,
+          "CTC_WER": 0.30687830687830686
+        },
+        "20": {
+          "si_sdr_db": 2.720750100853199,
+          "Whisper_WER": 0.2495590828924162,
+          "CTC_WER": 0.2275132275132275
+        },
+        "70": {
+          "si_sdr_db": 1.348994841657287,
+          "Whisper_WER": 0.42504409171075835,
+          "CTC_WER": 0.43386243386243384
+        }
+      },
+      "mcnet_mvdr": {
+        "-40": {
+          "si_sdr_db": 0.3740297773716447,
+          "Whisper_WER": 0.37037037037037035,
+          "CTC_WER": 0.40476190476190477
+        },
+        "20": {
+          "si_sdr_db": 1.0957874226745714,
+          "Whisper_WER": 0.2962962962962963,
+          "CTC_WER": 0.30158730158730157
+        },
+        "70": {
+          "si_sdr_db": -2.5360537707828743,
+          "Whisper_WER": 0.4973544973544973,
+          "CTC_WER": 0.5132275132275133
+        }
+      },
+      "fixed_mvdr": {
+        "-40": {
+          "si_sdr_db": 2.1650124155631927,
+          "Whisper_WER": 0.25044091710758376,
+          "CTC_WER": 0.25396825396825395
+        },
+        "20": {
+          "si_sdr_db": 8.007640917898254,
+          "Whisper_WER": 0.08818342151675485,
+          "CTC_WER": 0.03968253968253968
+        },
+        "70": {
+          "si_sdr_db": 4.6838725572130615,
+          "Whisper_WER": 0.18606701940035272,
+          "CTC_WER": 0.15432098765432098
+        }
+      },
+      "counter_mvdr": {
+        "-40": {
+          "si_sdr_db": 6.119885727209718,
+          "Whisper_WER": 0.09611992945326278,
+          "CTC_WER": 0.08818342151675485
+        },
+        "20": {
+          "si_sdr_db": 7.110137661703659,
+          "Whisper_WER": 0.09700176366843033,
+          "CTC_WER": 0.0582010582010582
+        },
+        "70": {
+          "si_sdr_db": 4.892536372093804,
+          "Whisper_WER": 0.1781305114638448,
+          "CTC_WER": 0.13756613756613756
+        }
+      },
+      "rigid_mvdr": {
+        "-40": {
+          "si_sdr_db": 5.985100034302885,
+          "Whisper_WER": 0.09700176366843033,
+          "CTC_WER": 0.08289241622574955
+        },
+        "20": {
+          "si_sdr_db": 7.0153441454033905,
+          "Whisper_WER": 0.09700176366843033,
+          "CTC_WER": 0.05202821869488536
+        },
+        "70": {
+          "si_sdr_db": 5.118459467784303,
+          "Whisper_WER": 0.16666666666666666,
+          "CTC_WER": 0.12962962962962962
+        }
+      }
+    },
+    "0.15": {
+      "noisy": {
+        "-40": {
+          "si_sdr_db": -1.3107316181390634,
+          "Whisper_WER": 0.46825396825396826,
+          "CTC_WER": 0.7037037037037037
+        },
+        "20": {
+          "si_sdr_db": -1.3146300328639948,
+          "Whisper_WER": 0.5105820105820106,
+          "CTC_WER": 0.7380952380952381
+        },
+        "70": {
+          "si_sdr_db": -1.358564068110383,
+          "Whisper_WER": 0.5105820105820106,
+          "CTC_WER": 0.7037037037037037
+        }
+      },
+      "mcnet": {
+        "-40": {
+          "si_sdr_db": -2.2765565297257853,
+          "Whisper_WER": 0.5714285714285714,
+          "CTC_WER": 0.6798941798941799
+        },
+        "20": {
+          "si_sdr_db": -2.159400086583123,
+          "Whisper_WER": 0.5185185185185185,
+          "CTC_WER": 0.5608465608465608
+        },
+        "70": {
+          "si_sdr_db": -5.207935726816784,
+          "Whisper_WER": 1.246031746031746,
+          "CTC_WER": 0.8650793650793651
+        }
+      },
+      "fixed": {
+        "-40": {
+          "si_sdr_db": -4.558166974578931,
+          "Whisper_WER": 0.9065255731922398,
+          "CTC_WER": 0.7954144620811288
+        },
+        "20": {
+          "si_sdr_db": 4.680612339170855,
+          "Whisper_WER": 0.25573192239858905,
+          "CTC_WER": 0.23015873015873015
+        },
+        "70": {
+          "si_sdr_db": 0.7579509937003428,
+          "Whisper_WER": 0.5202821869488536,
+          "CTC_WER": 0.517636684303351
+        }
+      },
+      "counter": {
+        "-40": {
+          "si_sdr_db": 2.1486410252064188,
+          "Whisper_WER": 0.4894179894179894,
+          "CTC_WER": 0.5097001763668431
+        },
+        "20": {
+          "si_sdr_db": 3.8425863050611326,
+          "Whisper_WER": 0.3315696649029982,
+          "CTC_WER": 0.3315696649029982
+        },
+        "70": {
+          "si_sdr_db": 1.2860303017248642,
+          "Whisper_WER": 0.6234567901234568,
+          "CTC_WER": 0.6252204585537919
+        }
+      },
+      "rigid": {
+        "-40": {
+          "si_sdr_db": 2.100544272882258,
+          "Whisper_WER": 0.45943562610229277,
+          "CTC_WER": 0.48677248677248675
+        },
+        "20": {
+          "si_sdr_db": 3.7987329760230537,
+          "Whisper_WER": 0.3403880070546737,
+          "CTC_WER": 0.3342151675485009
+        },
+        "70": {
+          "si_sdr_db": 1.4567922005603189,
+          "Whisper_WER": 0.5687830687830688,
+          "CTC_WER": 0.5837742504409171
+        }
+      },
+      "mcnet_mvdr": {
+        "-40": {
+          "si_sdr_db": -0.4713446863201099,
+          "Whisper_WER": 0.43915343915343913,
+          "CTC_WER": 0.4576719576719577
+        },
+        "20": {
+          "si_sdr_db": 0.5324649674018529,
+          "Whisper_WER": 0.37037037037037035,
+          "CTC_WER": 0.41005291005291006
+        },
+        "70": {
+          "si_sdr_db": -3.7964315937104405,
+          "Whisper_WER": 0.6984126984126984,
+          "CTC_WER": 0.7328042328042328
+        }
+      },
+      "fixed_mvdr": {
+        "-40": {
+          "si_sdr_db": -2.61649692959305,
+          "Whisper_WER": 0.5970017636684304,
+          "CTC_WER": 0.5211640211640212
+        },
+        "20": {
+          "si_sdr_db": 5.9619093630420394,
+          "Whisper_WER": 0.16137566137566137,
+          "CTC_WER": 0.11552028218694885
+        },
+        "70": {
+          "si_sdr_db": 2.6132790711650964,
+          "Whisper_WER": 0.2583774250440917,
+          "CTC_WER": 0.29012345679012347
+        }
+      },
+      "counter_mvdr": {
+        "-40": {
+          "si_sdr_db": 4.388804195802324,
+          "Whisper_WER": 0.18342151675485008,
+          "CTC_WER": 0.20105820105820105
+        },
+        "20": {
+          "si_sdr_db": 6.095270607757335,
+          "Whisper_WER": 0.14814814814814814,
+          "CTC_WER": 0.14285714285714285
+        },
+        "70": {
+          "si_sdr_db": 3.580832117073399,
+          "Whisper_WER": 0.4497354497354497,
+          "CTC_WER": 0.36860670194003525
+        }
+      },
+      "rigid_mvdr": {
+        "-40": {
+          "si_sdr_db": 4.277636019137224,
+          "Whisper_WER": 0.18694885361552027,
+          "CTC_WER": 0.19753086419753085
+        },
+        "20": {
+          "si_sdr_db": 6.012127999425186,
+          "Whisper_WER": 0.16843033509700175,
+          "CTC_WER": 0.14814814814814814
+        },
+        "70": {
+          "si_sdr_db": 3.718693636658517,
+          "Whisper_WER": 0.29012345679012347,
+          "CTC_WER": 0.3403880070546737
+        }
+      }
+    },
+    "0.35": {
+      "noisy": {
+        "-40": {
+          "si_sdr_db": -1.764525211634332,
+          "Whisper_WER": 0.8756613756613757,
+          "CTC_WER": 0.9312169312169312
+        },
+        "20": {
+          "si_sdr_db": -1.6337328337070405,
+          "Whisper_WER": 0.8412698412698413,
+          "CTC_WER": 0.9708994708994709
+        },
+        "70": {
+          "si_sdr_db": -1.7185345022452874,
+          "Whisper_WER": 0.7275132275132276,
+          "CTC_WER": 0.9206349206349206
+        }
+      },
+      "mcnet": {
+        "-40": {
+          "si_sdr_db": -4.977436412047073,
+          "Whisper_WER": 0.9021164021164021,
+          "CTC_WER": 0.9259259259259259
+        },
+        "20": {
+          "si_sdr_db": -4.634094374065202,
+          "Whisper_WER": 0.8518518518518519,
+          "CTC_WER": 0.7962962962962963
+        },
+        "70": {
+          "si_sdr_db": -9.207815201173034,
+          "Whisper_WER": 1.4894179894179893,
+          "CTC_WER": 0.9894179894179894
+        }
+      },
+      "fixed": {
+        "-40": {
+          "si_sdr_db": -5.551233498430571,
+          "Whisper_WER": 1.210758377425044,
+          "CTC_WER": 0.9770723104056437
+        },
+        "20": {
+          "si_sdr_db": 0.11738541640124164,
+          "Whisper_WER": 0.9012345679012346,
+          "CTC_WER": 0.6313932980599647
+        },
+        "70": {
+          "si_sdr_db": -2.9250893432325977,
+          "Whisper_WER": 1.0299823633156966,
+          "CTC_WER": 0.8447971781305115
+        }
+      },
+      "counter": {
+        "-40": {
+          "si_sdr_db": -1.6450555196857408,
+          "Whisper_WER": 1.3245149911816578,
+          "CTC_WER": 0.917989417989418
+        },
+        "20": {
+          "si_sdr_db": 1.367100557704537,
+          "Whisper_WER": 0.982363315696649,
+          "CTC_WER": 0.6887125220458554
+        },
+        "70": {
+          "si_sdr_db": -1.3889848135799618,
+          "Whisper_WER": 1.337742504409171,
+          "CTC_WER": 0.9153439153439153
+        }
+      },
+      "rigid": {
+        "-40": {
+          "si_sdr_db": -1.6398785603873594,
+          "Whisper_WER": 0.9488536155202821,
+          "CTC_WER": 0.9126984126984127
+        },
+        "20": {
+          "si_sdr_db": 1.4084976017623978,
+          "Whisper_WER": 0.763668430335097,
+          "CTC_WER": 0.6622574955908289
+        },
+        "70": {
+          "si_sdr_db": -1.180165860171713,
+          "Whisper_WER": 1.0361552028218695,
+          "CTC_WER": 0.908289241622575
+        }
+      },
+      "mcnet_mvdr": {
+        "-40": {
+          "si_sdr_db": -2.682931505365093,
+          "Whisper_WER": 0.8015873015873016,
+          "CTC_WER": 0.8386243386243386
+        },
+        "20": {
+          "si_sdr_db": -1.945415409965289,
+          "Whisper_WER": 1.2566137566137565,
+          "CTC_WER": 0.6984126984126984
+        },
+        "70": {
+          "si_sdr_db": -5.973703168652665,
+          "Whisper_WER": 1.253968253968254,
+          "CTC_WER": 0.955026455026455
+        }
+      },
+      "fixed_mvdr": {
+        "-40": {
+          "si_sdr_db": -4.280048604055832,
+          "Whisper_WER": 1.0846560846560847,
+          "CTC_WER": 0.9320987654320988
+        },
+        "20": {
+          "si_sdr_db": 1.0730966735955547,
+          "Whisper_WER": 0.47178130511463845,
+          "CTC_WER": 0.5
+        },
+        "70": {
+          "si_sdr_db": -1.3999423994830764,
+          "Whisper_WER": 0.7716049382716049,
+          "CTC_WER": 0.718694885361552
+        }
+      },
+      "counter_mvdr": {
+        "-40": {
+          "si_sdr_db": -0.8834048768437169,
+          "Whisper_WER": 0.9991181657848325,
+          "CTC_WER": 0.7760141093474426
+        },
+        "20": {
+          "si_sdr_db": 2.0690665140147693,
+          "Whisper_WER": 0.673721340388007,
+          "CTC_WER": 0.5520282186948854
+        },
+        "70": {
+          "si_sdr_db": -0.045025570184992966,
+          "Whisper_WER": 0.7134038800705468,
+          "CTC_WER": 0.7627865961199295
+        }
+      },
+      "rigid_mvdr": {
+        "-40": {
+          "si_sdr_db": -0.9589795706750257,
+          "Whisper_WER": 0.91005291005291,
+          "CTC_WER": 0.7733686067019401
+        },
+        "20": {
+          "si_sdr_db": 2.077497797847447,
+          "Whisper_WER": 0.5379188712522046,
+          "CTC_WER": 0.5432098765432098
+        },
+        "70": {
+          "si_sdr_db": -0.020297186943055292,
+          "Whisper_WER": 0.7054673721340388,
+          "CTC_WER": 0.7574955908289241
+        }
+      }
+    }
+  },
+  "all_seed_rigid_minus_counter": {
+    "0": {
+      "20261112": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.700658374102588,
+            "Whisper_WER": -0.018518518518518545,
+            "CTC_WER": -0.023809523809523836
+          },
+          "20": {
+            "si_sdr_db": -0.8127943187301248,
+            "Whisper_WER": 0.007936507936507936,
+            "CTC_WER": 0.015873015873015872
+          },
+          "70": {
+            "si_sdr_db": -0.6216363074109093,
+            "Whisper_WER": 0.047619047619047616,
+            "CTC_WER": 0.005291005291005291
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.23719556873540348,
+            "Whisper_WER": 0.007936507936507936,
+            "CTC_WER": -0.0026455026455026454
+          },
+          "20": {
+            "si_sdr_db": -0.39801356287592426,
+            "Whisper_WER": 0.0,
+            "CTC_WER": -0.005291005291005291
+          },
+          "70": {
+            "si_sdr_db": -0.1542269897976789,
+            "Whisper_WER": 0.005291005291005291,
+            "CTC_WER": 0.007936507936507936
+          }
+        }
+      },
+      "20261113": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.10990959935703426,
+            "Whisper_WER": 0.018518518518518545,
+            "CTC_WER": -0.021164021164021163
+          },
+          "20": {
+            "si_sdr_db": -0.0254557315302657,
+            "Whisper_WER": 0.018518518518518545,
+            "CTC_WER": -0.007936507936507936
+          },
+          "70": {
+            "si_sdr_db": 0.519948822847964,
+            "Whisper_WER": -0.029100529100529127,
+            "CTC_WER": -0.01851851851851849
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.037178794629780576,
+            "Whisper_WER": -0.0026455026455026454,
+            "CTC_WER": -0.010582010582010581
+          },
+          "20": {
+            "si_sdr_db": 0.07567074122953077,
+            "Whisper_WER": -0.0026455026455026454,
+            "CTC_WER": -0.005291005291005291
+          },
+          "70": {
+            "si_sdr_db": 0.45357215527410144,
+            "Whisper_WER": -0.023809523809523808,
+            "CTC_WER": -0.037037037037037035
+          }
+        }
+      },
+      "20261114": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.1941154693652951,
+            "Whisper_WER": -0.007936507936507908,
+            "CTC_WER": -0.018518518518518545
+          },
+          "20": {
+            "si_sdr_db": 0.26022691920893504,
+            "Whisper_WER": -0.007936507936507964,
+            "CTC_WER": 0.005291005291005291
+          },
+          "70": {
+            "si_sdr_db": 0.8350710194081754,
+            "Whisper_WER": -0.007936507936507908,
+            "CTC_WER": -0.044973544973545
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.12998271535532258,
+            "Whisper_WER": -0.0026455026455026454,
+            "CTC_WER": -0.0026455026455026454
+          },
+          "20": {
+            "si_sdr_db": 0.03796227274558639,
+            "Whisper_WER": 0.0026455026455026454,
+            "CTC_WER": -0.007936507936507936
+          },
+          "70": {
+            "si_sdr_db": 0.3784241215950743,
+            "Whisper_WER": -0.015873015873015872,
+            "CTC_WER": 0.005291005291005291
+          }
+        }
+      }
+    },
+    "0.15": {
+      "20261112": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.5856797385524706,
+            "Whisper_WER": -0.05291005291005291,
+            "CTC_WER": -0.010582010582010581
+          },
+          "20": {
+            "si_sdr_db": -0.7011075582137019,
+            "Whisper_WER": 0.0,
+            "CTC_WER": 0.015873015873015872
+          },
+          "70": {
+            "si_sdr_db": -0.6549380396595359,
+            "Whisper_WER": 0.02910052910052907,
+            "CTC_WER": 0.002645502645502673
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.26049828804701924,
+            "Whisper_WER": 0.0026455026455026454,
+            "CTC_WER": -0.005291005291005291
+          },
+          "20": {
+            "si_sdr_db": -0.3691066506145848,
+            "Whisper_WER": 0.010582010582010581,
+            "CTC_WER": 0.005291005291005291
+          },
+          "70": {
+            "si_sdr_db": -0.3778459432224852,
+            "Whisper_WER": -0.002645502645502673,
+            "CTC_WER": -0.013227513227513199
+          }
+        }
+      },
+      "20261113": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.20279173628917113,
+            "Whisper_WER": -0.010582010582010581,
+            "CTC_WER": -0.03703703703703709
+          },
+          "20": {
+            "si_sdr_db": 0.1197842757586427,
+            "Whisper_WER": 0.013227513227513255,
+            "CTC_WER": -0.023809523809523836
+          },
+          "70": {
+            "si_sdr_db": 0.36181926843207446,
+            "Whisper_WER": -0.08465608465608465,
+            "CTC_WER": -0.07671957671957674
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 0.06017708585086101,
+            "Whisper_WER": -0.026455026455026454,
+            "CTC_WER": -0.023809523809523808
+          },
+          "20": {
+            "si_sdr_db": 0.06784623853395999,
+            "Whisper_WER": 0.023809523809523808,
+            "CTC_WER": 0.0026455026455026454
+          },
+          "70": {
+            "si_sdr_db": 0.35065421543469233,
+            "Whisper_WER": -0.037037037037037035,
+            "CTC_WER": -0.044973544973545
+          }
+        }
+      },
+      "20261114": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.23859774529081745,
+            "Whisper_WER": -0.026455026455026454,
+            "CTC_WER": -0.021164021164021163
+          },
+          "20": {
+            "si_sdr_db": 0.44976329534082193,
+            "Whisper_WER": 0.013227513227513199,
+            "CTC_WER": 0.015873015873015872
+          },
+          "70": {
+            "si_sdr_db": 0.8054044677338255,
+            "Whisper_WER": -0.10846560846560849,
+            "CTC_WER": -0.050264550264550234
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.1331833277991441,
+            "Whisper_WER": 0.03439153439153439,
+            "CTC_WER": 0.018518518518518517
+          },
+          "20": {
+            "si_sdr_db": 0.05183258708417693,
+            "Whisper_WER": 0.026455026455026454,
+            "CTC_WER": 0.007936507936507936
+          },
+          "70": {
+            "si_sdr_db": 0.44077628654314527,
+            "Whisper_WER": -0.4391534391534392,
+            "CTC_WER": -0.026455026455026454
+          }
+        }
+      }
+    },
+    "0.35": {
+      "20261112": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.9406850927195995,
+            "Whisper_WER": -0.31746031746031744,
+            "CTC_WER": -0.015873015873015817
+          },
+          "20": {
+            "si_sdr_db": -0.678721713954937,
+            "Whisper_WER": 0.031746031746031744,
+            "CTC_WER": -0.002645502645502673
+          },
+          "70": {
+            "si_sdr_db": -0.6097516425409875,
+            "Whisper_WER": -0.4814814814814814,
+            "CTC_WER": 0.029100529100529182
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.3214165101458326,
+            "Whisper_WER": -0.2592592592592593,
+            "CTC_WER": -0.002645502645502673
+          },
+          "20": {
+            "si_sdr_db": -0.18933492185594725,
+            "Whisper_WER": 0.0,
+            "CTC_WER": -0.021164021164021163
+          },
+          "70": {
+            "si_sdr_db": -0.2987968954325709,
+            "Whisper_WER": -0.042328042328042326,
+            "CTC_WER": 0.013227513227513255
+          }
+        }
+      },
+      "20261113": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.5514850385471681,
+            "Whisper_WER": -0.8148148148148148,
+            "CTC_WER": 0.002645502645502562
+          },
+          "20": {
+            "si_sdr_db": 0.44157609355053173,
+            "Whisper_WER": -0.3650793650793651,
+            "CTC_WER": -0.042328042328042326
+          },
+          "70": {
+            "si_sdr_db": 0.4330806680647057,
+            "Whisper_WER": -0.45238095238095233,
+            "CTC_WER": -0.010582010582010581
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 0.073574337996127,
+            "Whisper_WER": 0.2328042328042328,
+            "CTC_WER": -0.005291005291005235
+          },
+          "20": {
+            "si_sdr_db": 0.0906111731511734,
+            "Whisper_WER": -0.4285714285714285,
+            "CTC_WER": -0.01851851851851849
+          },
+          "70": {
+            "si_sdr_db": 0.14691460415195878,
+            "Whisper_WER": -0.04761904761904767,
+            "CTC_WER": -0.010582010582010581
+          }
+        }
+      },
+      "20261114": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.4047309320675756,
+            "Whisper_WER": 0.005291005291005235,
+            "CTC_WER": -0.002645502645502673
+          },
+          "20": {
+            "si_sdr_db": 0.36133675257798736,
+            "Whisper_WER": -0.3227513227513227,
+            "CTC_WER": -0.03439153439153442
+          },
+          "70": {
+            "si_sdr_db": 0.8031278347010288,
+            "Whisper_WER": 0.02910052910052907,
+            "CTC_WER": -0.03968253968253965
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 0.021118090655778854,
+            "Whisper_WER": -0.2407407407407408,
+            "CTC_WER": 0.0
+          },
+          "20": {
+            "si_sdr_db": 0.1240176002028055,
+            "Whisper_WER": 0.021164021164021163,
+            "CTC_WER": 0.013227513227513144
+          },
+          "70": {
+            "si_sdr_db": 0.22606744100642537,
+            "Whisper_WER": 0.06613756613756616,
+            "CTC_WER": -0.01851851851851849
+          }
+        }
+      }
+    }
+  },
+  "RIR_decay": {
+    "0": {
+      "positions": 33,
+      "valid_T20_fits": 0,
+      "T20_extrapolated_seconds_min_median_max": null,
+      "maximum_last20ms_energy_fraction": 0.0,
+      "notice": "Requested Sabine label,position-dependent T20 estimate,and finite-tail energy are different quantities."
+    },
+    "0.15": {
+      "positions": 33,
+      "valid_T20_fits": 33,
+      "T20_extrapolated_seconds_min_median_max": [
+        0.09592830094010786,
+        0.10172266937465732,
+        0.11483372186144444
+      ],
+      "maximum_last20ms_energy_fraction": 6.665499368398539e-21,
+      "notice": "Requested Sabine label,position-dependent T20 estimate,and finite-tail energy are different quantities."
+    },
+    "0.35": {
+      "positions": 33,
+      "valid_T20_fits": 33,
+      "T20_extrapolated_seconds_min_median_max": [
+        0.45113235888457187,
+        0.4588487142040588,
+        0.465727687309115
+      ],
+      "maximum_last20ms_energy_fraction": 4.182856722185318e-07,
+      "notice": "Requested Sabine label,position-dependent T20 estimate,and finite-tail energy are different quantities."
+    }
+  },
+  "resources_all_neural_systems": [
+    {
+      "system": "mcnet",
+      "elapsed_seconds_with_metrics": 81.678725939,
+      "peak_allocated_bytes": 1937986048,
+      "peak_reserved_bytes": 3598712832,
+      "metadata": {
+        "system_id": "mcnet",
+        "kind": "mcnet",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": null,
+        "adapter_path": null,
+        "registry_source": null,
+        "registry_sha256": null,
+        "adapter_parameters": 0,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 18.19580429900003,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 68.48389233400002,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "117cb69f05daf10e437db1db6022dd64f97f356ad28fe41c05d5960d3dfe7881",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2611757189999935,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 66.31097201100005,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.19707308299996384,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 67.47132162800006,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "780c6ee32cda78d0eb0d994a1302ae1e3572838af1dfd6cce2789b9f245e2fd7",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2376191050000216,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 72.10878190400001,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "a9af5016b0253c1348cb71814c0edcba2c86d1d6f7f3ba5bfcc5f0ea9b695f12",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.22904590899997856,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 72.64784356799998,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "77e525e9aa58d5604e69948c85bceb2be56b87b739a48efcfb2c18167813022d",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.26925285999993775,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 68.15751466500001,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "558e2812fc31833ee87e6e9dbd3f5963ce62a83982ffbef3f8d6af7983ac2f4c",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.22696194799993918,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 67.553013835,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "8ec1d74ade15fe02285386fa638c6272491b506a338f575464772c538aba82dc",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2196806879999258,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 67.50268577200006,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "9928379fe782ca418967a9d42454b77dc17631f2dd067e0cd55c607f057d6a31",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2774480540000468,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 70.66023987899996,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 3533701120,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "73e32015d4abc5617dd2b9a4dcefdde868014d717b04500c36928d226123e38f",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.22140617900004145,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    }
+  ],
+  "scope": "One fixed simulated room,reused8utterances4speakers,nearfieldRT0control;not fresh voices or broad realroomconfirmation"
+}

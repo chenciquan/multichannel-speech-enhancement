@@ -1,0 +1,23 @@
+{
+  "status":"registered_before_any_component_outputs",
+  "entry_gate":"G10 FINAL_ACCEPTANCE_AUDIT ok and acceptance snapshot saved",
+  "question":"In frozen MVDR output,what changes in target-speech distortion/level versus residual-noise suppression accompany the G10 output-mode gains and direction tradeoffs?",
+  "scope":"All576 G10 noisy cases,originalMcNet mask plus all6 fixed/rotated no-identity adapter masks,three previously selected seeds:7 systems,4032 conditional decompositions.16 already evaluated utterances4 speakers; not new independent confirmation.",
+  "draft_change":"Earlier unactivated candidate considered first seed only. Before any component outputs,extend to all3 existing seeds because CPU-only diagnostics require no additional training/ASR and enable complete seed coverage. Not selected by component results.",
+  "clean_reconstruction":"Same original FLAC,nominal geometry,target elevation10 and azimuth,original renderer FIR/guard,stored common_scale. PCM24 roundtrip of6-channel clean field; reference channel4 must exactly equal saved PCM24 reference. N=decoded noisy X-reconstructed quantized S,with explicit quantization bookkeeping.",
+  "filter":"Recompute frozen G9/G10 estimated-mask Souden weights inCPU float64/complex128 using only noisy X and saved neural estimate. Verify reconstructed output vs saved G10 MVDR first. Hold W fixed,then apply separately to S and N. No neural-mask rerun on isolated components and no end-to-end causal/phoneme-deletion claim.",
+  "reference_match_max_abs":0.0,
+  "saved_beam_match_max_abs":0.000001,
+  "linearity_absolute_tolerance":"1e-6*(1+max_abs(reproduced_output))",
+  "power_floor":1e-30,
+  "metrics":"Full-utterance mean-square energies. speech_error_nmse=E[(ys-sref)^2]/E[sref^2];target_gain_db=10log10(E[ys^2]/E[sref^2]);noise_reduction_db=10log10(E[nref^2]/E[yn^2]);component_output_snr_db=10log10(E[ys^2]/E[yn^2]);target-component SI-SDR uses existing scorer without waveform fitting. Floor use/undefined SI explicitly flagged,not silently discarded. Full-utterance input SNR need not equal activity-calibrated0dB.",
+  "weight_metrics":"Mean/max frequency-bin sum(abs(W)^2) only: white-noise power amplification,not normalized WNG. Unit target-response not assumed under mask mismatch.",
+  "preflight":"Known attenuation/noise-rejection/identity/silence/shape fixtures; exact PCM24 channel roundtrip; actual first source's OOFFICE point-relative-80 cases at3 angles and first seed original/fixed/rotated,9 probes. Save report+snapshot before full4032 analysis. Probe rows are repeated in full set,not additional independent cases.",
+  "analysis":"Separate noise/target/field,speaker and every seed. Primary comparisons rotated vs fixed and each vs original,all3seeds retained. Speaker-cluster bootstrap2000 seed20261112 for energy metrics,4 speakers only,exploratory no multiplicity-controlled significance. Arithmetic mean NMSE and mean dB ratios explicitly distinguished. Join original G10 ASR scores only for descriptive juxtaposition,no rescore/no tuning.",
+  "failure_policy":"Abort on failed reference/output/linearity checks,preserve logs and partial records; no input fitting,time alignment,metric-based fallback or loosening of tolerances within run.",
+  "max_preflight_seconds":600,
+  "max_analysis_seconds":5400,
+  "no_training_new_dependency_data_weights_or_ASR":true,
+  "novelty_claim":false,
+  "classical_source":"Souden etal. On Optimal Frequency-Domain Multichannel Linear Filtering for Noise Reduction. IEEE TASLP18(2),260-276,2010. https://doi.org/10.1109/TASL.2009.2025790 . These are declared empirical component-energy measures,not a reproduction of every theoretical equation in that paper."
+}

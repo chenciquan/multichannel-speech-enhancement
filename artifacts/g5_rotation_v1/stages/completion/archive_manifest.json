@@ -1,0 +1,45 @@
+{
+  "saved_at_utc": "2026-11-11T20:57:51.789901+00:00",
+  "files": [
+    {
+      "source": "docs/G5_整场景旋转与新说话人确认报告.md",
+      "snapshot": "00_G5_整场景旋转与新说话人确认报告.md",
+      "sha256": "2c30fb255281fec1ab3d2e8550a9371b62eddb5248e9f7b110bb6a0cd62a4cc2"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "995bf6ca45d688d0ff3de211ba7d294705e01292c0166322ac6b1671e1273b95"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/paired_data_audit.json",
+      "snapshot": "02_paired_data_audit.json",
+      "sha256": "069c07c2cf8ad9f34f90da38f6b88b9202b293ea6f14881c27f0d9d7f205632f"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/evaluation/summary.json",
+      "snapshot": "03_summary.json",
+      "sha256": "69a385105749c665cb728e00bd3672ee8ea4866cf4c00a727b6ce9a4ade856ab"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/evaluation/asr_provenance.json",
+      "snapshot": "04_asr_provenance.json",
+      "sha256": "25e1675e4e0db0a072844270f0983b79bd2247cce2f6a21b92c4bb83616027ca"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/review/selection.json",
+      "snapshot": "05_selection.json",
+      "sha256": "8486b83b512ac4937fe600982e4e262edfa138323af50a91f63dbbeaf41262af"
+    },
+    {
+      "source": "scripts/g5_evaluate.py",
+      "snapshot": "06_g5_evaluate.py",
+      "sha256": "95d86f317a28d1f03baa87fb76cd11a36c7fa95081ab9d698cb4c505dabf9581"
+    },
+    {
+      "source": "scripts/g5_finish.py",
+      "snapshot": "07_g5_finish.py",
+      "sha256": "7e9e919b54ea76ef8cb0b793f7a533ead51b55c6abf5a46b90a1755289f98fb9"
+    }
+  ]
+}

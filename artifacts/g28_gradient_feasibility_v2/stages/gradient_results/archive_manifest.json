@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:12:25.023774+00:00",
+  "files": [
+    {
+      "source": "docs/G28_v2_可微路径与训练显存预检结果.md",
+      "snapshot": "00_G28_v2_可微路径与训练显存预检结果.md",
+      "sha256": "d7ba966008769ea7b067ebb139431bb9d42028a9e3713adede2ed40bc8b67cb4"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "90c9db453887526da49bb798591cb981d30e00dc3ca34ff2c8c6fef65cb7aed9"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/results.json",
+      "snapshot": "02_results.json",
+      "sha256": "dba0299bc22ee58c968e9c6abec21acbd42cf420c2300e2384698aa79fe64f48"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/gradients.npz",
+      "snapshot": "03_gradients.npz",
+      "sha256": "ff82b59ae18c74867397bc471f15a5306e7fa2dc024c810bff6b903cb24d06fd"
+    },
+    {
+      "source": "scripts/g28_gradient_v2.py",
+      "snapshot": "04_g28_gradient_v2.py",
+      "sha256": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82"
+    }
+  ]
+}

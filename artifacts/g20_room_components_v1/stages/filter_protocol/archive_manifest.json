@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T17:51:36.465832+00:00",
+  "files": [
+    {
+      "source": "docs/G20B_固定房间滤波分量诊断协议.md",
+      "snapshot": "00_G20B_固定房间滤波分量诊断协议.md",
+      "sha256": "bfe85b1b911e3c385be73ee3da413f2b62d7b4e004e32f466bf028cef33c1fc4"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "e9187588fa07f62b9c82bd1d5a9c563e7a759facbf8c7b59d6f8dbe9e4774cfd"
+    },
+    {
+      "source": "scripts/g20_filter.py",
+      "snapshot": "02_g20_filter.py",
+      "sha256": "f1ba73d3e88a9f8e7b212b9f6fc4d5613628182598076ba8de921482035b2135"
+    }
+  ]
+}

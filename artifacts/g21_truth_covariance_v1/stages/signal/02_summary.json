@@ -1,0 +1,68 @@
+[
+  {
+    "rt": 0,
+    "system": "truth_covariance_mvdr",
+    "rows": 144,
+    "si_sdr_db": 26.061898626594047,
+    "pesq_wb": 3.6454660909043417,
+    "stoi": 0.9883553527874283,
+    "speech_error_nmse": 0.0008135159519330706,
+    "target_gain_db": -0.02483978930046648,
+    "noise_reduction_db": 47.12770146077241
+  },
+  {
+    "rt": 0,
+    "system": "truth_covariance_mwf",
+    "rows": 144,
+    "si_sdr_db": 31.909996472132875,
+    "pesq_wb": 3.7108276527788906,
+    "stoi": 0.988866528445523,
+    "speech_error_nmse": 0.001659680872960088,
+    "target_gain_db": -0.0581661227704661,
+    "noise_reduction_db": 39.86484956348897
+  },
+  {
+    "rt": 0.15,
+    "system": "truth_covariance_mvdr",
+    "rows": 144,
+    "si_sdr_db": 10.087744050033727,
+    "pesq_wb": 2.4645697474479675,
+    "stoi": 0.9465010052926035,
+    "speech_error_nmse": 0.08622313437859279,
+    "target_gain_db": -1.3245694260435248,
+    "noise_reduction_db": 25.554945719067227
+  },
+  {
+    "rt": 0.15,
+    "system": "truth_covariance_mwf",
+    "rows": 144,
+    "si_sdr_db": 18.517723542051424,
+    "pesq_wb": 2.386236925919851,
+    "stoi": 0.9541376724460046,
+    "speech_error_nmse": 0.008798723166458003,
+    "target_gain_db": -0.24771399071263434,
+    "noise_reduction_db": 22.440178058478743
+  },
+  {
+    "rt": 0.35,
+    "system": "truth_covariance_mvdr",
+    "rows": 144,
+    "si_sdr_db": 4.365843856053435,
+    "pesq_wb": 1.4087571534845564,
+    "stoi": 0.7936874601604881,
+    "speech_error_nmse": 0.2695456671310411,
+    "target_gain_db": -3.9354532574962775,
+    "noise_reduction_db": 18.921282982692066
+  },
+  {
+    "rt": 0.35,
+    "system": "truth_covariance_mwf",
+    "rows": 144,
+    "si_sdr_db": 9.703869728743841,
+    "pesq_wb": 1.5611509556571643,
+    "stoi": 0.8065758510432944,
+    "speech_error_nmse": 0.042033713233099644,
+    "target_gain_db": -0.8944525519968095,
+    "noise_reduction_db": 14.660917023808187
+  }
+]

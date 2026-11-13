@@ -1,0 +1,24 @@
+{
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "ASR_regime": "raw",
+  "input_preprocessing": null,
+  "seed": {
+    "scores_sha256": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89",
+    "accepted_score_sha256": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89",
+    "provenance_sha256": "56df391b53b1df16d47e0f3730c612b58c19b6ccbcbbda2d93e7cc65fa846691"
+  },
+  "plan_sha256": "5a8cdf9d0e2b4e12b28aebf1d02ffbd91adca361d6431856d96b23d5aae301e1",
+  "input_manifest_sha256": "4a6fe9890953be206533e77e3d6dec4dfe4497b09e9b1eb6bc12a61889760b0b"
+}

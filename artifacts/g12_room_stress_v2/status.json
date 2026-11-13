@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-12T08:25:26.907830+00:00",
+  "stage": "failed",
+  "error_type": "RuntimeError",
+  "error": "g12_build.py failed; retain exact logs/no silent retries"
+}

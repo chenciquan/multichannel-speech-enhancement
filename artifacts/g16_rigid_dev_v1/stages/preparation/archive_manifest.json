@@ -1,0 +1,100 @@
+{
+  "saved_utc": "2026-11-12T09:30:39.175859+00:00",
+  "files": [
+    {
+      "source": "docs/G16B_正确几何开发诊断输入与基线复用.md",
+      "snapshot": "00_G16B_正确几何开发诊断输入与基线复用.md",
+      "sha256": "13cae9ec702b18cfc0356986d553dcc72b80f80b8b7639de93dd3033da1b98c1"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "4601b26b10c04fe1f1be13b29f89ac7af8ed6972ae3df0a40946032250cd4751"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/PIPELINE_READY.json",
+      "snapshot": "02_PIPELINE_READY.json",
+      "sha256": "99c6c9149d0fa47df95e9d0be19aeecf57f27b0ef79a17895ada23a5965c1648"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/systems.json",
+      "snapshot": "03_systems.json",
+      "sha256": "10e1de53e59dd386bdea4de60089406a4c70560152afd723c1f3a6c7ec16b535"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "04_PREPARATION_COMPLETE.json",
+      "sha256": "0b61f5647228989dc1ae57d339956b713e92abef07c5a9697c80040f476d5626"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/case_manifest.jsonl",
+      "snapshot": "05_case_manifest.jsonl",
+      "sha256": "55e6b0c51f3050e6e999140826774862b3b92a76fb946c5b13c051c672783e97"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/baseline_signals.jsonl",
+      "snapshot": "06_baseline_signals.jsonl",
+      "sha256": "e06b8741ac30e8028e6a4cf097728b72b46104165d49db2cbe6dedb2abdd4602"
+    },
+    {
+      "source": "configs/g16_rigid_dev_plan.json",
+      "snapshot": "07_g16_rigid_dev_plan.json",
+      "sha256": "d3965da22947c9372421aeee55defb0e4e2a0bee7c8f7a0c95c8b3481da9eb55"
+    },
+    {
+      "source": "scripts/g16_common.py",
+      "snapshot": "08_g16_common.py",
+      "sha256": "1da3d465152b3395d412bc706246e17ea2275b9db3094037743bd1c4556a9fd4"
+    },
+    {
+      "source": "scripts/g16_queue.py",
+      "snapshot": "09_g16_queue.py",
+      "sha256": "e7ec133c38a0af4846ffe64104416a9299dc37b6d6b121110d6695aabadd9341"
+    },
+    {
+      "source": "scripts/g16_preflight.py",
+      "snapshot": "10_g16_preflight.py",
+      "sha256": "10b7f5c00a3a9825a851b2030e11a8d9893187f4b65d4e444a81d8d318b034b2"
+    },
+    {
+      "source": "scripts/g16_prepare.py",
+      "snapshot": "11_g16_prepare.py",
+      "sha256": "6b52e67ec72b60f2ba52b101e6c2750a5cd671ce4208305eee386469f9814469"
+    },
+    {
+      "source": "scripts/g16_signal.py",
+      "snapshot": "12_g16_signal.py",
+      "sha256": "6b423e66848b08ed2ff41377569481a20e7ed1e5fca60dfe7af2455af74bb4c6"
+    },
+    {
+      "source": "scripts/g16_asr.py",
+      "snapshot": "13_g16_asr.py",
+      "sha256": "3d7f8d56c2faa2da8827fb6101578da1d45a5f53ae330e9df2ce4533265caa46"
+    },
+    {
+      "source": "scripts/g16_finish.py",
+      "snapshot": "14_g16_finish.py",
+      "sha256": "a89f14ac3206d96852557323a6f8e135ac09b89f7f6788b9730ef2486ddd0fac"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "15_runtime.py",
+      "sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "16_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "17_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "18_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    }
+  ]
+}

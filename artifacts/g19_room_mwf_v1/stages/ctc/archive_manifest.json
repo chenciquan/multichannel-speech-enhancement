@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T13:31:21.339287+00:00",
+  "files": [
+    {
+      "source": "docs/G19_CTC识别覆盖.md",
+      "snapshot": "00_G19_CTC识别覆盖.md",
+      "sha256": "c19d5a3e9d99d40e574219d923148b11305204f34b87b7951a84bfa4c3d0d4f4"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/CTC/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "d1ea5e0eaff6c45e0a68e237dd0b6be462346775505a9a653d5e4e06b61f8395"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/CTC/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "5fbb0304b8fc058d5e51686f8a5010ddcfd1a98bc75c24920639650d58e0ee74"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "03_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    }
+  ]
+}

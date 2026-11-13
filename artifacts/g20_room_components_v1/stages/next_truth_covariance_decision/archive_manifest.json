@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T18:11:11.441381+00:00",
+  "files": [
+    {
+      "source": "docs/G20_分量结论与真值统计诊断决策.md",
+      "snapshot": "00_G20_分量结论与真值统计诊断决策.md",
+      "sha256": "dc84bbd1d9cf8f82a4b24ca03ea7de677ea0fbaf38309ee2566936a0fd1f63e8"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "cf2155f869d40fa1948ad7e95161df6557b22c7f99db1c11ae86e7ae4ae3b7d1"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T19:41:14.232709+00:00",
+  "files": [
+    {
+      "source": "docs/G22_验收后增益控制阶段决策.md",
+      "snapshot": "00_G22_验收后增益控制阶段决策.md",
+      "sha256": "5c9d9fa7affd49f30956db3d127602c8483990a333a52e444ec321a458f74b36"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "aa87e6b7baf82dde2dbc7fcec37d733ee65e642f2fc591f64afd62c7e70ed116"
+    }
+  ]
+}

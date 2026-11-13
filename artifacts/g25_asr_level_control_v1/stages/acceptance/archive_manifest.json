@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:19:36.804224+00:00",
+  "files": [
+    {
+      "source": "docs/G25_识别电平控制阶段验收.md",
+      "snapshot": "00_G25_识别电平控制阶段验收.md",
+      "sha256": "effec4167c3c587c1fb113dca552498d1dc8466e4bf26f258cff08d514082e52"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "ec1d25706100d082590a50509e7282913ca89c2f085e961509415b976abd65c2"
+    },
+    {
+      "source": "scripts/g25_accept.py",
+      "snapshot": "02_g25_accept.py",
+      "sha256": "c02bdfa903ec0754310f5cb83d23e5ffd79552b5664b61ed0c27c5489806fb95"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "5ba4731ec1df8952ed9a143a0fb93d08ebe9a5c24e29347bf5f36ac47557d43a"
+    }
+  ]
+}

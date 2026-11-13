@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T09:35:48.327795+00:00",
+  "files": [
+    {
+      "source": "docs/G16_三种方向训练策略开发诊断报告.md",
+      "snapshot": "00_G16_三种方向训练策略开发诊断报告.md",
+      "sha256": "4826de46803e7fcf76189dd7e50608c7770abee36990652cefeb851740e7a584"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "70bf099b677cd17777a4be814f8212b5dfbc2b89ea357bc9aff2e21b9f554e87"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "50f0c6c3551a2a325196e13f3409a83a47d0a0a54f6548dca129d932fe3747d9"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "f48f4abcac010c5e7d3b3f4537f68ac24a3b2a0815d97c798f0eb1bdfea4e622"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "a81aacd8a78238632c3ed3429c6c3466754142fce4c292aa0ba81d4cf65cb0a7"
+    },
+    {
+      "source": "scripts/g16_finish.py",
+      "snapshot": "05_g16_finish.py",
+      "sha256": "a89f14ac3206d96852557323a6f8e135ac09b89f7f6788b9730ef2486ddd0fac"
+    }
+  ]
+}

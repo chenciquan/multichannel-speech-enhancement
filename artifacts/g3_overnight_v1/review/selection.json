@@ -1,0 +1,162 @@
+[
+  {
+    "id": "test_0318_5536-43359-0010",
+    "source": "5536-43359-0010",
+    "speaker": "5536",
+    "si_delta": 0.363755224400407,
+    "errors_delta": 17,
+    "reason": "ASR退步或SI-SDR较差候选，非人声误删结论",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.41525495052337646,
+      "noisy": 0.8335440158843994,
+      "mcnet": 0.8169310092926025,
+      "ordinary_s20261112": 0.42372435331344604,
+      "complete_s20261112": 0.4585997462272644
+    }
+  },
+  {
+    "id": "test_0283_5536-43358-0012",
+    "source": "5536-43358-0012",
+    "speaker": "5536",
+    "si_delta": -0.5345983192997243,
+    "errors_delta": 7,
+    "reason": "ASR退步或SI-SDR较差候选，非人声误删结论",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.461029052734375,
+      "noisy": 0.5708589553833008,
+      "mcnet": 0.5004040002822876,
+      "ordinary_s20261112": 0.3983110785484314,
+      "complete_s20261112": 0.4891834557056427
+    }
+  },
+  {
+    "id": "test_0342_5536-43363-0012",
+    "source": "5536-43363-0012",
+    "speaker": "5536",
+    "si_delta": -1.3054962139269586,
+    "errors_delta": 5,
+    "reason": "ASR退步或SI-SDR较差候选，非人声误删结论",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.354949951171875,
+      "noisy": 0.6268934011459351,
+      "mcnet": 0.5914877653121948,
+      "ordinary_s20261112": 0.35566768050193787,
+      "complete_s20261112": 0.3860306143760681
+    }
+  },
+  {
+    "id": "test_0276_5536-43358-0012",
+    "source": "5536-43358-0012",
+    "speaker": "5536",
+    "si_delta": -0.2873162202550157,
+    "errors_delta": -6,
+    "reason": "至少一项指标改善的候选，可能仍有权衡",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.461029052734375,
+      "noisy": 0.7510470151901245,
+      "mcnet": 0.6460199952125549,
+      "ordinary_s20261112": 0.5282170176506042,
+      "complete_s20261112": 0.5902332663536072
+    }
+  },
+  {
+    "id": "test_0019_84-121123-0018",
+    "source": "84-121123-0018",
+    "speaker": "84",
+    "si_delta": -1.1424237779816564,
+    "errors_delta": -5,
+    "reason": "至少一项指标改善的候选，可能仍有权衡",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.284515380859375,
+      "noisy": 0.4126390218734741,
+      "mcnet": 0.3440556824207306,
+      "ordinary_s20261112": 0.2368863821029663,
+      "complete_s20261112": 0.2863072156906128
+    }
+  },
+  {
+    "id": "test_0234_8297-275154-0015",
+    "source": "8297-275154-0015",
+    "speaker": "8297",
+    "si_delta": 0.5293446774986368,
+    "errors_delta": -4,
+    "reason": "至少一项指标改善的候选，可能仍有权衡",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.66131591796875,
+      "noisy": 0.932367205619812,
+      "mcnet": 0.8642579317092896,
+      "ordinary_s20261112": 0.6241801977157593,
+      "complete_s20261112": 0.6918583512306213
+    }
+  },
+  {
+    "id": "test_0120_1673-143397-0009",
+    "source": "1673-143397-0009",
+    "speaker": "1673",
+    "si_delta": -0.3179290499093479,
+    "errors_delta": -2,
+    "reason": "每位测试说话人的固定顺序抽查，不预判听感",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.5721572637557983,
+      "noisy": 0.8654452562332153,
+      "mcnet": 0.8286855816841125,
+      "ordinary_s20261112": 0.6772042512893677,
+      "complete_s20261112": 0.7466022968292236
+    }
+  },
+  {
+    "id": "test_0252_5536-43358-0016",
+    "source": "5536-43358-0016",
+    "speaker": "5536",
+    "si_delta": 0.07067013998781713,
+    "errors_delta": -4,
+    "reason": "每位测试说话人的固定顺序抽查，不预判听感",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.37225341796875,
+      "noisy": 0.6248245239257812,
+      "mcnet": 0.5091901421546936,
+      "ordinary_s20261112": 0.46244192123413086,
+      "complete_s20261112": 0.49350491166114807
+    }
+  },
+  {
+    "id": "test_0132_8297-275156-0004",
+    "source": "8297-275156-0004",
+    "speaker": "8297",
+    "si_delta": -0.3880707733862785,
+    "errors_delta": 0,
+    "reason": "每位测试说话人的固定顺序抽查，不预判听感",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.59747314453125,
+      "noisy": 0.6961437463760376,
+      "mcnet": 0.5705194473266602,
+      "ordinary_s20261112": 0.5198767185211182,
+      "complete_s20261112": 0.5789983868598938
+    }
+  },
+  {
+    "id": "test_0000_84-121123-0012",
+    "source": "84-121123-0012",
+    "speaker": "84",
+    "si_delta": -0.0729101366884235,
+    "errors_delta": -1,
+    "reason": "每位测试说话人的固定顺序抽查，不预判听感",
+    "listening_common_gain": 1.0,
+    "original_role_peaks": {
+      "reference": 0.23400938510894775,
+      "noisy": 0.8110593557357788,
+      "mcnet": 0.8059637546539307,
+      "ordinary_s20261112": 0.3671517074108124,
+      "complete_s20261112": 0.35195836424827576
+    }
+  }
+]

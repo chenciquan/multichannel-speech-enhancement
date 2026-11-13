@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T18:06:33.805053+00:00",
+  "files": [
+    {
+      "source": "docs/G20_固定房间滤波分量诊断报告.md",
+      "snapshot": "00_G20_固定房间滤波分量诊断报告.md",
+      "sha256": "c8e1ce2db596603ea5c7488d424434d543bf59f7b82a9a45b48c7647c4f60fb2"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "70fbe2bb15f42f2497f71c4c537bfc406440779dbb9e8c8ba5bc4f0245462cc3"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "44e1dc0f79e37eafa70deff0cbb6986a519e912e8610aa445d8eddb7217a7b08"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/verified_files.json",
+      "snapshot": "03_verified_files.json",
+      "sha256": "46bbae44a98acf72667de6deae185ca65c1b53307d24cdd1b778622a8edaa7c4"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/filter/frozen_plan.json",
+      "snapshot": "04_frozen_plan.json",
+      "sha256": "e9187588fa07f62b9c82bd1d5a9c563e7a759facbf8c7b59d6f8dbe9e4774cfd"
+    },
+    {
+      "source": "scripts/g20_filter.py",
+      "snapshot": "05_g20_filter.py",
+      "sha256": "f1ba73d3e88a9f8e7b212b9f6fc4d5613628182598076ba8de921482035b2135"
+    }
+  ]
+}

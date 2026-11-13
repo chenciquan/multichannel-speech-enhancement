@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:33:00.235686+00:00",
+  "files": [
+    {
+      "source": "docs/G22_双房间配对信号与识别综合报告.md",
+      "snapshot": "00_G22_双房间配对信号与识别综合报告.md",
+      "sha256": "24b15cbd38594eb32916225aaab5c61c04a30333252a0ab2a8a06e6604dcad77"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "eb7610043f1e67cb6bf52e0809cb4a44aadd229c01b19c0f95196fde072cb984"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "2e4f89c9b0e28d29745d65ca1bfde0b4c039dc19a1bcf58f29536c6c69e3f845"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "ae633de321883f291011c4b945ed21c4330000184e0b92d6ad91ca74c734d7c6"
+    },
+    {
+      "source": "scripts/g22_asr_finish.py",
+      "snapshot": "04_g22_asr_finish.py",
+      "sha256": "f927ad60c3a59b49001242ea9b6dd4902e9761bd550b4385a179c3560ed51ab8"
+    }
+  ]
+}

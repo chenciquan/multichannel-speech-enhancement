@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T08:53:11.329349+00:00",
+  "files": [
+    {
+      "source": "docs/G14D_Whisper正确几何配对初评.md",
+      "snapshot": "00_G14D_Whisper正确几何配对初评.md",
+      "sha256": "a33dcc4ae421966f5588810f9761f38408f0ec6f6665744a840b01f36667534e"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "ed4cf5a53bfa91c79e96d9efac20b3040cc8d6f48e711333fac154f3586fb47c"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "2b15716f7f3d94f8881906b367115e431763f4867db12adca02916ca71723e8f"
+    },
+    {
+      "source": "scripts/g14_asr.py",
+      "snapshot": "03_g14_asr.py",
+      "sha256": "95457887246434f03bd151f706cc0f9288dacbff393c6a6c10ff344faa87d634"
+    }
+  ]
+}

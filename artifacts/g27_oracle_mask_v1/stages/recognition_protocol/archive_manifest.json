@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-13T00:03:18.260104+00:00",
+  "files": [
+    {
+      "source": "docs/G27C_真值掩码双识别器原始与电平评分协议.md",
+      "snapshot": "00_G27C_真值掩码双识别器原始与电平评分协议.md",
+      "sha256": "b7373bd660dca4bcbdf9b6f246ec70650be981104b5fe9f220d9eca9b0b7e076"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "4ea0223df172e064a362d2f139ed8d8fdd07a2908cf95694328f3bb2ea3ee3db"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/input_manifest.jsonl",
+      "snapshot": "02_input_manifest.jsonl",
+      "sha256": "41933d8220371fbc83c8bdbe2376f0eb8f54bf9f15a0385c16029ad2b7f70615"
+    },
+    {
+      "source": "scripts/g27_asr.py",
+      "snapshot": "03_g27_asr.py",
+      "sha256": "f49d30d4e2c06c07f45f61b0736ca9c7aba5abb979e34b08fc4a591627f1c826"
+    },
+    {
+      "source": "scripts/g27_asr_finish.py",
+      "snapshot": "04_g27_asr_finish.py",
+      "sha256": "c489c43c5f30780ba7b602086cfe60d236de0ea98938d1d004f954084ddda96a"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "05_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "src/mcse/asr_level.py",
+      "snapshot": "06_asr_level.py",
+      "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "07_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "08_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "09_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "training_recording_ids": [
+    "DKITCHEN",
+    "DWASHING",
+    "OOFFICE"
+  ],
+  "current_noise_ids": [
+    "OOFFICE",
+    "NPARK"
+  ],
+  "current_intervals": [
+    250,
+    295
+  ],
+  "any_overlap_with_LoRAtraining_intervals": false,
+  "notice": "OOFFICErecordingseeninLoRAtraining,NPARKabsentfromLoRAtrainingbutseeninprojectoldtests;originalMcNetpretrainingexposureunknown"
+}

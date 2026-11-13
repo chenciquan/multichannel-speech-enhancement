@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:46:44.048608+00:00",
+  "files": [
+    {
+      "source": "docs/G29_实际衰减与共享数据范围说明.md",
+      "snapshot": "00_G29_实际衰减与共享数据范围说明.md",
+      "sha256": "1f89c3ea262a73e3eadeac65df8ece318ddda3b7a7d176a0c97cb4e4bbae475c"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/physical_readback.json",
+      "snapshot": "01_physical_readback.json",
+      "sha256": "dee5182cf0b12e0011695e43600ee5dba20f3b777ec84ac3094e2f1364ecb7f7"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "02_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "8e6e4ca75c47737219f4a5dc119bc9a630a64075804f45a6f58d02fa5e0bf559"
+    },
+    {
+      "source": "scripts/g29_scientific.py",
+      "snapshot": "03_g29_scientific.py",
+      "sha256": "083c07291c890ef710af4054deea275cd2a93bd6ce06e5dd433fad97f93af8be"
+    }
+  ]
+}

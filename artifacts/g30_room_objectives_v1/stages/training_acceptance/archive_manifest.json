@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:46:41.577001+00:00",
+  "files": [
+    {
+      "source": "docs/G30_同预算混响适配训练验收.md",
+      "snapshot": "00_G30_同预算混响适配训练验收.md",
+      "sha256": "9e4c2565d2c947e0fd734e051675f419bd901054b3daf2df4121018643cad43b"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/FINAL_TRAINING_ACCEPTANCE.json",
+      "snapshot": "01_FINAL_TRAINING_ACCEPTANCE.json",
+      "sha256": "86856fa2c9d1870d3c2a0987ce6754d4da3d647da31b9c2f79de3f45eff94984"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/registered_checkpoints.json",
+      "snapshot": "02_registered_checkpoints.json",
+      "sha256": "deff1e31c5495693629f3fec5290b22d1f142767caae067e69fc97adc3a84ca6"
+    },
+    {
+      "source": "scripts/g30_accept.py",
+      "snapshot": "03_g30_accept.py",
+      "sha256": "a3337c2eddd9b1805b5cf97e0e84905e9e4c55b7dd69a74ddbf95998c24e4bf3"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/power_helper.json",
+      "snapshot": "04_power_helper.json",
+      "sha256": "ca6b89777440ea01f22588a3f14aa6704577e1e75a613ed19826694fcbd3e30a"
+    }
+  ]
+}

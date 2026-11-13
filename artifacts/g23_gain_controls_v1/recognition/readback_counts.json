@@ -1,0 +1,46 @@
+[
+  {
+    "engine": "Whisper",
+    "gain_db": -6,
+    "pairs": 480,
+    "normalized_changes": 94,
+    "S_delta": 13,
+    "D_delta": -4,
+    "I_delta": 6,
+    "errors_delta": 15,
+    "N": 3000
+  },
+  {
+    "engine": "Whisper",
+    "gain_db": -12,
+    "pairs": 480,
+    "normalized_changes": 156,
+    "S_delta": 25,
+    "D_delta": -6,
+    "I_delta": 3,
+    "errors_delta": 22,
+    "N": 3000
+  },
+  {
+    "engine": "CTC",
+    "gain_db": -6,
+    "pairs": 480,
+    "normalized_changes": 231,
+    "S_delta": 42,
+    "D_delta": 6,
+    "I_delta": 1,
+    "errors_delta": 49,
+    "N": 3000
+  },
+  {
+    "engine": "CTC",
+    "gain_db": -12,
+    "pairs": 480,
+    "normalized_changes": 274,
+    "S_delta": 47,
+    "D_delta": 26,
+    "I_delta": -4,
+    "errors_delta": 69,
+    "N": 3000
+  }
+]

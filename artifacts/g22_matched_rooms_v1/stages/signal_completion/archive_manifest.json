@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:19:59.379348+00:00",
+  "files": [
+    {
+      "source": "docs/G22_完整信号阶段验收报告.md",
+      "snapshot": "00_G22_完整信号阶段验收报告.md",
+      "sha256": "879d28a8bae0841b556432e811bb4585302821c2c305a81c2cf2edce1247e021"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "182d1c642f3666f2a1d47064a4417b13032c5bd013c717d2ef785d7386c86332"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/signal_summary.json",
+      "snapshot": "02_signal_summary.json",
+      "sha256": "bc401943c0dd6d5e50675fd4fb39451b60dd3c87078f6dcd981c0e61663e7fb1"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/RT0_output_controls.json",
+      "snapshot": "03_RT0_output_controls.json",
+      "sha256": "bc0c517383d6c1699b933f7dc768c5323adb42749cefcba5cca1538a1626dd96"
+    },
+    {
+      "source": "scripts/g22_signal_finish.py",
+      "snapshot": "04_g22_signal_finish.py",
+      "sha256": "d543a3a717532ce6da326792289cebcc68148181cab3ad73603b47584322f2e4"
+    }
+  ]
+}

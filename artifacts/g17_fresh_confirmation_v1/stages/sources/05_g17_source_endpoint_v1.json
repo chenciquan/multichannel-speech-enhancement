@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-11-12T09:33:14.972104+00:00",
+  "method": "HEAD_no_archive_payload_downloaded",
+  "source_page": "https://www.openslr.org/12",
+  "requested_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+  "final_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+  "status": 200,
+  "headers": {
+    "Content-Length": "346663984",
+    "Content-Type": "application/x-gzip",
+    "Last-Modified": "Tue, 03 Oct 2017 21:33:01 GMT",
+    "ETag": "\"14a9ac30-55aab3c5175dc\"",
+    "Accept-Ranges": "bytes"
+  },
+  "license_page_fact": "CC BY4.0,officialSLR12page verified2026-11-12"
+}

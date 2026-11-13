@@ -1,0 +1,218 @@
+[
+  {
+    "index": 0,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.09996051341295242,
+    "gradient_norm": 0.011413117341082147,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.005235013138351144
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.010141690435159266
+      }
+    ],
+    "peak_allocated_bytes": 1690819072,
+    "peak_reserved_bytes": 1767899136,
+    "free_GPU_bytes_before": 7398752256,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 2.2845322120000446,
+    "forward_sha256": "d3d34bcb5210eba4fb56505d81fabc4592144061f7796b69af7df45b94d14283"
+  },
+  {
+    "index": 3,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.04828128218650818,
+    "gradient_norm": 0.014684936670045834,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.004046601650665837
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.014116386934484523
+      }
+    ],
+    "peak_allocated_bytes": 1690200064,
+    "peak_reserved_bytes": 1885339648,
+    "free_GPU_bytes_before": 6863978496,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.11532148200001302,
+    "forward_sha256": "44c07f8b7acac136b4ecad9e550374f64db7ced0591f8f9ea7d174f4c61da331"
+  },
+  {
+    "index": 10,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.05972684919834137,
+    "gradient_norm": 0.014750343724793214,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.006652078067656878
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.01316520024083739
+      }
+    ],
+    "peak_allocated_bytes": 1690200064,
+    "peak_reserved_bytes": 1885339648,
+    "free_GPU_bytes_before": 6863978496,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.1866106510000236,
+    "forward_sha256": "b6c87e43a23e769d2b5847fef34bed653ab7d666e91f8c7ea56c72b48147c943"
+  },
+  {
+    "index": 5,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.10360124707221985,
+    "gradient_norm": 0.004280866395766991,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.0024214559460349274
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.0035302079541889827
+      }
+    ],
+    "peak_allocated_bytes": 1690200064,
+    "peak_reserved_bytes": 1885339648,
+    "free_GPU_bytes_before": 6863978496,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.13606045699998504,
+    "forward_sha256": "900d6b3025cc5374b24a7c8e34e0172176b859d481927d4301db7db2a8a10d3d"
+  },
+  {
+    "index": 7,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.08642929047346115,
+    "gradient_norm": 0.019316911444811177,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.008828891592245161
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.017181203130719913
+      }
+    ],
+    "peak_allocated_bytes": 1690200064,
+    "peak_reserved_bytes": 1885339648,
+    "free_GPU_bytes_before": 6863978496,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.10081546200001412,
+    "forward_sha256": "e0c4fcef6b270efa39427eb6ec673860c03f40ba56b718ef705668d9d12b1e17"
+  },
+  {
+    "index": 2,
+    "mode": "lora",
+    "frames": 23679,
+    "loss": 0.08202289789915085,
+    "gradient_norm": 0.007210362424403288,
+    "connected_parameters": 3584,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.fc_output_layer.lora_A",
+        "parameters": 1024,
+        "norm": 0.0
+      },
+      {
+        "name": "freq.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.003956672705427881
+      },
+      {
+        "name": "narr.fc_output_layer.lora_A",
+        "parameters": 2048,
+        "norm": 0.0
+      },
+      {
+        "name": "narr.fc_output_layer.lora_B",
+        "parameters": 256,
+        "norm": 0.006027774663453244
+      }
+    ],
+    "peak_allocated_bytes": 1690200064,
+    "peak_reserved_bytes": 1885339648,
+    "free_GPU_bytes_before": 6863978496,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.14618997800005218,
+    "forward_sha256": "6300299813349d97ce583343ee8b8610c577f52f83a523a16c7bebbced6bf325"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T01:56:54.449586+00:00",
+  "files": [
+    {
+      "source": "docs/G33B_自动求导与后端数值定位协议.md",
+      "snapshot": "00_G33B_自动求导与后端数值定位协议.md",
+      "sha256": "59a9f328b8c32d1a5bf479bbc333872e75bba14214dadf393f4d2d7b34ccb0e7"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "c6be0a830996b738fda49c970f593241636fc43ee0a22bdef6b73da6512b0b57"
+    },
+    {
+      "source": "scripts/g33b_precision_audit.py",
+      "snapshot": "02_g33b_precision_audit.py",
+      "sha256": "a1b8ab528569535755b0944ae729e272c07cd3c94ee64f290777945cede50652"
+    }
+  ]
+}

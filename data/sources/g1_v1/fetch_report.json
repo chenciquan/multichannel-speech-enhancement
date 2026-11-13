@@ -1,0 +1,43 @@
+{
+  "plan_sha256": "a1e67023c2c6cce478b37b943b291d7e8ed6a62e42fc64b5dd1d3e0440506522",
+  "status": "ok",
+  "training_performed": false,
+  "speech": {
+    "archive_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "compressed_bytes_streamed": 43028480,
+    "whole_archive_saved": false,
+    "whole_archive_hash_verified": false,
+    "saved_file_integrity": "per-file SHA256; TLS archive stream; full official archive MD5 not verified",
+    "eligible_selection_policy": "First six speakers in archive traversal with four eligible complete utterances each; 1.0-3.8 seconds, transcripts available; no output/ASR-based selection.",
+    "scanned_audio_headers": 86,
+    "selected_sources": 24,
+    "selected_speakers": [
+      "2277",
+      "2035",
+      "2086",
+      "7976",
+      "1988",
+      "777"
+    ]
+  },
+  "noise": [
+    {
+      "archive": "https://zenodo.org/records/1227121/files/DWASHING_16k.zip?download=1",
+      "archive_size": 102343250,
+      "bytes_downloaded": 6360343,
+      "member": "DWASHING/ch01.wav",
+      "crc32": 1966031774,
+      "member_sha256": "da02faca8c6523d24ee86aae6c6889c950bb34d559f1379cc87e7e3b75690f4d",
+      "whole_archive_downloaded": false
+    },
+    {
+      "archive": "https://zenodo.org/records/1227121/files/DKITCHEN_16k.zip?download=1",
+      "archive_size": 110501049,
+      "bytes_downloaded": 6918398,
+      "member": "DKITCHEN/ch01.wav",
+      "crc32": 3291291487,
+      "member_sha256": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d",
+      "whole_archive_downloaded": false
+    }
+  ]
+}

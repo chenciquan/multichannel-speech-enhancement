@@ -1,0 +1,1 @@
+{"stage":"acceptance","error":"Initial forward arrays failed pre-registered np.allclose rtol1e-5 atol1e-6","optimizer_updates":0,"numerical_probe_modes_complete":true}

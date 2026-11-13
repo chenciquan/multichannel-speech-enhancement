@@ -1,0 +1,116 @@
+{"stage": "asr", "paths_completed": 100, "paths_total": 6240, "unique_decodes": 57}
+{"stage": "asr", "paths_completed": 200, "paths_total": 6240, "unique_decodes": 116}
+{"stage": "asr", "paths_completed": 300, "paths_total": 6240, "unique_decodes": 187}
+{"stage": "asr", "paths_completed": 400, "paths_total": 6240, "unique_decodes": 247}
+{"stage": "asr", "paths_completed": 500, "paths_total": 6240, "unique_decodes": 308}
+{"stage": "asr", "paths_completed": 600, "paths_total": 6240, "unique_decodes": 362}
+{"stage": "asr", "paths_completed": 700, "paths_total": 6240, "unique_decodes": 423}
+{"stage": "asr", "paths_completed": 800, "paths_total": 6240, "unique_decodes": 483}
+{"stage": "asr", "paths_completed": 900, "paths_total": 6240, "unique_decodes": 583}
+{"stage": "asr", "paths_completed": 1000, "paths_total": 6240, "unique_decodes": 683}
+{"stage": "asr", "paths_completed": 1100, "paths_total": 6240, "unique_decodes": 783}
+{"stage": "asr", "paths_completed": 1200, "paths_total": 6240, "unique_decodes": 883}
+{"stage": "asr", "paths_completed": 1300, "paths_total": 6240, "unique_decodes": 983}
+{"stage": "asr", "paths_completed": 1400, "paths_total": 6240, "unique_decodes": 1083}
+{"stage": "asr", "paths_completed": 1500, "paths_total": 6240, "unique_decodes": 1183}
+{"stage": "asr", "paths_completed": 1600, "paths_total": 6240, "unique_decodes": 1283}
+{"stage": "asr", "paths_completed": 1700, "paths_total": 6240, "unique_decodes": 1383}
+{"stage": "asr", "paths_completed": 1800, "paths_total": 6240, "unique_decodes": 1483}
+{"stage": "asr", "paths_completed": 1900, "paths_total": 6240, "unique_decodes": 1583}
+{"stage": "asr", "paths_completed": 2000, "paths_total": 6240, "unique_decodes": 1683}
+{"stage": "asr", "paths_completed": 2100, "paths_total": 6240, "unique_decodes": 1783}
+{"stage": "asr", "paths_completed": 2200, "paths_total": 6240, "unique_decodes": 1883}
+{"stage": "asr", "paths_completed": 2300, "paths_total": 6240, "unique_decodes": 1983}
+{"stage": "asr", "paths_completed": 2400, "paths_total": 6240, "unique_decodes": 2083}
+{"stage": "asr", "paths_completed": 2500, "paths_total": 6240, "unique_decodes": 2183}
+{"stage": "asr", "paths_completed": 2600, "paths_total": 6240, "unique_decodes": 2283}
+{"stage": "asr", "paths_completed": 2700, "paths_total": 6240, "unique_decodes": 2383}
+{"stage": "asr", "paths_completed": 2800, "paths_total": 6240, "unique_decodes": 2483}
+{"stage": "asr", "paths_completed": 2900, "paths_total": 6240, "unique_decodes": 2583}
+{"stage": "asr", "paths_completed": 3000, "paths_total": 6240, "unique_decodes": 2683}
+{"stage": "asr", "paths_completed": 3100, "paths_total": 6240, "unique_decodes": 2783}
+{"stage": "asr", "paths_completed": 3200, "paths_total": 6240, "unique_decodes": 2883}
+{"stage": "asr", "paths_completed": 3300, "paths_total": 6240, "unique_decodes": 2983}
+{"stage": "asr", "paths_completed": 3400, "paths_total": 6240, "unique_decodes": 3083}
+{"stage": "asr", "paths_completed": 3500, "paths_total": 6240, "unique_decodes": 3183}
+{"stage": "asr", "paths_completed": 3600, "paths_total": 6240, "unique_decodes": 3283}
+{"stage": "asr", "paths_completed": 3700, "paths_total": 6240, "unique_decodes": 3383}
+{"stage": "asr", "paths_completed": 3800, "paths_total": 6240, "unique_decodes": 3483}
+{"stage": "asr", "paths_completed": 3900, "paths_total": 6240, "unique_decodes": 3583}
+{"stage": "asr", "paths_completed": 4000, "paths_total": 6240, "unique_decodes": 3683}
+{"stage": "asr", "paths_completed": 4100, "paths_total": 6240, "unique_decodes": 3783}
+{"stage": "asr", "paths_completed": 4200, "paths_total": 6240, "unique_decodes": 3883}
+{"stage": "asr", "paths_completed": 4300, "paths_total": 6240, "unique_decodes": 3983}
+{"stage": "asr", "paths_completed": 4400, "paths_total": 6240, "unique_decodes": 4083}
+{"stage": "asr", "paths_completed": 4500, "paths_total": 6240, "unique_decodes": 4183}
+{"stage": "asr", "paths_completed": 4600, "paths_total": 6240, "unique_decodes": 4283}
+{"stage": "asr", "paths_completed": 4700, "paths_total": 6240, "unique_decodes": 4383}
+{"stage": "asr", "paths_completed": 4800, "paths_total": 6240, "unique_decodes": 4483}
+{"stage": "asr", "paths_completed": 4900, "paths_total": 6240, "unique_decodes": 4583}
+{"stage": "asr", "paths_completed": 5000, "paths_total": 6240, "unique_decodes": 4683}
+{"stage": "asr", "paths_completed": 5100, "paths_total": 6240, "unique_decodes": 4783}
+{"stage": "asr", "paths_completed": 5200, "paths_total": 6240, "unique_decodes": 4883}
+{"stage": "asr", "paths_completed": 5300, "paths_total": 6240, "unique_decodes": 4983}
+{"stage": "asr", "paths_completed": 5400, "paths_total": 6240, "unique_decodes": 5083}
+{"stage": "asr", "paths_completed": 5500, "paths_total": 6240, "unique_decodes": 5183}
+{"stage": "asr", "paths_completed": 5600, "paths_total": 6240, "unique_decodes": 5283}
+{"stage": "asr", "paths_completed": 5700, "paths_total": 6240, "unique_decodes": 5383}
+{"stage": "asr", "paths_completed": 5800, "paths_total": 6240, "unique_decodes": 5483}
+{"stage": "asr", "paths_completed": 5900, "paths_total": 6240, "unique_decodes": 5583}
+{"stage": "asr", "paths_completed": 6000, "paths_total": 6240, "unique_decodes": 5683}
+{"stage": "asr", "paths_completed": 6100, "paths_total": 6240, "unique_decodes": 5783}
+{"stage": "asr", "paths_completed": 6200, "paths_total": 6240, "unique_decodes": 5883}
+{"signal_rows": 5850, "asr_rows": 5850, "signal_status": {"ok": 5850}, "test_sources": 30, "test_speakers": 4, "test_mixtures_per_system": 360, "clean_controls_per_system": 30, "paired_seeds": [20261112, 20261113, 20261114], "test_source_counts_per_speaker": {"84": 10, "1673": 1, "8297": 10, "5536": 9}}
+{
+  "status": "ok",
+  "checks": {
+    "official_files_and_weight_hashes_unchanged": true,
+    "source_manifest_matches_frozen_hash": true,
+    "speakers_disjoint": true,
+    "old_diagnostic_ids_excluded": true,
+    "source_audio_sha256": true,
+    "selection_manifest_unchanged": true,
+    "original_primary_selection_preserved": true,
+    "selection_before_test": true,
+    "training_report_archived_before_test": true,
+    "signal_report_archived_before_asr": true,
+    "all_runs_same_3000_updates": true,
+    "all_base_parameters_frozen": true,
+    "same_original_base_across_runs": true,
+    "all_checkpoint_stoi_gates_passed": true,
+    "all_systems_exact_same_360_test_cases": true,
+    "all_systems_30_clean_controls": true,
+    "no_missing_or_duplicate_signal_pairs": true,
+    "no_metric_failures": true,
+    "asr_coverage_matches_signals": true,
+    "audio_output_hashes": true,
+    "test_mixture_and_reference_hashes": true,
+    "hpf_outputs_match_fixed_control": true,
+    "loralib_pinned": true,
+    "unit_tests_55_passed": true,
+    "review_links_all_mono_16k": true,
+    "review_five_roles_per_selected_case": true,
+    "review_common_gain_and_no_clipping": true
+  },
+  "counts": {
+    "systems": 15,
+    "runs": 12,
+    "signal_pairs": 5850,
+    "asr_pairs": 5850
+  },
+  "limitations_not_resolved_by_audit": [
+    "no formal human listening",
+    "four test speakers only",
+    "no real room or physical-array recordings",
+    "single ASR",
+    "novelty not established",
+    "two ablation seeds added after first-seed validation; classified exploratory"
+  ]
+}
+G3已完成：12次训练，36000次有效更新，15个测试系统。
+完整方案与普通适配呈现指标权衡，当前不能认定整体更优，更不能仅凭SI-SDR宣布人声内容保护成功。
+完整减普通：SI-SDR -0.620 dB；WER -2.28个百分点。
+三个最大风险：1.固定目标方向和模拟阵列的泛化；2.单ASR及短句不能证明真实人声细节；3.组件均为既有方法，创新性未确定。
+报告：docs/G3_五小时实验验收报告.md
+
+{"stage": "completion", "status": "archived", "report": "docs/G3_\u4e94\u5c0f\u65f6\u5b9e\u9a8c\u9a8c\u6536\u62a5\u544a.md"}

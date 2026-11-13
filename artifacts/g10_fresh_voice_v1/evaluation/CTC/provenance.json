@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-11-12T05:45:13.002249+00:00",
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "source_caches": [
+    {
+      "path": "artifacts/g8_cross_asr_v1/evaluation/ctc_cache.jsonl",
+      "sha256": "ae13ae48a5994a39d3fd1dff0e529eeb958eb5def7fb3b12084272f85c7ddfb6"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "3710a32c2609fd76308416643ce41309a537b09b4cca483827c8b9713469c605"
+    }
+  ],
+  "source_precedence": "Whisper G3 then G5 then G7 then G9; first observation retained regardless of score; CTC G8 then G9 exact recognizer identity",
+  "cache_hypothesis_conflicts": [],
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "signal_archive_sha256": "d21d8ec02d8e12298747704f163ce24db7fde4c070422693bce56c4b3be63700"
+}

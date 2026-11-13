@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T23:58:28.672698+00:00",
+  "rows": 864,
+  "cases": 432,
+  "oracle": true,
+  "deployable": false,
+  "ASR_performed": false,
+  "signals_sha256": "34b6bcf4c56f47ca244de8bcc88eb84efbc57887e26339d5ed6fb1498f34153a",
+  "summary_sha256": "f04261fac3e6f35ae3761e67d1577520338869594fb6381fa2f289928d963122",
+  "elapsed_seconds": 220.76720073
+}

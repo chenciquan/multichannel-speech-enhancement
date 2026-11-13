@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-13T02:44:46.163638+00:00",
+  "run": {
+    "id": "lora_3e4",
+    "mode": "lora",
+    "lr": 0.0003,
+    "parameters": 3584
+  },
+  "initial": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "all": "9904ccc5fa6f3a4ac1de463d94fcb9b86817445bb7c81ba74c9905f0fc6b0068",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "backend": {
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "matmul_tf32": false,
+    "global_deterministic": false,
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cudnn_version": 90100
+  },
+  "plan_sha256": "9cf12de4c06dc81a70785aab26bcdc67159442645133fef99cb0e0d7dca8379a",
+  "schedule_sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+  "initial_check_sha256": "b70dad93c137688b69cb7590372d4da454084df9052c65387cbd08b00dc4ddc1",
+  "trainable_names": [
+    "freq.fc_output_layer.lora_A",
+    "freq.fc_output_layer.lora_B",
+    "narr.fc_output_layer.lora_A",
+    "narr.fc_output_layer.lora_B"
+  ],
+  "no_development_or_test_audio": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:12:24.930287+00:00",
+  "records": 6,
+  "objective_probes": 18,
+  "optimizer_updates": 0,
+  "parameter_digests_unchanged": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "results_sha256": "dba0299bc22ee58c968e9c6abec21acbd42cf420c2300e2384698aa79fe64f48",
+  "gradients_sha256": "ff82b59ae18c74867397bc471f15a5306e7fa2dc024c810bff6b903cb24d06fd",
+  "elapsed_seconds": 23.581390985
+}

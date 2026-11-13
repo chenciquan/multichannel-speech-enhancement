@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T08:29:54.980611+00:00",
+  "files": [
+    {
+      "source": "docs/G13A_旋转坐标审计与历史结论更正.md",
+      "snapshot": "00_G13A_旋转坐标审计与历史结论更正.md",
+      "sha256": "abbde718fba008ddd285b6c25e0bea99a1878f7ae77e01aa7dea4bb35c8f6063"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/audit.json",
+      "snapshot": "01_audit.json",
+      "sha256": "835019d9e6b959783c0d1fb33746323f688a844b868171cd5f4e3e97f58e95c9"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/actual_point_geometry.jsonl",
+      "snapshot": "02_actual_point_geometry.jsonl",
+      "sha256": "634b685d1b5ba4734d63e103e911008d10778f1cb86569acc1f4184fa2c47877"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/interrupted_G12_file_inventory.json",
+      "snapshot": "03_interrupted_G12_file_inventory.json",
+      "sha256": "7e91c0317c482100644cbe04a100f6f52b421ec395900c075652b4d3e90812f1"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/GEOMETRY_STOP_AUDIT.json",
+      "snapshot": "04_GEOMETRY_STOP_AUDIT.json",
+      "sha256": "00b951ebfde3ab9206201f711dc1c2fed4d57a7d61020a386f6bd7ff2027baa8"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/PIPELINE_READY.json",
+      "snapshot": "05_PIPELINE_READY.json",
+      "sha256": "14c52f194ea4e9ec39c452b4ea570181472dd0e79c2586fd0501c6f974c6b540"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/power_helper.json",
+      "snapshot": "06_power_helper.json",
+      "sha256": "fe7507494f326be63da86620d07e17346077d6c12e7c3558f6de1e1e96e2ade9"
+    },
+    {
+      "source": "scripts/g13_geometry_audit.py",
+      "snapshot": "07_g13_geometry_audit.py",
+      "sha256": "824530e8ae49f4f3ccbcd0492367a51f7d2708daf31266e8f884b0c0c383137a"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "08_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    },
+    {
+      "source": "tests/test_azimuth_geometry.py",
+      "snapshot": "09_test_azimuth_geometry.py",
+      "sha256": "a27d07cfec01998336c654bb1d142448e08604792b8818a3717673c9d2e490bb"
+    }
+  ]
+}

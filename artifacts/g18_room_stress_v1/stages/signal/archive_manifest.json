@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T10:38:53.862118+00:00",
+  "files": [
+    {
+      "source": "docs/G18C_房间直接输出信号报告.md",
+      "snapshot": "00_G18C_房间直接输出信号报告.md",
+      "sha256": "87d56d9ce78ded031d8c022f08084bf4fbcc86a364c466e9b8c2318c4272fc60"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/DIRECT_COMPLETE.json",
+      "snapshot": "01_DIRECT_COMPLETE.json",
+      "sha256": "ae59f4c7e7a0fd6bfb543558b2fff50c14c8044fabd94e8073654a1d649cffe6"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "7071bf29424920cf4ce754f2559604d09414600d2193d2d3ec3066e8286d52c3"
+    },
+    {
+      "source": "scripts/g18_signal.py",
+      "snapshot": "03_g18_signal.py",
+      "sha256": "c55fd5e66cf98ddc05d1ea8aec206d01b89628dd547bee5980700f48132045de"
+    }
+  ]
+}

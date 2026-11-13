@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "checks": {
+    "official_files_and_weight_hashes_unchanged": true,
+    "source_manifest_matches_frozen_hash": true,
+    "speakers_disjoint": true,
+    "old_diagnostic_ids_excluded": true,
+    "source_audio_sha256": true,
+    "selection_manifest_unchanged": true,
+    "original_primary_selection_preserved": true,
+    "selection_before_test": true,
+    "training_report_archived_before_test": true,
+    "signal_report_archived_before_asr": true,
+    "all_runs_same_3000_updates": true,
+    "all_base_parameters_frozen": true,
+    "same_original_base_across_runs": true,
+    "all_checkpoint_stoi_gates_passed": true,
+    "all_systems_exact_same_360_test_cases": true,
+    "all_systems_30_clean_controls": true,
+    "no_missing_or_duplicate_signal_pairs": true,
+    "no_metric_failures": true,
+    "asr_coverage_matches_signals": true,
+    "audio_output_hashes": true,
+    "test_mixture_and_reference_hashes": true,
+    "hpf_outputs_match_fixed_control": true,
+    "loralib_pinned": true,
+    "unit_tests_55_passed": true,
+    "review_links_all_mono_16k": true,
+    "review_five_roles_per_selected_case": true,
+    "review_common_gain_and_no_clipping": true
+  },
+  "counts": {
+    "systems": 15,
+    "runs": 12,
+    "signal_pairs": 5850,
+    "asr_pairs": 5850
+  },
+  "limitations_not_resolved_by_audit": [
+    "no formal human listening",
+    "four test speakers only",
+    "no real room or physical-array recordings",
+    "single ASR",
+    "novelty not established",
+    "two ablation seeds added after first-seed validation; classified exploratory"
+  ]
+}

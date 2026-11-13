@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T01:06:24.101160+00:00",
+  "rows": 468,
+  "cases": 36,
+  "SI_recomputed": 468,
+  "signal_summary_sha256": "68729d1d134f61d184770a48f98c897fd47c606530221e0d76e7f509d555c3b0",
+  "signals_sha256": "017100f6d6526e34b0c583f4ba1c99c48f249c3ad58ecd41ec4c1daebbc1af3f",
+  "report_sha256": "923cf872f565d52371c534025e2ad1752f8cee331349829ac4d568ef59690b52",
+  "ASR_performed": false
+}

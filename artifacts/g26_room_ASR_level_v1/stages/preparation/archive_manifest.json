@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T20:24:13.065397+00:00",
+  "files": [
+    {
+      "source": "docs/G26B_完整规范化输入清单与负控制.md",
+      "snapshot": "00_G26B_完整规范化输入清单与负控制.md",
+      "sha256": "8e9007db02f41df20f2e7bf3d1fc15c868baf280cab9c2c978979576e8615924"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "01_PREPARATION_COMPLETE.json",
+      "sha256": "6ec83737e2b81b6f1c8cbc6d255172ff6c4c832ebf04e3d3d26470ba86af3969"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/manifest.jsonl",
+      "snapshot": "02_manifest.jsonl",
+      "sha256": "6f5a42384a2e54e3fcc8ef8080fd60784cea014ced339132557ff736cb08e93e"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/reference_normalized_inputs.json",
+      "snapshot": "03_reference_normalized_inputs.json",
+      "sha256": "8bdadf9b8a2827d26f9c3db4b42036fbe9304666e2334df792bb83bd010cf2c7"
+    },
+    {
+      "source": "scripts/g26_prepare.py",
+      "snapshot": "04_g26_prepare.py",
+      "sha256": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc"
+    }
+  ]
+}

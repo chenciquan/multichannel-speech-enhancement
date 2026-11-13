@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-11-12T20:23:19.065874+00:00",
+  "normalization": {
+    "target_rms": 0.05,
+    "peak_limit": 0.95,
+    "formula": "min(target_rms/RMS(x),peak_limit/maxabs(x)); zero remains zero",
+    "precision": "float32 input -> float64 coefficient and multiply -> float32 output",
+    "code_sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "preprocessing_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851"
+  },
+  "records_each_ASR": 16488,
+  "reference_cases": 504,
+  "max_data_seconds": 1800,
+  "training": false,
+  "new_enhancement_inference": false,
+  "scope": "Posthoc auxiliary ASR regime for all G22 outputs; raw quality and ASR unchanged",
+  "cache_policy": "Only compatible G25 normalized observations and new exact normalized PCM hashes",
+  "hashes": {
+    "scripts/g26_prepare.py": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc",
+    "src/mcse/asr_level.py": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "artifacts/g22_matched_rooms_v1/evaluation/combined_signals.jsonl": "e58a1b27a8579c0f410d4dbd288a40112f43133bb39f8921a35a357dfc8bd94d",
+    "artifacts/g22_matched_rooms_v1/FINAL_ACCEPTANCE_AUDIT.json": "aa87e6b7baf82dde2dbc7fcec37d733ee65e642f2fc591f64afd62c7e70ed116",
+    "artifacts/g25_asr_level_control_v1/frozen_plan.json": "676a768932e8b65c704494c4743f7630a398a37caf3fb8bfce75e919ea4eb4c9",
+    "artifacts/g25_asr_level_control_v1/FINAL_ACCEPTANCE_AUDIT.json": "ec1d25706100d082590a50509e7282913ca89c2f085e961509415b976abd65c2"
+  }
+}

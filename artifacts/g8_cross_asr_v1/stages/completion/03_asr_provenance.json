@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-12T04:12:23.421401+00:00",
+  "asset_archive_sha256": "4910e5927e1b553c56d1f1b86f6cacc20858ccde10364b1e4743ca06ca628205",
+  "asset_provenance_sha256": "54014e4ccfb8db912a7864f5e9db48b309506076b8e4eb0f297201eebb550963",
+  "frozen_plan_sha256": "400b78b1c60a590d5cac48cb61757be578e1ab332ce95eef461df12b7f4559b3",
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "alignment_tie_policy": "match, substitution, deletion, insertion",
+  "CTC": "greedy argmax -> consecutive collapse -> remove blank0 -> | to space",
+  "batch": 1,
+  "dtype": "float32",
+  "SE_training_or_inference_performed": false,
+  "reference_text_used_as_prompt": false,
+  "no_external_LM": true,
+  "sample_rate": 16000,
+  "waveform_normalization": false,
+  "resampling": false,
+  "cache_key": "SHA256 of recognizer-provenance ID + raw contiguous mono16k float32 sample bytes hash"
+}

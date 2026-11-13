@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T17:47:32.494832+00:00",
+  "files": [
+    {
+      "source": "docs/G19_多通道Wiener对照验收读回.md",
+      "snapshot": "00_G19_多通道Wiener对照验收读回.md",
+      "sha256": "390e905a27cf50c762394fb24b0617b13d0f5813a72a1d00372dc192e1745e1c"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "5e222c87bd0aa2d7960c48b09f99c90d0a2aeb451662745f210081dc15fbb758"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/PIPELINE_READY.json",
+      "snapshot": "02_PIPELINE_READY.json",
+      "sha256": "6509e16027a5c2b059e7f6bd2e6cdabfc9f5f9f1f48d647e3de97dbf28a16b66"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/MAJOR_STAGE_COMPLETE.json",
+      "snapshot": "03_MAJOR_STAGE_COMPLETE.json",
+      "sha256": "dfc210263eb051d85312d0b27b750f50e044856a5dfb0992c53296db98908bc7"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/power_helper.json",
+      "snapshot": "04_power_helper.json",
+      "sha256": "8bfb75f28a1bde85bc77e48b67fe05a47b6ae382e332ef2cb526c407ebb1f001"
+    },
+    {
+      "source": "scripts/g19_accept.py",
+      "snapshot": "05_g19_accept.py",
+      "sha256": "2678414320511eee92d747c96efce1fdf1329fb38fea101f894b028010bc2fe6"
+    }
+  ]
+}

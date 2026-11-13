@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-12T23:54:56.515944+00:00",
+  "cases": 432,
+  "outputs": 864,
+  "max_seconds": 2700,
+  "metric_workers": 2,
+  "oracle": true,
+  "deployable": false,
+  "mask": "abs(Sref)^2/(abs(Sref)^2+abs(Xref-Sref)^2+1e-10), exactly old E-to-mask formula",
+  "comparison": "unchanged McNet mask and true covariance outputs from G22, same inputs and solvers",
+  "shape_error": "sum_f trace(Rtrue_f)*||Rhat_f/trace(Rhat_f)-Rtrue_f/trace(Rtrue_f)||F^2 / sum_f trace(Rtrue_f), trace floor1e-30",
+  "hashes": {
+    "scripts/g27_signal.py": "89d4b1c0e3a7d9865f3cd796278394f08660ce6432ff9c37d159975833be03ab",
+    "scripts/g22_filter_worker.py": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807",
+    "scripts/g22_common.py": "0a9afe7e0b794b67e30dfcf4089260b5aa9d117bdbb4207f5b6a86f1d3d632c8",
+    "scripts/g22_prepare.py": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/components.py": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "data/g22_v1/manifest.jsonl": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2",
+    "artifacts/g22_matched_rooms_v1/evaluation/direct_signals.jsonl": "8227fb368403453f097bb1582d85ce9420756ee623475b08b1e0ff8dd38c0497",
+    "artifacts/g22_matched_rooms_v1/evaluation/truth_signals.jsonl": "d16f21cfb38d9006b42b35932ac9e3cf7cb386aecfc1dcc06a85fd4a1ebbbfd8",
+    "artifacts/g22_matched_rooms_v1/selected_sources.json": "81c76024ce8719cd6d96f080a82511b7205bb9e2d790f141123b93fef5aed7c2",
+    "artifacts/g22_matched_rooms_v1/RIR_manifest.json": "8fe058785d7fcda88b707c0542a18975bdf2c264da7020b17e927da05f77f6ac",
+    "artifacts/g18_room_stress_v1/RIR_manifest.json": "d1f26fa98503ade62b9f28c87947e971e02ca33b0f2fa24bcdeec164e9cb243d",
+    "artifacts/g26_room_ASR_level_v1/FINAL_ACCEPTANCE_AUDIT.json": "c22f6025e1a4d796bbbd72b875962b9df145b2a7037f63423fc1890cd1438332"
+  }
+}

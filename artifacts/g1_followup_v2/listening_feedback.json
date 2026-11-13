@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-11-11T22:21:20.371738+08:00",
+  "source": "two explicit user replies in this Codex conversation",
+  "events": [
+    {
+      "question_scope": "whether JUST is harder to hear after enhancement in the identified case",
+      "answer_verbatim": "两者都能听清，没有明显退步",
+      "reviews": [
+        {
+          "sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5",
+          "judgement": "no obvious regression reported"
+        }
+      ]
+    },
+    {
+      "question_scope": "compare the other six expanded ASR candidates, especially endings and consonants",
+      "answer_verbatim": "已逐条试听，其余6条也没有明显退步",
+      "reviews": [
+        {
+          "sample_id": "1988-147956-0018__DKITCHEN_ch01__snr0",
+          "judgement": "no obvious regression reported"
+        },
+        {
+          "sample_id": "2035-147960-0013__DKITCHEN_ch01__snr5",
+          "judgement": "no obvious regression reported"
+        },
+        {
+          "sample_id": "2086-149220-0032__DWASHING_ch01__snr0",
+          "judgement": "no obvious regression reported"
+        },
+        {
+          "sample_id": "2277-149896-0033__DKITCHEN_ch01__snr0",
+          "judgement": "no obvious regression reported"
+        },
+        {
+          "sample_id": "777-126732-0074__DWASHING_ch01__snr5",
+          "judgement": "no obvious regression reported"
+        },
+        {
+          "sample_id": "7976-110124-0021__DWASHING_ch01__snr5",
+          "judgement": "no obvious regression reported"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "User-reported, text-visible listening; no blinded listening or forced transcription",
+    "Only seven candidates covered, not all48 cases",
+    "No word-time acoustic annotation or population-level intelligibility inference"
+  ]
+}

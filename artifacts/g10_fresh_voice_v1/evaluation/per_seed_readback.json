@@ -1,0 +1,4709 @@
+{
+  "notice": "Every frozen adapter seed,descriptive readback only,no winner selection",
+  "systems": {
+    "fixed_without_clean_identity_s20261112": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 14.43620559808734,
+        "Whisper": {
+          "N": 113,
+          "S": 13,
+          "D": 5,
+          "I": 1,
+          "correct": 95,
+          "errors": 19,
+          "utterances": 16,
+          "wer": 0.168141592920354,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 19.51576689162271,
+        "Whisper": {
+          "N": 113,
+          "S": 11,
+          "D": 6,
+          "I": 1,
+          "correct": 96,
+          "errors": 18,
+          "utterances": 16,
+          "wer": 0.1592920353982301,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 12.634002314961563,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 4,
+          "I": 1,
+          "correct": 101,
+          "errors": 13,
+          "utterances": 16,
+          "wer": 0.11504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -5.706852180232796,
+        "Whisper": {
+          "N": 339,
+          "S": 127,
+          "D": 53,
+          "I": 9,
+          "correct": 159,
+          "errors": 189,
+          "utterances": 48,
+          "wer": 0.5575221238938053,
+          "deletion_rate": 0.15634218289085547
+        },
+        "CTC": {
+          "N": 339,
+          "S": 122,
+          "D": 66,
+          "I": 3,
+          "correct": 151,
+          "errors": 191,
+          "utterances": 48,
+          "wer": 0.5634218289085545,
+          "deletion_rate": 0.19469026548672566
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 5.561672253969969,
+        "Whisper": {
+          "N": 339,
+          "S": 46,
+          "D": 17,
+          "I": 8,
+          "correct": 276,
+          "errors": 71,
+          "utterances": 48,
+          "wer": 0.20943952802359883,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 28,
+          "D": 1,
+          "I": 0,
+          "correct": 310,
+          "errors": 29,
+          "utterances": 48,
+          "wer": 0.0855457227138643,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.491605513121212,
+        "Whisper": {
+          "N": 339,
+          "S": 108,
+          "D": 18,
+          "I": 17,
+          "correct": 213,
+          "errors": 143,
+          "utterances": 48,
+          "wer": 0.4218289085545723,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 88,
+          "D": 12,
+          "I": 7,
+          "correct": 239,
+          "errors": 107,
+          "utterances": 48,
+          "wer": 0.31563421828908556,
+          "deletion_rate": 0.035398230088495575
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -6.592008756327452,
+        "Whisper": {
+          "N": 339,
+          "S": 125,
+          "D": 143,
+          "I": 37,
+          "correct": 71,
+          "errors": 305,
+          "utterances": 48,
+          "wer": 0.8997050147492626,
+          "deletion_rate": 0.4218289085545723
+        },
+        "CTC": {
+          "N": 339,
+          "S": 209,
+          "D": 84,
+          "I": 24,
+          "correct": 46,
+          "errors": 317,
+          "utterances": 48,
+          "wer": 0.9351032448377581,
+          "deletion_rate": 0.24778761061946902
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 8.222950807251431,
+        "Whisper": {
+          "N": 339,
+          "S": 57,
+          "D": 18,
+          "I": 10,
+          "correct": 264,
+          "errors": 85,
+          "utterances": 48,
+          "wer": 0.25073746312684364,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 38,
+          "D": 2,
+          "I": 8,
+          "correct": 299,
+          "errors": 48,
+          "utterances": 48,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 6.126303770255224,
+        "Whisper": {
+          "N": 339,
+          "S": 133,
+          "D": 37,
+          "I": 26,
+          "correct": 169,
+          "errors": 196,
+          "utterances": 48,
+          "wer": 0.5781710914454278,
+          "deletion_rate": 0.10914454277286136
+        },
+        "CTC": {
+          "N": 339,
+          "S": 124,
+          "D": 25,
+          "I": 7,
+          "correct": 190,
+          "errors": 156,
+          "utterances": 48,
+          "wer": 0.46017699115044247,
+          "deletion_rate": 0.07374631268436578
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -5.852735018398659,
+        "Whisper": {
+          "N": 339,
+          "S": 165,
+          "D": 112,
+          "I": 209,
+          "correct": 62,
+          "errors": 486,
+          "utterances": 48,
+          "wer": 1.4336283185840708,
+          "deletion_rate": 0.3303834808259587
+        },
+        "CTC": {
+          "N": 339,
+          "S": 160,
+          "D": 134,
+          "I": 3,
+          "correct": 45,
+          "errors": 297,
+          "utterances": 48,
+          "wer": 0.8761061946902655,
+          "deletion_rate": 0.3952802359882006
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 9.326551622833419,
+        "Whisper": {
+          "N": 339,
+          "S": 58,
+          "D": 18,
+          "I": 17,
+          "correct": 263,
+          "errors": 93,
+          "utterances": 48,
+          "wer": 0.2743362831858407,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 46,
+          "D": 4,
+          "I": 2,
+          "correct": 289,
+          "errors": 52,
+          "utterances": 48,
+          "wer": 0.15339233038348082,
+          "deletion_rate": 0.011799410029498525
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 7.081290122773459,
+        "Whisper": {
+          "N": 339,
+          "S": 137,
+          "D": 25,
+          "I": 11,
+          "correct": 177,
+          "errors": 173,
+          "utterances": 48,
+          "wer": 0.5103244837758112,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 126,
+          "D": 17,
+          "I": 5,
+          "correct": 196,
+          "errors": 148,
+          "utterances": 48,
+          "wer": 0.4365781710914454,
+          "deletion_rate": 0.05014749262536873
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -6.937941375445909,
+        "Whisper": {
+          "N": 339,
+          "S": 143,
+          "D": 93,
+          "I": 14,
+          "correct": 103,
+          "errors": 250,
+          "utterances": 48,
+          "wer": 0.7374631268436578,
+          "deletion_rate": 0.2743362831858407
+        },
+        "CTC": {
+          "N": 339,
+          "S": 134,
+          "D": 116,
+          "I": 5,
+          "correct": 89,
+          "errors": 255,
+          "utterances": 48,
+          "wer": 0.7522123893805309,
+          "deletion_rate": 0.3421828908554572
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.538122294234375,
+        "Whisper": {
+          "N": 339,
+          "S": 59,
+          "D": 15,
+          "I": 14,
+          "correct": 265,
+          "errors": 88,
+          "utterances": 48,
+          "wer": 0.25958702064896755,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 28,
+          "D": 2,
+          "I": 2,
+          "correct": 309,
+          "errors": 32,
+          "utterances": 48,
+          "wer": 0.0943952802359882,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 6.720147018862069,
+        "Whisper": {
+          "N": 339,
+          "S": 128,
+          "D": 28,
+          "I": 23,
+          "correct": 183,
+          "errors": 179,
+          "utterances": 48,
+          "wer": 0.528023598820059,
+          "deletion_rate": 0.08259587020648967
+        },
+        "CTC": {
+          "N": 339,
+          "S": 109,
+          "D": 20,
+          "I": 3,
+          "correct": 210,
+          "errors": 132,
+          "utterances": 48,
+          "wer": 0.3893805309734513,
+          "deletion_rate": 0.058997050147492625
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261112": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 20.713970442269932,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 22.235884653147295,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 20.04750025872807,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 7,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.061946902654867256
+        },
+        "CTC": {
+          "N": 113,
+          "S": 4,
+          "D": 0,
+          "I": 0,
+          "correct": 109,
+          "errors": 4,
+          "utterances": 16,
+          "wer": 0.035398230088495575,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 1.9796372710463561,
+        "Whisper": {
+          "N": 339,
+          "S": 85,
+          "D": 15,
+          "I": 13,
+          "correct": 239,
+          "errors": 113,
+          "utterances": 48,
+          "wer": 0.3333333333333333,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 60,
+          "D": 7,
+          "I": 2,
+          "correct": 272,
+          "errors": 69,
+          "utterances": 48,
+          "wer": 0.20353982300884957,
+          "deletion_rate": 0.02064896755162242
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 2.8532059226516453,
+        "Whisper": {
+          "N": 339,
+          "S": 49,
+          "D": 15,
+          "I": 6,
+          "correct": 275,
+          "errors": 70,
+          "utterances": 48,
+          "wer": 0.20648967551622419,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 23,
+          "D": 0,
+          "I": 0,
+          "correct": 316,
+          "errors": 23,
+          "utterances": 48,
+          "wer": 0.06784660766961652,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 1.9841984095595013,
+        "Whisper": {
+          "N": 339,
+          "S": 93,
+          "D": 22,
+          "I": 18,
+          "correct": 224,
+          "errors": 133,
+          "utterances": 48,
+          "wer": 0.39233038348082594,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 81,
+          "D": 6,
+          "I": 5,
+          "correct": 252,
+          "errors": 92,
+          "utterances": 48,
+          "wer": 0.2713864306784661,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 3.2269380800421614,
+        "Whisper": {
+          "N": 339,
+          "S": 117,
+          "D": 41,
+          "I": 16,
+          "correct": 181,
+          "errors": 174,
+          "utterances": 48,
+          "wer": 0.5132743362831859,
+          "deletion_rate": 0.12094395280235988
+        },
+        "CTC": {
+          "N": 339,
+          "S": 130,
+          "D": 23,
+          "I": 41,
+          "correct": 186,
+          "errors": 194,
+          "utterances": 48,
+          "wer": 0.5722713864306784,
+          "deletion_rate": 0.06784660766961652
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 6.019309656727626,
+        "Whisper": {
+          "N": 339,
+          "S": 88,
+          "D": 29,
+          "I": 15,
+          "correct": 222,
+          "errors": 132,
+          "utterances": 48,
+          "wer": 0.3893805309734513,
+          "deletion_rate": 0.0855457227138643
+        },
+        "CTC": {
+          "N": 339,
+          "S": 85,
+          "D": 8,
+          "I": 18,
+          "correct": 246,
+          "errors": 111,
+          "utterances": 48,
+          "wer": 0.3274336283185841,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 5.009710233685215,
+        "Whisper": {
+          "N": 339,
+          "S": 154,
+          "D": 40,
+          "I": 25,
+          "correct": 145,
+          "errors": 219,
+          "utterances": 48,
+          "wer": 0.6460176991150443,
+          "deletion_rate": 0.11799410029498525
+        },
+        "CTC": {
+          "N": 339,
+          "S": 160,
+          "D": 22,
+          "I": 31,
+          "correct": 157,
+          "errors": 213,
+          "utterances": 48,
+          "wer": 0.6283185840707964,
+          "deletion_rate": 0.06489675516224189
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 3.7256814439105788,
+        "Whisper": {
+          "N": 339,
+          "S": 129,
+          "D": 31,
+          "I": 22,
+          "correct": 179,
+          "errors": 182,
+          "utterances": 48,
+          "wer": 0.5368731563421829,
+          "deletion_rate": 0.09144542772861357
+        },
+        "CTC": {
+          "N": 339,
+          "S": 127,
+          "D": 23,
+          "I": 11,
+          "correct": 189,
+          "errors": 161,
+          "utterances": 48,
+          "wer": 0.4749262536873156,
+          "deletion_rate": 0.06784660766961652
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 5.509620062659219,
+        "Whisper": {
+          "N": 339,
+          "S": 73,
+          "D": 16,
+          "I": 12,
+          "correct": 250,
+          "errors": 101,
+          "utterances": 48,
+          "wer": 0.29793510324483774,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 65,
+          "D": 6,
+          "I": 5,
+          "correct": 268,
+          "errors": 76,
+          "utterances": 48,
+          "wer": 0.22418879056047197,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 4.126625500162792,
+        "Whisper": {
+          "N": 339,
+          "S": 150,
+          "D": 25,
+          "I": 237,
+          "correct": 164,
+          "errors": 412,
+          "utterances": 48,
+          "wer": 1.2153392330383481,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 135,
+          "D": 31,
+          "I": 7,
+          "correct": 173,
+          "errors": 173,
+          "utterances": 48,
+          "wer": 0.5103244837758112,
+          "deletion_rate": 0.09144542772861357
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 4.480879222220072,
+        "Whisper": {
+          "N": 339,
+          "S": 131,
+          "D": 30,
+          "I": 14,
+          "correct": 178,
+          "errors": 175,
+          "utterances": 48,
+          "wer": 0.5162241887905604,
+          "deletion_rate": 0.08849557522123894
+        },
+        "CTC": {
+          "N": 339,
+          "S": 104,
+          "D": 34,
+          "I": 18,
+          "correct": 201,
+          "errors": 156,
+          "utterances": 48,
+          "wer": 0.46017699115044247,
+          "deletion_rate": 0.10029498525073746
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 7.312112111376088,
+        "Whisper": {
+          "N": 339,
+          "S": 66,
+          "D": 17,
+          "I": 15,
+          "correct": 256,
+          "errors": 98,
+          "utterances": 48,
+          "wer": 0.2890855457227139,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 31,
+          "D": 3,
+          "I": 4,
+          "correct": 305,
+          "errors": 38,
+          "utterances": 48,
+          "wer": 0.11209439528023599,
+          "deletion_rate": 0.008849557522123894
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 5.321946612658517,
+        "Whisper": {
+          "N": 339,
+          "S": 144,
+          "D": 33,
+          "I": 26,
+          "correct": 162,
+          "errors": 203,
+          "utterances": 48,
+          "wer": 0.5988200589970502,
+          "deletion_rate": 0.09734513274336283
+        },
+        "CTC": {
+          "N": 339,
+          "S": 133,
+          "D": 36,
+          "I": 4,
+          "correct": 170,
+          "errors": 173,
+          "utterances": 48,
+          "wer": 0.5103244837758112,
+          "deletion_rate": 0.10619469026548672
+        }
+      }
+    },
+    "fixed_without_clean_identity_s20261113": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 14.436008561204442,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 6,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 19.545886209052195,
+        "Whisper": {
+          "N": 113,
+          "S": 12,
+          "D": 5,
+          "I": 1,
+          "correct": 96,
+          "errors": 18,
+          "utterances": 16,
+          "wer": 0.1592920353982301,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 11.868646759370371,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 6,
+          "I": 1,
+          "correct": 99,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 7,
+          "D": 0,
+          "I": 0,
+          "correct": 106,
+          "errors": 7,
+          "utterances": 16,
+          "wer": 0.061946902654867256,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -4.870371544964191,
+        "Whisper": {
+          "N": 339,
+          "S": 126,
+          "D": 37,
+          "I": 22,
+          "correct": 176,
+          "errors": 185,
+          "utterances": 48,
+          "wer": 0.5457227138643068,
+          "deletion_rate": 0.10914454277286136
+        },
+        "CTC": {
+          "N": 339,
+          "S": 134,
+          "D": 46,
+          "I": 9,
+          "correct": 159,
+          "errors": 189,
+          "utterances": 48,
+          "wer": 0.5575221238938053,
+          "deletion_rate": 0.13569321533923304
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 2.7238585939330684,
+        "Whisper": {
+          "N": 339,
+          "S": 54,
+          "D": 14,
+          "I": 10,
+          "correct": 271,
+          "errors": 78,
+          "utterances": 48,
+          "wer": 0.23008849557522124,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 26,
+          "D": 0,
+          "I": 0,
+          "correct": 313,
+          "errors": 26,
+          "utterances": 48,
+          "wer": 0.07669616519174041,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 1.898908371105496,
+        "Whisper": {
+          "N": 339,
+          "S": 106,
+          "D": 21,
+          "I": 14,
+          "correct": 212,
+          "errors": 141,
+          "utterances": 48,
+          "wer": 0.415929203539823,
+          "deletion_rate": 0.061946902654867256
+        },
+        "CTC": {
+          "N": 339,
+          "S": 82,
+          "D": 11,
+          "I": 5,
+          "correct": 246,
+          "errors": 98,
+          "utterances": 48,
+          "wer": 0.2890855457227139,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -5.272047155245972,
+        "Whisper": {
+          "N": 339,
+          "S": 153,
+          "D": 111,
+          "I": 20,
+          "correct": 75,
+          "errors": 284,
+          "utterances": 48,
+          "wer": 0.8377581120943953,
+          "deletion_rate": 0.3274336283185841
+        },
+        "CTC": {
+          "N": 339,
+          "S": 217,
+          "D": 57,
+          "I": 22,
+          "correct": 65,
+          "errors": 296,
+          "utterances": 48,
+          "wer": 0.8731563421828908,
+          "deletion_rate": 0.168141592920354
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 8.061223451566443,
+        "Whisper": {
+          "N": 339,
+          "S": 54,
+          "D": 19,
+          "I": 10,
+          "correct": 266,
+          "errors": 83,
+          "utterances": 48,
+          "wer": 0.2448377581120944,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 39,
+          "D": 3,
+          "I": 5,
+          "correct": 297,
+          "errors": 47,
+          "utterances": 48,
+          "wer": 0.13864306784660768,
+          "deletion_rate": 0.008849557522123894
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 6.443603278793627,
+        "Whisper": {
+          "N": 339,
+          "S": 134,
+          "D": 30,
+          "I": 28,
+          "correct": 175,
+          "errors": 192,
+          "utterances": 48,
+          "wer": 0.5663716814159292,
+          "deletion_rate": 0.08849557522123894
+        },
+        "CTC": {
+          "N": 339,
+          "S": 119,
+          "D": 13,
+          "I": 6,
+          "correct": 207,
+          "errors": 138,
+          "utterances": 48,
+          "wer": 0.40707964601769914,
+          "deletion_rate": 0.038348082595870206
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -5.07154799114709,
+        "Whisper": {
+          "N": 339,
+          "S": 145,
+          "D": 119,
+          "I": 18,
+          "correct": 75,
+          "errors": 282,
+          "utterances": 48,
+          "wer": 0.831858407079646,
+          "deletion_rate": 0.35103244837758113
+        },
+        "CTC": {
+          "N": 339,
+          "S": 178,
+          "D": 114,
+          "I": 6,
+          "correct": 47,
+          "errors": 298,
+          "utterances": 48,
+          "wer": 0.8790560471976401,
+          "deletion_rate": 0.336283185840708
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 7.271471384306531,
+        "Whisper": {
+          "N": 339,
+          "S": 52,
+          "D": 23,
+          "I": 7,
+          "correct": 264,
+          "errors": 82,
+          "utterances": 48,
+          "wer": 0.24188790560471976,
+          "deletion_rate": 0.06784660766961652
+        },
+        "CTC": {
+          "N": 339,
+          "S": 46,
+          "D": 11,
+          "I": 0,
+          "correct": 282,
+          "errors": 57,
+          "utterances": 48,
+          "wer": 0.168141592920354,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 6.228008511982559,
+        "Whisper": {
+          "N": 339,
+          "S": 141,
+          "D": 22,
+          "I": 14,
+          "correct": 176,
+          "errors": 177,
+          "utterances": 48,
+          "wer": 0.5221238938053098,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 117,
+          "D": 17,
+          "I": 6,
+          "correct": 205,
+          "errors": 140,
+          "utterances": 48,
+          "wer": 0.41297935103244837,
+          "deletion_rate": 0.05014749262536873
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -6.978952775408911,
+        "Whisper": {
+          "N": 339,
+          "S": 148,
+          "D": 91,
+          "I": 27,
+          "correct": 100,
+          "errors": 266,
+          "utterances": 48,
+          "wer": 0.7846607669616519,
+          "deletion_rate": 0.26843657817109146
+        },
+        "CTC": {
+          "N": 339,
+          "S": 129,
+          "D": 120,
+          "I": 10,
+          "correct": 90,
+          "errors": 259,
+          "utterances": 48,
+          "wer": 0.7640117994100295,
+          "deletion_rate": 0.35398230088495575
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 8.644300024903101,
+        "Whisper": {
+          "N": 339,
+          "S": 66,
+          "D": 16,
+          "I": 17,
+          "correct": 257,
+          "errors": 99,
+          "utterances": 48,
+          "wer": 0.2920353982300885,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 32,
+          "D": 2,
+          "I": 2,
+          "correct": 305,
+          "errors": 36,
+          "utterances": 48,
+          "wer": 0.10619469026548672,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 6.091386323179936,
+        "Whisper": {
+          "N": 339,
+          "S": 120,
+          "D": 19,
+          "I": 27,
+          "correct": 200,
+          "errors": 166,
+          "utterances": 48,
+          "wer": 0.4896755162241888,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 106,
+          "D": 23,
+          "I": 4,
+          "correct": 210,
+          "errors": 133,
+          "utterances": 48,
+          "wer": 0.39233038348082594,
+          "deletion_rate": 0.06784660766961652
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261113": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 21.22748628868065,
+        "Whisper": {
+          "N": 113,
+          "S": 11,
+          "D": 5,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 22.101989332275632,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 19.193525235694175,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 6,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 1.5949356296582902,
+        "Whisper": {
+          "N": 339,
+          "S": 96,
+          "D": 14,
+          "I": 14,
+          "correct": 229,
+          "errors": 124,
+          "utterances": 48,
+          "wer": 0.36578171091445427,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 70,
+          "D": 9,
+          "I": 1,
+          "correct": 260,
+          "errors": 80,
+          "utterances": 48,
+          "wer": 0.2359882005899705,
+          "deletion_rate": 0.02654867256637168
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 2.346087659632829,
+        "Whisper": {
+          "N": 339,
+          "S": 54,
+          "D": 15,
+          "I": 10,
+          "correct": 270,
+          "errors": 79,
+          "utterances": 48,
+          "wer": 0.23303834808259588,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 24,
+          "D": 1,
+          "I": 0,
+          "correct": 314,
+          "errors": 25,
+          "utterances": 48,
+          "wer": 0.07374631268436578,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 1.490761177063832,
+        "Whisper": {
+          "N": 339,
+          "S": 91,
+          "D": 22,
+          "I": 17,
+          "correct": 226,
+          "errors": 130,
+          "utterances": 48,
+          "wer": 0.3834808259587021,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 88,
+          "D": 8,
+          "I": 6,
+          "correct": 243,
+          "errors": 102,
+          "utterances": 48,
+          "wer": 0.3008849557522124,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 3.507114119147325,
+        "Whisper": {
+          "N": 339,
+          "S": 108,
+          "D": 50,
+          "I": 17,
+          "correct": 181,
+          "errors": 175,
+          "utterances": 48,
+          "wer": 0.5162241887905604,
+          "deletion_rate": 0.14749262536873156
+        },
+        "CTC": {
+          "N": 339,
+          "S": 123,
+          "D": 28,
+          "I": 45,
+          "correct": 188,
+          "errors": 196,
+          "utterances": 48,
+          "wer": 0.5781710914454278,
+          "deletion_rate": 0.08259587020648967
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 5.939012636107111,
+        "Whisper": {
+          "N": 339,
+          "S": 87,
+          "D": 29,
+          "I": 20,
+          "correct": 223,
+          "errors": 136,
+          "utterances": 48,
+          "wer": 0.40117994100294985,
+          "deletion_rate": 0.0855457227138643
+        },
+        "CTC": {
+          "N": 339,
+          "S": 79,
+          "D": 7,
+          "I": 14,
+          "correct": 253,
+          "errors": 100,
+          "utterances": 48,
+          "wer": 0.2949852507374631,
+          "deletion_rate": 0.02064896755162242
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 4.62602121579969,
+        "Whisper": {
+          "N": 339,
+          "S": 133,
+          "D": 56,
+          "I": 26,
+          "correct": 150,
+          "errors": 215,
+          "utterances": 48,
+          "wer": 0.6342182890855457,
+          "deletion_rate": 0.16519174041297935
+        },
+        "CTC": {
+          "N": 339,
+          "S": 154,
+          "D": 29,
+          "I": 29,
+          "correct": 156,
+          "errors": 212,
+          "utterances": 48,
+          "wer": 0.6253687315634219,
+          "deletion_rate": 0.0855457227138643
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 3.292408469733281,
+        "Whisper": {
+          "N": 339,
+          "S": 141,
+          "D": 23,
+          "I": 18,
+          "correct": 175,
+          "errors": 182,
+          "utterances": 48,
+          "wer": 0.5368731563421829,
+          "deletion_rate": 0.06784660766961652
+        },
+        "CTC": {
+          "N": 339,
+          "S": 126,
+          "D": 34,
+          "I": 5,
+          "correct": 179,
+          "errors": 165,
+          "utterances": 48,
+          "wer": 0.48672566371681414,
+          "deletion_rate": 0.10029498525073746
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 4.981987688316211,
+        "Whisper": {
+          "N": 339,
+          "S": 79,
+          "D": 19,
+          "I": 17,
+          "correct": 241,
+          "errors": 115,
+          "utterances": 48,
+          "wer": 0.3392330383480826,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 67,
+          "D": 8,
+          "I": 4,
+          "correct": 264,
+          "errors": 79,
+          "utterances": 48,
+          "wer": 0.23303834808259588,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 3.7280038275387923,
+        "Whisper": {
+          "N": 339,
+          "S": 151,
+          "D": 22,
+          "I": 24,
+          "correct": 166,
+          "errors": 197,
+          "utterances": 48,
+          "wer": 0.5811209439528023,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 149,
+          "D": 33,
+          "I": 4,
+          "correct": 157,
+          "errors": 186,
+          "utterances": 48,
+          "wer": 0.5486725663716814,
+          "deletion_rate": 0.09734513274336283
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 4.2287922375835825,
+        "Whisper": {
+          "N": 339,
+          "S": 124,
+          "D": 30,
+          "I": 15,
+          "correct": 185,
+          "errors": 169,
+          "utterances": 48,
+          "wer": 0.49852507374631266,
+          "deletion_rate": 0.08849557522123894
+        },
+        "CTC": {
+          "N": 339,
+          "S": 105,
+          "D": 27,
+          "I": 8,
+          "correct": 207,
+          "errors": 140,
+          "utterances": 48,
+          "wer": 0.41297935103244837,
+          "deletion_rate": 0.07964601769911504
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 7.05820582436926,
+        "Whisper": {
+          "N": 339,
+          "S": 85,
+          "D": 14,
+          "I": 18,
+          "correct": 240,
+          "errors": 117,
+          "utterances": 48,
+          "wer": 0.34513274336283184,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 32,
+          "D": 2,
+          "I": 3,
+          "correct": 305,
+          "errors": 37,
+          "utterances": 48,
+          "wer": 0.10914454277286136,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 4.647467221960363,
+        "Whisper": {
+          "N": 339,
+          "S": 157,
+          "D": 25,
+          "I": 25,
+          "correct": 157,
+          "errors": 207,
+          "utterances": 48,
+          "wer": 0.6106194690265486,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 134,
+          "D": 37,
+          "I": 5,
+          "correct": 168,
+          "errors": 176,
+          "utterances": 48,
+          "wer": 0.5191740412979351,
+          "deletion_rate": 0.10914454277286136
+        }
+      }
+    },
+    "fixed_without_clean_identity_s20261114": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 13.508668396306415,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 6,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 6,
+          "D": 0,
+          "I": 0,
+          "correct": 107,
+          "errors": 6,
+          "utterances": 16,
+          "wer": 0.05309734513274336,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 18.964953065622414,
+        "Whisper": {
+          "N": 113,
+          "S": 12,
+          "D": 5,
+          "I": 1,
+          "correct": 96,
+          "errors": 18,
+          "utterances": 16,
+          "wer": 0.1592920353982301,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 11.388379057938492,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 4,
+          "I": 1,
+          "correct": 101,
+          "errors": 13,
+          "utterances": 16,
+          "wer": 0.11504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 6,
+          "D": 0,
+          "I": 0,
+          "correct": 107,
+          "errors": 6,
+          "utterances": 16,
+          "wer": 0.05309734513274336,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -5.945957121072078,
+        "Whisper": {
+          "N": 339,
+          "S": 112,
+          "D": 61,
+          "I": 15,
+          "correct": 166,
+          "errors": 188,
+          "utterances": 48,
+          "wer": 0.5545722713864307,
+          "deletion_rate": 0.17994100294985252
+        },
+        "CTC": {
+          "N": 339,
+          "S": 125,
+          "D": 60,
+          "I": 4,
+          "correct": 154,
+          "errors": 189,
+          "utterances": 48,
+          "wer": 0.5575221238938053,
+          "deletion_rate": 0.17699115044247787
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 4.346792081972783,
+        "Whisper": {
+          "N": 339,
+          "S": 48,
+          "D": 17,
+          "I": 6,
+          "correct": 274,
+          "errors": 71,
+          "utterances": 48,
+          "wer": 0.20943952802359883,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 24,
+          "D": 1,
+          "I": 0,
+          "correct": 314,
+          "errors": 25,
+          "utterances": 48,
+          "wer": 0.07374631268436578,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 3.5463032311791007,
+        "Whisper": {
+          "N": 339,
+          "S": 86,
+          "D": 21,
+          "I": 19,
+          "correct": 232,
+          "errors": 126,
+          "utterances": 48,
+          "wer": 0.37168141592920356,
+          "deletion_rate": 0.061946902654867256
+        },
+        "CTC": {
+          "N": 339,
+          "S": 88,
+          "D": 11,
+          "I": 3,
+          "correct": 240,
+          "errors": 102,
+          "utterances": 48,
+          "wer": 0.3008849557522124,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -6.800539236288223,
+        "Whisper": {
+          "N": 339,
+          "S": 147,
+          "D": 130,
+          "I": 28,
+          "correct": 62,
+          "errors": 305,
+          "utterances": 48,
+          "wer": 0.8997050147492626,
+          "deletion_rate": 0.3834808259587021
+        },
+        "CTC": {
+          "N": 339,
+          "S": 198,
+          "D": 92,
+          "I": 17,
+          "correct": 49,
+          "errors": 307,
+          "utterances": 48,
+          "wer": 0.9056047197640118,
+          "deletion_rate": 0.2713864306784661
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 8.207806550005584,
+        "Whisper": {
+          "N": 339,
+          "S": 53,
+          "D": 20,
+          "I": 9,
+          "correct": 266,
+          "errors": 82,
+          "utterances": 48,
+          "wer": 0.24188790560471976,
+          "deletion_rate": 0.058997050147492625
+        },
+        "CTC": {
+          "N": 339,
+          "S": 42,
+          "D": 4,
+          "I": 10,
+          "correct": 293,
+          "errors": 56,
+          "utterances": 48,
+          "wer": 0.16519174041297935,
+          "deletion_rate": 0.011799410029498525
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 6.399121799036952,
+        "Whisper": {
+          "N": 339,
+          "S": 130,
+          "D": 36,
+          "I": 24,
+          "correct": 173,
+          "errors": 190,
+          "utterances": 48,
+          "wer": 0.56047197640118,
+          "deletion_rate": 0.10619469026548672
+        },
+        "CTC": {
+          "N": 339,
+          "S": 125,
+          "D": 15,
+          "I": 4,
+          "correct": 199,
+          "errors": 144,
+          "utterances": 48,
+          "wer": 0.4247787610619469,
+          "deletion_rate": 0.04424778761061947
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -5.762335400482368,
+        "Whisper": {
+          "N": 339,
+          "S": 141,
+          "D": 135,
+          "I": 28,
+          "correct": 63,
+          "errors": 304,
+          "utterances": 48,
+          "wer": 0.8967551622418879,
+          "deletion_rate": 0.39823008849557523
+        },
+        "CTC": {
+          "N": 339,
+          "S": 167,
+          "D": 125,
+          "I": 6,
+          "correct": 47,
+          "errors": 298,
+          "utterances": 48,
+          "wer": 0.8790560471976401,
+          "deletion_rate": 0.3687315634218289
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.83312102083788,
+        "Whisper": {
+          "N": 339,
+          "S": 49,
+          "D": 25,
+          "I": 10,
+          "correct": 265,
+          "errors": 84,
+          "utterances": 48,
+          "wer": 0.24778761061946902,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 44,
+          "D": 8,
+          "I": 3,
+          "correct": 287,
+          "errors": 55,
+          "utterances": 48,
+          "wer": 0.16224188790560473,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 7.1846981373252445,
+        "Whisper": {
+          "N": 339,
+          "S": 130,
+          "D": 22,
+          "I": 19,
+          "correct": 187,
+          "errors": 171,
+          "utterances": 48,
+          "wer": 0.504424778761062,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 122,
+          "D": 17,
+          "I": 6,
+          "correct": 200,
+          "errors": 145,
+          "utterances": 48,
+          "wer": 0.4277286135693215,
+          "deletion_rate": 0.05014749262536873
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -7.8293515518502295,
+        "Whisper": {
+          "N": 339,
+          "S": 155,
+          "D": 90,
+          "I": 18,
+          "correct": 94,
+          "errors": 263,
+          "utterances": 48,
+          "wer": 0.775811209439528,
+          "deletion_rate": 0.26548672566371684
+        },
+        "CTC": {
+          "N": 339,
+          "S": 131,
+          "D": 123,
+          "I": 6,
+          "correct": 85,
+          "errors": 260,
+          "utterances": 48,
+          "wer": 0.7669616519174042,
+          "deletion_rate": 0.36283185840707965
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.296518166466328,
+        "Whisper": {
+          "N": 339,
+          "S": 55,
+          "D": 16,
+          "I": 14,
+          "correct": 268,
+          "errors": 85,
+          "utterances": 48,
+          "wer": 0.25073746312684364,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 31,
+          "D": 2,
+          "I": 2,
+          "correct": 306,
+          "errors": 35,
+          "utterances": 48,
+          "wer": 0.10324483775811209,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 6.68549053149189,
+        "Whisper": {
+          "N": 339,
+          "S": 126,
+          "D": 20,
+          "I": 39,
+          "correct": 193,
+          "errors": 185,
+          "utterances": 48,
+          "wer": 0.5457227138643068,
+          "deletion_rate": 0.058997050147492625
+        },
+        "CTC": {
+          "N": 339,
+          "S": 113,
+          "D": 19,
+          "I": 3,
+          "correct": 207,
+          "errors": 135,
+          "utterances": 48,
+          "wer": 0.39823008849557523,
+          "deletion_rate": 0.05604719764011799
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261114": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 20.486368554381066,
+        "Whisper": {
+          "N": 113,
+          "S": 11,
+          "D": 5,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 21.923444147101755,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 19.458809236729458,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 6,
+          "I": 0,
+          "correct": 97,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 4,
+          "D": 0,
+          "I": 0,
+          "correct": 109,
+          "errors": 4,
+          "utterances": 16,
+          "wer": 0.035398230088495575,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 1.6549983899537564,
+        "Whisper": {
+          "N": 339,
+          "S": 89,
+          "D": 16,
+          "I": 14,
+          "correct": 234,
+          "errors": 119,
+          "utterances": 48,
+          "wer": 0.35103244837758113,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 63,
+          "D": 4,
+          "I": 2,
+          "correct": 272,
+          "errors": 69,
+          "utterances": 48,
+          "wer": 0.20353982300884957,
+          "deletion_rate": 0.011799410029498525
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 2.4340180249785597,
+        "Whisper": {
+          "N": 339,
+          "S": 57,
+          "D": 16,
+          "I": 11,
+          "correct": 266,
+          "errors": 84,
+          "utterances": 48,
+          "wer": 0.24778761061946902,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 24,
+          "D": 1,
+          "I": 0,
+          "correct": 314,
+          "errors": 25,
+          "utterances": 48,
+          "wer": 0.07374631268436578,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 1.5230162936630531,
+        "Whisper": {
+          "N": 339,
+          "S": 93,
+          "D": 27,
+          "I": 14,
+          "correct": 219,
+          "errors": 134,
+          "utterances": 48,
+          "wer": 0.3952802359882006,
+          "deletion_rate": 0.07964601769911504
+        },
+        "CTC": {
+          "N": 339,
+          "S": 86,
+          "D": 9,
+          "I": 4,
+          "correct": 244,
+          "errors": 99,
+          "utterances": 48,
+          "wer": 0.2920353982300885,
+          "deletion_rate": 0.02654867256637168
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 3.635774003122076,
+        "Whisper": {
+          "N": 339,
+          "S": 116,
+          "D": 44,
+          "I": 126,
+          "correct": 179,
+          "errors": 286,
+          "utterances": 48,
+          "wer": 0.8436578171091446,
+          "deletion_rate": 0.12979351032448377
+        },
+        "CTC": {
+          "N": 339,
+          "S": 129,
+          "D": 30,
+          "I": 42,
+          "correct": 180,
+          "errors": 201,
+          "utterances": 48,
+          "wer": 0.5929203539823009,
+          "deletion_rate": 0.08849557522123894
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 6.105087514446777,
+        "Whisper": {
+          "N": 339,
+          "S": 90,
+          "D": 26,
+          "I": 14,
+          "correct": 223,
+          "errors": 130,
+          "utterances": 48,
+          "wer": 0.3834808259587021,
+          "deletion_rate": 0.07669616519174041
+        },
+        "CTC": {
+          "N": 339,
+          "S": 78,
+          "D": 6,
+          "I": 21,
+          "correct": 255,
+          "errors": 105,
+          "utterances": 48,
+          "wer": 0.30973451327433627,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 4.824222815155331,
+        "Whisper": {
+          "N": 339,
+          "S": 158,
+          "D": 43,
+          "I": 18,
+          "correct": 138,
+          "errors": 219,
+          "utterances": 48,
+          "wer": 0.6460176991150443,
+          "deletion_rate": 0.12684365781710916
+        },
+        "CTC": {
+          "N": 339,
+          "S": 168,
+          "D": 25,
+          "I": 31,
+          "correct": 146,
+          "errors": 224,
+          "utterances": 48,
+          "wer": 0.6607669616519174,
+          "deletion_rate": 0.07374631268436578
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 3.466090797086137,
+        "Whisper": {
+          "N": 339,
+          "S": 149,
+          "D": 26,
+          "I": 19,
+          "correct": 164,
+          "errors": 194,
+          "utterances": 48,
+          "wer": 0.5722713864306784,
+          "deletion_rate": 0.07669616519174041
+        },
+        "CTC": {
+          "N": 339,
+          "S": 124,
+          "D": 33,
+          "I": 10,
+          "correct": 182,
+          "errors": 167,
+          "utterances": 48,
+          "wer": 0.49262536873156343,
+          "deletion_rate": 0.09734513274336283
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 5.109434457815909,
+        "Whisper": {
+          "N": 339,
+          "S": 87,
+          "D": 15,
+          "I": 14,
+          "correct": 237,
+          "errors": 116,
+          "utterances": 48,
+          "wer": 0.3421828908554572,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 62,
+          "D": 8,
+          "I": 6,
+          "correct": 269,
+          "errors": 76,
+          "utterances": 48,
+          "wer": 0.22418879056047197,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 3.663800616655186,
+        "Whisper": {
+          "N": 339,
+          "S": 149,
+          "D": 25,
+          "I": 273,
+          "correct": 165,
+          "errors": 447,
+          "utterances": 48,
+          "wer": 1.3185840707964602,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 155,
+          "D": 34,
+          "I": 9,
+          "correct": 150,
+          "errors": 198,
+          "utterances": 48,
+          "wer": 0.584070796460177,
+          "deletion_rate": 0.10029498525073746
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 4.244919528420653,
+        "Whisper": {
+          "N": 339,
+          "S": 128,
+          "D": 25,
+          "I": 7,
+          "correct": 186,
+          "errors": 160,
+          "utterances": 48,
+          "wer": 0.471976401179941,
+          "deletion_rate": 0.07374631268436578
+        },
+        "CTC": {
+          "N": 339,
+          "S": 104,
+          "D": 31,
+          "I": 8,
+          "correct": 204,
+          "errors": 143,
+          "utterances": 48,
+          "wer": 0.4218289085545723,
+          "deletion_rate": 0.09144542772861357
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 7.256612568604638,
+        "Whisper": {
+          "N": 339,
+          "S": 84,
+          "D": 13,
+          "I": 13,
+          "correct": 242,
+          "errors": 110,
+          "utterances": 48,
+          "wer": 0.32448377581120946,
+          "deletion_rate": 0.038348082595870206
+        },
+        "CTC": {
+          "N": 339,
+          "S": 35,
+          "D": 2,
+          "I": 1,
+          "correct": 302,
+          "errors": 38,
+          "utterances": 48,
+          "wer": 0.11209439528023599,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 4.79098225742528,
+        "Whisper": {
+          "N": 339,
+          "S": 156,
+          "D": 32,
+          "I": 21,
+          "correct": 151,
+          "errors": 209,
+          "utterances": 48,
+          "wer": 0.616519174041298,
+          "deletion_rate": 0.0943952802359882
+        },
+        "CTC": {
+          "N": 339,
+          "S": 128,
+          "D": 32,
+          "I": 5,
+          "correct": 179,
+          "errors": 165,
+          "utterances": 48,
+          "wer": 0.48672566371681414,
+          "deletion_rate": 0.0943952802359882
+        }
+      }
+    },
+    "fixed_without_clean_identity_s20261112_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 12.98658808299627,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 4,
+          "I": 2,
+          "correct": 100,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 15.339000392764147,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 11.516715372684638,
+        "Whisper": {
+          "N": 113,
+          "S": 11,
+          "D": 4,
+          "I": 2,
+          "correct": 98,
+          "errors": 17,
+          "utterances": 16,
+          "wer": 0.1504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -1.6771750454132703,
+        "Whisper": {
+          "N": 339,
+          "S": 101,
+          "D": 20,
+          "I": 21,
+          "correct": 218,
+          "errors": 142,
+          "utterances": 48,
+          "wer": 0.41887905604719766,
+          "deletion_rate": 0.058997050147492625
+        },
+        "CTC": {
+          "N": 339,
+          "S": 70,
+          "D": 34,
+          "I": 1,
+          "correct": 235,
+          "errors": 105,
+          "utterances": 48,
+          "wer": 0.30973451327433627,
+          "deletion_rate": 0.10029498525073746
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 6.342851719480261,
+        "Whisper": {
+          "N": 339,
+          "S": 29,
+          "D": 15,
+          "I": 4,
+          "correct": 295,
+          "errors": 48,
+          "utterances": 48,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.166650259645952,
+        "Whisper": {
+          "N": 339,
+          "S": 76,
+          "D": 18,
+          "I": 14,
+          "correct": 245,
+          "errors": 108,
+          "utterances": 48,
+          "wer": 0.3185840707964602,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 46,
+          "D": 5,
+          "I": 0,
+          "correct": 288,
+          "errors": 51,
+          "utterances": 48,
+          "wer": 0.1504424778761062,
+          "deletion_rate": 0.014749262536873156
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -5.5698435604878895,
+        "Whisper": {
+          "N": 339,
+          "S": 121,
+          "D": 59,
+          "I": 12,
+          "correct": 159,
+          "errors": 192,
+          "utterances": 48,
+          "wer": 0.5663716814159292,
+          "deletion_rate": 0.17404129793510326
+        },
+        "CTC": {
+          "N": 339,
+          "S": 122,
+          "D": 85,
+          "I": 12,
+          "correct": 132,
+          "errors": 219,
+          "utterances": 48,
+          "wer": 0.6460176991150443,
+          "deletion_rate": 0.25073746312684364
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 10.561499672522595,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 15,
+          "I": 3,
+          "correct": 287,
+          "errors": 55,
+          "utterances": 48,
+          "wer": 0.16224188790560473,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 8.256264964034905,
+        "Whisper": {
+          "N": 339,
+          "S": 67,
+          "D": 36,
+          "I": 12,
+          "correct": 236,
+          "errors": 115,
+          "utterances": 48,
+          "wer": 0.3392330383480826,
+          "deletion_rate": 0.10619469026548672
+        },
+        "CTC": {
+          "N": 339,
+          "S": 59,
+          "D": 11,
+          "I": 1,
+          "correct": 269,
+          "errors": 71,
+          "utterances": 48,
+          "wer": 0.20943952802359883,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -4.171498692792579,
+        "Whisper": {
+          "N": 339,
+          "S": 152,
+          "D": 58,
+          "I": 29,
+          "correct": 129,
+          "errors": 239,
+          "utterances": 48,
+          "wer": 0.7050147492625368,
+          "deletion_rate": 0.1710914454277286
+        },
+        "CTC": {
+          "N": 339,
+          "S": 116,
+          "D": 110,
+          "I": 1,
+          "correct": 113,
+          "errors": 227,
+          "utterances": 48,
+          "wer": 0.6696165191740413,
+          "deletion_rate": 0.32448377581120946
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 9.114608288803757,
+        "Whisper": {
+          "N": 339,
+          "S": 42,
+          "D": 14,
+          "I": 7,
+          "correct": 283,
+          "errors": 63,
+          "utterances": 48,
+          "wer": 0.18584070796460178,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 6.391463358792957,
+        "Whisper": {
+          "N": 339,
+          "S": 100,
+          "D": 16,
+          "I": 19,
+          "correct": 223,
+          "errors": 135,
+          "utterances": 48,
+          "wer": 0.39823008849557523,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 69,
+          "D": 8,
+          "I": 0,
+          "correct": 262,
+          "errors": 77,
+          "utterances": 48,
+          "wer": 0.22713864306784662,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -2.48306930370571,
+        "Whisper": {
+          "N": 339,
+          "S": 105,
+          "D": 48,
+          "I": 15,
+          "correct": 186,
+          "errors": 168,
+          "utterances": 48,
+          "wer": 0.49557522123893805,
+          "deletion_rate": 0.1415929203539823
+        },
+        "CTC": {
+          "N": 339,
+          "S": 84,
+          "D": 78,
+          "I": 3,
+          "correct": 177,
+          "errors": 165,
+          "utterances": 48,
+          "wer": 0.48672566371681414,
+          "deletion_rate": 0.23008849557522124
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 10.749817276430042,
+        "Whisper": {
+          "N": 339,
+          "S": 36,
+          "D": 17,
+          "I": 8,
+          "correct": 286,
+          "errors": 61,
+          "utterances": 48,
+          "wer": 0.17994100294985252,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 7.859161164552802,
+        "Whisper": {
+          "N": 339,
+          "S": 66,
+          "D": 19,
+          "I": 18,
+          "correct": 254,
+          "errors": 103,
+          "utterances": 48,
+          "wer": 0.30383480825958703,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 50,
+          "D": 13,
+          "I": 1,
+          "correct": 276,
+          "errors": 64,
+          "utterances": 48,
+          "wer": 0.1887905604719764,
+          "deletion_rate": 0.038348082595870206
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261112_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 14.328110142984569,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 16.595658688749083,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 14.455169510344675,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 4,
+          "I": 1,
+          "correct": 100,
+          "errors": 14,
+          "utterances": 16,
+          "wer": 0.12389380530973451,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 4.904579110207362,
+        "Whisper": {
+          "N": 339,
+          "S": 41,
+          "D": 12,
+          "I": 11,
+          "correct": 286,
+          "errors": 64,
+          "utterances": 48,
+          "wer": 0.1887905604719764,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 339,
+          "S": 24,
+          "D": 0,
+          "I": 0,
+          "correct": 315,
+          "errors": 24,
+          "utterances": 48,
+          "wer": 0.07079646017699115,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 6.535532169522789,
+        "Whisper": {
+          "N": 339,
+          "S": 31,
+          "D": 15,
+          "I": 2,
+          "correct": 293,
+          "errors": 48,
+          "utterances": 48,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.989404326260743,
+        "Whisper": {
+          "N": 339,
+          "S": 49,
+          "D": 16,
+          "I": 11,
+          "correct": 274,
+          "errors": 76,
+          "utterances": 48,
+          "wer": 0.22418879056047197,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 32,
+          "D": 3,
+          "I": 0,
+          "correct": 304,
+          "errors": 35,
+          "utterances": 48,
+          "wer": 0.10324483775811209,
+          "deletion_rate": 0.008849557522123894
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 5.718116314873967,
+        "Whisper": {
+          "N": 339,
+          "S": 59,
+          "D": 19,
+          "I": 11,
+          "correct": 261,
+          "errors": 89,
+          "utterances": 48,
+          "wer": 0.26253687315634217,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 41,
+          "D": 6,
+          "I": 3,
+          "correct": 292,
+          "errors": 50,
+          "utterances": 48,
+          "wer": 0.14749262536873156,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 10.017843976098922,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 12,
+          "I": 4,
+          "correct": 290,
+          "errors": 53,
+          "utterances": 48,
+          "wer": 0.15634218289085547,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 8.35502621560482,
+        "Whisper": {
+          "N": 339,
+          "S": 60,
+          "D": 18,
+          "I": 11,
+          "correct": 261,
+          "errors": 89,
+          "utterances": 48,
+          "wer": 0.26253687315634217,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 43,
+          "D": 7,
+          "I": 1,
+          "correct": 289,
+          "errors": 51,
+          "utterances": 48,
+          "wer": 0.1504424778761062,
+          "deletion_rate": 0.02064896755162242
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 5.602463864072059,
+        "Whisper": {
+          "N": 339,
+          "S": 69,
+          "D": 17,
+          "I": 10,
+          "correct": 253,
+          "errors": 96,
+          "utterances": 48,
+          "wer": 0.2831858407079646,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 63,
+          "D": 11,
+          "I": 4,
+          "correct": 265,
+          "errors": 78,
+          "utterances": 48,
+          "wer": 0.23008849557522124,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.243035343483827,
+        "Whisper": {
+          "N": 339,
+          "S": 43,
+          "D": 19,
+          "I": 7,
+          "correct": 277,
+          "errors": 69,
+          "utterances": 48,
+          "wer": 0.20353982300884957,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 26,
+          "D": 2,
+          "I": 1,
+          "correct": 311,
+          "errors": 29,
+          "utterances": 48,
+          "wer": 0.0855457227138643,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 6.024719533168496,
+        "Whisper": {
+          "N": 339,
+          "S": 84,
+          "D": 18,
+          "I": 16,
+          "correct": 237,
+          "errors": 118,
+          "utterances": 48,
+          "wer": 0.3480825958702065,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 56,
+          "D": 11,
+          "I": 4,
+          "correct": 272,
+          "errors": 71,
+          "utterances": 48,
+          "wer": 0.20943952802359883,
+          "deletion_rate": 0.032448377581120944
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 6.278237975685896,
+        "Whisper": {
+          "N": 339,
+          "S": 41,
+          "D": 14,
+          "I": 6,
+          "correct": 284,
+          "errors": 61,
+          "utterances": 48,
+          "wer": 0.17994100294985252,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 31,
+          "D": 3,
+          "I": 0,
+          "correct": 305,
+          "errors": 34,
+          "utterances": 48,
+          "wer": 0.10029498525073746,
+          "deletion_rate": 0.008849557522123894
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.721530985519346,
+        "Whisper": {
+          "N": 339,
+          "S": 31,
+          "D": 15,
+          "I": 8,
+          "correct": 293,
+          "errors": 54,
+          "utterances": 48,
+          "wer": 0.1592920353982301,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 21,
+          "D": 0,
+          "I": 0,
+          "correct": 318,
+          "errors": 21,
+          "utterances": 48,
+          "wer": 0.061946902654867256,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 7.315114065752467,
+        "Whisper": {
+          "N": 339,
+          "S": 48,
+          "D": 14,
+          "I": 9,
+          "correct": 277,
+          "errors": 71,
+          "utterances": 48,
+          "wer": 0.20943952802359883,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 25,
+          "D": 6,
+          "I": 1,
+          "correct": 308,
+          "errors": 32,
+          "utterances": 48,
+          "wer": 0.0943952802359882,
+          "deletion_rate": 0.017699115044247787
+        }
+      }
+    },
+    "fixed_without_clean_identity_s20261113_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 12.641451983036164,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 3,
+          "I": 2,
+          "correct": 100,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.02654867256637168
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 16.206881182296478,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 11.479365495445336,
+        "Whisper": {
+          "N": 113,
+          "S": 11,
+          "D": 4,
+          "I": 2,
+          "correct": 98,
+          "errors": 17,
+          "utterances": 16,
+          "wer": 0.1504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -0.7548569693514433,
+        "Whisper": {
+          "N": 339,
+          "S": 88,
+          "D": 17,
+          "I": 24,
+          "correct": 234,
+          "errors": 129,
+          "utterances": 48,
+          "wer": 0.3805309734513274,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 69,
+          "D": 16,
+          "I": 1,
+          "correct": 254,
+          "errors": 86,
+          "utterances": 48,
+          "wer": 0.2536873156342183,
+          "deletion_rate": 0.0471976401179941
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 5.952185232518754,
+        "Whisper": {
+          "N": 339,
+          "S": 30,
+          "D": 14,
+          "I": 4,
+          "correct": 295,
+          "errors": 48,
+          "utterances": 48,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.358737041262725,
+        "Whisper": {
+          "N": 339,
+          "S": 76,
+          "D": 22,
+          "I": 15,
+          "correct": 241,
+          "errors": 113,
+          "utterances": 48,
+          "wer": 0.3333333333333333,
+          "deletion_rate": 0.06489675516224189
+        },
+        "CTC": {
+          "N": 339,
+          "S": 53,
+          "D": 6,
+          "I": 1,
+          "correct": 280,
+          "errors": 60,
+          "utterances": 48,
+          "wer": 0.17699115044247787,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -4.099215964440695,
+        "Whisper": {
+          "N": 339,
+          "S": 111,
+          "D": 68,
+          "I": 18,
+          "correct": 160,
+          "errors": 197,
+          "utterances": 48,
+          "wer": 0.5811209439528023,
+          "deletion_rate": 0.20058997050147492
+        },
+        "CTC": {
+          "N": 339,
+          "S": 108,
+          "D": 71,
+          "I": 14,
+          "correct": 160,
+          "errors": 193,
+          "utterances": 48,
+          "wer": 0.5693215339233039,
+          "deletion_rate": 0.20943952802359883
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 10.120373065904234,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 19,
+          "I": 3,
+          "correct": 283,
+          "errors": 59,
+          "utterances": 48,
+          "wer": 0.17404129793510326,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 23,
+          "D": 0,
+          "I": 0,
+          "correct": 316,
+          "errors": 23,
+          "utterances": 48,
+          "wer": 0.06784660766961652,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 8.504259425767444,
+        "Whisper": {
+          "N": 339,
+          "S": 73,
+          "D": 27,
+          "I": 13,
+          "correct": 239,
+          "errors": 113,
+          "utterances": 48,
+          "wer": 0.3333333333333333,
+          "deletion_rate": 0.07964601769911504
+        },
+        "CTC": {
+          "N": 339,
+          "S": 58,
+          "D": 12,
+          "I": 2,
+          "correct": 269,
+          "errors": 72,
+          "utterances": 48,
+          "wer": 0.21238938053097345,
+          "deletion_rate": 0.035398230088495575
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -3.239577140000813,
+        "Whisper": {
+          "N": 339,
+          "S": 144,
+          "D": 61,
+          "I": 155,
+          "correct": 134,
+          "errors": 360,
+          "utterances": 48,
+          "wer": 1.0619469026548674,
+          "deletion_rate": 0.17994100294985252
+        },
+        "CTC": {
+          "N": 339,
+          "S": 114,
+          "D": 100,
+          "I": 6,
+          "correct": 125,
+          "errors": 220,
+          "utterances": 48,
+          "wer": 0.6489675516224189,
+          "deletion_rate": 0.2949852507374631
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.277928980517366,
+        "Whisper": {
+          "N": 339,
+          "S": 43,
+          "D": 18,
+          "I": 9,
+          "correct": 278,
+          "errors": 70,
+          "utterances": 48,
+          "wer": 0.20648967551622419,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 24,
+          "D": 1,
+          "I": 0,
+          "correct": 314,
+          "errors": 25,
+          "utterances": 48,
+          "wer": 0.07374631268436578,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 6.328264739202269,
+        "Whisper": {
+          "N": 339,
+          "S": 95,
+          "D": 15,
+          "I": 16,
+          "correct": 229,
+          "errors": 126,
+          "utterances": 48,
+          "wer": 0.37168141592920356,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 70,
+          "D": 9,
+          "I": 0,
+          "correct": 260,
+          "errors": 79,
+          "utterances": 48,
+          "wer": 0.23303834808259588,
+          "deletion_rate": 0.02654867256637168
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -1.9064247685980422,
+        "Whisper": {
+          "N": 339,
+          "S": 99,
+          "D": 38,
+          "I": 20,
+          "correct": 202,
+          "errors": 157,
+          "utterances": 48,
+          "wer": 0.4631268436578171,
+          "deletion_rate": 0.11209439528023599
+        },
+        "CTC": {
+          "N": 339,
+          "S": 81,
+          "D": 80,
+          "I": 4,
+          "correct": 178,
+          "errors": 165,
+          "utterances": 48,
+          "wer": 0.48672566371681414,
+          "deletion_rate": 0.2359882005899705
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.944476804832073,
+        "Whisper": {
+          "N": 339,
+          "S": 36,
+          "D": 20,
+          "I": 4,
+          "correct": 283,
+          "errors": 60,
+          "utterances": 48,
+          "wer": 0.17699115044247787,
+          "deletion_rate": 0.058997050147492625
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 7.471481579407627,
+        "Whisper": {
+          "N": 339,
+          "S": 70,
+          "D": 15,
+          "I": 9,
+          "correct": 254,
+          "errors": 94,
+          "utterances": 48,
+          "wer": 0.27728613569321536,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 53,
+          "D": 9,
+          "I": 1,
+          "correct": 277,
+          "errors": 63,
+          "utterances": 48,
+          "wer": 0.18584070796460178,
+          "deletion_rate": 0.02654867256637168
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261113_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 14.267715059055547,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 16.474649036371726,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 14.144394456428731,
+        "Whisper": {
+          "N": 113,
+          "S": 6,
+          "D": 4,
+          "I": 1,
+          "correct": 103,
+          "errors": 11,
+          "utterances": 16,
+          "wer": 0.09734513274336283,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 4.866462032573999,
+        "Whisper": {
+          "N": 339,
+          "S": 40,
+          "D": 11,
+          "I": 11,
+          "correct": 288,
+          "errors": 62,
+          "utterances": 48,
+          "wer": 0.18289085545722714,
+          "deletion_rate": 0.032448377581120944
+        },
+        "CTC": {
+          "N": 339,
+          "S": 27,
+          "D": 0,
+          "I": 0,
+          "correct": 312,
+          "errors": 27,
+          "utterances": 48,
+          "wer": 0.07964601769911504,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 6.400939892948226,
+        "Whisper": {
+          "N": 339,
+          "S": 33,
+          "D": 15,
+          "I": 2,
+          "correct": 291,
+          "errors": 50,
+          "utterances": 48,
+          "wer": 0.14749262536873156,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.809857386043622,
+        "Whisper": {
+          "N": 339,
+          "S": 56,
+          "D": 15,
+          "I": 19,
+          "correct": 268,
+          "errors": 90,
+          "utterances": 48,
+          "wer": 0.26548672566371684,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 27,
+          "D": 2,
+          "I": 0,
+          "correct": 310,
+          "errors": 29,
+          "utterances": 48,
+          "wer": 0.0855457227138643,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 6.135030900793585,
+        "Whisper": {
+          "N": 339,
+          "S": 59,
+          "D": 19,
+          "I": 11,
+          "correct": 261,
+          "errors": 89,
+          "utterances": 48,
+          "wer": 0.26253687315634217,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 38,
+          "D": 4,
+          "I": 2,
+          "correct": 297,
+          "errors": 44,
+          "utterances": 48,
+          "wer": 0.12979351032448377,
+          "deletion_rate": 0.011799410029498525
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 9.925416617053031,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 13,
+          "I": 4,
+          "correct": 289,
+          "errors": 54,
+          "utterances": 48,
+          "wer": 0.1592920353982301,
+          "deletion_rate": 0.038348082595870206
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 7.735059494933115,
+        "Whisper": {
+          "N": 339,
+          "S": 63,
+          "D": 18,
+          "I": 19,
+          "correct": 258,
+          "errors": 100,
+          "utterances": 48,
+          "wer": 0.2949852507374631,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 46,
+          "D": 6,
+          "I": 0,
+          "correct": 287,
+          "errors": 52,
+          "utterances": 48,
+          "wer": 0.15339233038348082,
+          "deletion_rate": 0.017699115044247787
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 5.580266203876609,
+        "Whisper": {
+          "N": 339,
+          "S": 67,
+          "D": 23,
+          "I": 9,
+          "correct": 249,
+          "errors": 99,
+          "utterances": 48,
+          "wer": 0.2920353982300885,
+          "deletion_rate": 0.06784660766961652
+        },
+        "CTC": {
+          "N": 339,
+          "S": 55,
+          "D": 13,
+          "I": 4,
+          "correct": 271,
+          "errors": 72,
+          "utterances": 48,
+          "wer": 0.21238938053097345,
+          "deletion_rate": 0.038348082595870206
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.148712644925983,
+        "Whisper": {
+          "N": 339,
+          "S": 44,
+          "D": 19,
+          "I": 6,
+          "correct": 276,
+          "errors": 69,
+          "utterances": 48,
+          "wer": 0.20353982300884957,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 26,
+          "D": 2,
+          "I": 2,
+          "correct": 311,
+          "errors": 30,
+          "utterances": 48,
+          "wer": 0.08849557522123894,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 5.971010007793154,
+        "Whisper": {
+          "N": 339,
+          "S": 84,
+          "D": 16,
+          "I": 13,
+          "correct": 239,
+          "errors": 113,
+          "utterances": 48,
+          "wer": 0.3333333333333333,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 59,
+          "D": 10,
+          "I": 4,
+          "correct": 270,
+          "errors": 73,
+          "utterances": 48,
+          "wer": 0.2153392330383481,
+          "deletion_rate": 0.029498525073746312
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 6.407268483078461,
+        "Whisper": {
+          "N": 339,
+          "S": 51,
+          "D": 15,
+          "I": 8,
+          "correct": 273,
+          "errors": 74,
+          "utterances": 48,
+          "wer": 0.2182890855457227,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 34,
+          "D": 2,
+          "I": 0,
+          "correct": 303,
+          "errors": 36,
+          "utterances": 48,
+          "wer": 0.10619469026548672,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.718579665648155,
+        "Whisper": {
+          "N": 339,
+          "S": 33,
+          "D": 15,
+          "I": 7,
+          "correct": 291,
+          "errors": 55,
+          "utterances": 48,
+          "wer": 0.16224188790560473,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 6.788543411447487,
+        "Whisper": {
+          "N": 339,
+          "S": 56,
+          "D": 15,
+          "I": 14,
+          "correct": 268,
+          "errors": 85,
+          "utterances": 48,
+          "wer": 0.25073746312684364,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 30,
+          "D": 5,
+          "I": 1,
+          "correct": 304,
+          "errors": 36,
+          "utterances": 48,
+          "wer": 0.10619469026548672,
+          "deletion_rate": 0.014749262536873156
+        }
+      }
+    },
+    "fixed_without_clean_identity_s20261114_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 12.997677472699076,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 4,
+          "I": 1,
+          "correct": 101,
+          "errors": 13,
+          "utterances": 16,
+          "wer": 0.11504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 15.869960947355496,
+        "Whisper": {
+          "N": 113,
+          "S": 10,
+          "D": 5,
+          "I": 0,
+          "correct": 98,
+          "errors": 15,
+          "utterances": 16,
+          "wer": 0.13274336283185842,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 10.917969970502426,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 7,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.061946902654867256
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": -1.952616207383201,
+        "Whisper": {
+          "N": 339,
+          "S": 99,
+          "D": 18,
+          "I": 27,
+          "correct": 222,
+          "errors": 144,
+          "utterances": 48,
+          "wer": 0.4247787610619469,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 64,
+          "D": 39,
+          "I": 1,
+          "correct": 236,
+          "errors": 104,
+          "utterances": 48,
+          "wer": 0.30678466076696165,
+          "deletion_rate": 0.11504424778761062
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 6.202383948317196,
+        "Whisper": {
+          "N": 339,
+          "S": 29,
+          "D": 15,
+          "I": 4,
+          "correct": 295,
+          "errors": 48,
+          "utterances": 48,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.283156175709119,
+        "Whisper": {
+          "N": 339,
+          "S": 78,
+          "D": 17,
+          "I": 15,
+          "correct": 244,
+          "errors": 110,
+          "utterances": 48,
+          "wer": 0.32448377581120946,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 49,
+          "D": 8,
+          "I": 1,
+          "correct": 282,
+          "errors": 58,
+          "utterances": 48,
+          "wer": 0.1710914454277286,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": -5.555891740433283,
+        "Whisper": {
+          "N": 339,
+          "S": 126,
+          "D": 73,
+          "I": 25,
+          "correct": 140,
+          "errors": 224,
+          "utterances": 48,
+          "wer": 0.6607669616519174,
+          "deletion_rate": 0.2153392330383481
+        },
+        "CTC": {
+          "N": 339,
+          "S": 119,
+          "D": 92,
+          "I": 12,
+          "correct": 128,
+          "errors": 223,
+          "utterances": 48,
+          "wer": 0.6578171091445427,
+          "deletion_rate": 0.2713864306784661
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 10.355147019646614,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 19,
+          "I": 4,
+          "correct": 283,
+          "errors": 60,
+          "utterances": 48,
+          "wer": 0.17699115044247787,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 23,
+          "D": 0,
+          "I": 0,
+          "correct": 316,
+          "errors": 23,
+          "utterances": 48,
+          "wer": 0.06784660766961652,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 8.247842159913475,
+        "Whisper": {
+          "N": 339,
+          "S": 79,
+          "D": 27,
+          "I": 223,
+          "correct": 233,
+          "errors": 329,
+          "utterances": 48,
+          "wer": 0.9705014749262537,
+          "deletion_rate": 0.07964601769911504
+        },
+        "CTC": {
+          "N": 339,
+          "S": 62,
+          "D": 10,
+          "I": 0,
+          "correct": 267,
+          "errors": 72,
+          "utterances": 48,
+          "wer": 0.21238938053097345,
+          "deletion_rate": 0.029498525073746312
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": -4.186167543410705,
+        "Whisper": {
+          "N": 339,
+          "S": 144,
+          "D": 70,
+          "I": 198,
+          "correct": 125,
+          "errors": 412,
+          "utterances": 48,
+          "wer": 1.2153392330383481,
+          "deletion_rate": 0.20648967551622419
+        },
+        "CTC": {
+          "N": 339,
+          "S": 119,
+          "D": 104,
+          "I": 7,
+          "correct": 116,
+          "errors": 230,
+          "utterances": 48,
+          "wer": 0.6784660766961652,
+          "deletion_rate": 0.30678466076696165
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.891593429238965,
+        "Whisper": {
+          "N": 339,
+          "S": 44,
+          "D": 18,
+          "I": 7,
+          "correct": 277,
+          "errors": 69,
+          "utterances": 48,
+          "wer": 0.20353982300884957,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 21,
+          "D": 1,
+          "I": 0,
+          "correct": 317,
+          "errors": 22,
+          "utterances": 48,
+          "wer": 0.06489675516224189,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 6.574173133238301,
+        "Whisper": {
+          "N": 339,
+          "S": 96,
+          "D": 15,
+          "I": 13,
+          "correct": 228,
+          "errors": 124,
+          "utterances": 48,
+          "wer": 0.36578171091445427,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 66,
+          "D": 8,
+          "I": 1,
+          "correct": 265,
+          "errors": 75,
+          "utterances": 48,
+          "wer": 0.22123893805309736,
+          "deletion_rate": 0.02359882005899705
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": -3.016879191206869,
+        "Whisper": {
+          "N": 339,
+          "S": 116,
+          "D": 36,
+          "I": 31,
+          "correct": 187,
+          "errors": 183,
+          "utterances": 48,
+          "wer": 0.5398230088495575,
+          "deletion_rate": 0.10619469026548672
+        },
+        "CTC": {
+          "N": 339,
+          "S": 89,
+          "D": 85,
+          "I": 2,
+          "correct": 165,
+          "errors": 176,
+          "utterances": 48,
+          "wer": 0.5191740412979351,
+          "deletion_rate": 0.25073746312684364
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 10.390932310211307,
+        "Whisper": {
+          "N": 339,
+          "S": 35,
+          "D": 17,
+          "I": 5,
+          "correct": 287,
+          "errors": 57,
+          "utterances": 48,
+          "wer": 0.168141592920354,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 7.755197115384454,
+        "Whisper": {
+          "N": 339,
+          "S": 73,
+          "D": 17,
+          "I": 12,
+          "correct": 249,
+          "errors": 102,
+          "utterances": 48,
+          "wer": 0.3008849557522124,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 51,
+          "D": 9,
+          "I": 1,
+          "correct": 279,
+          "errors": 61,
+          "utterances": 48,
+          "wer": 0.17994100294985252,
+          "deletion_rate": 0.02654867256637168
+        }
+      }
+    },
+    "rotated_without_clean_identity_s20261114_mask_mvdr": {
+      "clean|-40": {
+        "records": 16,
+        "si_sdr_db": 14.1642405775072,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|20": {
+        "records": 16,
+        "si_sdr_db": 16.684963346450566,
+        "Whisper": {
+          "N": 113,
+          "S": 9,
+          "D": 6,
+          "I": 1,
+          "correct": 98,
+          "errors": 16,
+          "utterances": 16,
+          "wer": 0.1415929203539823,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "clean|70": {
+        "records": 16,
+        "si_sdr_db": 14.012482643117412,
+        "Whisper": {
+          "N": 113,
+          "S": 8,
+          "D": 4,
+          "I": 1,
+          "correct": 101,
+          "errors": 13,
+          "utterances": 16,
+          "wer": 0.11504424778761062,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 113,
+          "S": 5,
+          "D": 0,
+          "I": 0,
+          "correct": 108,
+          "errors": 5,
+          "utterances": 16,
+          "wer": 0.04424778761061947,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|-40": {
+        "records": 48,
+        "si_sdr_db": 5.1321371260788595,
+        "Whisper": {
+          "N": 339,
+          "S": 39,
+          "D": 11,
+          "I": 9,
+          "correct": 289,
+          "errors": 59,
+          "utterances": 48,
+          "wer": 0.17404129793510326,
+          "deletion_rate": 0.032448377581120944
+        },
+        "CTC": {
+          "N": 339,
+          "S": 25,
+          "D": 0,
+          "I": 1,
+          "correct": 314,
+          "errors": 26,
+          "utterances": 48,
+          "wer": 0.07669616519174041,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|20": {
+        "records": 48,
+        "si_sdr_db": 6.584459166308894,
+        "Whisper": {
+          "N": 339,
+          "S": 34,
+          "D": 14,
+          "I": 2,
+          "correct": 291,
+          "errors": 50,
+          "utterances": 48,
+          "wer": 0.14749262536873156,
+          "deletion_rate": 0.04129793510324484
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "OOFFICE|70": {
+        "records": 48,
+        "si_sdr_db": 4.972821866680737,
+        "Whisper": {
+          "N": 339,
+          "S": 46,
+          "D": 16,
+          "I": 12,
+          "correct": 277,
+          "errors": 74,
+          "utterances": 48,
+          "wer": 0.2182890855457227,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 27,
+          "D": 3,
+          "I": 0,
+          "correct": 309,
+          "errors": 30,
+          "utterances": 48,
+          "wer": 0.08849557522123894,
+          "deletion_rate": 0.008849557522123894
+        }
+      },
+      "PCAFETER|-40": {
+        "records": 48,
+        "si_sdr_db": 6.307948168459153,
+        "Whisper": {
+          "N": 339,
+          "S": 57,
+          "D": 16,
+          "I": 10,
+          "correct": 266,
+          "errors": 83,
+          "utterances": 48,
+          "wer": 0.2448377581120944,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 41,
+          "D": 2,
+          "I": 3,
+          "correct": 296,
+          "errors": 46,
+          "utterances": 48,
+          "wer": 0.13569321533923304,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "PCAFETER|20": {
+        "records": 48,
+        "si_sdr_db": 10.099174137807646,
+        "Whisper": {
+          "N": 339,
+          "S": 37,
+          "D": 12,
+          "I": 4,
+          "correct": 290,
+          "errors": 53,
+          "utterances": 48,
+          "wer": 0.15634218289085547,
+          "deletion_rate": 0.035398230088495575
+        },
+        "CTC": {
+          "N": 339,
+          "S": 19,
+          "D": 0,
+          "I": 0,
+          "correct": 320,
+          "errors": 19,
+          "utterances": 48,
+          "wer": 0.05604719764011799,
+          "deletion_rate": 0.0
+        }
+      },
+      "PCAFETER|70": {
+        "records": 48,
+        "si_sdr_db": 7.9480727487308656,
+        "Whisper": {
+          "N": 339,
+          "S": 59,
+          "D": 17,
+          "I": 13,
+          "correct": 263,
+          "errors": 89,
+          "utterances": 48,
+          "wer": 0.26253687315634217,
+          "deletion_rate": 0.05014749262536873
+        },
+        "CTC": {
+          "N": 339,
+          "S": 48,
+          "D": 7,
+          "I": 0,
+          "correct": 284,
+          "errors": 55,
+          "utterances": 48,
+          "wer": 0.16224188790560473,
+          "deletion_rate": 0.02064896755162242
+        }
+      },
+      "NPARK|-40": {
+        "records": 48,
+        "si_sdr_db": 5.916395834804355,
+        "Whisper": {
+          "N": 339,
+          "S": 70,
+          "D": 20,
+          "I": 10,
+          "correct": 249,
+          "errors": 100,
+          "utterances": 48,
+          "wer": 0.2949852507374631,
+          "deletion_rate": 0.058997050147492625
+        },
+        "CTC": {
+          "N": 339,
+          "S": 57,
+          "D": 12,
+          "I": 3,
+          "correct": 270,
+          "errors": 72,
+          "utterances": 48,
+          "wer": 0.21238938053097345,
+          "deletion_rate": 0.035398230088495575
+        }
+      },
+      "NPARK|20": {
+        "records": 48,
+        "si_sdr_db": 8.292069730752985,
+        "Whisper": {
+          "N": 339,
+          "S": 45,
+          "D": 19,
+          "I": 6,
+          "correct": 275,
+          "errors": 70,
+          "utterances": 48,
+          "wer": 0.20648967551622419,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 26,
+          "D": 2,
+          "I": 2,
+          "correct": 311,
+          "errors": 30,
+          "utterances": 48,
+          "wer": 0.08849557522123894,
+          "deletion_rate": 0.0058997050147492625
+        }
+      },
+      "NPARK|70": {
+        "records": 48,
+        "si_sdr_db": 5.976141447544258,
+        "Whisper": {
+          "N": 339,
+          "S": 82,
+          "D": 16,
+          "I": 15,
+          "correct": 241,
+          "errors": 113,
+          "utterances": 48,
+          "wer": 0.3333333333333333,
+          "deletion_rate": 0.0471976401179941
+        },
+        "CTC": {
+          "N": 339,
+          "S": 58,
+          "D": 12,
+          "I": 5,
+          "correct": 269,
+          "errors": 75,
+          "utterances": 48,
+          "wer": 0.22123893805309736,
+          "deletion_rate": 0.035398230088495575
+        }
+      },
+      "PSTATION|-40": {
+        "records": 48,
+        "si_sdr_db": 6.540818510738965,
+        "Whisper": {
+          "N": 339,
+          "S": 49,
+          "D": 18,
+          "I": 6,
+          "correct": 272,
+          "errors": 73,
+          "utterances": 48,
+          "wer": 0.2153392330383481,
+          "deletion_rate": 0.05309734513274336
+        },
+        "CTC": {
+          "N": 339,
+          "S": 35,
+          "D": 1,
+          "I": 1,
+          "correct": 303,
+          "errors": 37,
+          "utterances": 48,
+          "wer": 0.10914454277286136,
+          "deletion_rate": 0.0029498525073746312
+        }
+      },
+      "PSTATION|20": {
+        "records": 48,
+        "si_sdr_db": 9.828735572333633,
+        "Whisper": {
+          "N": 339,
+          "S": 30,
+          "D": 15,
+          "I": 8,
+          "correct": 294,
+          "errors": 53,
+          "utterances": 48,
+          "wer": 0.15634218289085547,
+          "deletion_rate": 0.04424778761061947
+        },
+        "CTC": {
+          "N": 339,
+          "S": 20,
+          "D": 0,
+          "I": 0,
+          "correct": 319,
+          "errors": 20,
+          "utterances": 48,
+          "wer": 0.058997050147492625,
+          "deletion_rate": 0.0
+        }
+      },
+      "PSTATION|70": {
+        "records": 48,
+        "si_sdr_db": 6.963304839157895,
+        "Whisper": {
+          "N": 339,
+          "S": 54,
+          "D": 19,
+          "I": 11,
+          "correct": 266,
+          "errors": 84,
+          "utterances": 48,
+          "wer": 0.24778761061946902,
+          "deletion_rate": 0.05604719764011799
+        },
+        "CTC": {
+          "N": 339,
+          "S": 25,
+          "D": 5,
+          "I": 0,
+          "correct": 309,
+          "errors": 30,
+          "utterances": 48,
+          "wer": 0.08849557522123894,
+          "deletion_rate": 0.014749262536873156
+        }
+      }
+    }
+  }
+}

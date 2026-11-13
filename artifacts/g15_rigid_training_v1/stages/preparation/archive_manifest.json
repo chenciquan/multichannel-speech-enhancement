@@ -1,0 +1,105 @@
+{
+  "saved_utc": "2026-11-12T09:08:23.898866+00:00",
+  "files": [
+    {
+      "source": "docs/G15A_正确旋转训练数据与验证重放.md",
+      "snapshot": "00_G15A_正确旋转训练数据与验证重放.md",
+      "sha256": "c0f8e50dc10b2312345c04ef6153d26fdf85b980a13a832c0167c398b6257c42"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "08967012a9ae414a6181c3ee033ad67b686856a989cce0fe7a3c2176acc84e89"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/PIPELINE_READY.json",
+      "snapshot": "02_PIPELINE_READY.json",
+      "sha256": "497725c148c218b70089293bc37fe43fd9b2d075d80cde05f95710bfefc1e953"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "03_PREPARATION_COMPLETE.json",
+      "sha256": "1179b8dbcad783bfa89b7cfac8f84360745655cb090f59e4fcac53d67fba8565"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/data_file_hashes.json",
+      "snapshot": "04_data_file_hashes.json",
+      "sha256": "01d95d1981b271dde5a350e2fb3cede4a070a83b8a1782ee8bd89825a9e10d3a"
+    },
+    {
+      "source": "data/g15_v1/train_catalog.json",
+      "snapshot": "05_train_catalog.json",
+      "sha256": "e69cc0a3e6c3d5fe9242e7bcee04b85950ce2708d6fad4149c73dcaea30381d3"
+    },
+    {
+      "source": "data/g15_v1/validation/manifest.jsonl",
+      "snapshot": "06_manifest.jsonl",
+      "sha256": "83f05abb20f10617aa67c6b85799855df29be77eb73d443282149592f9faff8a"
+    },
+    {
+      "source": "configs/g15_rigid_training_plan.json",
+      "snapshot": "07_g15_rigid_training_plan.json",
+      "sha256": "1b9ac545c2d7eda43385356c4965f1249d6f40d9ce3523f4be5548f17f08b6be"
+    },
+    {
+      "source": "configs/g3_overnight_plan.json",
+      "snapshot": "08_g3_overnight_plan.json",
+      "sha256": "b6ff9d1c8a508b974eb851781ccb88569c214acc89dc52b9617b11f4e3cd6c21"
+    },
+    {
+      "source": "scripts/g15_common.py",
+      "snapshot": "09_g15_common.py",
+      "sha256": "7a4f26e1501c384981ffe9e636cb8de880a0d9d08e2921fa9b513357deb70fc0"
+    },
+    {
+      "source": "scripts/g15_queue.py",
+      "snapshot": "10_g15_queue.py",
+      "sha256": "64e7d595b112ac04f380c32a041c6102d4f802ca429c30d955560c553e6461aa"
+    },
+    {
+      "source": "scripts/g15_prepare.py",
+      "snapshot": "11_g15_prepare.py",
+      "sha256": "a19c0687018eabd4eb542771576cbe599b4448042f6f2ad4a3d6358475594db8"
+    },
+    {
+      "source": "scripts/g15_train.py",
+      "snapshot": "12_g15_train.py",
+      "sha256": "dc543b1a20bd09cd0e7e5fa72d4e58d920e58336ef4527bfcff359b68b360b8c"
+    },
+    {
+      "source": "scripts/g15_finish.py",
+      "snapshot": "13_g15_finish.py",
+      "sha256": "e270f703b59668b2e83cb18a239e609e896278a18fb08a855d39a1148e9b8470"
+    },
+    {
+      "source": "scripts/g3_train.py",
+      "snapshot": "14_g3_train.py",
+      "sha256": "a57c58c489aa86af159dc7a916e87774a7e337c905f1e9951485e80ff7d3839e"
+    },
+    {
+      "source": "scripts/g5_prepare.py",
+      "snapshot": "15_g5_prepare.py",
+      "sha256": "2a3cd60a8d10240881ce3e8cb5e5aace0b5c999daeb3396c5f5743c3a5acdda5"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "16_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "17_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/simulation.py",
+      "snapshot": "18_simulation.py",
+      "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+    },
+    {
+      "source": "src/mcse/spatial_noise.py",
+      "snapshot": "19_spatial_noise.py",
+      "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+    }
+  ]
+}

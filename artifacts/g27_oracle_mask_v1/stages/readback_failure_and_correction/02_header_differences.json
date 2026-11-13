@@ -1,0 +1,72 @@
+[
+  {
+    "ref": "g22_0144_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mvdr",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0144_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mwf",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0146_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mvdr",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0146_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mwf",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0148_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mvdr",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0148_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mwf",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  },
+  {
+    "ref": "g22_0182_1320-122617-0038_reference",
+    "system": "truth_ref_power_mask_mwf",
+    "different_byte_offsets": [
+      60
+    ],
+    "PEAK_offset": 48,
+    "only_PEAK_timestamp_bytes": true,
+    "same_samples": true
+  }
+]

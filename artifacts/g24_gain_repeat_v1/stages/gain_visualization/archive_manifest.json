@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:11:39.965423+00:00",
+  "files": [
+    {
+      "source": "docs/G24_精确增益识别变化图说明.md",
+      "snapshot": "00_G24_精确增益识别变化图说明.md",
+      "sha256": "750504cbde20ab9f2ac5c8d2512ea391b5ad4b22c99d28bc63b9bb05d4811354"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/exact_gain_hypothesis_changes.png",
+      "snapshot": "01_exact_gain_hypothesis_changes.png",
+      "sha256": "cee6c56bdcb936e8cbeebbb042511dda44eb65bfb587f0ac864ae88cf8ad7cd7"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/exact_gain_hypothesis_changes.pdf",
+      "snapshot": "02_exact_gain_hypothesis_changes.pdf",
+      "sha256": "e28d1aa2366e5c3ad8e16d2ba398da06f518f5adca7b400a3b9b9c25f1f13214"
+    },
+    {
+      "source": "scripts/g24_plot.py",
+      "snapshot": "03_g24_plot.py",
+      "sha256": "33af15a285e587b75c5db28f1252fce5762f5f6890f8bc6e9b89414a0d075d6b"
+    }
+  ]
+}

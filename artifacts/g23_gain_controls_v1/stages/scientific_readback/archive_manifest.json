@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:53:15.263017+00:00",
+  "files": [
+    {
+      "source": "docs/G23_识别变化读回与重复性验证决策.md",
+      "snapshot": "00_G23_识别变化读回与重复性验证决策.md",
+      "sha256": "f2b1e61f8d784527d29f58d64ccf7c8b820325cc9af0730ce37c42846f070d18"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/readback_counts.json",
+      "snapshot": "01_readback_counts.json",
+      "sha256": "aff989f39289e8963b174d2a72b1796fbcbeb160194700743a08c925b1787837"
+    },
+    {
+      "source": "scripts/g23_readback.py",
+      "snapshot": "02_g23_readback.py",
+      "sha256": "4346e9416971e28a0748f1d1e2c97625093e41d0361e521f87d5ede39fc44056"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "03_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "3eb722b302ef09d1098597867adb61ccce7e7b9026d9dca205200dae34842b18"
+    }
+  ]
+}

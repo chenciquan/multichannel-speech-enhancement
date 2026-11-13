@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T01:18:31.404963+00:00",
+  "files": [
+    {
+      "source": "docs/G32_完整开发语句补充诊断验收.md",
+      "snapshot": "00_G32_完整开发语句补充诊断验收.md",
+      "sha256": "54ed60ffedaf81e4a94c131833b9f24d09b15257a482c8c910ad3a66148c3d33"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "deca4a1ef24e8ce8ec281e008c559017c328cd5923c318a43df766b7b547a99c"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/power_asr_helper.json",
+      "snapshot": "02_power_asr_helper.json",
+      "sha256": "d87d2618b591fa7040c02781ffee30c3d09e2eb1d502606d891e806e66c7f061"
+    },
+    {
+      "source": "scripts/g32_asr_finish.py",
+      "snapshot": "03_g32_asr_finish.py",
+      "sha256": "cd9d8e96c646d9070bc4577ae06ee649b5d7dedaa7386405e4cb891f0360bba5"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "created_utc": "2026-11-12T03:23:13.987664+00:00",
+  "model": {
+    "system_id": "mcnet",
+    "kind": "mcnet",
+    "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+    "adapter_sha256": null,
+    "adapter_path": null,
+    "registry_source": null,
+    "registry_sha256": null,
+    "adapter_parameters": 0,
+    "base_parameters": 3328706,
+    "device": "cpu",
+    "dtype": "float32",
+    "load_seconds_in_shared_process": 16.993839310999988,
+    "ref_channel_zero_based": 4,
+    "streaming": false,
+    "resampling": false,
+    "per_utterance_normalization": false,
+    "chunking": false,
+    "lora_merge": false
+  },
+  "input": {
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g5_v1/confirmation/noisy/g5_confirmation_0000_6345-93302-0006.wav",
+    "sha256": "9f0314f5f1d9c88e9ee287ab37f8cf374ea999c685a50bed8307cf99251ba164",
+    "channels": 6,
+    "frames": 49168,
+    "sample_rate": 16000,
+    "duration_seconds": 3.073
+  },
+  "output": {
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g6_local_runtime_v1/prototype/mcnet_cpu.wav",
+    "sha256": "fde6a4d7a2da3e9accfe479f2607e89896a48f59880487820a97894a54982b5f",
+    "channels": 1,
+    "frames": 49168,
+    "sample_rate": 16000,
+    "subtype": "FLOAT",
+    "abs_peak": 0.28472232818603516,
+    "samples_above_one": 0
+  },
+  "array_to_array_seconds_including_transfers": 3.7641844510000055,
+  "inference_rtf_excluding_load_and_file_io": 1.2249217217702588,
+  "quality_metrics_computed": false,
+  "ASR_run": false,
+  "limitations": "Offline model,<=4s interface, nominal microphone ordering, no quality/generalization guarantee. Local research use; not public redistribution."
+}

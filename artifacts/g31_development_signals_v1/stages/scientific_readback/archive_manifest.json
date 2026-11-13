@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-13T00:53:52.116926+00:00",
+  "files": [
+    {
+      "source": "docs/G31_科学读回与完整开发语句补充诊断决策.md",
+      "snapshot": "00_G31_科学读回与完整开发语句补充诊断决策.md",
+      "sha256": "3d3582ddc3bbfbcf2cf1d107e5cb2f5a01f290d97e68016128f4f980abcec7cb"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/plotted_primary_deltas.json",
+      "snapshot": "01_plotted_primary_deltas.json",
+      "sha256": "bfb4670e63ac09d8519d8233f84eba80512dd2ab59d37b8e60b3743903436e4f"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/primary_gate_deltas.png",
+      "snapshot": "02_primary_gate_deltas.png",
+      "sha256": "3d5acae66a15fd790642c760c9c0af9218fa7a98946be5daf16e95a023fae325"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/primary_gate_deltas.pdf",
+      "snapshot": "03_primary_gate_deltas.pdf",
+      "sha256": "352ad8394823f8cfbd4e320c65ec8d4d7557ff35f6915247f727a9276203cda7"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/next_complete_development_sources.json",
+      "snapshot": "04_next_complete_development_sources.json",
+      "sha256": "5a4f7465ac367b96e91c80e94c630014f6058f4af74ed30048c3f963b85ea906"
+    },
+    {
+      "source": "scripts/g31_scientific.py",
+      "snapshot": "05_g31_scientific.py",
+      "sha256": "d6a092a1b3ea98410198a31e2a8a7d71ac631bef75611a4b4a4f9822ee63aac6"
+    }
+  ]
+}

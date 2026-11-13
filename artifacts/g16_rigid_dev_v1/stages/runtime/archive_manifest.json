@@ -1,0 +1,45 @@
+{
+  "saved_utc": "2026-11-12T09:30:30.438973+00:00",
+  "files": [
+    {
+      "source": "docs/G16A_正确训练权重注册与推理兼容验证.md",
+      "snapshot": "00_G16A_正确训练权重注册与推理兼容验证.md",
+      "sha256": "a66b4d0f456d4eeb410612a0e467a73ff375168c38b54cd2b6f056029b8d3ee2"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/RUNTIME_QA.json",
+      "snapshot": "01_RUNTIME_QA.json",
+      "sha256": "0fd4623361651cb9265f8f97007f6f973d64d68f609a478b8650f2d96dedd575"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/runtime_registry_only.diff",
+      "snapshot": "02_runtime_registry_only.diff",
+      "sha256": "5319400bce5d1ff0ba79aab39c21dbf2c41034a2467199ef003fe8e63bf46a34"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/full98_runtime_tests.log",
+      "snapshot": "03_full98_runtime_tests.log",
+      "sha256": "dd84790d5a47950011f37a71ac451b61bc0a2145c3b46d5a507c0b33e7105d57"
+    },
+    {
+      "source": "artifacts/g16_runtime_revision_v1/runtime_before.py",
+      "snapshot": "04_runtime_before.py",
+      "sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "05_runtime.py",
+      "sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0"
+    },
+    {
+      "source": "scripts/g16_preflight.py",
+      "snapshot": "06_g16_preflight.py",
+      "sha256": "10b7f5c00a3a9825a851b2030e11a8d9893187f4b65d4e444a81d8d318b034b2"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/frozen_plan.json",
+      "snapshot": "07_frozen_plan.json",
+      "sha256": "4601b26b10c04fe1f1be13b29f89ac7af8ed6972ae3df0a40946032250cd4751"
+    }
+  ]
+}

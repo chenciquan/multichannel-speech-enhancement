@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-13T01:18:01.963471+00:00",
+  "files": [
+    {
+      "source": "docs/G32_完整开发语句信号与双识别器综合报告.md",
+      "snapshot": "00_G32_完整开发语句信号与双识别器综合报告.md",
+      "sha256": "69d36b0ab7018c95153f0b61aadd0a9b563669daaaa9055f4412923861051340"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/ASR_COMPLETE.json",
+      "snapshot": "01_ASR_COMPLETE.json",
+      "sha256": "770322c7b1cbb5b232884a9dd1ecefc345a07518500ec017fc22080dc5679d41"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "d65b3cbc1b98f2bba05f0ecc992ea53eac5694630816daf7364d50c9926b5fb4"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/raw_level_changes.json",
+      "snapshot": "03_raw_level_changes.json",
+      "sha256": "059e0c5f572a7e3d60d642203f913ee024356da0a466cf6c898880323f310bc1"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/input_audit.json",
+      "snapshot": "04_input_audit.json",
+      "sha256": "5ffcdc769e37a62f11032d3a066cbba060d5de770382011349f273d162b0c1fe"
+    },
+    {
+      "source": "scripts/g32_asr_finish.py",
+      "snapshot": "05_g32_asr_finish.py",
+      "sha256": "cd9d8e96c646d9070bc4577ae06ee649b5d7dedaa7386405e4cb891f0360bba5"
+    }
+  ]
+}

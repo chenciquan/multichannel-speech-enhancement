@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T09:08:23.582692+00:00",
+  "training_records": 2048,
+  "all_legacy_training_inputs_reconstructed_exact": true,
+  "all_reference_mic_training_samples_exact": true,
+  "all_training_targets_and_clean_arrays_byte_identical": true,
+  "training_input_peak": 1.1291691064834595,
+  "training_records_with_abs_over1": 9,
+  "training_storage": "float32NPY,no clipping",
+  "training_unique_sources": 212,
+  "training_speakers": 4,
+  "validation_sources": 6,
+  "validation_speakers": 2,
+  "all54_old_validation_inputs_replayed_exact": true,
+  "validation_new_corrected_cases": 54,
+  "train_validation_sources_disjoint": true,
+  "elapsed_seconds": 102.749275539
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "checks": {
+    "G8_audit_ok": true,
+    "full70_tests_passed": true,
+    "temporary_awake_state_released": true,
+    "all_prior_G7_G8_snapshots_match": true
+  },
+  "snapshot_files_checked": 36,
+  "completed_utc": "2026-11-12T04:19:11.577735+00:00"
+}

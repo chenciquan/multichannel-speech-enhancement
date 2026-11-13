@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-11-12T20:18:14.641371+00:00",
+  "max_seconds": 1800,
+  "manifest_sha256": "f76b42ac3fcd83edf3bec1aebc6c66659ca00468c1faacb369c11696ef3e3694",
+  "hashes": {
+    "scripts/g25_asr.py": "086eeafcc4b790befcd6846827d15868a8fe1a9ba6c1f892141eb445e55adc7c",
+    "scripts/g25_finish.py": "e334925c34613abd9252d29ad363395f155924941919eb3fa035bddfad9ece36",
+    "scripts/g25_accept.py": "c02bdfa903ec0754310f5cb83d23e5ffd79552b5664b61ed0c27c5489806fb95",
+    "scripts/g25_prepare.py": "d6c7d10f7b8ef99916120d5a3ed639060b4b7205d98ce4064892d4bc5c7f5afd",
+    "src/mcse/asr_level.py": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+  },
+  "parent": {
+    "Whisper": {
+      "provenance_sha256": "62da11cdf3fe7f2f9edab004632ebbbf1e4ad4f1dd005189105ee294371a0574",
+      "observations_sha256": "53493941847027847c4619b05cf824e5ec32c895ca7f53ed37532974d0c0985f"
+    },
+    "CTC": {
+      "provenance_sha256": "45e3a7994a84de6746466e248efec2eb4a42acc5f52cc1db5b155ebd307681a4",
+      "observations_sha256": "8c0bf3069ea4a48953c158ec643a0785619db4fcb037362779a55337b073ae80"
+    }
+  }
+}

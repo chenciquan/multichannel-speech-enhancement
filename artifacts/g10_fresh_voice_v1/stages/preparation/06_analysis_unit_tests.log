@@ -1,0 +1,7 @@
+test_four_speaker_contract (test_g10_analysis.SpeakerClusterEffectTests.test_four_speaker_contract) ... ok
+test_micro_WER_speaker_effect_and_reproducible_interval (test_g10_analysis.SpeakerClusterEffectTests.test_micro_WER_speaker_effect_and_reproducible_interval) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.008s
+
+OK

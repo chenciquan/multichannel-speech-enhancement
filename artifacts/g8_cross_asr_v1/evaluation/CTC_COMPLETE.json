@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-11-12T04:17:19.326629+00:00",
+  "records": 12600,
+  "unique_paths": 13500,
+  "unique_decodes": 12103,
+  "elapsed_seconds": 314.66884974699997,
+  "all_file_hashes_verified": true,
+  "max_cuda_allocated_bytes": 444660224,
+  "max_cuda_reserved_bytes": 541065216
+}

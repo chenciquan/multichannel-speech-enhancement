@@ -1,0 +1,108 @@
+{
+  "order": {
+    "checkpoint": [
+      "freq",
+      "narr+X",
+      "sub3+XrMag",
+      "full4freq+XrMag"
+    ],
+    "constructed": [
+      "freq",
+      "narr+X",
+      "sub3+XrMag",
+      "full4freq+XrMag"
+    ],
+    "checkpoint_type": "list",
+    "constructed_type": "list",
+    "python_equal": true,
+    "equal": true
+  },
+  "sub_freqs": {
+    "checkpoint": [
+      3,
+      2
+    ],
+    "constructed": [
+      3,
+      2
+    ],
+    "checkpoint_type": "tuple",
+    "constructed_type": "list",
+    "python_equal": false,
+    "equal": true
+  },
+  "look_past_and_ahead": {
+    "checkpoint": [
+      5,
+      5
+    ],
+    "constructed": [
+      5,
+      5
+    ],
+    "checkpoint_type": "tuple",
+    "constructed_type": "list",
+    "python_equal": false,
+    "equal": true
+  },
+  "learning_rate": {
+    "checkpoint": 0.001,
+    "constructed": 0.001,
+    "checkpoint_type": "float",
+    "constructed_type": "float",
+    "python_equal": true,
+    "equal": true
+  },
+  "optimizer_kwargs": {
+    "checkpoint": {},
+    "constructed": {},
+    "checkpoint_type": "dict",
+    "constructed_type": "dict",
+    "python_equal": true,
+    "equal": true
+  },
+  "lr_scheduler": {
+    "checkpoint": "ExponentialLR",
+    "constructed": "ExponentialLR",
+    "checkpoint_type": "str",
+    "constructed_type": "str",
+    "python_equal": true,
+    "equal": true
+  },
+  "lr_scheduler_kwargs": {
+    "checkpoint": {
+      "gamma": 0.992
+    },
+    "constructed": {
+      "gamma": 0.992
+    },
+    "checkpoint_type": "dict",
+    "constructed_type": "dict",
+    "python_equal": true,
+    "equal": true
+  },
+  "exp_name": {
+    "checkpoint": "exp",
+    "constructed": "exp",
+    "checkpoint_type": "str",
+    "constructed_type": "str",
+    "python_equal": true,
+    "equal": true
+  },
+  "use_dense_net": {
+    "checkpoint": false,
+    "constructed": false,
+    "checkpoint_type": "bool",
+    "constructed_type": "bool",
+    "python_equal": true,
+    "equal": true
+  },
+  "use_time_domain_loss": {
+    "checkpoint": false,
+    "constructed": false,
+    "checkpoint_type": "bool",
+    "constructed_type": "bool",
+    "python_equal": true,
+    "equal": true
+  }
+}

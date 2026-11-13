@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-12T09:48:52.500389+00:00",
+  "files": [
+    {
+      "source": "docs/G17A_新确认语音选择与排除记录.md",
+      "snapshot": "00_G17A_新确认语音选择与排除记录.md",
+      "sha256": "c9b26abe368dd1427cf8bc19207d9fb083c58e3df6f266573cf9bd194812ccf1"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "c265bc4e2d322a652dd82033fb90907949ebb352a3e6e276e17c2d4ace2ae8f9"
+    },
+    {
+      "source": "data/g17_v1/sources/status.json",
+      "snapshot": "02_status.json",
+      "sha256": "784e287e7a81193d151b7fd98a5d99a20390f991d2f60d1b133beff4e0949bb0"
+    },
+    {
+      "source": "data/g17_v1/sources/speech_manifest.jsonl",
+      "snapshot": "03_speech_manifest.jsonl",
+      "sha256": "67e2ce2e629503fed74980a4de4092912461f88c2ff34506bc297a4c0c3d52a0"
+    },
+    {
+      "source": "configs/g17_fresh_confirmation_plan.json",
+      "snapshot": "04_g17_fresh_confirmation_plan.json",
+      "sha256": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9"
+    },
+    {
+      "source": "artifacts/g17_source_endpoint_v1.json",
+      "snapshot": "05_g17_source_endpoint_v1.json",
+      "sha256": "17f342fa0d8e3e47a1b3700d5d26d97344d8dd092c857dfd3253850d70164a7a"
+    },
+    {
+      "source": "scripts/g17_fetch.py",
+      "snapshot": "06_g17_fetch.py",
+      "sha256": "22ac9936c4ecb32af01f6949b80a5857ed77a87826486ef139d97259cf6c6e44"
+    }
+  ]
+}

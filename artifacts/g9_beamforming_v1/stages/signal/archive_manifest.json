@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T04:31:43.392491+00:00",
+  "files": [
+    {
+      "source": "docs/G9B_波束形成信号与耗时报告.md",
+      "snapshot": "00_G9B_波束形成信号与耗时报告.md",
+      "sha256": "34945c78124ff2e00ee8e4c34057d7701fbe89eae7997621a9ff1bd00eab1c6c"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/signal_provenance.json",
+      "snapshot": "01_signal_provenance.json",
+      "sha256": "8381d36be43e9c6566fd98c712b38332fadd1210effb2055ecf1706fc8923aef"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "02_SIGNAL_COMPLETE.json",
+      "sha256": "3e8f283c980a8f941faad3a57ce783bc77fb70a9b48217a42b08fec9965a9ad2"
+    },
+    {
+      "source": "scripts/g9_signal.py",
+      "snapshot": "03_g9_signal.py",
+      "sha256": "fff13607872f80b77ee60865e3a9933c3e1e2869aa379ff9c43f0c4cb75fadcf"
+    },
+    {
+      "source": "scripts/g9_asr.py",
+      "snapshot": "04_g9_asr.py",
+      "sha256": "12979e3bf6755480707bf2048104f76c2d3a78ae5723e1e81ae6b8a429a1d22c"
+    },
+    {
+      "source": "scripts/g9_finish.py",
+      "snapshot": "05_g9_finish.py",
+      "sha256": "496c6bdb00f56421dbf7c0be5562750b7b10ca9af9258ad6359b042db3842317"
+    }
+  ]
+}

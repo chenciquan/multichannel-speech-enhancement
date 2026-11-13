@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "checks": {
+    "all12600_pairs_unique_and_paired": true,
+    "all_ctc_scores_recomputed_exactly": true,
+    "all_saved_audio_hashes_still_match": true,
+    "cache_unique_and_paths_resolved": true,
+    "asset_hash_unchanged": true,
+    "asset_report_archived_before_scoring": true,
+    "prior_signal_and_whisper_evidence_unchanged": true,
+    "all12_SE_adapters_unchanged": true,
+    "official_SE_source_and_weights_unchanged": true
+  },
+  "completed_utc": "2026-11-12T04:18:07.302209+00:00",
+  "scored_rows": 12600,
+  "unique_CTC_decodes": 12103,
+  "new_SE_training": false
+}

@@ -1,0 +1,97 @@
+{
+  "saved_at_utc": "2026-11-11T20:45:36.681143+00:00",
+  "files": [
+    {
+      "source": "docs/G5B_整场景旋转训练报告.md",
+      "snapshot": "00_G5B_整场景旋转训练报告.md",
+      "sha256": "a69132e50c1db8b8f00899ccdb9ec9d954996a9ec939e8fb171f78ec9fff8c2d"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+      "snapshot": "01_selected_checkpoints.json",
+      "sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30"
+    },
+    {
+      "source": "configs/g5_rotation_plan.json",
+      "snapshot": "02_g5_rotation_plan.json",
+      "sha256": "6e0eb40445039c307c4ecc6d1b51343c8fb9a7ee2266e7d330d05ada4947648d"
+    },
+    {
+      "source": "scripts/g5_train.py",
+      "snapshot": "03_g5_train.py",
+      "sha256": "e49c161a0be5da5459d37c17754271a1abce2c9de3abc524f4f496dd8296f02b"
+    },
+    {
+      "source": "scripts/g3_train.py",
+      "snapshot": "04_g3_train.py",
+      "sha256": "a57c58c489aa86af159dc7a916e87774a7e337c905f1e9951485e80ff7d3839e"
+    },
+    {
+      "source": "scripts/g5_queue.py",
+      "snapshot": "05_g5_queue.py",
+      "sha256": "d59321361c1ffa145d31dc816a58ec130196d8865591da83f041a869818a19ab"
+    }
+  ],
+  "checkpoint_hashes": [
+    {
+      "system": "fixed_without_clean_identity_s20261112",
+      "path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "checkpoint_sha256": "117cb69f05daf10e437db1db6022dd64f97f356ad28fe41c05d5960d3dfe7881"
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261112",
+      "path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "checkpoint_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522"
+    },
+    {
+      "system": "fixed_complete_s20261112",
+      "path": "artifacts/g5_rotation_v1/fixed/train/complete_s20261112/adapter_03000.pt",
+      "checkpoint_sha256": "a26504f8c54be7d3890fa388faef56a9c87aed7b00ef1054550587b1764ab3da"
+    },
+    {
+      "system": "rotated_complete_s20261112",
+      "path": "artifacts/g5_rotation_v1/rotated/train/complete_s20261112/adapter_03000.pt",
+      "checkpoint_sha256": "72128df5b3dad54a78076fbf54ea2f8be48f291fa5adb2500d5a02d402b6dde4"
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261113",
+      "path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261113/adapter_03000.pt",
+      "checkpoint_sha256": "780c6ee32cda78d0eb0d994a1302ae1e3572838af1dfd6cce2789b9f245e2fd7"
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261113",
+      "path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261113/adapter_03000.pt",
+      "checkpoint_sha256": "a9af5016b0253c1348cb71814c0edcba2c86d1d6f7f3ba5bfcc5f0ea9b695f12"
+    },
+    {
+      "system": "fixed_complete_s20261113",
+      "path": "artifacts/g5_rotation_v1/fixed/train/complete_s20261113/adapter_03000.pt",
+      "checkpoint_sha256": "2aac6ce597cf5ccd2700ee02225adc510bb100e9090834002eb0a49fa108eb7d"
+    },
+    {
+      "system": "rotated_complete_s20261113",
+      "path": "artifacts/g5_rotation_v1/rotated/train/complete_s20261113/adapter_03000.pt",
+      "checkpoint_sha256": "1d6a6d27272d4abecd9aa1c937076d0c2aa23569b981cec81ecb827f63c24140"
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261114",
+      "path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261114/adapter_03000.pt",
+      "checkpoint_sha256": "77e525e9aa58d5604e69948c85bceb2be56b87b739a48efcfb2c18167813022d"
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261114",
+      "path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261114/adapter_03000.pt",
+      "checkpoint_sha256": "558e2812fc31833ee87e6e9dbd3f5963ce62a83982ffbef3f8d6af7983ac2f4c"
+    },
+    {
+      "system": "fixed_complete_s20261114",
+      "path": "artifacts/g5_rotation_v1/fixed/train/complete_s20261114/adapter_03000.pt",
+      "checkpoint_sha256": "c41c48485ef4ce80ee25da63269cf10848cc146b16fc0690353f5e5396367c40"
+    },
+    {
+      "system": "rotated_complete_s20261114",
+      "path": "artifacts/g5_rotation_v1/rotated/train/complete_s20261114/adapter_03000.pt",
+      "checkpoint_sha256": "def6cd0a4a6a0a21fdc63885ffbb11e6254a697c3032721789c2811cfd7946eb"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T10:12:31.589061+00:00",
+  "RIR_version": "0.3.0",
+  "all_existing_generator_module_hashes_match": true,
+  "new_installations": false,
+  "RIR_probes": [
+    {
+      "requested_RT60": 0,
+      "measured_T20_extrapolated_RT60": null,
+      "tail_fraction_after20ms": 0.0,
+      "expected_direct_samples": [
+        70.71584366613071,
+        69.4242289195583,
+        67.5350299541741,
+        71.67673259537965,
+        69.97084548104955,
+        68.54052612176328
+      ],
+      "largest_peak_samples": [
+        71,
+        69,
+        68,
+        72,
+        70,
+        69
+      ],
+      "deterministic_repeat_exact": true
+    },
+    {
+      "requested_RT60": 0.15,
+      "measured_T20_extrapolated_RT60": 0.10422444916800234,
+      "tail_fraction_after20ms": 0.03142685067323014,
+      "expected_direct_samples": [
+        70.71584366613071,
+        69.4242289195583,
+        67.5350299541741,
+        71.67673259537965,
+        69.97084548104955,
+        68.54052612176328
+      ],
+      "largest_peak_samples": [
+        71,
+        69,
+        68,
+        72,
+        70,
+        69
+      ],
+      "deterministic_repeat_exact": true
+    },
+    {
+      "requested_RT60": 0.35,
+      "measured_T20_extrapolated_RT60": 0.4576677065051179,
+      "tail_fraction_after20ms": 0.49405011484202666,
+      "expected_direct_samples": [
+        70.71584366613071,
+        69.4242289195583,
+        67.5350299541741,
+        71.67673259537965,
+        69.97084548104955,
+        68.54052612176328
+      ],
+      "largest_peak_samples": [
+        71,
+        69,
+        68,
+        72,
+        70,
+        69
+      ],
+      "deterministic_repeat_exact": true
+    }
+  ],
+  "capacity_probes": [
+    {
+      "system": "mcnet",
+      "old_G17_max_abs": 0.0,
+      "maximum_full_convolution_frames": 63759,
+      "synthetic_capacity_seconds": 0.1141346010000035,
+      "peak_allocated_bytes": 1937986048,
+      "peak_reserved_bytes": 4682940416,
+      "metadata": {
+        "system_id": "mcnet",
+        "kind": "mcnet",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": null,
+        "adapter_path": null,
+        "registry_source": null,
+        "registry_sha256": null,
+        "adapter_parameters": 0,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 14.555201912000001,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "g15/rigid_without_clean_identity_s20261112",
+      "old_G17_max_abs": 0.0,
+      "maximum_full_convolution_frames": 63759,
+      "synthetic_capacity_seconds": 0.13466986800000313,
+      "peak_allocated_bytes": 1937263104,
+      "peak_reserved_bytes": 4617928704,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "8ec1d74ade15fe02285386fa638c6272491b506a338f575464772c538aba82dc",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.21317409899999973,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    }
+  ]
+}

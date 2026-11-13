@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:18:14.595705+00:00",
+  "canonical_inputs": 480,
+  "binary_variant_inputs_checked": 1920,
+  "all_standardized_bytes_equal": true,
+  "normalization_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851",
+  "manifest_sha256": "f76b42ac3fcd83edf3bec1aebc6c66659ca00468c1faacb369c11696ef3e3694"
+}

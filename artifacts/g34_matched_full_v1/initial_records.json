@@ -1,0 +1,80 @@
+[
+  {
+    "index": 0,
+    "prediction": {
+      "max_abs": 5.57301200387883e-06,
+      "within_tolerance": false,
+      "failing_elements": 2
+    },
+    "waveform": {
+      "max_abs": 2.682209014892578e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  },
+  {
+    "index": 3,
+    "prediction": {
+      "max_abs": 4.774328317580512e-06,
+      "within_tolerance": true,
+      "failing_elements": 0
+    },
+    "waveform": {
+      "max_abs": 2.980232238769531e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  },
+  {
+    "index": 10,
+    "prediction": {
+      "max_abs": 6.2091908148431685e-06,
+      "within_tolerance": false,
+      "failing_elements": 1
+    },
+    "waveform": {
+      "max_abs": 5.066394805908203e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  },
+  {
+    "index": 5,
+    "prediction": {
+      "max_abs": 4.649162292480469e-06,
+      "within_tolerance": true,
+      "failing_elements": 0
+    },
+    "waveform": {
+      "max_abs": 4.023313522338867e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  },
+  {
+    "index": 7,
+    "prediction": {
+      "max_abs": 3.851770088658668e-06,
+      "within_tolerance": false,
+      "failing_elements": 2
+    },
+    "waveform": {
+      "max_abs": 1.30385160446167e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  },
+  {
+    "index": 2,
+    "prediction": {
+      "max_abs": 5.017510829929961e-06,
+      "within_tolerance": true,
+      "failing_elements": 0
+    },
+    "waveform": {
+      "max_abs": 4.4330954551696777e-07,
+      "within_tolerance": true,
+      "failing_elements": 0
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-11-12T19:48:27.001464+00:00",
+  "max_seconds": 1800,
+  "manifest_sha256": "db142a1cb671edddbeb87a9f521428bb6c73d8c312615777720eb152ec29c31b",
+  "hashes": {
+    "scripts/g23_asr.py": "bf71b3257a0a183315d286a05798e6bea0c658e4f3c28814294c30814ef4b1a2",
+    "scripts/g23_finish.py": "8798cd4f4157f1c29d0229194db135e11b0195afd544df02d775d0a2ea1a9371",
+    "scripts/g23_accept.py": "42255bd2b94b8a745f0f7ceee11c6fab6b76c50b8e4ee40cd75ebc6b67bf4d77",
+    "scripts/g23_prepare.py": "ef523fb6e04b93fc2d6410e21e8210c11b415817e06c9f8ec92704b511f89f17",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+  },
+  "parent": {
+    "Whisper": {
+      "provenance_sha256": "4992aed55b5466c698970e34c6bda29646d5265b3967955bae4aab0759f8ea6b",
+      "cache_sha256": "65bc61d124bdcc19da6ddc7664d36c716729336f44ab691059760b7395dcbbe1",
+      "score_sha256": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f"
+    },
+    "CTC": {
+      "provenance_sha256": "56df391b53b1df16d47e0f3730c612b58c19b6ccbcbbda2d93e7cc65fa846691",
+      "cache_sha256": "61045c52959af1593ad0bb5ab839e3e72ef6d358861659a7a1393acdb2ed4783",
+      "score_sha256": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89"
+    }
+  }
+}

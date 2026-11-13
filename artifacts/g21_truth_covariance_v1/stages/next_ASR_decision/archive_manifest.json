@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T18:15:47.571911+00:00",
+  "files": [
+    {
+      "source": "docs/G21_信号读回与识别补查决策.md",
+      "snapshot": "00_G21_信号读回与识别补查决策.md",
+      "sha256": "30c7f92ec8c8edd6816bb0ff427cd54bff2adcf32058e70948661a5fd6971c5c"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/SIGNAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_SIGNAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "0fd862c6492b3dbc94dd94c2d0a0a5e8eec839962267d4ba84ae240b21748cbb"
+    }
+  ]
+}

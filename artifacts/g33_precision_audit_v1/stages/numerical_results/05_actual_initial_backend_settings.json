@@ -1,0 +1,13 @@
+{
+  "cudnn_enabled": true,
+  "cudnn_tf32": true,
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "matmul_tf32": false,
+  "global_deterministic": false,
+  "CUBLAS_WORKSPACE_CONFIG": null,
+  "NVIDIA_TF32_OVERRIDE": null,
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "cudnn_version": 90100
+}

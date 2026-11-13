@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T19:49:22.617614+00:00",
+  "rows": 1440,
+  "zero_db_cache_hits": 480,
+  "new_decodes": 960,
+  "scores_sha256": "4545a3096947a0f22b3b5cf6b631192377f067ba23603e88a958859fcb20d86c",
+  "cache_sha256": "bee329d4a3d4c08dc0b0f0517a2d8802e857ef285726f29b7c75bb811df11e05"
+}

@@ -1,0 +1,1122 @@
+[
+  {
+    "sample_id": "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "source_id": "1988-147956-0018",
+    "reference_text": "I NOTICED HOW WHITE AND WELL SHAPED HIS OWN HANDS WERE",
+    "noisy_hypothesis": " I noticed how wide and while shaped to don't hands were.",
+    "enhanced_hypothesis": " I noticed how wide and while shaped to don't hand were.",
+    "delta_wer": 0.09090909090909088,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "NOTICED",
+        "hypothesis_word": "NOTICED"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "HOW",
+        "hypothesis_word": "HOW"
+      },
+      {
+        "op": "S",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "WHITE",
+        "hypothesis_word": "WIDE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "AND",
+        "hypothesis_word": "AND"
+      },
+      {
+        "op": "S",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "WELL",
+        "hypothesis_word": "WHILE"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "SHAPED",
+        "hypothesis_word": "SHAPED"
+      },
+      {
+        "op": "S",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "HIS",
+        "hypothesis_word": "TO"
+      },
+      {
+        "op": "S",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "OWN",
+        "hypothesis_word": "DON'T"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "HANDS",
+        "hypothesis_word": "HANDS"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "WERE",
+        "hypothesis_word": "WERE"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "NOTICED",
+        "hypothesis_word": "NOTICED"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "HOW",
+        "hypothesis_word": "HOW"
+      },
+      {
+        "op": "S",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "WHITE",
+        "hypothesis_word": "WIDE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "AND",
+        "hypothesis_word": "AND"
+      },
+      {
+        "op": "S",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "WELL",
+        "hypothesis_word": "WHILE"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "SHAPED",
+        "hypothesis_word": "SHAPED"
+      },
+      {
+        "op": "S",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "HIS",
+        "hypothesis_word": "TO"
+      },
+      {
+        "op": "S",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "OWN",
+        "hypothesis_word": "DON'T"
+      },
+      {
+        "op": "S",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "HANDS",
+        "hypothesis_word": "HAND"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "WERE",
+        "hypothesis_word": "WERE"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "source_id": "2035-147960-0006",
+    "reference_text": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED",
+    "noisy_hypothesis": " I know I'm just awful Jim I was so scared.",
+    "enhanced_hypothesis": " I know I'm awful Jim I was so scared.",
+    "delta_wer": 0.09090909090909088,
+    "delta_asr_deletions": 1,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "KNOW",
+        "hypothesis_word": "KNOW"
+      },
+      {
+        "op": "D",
+        "reference_index": 2,
+        "hypothesis_index": null,
+        "reference_word": "I",
+        "hypothesis_word": null
+      },
+      {
+        "op": "S",
+        "reference_index": 3,
+        "hypothesis_index": 2,
+        "reference_word": "AM",
+        "hypothesis_word": "I'M"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 3,
+        "reference_word": "JUST",
+        "hypothesis_word": "JUST"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 4,
+        "reference_word": "AWFUL",
+        "hypothesis_word": "AWFUL"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 5,
+        "reference_word": "JIM",
+        "hypothesis_word": "JIM"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 6,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 7,
+        "reference_word": "WAS",
+        "hypothesis_word": "WAS"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 8,
+        "reference_word": "SO",
+        "hypothesis_word": "SO"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 9,
+        "reference_word": "SCARED",
+        "hypothesis_word": "SCARED"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "KNOW",
+        "hypothesis_word": "KNOW"
+      },
+      {
+        "op": "D",
+        "reference_index": 2,
+        "hypothesis_index": null,
+        "reference_word": "I",
+        "hypothesis_word": null
+      },
+      {
+        "op": "D",
+        "reference_index": 3,
+        "hypothesis_index": null,
+        "reference_word": "AM",
+        "hypothesis_word": null
+      },
+      {
+        "op": "S",
+        "reference_index": 4,
+        "hypothesis_index": 2,
+        "reference_word": "JUST",
+        "hypothesis_word": "I'M"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 3,
+        "reference_word": "AWFUL",
+        "hypothesis_word": "AWFUL"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 4,
+        "reference_word": "JIM",
+        "hypothesis_word": "JIM"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 5,
+        "reference_word": "I",
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 6,
+        "reference_word": "WAS",
+        "hypothesis_word": "WAS"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 7,
+        "reference_word": "SO",
+        "hypothesis_word": "SO"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 8,
+        "reference_word": "SCARED",
+        "hypothesis_word": "SCARED"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "source_id": "2035-147960-0013",
+    "reference_text": "OTTO FUCHS WAS THE FIRST ONE WE MET",
+    "noisy_hypothesis": " Auto folks was the first one we met.",
+    "enhanced_hypothesis": " I don't focus with the first one we met.",
+    "delta_wer": 0.25,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "S",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "OTTO",
+        "hypothesis_word": "AUTO"
+      },
+      {
+        "op": "S",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "FUCHS",
+        "hypothesis_word": "FOLKS"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "WAS",
+        "hypothesis_word": "WAS"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "FIRST",
+        "hypothesis_word": "FIRST"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "ONE",
+        "hypothesis_word": "ONE"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "WE",
+        "hypothesis_word": "WE"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "MET",
+        "hypothesis_word": "MET"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "I",
+        "reference_index": null,
+        "hypothesis_index": 0,
+        "reference_word": null,
+        "hypothesis_word": "I"
+      },
+      {
+        "op": "S",
+        "reference_index": 0,
+        "hypothesis_index": 1,
+        "reference_word": "OTTO",
+        "hypothesis_word": "DON'T"
+      },
+      {
+        "op": "S",
+        "reference_index": 1,
+        "hypothesis_index": 2,
+        "reference_word": "FUCHS",
+        "hypothesis_word": "FOCUS"
+      },
+      {
+        "op": "S",
+        "reference_index": 2,
+        "hypothesis_index": 3,
+        "reference_word": "WAS",
+        "hypothesis_word": "WITH"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 4,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 5,
+        "reference_word": "FIRST",
+        "hypothesis_word": "FIRST"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 6,
+        "reference_word": "ONE",
+        "hypothesis_word": "ONE"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 7,
+        "reference_word": "WE",
+        "hypothesis_word": "WE"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 8,
+        "reference_word": "MET",
+        "hypothesis_word": "MET"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "2086-149220-0032__DWASHING_ch01__snr0",
+    "source_id": "2086-149220-0032",
+    "reference_text": "AND YET IF YOU COULD ONLY SEE THE BENIGN SMILE OF THE ORIGINAL",
+    "noisy_hypothesis": " And yet, if you could only see the benign smile of the original.",
+    "enhanced_hypothesis": " And yet, if you could only see the benign smile of the originals.",
+    "delta_wer": 0.07692307692307693,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "AND",
+        "hypothesis_word": "AND"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "YET",
+        "hypothesis_word": "YET"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "IF",
+        "hypothesis_word": "IF"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "YOU",
+        "hypothesis_word": "YOU"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "COULD",
+        "hypothesis_word": "COULD"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "ONLY",
+        "hypothesis_word": "ONLY"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "SEE",
+        "hypothesis_word": "SEE"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "BENIGN",
+        "hypothesis_word": "BENIGN"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "SMILE",
+        "hypothesis_word": "SMILE"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "OF",
+        "hypothesis_word": "OF"
+      },
+      {
+        "op": "M",
+        "reference_index": 11,
+        "hypothesis_index": 11,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 12,
+        "hypothesis_index": 12,
+        "reference_word": "ORIGINAL",
+        "hypothesis_word": "ORIGINAL"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "AND",
+        "hypothesis_word": "AND"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "YET",
+        "hypothesis_word": "YET"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "IF",
+        "hypothesis_word": "IF"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "YOU",
+        "hypothesis_word": "YOU"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "COULD",
+        "hypothesis_word": "COULD"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "ONLY",
+        "hypothesis_word": "ONLY"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "SEE",
+        "hypothesis_word": "SEE"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "BENIGN",
+        "hypothesis_word": "BENIGN"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "SMILE",
+        "hypothesis_word": "SMILE"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "OF",
+        "hypothesis_word": "OF"
+      },
+      {
+        "op": "M",
+        "reference_index": 11,
+        "hypothesis_index": 11,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "S",
+        "reference_index": 12,
+        "hypothesis_index": 12,
+        "reference_word": "ORIGINAL",
+        "hypothesis_word": "ORIGINALS"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "source_id": "2277-149896-0033",
+    "reference_text": "THEN HE RANG THE BELL NO ANSWER",
+    "noisy_hypothesis": " Then he rang the bell. No answer.",
+    "enhanced_hypothesis": " Then he rang the bell. No answers.",
+    "delta_wer": 0.14285714285714285,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "THEN",
+        "hypothesis_word": "THEN"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "HE",
+        "hypothesis_word": "HE"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "RANG",
+        "hypothesis_word": "RANG"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "BELL",
+        "hypothesis_word": "BELL"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "NO",
+        "hypothesis_word": "NO"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "ANSWER",
+        "hypothesis_word": "ANSWER"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "THEN",
+        "hypothesis_word": "THEN"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "HE",
+        "hypothesis_word": "HE"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "RANG",
+        "hypothesis_word": "RANG"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "BELL",
+        "hypothesis_word": "BELL"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "NO",
+        "hypothesis_word": "NO"
+      },
+      {
+        "op": "S",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "ANSWER",
+        "hypothesis_word": "ANSWERS"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "777-126732-0074__DWASHING_ch01__snr5",
+    "source_id": "777-126732-0074",
+    "reference_text": "HE KNOWS NO BETTER HE GETS INTO HIS PASSIONS OVER IT",
+    "noisy_hypothesis": " He knows no better. He gets into his passions over it.",
+    "enhanced_hypothesis": " He knows no better. It gets into his passions over it.",
+    "delta_wer": 0.09090909090909091,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "HE",
+        "hypothesis_word": "HE"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "KNOWS",
+        "hypothesis_word": "KNOWS"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "NO",
+        "hypothesis_word": "NO"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "BETTER",
+        "hypothesis_word": "BETTER"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "HE",
+        "hypothesis_word": "HE"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "GETS",
+        "hypothesis_word": "GETS"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "INTO",
+        "hypothesis_word": "INTO"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "HIS",
+        "hypothesis_word": "HIS"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "PASSIONS",
+        "hypothesis_word": "PASSIONS"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "OVER",
+        "hypothesis_word": "OVER"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "IT",
+        "hypothesis_word": "IT"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "HE",
+        "hypothesis_word": "HE"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "KNOWS",
+        "hypothesis_word": "KNOWS"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "NO",
+        "hypothesis_word": "NO"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "BETTER",
+        "hypothesis_word": "BETTER"
+      },
+      {
+        "op": "S",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "HE",
+        "hypothesis_word": "IT"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "GETS",
+        "hypothesis_word": "GETS"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "INTO",
+        "hypothesis_word": "INTO"
+      },
+      {
+        "op": "M",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "HIS",
+        "hypothesis_word": "HIS"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "PASSIONS",
+        "hypothesis_word": "PASSIONS"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "OVER",
+        "hypothesis_word": "OVER"
+      },
+      {
+        "op": "M",
+        "reference_index": 10,
+        "hypothesis_index": 10,
+        "reference_word": "IT",
+        "hypothesis_word": "IT"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  },
+  {
+    "sample_id": "7976-110124-0021__DWASHING_ch01__snr5",
+    "source_id": "7976-110124-0021",
+    "reference_text": "PASS THE CHARM OUT TO ME THEN SAID THE ROBBER",
+    "noisy_hypothesis": " Pass the charm out to me then, so the robber.",
+    "enhanced_hypothesis": " Pass the charm out to me then, so the rubber.",
+    "delta_wer": 0.1,
+    "delta_asr_deletions": 0,
+    "noisy_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "PASS",
+        "hypothesis_word": "PASS"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "CHARM",
+        "hypothesis_word": "CHARM"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "OUT",
+        "hypothesis_word": "OUT"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "TO",
+        "hypothesis_word": "TO"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "ME",
+        "hypothesis_word": "ME"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "THEN",
+        "hypothesis_word": "THEN"
+      },
+      {
+        "op": "S",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "SAID",
+        "hypothesis_word": "SO"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "ROBBER",
+        "hypothesis_word": "ROBBER"
+      }
+    ],
+    "enhanced_edit_alignment": [
+      {
+        "op": "M",
+        "reference_index": 0,
+        "hypothesis_index": 0,
+        "reference_word": "PASS",
+        "hypothesis_word": "PASS"
+      },
+      {
+        "op": "M",
+        "reference_index": 1,
+        "hypothesis_index": 1,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "M",
+        "reference_index": 2,
+        "hypothesis_index": 2,
+        "reference_word": "CHARM",
+        "hypothesis_word": "CHARM"
+      },
+      {
+        "op": "M",
+        "reference_index": 3,
+        "hypothesis_index": 3,
+        "reference_word": "OUT",
+        "hypothesis_word": "OUT"
+      },
+      {
+        "op": "M",
+        "reference_index": 4,
+        "hypothesis_index": 4,
+        "reference_word": "TO",
+        "hypothesis_word": "TO"
+      },
+      {
+        "op": "M",
+        "reference_index": 5,
+        "hypothesis_index": 5,
+        "reference_word": "ME",
+        "hypothesis_word": "ME"
+      },
+      {
+        "op": "M",
+        "reference_index": 6,
+        "hypothesis_index": 6,
+        "reference_word": "THEN",
+        "hypothesis_word": "THEN"
+      },
+      {
+        "op": "S",
+        "reference_index": 7,
+        "hypothesis_index": 7,
+        "reference_word": "SAID",
+        "hypothesis_word": "SO"
+      },
+      {
+        "op": "M",
+        "reference_index": 8,
+        "hypothesis_index": 8,
+        "reference_word": "THE",
+        "hypothesis_word": "THE"
+      },
+      {
+        "op": "S",
+        "reference_index": 9,
+        "hypothesis_index": 9,
+        "reference_word": "ROBBER",
+        "hypothesis_word": "RUBBER"
+      }
+    ],
+    "user_listening_feedback": "no obvious regression reported",
+    "blinded_listener_test": false,
+    "formal_word_time_annotation_completed": false,
+    "confirmed_acoustic_deletion": null
+  }
+]

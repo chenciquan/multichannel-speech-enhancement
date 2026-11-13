@@ -1,0 +1,51 @@
+{
+  "question": "Effect of correcting test-scene rotation with all frozen legacy models; not a test of correctly retrained rotation augmentation",
+  "entry_gate": "G13 geometry audit and96tests accepted before data",
+  "geometry_protocols": [
+    "legacy_counterrotation",
+    "rigid_rotation"
+  ],
+  "source_selection": "Same8 complete G10 utterances preselected by duration/order for G12A before geometry finding; reused4speakers,not new independent confirmation",
+  "noise_ids": [
+    "OOFFICE",
+    "NPARK"
+  ],
+  "target_angles": [
+    -40,
+    20,
+    70
+  ],
+  "fields": [
+    "point_relative_minus80",
+    "point_relative_plus25",
+    "multi8"
+  ],
+  "SNR_db": 0,
+  "source_noise_intervals": "Exact G10 selected-case intervals and base noise directions; no new random or score-based selections",
+  "correct_rotation": "x=right,y=front; azimuth increases towards right. Apply rotate_azimuth(u,target-20) to noise and target alike; target rendered at direction(target,10). Retain each point relative offset and all target/noise dot products.",
+  "legacy_rotation": "Exact archived g5_prepare.rotate (opposite azimuth sign). Retain old registry names but describe rotated adapters as legacy counter-rotation training.",
+  "common_scale": "One scalar across both protocols and all3target angles per source/noise/field; min(old_G10_scale,new_joint_anticlip_scale). No gain increases. If changed,legacy inputs are newly generated and not silently equated with oldG10 outputs.",
+  "negative_controls": "Target20deg inputs exactly identical between protocols for every field. Clean inputs identical for all target/protocol pairs. All6 variants in each group share exact reference-mic input and speech reference samples.",
+  "expected_cases_per_system": 336,
+  "expected_noisy_cases": 288,
+  "expected_clean_cases": 48,
+  "expected_systems": 15,
+  "expected_signal_and_each_ASR_pairs": 5040,
+  "systems": "Same frozenG10 direct8+estimatedmaskMVDR7;all3legacy adapter seeds,no new training,tuning or model selection",
+  "metrics": "SI-SDR,PESQ,STOI plus fixed Whisper/CTC WER and per-example S/D/I. Frozen same backend settings and sample hash caches. New SE forwards for every recorded case; no changed geometry hidden by reused outputs.",
+  "analysis": "Protocol by noise/target,all3seeds,per speaker and separate point relative baseline labels/multi8;protocol-paired and direct/MVDR effects. Only4speaker clusters,bootstrap exploratory. For legacy rows report actual point offsets separately. No stable word deletion claim.",
+  "resource": "FP32,batch1,registeredruntime recreated and CUDAcache released per system;actual full-variable-length peak recorded. Existing venv only,no new downloads or dependencies,no drivers/CUDA changes.",
+  "max_data_seconds": 1200,
+  "max_signal_seconds": 5400,
+  "max_ASR_seconds": 5400,
+  "stage_gates": "Data report before direct outputs;direct report before MVDR;MVDR report before Whisper;Whisper report before CTC joint summary. Final readback and snapshot audit before further stage.",
+  "novelty_claim": false,
+  "frozen_utc": "2026-11-12T08:39:11.941307+00:00",
+  "previous_archive_sha256": "b2cf14f179e48f116747e8d2fdc833a937b3c10611ae99b24c2349c806a791a6",
+  "G10_manifest_sha256": "623849b19269963fef2dc9c2e6603a54cfffd72f7c893941f50f13f013c8bdd4",
+  "geometry_sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+  "geometry_code_sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832",
+  "legacy_rotation_source_sha256": "2a3cd60a8d10240881ce3e8cb5e5aace0b5c999daeb3396c5f5743c3a5acdda5",
+  "beamforming_sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+  "negative_control_output_max_abs": 1e-05
+}

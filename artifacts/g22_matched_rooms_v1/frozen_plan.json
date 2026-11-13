@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-11-12T18:25:02.535973+00:00",
+  "max_seconds": 1800,
+  "speakers": 4,
+  "utterances": 4,
+  "selection": "First listed source per G18 speaker, before new-room scores",
+  "reference_room_dimensions_m": [
+    6,
+    5,
+    3
+  ],
+  "new_room_dimensions_m": [
+    4,
+    3.5,
+    2.8
+  ],
+  "new_reference_position_m": [
+    2,
+    1.75,
+    1.4
+  ],
+  "source_distance_m": 1.5,
+  "RT_requests": [
+    0,
+    0.15,
+    0.35
+  ],
+  "target_angles": [
+    -40,
+    20,
+    70
+  ],
+  "RIR_samples": 7680,
+  "SNR_db": 0,
+  "no_new_training": true,
+  "cases_per_room": 252,
+  "cases_total": 504,
+  "noisy_cases_total": 432,
+  "clean_cases_total": 72,
+  "paired_level": "One anticlip scale per source/noise/field group over both rooms x all9 RT/angles",
+  "RT0_control_max_abs": 1.1920928955078125e-07,
+  "SNR_tolerance_db": 0.002,
+  "future_systems": "All31 blind registered direct/MVDR/MWF systems; truth-covariance two filters only on noisy432; expected16488 signals if full evaluation proceeds",
+  "scope": "New room dimensions with matched source/noise segments; existing speakers and recordings, not real-array evidence",
+  "hashes": {
+    "scripts/g22_prepare.py": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419",
+    "configs/g1_geometry.json": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+    "src/mcse/components.py": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/simulation.py": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0",
+    "src/mcse/spatial_noise.py": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b",
+    "data/g18_v1/manifest.jsonl": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc",
+    "artifacts/g18_room_stress_v1/selected_sources.json": "861f96a684e525e4eefd91cf088a8e85ee73ad4fc607769f2e962901065239c2",
+    "artifacts/g18_room_stress_v1/RIR_manifest.json": "d1f26fa98503ade62b9f28c87947e971e02ca33b0f2fa24bcdeec164e9cb243d",
+    "artifacts/g18_room_stress_v1/noise_sources.json": "3abca9a3e629a0d48083d26c540c0fccfbfc55576a605c6ffe29e22c5413f491",
+    "artifacts/g21_truth_covariance_v1/FINAL_ACCEPTANCE_AUDIT.json": "c9ce830d3caedcfadc7f17e2e015ce7c7091d3719d6a185fa6471a1ddc5f5bf4"
+  }
+}

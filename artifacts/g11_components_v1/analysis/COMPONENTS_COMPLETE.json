@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T07:50:56.567021+00:00",
+  "rows": 4032,
+  "seconds": 521.5463316089999,
+  "CUDA_initialized": false,
+  "verified_source_files": 9232,
+  "clean_field_cache": {
+    "hits": 3339,
+    "misses": 693,
+    "maxsize": 80,
+    "currsize": 80
+  }
+}

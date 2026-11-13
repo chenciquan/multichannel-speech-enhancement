@@ -1,0 +1,50 @@
+{
+  "saved_utc": "2026-11-12T08:33:13.184760+00:00",
+  "files": [
+    {
+      "source": "docs/G13_几何审计验收与后续决策.md",
+      "snapshot": "00_G13_几何审计验收与后续决策.md",
+      "sha256": "5311ded2acd55871d868a19bc52128c8cd71d9a13c51db00b0d0d79bf35befe3"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "a0534d15e080a7d2b81fec62fc9e01acf4906a2d3ef33082afdf1fb024ccc059"
+    },
+    {
+      "source": "artifacts/g13_geometry_audit_v1/full96_unit_tests.log",
+      "snapshot": "02_full96_unit_tests.log",
+      "sha256": "81e6072ca4b42cafda59d45a1e94aba11ca82a71984c692f37c016063084c258"
+    },
+    {
+      "source": "scripts/g13_accept.py",
+      "snapshot": "03_g13_accept.py",
+      "sha256": "f7689124db9c1be28b8a072164d07418f8f92135656e0574070558b38893c26b"
+    },
+    {
+      "source": "scripts/g5_prepare.py",
+      "snapshot": "04_g5_prepare.py",
+      "sha256": "2a3cd60a8d10240881ce3e8cb5e5aace0b5c999daeb3396c5f5743c3a5acdda5"
+    },
+    {
+      "source": "scripts/g7_build.py",
+      "snapshot": "05_g7_build.py",
+      "sha256": "11e60a0b54317b17eb0145e740fc143ccc432cc3fd24b9a839cdf7c7683962bb"
+    },
+    {
+      "source": "scripts/g10_build.py",
+      "snapshot": "06_g10_build.py",
+      "sha256": "0e41c9b314c7de6a1bd73011a1d136ec1f108f8ad035788b1a672e114f6a7724"
+    },
+    {
+      "source": "src/mcse/spatial_noise.py",
+      "snapshot": "07_spatial_noise.py",
+      "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+    },
+    {
+      "source": "src/mcse/simulation.py",
+      "snapshot": "08_simulation.py",
+      "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+    }
+  ]
+}

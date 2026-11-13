@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:05:21.409739+00:00",
+  "new_outputs": 864,
+  "records_each_ASR": 1728,
+  "RT0_pairs_each_regime": 144,
+  "checks": {
+    "Whisper": {
+      "raw": {
+        "rows": 864,
+        "references": 432,
+        "fresh_decodes": 720,
+        "reference_new": 0,
+        "score_sha256": "76f16339246e1757c592459e9bfebb9d4b0ffb9a669013ff3a41e3209734260a",
+        "cache_sha256": "119e329b3ed195f03010a044d19410bf578864432c92310b5a8eda73d4fcd8b2"
+      },
+      "level_control": {
+        "rows": 864,
+        "references": 432,
+        "fresh_decodes": 720,
+        "reference_new": 0,
+        "score_sha256": "3a15afd9fc0cf78a411e202980383d0682fdc5891470005ce2ce6cf15c87747e",
+        "cache_sha256": "00ec657621909e545ccac3845e8d9a7013ca0c134941d8efb7ed206bfdf0cbd0"
+      }
+    },
+    "CTC": {
+      "raw": {
+        "rows": 864,
+        "references": 432,
+        "fresh_decodes": 720,
+        "reference_new": 0,
+        "score_sha256": "1e53294aa25b13f5af21a992b0b0781e7b4d56b299a33facd25a7b55ee842271",
+        "cache_sha256": "d73aea0c49974f899275912d90e6d98e5326a1b42e0438617bcfe8a16ca21ce8"
+      },
+      "level_control": {
+        "rows": 864,
+        "references": 432,
+        "fresh_decodes": 720,
+        "reference_new": 0,
+        "score_sha256": "92e2a0d987e046d66e2ba2830eb2e3a21c7dbdf6eea1dacd7f5fe99437bfba37",
+        "cache_sha256": "0d21de697733d6ed44d6828559ca88ca8072d7e9d34bdef10fd614008cec4947"
+      }
+    }
+  },
+  "summary_sha256": "e472a34ea820c7a9aa17d8b2e72cfb492c264bdf372a939f8970f45245adbb37",
+  "report_sha256": "429c2e7bc9a70b2cbb7bfbab1c618afa69d78ecfa30941b792e349e074502109"
+}

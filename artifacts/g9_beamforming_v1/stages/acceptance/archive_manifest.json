@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T04:37:59.322666+00:00",
+  "files": [
+    {
+      "source": "docs/G9_验收与后续研究决策.md",
+      "snapshot": "00_G9_验收与后续研究决策.md",
+      "sha256": "dae0fe010839ae7081f834f5e19d6253cd474feebdbff501bdbc027943bff9fe"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "71589ddaaddf359925f79c89c5783d20fd9dd19bbba5eff51f99a0ade6df7531"
+    },
+    {
+      "source": "artifacts/g9_beamforming_v1/verification/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "e210959c3ce670c7c66f3e585d646dbec020cc6a18291f570073bd59f45f8f8e"
+    },
+    {
+      "source": "configs/g10_fresh_speaker_candidate.json",
+      "snapshot": "03_g10_fresh_speaker_candidate.json",
+      "sha256": "9eafd804b7ba20ff1b6b104418036bdc4eda160b52d6ae2c79fc6d9b311c98d4"
+    },
+    {
+      "source": "scripts/g9_accept.py",
+      "snapshot": "04_g9_accept.py",
+      "sha256": "227794ae9a222f55c86135a62c9868a391174a679d71f6a705fcef020ad60c64"
+    }
+  ]
+}

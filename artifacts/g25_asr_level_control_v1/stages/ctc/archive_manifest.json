@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:19:28.503234+00:00",
+  "files": [
+    {
+      "source": "docs/G25_CTC规范化独立识别覆盖.md",
+      "snapshot": "00_G25_CTC规范化独立识别覆盖.md",
+      "sha256": "275ec6843213563b6e6730326dc81aa234365faed5ba624abf8a55ff1b5c7099"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/CTC/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "14d12cfef15c676289a0f231e75334f9bee66ea5694b57fc2abfe7be5e883491"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/CTC/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "337fefa5f49b564f17d9d22646b958b455687130c9b97f05d258d34c224d7499"
+    },
+    {
+      "source": "scripts/g25_asr.py",
+      "snapshot": "03_g25_asr.py",
+      "sha256": "086eeafcc4b790befcd6846827d15868a8fe1a9ba6c1f892141eb445e55adc7c"
+    }
+  ]
+}

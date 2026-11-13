@@ -1,0 +1,9 @@
+{
+  "paired_train_examples": 2048,
+  "validation": 54,
+  "confirmation": 252,
+  "sources": 12,
+  "speakers": 3,
+  "fresh_sources_per_speaker": 4,
+  "saved_utc": "2026-11-11T19:52:27.851522+00:00"
+}

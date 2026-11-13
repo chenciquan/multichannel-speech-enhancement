@@ -1,0 +1,98 @@
+[
+  {
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/5338-284437-0012.flac",
+    "samples": 48400,
+    "duration_seconds": 3.025,
+    "sha256": "ccf6741a87e6a0f90bac4b220004212612425280d41eaf1d471522426d3e11a2",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "THE QUEEN GAZED UPON OUR FRIENDS WITH EVIDENT INTEREST"
+  },
+  {
+    "source_id": "5338-284437-0025",
+    "speaker_id": "5338",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/5338-284437-0025.flac",
+    "samples": 31040,
+    "duration_seconds": 1.94,
+    "sha256": "e5856f7b7f56e45fec06c332de52a0f88c0f2349266ae6278243d0aa1fd7d05c",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "I HAVE ONE GREAT PRIVILEGE"
+  },
+  {
+    "source_id": "6319-57405-0007",
+    "speaker_id": "6319",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/6319-57405-0007.flac",
+    "samples": 56080,
+    "duration_seconds": 3.505,
+    "sha256": "b837e1cedaec36b326c86ea791135f95fa1b5f18c3d1f5d92306b86610e0bfac",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "IS THERE ANYTHING THAT YOU WISH HE ASKED"
+  },
+  {
+    "source_id": "6319-57405-0010",
+    "speaker_id": "6319",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/6319-57405-0010.flac",
+    "samples": 53440,
+    "duration_seconds": 3.34,
+    "sha256": "a506c0ca6b98fb36163a980f428f2575e52ebd0b39ad9f64243e0592da33e84b",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "WHAT DID HE MEAN ASKED PYRRHA"
+  },
+  {
+    "source_id": "1993-147965-0001",
+    "speaker_id": "1993",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/1993-147965-0001.flac",
+    "samples": 42960,
+    "duration_seconds": 2.685,
+    "sha256": "bc9a8e3e53bf142a4b1c15145d75c637aa42d13711ae3736d2eb5a568d8684f3",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "MORNING PRAYERS WERE LONGER THAN USUAL"
+  },
+  {
+    "source_id": "1993-147965-0004",
+    "speaker_id": "1993",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/1993-147965-0004.flac",
+    "samples": 46640,
+    "duration_seconds": 2.915,
+    "sha256": "69d39861945a51791a67fbdd17911d116e7f6410cdbcba7f18ff4c68b0e3b6fc",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "ALL AFTERNOON HE SAT IN THE DINING ROOM"
+  },
+  {
+    "source_id": "2078-142845-0001",
+    "speaker_id": "2078",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/2078-142845-0001.flac",
+    "samples": 34160,
+    "duration_seconds": 2.135,
+    "sha256": "9e34942acbaca2ad4ae8c7fab7c3a1ad87f20ab35584110ef574c6353de05e43",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "SEVENTEEN SEVENTEEN"
+  },
+  {
+    "source_id": "2078-142845-0041",
+    "speaker_id": "2078",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/2078-142845-0041.flac",
+    "samples": 42560,
+    "duration_seconds": 2.66,
+    "sha256": "05e67a37af11bc23e8b9a2cb8a4b50b4a55138b0509985962eed2de5cd979564",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "ILLUSTRATION BUNS"
+  }
+]

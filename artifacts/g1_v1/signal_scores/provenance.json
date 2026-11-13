@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-11T21:23:52.413559+08:00",
+  "input_cases_sha256": "274b61a2555149c49f8da8206f9a8f3590a8a3ae47cc883295941bbfb92c0cae",
+  "input_cases": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g1_v1/mcnet/cases.jsonl",
+  "metric_backends": {
+    "stoi": {
+      "status": "available",
+      "package": "pystoi",
+      "version": "0.4.1"
+    },
+    "pesq_wb": {
+      "status": "available",
+      "package": "pesq",
+      "version": "0.0.4"
+    }
+  },
+  "si_sdr": "zero-mean projection; no delay or filter fitting",
+  "audio_altered": false,
+  "model_rerun": false,
+  "training_performed": false
+}

@@ -1,0 +1,229 @@
+{
+  "plan": {
+    "stage": "G2_corrected_spectrum_angle_followup",
+    "reason_for_followup": "Check whether the post-highpass directional deficit is specific to the original noise angle before selecting a coherence-focused adaptation",
+    "source_selection": "same six sources as g2_spatial_v1; discovery only",
+    "noise_spectrum_conditions": [
+      "highpass40_then_snr0"
+    ],
+    "spatial_conditions": [
+      "original_point",
+      "opposite_azimuth_point",
+      "target_direction_point",
+      "conditioned_12wave"
+    ],
+    "noise_prefilter": {
+      "cutoff_hz": 40,
+      "order": 4,
+      "type": "Butterworth SOS forward-backward on source noise before rendering",
+      "not_a_proposed_innovation": true
+    },
+    "speech_field": "unchanged raw source and geometry; filter applies only to synthetic noise for the factorial data intervention",
+    "snr_db": 0,
+    "sources": 6,
+    "noises": [
+      "DWASHING_ch01",
+      "DKITCHEN_ch01"
+    ],
+    "seed": 2026111109,
+    "expected_mixtures": 48,
+    "fixed_reference_policy": "within each spectral condition, point and12wave have bit-identical noisy reference; spectral interventions intentionally change the reference noise waveform and restore active SNR0",
+    "scale": "one common anti-clipping scale across both spectral types, spatial types and both noises per source",
+    "processing_controls_on_original_point": [
+      "noisy reference",
+      "McNet",
+      "fixed highpass40 on noisy reference",
+      "McNet then fixed highpass40",
+      "fixed highpass40 on all input channels then McNet"
+    ],
+    "processing_reference": "all controls scored against the same original unfiltered clean target; no peak normalization or fitting delay",
+    "interpretation": "A highpass baseline is a diagnostic/simple comparator, not an innovation. If it explains original metric gains, do not present this as a new neural method.",
+    "confirmation": "freeze observed contrast, then eight complete new utterances excluded from original24 and two new random seeds; reuse same noise recordings must be disclosed",
+    "training": false,
+    "new_dependencies": false
+  },
+  "plan_sha256": "dca35363aaac5c6f67c0bed03389671b292f02ed1ddad44d61cb4605f896e408",
+  "sources": [
+    {
+      "source_id": "1988-147956-0013",
+      "speaker_id": "1988",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/1988-147956-0013.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 2.89,
+      "samples": 46240,
+      "sha256": "8cd6e1f2ca562ac8d0d91f596f174977f53576fe81b816f567789353b8be420c",
+      "archive_member": "LibriSpeech/dev-clean/1988/147956/1988-147956-0013.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "HE WAS BORN LIKE THAT THE OTHERS ARE SMART"
+    },
+    {
+      "source_id": "2035-147960-0006",
+      "speaker_id": "2035",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/2035-147960-0006.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 3.315,
+      "samples": 53040,
+      "sha256": "1bc106cdd521d18a3637f1eb7e7287b83a4255002f394f34667249c52b373845",
+      "archive_member": "LibriSpeech/dev-clean/2035/147960/2035-147960-0006.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "I KNOW I AM JUST AWFUL JIM I WAS SO SCARED"
+    },
+    {
+      "source_id": "2086-149220-0020",
+      "speaker_id": "2086",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/2086-149220-0020.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 2.93,
+      "samples": 46880,
+      "sha256": "3095154252a8f8160c0acb04a4c7a070ec1d263509235ced34dae0d308d96011",
+      "archive_member": "LibriSpeech/dev-clean/2086/149220/2086-149220-0020.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "I TURN UP THE EARTH BY WAY OF PASTIME"
+    },
+    {
+      "source_id": "2277-149896-0012",
+      "speaker_id": "2277",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/2277-149896-0012.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 2.495,
+      "samples": 39920,
+      "sha256": "33382f7634da27eeba65f1e8f945672c9ed3a9cf8c005e53e7f30cd53555f4f0",
+      "archive_member": "LibriSpeech/dev-clean/2277/149896/2277-149896-0012.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "SHE HAD NOT BEEN ABLE TO GET AWAY THIS MORNING"
+    },
+    {
+      "source_id": "777-126732-0021",
+      "speaker_id": "777",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/777-126732-0021.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 3.635,
+      "samples": 58160,
+      "sha256": "ead97d5447352fb83aac6bb5ea38797379ebaf0be8de91b008e5683b0e2d3c4c",
+      "archive_member": "LibriSpeech/dev-clean/777/126732/777-126732-0021.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "FOR HIM THE CRIMINAL IS THE PRISONER SIMPLE IS IT NOT"
+    },
+    {
+      "source_id": "7976-110124-0000",
+      "speaker_id": "7976",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/speech/7976-110124-0000.flac",
+      "sample_rate": 16000,
+      "duration_seconds": 3.5499375,
+      "samples": 56799,
+      "sha256": "60f86f63cd9189fa1bdf8f4bc6ed3850797a7fe7c519d9f28ad822927442871f",
+      "archive_member": "LibriSpeech/dev-clean/7976/110124/7976-110124-0000.flac",
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "LONG AGO THERE LIVED A MERCHANT WHO HAD THREE DAUGHTERS"
+    }
+  ],
+  "source_manifest_sha256": "616df27c59a934684ebab8c4e4f1cdb1dccf02fbd5e2977b5ef56e8fbfdabc0c",
+  "geometry": {
+    "geometry_id": "chime3_nominal_tablet_simplified_freefield_v1",
+    "microphone_positions_m": [
+      [
+        -0.1,
+        0.0,
+        0.095
+      ],
+      [
+        0.0,
+        -0.01,
+        0.095
+      ],
+      [
+        0.1,
+        0.0,
+        0.095
+      ],
+      [
+        -0.1,
+        0.0,
+        -0.095
+      ],
+      [
+        0.0,
+        0.0,
+        -0.095
+      ],
+      [
+        0.1,
+        0.0,
+        -0.095
+      ]
+    ],
+    "reference_channel_zero_based": 4,
+    "coordinate_convention": "x=image-right, y=front/toward talker, z=up; meters; microphone order is official labels 1..6 minus one",
+    "array_domain_label": "official_nominal_dimensions_but_simplified_freefield_not_exact_McNet_training_match",
+    "target_direction_unit": [
+      0.33682408883346515,
+      0.9254165783983234,
+      0.17364817766693033
+    ],
+    "noise_directions_unit": [
+      [
+        -0.8365163037378078,
+        0.4829629131445342,
+        -0.25881904510252074
+      ],
+      [
+        -0.8365163037378078,
+        0.4829629131445342,
+        -0.25881904510252074
+      ]
+    ],
+    "speed_of_sound_m_s": 343.0,
+    "geometry_source": "https://www.chimechallenge.org/challenges/chime3/overview",
+    "geometry_image": "https://www.chimechallenge.org/challenges/chime3/images/mic_array_annotated.jpg",
+    "dimension_evidence": "Official image: adjacent columns 10cm, rows 19cm; official text: top-center microphone on back of 1cm frame.",
+    "approximation_notes": "Nominal center coordinates reconstructed from official dimensions, not calibrated coordinates; 1cm back offset is an approximation. Omnidirectional freefield plane waves; tablet baffle, frequency response, real noise spatial field and room reverberation are not reproduced. This is custom-data exploration, not exact CHiME replication.",
+    "direction_angles_degrees": {
+      "target_azimuth": 20,
+      "target_elevation": 10,
+      "noise_elevation": -15,
+      "noise_azimuth": -60
+    }
+  },
+  "noise_sources": [
+    {
+      "noise_id": "DWASHING_ch01",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DWASHING_ch01.wav",
+      "noise_type": "washing_machine",
+      "sample_rate": 16000,
+      "duration_seconds": 300.004,
+      "sha256": "da02faca8c6523d24ee86aae6c6889c950bb34d559f1379cc87e7e3b75690f4d",
+      "archive_member": "DWASHING/ch01.wav",
+      "source_url": "https://zenodo.org/records/1227121/files/DWASHING_16k.zip?download=1",
+      "dataset": "DEMAND v1.0",
+      "license": "CC-BY-SA-3.0",
+      "samples": 4800064
+    },
+    {
+      "noise_id": "DKITCHEN_ch01",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DKITCHEN_ch01.wav",
+      "noise_type": "kitchen_activity",
+      "sample_rate": 16000,
+      "duration_seconds": 300.004,
+      "sha256": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d",
+      "archive_member": "DKITCHEN/ch01.wav",
+      "source_url": "https://zenodo.org/records/1227121/files/DKITCHEN_16k.zip?download=1",
+      "dataset": "DEMAND v1.0",
+      "license": "CC-BY-SA-3.0",
+      "samples": 4800064
+    }
+  ],
+  "role": "discovery_not_final_test",
+  "frozen_before_generation": true
+}

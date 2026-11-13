@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-11-12T10:21:45.606347+00:00",
+  "files": {
+    "scripts/g18_common.py": "7a41d63e37df2ce5b3233dfe42eb9ae6b7d0ce6e45548dd81eb7400d7d4b01ef",
+    "scripts/g18_start_physics.py": "3efeb96dbba985506b130760bff8c1f47188f355f50ceb2214c7b75024d8217b",
+    "scripts/g18_physics.py": "84346e71e9d7c22f2577c4716c3ff305588eee9f9fbe30db4edeac770affca51",
+    "scripts/g18_queue.py": "3a855ae8e9035153a195a205b60f0a910f6db68e7763e10327da6a85abc7fd50",
+    "scripts/g18_build.py": "16ce33f952ca844b2ed2ddb81b3e5e5dd8f6bb31057b9d8be815c3494a3b0430",
+    "scripts/g18_signal.py": "c55fd5e66cf98ddc05d1ea8aec206d01b89628dd547bee5980700f48132045de",
+    "scripts/g18_asr.py": "137692284e0d512c12afa171f3fda0c00d0525b0d4ab5421089c46e73ed6ec5e",
+    "scripts/g18_finish.py": "820b27eca200e8401e35aec638b888a01720063b348771abf11d1c4b1c4ba760",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/geometry.py": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832",
+    "src/mcse/runtime.py": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "src/mcse/simulation.py": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0",
+    "src/mcse/spatial_noise.py": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b",
+    "configs/g18_room_candidate.json": "674fca0bc875ecb67cb89f31301e7eb4ea62704b6484c6a4c0485f3245c44aad"
+  },
+  "physical_report_archive_sha256": "e7d4f477896d43f39f545c28ffbda40a0fa695f4d3aad2716b50b0642943fe7f"
+}

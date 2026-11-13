@@ -1,0 +1,44 @@
+{
+  "status": "frozen_before_asset_download_and_CTC_outputs",
+  "entry_gate": "G7 completion report, audit and snapshot saved before any G8 asset or inference stage",
+  "rationale": "Check whether frozen-enhancement WER tradeoffs depend on autoregressive Whisper. Independent CTC greedy decoding supplies a second task proxy, not a substitute for human phoneme judgments.",
+  "candidate": "torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H",
+  "installed_package": "torchaudio2.5.1+cu121; inspected local bundle implementation",
+  "official_documentation": "https://docs.pytorch.org/audio/2.5.0/generated/torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H.html",
+  "documented_license": "MIT, originally published and redistributed under same license; verified official page and installed bundle docstring",
+  "documented_training_data": "LibriSpeech train-clean-100/train-clean-360/train-other-500,960h pretrain and ASR fine-tuning. Official description excludes dev-clean; not an independent audit of original training data.",
+  "paper_title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+  "paper_venue_year": "NeurIPS2020",
+  "paper_source": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html",
+  "weight_url": "https://download.pytorch.org/torchaudio/models/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+  "safe_loading": "Use official bundle get_model, existing local cached file only after bounded download and locally pinned SHA; dl_kwargs weights_only=True, map_location=cpu. No unrestricted external pickle or remote code.",
+  "publisher_SHA256_verified": false,
+  "integrity_policy": "Official HTTPS transport plus record byte length/ETag and calculate local SHA256 for all subsequent checks. Do not label local hash as independently published publisher checksum.",
+  "download_cap_bytes": 471859200,
+  "download_timeout_seconds": 1200,
+  "new_dependency": false,
+  "decoding": "batch1, FP32 eval, official raw16k waveform path with bundle normalize_waveform=False, greedy argmax then collapse consecutive repeats then remove blank0 and replace | with spaces, no external LM/prompt/resampling/peak normalization",
+  "capacity_probe": "1/3s and actual fixed clean source; report finite outputs/label dimensions/peak memory/time. No performance-based recognizer selection.",
+  "scope_if_activated": "Rescore exact saved G5 and G7 outputs/references with same word normalizer; all systems/seeds, no SE training/checkpoint selection. Hash audio cache, save clean-reference floor, S/D/I and directional paired effects under each ASR. Do not compare absolute WER as if metrics were same backend.",
+  "limitations": "Two recognizers can share biases; CTC still has learned language regularities. Sign agreement strengthens conditional task evidence, not acoustic-deletion proof. Do not reproduce paper headline WER by citation.",
+  "save_asset_report_before_rescoring": true,
+  "frozen_utc": "2026-11-12T04:11:46.578031+00:00",
+  "evaluation_timeout_seconds": 5400,
+  "asset_stage_timeout_seconds": 1500,
+  "previous_stage_archive_sha256": "3aa386439d7520e4f845cbb6ac537b0195b54467ae401421d5cf794c8e63bd68",
+  "datasets": {
+    "G5": {
+      "folder": "artifacts/g5_rotation_v1/evaluation",
+      "expected_rows": 3528,
+      "signals_sha256": "daa5780a2f0e637b9173875866b3cba9f749cc54faee225f5f8ac54a6ea01a7e",
+      "whisper_sha256": "dca7687b566c4da15dc875bce101fd3aa7c410f72a740ec5360d74d810b4de8a"
+    },
+    "G7": {
+      "folder": "artifacts/g7_unseen_noise_v1/evaluation",
+      "expected_rows": 9072,
+      "signals_sha256": "1a084cb88df34f5314b741ebad16415f56ae433a389565f1f59b384ae9ae4026",
+      "whisper_sha256": "77ede827c7a3da15a6697f0ce6e130fd8b5b39f371ea53a2814d602e616ef650"
+    }
+  },
+  "predeclared_analysis": "Every system and seed, per noise/target/SNR and G5 clean controls; rotated-fixed WER source-cluster bootstrap2000 for both recognizers, fixed seed20261112; no winner selection.12 reused source utterances,3 speakers."
+}

@@ -1,0 +1,12 @@
+{
+  "sample_ids": [
+    "1988-147956-0013__DKITCHEN_ch01__snr5",
+    "2035-147960-0006__DWASHING_ch01__snr0",
+    "2086-149220-0020__DKITCHEN_ch01__snr5",
+    "2277-149896-0012__DKITCHEN_ch01__snr5",
+    "777-126732-0021__DKITCHEN_ch01__snr5",
+    "7976-110124-0000__DKITCHEN_ch01__snr5"
+  ],
+  "rule": "first nonregression by sample_id for each of six speakers; frozen in probe selection before outputs",
+  "formal_blind_test": false
+}

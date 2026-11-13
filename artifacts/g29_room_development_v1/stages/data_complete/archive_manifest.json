@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:36:55.405154+00:00",
+  "files": [
+    {
+      "source": "docs/G29C_共享混响训练开发数据完成报告.md",
+      "snapshot": "00_G29C_共享混响训练开发数据完成报告.md",
+      "sha256": "449ff8d9c4a6a8941d30b41736d0b2be1b3a85e6c70f38daf9736582c4745d85"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/DATA_COMPLETE.json",
+      "snapshot": "01_DATA_COMPLETE.json",
+      "sha256": "e7acbe4d3d0d10eece6ac230a2f7b8024bfa10d6bb559ba6d56a909ea93a38cb"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/planned_records.json",
+      "snapshot": "02_planned_records.json",
+      "sha256": "48bad9967aa178969f690ad22c3351f61b7a774561b311351dd2c4bb54391321"
+    },
+    {
+      "source": "data/g29_v1/validation_manifest.jsonl",
+      "snapshot": "03_validation_manifest.jsonl",
+      "sha256": "f5e43aeb8f46c93e74567a3ccb80aee74bcbb0c154178230f12e0f0493735d84"
+    }
+  ]
+}

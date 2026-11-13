@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T04:18:08.823639+00:00",
+  "files": [
+    {
+      "source": "docs/G8_双识别器交叉核查报告.md",
+      "snapshot": "00_G8_双识别器交叉核查报告.md",
+      "sha256": "ff49198d929110ad1803257199fb00eb5dc11eef8de00ee67f8828305437bc10"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "7aa2be41bee4f027a58b4ab3d865f43b83d2b408e1508a8e3e850c181866bc1a"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "a97c2783f4e510fd83097dbffc61fffe7910caf2587701a81cbaf5fe4ce6d9e9"
+    },
+    {
+      "source": "artifacts/g8_cross_asr_v1/asr_provenance.json",
+      "snapshot": "03_asr_provenance.json",
+      "sha256": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea"
+    },
+    {
+      "source": "scripts/g8_evaluate.py",
+      "snapshot": "04_g8_evaluate.py",
+      "sha256": "bdcccf69f50051f7a45e5a0341466319e83a15182d5ed0bea65af36472b6f3e1"
+    },
+    {
+      "source": "scripts/g8_finish.py",
+      "snapshot": "05_g8_finish.py",
+      "sha256": "469e2dab377bb4a816375105f3da4d164f3794ceec355c6c93e8228bcacc636b"
+    }
+  ]
+}

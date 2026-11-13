@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-11-12T08:53:16.073959+00:00",
+  "engine": "CTC",
+  "model_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+  "decoding": {
+    "previous_recognizer_id": "388b6fc39d99597c671fcff934ced3a6f683d264bc2240d441f2a017b3ee14ea",
+    "batch": 1,
+    "FP32": true,
+    "normalization": false,
+    "resampling": false,
+    "external_LM": false,
+    "greedy_CTC": true
+  },
+  "source_caches": [
+    {
+      "path": "artifacts/g8_cross_asr_v1/evaluation/ctc_cache.jsonl",
+      "sha256": "ae13ae48a5994a39d3fd1dff0e529eeb958eb5def7fb3b12084272f85c7ddfb6"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "3710a32c2609fd76308416643ce41309a537b09b4cca483827c8b9713469c605"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/CTC/cache_new.jsonl",
+      "sha256": "93b95409cc137a18631b5ef88adac3412bd65bdf00ad3154b9d7beb29b2dd984"
+    }
+  ],
+  "source_precedence": "Whisper G3 then G5 then G7 then G9 then G10; first observation retained regardless of score; CTC G8 then G9 then G10 exact recognizer identity",
+  "cache_hypothesis_conflicts": [],
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "signal_archive_sha256": "dddedae544a83dfa9545c57863d799aafbdd03dea5aa24f7642de8d32eef5af9"
+}

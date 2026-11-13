@@ -1,0 +1,4 @@
+# Preserve exact bytes: frozen experiment manifests contain file SHA256 values.
+# Do not normalize historical LF/CRLF files during add, clone or checkout.
+* -text
+

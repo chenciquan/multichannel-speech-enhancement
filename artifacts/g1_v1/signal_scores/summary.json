@@ -1,0 +1,73 @@
+{
+  "total_cases": 48,
+  "successful_cases": 48,
+  "failed_cases": 0,
+  "metrics": {
+    "si_sdr_db": {
+      "noisy": {
+        "n": 48,
+        "mean": 1.569121693043434,
+        "median": 1.5151768417852427
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 1.699200878441312,
+        "median": 1.7241778590019416
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.13007918539787805,
+        "median": 0.15538326376287814
+      }
+    },
+    "stoi": {
+      "noisy": {
+        "n": 48,
+        "mean": 0.9612786312465179,
+        "median": 0.9704657236587293
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 0.9628618329742616,
+        "median": 0.9788412265997961
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.0015832017277436518,
+        "median": 0.0009107402967164502
+      }
+    },
+    "pesq_wb": {
+      "noisy": {
+        "n": 48,
+        "mean": 2.271812063952287,
+        "median": 1.6253380179405212
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 2.382195360958576,
+        "median": 1.7953101992607117
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.11038329700628917,
+        "median": 0.0542716383934021
+      }
+    }
+  },
+  "human_content_loss_judgement": "not_assessed",
+  "status": "ok",
+  "metric_backends": {
+    "stoi": {
+      "status": "available",
+      "package": "pystoi",
+      "version": "0.4.1"
+    },
+    "pesq_wb": {
+      "status": "available",
+      "package": "pesq",
+      "version": "0.0.4"
+    }
+  },
+  "training_performed": false
+}

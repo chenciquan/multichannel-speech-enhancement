@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T18:14:40.390162+00:00",
+  "rows": 864,
+  "cases": 432,
+  "preflight_exact_matches": 6,
+  "archives": {
+    "preflight": "5b0fff65a0db7678cd0117d54828657b571bb24fc0926e7cdf2bcac821640a58",
+    "protocol": "33ab15292e1a69eec9b6b5cd490eb6205ddc38a1cc928b9a0319fc3df39b402a",
+    "signal": "6290296edb1b84ed545803b9a2258848ff744567834e56111b0a9b6528b0d83a"
+  },
+  "oracle_only": true,
+  "ASR_scored": false,
+  "outputs_read_back": 864,
+  "signal_sha256": "f488c3456b28c9cdb9e273ebdbe790cb5a1a5e9bea8b7c085d4828b5fd365160",
+  "summary_sha256": "4fd4403fd339ded29cfccb9a5454c0cce5215fa514d4540af9aff8bc6c559ea4"
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-12T09:01:04.051331+00:00",
+  "status": "ready_for_G15preregistered_preparation",
+  "checks": {
+    "all3legacy_seeds_correcttest_minus_fixed_direct_minus40_SIpositive": true,
+    "all3legacy_seeds_correcttest_minus_fixed_direct20_SInegative": true,
+    "all3legacy_seeds_correcttest_minus_fixed_direct20_CTCworse": true
+  },
+  "acceptance_sha256": "cfffdfb0cd0862eca32bebc5b1f97b83cd6cd245117fdf8238646a88a37176f3",
+  "candidate_plan_sha256": "1b9ac545c2d7eda43385356c4965f1249d6f40d9ce3523f4be5548f17f08b6be"
+}

@@ -1,0 +1,65 @@
+{
+  "saved_utc": "2026-11-13T00:39:18.665878+00:00",
+  "files": [
+    {
+      "source": "docs/G30A_混响轻量适配同预算目标对照协议.md",
+      "snapshot": "00_G30A_混响轻量适配同预算目标对照协议.md",
+      "sha256": "752f382c44407287c4d842aca6d7f66fac3f547e954213be4089edf4153afe28"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "7e1ccd8321e5a083c65811ba0d47e086a9578301be71f159e33e825667d266a7"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/sample_indices.npy",
+      "snapshot": "02_sample_indices.npy",
+      "sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be"
+    },
+    {
+      "source": "scripts/g30_prepare.py",
+      "snapshot": "03_g30_prepare.py",
+      "sha256": "3887cd67cf32b546ffe846bba565206f45f8a37c970aaae463d83d1ea050b6f3"
+    },
+    {
+      "source": "scripts/g30_common.py",
+      "snapshot": "04_g30_common.py",
+      "sha256": "f518589cea1a6d2c3208f2e11d07025ff72a10ba37ba91c032b4590a5bcacf38"
+    },
+    {
+      "source": "scripts/g30_calibrate.py",
+      "snapshot": "05_g30_calibrate.py",
+      "sha256": "9bff42da0d8301e9dd2f32f6f64c5838f109b8da8ac474319eb9421a1b652aa4"
+    },
+    {
+      "source": "scripts/g30_train.py",
+      "snapshot": "06_g30_train.py",
+      "sha256": "fc344fd5c01058ff2e69de930715cc58782fc938aae8ccc0356b33cb006e83fd"
+    },
+    {
+      "source": "scripts/g30_queue.py",
+      "snapshot": "07_g30_queue.py",
+      "sha256": "bcfb49905142b4b08568ed5c6d8ba86f5d4893d697d36dacf008a9fd7c184656"
+    },
+    {
+      "source": "scripts/g30_accept.py",
+      "snapshot": "08_g30_accept.py",
+      "sha256": "a3337c2eddd9b1805b5cf97e0e84905e9e4c55b7dd69a74ddbf95998c24e4bf3"
+    },
+    {
+      "source": "scripts/g28_gradient_v2.py",
+      "snapshot": "09_g28_gradient_v2.py",
+      "sha256": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82"
+    },
+    {
+      "source": "scripts/mcnet_infer.py",
+      "snapshot": "10_mcnet_infer.py",
+      "sha256": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "11_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    }
+  ]
+}

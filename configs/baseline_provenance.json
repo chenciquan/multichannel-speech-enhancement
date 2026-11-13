@@ -1,0 +1,18 @@
+{
+  "model": "McNet offline",
+  "upstream_url": "https://github.com/Audio-WestlakeU/McNet",
+  "commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+  "upstream_license_detected": null,
+  "user_permission_statement": "User reports that permission has been obtained; detailed scope not yet recorded.",
+  "permitted_workflow_assumption": "local reproduction only; no public redistribution authorization inferred",
+  "config_path": "config/mc_net_offline.yaml",
+  "checkpoint_path": "model_checkpoints/offline/epoch494_criteria18.78_sdr18.78.ckpt",
+  "checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+  "checkpoint_loaded": true,
+  "upstream_modifications": [],
+  "compatibility_adaptations": [
+    "External Torch 2.x ISTFT complex-pair adapter; CPU and CUDA smoke validated",
+    "External export of original TorchMetrics optional functions; quality metrics not computed"
+  ],
+  "human_speech_diagnosis_completed": false
+}

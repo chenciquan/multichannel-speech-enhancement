@@ -1,0 +1,54 @@
+{
+  "started_utc": "2026-11-12T09:33:36.470731+00:00",
+  "engine": "Whisper",
+  "model_id": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+  "decoding": {
+    "options": {
+      "language": "en",
+      "task": "transcribe",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "beam_size": 1,
+      "word_timestamps": false,
+      "without_timestamps": true,
+      "compression_ratio_threshold": 2.4,
+      "logprob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "fp16": true,
+      "verbose": null
+    },
+    "model_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03"
+  },
+  "source_caches": [
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/asr_cache.jsonl",
+      "sha256": "611c43b5e3fce381f612927df81dce35453b3e36e40960d6045aa2374b03fb1c"
+    },
+    {
+      "path": "artifacts/g5_rotation_v1/evaluation/asr_cache_new.jsonl",
+      "sha256": "eff599a8e1ef1b1757bc50fe1c0f4e6f79c0938cfff70d03b189805c77df6c38"
+    },
+    {
+      "path": "artifacts/g7_unseen_noise_v1/evaluation/asr_cache_new.jsonl",
+      "sha256": "a1563457dbdb93304128f7e4fffcf8ef2d6f23741d9daeb32c2eda7836809eb7"
+    },
+    {
+      "path": "artifacts/g9_beamforming_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "901792f662086455e0866d16ce17cda3d3ee8625522219fde84054fe25074a41"
+    },
+    {
+      "path": "artifacts/g10_fresh_voice_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "373346236cc6273cd2b59ebb77a90cfadf8b0590880d8d06467965f723de8b02"
+    },
+    {
+      "path": "artifacts/g14_corrected_geometry_v1/evaluation/Whisper/cache_new.jsonl",
+      "sha256": "cf8b072a32d31f2746de0c65298aa339bbbd4d49276e251298894fb588f79c5b"
+    }
+  ],
+  "source_precedence": "Whisper G3 then G5 then G7 then G9 then G10 then G14; first observation retained regardless of score; CTC G8 then G9 then G10 then G14 exact recognizer identity",
+  "cache_hypothesis_conflicts": [],
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "signal_archive_sha256": "99cdd54f48fcbe371b8fe7244de180818c82b144c313882d4461770c3143dc62"
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:33:13.290681+00:00",
+  "files": [
+    {
+      "source": "docs/G22_完整双房间阶段验收与简明读回.md",
+      "snapshot": "00_G22_完整双房间阶段验收与简明读回.md",
+      "sha256": "9eb72a135299f773de4141d732ff6213915f79897f58ba13c96c891340985423"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "aa87e6b7baf82dde2dbc7fcec37d733ee65e642f2fc591f64afd62c7e70ed116"
+    },
+    {
+      "source": "scripts/g22_final_accept.py",
+      "snapshot": "02_g22_final_accept.py",
+      "sha256": "3b5037e5e1b37607b4708f179e00c7b4a5fb292a8152154f015bb1a046f5aaa2"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/ASR_power_helper.json",
+      "snapshot": "03_ASR_power_helper.json",
+      "sha256": "e5381f701a17032d33b01f0df8d9ba4c1184d0e3560f9a950f8b7a86b8a71079"
+    }
+  ]
+}

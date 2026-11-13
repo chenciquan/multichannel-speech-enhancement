@@ -1,0 +1,23 @@
+{
+  "status": "ready_for_preregistered_G17fresh_sources",
+  "utc": "2026-11-12T09:38:47.663659+00:00",
+  "development_rigid_minus_counter": {
+    "-40": {
+      "si_sdr_db": -0.17918571156362928,
+      "Whisper_WER": 0.010869565217391353,
+      "CTC_WER": -0.010869565217391297
+    },
+    "20": {
+      "si_sdr_db": -0.3009929694572664,
+      "Whisper_WER": 0.02053140096618361,
+      "CTC_WER": 0.006038647342995168
+    },
+    "70": {
+      "si_sdr_db": -0.1449273630411092,
+      "Whisper_WER": -0.03019323671497587,
+      "CTC_WER": -0.006038647342995196
+    }
+  },
+  "G16_acceptance_sha256": "20d110568c772f8c0b2291d3492172c79300e2806c306e3faca47905a932c8b2",
+  "G17_candidate_plan_sha256": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9"
+}

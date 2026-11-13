@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-11-12T08:39:11.963039+00:00",
+  "files": {
+    "configs/g14_corrected_geometry_plan.json": "d4b86f12c7647df28ff4bbec3bed98e72194809277dd0b5edf112fa269684c45",
+    "scripts/g14_common.py": "5b1dbae1f22183f74e26e7ba88c0bbbc3d90d4bb92789356e6628e44ec88ea81",
+    "scripts/g14_queue.py": "3f96cfa98f10420a3754ad65a0814b168c60158b6f09a307530192c7d2fbf2cb",
+    "scripts/g14_build.py": "f887bd4241f35dfa44eb326b242a8d242f7b765e92157b7b95812e455e3eb302",
+    "scripts/g14_signal.py": "348205a665129e54e76458549317085981cea48ec6ee027a6bbc14d0a072f068",
+    "scripts/g14_asr.py": "95457887246434f03bd151f706cc0f9288dacbff393c6a6c10ff344faa87d634",
+    "scripts/g14_finish.py": "90ba4e3ecc1f380fd382b1f2a62d3f364155c084ca3257665e4e5fd73a5cf747",
+    "src/mcse/geometry.py": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832",
+    "src/mcse/runtime.py": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "tests/test_g14_analysis.py": "c3e267448d19d5fdb675b61d4d8c6909d579beadf66cdb4ce40bc663a344bcf6",
+    "tests/test_azimuth_geometry.py": "a27d07cfec01998336c654bb1d142448e08604792b8818a3717673c9d2e490bb"
+  },
+  "previous_G13_acceptance_sha256": "a0534d15e080a7d2b81fec62fc9e01acf4906a2d3ef33082afdf1fb024ccc059"
+}

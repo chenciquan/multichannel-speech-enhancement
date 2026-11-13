@@ -1,0 +1,271 @@
+{
+  "plan": {
+    "stage": "G2_spectral_spatial_cause_confirmation",
+    "split": "confirmation",
+    "frozen_after_discovery_before_new_source_evaluation": true,
+    "discovery_evidence": "artifacts/g2_factorial_v1/mcnet/cases.jsonl",
+    "observed_contrast": "After removing sub40Hz noise and restoring SNR0, directional-point noise produces weaker/negative McNet gains than reference-matched conditioned12wave; raw fullband SNR was dominated by subaudible energy",
+    "source_selection": "first new complete1.0-3.8s utterances in official archive traversal for existing six speakers; exclude all original24 source IDs and byte hashes",
+    "speaker_quotas": {
+      "1988": 2,
+      "2035": 2,
+      "2086": 1,
+      "2277": 1,
+      "777": 1,
+      "7976": 1
+    },
+    "sources": 8,
+    "speech_archive_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "speech_license": "CC-BY-4.0",
+    "max_stream_bytes": 100663296,
+    "noise_spectrum_conditions": [
+      "raw",
+      "highpass40_then_snr0"
+    ],
+    "spatial_conditions": [
+      "original_point",
+      "conditioned_12wave"
+    ],
+    "noises": [
+      "DWASHING_ch01",
+      "DKITCHEN_ch01"
+    ],
+    "snr_db": 0,
+    "seed": 2026111121,
+    "seed_replicas": [
+      0,
+      1
+    ],
+    "expected_mixtures": 128,
+    "primary_contrast": "enhanced SI-SDR(conditioned12wave)-enhanced SI-SDR(original_point), after highpass40-noise renormalization, paired on source/noise/seed; noisy reference is identical",
+    "confirmation_rule": "For each of two noise recordings and both seeds: mean primary contrast>0 and at least6/8 source contrasts>0. Report all values and failures, no population-significance or unseen-speaker claim",
+    "secondary_checks": [
+      "fixed40Hz highpass comparator on raw input explains metric sensitivity",
+      "PESQ/STOI and one fixed ASR verify that a numerical gain is not assumed to preserve words"
+    ],
+    "limits": [
+      "same six speakers but all new source utterances",
+      "same two long noise recordings with new segments, not unseen noise types",
+      "synthetic conditional finite-wave field, not real multichannel recording",
+      "no training or proposed-module implementation"
+    ],
+    "training": false,
+    "new_dependencies": false,
+    "noise_segment_policy": "new-source segments do not overlap any original24 segment or each other within the same recording; 4000-sample margin; each segment reused across spectral/spatial/seeds",
+    "source_selection_plan_frozen_in_download": "configs/g2_confirmation_plan.json; render-only nonoverlap amendment does not change utterance selection or model hypothesis"
+  },
+  "plan_sha256": "29bb4c9590697a07718918fbc13be811251460c98afd6ce42b32b8427b88e287",
+  "sources": [
+    {
+      "source_id": "1988-147956-0016",
+      "speaker_id": "1988",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/1988-147956-0016.flac",
+      "sha256": "dd83111bf2181dc039896654b168b58a061fcec19296122cc80b0e7b24aa2906",
+      "sample_rate": 16000,
+      "samples": 50720,
+      "duration_seconds": 3.17,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/1988/147956/1988-147956-0016.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "AT THAT MOMENT THE FATHER CAME OUT OF THE HOLE IN THE BANK"
+    },
+    {
+      "source_id": "1988-147956-0005",
+      "speaker_id": "1988",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/1988-147956-0005.flac",
+      "sha256": "66a2b9f460f099e63c735d5915ca58f5df542b9b923972a78e32655326efb452",
+      "sample_rate": 16000,
+      "samples": 55520,
+      "duration_seconds": 3.47,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/1988/147956/1988-147956-0005.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "VERY GLAD VERY GLAD SHE EJACULATED"
+    },
+    {
+      "source_id": "2035-147961-0017",
+      "speaker_id": "2035",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/2035-147961-0017.flac",
+      "sha256": "904e3062f99a9a702ca2499d52be8df67fba9e4863bc21b0a4446c318b1ecf35",
+      "sample_rate": 16000,
+      "samples": 32160,
+      "duration_seconds": 2.01,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/2035/147961/2035-147961-0017.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "MISTER SHIMERDA WENT WITH HIM"
+    },
+    {
+      "source_id": "2035-147961-0016",
+      "speaker_id": "2035",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/2035-147961-0016.flac",
+      "sha256": "aff51bd3f7bff593275c966c4b1b35fc9e9550e7338a4ee3488b3a1aad2b3888",
+      "sample_rate": 16000,
+      "samples": 52240,
+      "duration_seconds": 3.265,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/2035/147961/2035-147961-0016.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "WITHOUT A WORD PETER GOT UP AND LIT HIS LANTERN"
+    },
+    {
+      "source_id": "2086-149220-0021",
+      "speaker_id": "2086",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/2086-149220-0021.flac",
+      "sha256": "20cc4b29a9f610361c4640f0b5441b669e01ca70ca397d565f5c3893a7f39cc6",
+      "sample_rate": 16000,
+      "samples": 53360,
+      "duration_seconds": 3.335,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/2086/149220/2086-149220-0021.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "IT IS LIKE A BANDAGE OVER ONE'S EYES TO COME INTO IT"
+    },
+    {
+      "source_id": "2277-149896-0027",
+      "speaker_id": "2277",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/2277-149896-0027.flac",
+      "sha256": "a4831606b567c1a81940e11ccafa0ae14767ab43dde5ce7dbba56d54500bb13e",
+      "sample_rate": 16000,
+      "samples": 57520,
+      "duration_seconds": 3.595,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/2277/149896/2277-149896-0027.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "HURSTWOOD ALMOST EXCLAIMED OUT LOUD AT THE INSISTENCY OF THIS THING"
+    },
+    {
+      "source_id": "777-126732-0054",
+      "speaker_id": "777",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/777-126732-0054.flac",
+      "sha256": "c666abfe00cca8e4a72b3b7cf18bf39465cedbdcf4cfe80e9c84f5d085d4aa89",
+      "sample_rate": 16000,
+      "samples": 48480,
+      "duration_seconds": 3.03,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/777/126732/777-126732-0054.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "HE WATCHED HIM GESTICULATING AND MURMURING IN THE KITCHEN"
+    },
+    {
+      "source_id": "7976-110124-0007",
+      "speaker_id": "7976",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g2_confirmation_v1/speech/7976-110124-0007.flac",
+      "sha256": "404aae274578dad605acc9b4d653961ad62840c8c2ad7fc91c0f6262f4ffa5dd",
+      "sample_rate": 16000,
+      "samples": 43840,
+      "duration_seconds": 2.74,
+      "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+      "archive_member": "LibriSpeech/dev-clean/7976/110124/7976-110124-0007.flac",
+      "dataset": "LibriSpeech dev-clean",
+      "license": "CC-BY-4.0",
+      "transcript": "HE IS OLD AS WELL AS POOR SHE SAID"
+    }
+  ],
+  "generation_script_sha256": "e30bdf5d3ff9b00a81d51ac4a53d64726af54fa284a1fd5280d7f8d424785d13",
+  "spatial_noise_module_sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b",
+  "source_manifest_sha256": "fbbc1477f4dc92b6be5e31f7aae5946d69d77dab4ba35125cb93385e67a651d0",
+  "geometry": {
+    "geometry_id": "chime3_nominal_tablet_simplified_freefield_v1",
+    "microphone_positions_m": [
+      [
+        -0.1,
+        0.0,
+        0.095
+      ],
+      [
+        0.0,
+        -0.01,
+        0.095
+      ],
+      [
+        0.1,
+        0.0,
+        0.095
+      ],
+      [
+        -0.1,
+        0.0,
+        -0.095
+      ],
+      [
+        0.0,
+        0.0,
+        -0.095
+      ],
+      [
+        0.1,
+        0.0,
+        -0.095
+      ]
+    ],
+    "reference_channel_zero_based": 4,
+    "coordinate_convention": "x=image-right, y=front/toward talker, z=up; meters; microphone order is official labels 1..6 minus one",
+    "array_domain_label": "official_nominal_dimensions_but_simplified_freefield_not_exact_McNet_training_match",
+    "target_direction_unit": [
+      0.33682408883346515,
+      0.9254165783983234,
+      0.17364817766693033
+    ],
+    "noise_directions_unit": [
+      [
+        -0.8365163037378078,
+        0.4829629131445342,
+        -0.25881904510252074
+      ],
+      [
+        -0.8365163037378078,
+        0.4829629131445342,
+        -0.25881904510252074
+      ]
+    ],
+    "speed_of_sound_m_s": 343.0,
+    "geometry_source": "https://www.chimechallenge.org/challenges/chime3/overview",
+    "geometry_image": "https://www.chimechallenge.org/challenges/chime3/images/mic_array_annotated.jpg",
+    "dimension_evidence": "Official image: adjacent columns 10cm, rows 19cm; official text: top-center microphone on back of 1cm frame.",
+    "approximation_notes": "Nominal center coordinates reconstructed from official dimensions, not calibrated coordinates; 1cm back offset is an approximation. Omnidirectional freefield plane waves; tablet baffle, frequency response, real noise spatial field and room reverberation are not reproduced. This is custom-data exploration, not exact CHiME replication.",
+    "direction_angles_degrees": {
+      "target_azimuth": 20,
+      "target_elevation": 10,
+      "noise_elevation": -15,
+      "noise_azimuth": -60
+    }
+  },
+  "noise_sources": [
+    {
+      "noise_id": "DWASHING_ch01",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DWASHING_ch01.wav",
+      "noise_type": "washing_machine",
+      "sample_rate": 16000,
+      "duration_seconds": 300.004,
+      "sha256": "da02faca8c6523d24ee86aae6c6889c950bb34d559f1379cc87e7e3b75690f4d",
+      "archive_member": "DWASHING/ch01.wav",
+      "source_url": "https://zenodo.org/records/1227121/files/DWASHING_16k.zip?download=1",
+      "dataset": "DEMAND v1.0",
+      "license": "CC-BY-SA-3.0",
+      "samples": 4800064
+    },
+    {
+      "noise_id": "DKITCHEN_ch01",
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/sources/g1_v1/noise/DKITCHEN_ch01.wav",
+      "noise_type": "kitchen_activity",
+      "sample_rate": 16000,
+      "duration_seconds": 300.004,
+      "sha256": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d",
+      "archive_member": "DKITCHEN/ch01.wav",
+      "source_url": "https://zenodo.org/records/1227121/files/DKITCHEN_16k.zip?download=1",
+      "dataset": "DEMAND v1.0",
+      "license": "CC-BY-SA-3.0",
+      "samples": 4800064
+    }
+  ],
+  "role": "discovery_not_final_test",
+  "frozen_before_generation": true
+}

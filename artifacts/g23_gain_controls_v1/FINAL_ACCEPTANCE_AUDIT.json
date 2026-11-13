@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T19:49:50.110022+00:00",
+  "ASR": {
+    "Whisper": {
+      "rows": 1440,
+      "baseline_cache_hits": 480,
+      "new_decodes": 960,
+      "cache_conflicts": 0
+    },
+    "CTC": {
+      "rows": 1440,
+      "baseline_cache_hits": 480,
+      "new_decodes": 960,
+      "cache_conflicts": 0
+    }
+  },
+  "stages": {
+    "completion": "ab352b413df1b8a7fdb2c79ed4c835692814654607a8c82cb614b18dec45a0ad",
+    "ctc": "bbb179855fda1e7eb0eca55ea6ff46d05bc6b7b4ae5f599a10337317d91c1695",
+    "input_acceptance": "4c88f5b29e49d7723acac0a8b5da0ed0e5a740e4dc425aee169194579db8e332",
+    "preparation": "f60b06fec70d8a4c7fc7531187f43205e9195cc5363de3deea23d3c330f9ec59",
+    "protocol": "6cface8073d200de36cd5c93327c48bbff6ccabd0a99eeadb14baa846eab6676",
+    "recognition_protocol": "5d50c815f7d4393b804fca43be99115238a3165cc4b7d7a700ad200dcf49be00",
+    "whisper": "e90c7f2ccb2a75cb38a7e30222c3c5e992ed9224550a60a2ba45372807e7a8df"
+  },
+  "completion_audit_sha256": "52806e973cc5ee472323dde8018a50d8471c7e0cc264816e64a2f881d72fbeea",
+  "power_helper": {
+    "pid": 21044,
+    "started_utc": "2026-11-12T19:48:12.7772647+00:00",
+    "deadline_utc": "2026-11-12T20:48:12.1720299+00:00",
+    "status": "released",
+    "power_plan_modified": false,
+    "released_utc": "2026-11-12T19:49:47.9983626+00:00"
+  }
+}

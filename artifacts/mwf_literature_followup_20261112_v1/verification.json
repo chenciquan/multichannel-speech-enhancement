@@ -1,0 +1,33 @@
+{
+  "verified_utc": "2026-11-12T10:38:34.204647+00:00",
+  "Exa_queries": 1,
+  "search_candidates": 5,
+  "primary_PDFs_checked": 2,
+  "systematic_review": false,
+  "query": "\"speech distortion weighted\" \"multichannel Wiener\" Doclo Moonen covariance",
+  "primary_sources": [
+    {
+      "url": "https://ftp.esat.kuleuven.be/pub/stadius/doclo/reports/05-114.pdf",
+      "year": 2005,
+      "volume": 12,
+      "issue": 12,
+      "pages": "809-811",
+      "DOI": "10.1109/LSP.2005.859530",
+      "verified": "originalPDFfirstpage"
+    },
+    {
+      "url": "https://uol.de/f/6/dept/mediphysik/ag/sigproc/download/papers/doclo/journal_SDWMWF.pdf",
+      "year": 2007,
+      "volume": 49,
+      "pages": "636-656",
+      "DOI": "10.1016/j.specom.2007.02.001",
+      "verified": "originalPDFfirstpage"
+    }
+  ],
+  "local_source_file": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torchaudio/functional/functional.py",
+  "source_function_sha256": "546d403c87c0607aa4ff1a085aac76ce4fba6351537e7d44098c84d7909c7809",
+  "torch": "2.5.1+cu121",
+  "torchaudio": "2.5.1+cu121",
+  "new_algorithm_implemented": false,
+  "G18_code_changed": false
+}

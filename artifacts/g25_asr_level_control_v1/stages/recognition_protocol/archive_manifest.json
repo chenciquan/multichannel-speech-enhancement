@@ -1,0 +1,60 @@
+{
+  "saved_utc": "2026-11-12T20:18:14.855496+00:00",
+  "files": [
+    {
+      "source": "docs/G25C_规范化双识别器执行协议.md",
+      "snapshot": "00_G25C_规范化双识别器执行协议.md",
+      "sha256": "5903cfb6e7129540910c2d71f43a1e7b09b15ae1e830374cdde68e9bef6a721a"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "5eb1ebff4c967316a9fd332ea5cbc12a422aad5b6bf538b5d7fd151e752f828e"
+    },
+    {
+      "source": "scripts/g25_asr.py",
+      "snapshot": "02_g25_asr.py",
+      "sha256": "086eeafcc4b790befcd6846827d15868a8fe1a9ba6c1f892141eb445e55adc7c"
+    },
+    {
+      "source": "scripts/g25_finish.py",
+      "snapshot": "03_g25_finish.py",
+      "sha256": "e334925c34613abd9252d29ad363395f155924941919eb3fa035bddfad9ece36"
+    },
+    {
+      "source": "scripts/g25_accept.py",
+      "snapshot": "04_g25_accept.py",
+      "sha256": "c02bdfa903ec0754310f5cb83d23e5ffd79552b5664b61ed0c27c5489806fb95"
+    },
+    {
+      "source": "scripts/g25_prepare.py",
+      "snapshot": "05_g25_prepare.py",
+      "sha256": "d6c7d10f7b8ef99916120d5a3ed639060b4b7205d98ce4064892d4bc5c7f5afd"
+    },
+    {
+      "source": "src/mcse/asr_level.py",
+      "snapshot": "06_asr_level.py",
+      "sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "07_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "08_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "09_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "10_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    }
+  ]
+}

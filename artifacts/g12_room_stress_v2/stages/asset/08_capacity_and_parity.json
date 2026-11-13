@@ -1,0 +1,58 @@
+[
+  {
+    "system": "mcnet",
+    "existing_G10_max_abs_difference": 0.0,
+    "frames": 63759,
+    "capacity_seconds": 0.10231763400003047,
+    "peak_allocated_bytes": 1937986048,
+    "peak_reserved_bytes": 4265607168,
+    "metadata": {
+      "system_id": "mcnet",
+      "kind": "mcnet",
+      "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+      "adapter_sha256": null,
+      "adapter_path": null,
+      "registry_source": null,
+      "registry_sha256": null,
+      "adapter_parameters": 0,
+      "base_parameters": 3328706,
+      "device": "cuda",
+      "dtype": "float32",
+      "load_seconds_in_shared_process": 14.884234909999975,
+      "ref_channel_zero_based": 4,
+      "streaming": false,
+      "resampling": false,
+      "per_utterance_normalization": false,
+      "chunking": false,
+      "lora_merge": false
+    }
+  },
+  {
+    "system": "g5/rotated_without_clean_identity_s20261112",
+    "existing_G10_max_abs_difference": 0.0,
+    "frames": 63759,
+    "capacity_seconds": 0.13947975399997858,
+    "peak_allocated_bytes": 1937263104,
+    "peak_reserved_bytes": 4202692608,
+    "metadata": {
+      "system_id": "g5/rotated_without_clean_identity_s20261112",
+      "kind": "adapter",
+      "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+      "adapter_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522",
+      "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+      "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+      "adapter_parameters": 3584,
+      "base_parameters": 3328706,
+      "device": "cuda",
+      "dtype": "float32",
+      "load_seconds_in_shared_process": 0.2297371779999935,
+      "ref_channel_zero_based": 4,
+      "streaming": false,
+      "resampling": false,
+      "per_utterance_normalization": false,
+      "chunking": false,
+      "lora_merge": false
+    }
+  }
+]

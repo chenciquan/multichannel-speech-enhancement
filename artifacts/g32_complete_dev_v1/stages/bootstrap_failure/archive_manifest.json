@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-13T00:59:37.608490+00:00",
+  "files": [
+    {
+      "source": "docs/G32_冻结前词数接口错误记录.md",
+      "snapshot": "00_G32_冻结前词数接口错误记录.md",
+      "sha256": "0b72182d7932f6bde8cea68cbc163e8b4862c0e255d26f7837574d566262e21f"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/bootstrap_failure_v1/g32_prepare_original.py",
+      "snapshot": "01_g32_prepare_original.py",
+      "sha256": "608ee34ea9e7c2befb526da54ed97df9c11b047689a5eec61de262f2fbba9fcd"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/bootstrap_failure_v1/preserved_error.json",
+      "snapshot": "02_preserved_error.json",
+      "sha256": "21fe9cf29eda4cf2bf8835a795b870db2d62cbd57d7ccfef5865c31ffd099f5c"
+    }
+  ]
+}

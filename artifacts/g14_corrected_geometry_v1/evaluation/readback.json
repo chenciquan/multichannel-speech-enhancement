@@ -1,0 +1,625 @@
+{
+  "cells": {
+    "legacy_counterrotation": {
+      "mcnet": {
+        "-40": {
+          "si_sdr_db": -1.556431473248669,
+          "Whisper_WER": 0.6376811594202898,
+          "CTC_WER": 0.5543478260869565
+        },
+        "20": {
+          "si_sdr_db": -1.067201701015827,
+          "Whisper_WER": 0.6195652173913043,
+          "CTC_WER": 0.5543478260869565
+        },
+        "70": {
+          "si_sdr_db": -3.0132713901683816,
+          "Whisper_WER": 0.8188405797101449,
+          "CTC_WER": 0.8079710144927537
+        }
+      },
+      "fixed": {
+        "-40": {
+          "si_sdr_db": -5.199681842661924,
+          "Whisper_WER": 1.067632850241546,
+          "CTC_WER": 0.7958937198067633
+        },
+        "20": {
+          "si_sdr_db": 6.285507932013175,
+          "Whisper_WER": 0.3188405797101449,
+          "CTC_WER": 0.15458937198067632
+        },
+        "70": {
+          "si_sdr_db": 5.397706860364877,
+          "Whisper_WER": 0.5857487922705314,
+          "CTC_WER": 0.501207729468599
+        }
+      },
+      "legacy_rotated": {
+        "-40": {
+          "si_sdr_db": 2.502980731308887,
+          "Whisper_WER": 0.606280193236715,
+          "CTC_WER": 0.4613526570048309
+        },
+        "20": {
+          "si_sdr_db": 3.734667908074848,
+          "Whisper_WER": 0.3695652173913043,
+          "CTC_WER": 0.20772946859903382
+        },
+        "70": {
+          "si_sdr_db": 2.818581941940856,
+          "Whisper_WER": 1.2198067632850242,
+          "CTC_WER": 0.5458937198067633
+        }
+      },
+      "mcnet_mvdr": {
+        "-40": {
+          "si_sdr_db": -0.32188160514441677,
+          "Whisper_WER": 0.6376811594202898,
+          "CTC_WER": 0.4782608695652174
+        },
+        "20": {
+          "si_sdr_db": 1.2778722984251534,
+          "Whisper_WER": 1.108695652173913,
+          "CTC_WER": 0.4601449275362319
+        },
+        "70": {
+          "si_sdr_db": -2.9288570486391845,
+          "Whisper_WER": 1.4565217391304348,
+          "CTC_WER": 0.8007246376811594
+        }
+      },
+      "fixed_mvdr": {
+        "-40": {
+          "si_sdr_db": -2.544503713244805,
+          "Whisper_WER": 0.9142512077294686,
+          "CTC_WER": 0.5495169082125604
+        },
+        "20": {
+          "si_sdr_db": 7.3208883622757766,
+          "Whisper_WER": 0.18840579710144928,
+          "CTC_WER": 0.07608695652173914
+        },
+        "70": {
+          "si_sdr_db": 5.46689849851805,
+          "Whisper_WER": 0.4722222222222222,
+          "CTC_WER": 0.24154589371980675
+        }
+      },
+      "legacy_rotated_mvdr": {
+        "-40": {
+          "si_sdr_db": 5.219635500119898,
+          "Whisper_WER": 0.3309178743961353,
+          "CTC_WER": 0.20531400966183574
+        },
+        "20": {
+          "si_sdr_db": 7.201934344172285,
+          "Whisper_WER": 0.2113526570048309,
+          "CTC_WER": 0.10507246376811594
+        },
+        "70": {
+          "si_sdr_db": 5.497763282037557,
+          "Whisper_WER": 0.4335748792270531,
+          "CTC_WER": 0.21859903381642512
+        }
+      }
+    },
+    "rigid_rotation": {
+      "mcnet": {
+        "-40": {
+          "si_sdr_db": -1.280065485029267,
+          "Whisper_WER": 1.0289855072463767,
+          "CTC_WER": 0.5652173913043478
+        },
+        "20": {
+          "si_sdr_db": -1.067201701015827,
+          "Whisper_WER": 0.6195652173913043,
+          "CTC_WER": 0.5543478260869565
+        },
+        "70": {
+          "si_sdr_db": -2.46262230012678,
+          "Whisper_WER": 0.7862318840579711,
+          "CTC_WER": 0.7971014492753623
+        }
+      },
+      "fixed": {
+        "-40": {
+          "si_sdr_db": -1.2496122943942798,
+          "Whisper_WER": 1.036231884057971,
+          "CTC_WER": 0.6473429951690821
+        },
+        "20": {
+          "si_sdr_db": 6.285507932013175,
+          "Whisper_WER": 0.3188405797101449,
+          "CTC_WER": 0.15458937198067632
+        },
+        "70": {
+          "si_sdr_db": 4.336033218083822,
+          "Whisper_WER": 1.0217391304347827,
+          "CTC_WER": 0.5458937198067633
+        }
+      },
+      "legacy_rotated": {
+        "-40": {
+          "si_sdr_db": 2.992033214841281,
+          "Whisper_WER": 0.5229468599033816,
+          "CTC_WER": 0.3502415458937198
+        },
+        "20": {
+          "si_sdr_db": 3.734667908074848,
+          "Whisper_WER": 0.3695652173913043,
+          "CTC_WER": 0.20772946859903382
+        },
+        "70": {
+          "si_sdr_db": 2.8318289184900616,
+          "Whisper_WER": 0.6364734299516909,
+          "CTC_WER": 0.5471014492753623
+        }
+      },
+      "mcnet_mvdr": {
+        "-40": {
+          "si_sdr_db": 0.813339453469254,
+          "Whisper_WER": 1.25,
+          "CTC_WER": 0.5615942028985508
+        },
+        "20": {
+          "si_sdr_db": 1.2778722984251534,
+          "Whisper_WER": 1.108695652173913,
+          "CTC_WER": 0.4601449275362319
+        },
+        "70": {
+          "si_sdr_db": -0.9247406517840533,
+          "Whisper_WER": 1.1557971014492754,
+          "CTC_WER": 0.6920289855072463
+        }
+      },
+      "fixed_mvdr": {
+        "-40": {
+          "si_sdr_db": 1.1907500115850427,
+          "Whisper_WER": 0.4782608695652174,
+          "CTC_WER": 0.3115942028985507
+        },
+        "20": {
+          "si_sdr_db": 7.320888362275777,
+          "Whisper_WER": 0.18840579710144928,
+          "CTC_WER": 0.07608695652173914
+        },
+        "70": {
+          "si_sdr_db": 5.162741386866656,
+          "Whisper_WER": 0.39492753623188404,
+          "CTC_WER": 0.26811594202898553
+        }
+      },
+      "legacy_rotated_mvdr": {
+        "-40": {
+          "si_sdr_db": 6.070040278878098,
+          "Whisper_WER": 0.28502415458937197,
+          "CTC_WER": 0.13043478260869565
+        },
+        "20": {
+          "si_sdr_db": 7.201934344172285,
+          "Whisper_WER": 0.2113526570048309,
+          "CTC_WER": 0.10507246376811594
+        },
+        "70": {
+          "si_sdr_db": 5.707973638795157,
+          "Whisper_WER": 0.37077294685990336,
+          "CTC_WER": 0.23067632850241546
+        }
+      }
+    }
+  },
+  "all_seed_legacy_training_contrasts": {
+    "legacy_counterrotation": {
+      "20261112": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 8.09721708508308,
+            "Whisper_WER": -0.9166666666666667,
+            "CTC_WER": -0.3333333333333333
+          },
+          "20": {
+            "si_sdr_db": -3.4011647140045618,
+            "Whisper_WER": 0.00724637681159418,
+            "CTC_WER": 0.03260869565217392
+          },
+          "70": {
+            "si_sdr_db": -3.0232024573365455,
+            "Whisper_WER": 0.8369565217391304,
+            "CTC_WER": 0.018115942028985588
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 7.888730280160583,
+            "Whisper_WER": -0.4021739130434783,
+            "CTC_WER": -0.3804347826086957
+          },
+          "20": {
+            "si_sdr_db": -0.3200172906856036,
+            "Whisper_WER": 0.025362318840579712,
+            "CTC_WER": 0.03260869565217392
+          },
+          "70": {
+            "si_sdr_db": 0.22218353236635746,
+            "Whisper_WER": -0.06884057971014496,
+            "CTC_WER": -0.010869565217391297
+          }
+        }
+      },
+      "20261113": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 7.139015836131535,
+            "Whisper_WER": -0.23188405797101452,
+            "CTC_WER": -0.33333333333333337
+          },
+          "20": {
+            "si_sdr_db": -1.2918819085729014,
+            "Whisper_WER": 0.06521739130434784,
+            "CTC_WER": 0.05434782608695651
+          },
+          "70": {
+            "si_sdr_db": -1.56611718293032,
+            "Whisper_WER": 0.08695652173913038,
+            "CTC_WER": 0.04710144927536225
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 7.028474086043968,
+            "Whisper_WER": -0.37318840579710144,
+            "CTC_WER": -0.31884057971014496
+          },
+          "20": {
+            "si_sdr_db": 0.12816424444691066,
+            "Whisper_WER": 0.010869565217391297,
+            "CTC_WER": 0.025362318840579712
+          },
+          "70": {
+            "si_sdr_db": -0.04763444801900629,
+            "Whisper_WER": -0.01449275362318836,
+            "CTC_WER": -0.0289855072463768
+          }
+        }
+      },
+      "20261114": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 7.871754800697816,
+            "Whisper_WER": -0.23550724637681164,
+            "CTC_WER": -0.3369565217391305
+          },
+          "20": {
+            "si_sdr_db": -2.9594734492375165,
+            "Whisper_WER": 0.07971014492753625,
+            "CTC_WER": 0.07246376811594202
+          },
+          "70": {
+            "si_sdr_db": -3.1480551150051963,
+            "Whisper_WER": 0.9782608695652174,
+            "CTC_WER": 0.0688405797101449
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 8.375213273889557,
+            "Whisper_WER": -0.9746376811594204,
+            "CTC_WER": -0.33333333333333326
+          },
+          "20": {
+            "si_sdr_db": -0.16500900807178454,
+            "Whisper_WER": 0.03260869565217392,
+            "CTC_WER": 0.0289855072463768
+          },
+          "70": {
+            "si_sdr_db": -0.08195473378883289,
+            "Whisper_WER": -0.03260869565217389,
+            "CTC_WER": -0.02898550724637683
+          }
+        }
+      }
+    },
+    "rigid_rotation": {
+      "20261112": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 4.059185007060337,
+            "Whisper_WER": -0.24275362318840576,
+            "CTC_WER": -0.28260869565217395
+          },
+          "20": {
+            "si_sdr_db": -3.4011647140045618,
+            "Whisper_WER": 0.00724637681159418,
+            "CTC_WER": 0.03260869565217392
+          },
+          "70": {
+            "si_sdr_db": -1.716050388229665,
+            "Whisper_WER": -0.13043478260869568,
+            "CTC_WER": -0.01449275362318847
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 5.145015916853368,
+            "Whisper_WER": -0.18478260869565216,
+            "CTC_WER": -0.18115942028985504
+          },
+          "20": {
+            "si_sdr_db": -0.32001729068560447,
+            "Whisper_WER": 0.025362318840579712,
+            "CTC_WER": 0.03260869565217392
+          },
+          "70": {
+            "si_sdr_db": 0.6811855396771813,
+            "Whisper_WER": 0.018115942028985532,
+            "CTC_WER": -0.043478260869565216
+          }
+        }
+      },
+      "20261113": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 4.516278967196433,
+            "Whisper_WER": -0.2536231884057971,
+            "CTC_WER": -0.3043478260869565
+          },
+          "20": {
+            "si_sdr_db": -1.2918819085729014,
+            "Whisper_WER": 0.06521739130434784,
+            "CTC_WER": 0.05434782608695651
+          },
+          "70": {
+            "si_sdr_db": -0.7868913194081433,
+            "Whisper_WER": -1.0108695652173911,
+            "CTC_WER": -0.02898550724637683
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 4.358862577436521,
+            "Whisper_WER": -0.2065217391304348,
+            "CTC_WER": -0.17391304347826084
+          },
+          "20": {
+            "si_sdr_db": 0.12816424444690977,
+            "Whisper_WER": 0.010869565217391297,
+            "CTC_WER": 0.025362318840579712
+          },
+          "70": {
+            "si_sdr_db": 0.48406006077902397,
+            "Whisper_WER": -0.07246376811594202,
+            "CTC_WER": -0.0579710144927536
+          }
+        }
+      },
+      "20261114": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 4.149472553449914,
+            "Whisper_WER": -1.0434782608695652,
+            "CTC_WER": -0.30434782608695654
+          },
+          "20": {
+            "si_sdr_db": -2.959473449237516,
+            "Whisper_WER": 0.07971014492753625,
+            "CTC_WER": 0.07246376811594202
+          },
+          "70": {
+            "si_sdr_db": -2.009671191143473,
+            "Whisper_WER": -0.01449275362318836,
+            "CTC_WER": 0.047101449275362306
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 5.133992307589276,
+            "Whisper_WER": -0.18840579710144928,
+            "CTC_WER": -0.18840579710144925
+          },
+          "20": {
+            "si_sdr_db": -0.16500900807178276,
+            "Whisper_WER": 0.03260869565217392,
+            "CTC_WER": 0.0289855072463768
+          },
+          "70": {
+            "si_sdr_db": 0.47045115532930026,
+            "Whisper_WER": -0.018115942028985477,
+            "CTC_WER": -0.01086956521739127
+          }
+        }
+      }
+    }
+  },
+  "negative_controls": {
+    "pairs": 1080,
+    "exact_waveforms": 1080,
+    "maximum_abs_difference": 0.0,
+    "any_backend_hypothesis_difference_pairs": 0,
+    "predefined_tolerance": 1e-05
+  },
+  "resources": [
+    {
+      "system": "mcnet",
+      "elapsed_seconds_with_metrics": 61.33547818300002,
+      "peak_allocated_bytes": 1712467968,
+      "peak_reserved_bytes": 4091543552,
+      "metadata": {
+        "system_id": "mcnet",
+        "kind": "mcnet",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": null,
+        "adapter_path": null,
+        "registry_source": null,
+        "registry_sha256": null,
+        "adapter_parameters": 0,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 18.157115170999987,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 43.55219778099999,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "117cb69f05daf10e437db1db6022dd64f97f356ad28fe41c05d5960d3dfe7881",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.30782692299999326,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 42.26589099999998,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.23428376000001094,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 44.424788355999965,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "780c6ee32cda78d0eb0d994a1302ae1e3572838af1dfd6cce2789b9f245e2fd7",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.23184897799995952,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 42.535276775,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "a9af5016b0253c1348cb71814c0edcba2c86d1d6f7f3ba5bfcc5f0ea9b695f12",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.20763771000002862,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 43.83210791799996,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "77e525e9aa58d5604e69948c85bceb2be56b87b739a48efcfb2c18167813022d",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.25113266799996836,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 43.728908648000015,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 4028628992,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "558e2812fc31833ee87e6e9dbd3f5963ce62a83982ffbef3f8d6af7983ac2f4c",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.22843313800001397,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    }
+  ]
+}

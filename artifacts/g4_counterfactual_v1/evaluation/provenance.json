@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-11T19:34:03.499817+00:00",
+  "training_performed": false,
+  "manifest_sha256": "a400fd3e2088450b0e9c76ab2a9dee607e432b4b76e8596e5d662b587e707ff8",
+  "protocol_sha256": "c04b12fb3cfa2c7ed185c4e41c2152c204d2f0015e942a2dacdcacae43b9acde",
+  "supplement_sha256": "e1638e444a45e8bad248390572f440e018d9fedb4260c76c9ee46ec5de3dcb63",
+  "previous_stage_archive_sha256": "794a510def32307d564ae0af4db390d8c72fee8b0056bae7539078c48e73d2a5",
+  "fp32_inference": true,
+  "blas_threads": 1,
+  "cpu_metric_workers": 2,
+  "metric_source": "saved FLOAT WAV, no resampling/normalization/alignment fitting",
+  "checkpoint_selection": "G3 validation-selected first seed for every variant; no G4 tuning"
+}

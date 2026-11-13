@@ -1,0 +1,60 @@
+{
+  "saved_utc": "2026-11-13T01:02:13.735255+00:00",
+  "files": [
+    {
+      "source": "docs/G32C_完整开发语句信号评价协议.md",
+      "snapshot": "00_G32C_完整开发语句信号评价协议.md",
+      "sha256": "a99b0be19283ac0f8d0a3d5c0cdff3c354744f757f76ebcce72ee6d725e3311e"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/signal_plan.json",
+      "snapshot": "01_signal_plan.json",
+      "sha256": "165dad07e66b29dee2561d33e4e3532a41fed42df40a21f359b5f1467c924436"
+    },
+    {
+      "source": "scripts/g32_signal.py",
+      "snapshot": "02_g32_signal.py",
+      "sha256": "6805bdc9dd6bac1e4adeaf59c5aefbb9b99dc75849ac5cd66983178d2ddd7d5c"
+    },
+    {
+      "source": "scripts/g32_worker.py",
+      "snapshot": "03_g32_worker.py",
+      "sha256": "faff95d02c7a4a89456949dfab5ca48c3593d2e939fe8dee4a7375bbaa440c94"
+    },
+    {
+      "source": "scripts/g32_signal_finish.py",
+      "snapshot": "04_g32_signal_finish.py",
+      "sha256": "6957b6f0220dedf584294e7e784594e5ca1116fd6770f02d61df783f90c1caeb"
+    },
+    {
+      "source": "scripts/g32_common.py",
+      "snapshot": "05_g32_common.py",
+      "sha256": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a"
+    },
+    {
+      "source": "scripts/mcnet_infer.py",
+      "snapshot": "06_mcnet_infer.py",
+      "sha256": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "07_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "08_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "src/mcse/wiener.py",
+      "snapshot": "09_wiener.py",
+      "sha256": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752"
+    },
+    {
+      "source": "src/mcse/evaluation.py",
+      "snapshot": "10_evaluation.py",
+      "sha256": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526"
+    }
+  ]
+}

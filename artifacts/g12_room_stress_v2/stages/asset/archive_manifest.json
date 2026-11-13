@@ -1,0 +1,65 @@
+{
+  "saved_utc": "2026-11-12T08:09:04.838162+00:00",
+  "files": [
+    {
+      "source": "docs/G12A_房间响应生成器与资源验证.md",
+      "snapshot": "00_G12A_房间响应生成器与资源验证.md",
+      "sha256": "76ed4af5616a9ef86ddab79678548d5bcea33827ad3d8258fbc2341a94d92d23"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "dce0200625a40dfe3e51141ab131585c106eed5237addbf10dfcd9163cda5b06"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/ASSET_COMPLETE.json",
+      "snapshot": "02_ASSET_COMPLETE.json",
+      "sha256": "2c1bdffe56f6514394d31ebc334076e7f719b848e6f19eb8470120405505124e"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/selected_sources.json",
+      "snapshot": "03_selected_sources.json",
+      "sha256": "c259940feada71a73db20fb881af1f7234d71a43c1e2520ef057b86b92697a6c"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/assets/publisher_metadata.json",
+      "snapshot": "04_publisher_metadata.json",
+      "sha256": "71ce6156c703a8d6e410e285b7fcf51ee4af01319c9925e2445eb2fef93770f9"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/assets/distributions_before.json",
+      "snapshot": "05_distributions_before.json",
+      "sha256": "601c78315664ed9285736cc127fbdcf1c318fef46bda668bf36b78bb31ca4bf1"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/assets/distributions_after.json",
+      "snapshot": "06_distributions_after.json",
+      "sha256": "c1b92d8eacadfe14d3f4e20ead459df03dc2858b5b147017eb2ec0d66f1b200c"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/assets/RIR_smoke.json",
+      "snapshot": "07_RIR_smoke.json",
+      "sha256": "a666380b47d9af39544b6ce00b65f689294274473e03a511cb79a4fe3f763581"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/assets/capacity_and_parity.json",
+      "snapshot": "08_capacity_and_parity.json",
+      "sha256": "7d8f9924f94d5eacc563c66a8873978cc0a65c9c04da1eec2e4cf01217c0cebd"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/full86_unit_tests.log",
+      "snapshot": "09_full86_unit_tests.log",
+      "sha256": "4e2e9a0f4b1132735c3ee99df52b828ae9cf0a3da034c2cea0afc3ce35477183"
+    },
+    {
+      "source": "requirements-room.lock.txt",
+      "snapshot": "10_requirements-room.lock.txt",
+      "sha256": "c1699b56034431c1ce9109a8327f3d44c28e80527ae89616d8355ccacd7c2204"
+    },
+    {
+      "source": "scripts/g12_asset.py",
+      "snapshot": "11_g12_asset.py",
+      "sha256": "ba522bdd1c52fb4946cb20c5f998a6b3ec1c013a63afa8d6ceb7a3c557e8f9cd"
+    }
+  ]
+}

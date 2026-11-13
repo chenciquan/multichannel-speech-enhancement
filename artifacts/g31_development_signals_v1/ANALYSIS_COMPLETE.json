@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:49:46.295412+00:00",
+  "rows": 1404,
+  "reference_cases": 108,
+  "SI_recomputed": 1404,
+  "summary_sha256": "13b10ad051d4e8fe00b96ad81af085a59e940f719132db9cc216333ae687f894",
+  "decision_sha256": "616435ef451268be453a63da749793a4214762c37addcceb8880a37fad1df108",
+  "report_sha256": "45c1ae1de4436c11aa3249cc01a117f6fc4e06a78b498674c22b38987759684c",
+  "extension_gate_passed": false,
+  "ASR_performed": false
+}

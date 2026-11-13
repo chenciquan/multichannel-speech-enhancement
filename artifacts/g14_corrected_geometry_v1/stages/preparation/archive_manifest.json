@@ -1,0 +1,105 @@
+{
+  "saved_utc": "2026-11-12T08:39:52.606526+00:00",
+  "files": [
+    {
+      "source": "docs/G14A_正确几何配对自由场协议与数据.md",
+      "snapshot": "00_G14A_正确几何配对自由场协议与数据.md",
+      "sha256": "373fec7e5cff9a433a2ebbd36cb07cde0137f50e59c6fc61648a4774314c7c0e"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "0a5fd4f160aaab4613059222a67a8f3cb6e4a8ce41bd14ab9965ff0d98c308ce"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/PIPELINE_READY.json",
+      "snapshot": "02_PIPELINE_READY.json",
+      "sha256": "421a5bcb43ee63fca1d64938559ed82daaf521cc9641c0ccfa56e0b8b616ace1"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/systems.json",
+      "snapshot": "03_systems.json",
+      "sha256": "8031196852a13a7faf435c85b95ca92e51d7fe0455a45868fd1b1a1f6aef8b7b"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/selected_sources.json",
+      "snapshot": "04_selected_sources.json",
+      "sha256": "c259940feada71a73db20fb881af1f7234d71a43c1e2520ef057b86b92697a6c"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/analysis_test_observation.json",
+      "snapshot": "05_analysis_test_observation.json",
+      "sha256": "69d6ac4cb3ee548b6fea5ef49b731a5a1768ebfc49a3eefaa612b2f309cdd832"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "06_PREPARATION_COMPLETE.json",
+      "sha256": "4d789c325ab721e81f249b1a37ecbac523438a180d2f83217142943ee91cf4e1"
+    },
+    {
+      "source": "data/g14_v1/manifest.jsonl",
+      "snapshot": "07_manifest.jsonl",
+      "sha256": "cf0fd2c36e8c173ab42366db12bae17c8791648400024c0f8f39389804b1bbea"
+    },
+    {
+      "source": "configs/g14_corrected_geometry_plan.json",
+      "snapshot": "08_g14_corrected_geometry_plan.json",
+      "sha256": "d4b86f12c7647df28ff4bbec3bed98e72194809277dd0b5edf112fa269684c45"
+    },
+    {
+      "source": "scripts/g14_common.py",
+      "snapshot": "09_g14_common.py",
+      "sha256": "5b1dbae1f22183f74e26e7ba88c0bbbc3d90d4bb92789356e6628e44ec88ea81"
+    },
+    {
+      "source": "scripts/g14_queue.py",
+      "snapshot": "10_g14_queue.py",
+      "sha256": "3f96cfa98f10420a3754ad65a0814b168c60158b6f09a307530192c7d2fbf2cb"
+    },
+    {
+      "source": "scripts/g14_build.py",
+      "snapshot": "11_g14_build.py",
+      "sha256": "f887bd4241f35dfa44eb326b242a8d242f7b765e92157b7b95812e455e3eb302"
+    },
+    {
+      "source": "scripts/g14_signal.py",
+      "snapshot": "12_g14_signal.py",
+      "sha256": "348205a665129e54e76458549317085981cea48ec6ee027a6bbc14d0a072f068"
+    },
+    {
+      "source": "scripts/g14_asr.py",
+      "snapshot": "13_g14_asr.py",
+      "sha256": "95457887246434f03bd151f706cc0f9288dacbff393c6a6c10ff344faa87d634"
+    },
+    {
+      "source": "scripts/g14_finish.py",
+      "snapshot": "14_g14_finish.py",
+      "sha256": "90ba4e3ecc1f380fd382b1f2a62d3f364155c084ca3257665e4e5fd73a5cf747"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "15_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "16_runtime.py",
+      "sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "17_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "tests/test_g14_analysis.py",
+      "snapshot": "18_test_g14_analysis.py",
+      "sha256": "c3e267448d19d5fdb675b61d4d8c6909d579beadf66cdb4ce40bc663a344bcf6"
+    },
+    {
+      "source": "tests/test_azimuth_geometry.py",
+      "snapshot": "19_test_azimuth_geometry.py",
+      "sha256": "a27d07cfec01998336c654bb1d142448e08604792b8818a3717673c9d2e490bb"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "research_date_local": "2026-11-13",
+  "tool": "Exa web_search_exa and web_fetch_exa",
+  "successful_search_calls": 2,
+  "returned_search_hits": 10,
+  "unique_candidate_URLs": 9,
+  "initial_schema_error": "Missing required objective field; corrected before two successful search calls",
+  "primary_pages_read": [
+    "https://arxiv.org/html/2409.06456v2",
+    "https://arxiv.org/html/2606.24137",
+    "https://arxiv.org/abs/2409.06456",
+    "https://vbn.aau.dk/en/publications/neural-variable-span-filters-for-interpretable-multi-channel-spee/",
+    "https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.html"
+  ],
+  "additional_primary_search_records": [
+    "https://ieeexplore.ieee.org/document/11464002",
+    "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=11616"
+  ],
+  "fetch_failure": {
+    "URL": "https://doi.org/10.1109/ICASSP55912.2026.11464002",
+    "reason": "CRAWL_LIVECRAWL_TIMEOUT",
+    "resolution": "University publication record plus IEEE and conference search records"
+  },
+  "limitations": "Fetched pages had 6500 or 10000 character caps. No complete PDF, full results reproduction, official implementation, code license, weights or GPU training-resource validation. ABIC-MVDR formal venue remains unverified here.",
+  "running_G22_experiment_changed": false
+}

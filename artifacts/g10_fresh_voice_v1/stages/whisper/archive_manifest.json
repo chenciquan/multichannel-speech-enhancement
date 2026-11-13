@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T05:45:08.186460+00:00",
+  "files": [
+    {
+      "source": "docs/G10E_Whisper新说话人初评.md",
+      "snapshot": "00_G10E_Whisper新说话人初评.md",
+      "sha256": "4471d4f9676e95df8a1f67b46883c92d80d7d5ede55cf9a176c636cf96f3fbc6"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "bfde57e807883923fb7c43db1acd6682952e221cdda6aa366a8933c288be840d"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "58050cd49ff6316a26caaf9ec68772fa061ed670aa4d4cca562d0b411aa039f7"
+    },
+    {
+      "source": "scripts/g10_asr.py",
+      "snapshot": "03_g10_asr.py",
+      "sha256": "7460bb8937118201de2f6cb03dac19d400f78d99f12913b7505354ce87c3ccd9"
+    }
+  ]
+}

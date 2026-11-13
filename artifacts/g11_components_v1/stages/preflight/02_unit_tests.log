@@ -1,0 +1,12 @@
+test_exact_filter_reproduction_and_linearity (test_components.ComponentTests.test_exact_filter_reproduction_and_linearity) ... ok
+test_identity_components (test_components.ComponentTests.test_identity_components) ... ok
+test_invalid_and_zero_reference_rejected (test_components.ComponentTests.test_invalid_and_zero_reference_rejected) ... ok
+test_known_gain_and_noise_energy_accounting (test_components.ComponentTests.test_known_gain_and_noise_energy_accounting) ... ok
+test_pcm24_channel_matches_independent_mono_roundtrip (test_components.ComponentTests.test_pcm24_channel_matches_independent_mono_roundtrip) ... ok
+test_perfect_rejection_floor_flagged (test_components.ComponentTests.test_perfect_rejection_floor_flagged) ... ok
+test_speech_cancellation_not_silently_omitted (test_components.ComponentTests.test_speech_cancellation_not_silently_omitted) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.220s
+
+OK

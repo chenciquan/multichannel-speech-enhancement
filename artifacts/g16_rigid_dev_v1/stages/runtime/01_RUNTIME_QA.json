@@ -1,0 +1,97 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T09:30:30.353719+00:00",
+  "previous_runtime_sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead",
+  "current_runtime_sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0",
+  "new_model_probes": [
+    {
+      "system": "rigid_without_clean_identity_s20261112",
+      "case": "g15_val_g5_validation_0000_1988-147956-0003",
+      "SI_difference": 0.0,
+      "STOI_difference": 0.0,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "8ec1d74ade15fe02285386fa638c6272491b506a338f575464772c538aba82dc",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 16.228668881999994,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261113",
+      "case": "g15_val_g5_validation_0000_1988-147956-0003",
+      "SI_difference": 0.0,
+      "STOI_difference": 0.0,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "9928379fe782ca418967a9d42454b77dc17631f2dd067e0cd55c607f057d6a31",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.20053592499999695,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261114",
+      "case": "g15_val_g5_validation_0000_1988-147956-0003",
+      "SI_difference": 0.0,
+      "STOI_difference": 0.0,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "73e32015d4abc5617dd2b9a4dcefdde868014d717b04500c36928d226123e38f",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.16499540600000273,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    }
+  ],
+  "old_model_probes": [
+    {
+      "system": "mcnet",
+      "max_abs": 0.0
+    },
+    {
+      "system": "g5/rotated_without_clean_identity_s20261112",
+      "max_abs": 0.0
+    }
+  ],
+  "full_tests": 98
+}

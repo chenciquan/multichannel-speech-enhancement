@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:57:12.766961+00:00",
+  "files": [
+    {
+      "source": "docs/G17D_新语音MVDR信号报告.md",
+      "snapshot": "00_G17D_新语音MVDR信号报告.md",
+      "sha256": "97028d0b9c8a25256dddfcedf06d12bb1fa68c9954e20b343b31e7b42f73335a"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/BEAM_COMPLETE.json",
+      "snapshot": "01_BEAM_COMPLETE.json",
+      "sha256": "9a591f3c527667e5abb3b2d38079822177825cbd145e66b7df1f07a7e1d289e0"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/beam_provenance.json",
+      "snapshot": "02_beam_provenance.json",
+      "sha256": "490685950d03c79bcadef1c011568a93c05bb93ff914ea9b7660d3be60b0ac61"
+    },
+    {
+      "source": "scripts/g17_signal.py",
+      "snapshot": "03_g17_signal.py",
+      "sha256": "2a0623d88b5193e406398da70a69dd837b68f4083e3b35200bf1dc7ba1d029a1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "python": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "executable": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/bin/python",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "training_performed": false,
+  "speech_experiment_performed": false,
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "torchaudio": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "soundfile": "0.12.1",
+    "pandas": "2.1.4",
+    "librosa": "0.10.2.post1",
+    "pytorch-lightning": "1.9.5",
+    "torchmetrics": "0.11.4",
+    "PyYAML": "6.0.3"
+  },
+  "torch_cuda_runtime": "12.1",
+  "cuda_available": true,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_bytes": 8585216000,
+    "compute_capability": [
+      8,
+      9
+    ]
+  },
+  "tiny_cuda_matrix_check": true,
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 1986 MiB, 616.92",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "saved_utc": "2026-11-13T01:26:53.501484+00:00",
+  "files": [
+    {
+      "source": "docs/G33A_全参数与LoRA训练资源预检协议.md",
+      "snapshot": "00_G33A_全参数与LoRA训练资源预检协议.md",
+      "sha256": "60aa6ba6e6ddadd911c4a3c066fdfce8d06aeab5af803b2479c5fe2c2c689447"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "4dda4cce45a9cd0ca646c3ee258dfd94e40b872849c78dfac6e6ebf7e1e0b3c8"
+    },
+    {
+      "source": "scripts/g33_common.py",
+      "snapshot": "02_g33_common.py",
+      "sha256": "5e33d376bdc3dd9eb22a10660b2bd2f2c365181c32b385226d068390c001ebde"
+    },
+    {
+      "source": "scripts/g33_prepare.py",
+      "snapshot": "03_g33_prepare.py",
+      "sha256": "6a17ad4a59b14b7171cd64c968c4754675f4874dc4155c147f9e0fbb57fd68d0"
+    },
+    {
+      "source": "scripts/g33_probe.py",
+      "snapshot": "04_g33_probe.py",
+      "sha256": "144fe2d1070e6bb92689b9e42b1f4e4237102fec3f0ca6264d2592ac65c10c06"
+    },
+    {
+      "source": "scripts/g33_queue.py",
+      "snapshot": "05_g33_queue.py",
+      "sha256": "b8c5b122ac0ef1a2d2fb2881f7bac3bb3810824be14a937917ba4765e4df6d2d"
+    },
+    {
+      "source": "scripts/g33_accept.py",
+      "snapshot": "06_g33_accept.py",
+      "sha256": "35c6390f1eafffc52760b69433b2dadec230e1ac0323c202b4a06a1e7dda2633"
+    },
+    {
+      "source": "scripts/g28_gradient_v2.py",
+      "snapshot": "07_g28_gradient_v2.py",
+      "sha256": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82"
+    },
+    {
+      "source": "scripts/mcnet_infer.py",
+      "snapshot": "08_mcnet_infer.py",
+      "sha256": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "09_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "10_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    }
+  ]
+}

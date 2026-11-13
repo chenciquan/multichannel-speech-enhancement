@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-11-12T18:56:31.512464+00:00",
+  "signal_pid": 281,
+  "observed_cmdline": ".venv/bin/python -u scripts/g22_signal_queue.py ",
+  "max_signal_wait_seconds": 22260,
+  "max_ASR_process_seconds": 7800,
+  "hashes": {
+    "scripts/g22_continue.py": "e4c75536f20a9f731b6d39e8766010b4f28793c752682d9c099bf11271ebc46f",
+    "scripts/g22_signal_accept.py": "f2ddc66585bb5969bf13d3026e09ac581c1eb807274bf16e8c1200527b2f3060",
+    "scripts/g22_asr.py": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e",
+    "scripts/g22_asr_finish.py": "f927ad60c3a59b49001242ea9b6dd4902e9761bd550b4385a179c3560ed51ab8",
+    "scripts/g22_final_accept.py": "3b5037e5e1b37607b4708f179e00c7b4a5fb292a8152154f015bb1a046f5aaa2",
+    "scripts/keep_awake_job.ps1": "baa26fccc184eb1ed271df0c928e2af7c84570164169e2a21fa0b8229ff0e7d7"
+  }
+}

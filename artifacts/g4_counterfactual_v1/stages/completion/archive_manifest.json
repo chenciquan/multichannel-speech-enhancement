@@ -1,0 +1,35 @@
+{
+  "saved_at_utc": "2026-11-11T19:42:21.164284+00:00",
+  "files": [
+    {
+      "source": "docs/G4_空间泛化压力测试报告.md",
+      "snapshot": "00_G4_空间泛化压力测试报告.md",
+      "sha256": "76d53fb5784887cfefdc48b41538ed22938188d0f15fcd23b900b977d75c28c3"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "92b0f865f1d8208c5310065c805929f4ec25fd50954b57e5175cf9faa1743182"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "c524957d4343a64fccd2f980056e65ff2b9c018e0a0bfae437fbcdbb23aa07b7"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/evaluation/asr_provenance.json",
+      "snapshot": "03_asr_provenance.json",
+      "sha256": "afb0b7e6a75284a6d99dc3c9d5b2203b428c872717ff96b2791ca0f13fb1b6e2"
+    },
+    {
+      "source": "artifacts/g4_counterfactual_v1/review/selection.json",
+      "snapshot": "04_selection.json",
+      "sha256": "fca351b8130dd136a204266b9ce39882b2b1cb8e58b12fde0b747bb17c970fac"
+    },
+    {
+      "source": "scripts/g4_finish.py",
+      "snapshot": "05_g4_finish.py",
+      "sha256": "71813b9278c2b1db82c78c7ece095addb74c5f4f24fb9b53c130612ad8852b66"
+    }
+  ]
+}

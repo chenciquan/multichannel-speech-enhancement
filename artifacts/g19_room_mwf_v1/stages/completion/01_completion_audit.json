@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "coverage": {
+    "systems": 31,
+    "frontends": 10,
+    "cases": 504,
+    "clean_cases": 72,
+    "mixed_cases": 432,
+    "signal_and_each_ASR_rows": 15624,
+    "speakers": 4,
+    "utterances": 8
+  },
+  "archives_checked": {
+    "preflight": "6281c01682da3992c7da1f567bfa902e4a0aaf1e95120290cd75f04853d051a3",
+    "signal": "af7f0a7a03eb4b15ddd25b3d3da34307fdb7a296f33a821c033f4430322fcb78",
+    "whisper": "634ec4cdbda4d855a7667b189d8e0c4dbfb07a84342ba4671db42f333846e378",
+    "ctc": "a276eccb19df135f92ac9caeb5a794b4f195abbfbd124b05995587fb1ebd76a1"
+  },
+  "signals": {
+    "combined_sha256": "73e995eb112e0d8af15dbc3ca8e97dcddddb2e509d03c8b2c56dad88218eb1a7",
+    "mwf_sha256": "8597331d949795abee4efad9d4a1b402073e0af73a48a1ed9800c5c4520f4731",
+    "g18_combined_sha256": "df49d4ca09237a5e4fdf1b6b6987ecc8f09c51d0f540c98f8aac3bd586b969a8",
+    "matched_estimate_pairs": 5040,
+    "max_mask_mean_abs_diff": 3.3306690738754696e-16,
+    "mixture_files_checked": 504,
+    "reference_files_checked": 504,
+    "output_files_checked": 15624,
+    "clean_outputs_independently_measured": 2232
+  },
+  "ASR": {
+    "Whisper": {
+      "rows": 15624,
+      "baseline_sha256": "46de59c4e1568b9b8e937107e6d2f05ff7143be3b8c4f7444c857de1183c7ce5",
+      "new_sha256": "76a5be1c4e859d57d7d8713d377dfec15ae03896a8c7ec74e4b40f2358202ab8",
+      "new_output_and_reference_alignments_recomputed": 5040
+    },
+    "CTC": {
+      "rows": 15624,
+      "baseline_sha256": "ff0a546e840a0d2733f8882935766f8fea49ae4a98bde91e93defdaac00bf5f5",
+      "new_sha256": "1b3e1a68a741f898cea525e98da0e9258a4e17fe7d3293de0da069e45713f615",
+      "new_output_and_reference_alignments_recomputed": 5040
+    }
+  },
+  "summary_sha256": "1067e585d67f959f3ecea43ce022151f6f4df89fd381b7b5ca5645217b35dd47",
+  "completed_utc": "2026-11-12T13:32:39.928644+00:00",
+  "elapsed_seconds": 78.01149529600002
+}

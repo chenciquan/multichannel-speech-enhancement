@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "checks": {
+    "all5040_signal_and_each_ASR_unique_pairs": true,
+    "all_metrics_ok": true,
+    "all_audio_file_hashes_match": true,
+    "all1080_negative_controls_match_tolerance": true,
+    "all_six_adapters_match": true,
+    "geometry_code_frozen": true,
+    "legacy_rotation_source_unchanged": true,
+    "both_ASR_edit_scores_recompute": true,
+    "all_MVDR_masks_from_corresponding_estimate": true,
+    "preparation_before_signal": true,
+    "signal_before_beamforming": true,
+    "beamforming_before_Whisper": true,
+    "whisper_before_CTC": true,
+    "original_base_unchanged": true
+  },
+  "coverage": {
+    "systems": 15,
+    "cases_per_system": 336,
+    "signal_and_each_ASR_pairs": 5040,
+    "reused_utterances": 8,
+    "speakers": 4
+  },
+  "completed_utc": "2026-11-12T08:54:53.133239+00:00"
+}

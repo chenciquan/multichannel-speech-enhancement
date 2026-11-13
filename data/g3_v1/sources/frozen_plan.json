@@ -1,0 +1,91 @@
+{
+  "run_id": "g3_overnight_v1",
+  "start_utc": "2026-11-11T17:09:35Z",
+  "deadline_utc": "2026-11-11T22:09:35Z",
+  "training_cutoff_utc": "2026-11-11T21:19:35Z",
+  "data_cutoff_utc": "2026-11-11T18:04:35Z",
+  "source": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+  "max_stream_bytes": 201326592,
+  "train_speakers": 4,
+  "train_seconds_per_speaker": 360,
+  "minimum_train_seconds": 1200,
+  "validation_speakers": 2,
+  "validation_short_utterances_per_speaker": 6,
+  "test_sources": 30,
+  "test_max_sources_per_speaker": 10,
+  "test_min_speakers": 3,
+  "source_policy": "archive-order roles, train first4 speakers, validation next2, test later speakers excluding all previous diagnostic speakers; exclude all32 previous utterances from every split; select before any new model results",
+  "validation_test_duration_seconds": [
+    1.0,
+    3.8
+  ],
+  "noise_train": [
+    "DWASHING",
+    "DKITCHEN",
+    "OOFFICE"
+  ],
+  "noise_test": [
+    "OOFFICE",
+    "PCAFETER"
+  ],
+  "noise_time_partitions_seconds": {
+    "train": [
+      0,
+      120
+    ],
+    "validation": [
+      125,
+      175
+    ],
+    "test": [
+      180,
+      295
+    ]
+  },
+  "heldout_noise_type": "PCAFETER",
+  "train_angles": [
+    -90,
+    -60,
+    -30,
+    0,
+    30,
+    60,
+    90
+  ],
+  "validation_angles": [
+    -60,
+    60
+  ],
+  "test_angles": [
+    -60,
+    45
+  ],
+  "target_direction": "same registered nominal array, target20deg azimuth/10deg elevation",
+  "snr_db": [
+    -5,
+    0,
+    5
+  ],
+  "noise_preprocessing": "fixed40Hz highpass of noise before SNR calibration, all systems share data; score against unfiltered speech",
+  "spatial_model": "point source or eight independent-noise-source plane-wave sum; no conditional fixed-reference generator for training",
+  "train_examples": 2048,
+  "uniform_pool_point_fraction": 0.25,
+  "balanced_sampler_point_fraction": 0.5,
+  "segment_seconds": 1.0,
+  "rank": 4,
+  "lora_alpha": 4,
+  "learning_rate": 0.0003,
+  "clean_identity_weight": 0.1,
+  "clean_identity_interval": 5,
+  "target_steps": 3000,
+  "checkpoint_interval": 500,
+  "first_pair_seed": 20261112,
+  "extension_priority": [
+    "without_stratification",
+    "without_clean_identity",
+    "second_seed_main_pair"
+  ],
+  "minimum_evaluation_reserve_minutes": 50,
+  "test_use": "only after method/checkpoint selection on validation; no tuning from final test",
+  "report_negative_results": true
+}

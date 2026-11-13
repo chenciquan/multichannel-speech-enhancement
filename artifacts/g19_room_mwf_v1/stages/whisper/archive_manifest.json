@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T13:30:11.316923+00:00",
+  "files": [
+    {
+      "source": "docs/G19_Whisper识别覆盖.md",
+      "snapshot": "00_G19_Whisper识别覆盖.md",
+      "sha256": "bdcf3985106752b25f6a310aace3dc2f776cefdf2294c01207e2d55ca93cb9d9"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "372332dbb99abcafce42e0dc996f4bf27074943084e35a346e6782d7b8456ca1"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "663618927be2edb70ad198ca470cc3a97cb2af410c2c2ae824c1af06f89d8ffb"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "03_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    }
+  ]
+}

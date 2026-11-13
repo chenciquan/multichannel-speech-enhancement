@@ -1,0 +1,18 @@
+{
+  "status": "frozen_before_G6_measurements",
+  "authorization": "configs/research_session_v2.json",
+  "entry_gate": "G5 completion report, audit and snapshot saved",
+  "systems": ["mcnet", "g5/fixed_without_clean_identity_s20261112", "g5/rotated_without_clean_identity_s20261112", "g5/fixed_complete_s20261112", "g5/rotated_complete_s20261112"],
+  "input_selection": "Longest G5 confirmation OOFFICE point / target20 / relative-80 case, tie by sample ID; deterministic crops1s and3s, zero-pad only if source shorter, capacity test not quality experiment",
+  "inference": "FP32 CUDA, batch1, same original decoder, no LoRA merge",
+  "warmup_per_system_duration": 5,
+  "timed_calls_per_system_duration": 20,
+  "timing": "CUDA synchronized GPU tensor to GPU waveform, excludes transfer/file IO/model load; record individual calls, mean,p50,p95, compute RTF and allocated/reserved GPU memory",
+  "load_time_caution": "First load may include library imports/GPU initialization; later loads share process caches, not comparable cold-start measurements",
+  "runtime_limit_seconds": 600,
+  "streaming_claim": false,
+  "resource_report_before_cli": true,
+  "cli": "Registered G3/G5 adapter IDs or original McNet, six-channel16k WAV <=4s, verify archived manifest/weight hashes before pickle load, preserve amplitude/length, FLOAT WAV, refuse overwrites, provenance JSON",
+  "cli_QA": "Fixed first sorted G5 confirmation case, original McNet plus four first-seed cells, compare with existing saved G5 outputs maxabs<=1e-5. Also reject wrong channels/rate/length/nonfinite and existing output before loading model.",
+  "no_new_training_or_dependency": true
+}

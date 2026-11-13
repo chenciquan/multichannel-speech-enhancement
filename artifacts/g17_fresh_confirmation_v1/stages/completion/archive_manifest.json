@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T10:03:16.837455+00:00",
+  "files": [
+    {
+      "source": "docs/G17_三种方向训练策略新说话人确认报告.md",
+      "snapshot": "00_G17_三种方向训练策略新说话人确认报告.md",
+      "sha256": "cb87c33f66db3de19f2eacf1810d97412b86f4fa173e1a1bf395a58c2c15478d"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "fe3d7d7c3d1a61f0801e6e83721f4e2469eadc495249d3a18c47d2affb212a0d"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "3915ea33dd26e004c2b668243fad8131bd1edf9d351534f5054763a45a8d5df4"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "cad3357f049cdda0ea0a997c129c265a8ae2058c0eacbcfe97d4727d20b3c7ab"
+    },
+    {
+      "source": "artifacts/g17_fresh_confirmation_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "01d0dba41981f9c27f5f5ed762e3777ee14289bf39f0c023d935051fa59e6b75"
+    },
+    {
+      "source": "scripts/g17_finish.py",
+      "snapshot": "05_g17_finish.py",
+      "sha256": "e5dd80472e9b8dbd3b8982e09be4b6e2dafb62bc5d5bd0b957e3244731d98775"
+    }
+  ]
+}

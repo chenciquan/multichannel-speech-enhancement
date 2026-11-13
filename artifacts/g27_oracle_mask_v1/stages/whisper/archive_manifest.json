@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:04:46.842956+00:00",
+  "files": [
+    {
+      "source": "docs/G27_Whisper双电平识别覆盖.md",
+      "snapshot": "00_G27_Whisper双电平识别覆盖.md",
+      "sha256": "db3b1156328c8975e38f8006fe959c5608d76581e1143342245ae54685159af7"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/Whisper/raw/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "ceb22a83b9f67147d4b0ed89f90d962bf9a067eead82b4757dbe0685dc31615c"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/Whisper/level_control/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "ddcf6bd5baabb2c4178f3e94089004c8c2deac6ef6c175a003703df46661db8c"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/Whisper/raw/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "aceca4f8c1889612f547eff5f8e0e9f691eff59d63c3ae549b5b2240f5c34145"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/Whisper/level_control/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "e740f5834525b2efd53cbeee1d672398489fbcb7fd34ed97b85be3236516578e"
+    }
+  ]
+}

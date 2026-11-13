@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "stage": "G19",
+  "completed_utc": "2026-11-12T13:32:39.999876+00:00",
+  "report": "docs/G19_多通道Wiener与MVDR对照报告.md",
+  "report_sha256": "23346d3d2a8f7bdf8dbbe6f00311f7475d923d10ed2865f700b27fbe2c479bd4",
+  "archive_sha256": "f7c63c29dfc0327dd20dff153c57e73bc83959d348473d7d3ecd925397e9981c"
+}

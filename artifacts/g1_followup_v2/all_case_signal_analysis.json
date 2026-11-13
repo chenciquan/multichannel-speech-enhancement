@@ -1,0 +1,1538 @@
+[
+  {
+    "sample_id": "1988-147956-0013__DWASHING_ch01__snr0",
+    "source_id": "1988-147956-0013",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979582587300416,
+      "projection_gain": 0.957299574783296,
+      "rms_gain_db": -0.3590410706377028,
+      "difference_energy_relative_db": -22.601184067978288,
+      "max_abs_difference": 0.060576021671295166,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7079922504278168,
+      "projection_gain": 0.9708648016025719,
+      "rms_gain_db": 2.666141544340561,
+      "difference_energy_relative_db": -0.4276458039368813,
+      "max_abs_difference": 0.1540702059864998,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9672286575354978,
+      "noise_coefficient": 0.9477132910395283,
+      "rank": 2,
+      "condition_number": 1.0181956713526155,
+      "unexplained_energy_fraction": 0.003976650916217863,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0013__DKITCHEN_ch01__snr5",
+    "source_id": "1988-147956-0013",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9977289637804575,
+      "projection_gain": 0.9769834334960338,
+      "rms_gain_db": -0.17849151758695878,
+      "difference_energy_relative_db": -23.235624075517684,
+      "max_abs_difference": 0.05161556601524353,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8697603859297467,
+      "projection_gain": 0.9813829342085968,
+      "rms_gain_db": 1.0198872749404655,
+      "difference_energy_relative_db": -5.234144217347648,
+      "max_abs_difference": 0.13836869597434998,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.981276669638775,
+      "noise_coefficient": 0.9638799550657648,
+      "rank": 2,
+      "condition_number": 1.7472299255170949,
+      "unexplained_energy_fraction": 0.0044782702239170346,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0018__DWASHING_ch01__snr5",
+    "source_id": "1988-147956-0018",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979604346147379,
+      "projection_gain": 0.9780715343602228,
+      "rms_gain_db": -0.1810942555290727,
+      "difference_energy_relative_db": -23.680524659021742,
+      "max_abs_difference": 0.039205119013786316,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8692159308491506,
+      "projection_gain": 0.9812165470602007,
+      "rms_gain_db": 0.9865153149162164,
+      "difference_energy_relative_db": -5.286065053006946,
+      "max_abs_difference": 0.09603830426931381,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9843802094889842,
+      "noise_coefficient": 0.9590150523501059,
+      "rank": 2,
+      "condition_number": 1.7323026618524482,
+      "unexplained_energy_fraction": 0.003948145148622474,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "source_id": "1988-147956-0018",
+    "speaker_id": "1988",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9974141780430408,
+      "projection_gain": 0.9593592269691441,
+      "rms_gain_db": -0.33719367438379966,
+      "difference_energy_relative_db": -22.00613418004149,
+      "max_abs_difference": 0.051772087812423706,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7096290077039089,
+      "projection_gain": 0.9821663896176389,
+      "rms_gain_db": 2.7052191019528715,
+      "difference_energy_relative_db": -0.44439234367518426,
+      "max_abs_difference": 0.17759838700294495,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9742680599872334,
+      "noise_coefficient": 0.9452067040936318,
+      "rank": 2,
+      "condition_number": 1.0278570563467855,
+      "unexplained_energy_fraction": 0.004940572645663703,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0024__DWASHING_ch01__snr0",
+    "source_id": "1988-147956-0024",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979063896627514,
+      "projection_gain": 0.9583967642936803,
+      "rms_gain_db": -0.3542760510845041,
+      "difference_energy_relative_db": -22.594215806452578,
+      "max_abs_difference": 0.06887665390968323,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7003883443312429,
+      "projection_gain": 0.9659639911950183,
+      "rms_gain_db": 2.642417407152427,
+      "difference_energy_relative_db": -0.40897211249986,
+      "max_abs_difference": 0.1313752648420632,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9679333452752432,
+      "noise_coefficient": 0.9494547953530548,
+      "rank": 2,
+      "condition_number": 1.0327113290107053,
+      "unexplained_energy_fraction": 0.0040900134532003895,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0024__DKITCHEN_ch01__snr5",
+    "source_id": "1988-147956-0024",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9967793897074763,
+      "projection_gain": 0.9668703486490962,
+      "rms_gain_db": -0.2584936621235409,
+      "difference_energy_relative_db": -21.657631096730693,
+      "max_abs_difference": 0.08051010966300964,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8639574250553186,
+      "projection_gain": 0.9679307567822554,
+      "rms_gain_db": 0.9206912632608398,
+      "difference_energy_relative_db": -5.2363826766327914,
+      "max_abs_difference": 0.1489270031452179,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9694572841121666,
+      "noise_coefficient": 0.9591747143877525,
+      "rank": 2,
+      "condition_number": 1.722071977980029,
+      "unexplained_energy_fraction": 0.0064095553631754966,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0025__DWASHING_ch01__snr5",
+    "source_id": "1988-147956-0025",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9987686762000816,
+      "projection_gain": 0.9814700978639038,
+      "rms_gain_db": -0.15914651812135291,
+      "difference_energy_relative_db": -25.804159423899222,
+      "max_abs_difference": 0.023819774389266968,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8730734009440366,
+      "projection_gain": 0.9971089442763069,
+      "rms_gain_db": 1.064533464030695,
+      "difference_energy_relative_db": -5.413608205734395,
+      "max_abs_difference": 0.06787408888339996,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9925818557923277,
+      "noise_coefficient": 0.9491956913947521,
+      "rank": 2,
+      "condition_number": 1.7121770679209651,
+      "unexplained_energy_fraction": 0.002096636043577675,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "1988-147956-0025__DKITCHEN_ch01__snr0",
+    "source_id": "1988-147956-0025",
+    "speaker_id": "1988",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.998206232971477,
+      "projection_gain": 0.9657973334902797,
+      "rms_gain_db": -0.28898518927717204,
+      "difference_energy_relative_db": -23.5432284322849,
+      "max_abs_difference": 0.026461541652679443,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7085381455707724,
+      "projection_gain": 0.9907093492945583,
+      "rms_gain_db": 2.7340449867896144,
+      "difference_energy_relative_db": -0.44423842942775427,
+      "max_abs_difference": 0.13951744139194489,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9861247131113171,
+      "noise_coefficient": 0.946948422112889,
+      "rank": 2,
+      "condition_number": 1.0389579932067203,
+      "unexplained_energy_fraction": 0.0031788223235950925,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0006__DWASHING_ch01__snr0",
+    "source_id": "2035-147960-0006",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9958618344925302,
+      "projection_gain": 0.9519287644417775,
+      "rms_gain_db": -0.3916194244618555,
+      "difference_energy_relative_db": -20.05822268361934,
+      "max_abs_difference": 0.12386369705200195,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6280335372866289,
+      "projection_gain": 0.9464119766426764,
+      "rms_gain_db": 3.5624218257228657,
+      "difference_energy_relative_db": 1.3935943707579301,
+      "max_abs_difference": 0.18994393944740295,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9456973078441702,
+      "noise_coefficient": 0.9561293489390041,
+      "rank": 2,
+      "condition_number": 1.2181288678745104,
+      "unexplained_energy_fraction": 0.008230594799744135,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "source_id": "2035-147960-0006",
+    "speaker_id": "2035",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9960726975949526,
+      "projection_gain": 0.9543728956664543,
+      "rms_gain_db": -0.37151025202018995,
+      "difference_energy_relative_db": -20.322128058690723,
+      "max_abs_difference": 0.0675085037946701,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8488152255045389,
+      "projection_gain": 0.9599077363131656,
+      "rms_gain_db": 1.0683242723860251,
+      "difference_energy_relative_db": -4.448179591940457,
+      "max_abs_difference": 0.13234612345695496,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9601258652445404,
+      "noise_coefficient": 0.9397496040058312,
+      "rank": 2,
+      "condition_number": 1.5940388428331826,
+      "unexplained_energy_fraction": 0.007747466168236205,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0009__DWASHING_ch01__snr5",
+    "source_id": "2035-147960-0009",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9968655433612019,
+      "projection_gain": 0.9566885927855839,
+      "rms_gain_db": -0.3572545522673706,
+      "difference_energy_relative_db": -21.161722302780063,
+      "max_abs_difference": 0.05343380570411682,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8489109941765913,
+      "projection_gain": 0.9589251944722228,
+      "rms_gain_db": 1.058502712549241,
+      "difference_energy_relative_db": -4.45910189003531,
+      "max_abs_difference": 0.08593058586120605,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9587720021733503,
+      "noise_coefficient": 0.9512797123978854,
+      "rank": 2,
+      "condition_number": 1.6114700445799088,
+      "unexplained_energy_fraction": 0.006246860262028468,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0009__DKITCHEN_ch01__snr0",
+    "source_id": "2035-147960-0009",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979943456610969,
+      "projection_gain": 0.9541169947863597,
+      "rms_gain_db": -0.3905957834149927,
+      "difference_energy_relative_db": -22.381455014458524,
+      "max_abs_difference": 0.06073269248008728,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.62323563995856,
+      "projection_gain": 0.962977901127362,
+      "rms_gain_db": 3.7792685493567175,
+      "difference_energy_relative_db": 1.647857286705984,
+      "max_abs_difference": 0.1953784078359604,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9626990059345215,
+      "noise_coefficient": 0.9487907854901773,
+      "rank": 2,
+      "condition_number": 1.2694327163422408,
+      "unexplained_energy_fraction": 0.003957299460066507,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0013__DWASHING_ch01__snr0",
+    "source_id": "2035-147960-0013",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.998586224688683,
+      "projection_gain": 0.9611325011476126,
+      "rms_gain_db": -0.3322609879450094,
+      "difference_energy_relative_db": -23.8260124921684,
+      "max_abs_difference": 0.05819907784461975,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6474757815646532,
+      "projection_gain": 0.9749657478808225,
+      "rms_gain_db": 3.555401127746063,
+      "difference_energy_relative_db": 1.1975606590521957,
+      "max_abs_difference": 0.17803899943828583,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9749311379256188,
+      "noise_coefficient": 0.9515996817402219,
+      "rank": 2,
+      "condition_number": 1.2031225067856843,
+      "unexplained_energy_fraction": 0.0026835691537994578,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "source_id": "2035-147960-0013",
+    "speaker_id": "2035",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9973942598208887,
+      "projection_gain": 0.9635400543218665,
+      "rms_gain_db": -0.29993899707183713,
+      "difference_energy_relative_db": -22.079654543216197,
+      "max_abs_difference": 0.0445052832365036,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.846437279603333,
+      "projection_gain": 0.9726768734668939,
+      "rms_gain_db": 1.207479789145285,
+      "difference_energy_relative_db": -4.257566681059949,
+      "max_abs_difference": 0.12494860589504242,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9731823343965104,
+      "noise_coefficient": 0.9403455099693125,
+      "rank": 2,
+      "condition_number": 1.5503845268694443,
+      "unexplained_energy_fraction": 0.004964611313445692,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0015__DWASHING_ch01__snr5",
+    "source_id": "2035-147960-0015",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9961093510468072,
+      "projection_gain": 0.947706561046781,
+      "rms_gain_db": -0.43251840510648,
+      "difference_energy_relative_db": -20.10417417308141,
+      "max_abs_difference": 0.08633902668952942,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8413197572925503,
+      "projection_gain": 0.9520029976154065,
+      "rms_gain_db": 1.0744233397521643,
+      "difference_energy_relative_db": -4.240377088879162,
+      "max_abs_difference": 0.1587790697813034,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9503181740340284,
+      "noise_coefficient": 0.9413681662794909,
+      "rank": 2,
+      "condition_number": 1.5598922093606444,
+      "unexplained_energy_fraction": 0.007747985222368315,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2035-147960-0015__DKITCHEN_ch01__snr0",
+    "source_id": "2035-147960-0015",
+    "speaker_id": "2035",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9940516235140773,
+      "projection_gain": 0.9326106698782068,
+      "rms_gain_db": -0.5541901741891917,
+      "difference_energy_relative_db": -18.243561703449018,
+      "max_abs_difference": 0.12255701422691345,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6779366003699687,
+      "projection_gain": 0.9184157283790562,
+      "rms_gain_db": 2.63700533471255,
+      "difference_energy_relative_db": -0.00677427888563218,
+      "max_abs_difference": 0.24002023041248322,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9238539237076993,
+      "noise_coefficient": 0.9405918050969965,
+      "rank": 2,
+      "condition_number": 1.0475407936353573,
+      "unexplained_energy_fraction": 0.011781086469287496,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0020__DWASHING_ch01__snr0",
+    "source_id": "2086-149220-0020",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9990517627775524,
+      "projection_gain": 0.965134476951582,
+      "rms_gain_db": -0.2999006433876423,
+      "difference_energy_relative_db": -25.237992783650395,
+      "max_abs_difference": 0.03004032000899315,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.591731678975589,
+      "projection_gain": 0.992371161689493,
+      "rms_gain_db": 4.491108177648924,
+      "difference_energy_relative_db": 2.6194778513418466,
+      "max_abs_difference": 0.21880051493644714,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.99173559388801,
+      "noise_coefficient": 0.9519111543682801,
+      "rank": 2,
+      "condition_number": 1.4185762469454541,
+      "unexplained_energy_fraction": 0.0015190390792677324,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0020__DKITCHEN_ch01__snr5",
+    "source_id": "2086-149220-0020",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9981034165330716,
+      "projection_gain": 0.9704642111542348,
+      "rms_gain_db": -0.24392290956455812,
+      "difference_energy_relative_db": -23.511410763296922,
+      "max_abs_difference": 0.033627212047576904,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.830231283455459,
+      "projection_gain": 0.9869821175222636,
+      "rms_gain_db": 1.5022049804738362,
+      "difference_energy_relative_db": -3.572482405187585,
+      "max_abs_difference": 0.12724728882312775,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9877278185785184,
+      "noise_coefficient": 0.9356650965076103,
+      "rank": 2,
+      "condition_number": 1.4191994426938115,
+      "unexplained_energy_fraction": 0.003152576146736504,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0028__DWASHING_ch01__snr5",
+    "source_id": "2086-149220-0028",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9986529453887377,
+      "projection_gain": 0.976881555089292,
+      "rms_gain_db": -0.19139505424132275,
+      "difference_energy_relative_db": -25.061941286685922,
+      "max_abs_difference": 0.04990585893392563,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.846604453839104,
+      "projection_gain": 0.9916275936146217,
+      "rms_gain_db": 1.3734245147355573,
+      "difference_energy_relative_db": -4.103803214022451,
+      "max_abs_difference": 0.05853864550590515,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9902703994412274,
+      "noise_coefficient": 0.9458689163949907,
+      "rank": 2,
+      "condition_number": 1.5233894370900292,
+      "unexplained_energy_fraction": 0.0022604190921437554,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0028__DKITCHEN_ch01__snr0",
+    "source_id": "2086-149220-0028",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9971824527668754,
+      "projection_gain": 0.9561530232831796,
+      "rms_gain_db": -0.3649762461568793,
+      "difference_energy_relative_db": -21.475304149638998,
+      "max_abs_difference": 0.11803469061851501,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6713997491740998,
+      "projection_gain": 0.9711550309988671,
+      "rms_gain_db": 3.2061600752394632,
+      "difference_energy_relative_db": 0.6067892455964018,
+      "max_abs_difference": 0.16850228607654572,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9731370988432892,
+      "noise_coefficient": 0.9428890175446715,
+      "rank": 2,
+      "condition_number": 1.13133105368705,
+      "unexplained_energy_fraction": 0.005381211256691076,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0032__DWASHING_ch01__snr0",
+    "source_id": "2086-149220-0032",
+    "speaker_id": "2086",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9982985616749807,
+      "projection_gain": 0.9642411987634041,
+      "rms_gain_db": -0.30145777983454725,
+      "difference_energy_relative_db": -23.510809120980536,
+      "max_abs_difference": 0.034241415560245514,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6759889422599737,
+      "projection_gain": 0.9802467245730293,
+      "rms_gain_db": 3.227955348373355,
+      "difference_energy_relative_db": 0.5777769442541313,
+      "max_abs_difference": 0.1934099942445755,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9792145174369982,
+      "noise_coefficient": 0.9522768363507091,
+      "rank": 2,
+      "condition_number": 1.1188281146758683,
+      "unexplained_energy_fraction": 0.003208331085298119,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0032__DKITCHEN_ch01__snr5",
+    "source_id": "2086-149220-0032",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9977849800845698,
+      "projection_gain": 0.9743496208932368,
+      "rms_gain_db": -0.20645047703543115,
+      "difference_energy_relative_db": -23.107641514513084,
+      "max_abs_difference": 0.03162316977977753,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8359870871058439,
+      "projection_gain": 0.988762421567438,
+      "rms_gain_db": 1.457856818752592,
+      "difference_energy_relative_db": -3.753348537952639,
+      "max_abs_difference": 0.12618499994277954,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9879207138755948,
+      "noise_coefficient": 0.9452077930439282,
+      "rank": 2,
+      "condition_number": 1.4661350304855671,
+      "unexplained_energy_fraction": 0.004011554904652221,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0042__DWASHING_ch01__snr5",
+    "source_id": "2086-149220-0042",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9986805154273717,
+      "projection_gain": 0.9811799869984897,
+      "rms_gain_db": -0.153554521890074,
+      "difference_energy_relative_db": -25.369329553415053,
+      "max_abs_difference": 0.02228030562400818,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.869941835124754,
+      "projection_gain": 0.9917157315016248,
+      "rms_gain_db": 1.137946719262377,
+      "difference_energy_relative_db": -5.001429479887856,
+      "max_abs_difference": 0.10077975690364838,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9900337481288604,
+      "noise_coefficient": 0.9554392113191696,
+      "rank": 2,
+      "condition_number": 1.7079740612729892,
+      "unexplained_energy_fraction": 0.002402744297126193,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2086-149220-0042__DKITCHEN_ch01__snr0",
+    "source_id": "2086-149220-0042",
+    "speaker_id": "2086",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9969322551950065,
+      "projection_gain": 0.9629461060920087,
+      "rms_gain_db": -0.301267640578883,
+      "difference_energy_relative_db": -21.494042899605326,
+      "max_abs_difference": 0.05196360498666763,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6881938674259359,
+      "projection_gain": 0.9803798828422965,
+      "rms_gain_db": 3.0736780062728446,
+      "difference_energy_relative_db": 0.2883186114856363,
+      "max_abs_difference": 0.7256355285644531,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9793879992743055,
+      "noise_coefficient": 0.9489280152574436,
+      "rank": 2,
+      "condition_number": 1.0830972992622023,
+      "unexplained_energy_fraction": 0.005879516008217153,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0012__DWASHING_ch01__snr0",
+    "source_id": "2277-149896-0012",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979893903367504,
+      "projection_gain": 0.9584710814255786,
+      "rms_gain_db": -0.3509472940166539,
+      "difference_energy_relative_db": -22.648739082447833,
+      "max_abs_difference": 0.049313485622406006,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7112262199668872,
+      "projection_gain": 0.9671502344187016,
+      "rms_gain_db": 2.6697247670132755,
+      "difference_energy_relative_db": -0.38649596921893187,
+      "max_abs_difference": 0.13604619354009628,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9672466229526999,
+      "noise_coefficient": 0.949739034332346,
+      "rank": 2,
+      "condition_number": 1.002489227637935,
+      "unexplained_energy_fraction": 0.003934082376542551,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0012__DKITCHEN_ch01__snr5",
+    "source_id": "2277-149896-0012",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9968055752300745,
+      "projection_gain": 0.9633492680482331,
+      "rms_gain_db": -0.2965301481356913,
+      "difference_energy_relative_db": -21.36620007381323,
+      "max_abs_difference": 0.03369972109794617,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8671974674818375,
+      "projection_gain": 0.9646769353912422,
+      "rms_gain_db": 0.9252897140227145,
+      "difference_energy_relative_db": -5.113080759409845,
+      "max_abs_difference": 0.282614141702652,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9632867117491984,
+      "noise_coefficient": 0.9635429496451895,
+      "rank": 2,
+      "condition_number": 1.7622564639292557,
+      "unexplained_energy_fraction": 0.0063786322946181515,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0015__DWASHING_ch01__snr5",
+    "source_id": "2277-149896-0015",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9973951118184111,
+      "projection_gain": 0.9726445977067831,
+      "rms_gain_db": -0.21822818636730912,
+      "difference_energy_relative_db": -22.442391873896366,
+      "max_abs_difference": 0.027382461354136467,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8742057529350401,
+      "projection_gain": 0.9780250316700608,
+      "rms_gain_db": 0.9747706037289223,
+      "difference_energy_relative_db": -5.293203984796588,
+      "max_abs_difference": 0.07498837262392044,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9781287112197525,
+      "noise_coefficient": 0.9553047712720771,
+      "rank": 2,
+      "condition_number": 1.7779446182937004,
+      "unexplained_energy_fraction": 0.005102950977746784,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0015__DKITCHEN_ch01__snr0",
+    "source_id": "2277-149896-0015",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9968800045604076,
+      "projection_gain": 0.9561355465995309,
+      "rms_gain_db": -0.3623959681643957,
+      "difference_energy_relative_db": -21.15217184026985,
+      "max_abs_difference": 0.03834587335586548,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7153856130278748,
+      "projection_gain": 0.9707027633596297,
+      "rms_gain_db": 2.650993805830892,
+      "difference_energy_relative_db": -0.45859919419371853,
+      "max_abs_difference": 0.15748435258865356,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9711142528414789,
+      "noise_coefficient": 0.941191194268798,
+      "rank": 2,
+      "condition_number": 1.0012286109855293,
+      "unexplained_energy_fraction": 0.005986712440029585,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0021__DWASHING_ch01__snr0",
+    "source_id": "2277-149896-0021",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.997830257945367,
+      "projection_gain": 0.9529904831647552,
+      "rms_gain_db": -0.39936023235437845,
+      "difference_energy_relative_db": -22.096225372669082,
+      "max_abs_difference": 0.07648802176117897,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6521070018131601,
+      "projection_gain": 0.9648970432991517,
+      "rms_gain_db": 3.403251735231336,
+      "difference_energy_relative_db": 1.0023478207650518,
+      "max_abs_difference": 0.25827449560165405,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9649177606427825,
+      "noise_coefficient": 0.9444729736297629,
+      "rank": 2,
+      "condition_number": 1.183349375619463,
+      "unexplained_energy_fraction": 0.004223396513769887,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0021__DKITCHEN_ch01__snr5",
+    "source_id": "2277-149896-0021",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9975022693834281,
+      "projection_gain": 0.9683245768909412,
+      "rms_gain_db": -0.25786308971789285,
+      "difference_energy_relative_db": -22.437231255410197,
+      "max_abs_difference": 0.04832351207733154,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8550593305406208,
+      "projection_gain": 0.9718746637842832,
+      "rms_gain_db": 1.1122817657885917,
+      "difference_energy_relative_db": -4.582354250592993,
+      "max_abs_difference": 0.12567515671253204,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9724659075609196,
+      "noise_coefficient": 0.9571851689046487,
+      "rank": 2,
+      "condition_number": 1.6392117235203572,
+      "unexplained_energy_fraction": 0.0049401569645406975,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0033__DWASHING_ch01__snr5",
+    "source_id": "2277-149896-0033",
+    "speaker_id": "2277",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9983026830764516,
+      "projection_gain": 0.9716517404848339,
+      "rms_gain_db": -0.23497142246696967,
+      "difference_energy_relative_db": -23.95535604695631,
+      "max_abs_difference": 0.031064659357070923,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8237126102045638,
+      "projection_gain": 0.9823484923136975,
+      "rms_gain_db": 1.529869363750111,
+      "difference_energy_relative_db": -3.3952460991416222,
+      "max_abs_difference": 0.1022316962480545,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9823784050672466,
+      "noise_coefficient": 0.9502583434558949,
+      "rank": 2,
+      "condition_number": 1.4122147048532343,
+      "unexplained_energy_fraction": 0.003149489121422,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "source_id": "2277-149896-0033",
+    "speaker_id": "2277",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9934960083182797,
+      "projection_gain": 0.9289927347241119,
+      "rms_gain_db": -0.5831505342979686,
+      "difference_energy_relative_db": -17.856445963712712,
+      "max_abs_difference": 0.10287454724311829,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6106246987245383,
+      "projection_gain": 0.90742038419734,
+      "rms_gain_db": 3.440781069762762,
+      "difference_energy_relative_db": 1.4412611467063838,
+      "max_abs_difference": 0.2145400419831276,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9058979678362932,
+      "noise_coefficient": 0.9441706811038733,
+      "rank": 2,
+      "condition_number": 1.2338775640593265,
+      "unexplained_energy_fraction": 0.012565852685530088,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0021__DWASHING_ch01__snr0",
+    "source_id": "777-126732-0021",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.997884367434626,
+      "projection_gain": 0.9620584013141102,
+      "rms_gain_db": -0.3176379191681108,
+      "difference_energy_relative_db": -22.69063062426843,
+      "max_abs_difference": 0.01788438018411398,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7148379171882205,
+      "projection_gain": 0.9771421945025809,
+      "rms_gain_db": 2.71500373480388,
+      "difference_energy_relative_db": -0.389364897884359,
+      "max_abs_difference": 0.058835260570049286,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9781732533720718,
+      "noise_coefficient": 0.9461421760645261,
+      "rank": 2,
+      "condition_number": 1.006308207576072,
+      "unexplained_energy_fraction": 0.00395024494744937,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0021__DKITCHEN_ch01__snr5",
+    "source_id": "777-126732-0021",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9970995476289601,
+      "projection_gain": 0.9763540981458919,
+      "rms_gain_db": -0.18263803499289127,
+      "difference_energy_relative_db": -22.137192266170096,
+      "max_abs_difference": 0.01644693687558174,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8704920808917005,
+      "projection_gain": 0.979342363019823,
+      "rms_gain_db": 1.0234314073857689,
+      "difference_energy_relative_db": -5.12788273414861,
+      "max_abs_difference": 0.04424816928803921,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9798970155283837,
+      "noise_coefficient": 0.9653115898755619,
+      "rank": 2,
+      "condition_number": 1.764370708910952,
+      "unexplained_energy_fraction": 0.0057515926403742075,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0029__DWASHING_ch01__snr5",
+    "source_id": "777-126732-0029",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9978030626999358,
+      "projection_gain": 0.9731498765947194,
+      "rms_gain_db": -0.21729922230924462,
+      "difference_energy_relative_db": -23.101596616259094,
+      "max_abs_difference": 0.019134849309921265,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8748667152612281,
+      "projection_gain": 0.9795706168018719,
+      "rms_gain_db": 0.9818805860120896,
+      "difference_energy_relative_db": -5.3085207046494745,
+      "max_abs_difference": 0.025522436946630478,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9787201784007529,
+      "noise_coefficient": 0.9555688308416709,
+      "rank": 2,
+      "condition_number": 1.7782840735485042,
+      "unexplained_energy_fraction": 0.004286472091579181,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0029__DKITCHEN_ch01__snr0",
+    "source_id": "777-126732-0029",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9960624110923418,
+      "projection_gain": 0.9596811764273757,
+      "rms_gain_db": -0.3232253425435375,
+      "difference_energy_relative_db": -20.494009988780356,
+      "max_abs_difference": 0.02517244964838028,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.706729140167785,
+      "projection_gain": 0.9647578050746699,
+      "rms_gain_db": 2.703313655126789,
+      "difference_energy_relative_db": -0.29656651531029066,
+      "max_abs_difference": 0.1850936859846115,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9611687791241638,
+      "noise_coefficient": 0.9581935469863666,
+      "rank": 2,
+      "condition_number": 1.0037527029101674,
+      "unexplained_energy_fraction": 0.00785730703084085,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0072__DWASHING_ch01__snr0",
+    "source_id": "777-126732-0072",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9990532880089391,
+      "projection_gain": 0.9623166094857178,
+      "rms_gain_db": -0.3254125864360561,
+      "difference_energy_relative_db": -24.98120440896601,
+      "max_abs_difference": 0.01942196488380432,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6267252222954331,
+      "projection_gain": 0.980569634339529,
+      "rms_gain_db": 3.8880262232154923,
+      "difference_energy_relative_db": 1.7225598198882741,
+      "max_abs_difference": 0.10167475044727325,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9806551845416384,
+      "noise_coefficient": 0.9511253871222592,
+      "rank": 2,
+      "condition_number": 1.280077968604728,
+      "unexplained_energy_fraction": 0.00167129601761129,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0072__DKITCHEN_ch01__snr5",
+    "source_id": "777-126732-0072",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9960418358769447,
+      "projection_gain": 0.9570807403442816,
+      "rms_gain_db": -0.34663632877058564,
+      "difference_energy_relative_db": -20.388804464792702,
+      "max_abs_difference": 0.02592068910598755,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8489276910355908,
+      "projection_gain": 0.9650689466826662,
+      "rms_gain_db": 1.1137585549921079,
+      "difference_energy_relative_db": -4.410530333788257,
+      "max_abs_difference": 0.06337820366024971,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9640279390870471,
+      "noise_coefficient": 0.9396318511914213,
+      "rank": 2,
+      "condition_number": 1.5861510904330427,
+      "unexplained_energy_fraction": 0.007769880238901028,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0074__DWASHING_ch01__snr5",
+    "source_id": "777-126732-0074",
+    "speaker_id": "777",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9981823999375381,
+      "projection_gain": 0.9782786346670163,
+      "rms_gain_db": -0.17495766730918086,
+      "difference_energy_relative_db": -24.02011962499776,
+      "max_abs_difference": 0.01431296393275261,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8712197854929267,
+      "projection_gain": 0.9857819850766892,
+      "rms_gain_db": 1.0730629573021138,
+      "difference_energy_relative_db": -5.104352790155283,
+      "max_abs_difference": 0.041271209716796875,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9870112553899664,
+      "noise_coefficient": 0.9521825577494114,
+      "rank": 2,
+      "condition_number": 1.7264769606817916,
+      "unexplained_energy_fraction": 0.003393418737890725,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "777-126732-0074__DKITCHEN_ch01__snr0",
+    "source_id": "777-126732-0074",
+    "speaker_id": "777",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9967737211120917,
+      "projection_gain": 0.9555648821517548,
+      "rms_gain_db": -0.3666802205510953,
+      "difference_energy_relative_db": -21.01583205395336,
+      "max_abs_difference": 0.025820083916187286,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.7060594378897573,
+      "projection_gain": 0.9723074708665269,
+      "rms_gain_db": 2.779299900429471,
+      "difference_energy_relative_db": -0.21460913511599866,
+      "max_abs_difference": 0.07840903848409653,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9704534336448849,
+      "noise_coefficient": 0.9415112768937708,
+      "rank": 2,
+      "condition_number": 1.0293991213944047,
+      "unexplained_energy_fraction": 0.006215344952981729,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0000__DWASHING_ch01__snr0",
+    "source_id": "7976-110124-0000",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9984412588141267,
+      "projection_gain": 0.9607248961695497,
+      "rms_gain_db": -0.33437679991835945,
+      "difference_energy_relative_db": -23.534777874498623,
+      "max_abs_difference": 0.058047618716955185,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6401027512154407,
+      "projection_gain": 0.9736909166453873,
+      "rms_gain_db": 3.6435701087940267,
+      "difference_energy_relative_db": 1.3563638983176238,
+      "max_abs_difference": 0.16161943972110748,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.975273858966133,
+      "noise_coefficient": 0.9510468922351858,
+      "rank": 2,
+      "condition_number": 1.225756135492842,
+      "unexplained_energy_fraction": 0.0029625530636231065,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0000__DKITCHEN_ch01__snr5",
+    "source_id": "7976-110124-0000",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9980290685759788,
+      "projection_gain": 0.9766629293386184,
+      "rms_gain_db": -0.1879695844353908,
+      "difference_energy_relative_db": -23.649329439818242,
+      "max_abs_difference": 0.03143088519573212,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8286199991478105,
+      "projection_gain": 0.986323974305659,
+      "rms_gain_db": 1.513283742137069,
+      "difference_energy_relative_db": -3.5240508270967745,
+      "max_abs_difference": 0.13381731510162354,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9865914773325277,
+      "noise_coefficient": 0.9559762745318888,
+      "rank": 2,
+      "condition_number": 1.4432332818112235,
+      "unexplained_energy_fraction": 0.0037233199933879653,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0017__DWASHING_ch01__snr5",
+    "source_id": "7976-110124-0017",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9949588263812726,
+      "projection_gain": 0.9600303841305503,
+      "rms_gain_db": -0.31038613207860566,
+      "difference_energy_relative_db": -19.59905198253621,
+      "max_abs_difference": 0.06321385502815247,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.842733563486011,
+      "projection_gain": 0.9668675281213772,
+      "rms_gain_db": 1.193551558500717,
+      "difference_energy_relative_db": -4.172936299703245,
+      "max_abs_difference": 0.09197303466498852,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9660096780109309,
+      "noise_coefficient": 0.9455364213041707,
+      "rank": 2,
+      "condition_number": 1.5579387943675256,
+      "unexplained_energy_fraction": 0.009964138224271099,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0017__DKITCHEN_ch01__snr0",
+    "source_id": "7976-110124-0017",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9979348156573148,
+      "projection_gain": 0.9577320276699737,
+      "rms_gain_db": -0.3571446282395303,
+      "difference_energy_relative_db": -22.528200716791602,
+      "max_abs_difference": 0.03528463840484619,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6219768618201518,
+      "projection_gain": 0.9712036740755008,
+      "rms_gain_db": 3.8707955844777953,
+      "difference_energy_relative_db": 1.7488789790742523,
+      "max_abs_difference": 0.22613216936588287,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9705070849646111,
+      "noise_coefficient": 0.9499673142908724,
+      "rank": 2,
+      "condition_number": 1.2828664416896116,
+      "unexplained_energy_fraction": 0.004018533327531364,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0019__DWASHING_ch01__snr0",
+    "source_id": "7976-110124-0019",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9986216740152594,
+      "projection_gain": 0.9620535446706554,
+      "rms_gain_db": -0.32434026579491043,
+      "difference_energy_relative_db": -23.962040993294124,
+      "max_abs_difference": 0.04894182085990906,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.652484085103697,
+      "projection_gain": 0.9799926916030332,
+      "rms_gain_db": 3.533225669524745,
+      "difference_energy_relative_db": 1.1258137835430428,
+      "max_abs_difference": 0.2535700052976608,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9797915261311697,
+      "noise_coefficient": 0.9496498983095891,
+      "rank": 2,
+      "condition_number": 1.1958901303692293,
+      "unexplained_energy_fraction": 0.002517778166633485,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0019__DKITCHEN_ch01__snr5",
+    "source_id": "7976-110124-0019",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9965667888937634,
+      "projection_gain": 0.9669301028834648,
+      "rms_gain_db": -0.2621886704931834,
+      "difference_energy_relative_db": -21.22064724772183,
+      "max_abs_difference": 0.10093620419502258,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8513484379121324,
+      "projection_gain": 0.9734213497231167,
+      "rms_gain_db": 1.1639165857601832,
+      "difference_energy_relative_db": -4.430870615891505,
+      "max_abs_difference": 0.14009224623441696,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9744183956631244,
+      "noise_coefficient": 0.9477375485521428,
+      "rank": 2,
+      "condition_number": 1.59963028304491,
+      "unexplained_energy_fraction": 0.0067013978582844925,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0021__DWASHING_ch01__snr5",
+    "source_id": "7976-110124-0021",
+    "speaker_id": "7976",
+    "asr_candidate": true,
+    "output_vs_input": {
+      "correlation": 0.9969686606330356,
+      "projection_gain": 0.9473514665945897,
+      "rms_gain_db": -0.44340846380298443,
+      "difference_energy_relative_db": -20.84188056351817,
+      "max_abs_difference": 0.06399556994438171,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.8367138624594261,
+      "projection_gain": 0.947942794843674,
+      "rms_gain_db": 1.0841123090848788,
+      "difference_energy_relative_db": -4.115493621128024,
+      "max_abs_difference": 0.0957910344004631,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9482446470146383,
+      "noise_coefficient": 0.9452347642795873,
+      "rank": 2,
+      "condition_number": 1.5390950961664702,
+      "unexplained_energy_fraction": 0.006051393639772232,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  },
+  {
+    "sample_id": "7976-110124-0021__DKITCHEN_ch01__snr0",
+    "source_id": "7976-110124-0021",
+    "speaker_id": "7976",
+    "asr_candidate": false,
+    "output_vs_input": {
+      "correlation": 0.9945979853420905,
+      "projection_gain": 0.9406622227757543,
+      "rms_gain_db": -0.48424860766827177,
+      "difference_energy_relative_db": -18.8003322857706,
+      "max_abs_difference": 0.07157346606254578,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "output_vs_clean": {
+      "correlation": 0.6463463735353773,
+      "projection_gain": 0.9386714638236937,
+      "rms_gain_db": 3.241008801829708,
+      "difference_energy_relative_db": 0.9053153103976923,
+      "max_abs_difference": 0.2517895847558975,
+      "best_lag_within_16ms_samples": 0,
+      "lag_search_used_to_modify_metrics_or_audio": false
+    },
+    "linear_projection": {
+      "speech_coefficient": 0.9397879958479775,
+      "noise_coefficient": 0.9413047086015018,
+      "rank": 2,
+      "condition_number": 1.1663086537908312,
+      "unexplained_energy_fraction": 0.010774218323567905,
+      "notice": "Whole-utterance regression on known clean/noise waveforms; not true nonlinear source separation or a word-loss test"
+    }
+  }
+]

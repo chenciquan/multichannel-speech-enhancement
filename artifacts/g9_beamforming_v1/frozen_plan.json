@@ -1,0 +1,52 @@
+{
+  "status": "registered_before_beamforming_benchmark_outputs",
+  "entry_gate": "G8 final acceptance audit and all reports/snapshots saved",
+  "question": "How do frozen light adapters compare with a mature estimated-mask Souden MVDR pipeline on the same simulated conditions? Oracle diagnostics separate practical mask limitations from ideal simulator assumptions.",
+  "candidate_reference": "configs/g9_beamforming_candidate.json",
+  "sources": "All G5 252 cases including36 clean, and all G7 648 cases; same12 utterances3 speakers,900 per new system. Existing evaluated data, exploratory comparison, not a new held-out confirmation.",
+  "systems": [
+    "mcnet_mask_mvdr",
+    "oracle_ref_mask_mvdr",
+    "oracle_doa_delay_sum"
+  ],
+  "main_comparator": "mcnet_mask_mvdr: accepts noisy six channels and exact saved originalMcNet mono estimate only; no target/reference/DOA metadata",
+  "oracle_diagnostics": "oracle_ref_mask_mvdr supplies true clean reference as mask estimate; oracle_doa_delay_sum supplies simulator true direction at elevation10deg and nominal array. Neither is a fair blind deployed competitor or guaranteed upper bound.",
+  "estimated_mask": "abs(STFT(estimate))^2 / (abs(STFT(estimate))^2 + abs(STFT(noisy_mic4)-STFT(estimate))^2 +1e-10); noise mask=1-speech mask",
+  "STFT": {
+    "sample_rate": 16000,
+    "n_fft": 512,
+    "win_length": 512,
+    "hop_length": 128,
+    "window": "periodic Hann",
+    "center": true,
+    "pad_mode": "reflect",
+    "ISTFT_length": "exact input frames"
+  },
+  "numerics": "CPU float64/complex128, official torchaudio.functional.psd(normalize=True,eps=1e-10), mvdr_weights_souden(reference_channel=4,diagonal_loading=True,diag_eps=1e-7,eps=1e-8), apply_beamforming. Save mono float32 FLOAT WAV, no peak normalization or signal fitting. Nonfinite/errors preserved, no metric-selected fallback.",
+  "preflight": "STFT identity, identical channels/reference identity, silent covariance finite, independent plane-wave renderer validates DS delay sign with target-only SI>25dB, invalid shapes/nonfinite rejection. Save QA report/snapshot before benchmark cases.",
+  "scoring": "Same SI-SDR/PESQ/STOI; both frozen Whisper tiny.en and wav2vec2 greedyCTC, existing exact-sample caches where eligible. Include G5 clean-input controls and per noise/SNR/direction, all existing adapter seeds; no new training or selection.",
+  "timing": "CPU beamforming wall time per case separately; main comparator also requires saved McNet estimate whose original generation time is reported. Asset/model import and I/O excluded from pure filter time; no streaming claims.",
+  "failure_policy": "Keep partial files/log; abort for numerical/nonfinite failures, diagnose before rerun under a distinct revision, never silently replace with noisy audio",
+  "max_preflight_seconds": 300,
+  "max_signal_seconds": 3600,
+  "max_ASR_seconds": 5400,
+  "no_new_dependencies_training_data_or_SE_weights": true,
+  "novelty_claim": false,
+  "frozen_utc": "2026-11-12T04:22:13.535668+00:00",
+  "previous_archive_sha256": "a1bcec6559a8806a06c69de9a6df9d640cb5add000bc67904ac3fc594ebad14d",
+  "geometry_sha256": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+  "datasets": {
+    "G5": {
+      "folder": "artifacts/g5_rotation_v1/evaluation",
+      "expected_cases": 252,
+      "signals_sha256": "daa5780a2f0e637b9173875866b3cba9f749cc54faee225f5f8ac54a6ea01a7e",
+      "whisper_sha256": "dca7687b566c4da15dc875bce101fd3aa7c410f72a740ec5360d74d810b4de8a"
+    },
+    "G7": {
+      "folder": "artifacts/g7_unseen_noise_v1/evaluation",
+      "expected_cases": 648,
+      "signals_sha256": "1a084cb88df34f5314b741ebad16415f56ae433a389565f1f59b384ae9ae4026",
+      "whisper_sha256": "77ede827c7a3da15a6697f0ce6e130fd8b5b39f371ea53a2814d602e616ef650"
+    }
+  }
+}

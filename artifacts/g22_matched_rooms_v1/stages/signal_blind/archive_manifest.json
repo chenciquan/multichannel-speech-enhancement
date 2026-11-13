@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:16:02.485157+00:00",
+  "files": [
+    {
+      "source": "docs/G22_估计掩码滤波信号阶段报告.md",
+      "snapshot": "00_G22_估计掩码滤波信号阶段报告.md",
+      "sha256": "473e93e1c2d8556b0c59afa765dafa639fd75127020c20c3a9eb76bbf4294a53"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/BLIND_COMPLETE.json",
+      "snapshot": "01_BLIND_COMPLETE.json",
+      "sha256": "73db9837209556cdbdb53fd1a4ff250c95446cf34b24e08b613fb11243a3e6d8"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "26802db8469d5f45628d699e12f559d45ef08db3f4627c3d3517afbb68f575d5"
+    },
+    {
+      "source": "scripts/g22_signal.py",
+      "snapshot": "03_g22_signal.py",
+      "sha256": "3228dc2f916452aa2136d941dc3a76e15d8282515adaf3dc6fe9c80cdc776d7f"
+    },
+    {
+      "source": "scripts/g22_filter_worker.py",
+      "snapshot": "04_g22_filter_worker.py",
+      "sha256": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807"
+    }
+  ]
+}

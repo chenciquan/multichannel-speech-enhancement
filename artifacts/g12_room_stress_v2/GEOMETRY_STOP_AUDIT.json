@@ -1,0 +1,11 @@
+{
+  "status": "stopped_before_any_room_model_scores",
+  "stopped_utc": "2026-11-12T08:25:26.907830+00:00",
+  "reason": "Coordinate audit: legacy rotate positive matrix decrements declared azimuth; speech and noise rotated opposite ways",
+  "G12A_remains_valid": true,
+  "G12B_incomplete_not_accepted": true,
+  "room_evaluation_exists": false,
+  "partial_files_retained": 531,
+  "power_helper_released": true,
+  "pipeline_source_hashes_still_match": true
+}

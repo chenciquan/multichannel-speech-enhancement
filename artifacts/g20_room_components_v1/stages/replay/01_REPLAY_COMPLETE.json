@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T17:49:52.550308+00:00",
+  "cases": 504,
+  "input_exact_cases": 504,
+  "reference_exact_cases": 504,
+  "quantization_max_LSB": 0.999960500310408,
+  "closure_max_abs": 0,
+  "elapsed_seconds": 37.816692679,
+  "replay_sha256": "e7adf3c423fc3f8a7911a52b0f42f2dc48ca805fd060dbe0881fcdf50560bc6f"
+}

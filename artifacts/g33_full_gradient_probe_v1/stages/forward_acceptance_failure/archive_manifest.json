@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T01:52:20.112945+00:00",
+  "files": [
+    {
+      "source": "docs/G33_前向等价验收未通过与数值核查计划.md",
+      "snapshot": "00_G33_前向等价验收未通过与数值核查计划.md",
+      "sha256": "3177a54cf99564f9f4c36a2a6e11797f20ab0aa87018edf03e5639deffc38b06"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/acceptance_failure_v1/g33_accept_original.py",
+      "snapshot": "01_g33_accept_original.py",
+      "sha256": "35c6390f1eafffc52760b69433b2dadec230e1ac0323c202b4a06a1e7dda2633"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/acceptance_failure_v1/failure.json",
+      "snapshot": "02_failure.json",
+      "sha256": "3033617edcbf7846da3c5c0cdcafd691417735b2d2d3683fff56894366cdffe2"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/acceptance_failure_v1/forward_differences.json",
+      "snapshot": "03_forward_differences.json",
+      "sha256": "e58fe37088da34b9de3a5a7c30fbb9ffc4bd723d554579ae12b1ef63fc6abe76"
+    },
+    {
+      "source": "artifacts/g33_full_gradient_probe_v1/PROBE_COMPLETE.json",
+      "snapshot": "04_PROBE_COMPLETE.json",
+      "sha256": "d54c4ec63b6dcde08333eb4ffa2cdf7fa0e893fbe465f7e6b3be59c108f6d046"
+    }
+  ]
+}

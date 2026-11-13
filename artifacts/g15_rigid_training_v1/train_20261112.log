@@ -1,0 +1,9 @@
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/functional.py:704: UserWarning: stft with return_complex=False is deprecated. In a future pytorch release, stft will return complex tensors for all inputs, and return_complex=False will raise an error.
+Note: you can still call torch.view_as_real on the complex output to recover the old return format. (Triggered internally at ../aten/src/ATen/native/SpectralOps.cpp:873.)
+  return _VF.stft(  # type: ignore[attr-defined]
+{"variant": "without_clean_identity", "seed": 20261112, "step": 500, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_00500.pt", "si_sdr_db": -3.9699788299555645, "stoi": 0.781205281358246}
+{"variant": "without_clean_identity", "seed": 20261112, "step": 1000, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_01000.pt", "si_sdr_db": -0.32285722690754565, "stoi": 0.8432395350234122}
+{"variant": "without_clean_identity", "seed": 20261112, "step": 1500, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_01500.pt", "si_sdr_db": 0.500969681369888, "stoi": 0.8528437248321039}
+{"variant": "without_clean_identity", "seed": 20261112, "step": 2000, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_02000.pt", "si_sdr_db": 1.0858529193178323, "stoi": 0.8575914658892582}
+{"variant": "without_clean_identity", "seed": 20261112, "step": 2500, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_02500.pt", "si_sdr_db": 1.5543683561919517, "stoi": 0.8613369936477189}
+{"variant": "without_clean_identity", "seed": 20261112, "step": 3000, "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt", "si_sdr_db": 1.788902548479182, "stoi": 0.8586823646206534}

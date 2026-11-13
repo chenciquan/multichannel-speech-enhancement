@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T20:02:16.502530+00:00",
+  "files": [
+    {
+      "source": "docs/G24_Whisper独立推理覆盖.md",
+      "snapshot": "00_G24_Whisper独立推理覆盖.md",
+      "sha256": "ecd55218222e23d7f8463d4062bbb7c4a4d041dcafd69e0cca5e99b5c6af5521"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "526d1213995c9ccaed61de2965cd411c588aff138f130f91c8c69fa2ff7be73f"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "62da11cdf3fe7f2f9edab004632ebbbf1e4ad4f1dd005189105ee294371a0574"
+    },
+    {
+      "source": "scripts/g24_asr.py",
+      "snapshot": "03_g24_asr.py",
+      "sha256": "1c7d0afe9503228933a4f12ab80b6f1aaf4a8ebc77ca94a3618af71fbd418ec4"
+    }
+  ]
+}

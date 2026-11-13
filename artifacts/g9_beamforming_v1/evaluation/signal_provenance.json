@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-11-12T04:27:09.135828+00:00",
+  "preflight_archive_sha256": "cac7d98fe6591fcf73ffcd12d33e4604f6ff10704d82135bc1424fbd31105eb9",
+  "plan_sha256": "cec7aadf145cc9c36c4c0e9d31f77612d12512ed5f8cffb7b5edeff5243b22e1",
+  "cases": 900,
+  "systems": [
+    "mcnet_mask_mvdr",
+    "oracle_ref_mask_mvdr",
+    "oracle_doa_delay_sum"
+  ],
+  "new_SE_training_or_inference": false,
+  "CPU_threads": 2,
+  "CPU_metric_workers": 2,
+  "precision": "float64/complex128 CPU; saved float32",
+  "no_peak_normalization_or_fallback": true
+}

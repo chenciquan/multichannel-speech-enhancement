@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "checks": {
+    "all4032_exact_pairs": true,
+    "all_reference_exact": true,
+    "all_beams_reproduced": true,
+    "all_linearity_and_energy_accounting": true,
+    "all_primary_component_metrics_finite": true,
+    "all_prior_input_estimate_output_hashes": true,
+    "all_frozen_metadata_and_source_code_unchanged": true,
+    "ASR_joins_equal_old_counts": true,
+    "three_complete_adapter_seeds": true,
+    "CPU_only_CUDA_never_initialized": true,
+    "preflight_archived_before_full_analysis": true,
+    "six_adapters_still_unchanged": true,
+    "official_base_still_unchanged": true
+  },
+  "rows": 4032,
+  "completed_utc": "2026-11-12T07:51:23.134707+00:00",
+  "max_reference_error": 0.0,
+  "max_old_output_reproduction_error": 0.0,
+  "max_linearity_error": 5.960464477539063e-08,
+  "no_new_training_or_ASR": true
+}

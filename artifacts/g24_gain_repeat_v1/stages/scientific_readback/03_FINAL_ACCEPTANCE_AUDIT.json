@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:03:01.126453+00:00",
+  "ASR": {
+    "Whisper": {
+      "fresh_observations": 1920,
+      "cache_skips": 0,
+      "historic_baselines_preserved": 480
+    },
+    "CTC": {
+      "fresh_observations": 1920,
+      "cache_skips": 0,
+      "historic_baselines_preserved": 480
+    }
+  },
+  "repeatability": [
+    {
+      "engine": "Whisper",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    },
+    {
+      "engine": "CTC",
+      "bases": 480,
+      "cross_run_normalized_changes": 0,
+      "cross_run_raw_changes": 0,
+      "within_run_normalized_changes": 0,
+      "within_run_raw_changes": 0
+    }
+  ],
+  "stages": {
+    "completion": "6aacbf99bbbc6e146c71a49cfe0c1295af19589f0bdb081a7ec1acf4f656c179",
+    "ctc": "f01ac0909214e46fd7b61d5883ab538fa104695ee2fc89c30261d58d5ee714df",
+    "input_acceptance": "247da829646fc11ae1d782e8c0f1f1008f46f801ba786f688bd29eb6ce505476",
+    "preparation": "da02ce63cb8504c7387ffdcdb8c114c27e8611a106db2296fc363891a284ba82",
+    "protocol": "8ebf2ff864dd9e24dd43e2c0539e8f0ee0316f1d4804e31ba887821b85854a90",
+    "recognition_protocol": "5969ef1c35f6ff1509a084f5c4746b877f651459d423a113e62f1206818edee9",
+    "whisper": "1fa5dc7564b5773c73f2fff027430d6bcbc8d48c8b778b85aa900adba6dabc2d"
+  },
+  "power_helper": {
+    "pid": 47952,
+    "started_utc": "2026-11-12T20:00:18.9618371+00:00",
+    "deadline_utc": "2026-11-12T21:00:18.3579480+00:00",
+    "status": "released",
+    "power_plan_modified": false,
+    "released_utc": "2026-11-12T20:02:59.2695156+00:00"
+  },
+  "completion_audit_sha256": "75ff0ec721d7d5f197f4ee80d79376139a6af0bef2cbfc7826b79c4c11055483"
+}

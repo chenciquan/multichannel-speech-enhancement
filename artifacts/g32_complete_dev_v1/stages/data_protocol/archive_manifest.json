@@ -1,0 +1,50 @@
+{
+  "saved_utc": "2026-11-13T00:59:39.849101+00:00",
+  "files": [
+    {
+      "source": "docs/G32A_完整开发语句补充诊断冻结协议.md",
+      "snapshot": "00_G32A_完整开发语句补充诊断冻结协议.md",
+      "sha256": "eeb456c892a277dd539ea4aff9fe5d452c33d2db83ea5e7be326e151932aff10"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/data_plan.json",
+      "snapshot": "01_data_plan.json",
+      "sha256": "8f26553093641e52892720951f4f561560d9a39b97feccead795a05fd15f59a2"
+    },
+    {
+      "source": "scripts/g32_common.py",
+      "snapshot": "02_g32_common.py",
+      "sha256": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a"
+    },
+    {
+      "source": "scripts/g32_prepare.py",
+      "snapshot": "03_g32_prepare.py",
+      "sha256": "18be0296449bbd0f1965c62112dfe695f698842fba454c069378b7cee25a1b49"
+    },
+    {
+      "source": "scripts/g32_data_accept.py",
+      "snapshot": "04_g32_data_accept.py",
+      "sha256": "3a74fbc1f3c9edace29abb8f43cf42eaf803411eec7464cee1e46b8f9a2b7e9b"
+    },
+    {
+      "source": "src/mcse/reverberation.py",
+      "snapshot": "05_reverberation.py",
+      "sha256": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c"
+    },
+    {
+      "source": "src/mcse/spatial_noise.py",
+      "snapshot": "06_spatial_noise.py",
+      "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+    },
+    {
+      "source": "src/mcse/simulation.py",
+      "snapshot": "07_simulation.py",
+      "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "08_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    }
+  ]
+}

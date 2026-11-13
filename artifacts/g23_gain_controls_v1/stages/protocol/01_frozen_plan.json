@@ -1,0 +1,38 @@
+{
+  "frozen_utc": "2026-11-12T19:41:14.252262+00:00",
+  "selection": "OOFFICE point relative -80, all3angles, RT.15/.35, bothrooms, all4sources",
+  "cases": 48,
+  "base_systems": [
+    "noisy",
+    "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "rigid_without_clean_identity_s20261112_mask_mwf",
+    "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "rigid_without_clean_identity_s20261113_mask_mwf",
+    "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "rigid_without_clean_identity_s20261114_mask_mwf",
+    "truth_covariance_mvdr",
+    "truth_covariance_mwf",
+    "clean_reference"
+  ],
+  "gain_dB": [
+    0,
+    -6,
+    -12
+  ],
+  "base_pairs": 480,
+  "new_waveforms": 960,
+  "expected_pairs_each_ASR": 1440,
+  "relative_roundtrip_error_max": 1e-06,
+  "SI_SDR_change_tolerance_db": 0.001,
+  "exact_reference_SI_SDR": "Degenerate comparison; exclude clean_reference from SI-SDR invariance checks, retain all ASR cases",
+  "gain_convention": "float64 multiplication by 10**(dB/20), cast float32; no clipping or per-file normalization",
+  "purpose": "Exploratory evaluator control; no best gain selection, no model claim or human intelligibility invariance",
+  "hashes": {
+    "scripts/g23_prepare.py": "ef523fb6e04b93fc2d6410e21e8210c11b415817e06c9f8ec92704b511f89f17",
+    "artifacts/g22_matched_rooms_v1/FINAL_ACCEPTANCE_AUDIT.json": "aa87e6b7baf82dde2dbc7fcec37d733ee65e642f2fc591f64afd62c7e70ed116",
+    "artifacts/g22_matched_rooms_v1/evaluation/combined_signals.jsonl": "e58a1b27a8579c0f410d4dbd288a40112f43133bb39f8921a35a357dfc8bd94d",
+    "data/g22_v1/manifest.jsonl": "d1339f9b0f29fdee00d2ab990f2d4795727a2e3e4fa061d384d7a3bc8dc6abd2",
+    "artifacts/g22_matched_rooms_v1/signal_systems.json": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526"
+  }
+}

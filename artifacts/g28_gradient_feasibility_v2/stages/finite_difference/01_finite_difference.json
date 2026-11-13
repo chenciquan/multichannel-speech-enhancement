@@ -1,0 +1,12 @@
+{
+  "index": [
+    7,
+    0
+  ],
+  "analytic_gradient": -0.0026716953437156436,
+  "finite_difference_gradient": -0.002671695343951785,
+  "step": 1e-05,
+  "absolute_error": 2.3614140157168784e-13,
+  "identical_target_loss": 0.0,
+  "dtype": "CPUcomplex128"
+}

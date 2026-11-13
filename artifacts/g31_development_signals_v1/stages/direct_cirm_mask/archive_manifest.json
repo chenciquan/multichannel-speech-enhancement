@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T00:48:21.081033+00:00",
+  "files": [
+    {
+      "source": "docs/G31_cirm_mask_直接输出覆盖.md",
+      "snapshot": "00_G31_cirm_mask_直接输出覆盖.md",
+      "sha256": "83f3e67c5640cbc79c27a63141f8eb0528bab63551994cd961a3b040e37d053a"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/cirm_mask_resource.json",
+      "snapshot": "01_cirm_mask_resource.json",
+      "sha256": "fd86def1d8fd83ca5e8023deaa0e0a2427b95fcdbdf7101f0691fb9b9ac8e150"
+    }
+  ]
+}

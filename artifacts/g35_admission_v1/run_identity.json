@@ -1,0 +1,7 @@
+{
+  "pid": 390,
+  "script_sha256": "c4f66bec40aa7d2b9d1a72b6fcdcef8b03f39d86176436296ea71e9c9254c6b5",
+  "hard_limit_seconds": 900,
+  "maximum_forwards": 14,
+  "input_cases": 2
+}

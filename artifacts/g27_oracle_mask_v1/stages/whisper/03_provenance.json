@@ -1,0 +1,33 @@
+{
+  "engine": "Whisper",
+  "model_id": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+  "decoding": {
+    "options": {
+      "language": "en",
+      "task": "transcribe",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "beam_size": 1,
+      "word_timestamps": false,
+      "without_timestamps": true,
+      "compression_ratio_threshold": 2.4,
+      "logprob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "fp16": true,
+      "verbose": null
+    },
+    "model_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03"
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "ASR_regime": "raw",
+  "input_preprocessing": null,
+  "seed": {
+    "provenance_sha256": "4992aed55b5466c698970e34c6bda29646d5265b3967955bae4aab0759f8ea6b",
+    "scores_sha256": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f",
+    "accepted_score_sha256": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f"
+  },
+  "plan_sha256": "4ea0223df172e064a362d2f139ed8d8fdd07a2908cf95694328f3bb2ea3ee3db",
+  "input_manifest_sha256": "41933d8220371fbc83c8bdbe2376f0eb8f54bf9f15a0385c16029ad2b7f70615"
+}

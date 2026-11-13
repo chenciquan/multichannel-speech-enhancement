@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T18:20:33.587463+00:00",
+  "files": [
+    {
+      "source": "docs/G21_真值统计与识别保真综合报告.md",
+      "snapshot": "00_G21_真值统计与识别保真综合报告.md",
+      "sha256": "ac7ebe7a66b1bf4f0b487dbf6fd157343cc6a9b470b3b42805725e6fab23523a"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "776b21322b98296fb9b6e6a3980f975d32116721645f8cfc348ded59db3df8a1"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "a5cd9c8d69514ab16a670b1d231b79d497995f59aa9eb28cc02c6a8ac9f75509"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "6bf5c838fb5c9cae31cb4d87d7c4b98882b85ba830cfef71cf9afa9b7b71e79f"
+    },
+    {
+      "source": "scripts/g21_asr_finish.py",
+      "snapshot": "04_g21_asr_finish.py",
+      "sha256": "c5bf5387f7c5cafcbba8cd63f0758c77614d13278c6ea7f45f32a9af7db9ed2c"
+    }
+  ]
+}

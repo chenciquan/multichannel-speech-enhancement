@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T03:26:06.812101+00:00",
+  "files": [
+    {
+      "source": "docs/G6_\u672c\u5730\u63a8\u7406\u9636\u6bb5\u9a8c\u6536.md",
+      "snapshot": "00_G6_\u672c\u5730\u63a8\u7406\u9636\u6bb5\u9a8c\u6536.md",
+      "sha256": "d6a42ad64d7c8c0d0dd9614874825acef0edd9f34c909ca701e1916235cc67a6"
+    },
+    {
+      "source": "artifacts/g6_local_runtime_v1/verification/unit_tests.log",
+      "snapshot": "01_unit_tests.log",
+      "sha256": "8308d87df28ea1c131a9c1acc84caca379bd27a6b0f9a165bbb42b93894cfd93"
+    },
+    {
+      "source": "tests/test_runtime_interface.py",
+      "snapshot": "02_test_runtime_interface.py",
+      "sha256": "4196d3005b097d5cf2246cfd1a62adecb8b107c14a53ffd438913b7e8f14e2e3"
+    },
+    {
+      "source": "scripts/g6_close.py",
+      "snapshot": "03_g6_close.py",
+      "sha256": "26a0e6c70c158d9a2776f8a74342ca007b43afc6137d30c67eca139579ee767b"
+    }
+  ]
+}

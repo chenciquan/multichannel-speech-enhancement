@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T19:33:00.127496+00:00",
+  "signals": 16488,
+  "ASR_rows_each": 16488,
+  "paired_outputs": 8244,
+  "RT0_pairs": 2748,
+  "RT0_exact_PCM_pairs": 2748,
+  "ASR": {
+    "Whisper": {
+      "rows": 16488,
+      "new_decodes": {
+        "reference": 220,
+        "output": 10143
+      },
+      "new_cache_entries": 10363,
+      "references_checked": 504,
+      "all_alignments_recomputed": true,
+      "score_sha256": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f",
+      "cache_sha256": "65bc61d124bdcc19da6ddc7664d36c716729336f44ab691059760b7395dcbbe1"
+    },
+    "CTC": {
+      "rows": 16488,
+      "new_decodes": {
+        "reference": 220,
+        "output": 10143
+      },
+      "new_cache_entries": 10363,
+      "references_checked": 504,
+      "all_alignments_recomputed": true,
+      "score_sha256": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89",
+      "cache_sha256": "61045c52959af1593ad0bb5ab839e3e72ef6d358861659a7a1393acdb2ed4783"
+    }
+  },
+  "summary_sha256": "2e4f89c9b0e28d29745d65ca1bfde0b4c039dc19a1bcf58f29536c6c69e3f845",
+  "paired_deltas_sha256": "38d0d300dceca4534ed0d7494f38e441fca9e1f7457e07f73fb8bed41d3e2000"
+}

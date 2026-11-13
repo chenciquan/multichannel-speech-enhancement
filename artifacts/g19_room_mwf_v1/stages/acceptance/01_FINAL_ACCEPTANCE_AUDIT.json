@@ -1,0 +1,145 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T17:47:32.396155+00:00",
+  "scope": "Supplement to completion: file hashes and hypothesis-cache replay",
+  "pipeline_ready_sha256": "6509e16027a5c2b059e7f6bd2e6cdabfc9f5f9f1f48d647e3de97dbf28a16b66",
+  "frozen_files": {
+    "scripts/g19_common.py": "79f477a856ebbe021b681e0c12caa97555640d948f77a2fb61bb02f43af9a634",
+    "scripts/g19_signal.py": "83efda34eea0be6ad3787da6c1efe7d33655813f976c3d30366516d6ab85ec19",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g19_finish.py": "3b34bf6d83f0e9703591beb7bb3b288f9673e08fb3a3f8bc06ffa8e5b4842e84",
+    "scripts/g19_queue.py": "d40cba16fc2335b544aa6a37970e471c7b6882108020cb30849c08d2fcddb733",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+  },
+  "frozen_plan_sha256": "3f6d1d9c6923e6530d0b3b828cbb90ffc252532659586d163513a92651f96011",
+  "verified_stages": {
+    "completion": {
+      "manifest_sha256": "f7c63c29dfc0327dd20dff153c57e73bc83959d348473d7d3ecd925397e9981c",
+      "entries": 5
+    },
+    "ctc": {
+      "manifest_sha256": "a276eccb19df135f92ac9caeb5a794b4f195abbfbd124b05995587fb1ebd76a1",
+      "entries": 4
+    },
+    "definition_clarification": {
+      "manifest_sha256": "3dadbd221a8f36a6b441e2efab03923d2d2dc5a6d590dbea47edb27e85974ee1",
+      "entries": 1
+    },
+    "preflight": {
+      "manifest_sha256": "6281c01682da3992c7da1f567bfa902e4a0aaf1e95120290cd75f04853d051a3",
+      "entries": 8
+    },
+    "signal": {
+      "manifest_sha256": "af7f0a7a03eb4b15ddd25b3d3da34307fdb7a296f33a821c033f4430322fcb78",
+      "entries": 4
+    },
+    "whisper": {
+      "manifest_sha256": "634ec4cdbda4d855a7667b189d8e0c4dbfb07a84342ba4671db42f333846e378",
+      "entries": 4
+    }
+  },
+  "completion_audit_sha256": "de0ccf11dba93cf6bda00e1f2becba11dcfaa1dc594c5fbff62a9291892fd8d7",
+  "summary_sha256": "1067e585d67f959f3ecea43ce022151f6f4df89fd381b7b5ca5645217b35dd47",
+  "ASR": {
+    "Whisper": {
+      "scored_pairs": 5040,
+      "new_decodes": 5040,
+      "unique_output_hashes": 5040,
+      "cache_entries": 51355,
+      "historical_sources": 9,
+      "conflicts": 0,
+      "asr_scores_sha256": "76a5be1c4e859d57d7d8713d377dfec15ae03896a8c7ec74e4b40f2358202ab8",
+      "cache_new_sha256": "d28b63752d4fb0297cf9829f5e72ad959452b1a426002fe327edb8fda05bbd4b"
+    },
+    "CTC": {
+      "scored_pairs": 5040,
+      "new_decodes": 5040,
+      "unique_output_hashes": 5040,
+      "cache_entries": 45432,
+      "historical_sources": 7,
+      "conflicts": 0,
+      "asr_scores_sha256": "1b3e1a68a741f898cea525e98da0e9258a4e17fe7d3293de0da069e45713f615",
+      "cache_new_sha256": "b267c3ff3a03285c079ff93d8591c72a5e180fcf1cbed8e898d4c090e980eeff"
+    }
+  },
+  "mcnet": {
+    "expected_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+    "checkout_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+    "verified_source_files": {
+      "src/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/model/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/util/__init__.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/__init__.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      "src/model/mc_net.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/model/mc_net.py",
+        "bytes": 33438,
+        "sha256": "3fd0ca8a9b7473869b17551fffb837a5cb5efd5ee424aae954dff07fd1389ed6",
+        "git_blob_sha1": "4e7e87dc03b598ef01b993f49af5f3fb50ec6fd2"
+      },
+      "src/util/acoustic_utils.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/acoustic_utils.py",
+        "bytes": 10797,
+        "sha256": "e59bfaa28113b215f91729fe9efba43dc573f35272fe68f360914ef787baa25b",
+        "git_blob_sha1": "6735bd941cbefb22165f4ad50a44a62f1ee2e6ae"
+      },
+      "src/util/cal_metrics.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/cal_metrics.py",
+        "bytes": 3123,
+        "sha256": "3cd0f09cbba6f43dc822528824e84ed01995084038ab4d681efd95de64afa18f",
+        "git_blob_sha1": "e17e276f7b8a249cb4d419097f26e8c7dcf6901d"
+      },
+      "src/util/git_tools.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/git_tools.py",
+        "bytes": 800,
+        "sha256": "6db5a0c6b67436d3e119f8474291b538c44b43f8a0ae0f433f6121eed17562a4",
+        "git_blob_sha1": "ec168f73e48add63a164a137f5d1c54b24195c44"
+      },
+      "src/util/my_json_encoder.py": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/src/util/my_json_encoder.py",
+        "bytes": 513,
+        "sha256": "5829889b0ca25bd4fe307617523ac6b936bec00b1e7e001ab6e65e872046019a",
+        "git_blob_sha1": "a12096ffc08aebc230a0682f3b73cf01b726ef1f"
+      },
+      "config/mc_net_offline.yaml": {
+        "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/config/mc_net_offline.yaml",
+        "bytes": 3546,
+        "sha256": "184e4a02ec5e0e163fe6928e2c5eb5702b3d611a34adf5ab4d2a6679a5885618",
+        "git_blob_sha1": "cb197b8155cf5327b01ba9ba4ab6a83ebbbef3f5"
+      }
+    },
+    "checkpoint": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/third_party/McNet/model_checkpoints/offline/epoch494_criteria18.78_sdr18.78.ckpt",
+      "bytes": 39999375,
+      "sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+      "git_blob_sha1": "b48a7907aaf279d17182782f765c27ac261c137d"
+    },
+    "license_status": "No explicit upstream LICENSE found in prior audit; use under the separately confirmed local permission."
+  },
+  "power_helper": {
+    "pid": 46692,
+    "started_utc": "2026-11-12T13:10:40.1774841+00:00",
+    "deadline_utc": "2026-11-12T18:10:39.3935993+00:00",
+    "status": "released",
+    "power_plan_modified": false,
+    "released_utc": "2026-11-12T13:32:42.5429891+00:00"
+  }
+}

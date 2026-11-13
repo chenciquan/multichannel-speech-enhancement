@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:05:27.315878+00:00",
+  "outputs": 864,
+  "ASR_rows_each": 1728,
+  "stages": {
+    "ctc": "9e154ad40f1314365fc761c78f468646e4179defe02b7b126686a570fcd51f30",
+    "preflight": "fcd7d5818a42e508415e0f2fb3767eb3823acc5b780c86dc60b7f6cc1e1e37ea",
+    "protocol": "32d3b54a17ed97e092bae4d3393a9f18cf9583b8d4427fe133ee4e2f37946cbb",
+    "readback_failure_and_correction": "b5a3de3fa155ca7ae45e5c01515e605eee923a5511833a71d2bd69396cc0ca3a",
+    "recognition_completion": "f916b5845fe7003745e464a41c9f8bb69e1a7301ec1610c854577c8694f21df4",
+    "recognition_protocol": "7bb6b94ddbec85546ef4b7b3cb7dccbc2372be7d6c05e4cff28a4f893dbf1b84",
+    "signal": "0ed9968724cb3cb243aec7fe33a9a7ad54d0560f4af4efeed108e32909ef3e8e",
+    "signal_acceptance": "37b7fc5caece91af5be634f862a1cc451a5d434c78363fe42bf9ab8602ca5145",
+    "whisper": "62952d49e3d25a28b16c37a25ce34265ca76d6e3be82af4694ded4113d2b7558"
+  },
+  "completion_sha256": "b402f0db1b83ea5f55a94ffdea65c6acc4a255d74562abf2ad488164db70ae61",
+  "RT0_exact_pcm_pairs": 144,
+  "signal_power_released": true,
+  "ASR_power_released": true,
+  "training_performed": false
+}

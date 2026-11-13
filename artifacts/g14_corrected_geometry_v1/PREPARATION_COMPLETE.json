@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T08:39:52.338031+00:00",
+  "cases": 336,
+  "noisy": 288,
+  "clean": 48,
+  "all168_old_inputs_reproduced_before_joint_scaling": true,
+  "legacy_after_joint_scaling_still_exact_G10_cases": 153,
+  "joint_groups_rescaled": 5,
+  "matched_reference_groups": 56,
+  "all_reference_mic_and_target_samples_equal": true,
+  "target20_and_clean_negative_controls_exact": true,
+  "manifest_sha256": "cf0fd2c36e8c173ab42366db12bae17c8791648400024c0f8f39389804b1bbea",
+  "elapsed_seconds": 33.72369051300001
+}

@@ -1,0 +1,211 @@
+{
+  "stage": "training",
+  "saved_at_utc": "2026-11-11T18:28:56.168122+00:00",
+  "report": "docs/G3A_\u8bad\u7ec3\u9636\u6bb5\u62a5\u544a.md",
+  "files": [
+    {
+      "source": "configs/g3_overnight_plan.json",
+      "snapshot": "00_g3_overnight_plan.json",
+      "sha256": "b6ff9d1c8a508b974eb851781ccb88569c214acc89dc52b9617b11f4e3cd6c21"
+    },
+    {
+      "source": "configs/g3_execution_supplement.json",
+      "snapshot": "01_g3_execution_supplement.json",
+      "sha256": "e9344084d3f486d47c0dbf26cc2cc720286a27835f1eb17e3341bb44c81312bb"
+    },
+    {
+      "source": "configs/g3_factorial_extension.json",
+      "snapshot": "02_g3_factorial_extension.json",
+      "sha256": "fb7dec7fcca474c5c0598d9601416f9a0a708acceecbe75d8bb30d269287ddb2"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/selected_checkpoints.json",
+      "snapshot": "03_selected_checkpoints.json",
+      "sha256": "f08c73c0a40faca3588bcc964f3ddf41a44c22963b87b39400fd442043ba6101"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/selected_checkpoints_extended.json",
+      "snapshot": "04_selected_checkpoints_extended.json",
+      "sha256": "84aa3c231ffd96c5184fba232e2d13bd895c20a256ca027b2c1fa3ee4413f4fd"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/fp32_amendment.json",
+      "snapshot": "05_fp32_amendment.json",
+      "sha256": "511ad1af4562f3fce72bbf33331998abac14f54bf55044df94f47376b048219f"
+    },
+    {
+      "source": "data/g3_v1/dataset/frozen_protocol.json",
+      "snapshot": "06_frozen_protocol.json",
+      "sha256": "34370c8cf09671909ee42791913d0babc06946589e56f09a8d862f6101c6e9af"
+    },
+    {
+      "source": "requirements-adaptation.lock.txt",
+      "snapshot": "07_requirements-adaptation.lock.txt",
+      "sha256": "369f79f66474f4d62369a69db9f1bdf26635d147580dc1375b25646658830057"
+    },
+    {
+      "source": "scripts/g3_train.py",
+      "snapshot": "08_g3_train.py",
+      "sha256": "b05c9228b75b5406aea37e6afaf5bf4eb16d046c91864a3e1c28c919fcc27591"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "09_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "scripts/g3_build.py",
+      "snapshot": "10_g3_build.py",
+      "sha256": "db5d5632e455a168dabfa77af98c86bfe404f92681c6c0e6aa4ee81e3c5daccc"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/ordinary_s20261112/result.json",
+      "snapshot": "11_result.json",
+      "sha256": "cef0e1dd1fdf7e21388374f8c5ff9b58463ee744d866a87df51f247124c7d89d"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/complete_s20261112/result.json",
+      "snapshot": "12_result.json",
+      "sha256": "612703cb6228fd165e61339a75004e727dbe10fce3ed8f1e6f196f2340366641"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/result.json",
+      "snapshot": "13_result.json",
+      "sha256": "0bef3a3fae8805f78dcb4c2dde18b9676cf16e05a029b55859dac6480f6206c7"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261112/result.json",
+      "snapshot": "14_result.json",
+      "sha256": "08ed4aa91a8c18cad0b654719f20b362f6fb683b5dfc300e09235ff97fd2b280"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/ordinary_s20261113/result.json",
+      "snapshot": "15_result.json",
+      "sha256": "a4deb413c0a29c6a47c01cfe4540278db535acfb29791df8a6c2486a7d7d4de6"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/complete_s20261113/result.json",
+      "snapshot": "16_result.json",
+      "sha256": "5b12d85b278a2ee5c3d85fc8534f5a9d25e8689b45c93e677dbb27b5f90983f7"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/ordinary_s20261114/result.json",
+      "snapshot": "17_result.json",
+      "sha256": "9d6bd2f439c6d5f1c8ac4262d3bc11fc2b1ca12b85ae11b32cbaaedf8b5044bf"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/complete_s20261114/result.json",
+      "snapshot": "18_result.json",
+      "sha256": "941d58d747e602457b52d5ab6184d471240b7f7e14570e24d17930232c27350e"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_stratification_s20261113/result.json",
+      "snapshot": "19_result.json",
+      "sha256": "511fde56fd1ed5fff80f6484f49b7bebae5f7fbcea547daf40ec8c27dd33be2f"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261113/result.json",
+      "snapshot": "20_result.json",
+      "sha256": "ee72b9f561b552a6a4cdc9e612bff4af819b8abe157247ada9267e2db07f7d2d"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_stratification_s20261114/result.json",
+      "snapshot": "21_result.json",
+      "sha256": "e910da15ca3d7d1444076265ed821b7378ca6775c94e7302a206e566e323a88e"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261114/result.json",
+      "snapshot": "22_result.json",
+      "sha256": "f89165b034c4dd9bd0bc8df1cf2478176767bf910cbffcfe30d474e20a668255"
+    },
+    {
+      "source": "docs/G3A_\u8bad\u7ec3\u9636\u6bb5\u62a5\u544a.md",
+      "snapshot": "23_G3A_\u8bad\u7ec3\u9636\u6bb5\u62a5\u544a.md",
+      "sha256": "8bbf4dddaa488bd30f688e60bbb75be81c572df8f55190f61a7ce3aa4348c0cd"
+    }
+  ],
+  "referenced_artifacts": [
+    {
+      "path": "artifacts/g3_overnight_v1/train/ordinary_s20261112/adapter_03000.pt",
+      "sha256": "58e7b5373d06d4a80300ca091b4df848de064809d39ea370840ba3ac8778070f",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_03000.pt",
+      "sha256": "4c5e5ec0707306cde52f26df5585d494eb97151916d263cfbdd0251b94b05921",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261112/adapter_03000.pt",
+      "sha256": "98b9a833ca2af913f2baf9a6a422376ebbb582c71bb2933eba6883d7aa5745eb",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "sha256": "b238fa81ad17dca8d31848e7dd1c88889ac0bd388bd91151429555dd1129cc89",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/ordinary_s20261113/adapter_03000.pt",
+      "sha256": "c5491a89ffa112d211797e18e4b574d8810c9a8c569f84e84737d0c419f08799",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261113/adapter_03000.pt",
+      "sha256": "0c75352aad111abc72fc38b1858601c85d5a093078c7cd22881793e5a716d628",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/ordinary_s20261114/adapter_03000.pt",
+      "sha256": "dac6b3ae31add5016de1142cbdfc19509f1d5dd1b6a59df5fa5b98ce2edf50f9",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261114/adapter_03000.pt",
+      "sha256": "5763268bf2f02d20c79f9a76ac2998f7b9f782a66034b191abecd605cb08587a",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261113/adapter_03000.pt",
+      "sha256": "99626b77c74cca670da901423a8c9fe58a1470454f2e8dea10913c692da7b24b",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261113/adapter_03000.pt",
+      "sha256": "bd78315ef747845a32b3e0e39d117fb9999e7793eab1392478abd15657ff4684",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_stratification_s20261114/adapter_03000.pt",
+      "sha256": "039f70b7fe2bca1627d3992d83f03a691bc6fd9ea5fd02e8b03d261823a33b7f",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/train/without_clean_identity_s20261114/adapter_03000.pt",
+      "sha256": "43d585161d15d2b02352902afd766c3568eaa6e7982b92637c587e2464360222",
+      "role": "selected_adapter_checkpoint"
+    },
+    {
+      "path": "data/g3_v1/dataset/train_x.npy",
+      "sha256": "71b4660dd8b1f901c1e8b719c3ecde660d828d1d957eb721694fb5d33c30a1f6",
+      "role": "shared_training_pool"
+    },
+    {
+      "path": "data/g3_v1/dataset/train_y.npy",
+      "sha256": "1d9f99faeea7224b5cbcf0440bb07afd4b1bd8313885ed8bb15ce07450209d74",
+      "role": "shared_training_pool"
+    },
+    {
+      "path": "data/g3_v1/dataset/clean_x.npy",
+      "sha256": "8e20408090836a847b85e1112e4c23a6b6f5a0d7f3115650d19fdc9e993bbb06",
+      "role": "shared_training_pool"
+    },
+    {
+      "path": "data/g3_v1/dataset/train_catalog.json",
+      "sha256": "d90c9a778985f57e6d643250ba543c6079b58f64b7a6a13202c4543d4a212106",
+      "role": "shared_training_pool"
+    }
+  ],
+  "large_audio_checkpoints_copied": false,
+  "large_outputs": "Kept in original per-run directories; hashes and exact checkpoint paths in manifests, no evidence deleted."
+}

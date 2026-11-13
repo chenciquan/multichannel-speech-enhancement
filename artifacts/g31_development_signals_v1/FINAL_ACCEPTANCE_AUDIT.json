@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:49:48.958155+00:00",
+  "rows": 1404,
+  "development_cases": 108,
+  "old_development_sources": 12,
+  "speakers": 2,
+  "ASR_performed": false,
+  "training_performed": false,
+  "extension_gate_passed": false,
+  "analysis_sha256": "7f8f139a6a2576016bf13ce8ffeadee8225d4f128fd79af7e96dfc717bbb3506",
+  "stages": {
+    "analysis": "89be812d52fba0f573cfbb4efaf70b6c23b3f1de60c3fb560c2e6fcf225082e8",
+    "direct_cirm": "b1aff6d67dde7c18f8e8d5cf56b3c295166a7b92edb8530f6303cd0796fb1f34",
+    "direct_cirm_mask": "485c851c053bcbcf5971ac5f63ec18f7ace4c7ba2454b96a44609f22a80be744",
+    "direct_cirm_shape": "e00ffbb91d5f9ae0bb1d896c60c2c2022744e7e59b3c494c47ef34b5dcf73cd8",
+    "direct_complete": "2a5a8b24217d6c9f3f50f01854493162f744f1a4f8d9246bcac647ddc103da3a",
+    "direct_mcnet": "1715562ec3de871fbf0087f0b63184c1f50c2c86d8a215403373ff768d3e404e",
+    "protocol": "7bff63050752e2b0d1f216f7e079a5c80c13e752dbbfb7b2fbb09b83fbbb3522"
+  },
+  "power_released": true
+}

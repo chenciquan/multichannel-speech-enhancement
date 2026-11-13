@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "cases": 168,
+  "sources": 8,
+  "speakers": 4,
+  "counterfactual_groups": 56,
+  "all_reference_mic_and_target_groups_equal": true,
+  "correct_rigid_geometry_invariants": true,
+  "manifest_sha256": "5f4924318aa2c45619610bc0177f591c051735dc9071b3d3bfc53be215173ce0",
+  "completed_utc": "2026-11-12T09:49:09.454700+00:00"
+}

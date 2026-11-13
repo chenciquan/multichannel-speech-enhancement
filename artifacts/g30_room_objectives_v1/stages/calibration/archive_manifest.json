@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:40:12.589643+00:00",
+  "files": [
+    {
+      "source": "docs/G30B_训练输入辅助目标尺度校准.md",
+      "snapshot": "00_G30B_训练输入辅助目标尺度校准.md",
+      "sha256": "cb2ab2bb6cdaf8a1f589415d5ddb88d8ceaee14874c40df51ed524ecdaa6a766"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/CALIBRATION_COMPLETE.json",
+      "snapshot": "01_CALIBRATION_COMPLETE.json",
+      "sha256": "ff0e984310341618770bc6ec3ac8d4205503d0a4885a069c4c05813972cb0ef3"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/calibration_records.json",
+      "snapshot": "02_calibration_records.json",
+      "sha256": "f0d6a763e631c8c22eac4eeb5e0834d2bd571c50d838aad616fb38cf00456950"
+    },
+    {
+      "source": "artifacts/g30_room_objectives_v1/calibration_gradients.npz",
+      "snapshot": "03_calibration_gradients.npz",
+      "sha256": "42f311bec5f43b542ee1832991846f51d52b337ac686c1c4abb45c97e63d4d89"
+    },
+    {
+      "source": "scripts/g30_calibrate.py",
+      "snapshot": "04_g30_calibrate.py",
+      "sha256": "9bff42da0d8301e9dd2f32f6f64c5838f109b8da8ac474319eb9421a1b652aa4"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-11T20:46:02.186268+00:00",
+  "training_performed": false,
+  "manifest_sha256": "8b4378a76866989ef3e5e34b54952869d2ee0020dd53a04810c047ebfc38b94d",
+  "protocol_sha256": "66c327746039a0245fd9df042947cfa8926a4bf1cfb7a9b1bde2479b3f27d492",
+  "supplement_sha256": null,
+  "previous_stage_archive_sha256": "df16155fa720b915164c84698df15a0e189c23c93502a388c36128929387f38a",
+  "fp32_inference": true,
+  "blas_threads": 1,
+  "cpu_metric_workers": 2,
+  "metric_source": "saved FLOAT WAV, no resampling/normalization/alignment fitting",
+  "checkpoint_selection": "All complete four-cell seed blocks; G5 shared54-case validation SI-SDR with initial STOI gate; no confirmation or WER tuning"
+}

@@ -1,0 +1,81 @@
+{
+  "utc": "2026-11-13T02:16:13.328719+00:00",
+  "repeat_pairs": 120,
+  "repeat_exact": 120,
+  "grad_flag_pairs": 60,
+  "grad_flag_exact": 60,
+  "old_replays": 12,
+  "old_replays_exact": 12,
+  "determinism_flag_controls": [
+    {
+      "left": "cudnn_tf32_nondet",
+      "right": "cudnn_tf32_det",
+      "pairs": 48,
+      "exact_predictions": 48,
+      "exact_waves": 48,
+      "prediction_max_abs": 0.0
+    },
+    {
+      "left": "cudnn_fp32_nondet",
+      "right": "cudnn_fp32_det",
+      "pairs": 48,
+      "exact_predictions": 48,
+      "exact_waves": 48,
+      "prediction_max_abs": 0.0
+    }
+  ],
+  "main_rows": [
+    {
+      "profile": "cudnn_tf32_nondet",
+      "comparison": "cross_model_grad",
+      "records": 6,
+      "prediction_tolerance_pass": 0,
+      "waveform_tolerance_pass": 0,
+      "prediction_exact": 0,
+      "prediction_max_abs": 0.0013850585091859102,
+      "waveform_max_abs": 5.3802505135536194e-05
+    },
+    {
+      "profile": "cudnn_fp32_nondet",
+      "comparison": "cross_model_grad",
+      "records": 6,
+      "prediction_tolerance_pass": 3,
+      "waveform_tolerance_pass": 6,
+      "prediction_exact": 0,
+      "prediction_max_abs": 6.2091908148431685e-06,
+      "waveform_max_abs": 5.066394805908203e-07
+    },
+    {
+      "profile": "cudnn_tf32_det",
+      "comparison": "cross_model_grad",
+      "records": 6,
+      "prediction_tolerance_pass": 0,
+      "waveform_tolerance_pass": 0,
+      "prediction_exact": 0,
+      "prediction_max_abs": 0.0013850585091859102,
+      "waveform_max_abs": 5.3802505135536194e-05
+    },
+    {
+      "profile": "cudnn_fp32_det",
+      "comparison": "cross_model_grad",
+      "records": 6,
+      "prediction_tolerance_pass": 3,
+      "waveform_tolerance_pass": 6,
+      "prediction_exact": 0,
+      "prediction_max_abs": 6.2091908148431685e-06,
+      "waveform_max_abs": 5.066394805908203e-07
+    },
+    {
+      "profile": "native_fp32",
+      "comparison": "cross_model_grad",
+      "records": 6,
+      "prediction_tolerance_pass": 4,
+      "waveform_tolerance_pass": 6,
+      "prediction_exact": 0,
+      "prediction_max_abs": 5.76120237383293e-06,
+      "waveform_max_abs": 5.587935447692871e-07
+    }
+  ],
+  "relative_error_fields_recomputed": 240,
+  "G33_original_gate_still_failed": true
+}

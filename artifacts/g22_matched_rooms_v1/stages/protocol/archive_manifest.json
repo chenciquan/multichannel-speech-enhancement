@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T18:25:02.623846+00:00",
+  "files": [
+    {
+      "source": "docs/G22A_匹配电平的新房间确认协议.md",
+      "snapshot": "00_G22A_匹配电平的新房间确认协议.md",
+      "sha256": "0de221eb01c270f3b2edb9982fa5f878022cfc40eb4b57ef68f4926929fde5ce"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "d083483db07de0121fc91a4b76596ba9c142273ef6e08cf295b5b013887fe327"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/selected_sources.json",
+      "snapshot": "02_selected_sources.json",
+      "sha256": "81c76024ce8719cd6d96f080a82511b7205bb9e2d790f141123b93fef5aed7c2"
+    },
+    {
+      "source": "scripts/g22_prepare.py",
+      "snapshot": "03_g22_prepare.py",
+      "sha256": "52142fc37d47a013903b41e50212fdb0c8057b326d82243a9c83e955ce440419"
+    }
+  ]
+}

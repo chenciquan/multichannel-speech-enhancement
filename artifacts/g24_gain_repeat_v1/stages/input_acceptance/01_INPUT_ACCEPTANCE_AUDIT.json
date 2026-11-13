@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T20:00:33.910372+00:00",
+  "observations": 1920,
+  "bases": 480,
+  "all_binary_inverse_exact": true,
+  "manifest_sha256": "307753b1b677c506832bc19341cdf0a6f4c75a09abd1bbce3bbb5b08b3c57cc5"
+}

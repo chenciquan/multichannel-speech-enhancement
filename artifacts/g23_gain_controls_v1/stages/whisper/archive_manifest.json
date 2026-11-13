@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:49:22.700660+00:00",
+  "files": [
+    {
+      "source": "docs/G23_Whisper控制识别覆盖.md",
+      "snapshot": "00_G23_Whisper控制识别覆盖.md",
+      "sha256": "6276e54a60e40a3dc59534bed8b241e5c101e24c3a1a5815283a6e9fefe7bee2"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "b30802178c035267f2a565240fef6be2c8296b587e3e5555a1fdd0d63406de02"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "db0f808a2fe97bdb14d13db636a92a1073fbd0e394ab73c704d518807b235c08"
+    },
+    {
+      "source": "scripts/g23_asr.py",
+      "snapshot": "03_g23_asr.py",
+      "sha256": "bf71b3257a0a183315d286a05798e6bea0c658e4f3c28814294c30814ef4b1a2"
+    }
+  ]
+}

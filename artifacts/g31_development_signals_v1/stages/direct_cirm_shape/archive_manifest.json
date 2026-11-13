@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T00:48:26.266505+00:00",
+  "files": [
+    {
+      "source": "docs/G31_cirm_shape_直接输出覆盖.md",
+      "snapshot": "00_G31_cirm_shape_直接输出覆盖.md",
+      "sha256": "2ff0e5fe882c5bda8859fc87e339aa1b723482c6c1869fbb0a0733903784d4ce"
+    },
+    {
+      "source": "artifacts/g31_development_signals_v1/cirm_shape_resource.json",
+      "snapshot": "01_cirm_shape_resource.json",
+      "sha256": "d09a6ebf5113158eb63dc54cfb547d6098e9c1f40219f8851ea02a6cf15da96f"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "engine": "Whisper",
+  "model_id": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+  "decoding": {
+    "options": {
+      "language": "en",
+      "task": "transcribe",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "initial_prompt": null,
+      "beam_size": 1,
+      "word_timestamps": false,
+      "without_timestamps": true,
+      "compression_ratio_threshold": 2.4,
+      "logprob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "fp16": true,
+      "verbose": null
+    },
+    "model_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03"
+  },
+  "normalization": "Unicode NFKD, remove combining accents, uppercase; normalize curly apostrophes; tokens match [A-Z0-9]+(?:'[A-Z0-9]+)*. Other punctuation/hyphens separate words. No number expansion, spelling correction, or reference-driven rewriting.",
+  "reference_prompt": false,
+  "ASR_regime": "level_control",
+  "input_preprocessing": {
+    "target_rms": 0.05,
+    "peak_limit": 0.95,
+    "formula": "min(target_rms/RMS(x),peak_limit/maxabs(x)); zero remains zero",
+    "precision": "float32 input -> float64 coefficient and multiply -> float32 output",
+    "code_sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "preprocessing_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851"
+  },
+  "seed": {
+    "scores_sha256": "65f9fde814f8cf2bc056c187a6e362db9c1ba7f6c8660089ce67e5c3a889acc9",
+    "accepted_score_sha256": "65f9fde814f8cf2bc056c187a6e362db9c1ba7f6c8660089ce67e5c3a889acc9",
+    "provenance_sha256": "7c6266fab707fb99d159a79c6e18b0e6eb52da31b1b4549ce79e5139a34906e0"
+  },
+  "plan_sha256": "5a8cdf9d0e2b4e12b28aebf1d02ffbd91adca361d6431856d96b23d5aae301e1",
+  "input_manifest_sha256": "4a6fe9890953be206533e77e3d6dec4dfe4497b09e9b1eb6bc12a61889760b0b"
+}

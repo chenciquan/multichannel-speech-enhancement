@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cudnn_tf32_nondet",
+    "cudnn_enabled": true,
+    "cudnn_tf32": true,
+    "matmul_tf32": false,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "global_deterministic": false
+  },
+  {
+    "id": "cudnn_fp32_nondet",
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "matmul_tf32": false,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "global_deterministic": false
+  },
+  {
+    "id": "cudnn_tf32_det",
+    "cudnn_enabled": true,
+    "cudnn_tf32": true,
+    "matmul_tf32": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "global_deterministic": false
+  },
+  {
+    "id": "cudnn_fp32_det",
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "matmul_tf32": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "global_deterministic": false
+  },
+  {
+    "id": "native_fp32",
+    "cudnn_enabled": false,
+    "cudnn_tf32": false,
+    "matmul_tf32": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "global_deterministic": false
+  }
+]

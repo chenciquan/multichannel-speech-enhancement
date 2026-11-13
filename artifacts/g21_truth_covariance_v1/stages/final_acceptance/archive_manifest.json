@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T18:21:41.427322+00:00",
+  "files": [
+    {
+      "source": "docs/G21_真值统计双识别器验收读回.md",
+      "snapshot": "00_G21_真值统计双识别器验收读回.md",
+      "sha256": "1167e76679146fb461335962f4b03accb6714559086fc0ead5be4c8e7f21da5b"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "c9ce830d3caedcfadc7f17e2e015ce7c7091d3719d6a185fa6471a1ddc5f5bf4"
+    },
+    {
+      "source": "scripts/g21_final_accept.py",
+      "snapshot": "02_g21_final_accept.py",
+      "sha256": "087754653d4187e140a82b4593875b206be09af0839fc55187b1f46bcb7755de"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/ASR_power_helper.json",
+      "snapshot": "03_ASR_power_helper.json",
+      "sha256": "f62bcb5b65f74d6528564c3c3c59f5a4dab5c3fde11ac8e9390aa788cc3e66d8"
+    }
+  ]
+}

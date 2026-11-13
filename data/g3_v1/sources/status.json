@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "start": 1794417385.7706263,
+  "speech": {
+    "compressed_bytes_streamed": 81704960,
+    "roles": {
+      "2277": "train",
+      "2035": "train",
+      "2086": "train",
+      "7976": "train",
+      "1988": "validation",
+      "777": "validation",
+      "84": "test",
+      "1673": "test",
+      "8297": "test",
+      "5536": "test"
+    },
+    "train_seconds": 1448.3250625,
+    "validation_sources": 12,
+    "test_sources": 30,
+    "full_archive_saved": false
+  },
+  "noise": [
+    {
+      "name": "DWASHING",
+      "bytes_downloaded": 0
+    },
+    {
+      "name": "DKITCHEN",
+      "bytes_downloaded": 0
+    },
+    {
+      "name": "OOFFICE",
+      "bytes_downloaded": 5548938
+    },
+    {
+      "name": "PCAFETER",
+      "bytes_downloaded": 6726952
+    }
+  ]
+}

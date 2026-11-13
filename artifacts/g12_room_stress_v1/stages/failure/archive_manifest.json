@@ -1,0 +1,50 @@
+{
+  "saved_utc": "2026-11-12T08:07:09.004895+00:00",
+  "files": [
+    {
+      "source": "docs/G12A_前置包管理检查失败记录.md",
+      "snapshot": "00_G12A_前置包管理检查失败记录.md",
+      "sha256": "3e25a561cb4d496ad734926ddededeb95130fc56a27c832f863abadf0dab647a"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "b56f43956fd01ab3927579971e9f437e312d6182e57f1f7d756f1c5c63d4b48e"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v1/PREINSTALL_FAILURE_AUDIT.json",
+      "snapshot": "02_PREINSTALL_FAILURE_AUDIT.json",
+      "sha256": "b9d030eb80cf5a3d05803e45505715050bb076648d51db252f04f8860e95859d"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v1/asset.log",
+      "snapshot": "03_asset.log",
+      "sha256": "155623a571a5a66df8680976bc5067b0a3d6d7331e58fd9518bd10d28f87d911"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v1/assets/distributions_before.json",
+      "snapshot": "04_distributions_before.json",
+      "sha256": "601c78315664ed9285736cc127fbdcf1c318fef46bda668bf36b78bb31ca4bf1"
+    },
+    {
+      "source": "scripts/g12_asset.py",
+      "snapshot": "05_g12_asset.py",
+      "sha256": "d55860bd6fed8a58ccc8215c8d079a2f672c9a7127d6eab226b4110803ecacc2"
+    },
+    {
+      "source": "scripts/g12_common.py",
+      "snapshot": "06_g12_common.py",
+      "sha256": "0b888e97afeaa9d833f578f35b1f8243ede4785900fa9f8f1637af19f3395918"
+    },
+    {
+      "source": "scripts/g12_start_asset.py",
+      "snapshot": "07_g12_start_asset.py",
+      "sha256": "964814e844800b5663c5db74b23ae445f436957f931e2d2c4d9754bf05075ea7"
+    },
+    {
+      "source": "scripts/g12_failure_close.py",
+      "snapshot": "08_g12_failure_close.py",
+      "sha256": "53f957efe4c8a057e399ecc9db0f1a81e41a6e228b78a127eeb35c28b6340c27"
+    }
+  ]
+}

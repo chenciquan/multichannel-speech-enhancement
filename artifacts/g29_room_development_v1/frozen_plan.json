@@ -1,0 +1,559 @@
+{
+  "utc": "2026-11-13T00:23:27.067418+00:00",
+  "seed": 2026111301,
+  "max_seconds": 2400,
+  "positions": [
+    [
+      -0.1,
+      0.0,
+      0.095
+    ],
+    [
+      0.0,
+      -0.01,
+      0.095
+    ],
+    [
+      0.1,
+      0.0,
+      0.095
+    ],
+    [
+      -0.1,
+      0.0,
+      -0.095
+    ],
+    [
+      0.0,
+      0.0,
+      -0.095
+    ],
+    [
+      0.1,
+      0.0,
+      -0.095
+    ]
+  ],
+  "source_distance": 1.2,
+  "RT_requests": [
+    0,
+    0.16,
+    0.28
+  ],
+  "RIR_samples": 7680,
+  "dry_frames": 16000,
+  "frames": 23679,
+  "preroll": 16000,
+  "tail_energy_limit": 0.0001,
+  "SNR_tolerance_db": 0.001,
+  "RT0_room_rir_tolerance": 1e-09,
+  "train_examples": 576,
+  "development_examples": 108,
+  "rooms": [
+    {
+      "id": "train0",
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train"
+    },
+    {
+      "id": "train1",
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train"
+    },
+    {
+      "id": "train2",
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train"
+    },
+    {
+      "id": "dev0",
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation"
+    }
+  ],
+  "templates": [
+    {
+      "id": 0,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0,
+      "angle": -50
+    },
+    {
+      "id": 1,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0,
+      "angle": 50
+    },
+    {
+      "id": 2,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0.16,
+      "angle": -50
+    },
+    {
+      "id": 3,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0.16,
+      "angle": 50
+    },
+    {
+      "id": 4,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0.28,
+      "angle": -50
+    },
+    {
+      "id": 5,
+      "dimensions": [
+        5,
+        4,
+        3
+      ],
+      "reference": [
+        2.5,
+        2.0,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train0",
+      "rt": 0.28,
+      "angle": 50
+    },
+    {
+      "id": 6,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0,
+      "angle": -50
+    },
+    {
+      "id": 7,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0,
+      "angle": 50
+    },
+    {
+      "id": 8,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0.16,
+      "angle": -50
+    },
+    {
+      "id": 9,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0.16,
+      "angle": 50
+    },
+    {
+      "id": 10,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0.28,
+      "angle": -50
+    },
+    {
+      "id": 11,
+      "dimensions": [
+        7,
+        5.5,
+        3.2
+      ],
+      "reference": [
+        3.5,
+        2.75,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train1",
+      "rt": 0.28,
+      "angle": 50
+    },
+    {
+      "id": 12,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0,
+      "angle": -50
+    },
+    {
+      "id": 13,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0,
+      "angle": 50
+    },
+    {
+      "id": 14,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0.16,
+      "angle": -50
+    },
+    {
+      "id": 15,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0.16,
+      "angle": 50
+    },
+    {
+      "id": 16,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0.28,
+      "angle": -50
+    },
+    {
+      "id": 17,
+      "dimensions": [
+        4.5,
+        3.8,
+        2.8
+      ],
+      "reference": [
+        2.25,
+        1.9,
+        1.4
+      ],
+      "split": "train",
+      "room_id": "train2",
+      "rt": 0.28,
+      "angle": 50
+    },
+    {
+      "id": 18,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0,
+      "angle": -30
+    },
+    {
+      "id": 19,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0,
+      "angle": 30
+    },
+    {
+      "id": 20,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0.16,
+      "angle": -30
+    },
+    {
+      "id": 21,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0.16,
+      "angle": 30
+    },
+    {
+      "id": 22,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0.28,
+      "angle": -30
+    },
+    {
+      "id": 23,
+      "dimensions": [
+        5.5,
+        4.6,
+        3.1
+      ],
+      "reference": [
+        2.75,
+        2.3,
+        1.4
+      ],
+      "split": "validation",
+      "room_id": "dev0",
+      "rt": 0.28,
+      "angle": 30
+    }
+  ],
+  "noise_ids": [
+    "DWASHING",
+    "DKITCHEN",
+    "OOFFICE"
+  ],
+  "snrs": [
+    -5,
+    0,
+    5
+  ],
+  "noise_time_blocks_seconds": {
+    "train": [
+      0,
+      120
+    ],
+    "validation": [
+      125,
+      175
+    ]
+  },
+  "noise_preprocessing": "Each split block independently highpass40, no shared filter state,1s inner margin; full preroll+frames intervals recorded",
+  "target": "full reverberant reference channel4 float32; no dry target, quantization, resampling, alignment fitting",
+  "sampling": "2 repeats of4speakers x18roomRTangle templates x(point-80,point+25,multi8,multi8), shuffled separately",
+  "development": "12existing validation sources centered1sec,3RTx2noisefields+clean, angle alternates bysource; noWER",
+  "new_training": false,
+  "new_ASR": false,
+  "hashes": {
+    "scripts/g29_prepare.py": "1aadf8d097699cd3e111f68ec2b954d70adf2d954d4a0414e5a3dc01c5446979",
+    "scripts/g29_common.py": "0cba92d54ef641337a1aed53b115d21214a5e03783f44050bb6d0d98eb007bc2",
+    "configs/g1_geometry.json": "867d89f4f928f01a22de7db116539a09f0ad9bdb8b07e0439cb4053cb4b993dd",
+    "src/mcse/geometry.py": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/spatial_noise.py": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b",
+    "src/mcse/simulation.py": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0",
+    "data/g3_v1/sources/speech_manifest.jsonl": "ba7a37227a52d638c7f1014ecc12172a731c461f2589ec01e045c0a39c6ab6d0",
+    "data/g3_v1/sources/noise_manifest.json": "5c2d0f0e2500618c8d167c777c56ca9fa6ac31af2aae8f252c60b67e822db1df",
+    "artifacts/g12_room_stress_v2/ASSET_COMPLETE.json": "2c1bdffe56f6514394d31ebc334076e7f719b848e6f19eb8470120405505124e",
+    "artifacts/g28_gradient_feasibility_v2/FINAL_ACCEPTANCE_AUDIT.json": "adc08f12ec84c387eec85dcbaecaac930e045711dd992acd6446d0873766dc81"
+  }
+}

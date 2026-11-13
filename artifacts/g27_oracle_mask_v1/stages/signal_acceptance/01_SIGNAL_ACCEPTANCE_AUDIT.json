@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:01:13.422970+00:00",
+  "rows": 864,
+  "cases": 432,
+  "RT0_exact_pairs": 144,
+  "RT0_same_file_hash_pairs": 137,
+  "previous_stages": {
+    "preflight": "fcd7d5818a42e508415e0f2fb3767eb3823acc5b780c86dc60b7f6cc1e1e37ea",
+    "protocol": "32d3b54a17ed97e092bae4d3393a9f18cf9583b8d4427fe133ee4e2f37946cbb",
+    "readback_failure_and_correction": "b5a3de3fa155ca7ae45e5c01515e605eee923a5511833a71d2bd69396cc0ca3a",
+    "signal": "0ed9968724cb3cb243aec7fe33a9a7ad54d0560f4af4efeed108e32909ef3e8e"
+  },
+  "signal_sha256": "34b6bcf4c56f47ca244de8bcc88eb84efbc57887e26339d5ed6fb1498f34153a",
+  "paired_comparison_sha256": "d0b6bd0d8b8aae7eaa8eea32b9000eda0d6e5134c275c8a12890fad89a918cb0",
+  "report_sha256": "801c5ca402cfbba81e22b2d9ec2a6f12f1741133484976e5933d46ad89044dd4",
+  "power_released": true,
+  "ASR_performed": false,
+  "training_performed": false
+}

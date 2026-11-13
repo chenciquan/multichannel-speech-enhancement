@@ -1,0 +1,45 @@
+{
+  "saved_utc": "2026-11-12T07:37:21.810666+00:00",
+  "files": [
+    {
+      "source": "docs/G11A_分量诊断协议与还原验证.md",
+      "snapshot": "00_G11A_分量诊断协议与还原验证.md",
+      "sha256": "484691d8a2cb0ff96fa4aaf919d622ab5e79f1a1dc762a068ebae983ea0d7f83"
+    },
+    {
+      "source": "artifacts/g11_components_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "1c9caaae315aaea2f624b5ea2c2c2d3fdd58287530f984f5a6321417854ca510"
+    },
+    {
+      "source": "artifacts/g11_components_v1/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "f7a164936dfe5c19a0e674f1b962827b33e7fac88fe0cab36b0465ff552ccfc5"
+    },
+    {
+      "source": "artifacts/g11_components_v1/preflight_probes.json",
+      "snapshot": "03_preflight_probes.json",
+      "sha256": "24bae21d0c9d70c90ff5aec5b52f5b4b27c7f28476bb89fb7115d9fa7ca3d78e"
+    },
+    {
+      "source": "src/mcse/components.py",
+      "snapshot": "04_components.py",
+      "sha256": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a"
+    },
+    {
+      "source": "tests/test_components.py",
+      "snapshot": "05_test_components.py",
+      "sha256": "beab50795774ded33fe73a22f43c33fc3fce45f41a880b88ff470fa136e8f481"
+    },
+    {
+      "source": "scripts/g11_common.py",
+      "snapshot": "06_g11_common.py",
+      "sha256": "eb6da3b33083501949f5ea4ebd1b8b9fc422077882877447c45abab52a77fe11"
+    },
+    {
+      "source": "scripts/g11_preflight.py",
+      "snapshot": "07_g11_preflight.py",
+      "sha256": "68ff09212650f7f347d6bea54cddfe23b8b2e0456e1e9c2cb29116a24667970b"
+    }
+  ]
+}

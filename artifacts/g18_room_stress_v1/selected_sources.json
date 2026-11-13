@@ -1,0 +1,98 @@
+[
+  {
+    "source_id": "6930-75918-0000",
+    "speaker_id": "6930",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/6930-75918-0000.flac",
+    "samples": 56080,
+    "duration_seconds": 3.505,
+    "sha256": "9ce35224156f071ab58eb7feb8a5ceae600f6f9f353da2a6cbf797b6b1ac8a23",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS"
+  },
+  {
+    "source_id": "6930-75918-0007",
+    "speaker_id": "6930",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/6930-75918-0007.flac",
+    "samples": 53040,
+    "duration_seconds": 3.315,
+    "sha256": "059969de8f6b780e1a4982805e977c3e73e40d3759c8fa8cb0cb8fabd9eb5b27",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "YOU WILL BE FRANK WITH ME I ALWAYS AM"
+  },
+  {
+    "source_id": "1320-122617-0038",
+    "speaker_id": "1320",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/1320-122617-0038.flac",
+    "samples": 35840,
+    "duration_seconds": 2.24,
+    "sha256": "06e6f04d49802d96ed63ffada9d5e998150febd2b242207064e8e5f0b8fbcf48",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "WILL THE HURONS HEAR HIS GROANS"
+  },
+  {
+    "source_id": "1320-122612-0016",
+    "speaker_id": "1320",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/1320-122612-0016.flac",
+    "samples": 55840,
+    "duration_seconds": 3.49,
+    "sha256": "91425064ea7f19042fcd6301e7b425eea6be1347e56eb0953393c1699270fa18",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "RUN BACK UNCAS AND BRING ME THE SIZE OF THE SINGER'S FOOT"
+  },
+  {
+    "source_id": "5639-40744-0011",
+    "speaker_id": "5639",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/5639-40744-0011.flac",
+    "samples": 42640,
+    "duration_seconds": 2.665,
+    "sha256": "87be092fd8082c51d4e5911412e057ff0a1947822a106b6c25052631bd3c6b75",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "SHE FOUND THE DOOR BUT IT WAS LOCKED OUTSIDE"
+  },
+  {
+    "source_id": "5639-40744-0009",
+    "speaker_id": "5639",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/5639-40744-0009.flac",
+    "samples": 38000,
+    "duration_seconds": 2.375,
+    "sha256": "b8cb646d6ac672c9a840c6a0093fdd77ec4f95085335e143d67c871ce4ee724d",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "MOTHER DEAR FATHER DO YOU HEAR ME"
+  },
+  {
+    "source_id": "260-123440-0001",
+    "speaker_id": "260",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/260-123440-0001.flac",
+    "samples": 27840,
+    "duration_seconds": 1.74,
+    "sha256": "449a66d0f644eb6ff82a52fc4c45b3dbf96daf10d4cef97877e7789b46f42346",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "POOR ALICE"
+  },
+  {
+    "source_id": "260-123440-0007",
+    "speaker_id": "260",
+    "split": "fresh_voice_confirmation",
+    "path": "speech/260-123440-0007.flac",
+    "samples": 54160,
+    "duration_seconds": 3.385,
+    "sha256": "87cb8fbcddb28a25deeb6ce7a889312eaede1ef07d26ebfdafe86c2a400ab493",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+    "transcript": "I ALMOST THINK I CAN REMEMBER FEELING A LITTLE DIFFERENT"
+  }
+]

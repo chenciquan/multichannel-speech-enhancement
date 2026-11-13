@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "rows": 16488,
+  "completed_utc": "2026-11-12T19:29:44.013212+00:00",
+  "new_decodes": {
+    "reference": 220,
+    "output": 10143
+  },
+  "unique_paths": 16992,
+  "cache_entries": 62582,
+  "asr_scores_sha256": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f",
+  "cache_new_sha256": "65bc61d124bdcc19da6ddc7664d36c716729336f44ab691059760b7395dcbbe1"
+}

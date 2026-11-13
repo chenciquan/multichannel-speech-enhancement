@@ -1,0 +1,6163 @@
+{
+  "test": {
+    "noisy": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": -1.4386910953399314,
+        "pesq_wb": 1.1212418271435631,
+        "stoi": 0.6738746954021451
+      },
+      "asr": {
+        "N": 2676,
+        "S": 849,
+        "D": 529,
+        "I": 259,
+        "correct": 1298,
+        "errors": 1637,
+        "utterances": 360,
+        "wer": 0.6117339312406577,
+        "deletion_rate": 0.1976831091180867,
+        "scored_cases": 360
+      }
+    },
+    "hpf40": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": -0.46883071038263524,
+        "pesq_wb": 1.123545645011796,
+        "stoi": 0.6738849867550427
+      },
+      "asr": {
+        "N": 2676,
+        "S": 849,
+        "D": 535,
+        "I": 102,
+        "correct": 1292,
+        "errors": 1486,
+        "utterances": 360,
+        "wer": 0.5553064275037369,
+        "deletion_rate": 0.19992526158445442,
+        "scored_cases": 360
+      }
+    },
+    "mcnet": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": -1.609063087838704,
+        "pesq_wb": 1.1618741346730126,
+        "stoi": 0.6761442714723279
+      },
+      "asr": {
+        "N": 2676,
+        "S": 932,
+        "D": 585,
+        "I": 280,
+        "correct": 1159,
+        "errors": 1797,
+        "utterances": 360,
+        "wer": 0.67152466367713,
+        "deletion_rate": 0.218609865470852,
+        "scored_cases": 360
+      }
+    },
+    "ordinary_s20261112": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 4.670160659482194,
+        "pesq_wb": 1.4754380504290263,
+        "stoi": 0.8638489557780771
+      },
+      "asr": {
+        "N": 2676,
+        "S": 648,
+        "D": 93,
+        "I": 104,
+        "correct": 1935,
+        "errors": 845,
+        "utterances": 360,
+        "wer": 0.3157698056801196,
+        "deletion_rate": 0.034753363228699555,
+        "scored_cases": 360
+      }
+    },
+    "complete_s20261112": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 4.566326956161752,
+        "pesq_wb": 1.5107164717382855,
+        "stoi": 0.8650790733389837
+      },
+      "asr": {
+        "N": 2676,
+        "S": 619,
+        "D": 101,
+        "I": 127,
+        "correct": 1956,
+        "errors": 847,
+        "utterances": 360,
+        "wer": 0.3165171898355755,
+        "deletion_rate": 0.03774289985052317,
+        "scored_cases": 360
+      }
+    },
+    "without_stratification_s20261112": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 4.097804682184493,
+        "pesq_wb": 1.4433279249403212,
+        "stoi": 0.8579761612412267
+      },
+      "asr": {
+        "N": 2676,
+        "S": 680,
+        "D": 110,
+        "I": 111,
+        "correct": 1886,
+        "errors": 901,
+        "utterances": 360,
+        "wer": 0.3366965620328849,
+        "deletion_rate": 0.04110612855007474,
+        "scored_cases": 360
+      }
+    },
+    "without_clean_identity_s20261112": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 6.313520766268011,
+        "pesq_wb": 1.5682117101218966,
+        "stoi": 0.8699281126655857
+      },
+      "asr": {
+        "N": 2676,
+        "S": 566,
+        "D": 104,
+        "I": 314,
+        "correct": 2006,
+        "errors": 984,
+        "utterances": 360,
+        "wer": 0.36771300448430494,
+        "deletion_rate": 0.03886397608370702,
+        "scored_cases": 360
+      }
+    },
+    "ordinary_s20261113": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 5.623131994073896,
+        "pesq_wb": 1.4859328700436487,
+        "stoi": 0.8621982857740326
+      },
+      "asr": {
+        "N": 2676,
+        "S": 653,
+        "D": 112,
+        "I": 118,
+        "correct": 1911,
+        "errors": 883,
+        "utterances": 360,
+        "wer": 0.3299701046337818,
+        "deletion_rate": 0.04185351270553064,
+        "scored_cases": 360
+      }
+    },
+    "complete_s20261113": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 4.848331354808789,
+        "pesq_wb": 1.515123654074139,
+        "stoi": 0.8678629041578088
+      },
+      "asr": {
+        "N": 2676,
+        "S": 560,
+        "D": 97,
+        "I": 97,
+        "correct": 2019,
+        "errors": 754,
+        "utterances": 360,
+        "wer": 0.28176382660687593,
+        "deletion_rate": 0.03624813153961136,
+        "scored_cases": 360
+      }
+    },
+    "ordinary_s20261114": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 5.027075802359739,
+        "pesq_wb": 1.4855099870098962,
+        "stoi": 0.8638597883405104
+      },
+      "asr": {
+        "N": 2676,
+        "S": 637,
+        "D": 103,
+        "I": 106,
+        "correct": 1936,
+        "errors": 846,
+        "utterances": 360,
+        "wer": 0.31614349775784756,
+        "deletion_rate": 0.03849028400597907,
+        "scored_cases": 360
+      }
+    },
+    "complete_s20261114": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 4.04672779053053,
+        "pesq_wb": 1.4801660769515568,
+        "stoi": 0.8653032118762711
+      },
+      "asr": {
+        "N": 2676,
+        "S": 572,
+        "D": 120,
+        "I": 98,
+        "correct": 1984,
+        "errors": 790,
+        "utterances": 360,
+        "wer": 0.2952167414050822,
+        "deletion_rate": 0.04484304932735426,
+        "scored_cases": 360
+      }
+    },
+    "without_stratification_s20261113": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 5.063240792222144,
+        "pesq_wb": 1.4711631119251252,
+        "stoi": 0.8608445696131507
+      },
+      "asr": {
+        "N": 2676,
+        "S": 625,
+        "D": 111,
+        "I": 116,
+        "correct": 1940,
+        "errors": 852,
+        "utterances": 360,
+        "wer": 0.3183856502242152,
+        "deletion_rate": 0.04147982062780269,
+        "scored_cases": 360
+      }
+    },
+    "without_clean_identity_s20261113": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 6.143143311654021,
+        "pesq_wb": 1.5492557843526205,
+        "stoi": 0.8698118004266503
+      },
+      "asr": {
+        "N": 2676,
+        "S": 544,
+        "D": 104,
+        "I": 87,
+        "correct": 2028,
+        "errors": 735,
+        "utterances": 360,
+        "wer": 0.27466367713004486,
+        "deletion_rate": 0.03886397608370702,
+        "scored_cases": 360
+      }
+    },
+    "without_stratification_s20261114": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 5.07698122675673,
+        "pesq_wb": 1.5011606458160611,
+        "stoi": 0.8631991297516249
+      },
+      "asr": {
+        "N": 2676,
+        "S": 616,
+        "D": 111,
+        "I": 113,
+        "correct": 1949,
+        "errors": 840,
+        "utterances": 360,
+        "wer": 0.31390134529147984,
+        "deletion_rate": 0.04147982062780269,
+        "scored_cases": 360
+      }
+    },
+    "without_clean_identity_s20261114": {
+      "cases": 360,
+      "successful": 360,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 5.337544936983454,
+        "pesq_wb": 1.5361544847488404,
+        "stoi": 0.8692978516876159
+      },
+      "asr": {
+        "N": 2676,
+        "S": 551,
+        "D": 117,
+        "I": 87,
+        "correct": 2008,
+        "errors": 755,
+        "utterances": 360,
+        "wer": 0.2821375186846039,
+        "deletion_rate": 0.043721973094170405,
+        "scored_cases": 360
+      }
+    }
+  },
+  "clean_test": {
+    "noisy": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 156.53559774527017,
+        "pesq_wb": 4.643888473510742,
+        "stoi": 0.9999999999999998
+      },
+      "asr": {
+        "N": 223,
+        "S": 6,
+        "D": 0,
+        "I": 2,
+        "correct": 217,
+        "errors": 8,
+        "utterances": 30,
+        "wer": 0.03587443946188341,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "hpf40": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 47.84596705686195,
+        "pesq_wb": 4.642031017939249,
+        "stoi": 0.9999999341468799
+      },
+      "asr": {
+        "N": 223,
+        "S": 6,
+        "D": 0,
+        "I": 2,
+        "correct": 217,
+        "errors": 8,
+        "utterances": 30,
+        "wer": 0.03587443946188341,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "mcnet": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 25.060510333314465,
+        "pesq_wb": 4.3765372435251875,
+        "stoi": 0.9934159803065259
+      },
+      "asr": {
+        "N": 223,
+        "S": 6,
+        "D": 0,
+        "I": 3,
+        "correct": 217,
+        "errors": 9,
+        "utterances": 30,
+        "wer": 0.04035874439461883,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "ordinary_s20261112": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 20.063992283552064,
+        "pesq_wb": 3.4945000807444253,
+        "stoi": 0.9781137363337461
+      },
+      "asr": {
+        "N": 223,
+        "S": 10,
+        "D": 0,
+        "I": 0,
+        "correct": 213,
+        "errors": 10,
+        "utterances": 30,
+        "wer": 0.04484304932735426,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "complete_s20261112": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 22.795688745181966,
+        "pesq_wb": 3.7237533728281655,
+        "stoi": 0.9859123080604253
+      },
+      "asr": {
+        "N": 223,
+        "S": 7,
+        "D": 0,
+        "I": 2,
+        "correct": 216,
+        "errors": 9,
+        "utterances": 30,
+        "wer": 0.04035874439461883,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "without_stratification_s20261112": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 22.64269048790637,
+        "pesq_wb": 3.7561413447062173,
+        "stoi": 0.9875627976064834
+      },
+      "asr": {
+        "N": 223,
+        "S": 8,
+        "D": 1,
+        "I": 0,
+        "correct": 214,
+        "errors": 9,
+        "utterances": 30,
+        "wer": 0.04035874439461883,
+        "deletion_rate": 0.004484304932735426,
+        "scored_cases": 30
+      }
+    },
+    "without_clean_identity_s20261112": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 19.619427440987845,
+        "pesq_wb": 3.4718604763348897,
+        "stoi": 0.9761683610112987
+      },
+      "asr": {
+        "N": 223,
+        "S": 7,
+        "D": 0,
+        "I": 2,
+        "correct": 216,
+        "errors": 9,
+        "utterances": 30,
+        "wer": 0.04035874439461883,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "ordinary_s20261113": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 19.994698716525154,
+        "pesq_wb": 3.463580330212911,
+        "stoi": 0.9794701289945972
+      },
+      "asr": {
+        "N": 223,
+        "S": 11,
+        "D": 0,
+        "I": 2,
+        "correct": 212,
+        "errors": 13,
+        "utterances": 30,
+        "wer": 0.05829596412556054,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "complete_s20261113": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 23.32552767064762,
+        "pesq_wb": 3.8715279340744018,
+        "stoi": 0.987936302737983
+      },
+      "asr": {
+        "N": 223,
+        "S": 10,
+        "D": 0,
+        "I": 2,
+        "correct": 213,
+        "errors": 12,
+        "utterances": 30,
+        "wer": 0.053811659192825115,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "ordinary_s20261114": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 20.38684175948426,
+        "pesq_wb": 3.470206451416016,
+        "stoi": 0.9798627041439736
+      },
+      "asr": {
+        "N": 223,
+        "S": 11,
+        "D": 0,
+        "I": 0,
+        "correct": 212,
+        "errors": 11,
+        "utterances": 30,
+        "wer": 0.04932735426008968,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "complete_s20261114": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 23.482422532977726,
+        "pesq_wb": 3.7116753419240314,
+        "stoi": 0.9861779127660256
+      },
+      "asr": {
+        "N": 223,
+        "S": 7,
+        "D": 0,
+        "I": 2,
+        "correct": 216,
+        "errors": 9,
+        "utterances": 30,
+        "wer": 0.04035874439461883,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "without_stratification_s20261113": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 22.909123922903195,
+        "pesq_wb": 3.7414947589238485,
+        "stoi": 0.9885391358589765
+      },
+      "asr": {
+        "N": 223,
+        "S": 9,
+        "D": 0,
+        "I": 2,
+        "correct": 214,
+        "errors": 11,
+        "utterances": 30,
+        "wer": 0.04932735426008968,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "without_clean_identity_s20261113": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 20.083863473665147,
+        "pesq_wb": 3.4722307324409485,
+        "stoi": 0.9778345765343192
+      },
+      "asr": {
+        "N": 223,
+        "S": 9,
+        "D": 0,
+        "I": 2,
+        "correct": 214,
+        "errors": 11,
+        "utterances": 30,
+        "wer": 0.04932735426008968,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "without_stratification_s20261114": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 23.16733085147536,
+        "pesq_wb": 3.7493879238764447,
+        "stoi": 0.9879329944122701
+      },
+      "asr": {
+        "N": 223,
+        "S": 12,
+        "D": 0,
+        "I": 2,
+        "correct": 211,
+        "errors": 14,
+        "utterances": 30,
+        "wer": 0.06278026905829596,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    },
+    "without_clean_identity_s20261114": {
+      "cases": 30,
+      "successful": 30,
+      "failures": 0,
+      "sources": 30,
+      "speakers": 4,
+      "metrics": {
+        "si_sdr_db": 20.690622190757008,
+        "pesq_wb": 3.4490381836891175,
+        "stoi": 0.9787985677595257
+      },
+      "asr": {
+        "N": 223,
+        "S": 9,
+        "D": 0,
+        "I": 2,
+        "correct": 214,
+        "errors": 11,
+        "utterances": 30,
+        "wer": 0.04932735426008968,
+        "deletion_rate": 0.0,
+        "scored_cases": 30
+      }
+    }
+  },
+  "subgroups": {
+    "noisy": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.4637246826021924,
+            "pesq_wb": 1.1157164851824442,
+            "stoi": 0.7387880374787159
+          },
+          "asr": {
+            "N": 1338,
+            "S": 421,
+            "D": 44,
+            "I": 206,
+            "correct": 873,
+            "errors": 671,
+            "utterances": 180,
+            "wer": 0.5014947683109118,
+            "deletion_rate": 0.03288490284005979,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.4136575080776705,
+            "pesq_wb": 1.126767169104682,
+            "stoi": 0.6089613533255743
+          },
+          "asr": {
+            "N": 1338,
+            "S": 428,
+            "D": 485,
+            "I": 53,
+            "correct": 425,
+            "errors": 966,
+            "utterances": 180,
+            "wer": 0.7219730941704036,
+            "deletion_rate": 0.3624813153961136,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.433086327009357,
+            "pesq_wb": 1.1331523458162944,
+            "stoi": 0.6797726225974468
+          },
+          "asr": {
+            "N": 1338,
+            "S": 399,
+            "D": 276,
+            "I": 199,
+            "correct": 663,
+            "errors": 874,
+            "utterances": 180,
+            "wer": 0.6532137518684604,
+            "deletion_rate": 0.2062780269058296,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.4442958636705063,
+            "pesq_wb": 1.109331308470832,
+            "stoi": 0.6679767682068434
+          },
+          "asr": {
+            "N": 1338,
+            "S": 450,
+            "D": 253,
+            "I": 60,
+            "correct": 635,
+            "errors": 763,
+            "utterances": 180,
+            "wer": 0.570254110612855,
+            "deletion_rate": 0.1890881913303438,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -6.4612227749178635,
+            "pesq_wb": 1.0803091128667195,
+            "stoi": 0.5456794653853027
+          },
+          "asr": {
+            "N": 892,
+            "S": 338,
+            "D": 348,
+            "I": 184,
+            "correct": 206,
+            "errors": 870,
+            "utterances": 120,
+            "wer": 0.9753363228699552,
+            "deletion_rate": 0.3901345291479821,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.3855853353802938,
+            "pesq_wb": 1.0948156307140986,
+            "stoi": 0.6763491504130151
+          },
+          "asr": {
+            "N": 892,
+            "S": 335,
+            "D": 161,
+            "I": 45,
+            "correct": 396,
+            "errors": 541,
+            "utterances": 120,
+            "wer": 0.6065022421524664,
+            "deletion_rate": 0.1804932735426009,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.530734824278363,
+            "pesq_wb": 1.1886007378498713,
+            "stoi": 0.7995954704081175
+          },
+          "asr": {
+            "N": 892,
+            "S": 176,
+            "D": 20,
+            "I": 30,
+            "correct": 696,
+            "errors": 226,
+            "utterances": 120,
+            "wer": 0.2533632286995516,
+            "deletion_rate": 0.02242152466367713,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.3006086067888312,
+            "pesq_wb": 1.0822354276974997,
+            "stoi": 0.6356626733380597
+          },
+          "asr": {
+            "N": 876,
+            "S": 312,
+            "D": 201,
+            "I": 169,
+            "correct": 363,
+            "errors": 682,
+            "utterances": 120,
+            "wer": 0.7785388127853882,
+            "deletion_rate": 0.22945205479452055,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -0.865987532385254,
+            "pesq_wb": 1.081781655550003,
+            "stoi": 0.6462731324302982
+          },
+          "asr": {
+            "N": 132,
+            "S": 42,
+            "D": 27,
+            "I": 10,
+            "correct": 63,
+            "errors": 79,
+            "utterances": 12,
+            "wer": 0.5984848484848485,
+            "deletion_rate": 0.20454545454545456,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -2.035462981240575,
+            "pesq_wb": 1.1371224304040273,
+            "stoi": 0.7297850234608805
+          },
+          "asr": {
+            "N": 756,
+            "S": 168,
+            "D": 104,
+            "I": 19,
+            "correct": 484,
+            "errors": 291,
+            "utterances": 120,
+            "wer": 0.38492063492063494,
+            "deletion_rate": 0.13756613756613756,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -0.992669938613181,
+            "pesq_wb": 1.1513216197490692,
+            "stoi": 0.6572767512938505
+          },
+          "asr": {
+            "N": 912,
+            "S": 327,
+            "D": 197,
+            "I": 61,
+            "correct": 388,
+            "errors": 585,
+            "utterances": 108,
+            "wer": 0.6414473684210527,
+            "deletion_rate": 0.21600877192982457,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.416033068631005,
+            "pesq_wb": 1.125651165511873,
+            "stoi": 0.6757749582485993
+          },
+          "asr": {
+            "N": 1338,
+            "S": 446,
+            "D": 233,
+            "I": 208,
+            "correct": 659,
+            "errors": 887,
+            "utterances": 180,
+            "wer": 0.6629297458893871,
+            "deletion_rate": 0.1741405082212257,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.4613491220488584,
+            "pesq_wb": 1.1168324887752532,
+            "stoi": 0.6719744325556909
+          },
+          "asr": {
+            "N": 1338,
+            "S": 403,
+            "D": 296,
+            "I": 51,
+            "correct": 639,
+            "errors": 750,
+            "utterances": 180,
+            "wer": 0.5605381165919282,
+            "deletion_rate": 0.22122571001494767,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "hpf40": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.3714769180420804,
+            "pesq_wb": 1.1197941131061977,
+            "stoi": 0.7388055158802515
+          },
+          "asr": {
+            "N": 1338,
+            "S": 420,
+            "D": 47,
+            "I": 56,
+            "correct": 871,
+            "errors": 523,
+            "utterances": 180,
+            "wer": 0.39088191330343797,
+            "deletion_rate": 0.035127055306427506,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.3091383388073508,
+            "pesq_wb": 1.127297176917394,
+            "stoi": 0.6089644576298341
+          },
+          "asr": {
+            "N": 1338,
+            "S": 429,
+            "D": 488,
+            "I": 46,
+            "correct": 421,
+            "errors": 963,
+            "utterances": 180,
+            "wer": 0.7197309417040358,
+            "deletion_rate": 0.36472346786248133,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.4162742832833473,
+            "pesq_wb": 1.135923742585712,
+            "stoi": 0.6797802389801251
+          },
+          "asr": {
+            "N": 1338,
+            "S": 397,
+            "D": 280,
+            "I": 52,
+            "correct": 661,
+            "errors": 729,
+            "utterances": 180,
+            "wer": 0.5448430493273543,
+            "deletion_rate": 0.20926756352765322,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.5213871374819232,
+            "pesq_wb": 1.1111675474378797,
+            "stoi": 0.6679897345299602
+          },
+          "asr": {
+            "N": 1338,
+            "S": 452,
+            "D": 255,
+            "I": 50,
+            "correct": 631,
+            "errors": 757,
+            "utterances": 180,
+            "wer": 0.5657698056801196,
+            "deletion_rate": 0.1905829596412556,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -5.472978817298022,
+            "pesq_wb": 1.0813626249631245,
+            "stoi": 0.5456869956045829
+          },
+          "asr": {
+            "N": 892,
+            "S": 339,
+            "D": 352,
+            "I": 37,
+            "correct": 201,
+            "errors": 728,
+            "utterances": 120,
+            "wer": 0.8161434977578476,
+            "deletion_rate": 0.39461883408071746,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.4372430917693052,
+            "pesq_wb": 1.0964894354343415,
+            "stoi": 0.6763608905396974
+          },
+          "asr": {
+            "N": 892,
+            "S": 333,
+            "D": 164,
+            "I": 38,
+            "correct": 395,
+            "errors": 535,
+            "utterances": 120,
+            "wer": 0.5997757847533632,
+            "deletion_rate": 0.18385650224215247,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.50372977791942,
+            "pesq_wb": 1.1927848746379217,
+            "stoi": 0.799607074120848
+          },
+          "asr": {
+            "N": 892,
+            "S": 177,
+            "D": 19,
+            "I": 27,
+            "correct": 696,
+            "errors": 223,
+            "utterances": 120,
+            "wer": 0.25,
+            "deletion_rate": 0.021300448430493273,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -0.34792619639843847,
+            "pesq_wb": 1.0841861446698506,
+            "stoi": 0.6356638290686324
+          },
+          "asr": {
+            "N": 876,
+            "S": 312,
+            "D": 202,
+            "I": 29,
+            "correct": 362,
+            "errors": 543,
+            "utterances": 120,
+            "wer": 0.6198630136986302,
+            "deletion_rate": 0.23059360730593606,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 0.17568066329572476,
+            "pesq_wb": 1.0837668180465698,
+            "stoi": 0.646364634262141
+          },
+          "asr": {
+            "N": 132,
+            "S": 43,
+            "D": 26,
+            "I": 7,
+            "correct": 63,
+            "errors": 76,
+            "utterances": 12,
+            "wer": 0.5757575757575758,
+            "deletion_rate": 0.19696969696969696,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.0624679862062851,
+            "pesq_wb": 1.138325947523117,
+            "stoi": 0.7298006444613319
+          },
+          "asr": {
+            "N": 756,
+            "S": 169,
+            "D": 105,
+            "I": 14,
+            "correct": 482,
+            "errors": 288,
+            "utterances": 120,
+            "wer": 0.38095238095238093,
+            "deletion_rate": 0.1388888888888889,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -0.015184460969727497,
+            "pesq_wb": 1.1552757344864033,
+            "stoi": 0.6572822481210552
+          },
+          "asr": {
+            "N": 912,
+            "S": 325,
+            "D": 202,
+            "I": 52,
+            "correct": 385,
+            "errors": 579,
+            "utterances": 108,
+            "wer": 0.6348684210526315,
+            "deletion_rate": 0.22149122807017543,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.41848387821741484,
+            "pesq_wb": 1.1281190905306073,
+            "stoi": 0.6757810784331233
+          },
+          "asr": {
+            "N": 1338,
+            "S": 444,
+            "D": 240,
+            "I": 52,
+            "correct": 654,
+            "errors": 736,
+            "utterances": 180,
+            "wer": 0.5500747384155455,
+            "deletion_rate": 0.17937219730941703,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.5191775425478556,
+            "pesq_wb": 1.1189721994929844,
+            "stoi": 0.6719888950769621
+          },
+          "asr": {
+            "N": 1338,
+            "S": 405,
+            "D": 295,
+            "I": 50,
+            "correct": 638,
+            "errors": 750,
+            "utterances": 180,
+            "wer": 0.5605381165919282,
+            "deletion_rate": 0.22047832585949179,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "mcnet": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -2.1254800256021884,
+            "pesq_wb": 1.1633269230524699,
+            "stoi": 0.7477788096073467
+          },
+          "asr": {
+            "N": 1338,
+            "S": 455,
+            "D": 111,
+            "I": 68,
+            "correct": 772,
+            "errors": 634,
+            "utterances": 180,
+            "wer": 0.47384155455904337,
+            "deletion_rate": 0.08295964125560538,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.0926461500752203,
+            "pesq_wb": 1.1604213462935553,
+            "stoi": 0.6045097333373091
+          },
+          "asr": {
+            "N": 1338,
+            "S": 477,
+            "D": 474,
+            "I": 212,
+            "correct": 387,
+            "errors": 1163,
+            "utterances": 180,
+            "wer": 0.8692077727952168,
+            "deletion_rate": 0.3542600896860987,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -2.3798394702018513,
+            "pesq_wb": 1.1413782033655377,
+            "stoi": 0.6435566517306435
+          },
+          "asr": {
+            "N": 1338,
+            "S": 473,
+            "D": 319,
+            "I": 190,
+            "correct": 546,
+            "errors": 982,
+            "utterances": 180,
+            "wer": 0.7339312406576981,
+            "deletion_rate": 0.2384155455904335,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.8382867054755565,
+            "pesq_wb": 1.1823700659804874,
+            "stoi": 0.7087318912140121
+          },
+          "asr": {
+            "N": 1338,
+            "S": 459,
+            "D": 266,
+            "I": 90,
+            "correct": 613,
+            "errors": 815,
+            "utterances": 180,
+            "wer": 0.609118086696562,
+            "deletion_rate": 0.19880418535127056,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -7.575237491292908,
+            "pesq_wb": 1.101431338985761,
+            "stoi": 0.49868895426238485
+          },
+          "asr": {
+            "N": 892,
+            "S": 365,
+            "D": 391,
+            "I": 52,
+            "correct": 136,
+            "errors": 808,
+            "utterances": 120,
+            "wer": 0.905829596412556,
+            "deletion_rate": 0.4383408071748879,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.1852387924657037,
+            "pesq_wb": 1.119434854388237,
+            "stoi": 0.7201932418457694
+          },
+          "asr": {
+            "N": 892,
+            "S": 324,
+            "D": 155,
+            "I": 175,
+            "correct": 413,
+            "errors": 654,
+            "utterances": 120,
+            "wer": 0.7331838565022422,
+            "deletion_rate": 0.17376681614349776,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.9332870202424997,
+            "pesq_wb": 1.2647562106450398,
+            "stoi": 0.8095506183088295
+          },
+          "asr": {
+            "N": 892,
+            "S": 243,
+            "D": 39,
+            "I": 53,
+            "correct": 610,
+            "errors": 335,
+            "utterances": 120,
+            "wer": 0.3755605381165919,
+            "deletion_rate": 0.043721973094170405,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.3338569441783832,
+            "pesq_wb": 1.125331312417984,
+            "stoi": 0.6234012821255213
+          },
+          "asr": {
+            "N": 876,
+            "S": 321,
+            "D": 236,
+            "I": 169,
+            "correct": 319,
+            "errors": 726,
+            "utterances": 120,
+            "wer": 0.8287671232876712,
+            "deletion_rate": 0.2694063926940639,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.048968738261377,
+            "pesq_wb": 1.1072409550348918,
+            "stoi": 0.6488966923257384
+          },
+          "asr": {
+            "N": 132,
+            "S": 51,
+            "D": 25,
+            "I": 2,
+            "correct": 56,
+            "errors": 78,
+            "utterances": 12,
+            "wer": 0.5909090909090909,
+            "deletion_rate": 0.1893939393939394,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.8763293441324984,
+            "pesq_wb": 1.1692385613918304,
+            "stoi": 0.7411059207741832
+          },
+          "asr": {
+            "N": 756,
+            "S": 181,
+            "D": 107,
+            "I": 37,
+            "correct": 468,
+            "errors": 325,
+            "utterances": 120,
+            "wer": 0.4298941798941799,
+            "deletion_rate": 0.14153439153439154,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": -1.6801178904212137,
+            "pesq_wb": 1.200364927450816,
+            "stoi": 0.6655954914274503
+          },
+          "asr": {
+            "N": 912,
+            "S": 379,
+            "D": 217,
+            "I": 72,
+            "correct": 316,
+            "errors": 668,
+            "utterances": 108,
+            "wer": 0.7324561403508771,
+            "deletion_rate": 0.23793859649122806,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -2.0909586335037855,
+            "pesq_wb": 1.1478396720356412,
+            "stoi": 0.636567063861354
+          },
+          "asr": {
+            "N": 1338,
+            "S": 535,
+            "D": 288,
+            "I": 79,
+            "correct": 515,
+            "errors": 902,
+            "utterances": 180,
+            "wer": 0.6741405082212257,
+            "deletion_rate": 0.21524663677130046,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -1.1271675421736227,
+            "pesq_wb": 1.1759085973103842,
+            "stoi": 0.7157214790833017
+          },
+          "asr": {
+            "N": 1338,
+            "S": 397,
+            "D": 297,
+            "I": 201,
+            "correct": 644,
+            "errors": 895,
+            "utterances": 180,
+            "wer": 0.6689088191330343,
+            "deletion_rate": 0.2219730941704036,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "ordinary_s20261112": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.20064180553068,
+            "pesq_wb": 1.4807067367765638,
+            "stoi": 0.8974008455528703
+          },
+          "asr": {
+            "N": 1338,
+            "S": 237,
+            "D": 23,
+            "I": 41,
+            "correct": 1078,
+            "errors": 301,
+            "utterances": 180,
+            "wer": 0.2249626307922272,
+            "deletion_rate": 0.0171898355754858,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.139679513433709,
+            "pesq_wb": 1.4701693640814888,
+            "stoi": 0.8302970660032839
+          },
+          "asr": {
+            "N": 1338,
+            "S": 411,
+            "D": 70,
+            "I": 63,
+            "correct": 857,
+            "errors": 544,
+            "utterances": 180,
+            "wer": 0.40657698056801195,
+            "deletion_rate": 0.052316890881913304,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.047618848372783,
+            "pesq_wb": 1.4809260057078468,
+            "stoi": 0.8787638445177818
+          },
+          "asr": {
+            "N": 1338,
+            "S": 290,
+            "D": 33,
+            "I": 47,
+            "correct": 1015,
+            "errors": 370,
+            "utterances": 180,
+            "wer": 0.2765321375186846,
+            "deletion_rate": 0.02466367713004484,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.292702470591606,
+            "pesq_wb": 1.4699500951502058,
+            "stoi": 0.8489340670383723
+          },
+          "asr": {
+            "N": 1338,
+            "S": 358,
+            "D": 60,
+            "I": 57,
+            "correct": 920,
+            "errors": 475,
+            "utterances": 180,
+            "wer": 0.35500747384155457,
+            "deletion_rate": 0.04484304932735426,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.36131584069170336,
+            "pesq_wb": 1.2052820026874542,
+            "stoi": 0.7880374432137363
+          },
+          "asr": {
+            "N": 892,
+            "S": 382,
+            "D": 67,
+            "I": 57,
+            "correct": 443,
+            "errors": 506,
+            "utterances": 120,
+            "wer": 0.5672645739910314,
+            "deletion_rate": 0.07511210762331838,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.265969632844026,
+            "pesq_wb": 1.3719985951979956,
+            "stoi": 0.8612521454870848
+          },
+          "asr": {
+            "N": 892,
+            "S": 193,
+            "D": 22,
+            "I": 33,
+            "correct": 677,
+            "errors": 248,
+            "utterances": 120,
+            "wer": 0.27802690582959644,
+            "deletion_rate": 0.02466367713004484,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 10.38319650491085,
+            "pesq_wb": 1.8490335534016291,
+            "stoi": 0.9422572786334101
+          },
+          "asr": {
+            "N": 892,
+            "S": 73,
+            "D": 4,
+            "I": 14,
+            "correct": 815,
+            "errors": 91,
+            "utterances": 120,
+            "wer": 0.10201793721973094,
+            "deletion_rate": 0.004484304932735426,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.230603867712472,
+            "pesq_wb": 1.3853637019793192,
+            "stoi": 0.8298305948875393
+          },
+          "asr": {
+            "N": 876,
+            "S": 255,
+            "D": 47,
+            "I": 46,
+            "correct": 574,
+            "errors": 348,
+            "utterances": 120,
+            "wer": 0.3972602739726027,
+            "deletion_rate": 0.05365296803652968,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.732138653936996,
+            "pesq_wb": 1.525101621945699,
+            "stoi": 0.8163660402415643
+          },
+          "asr": {
+            "N": 132,
+            "S": 34,
+            "D": 4,
+            "I": 0,
+            "correct": 94,
+            "errors": 38,
+            "utterances": 12,
+            "wer": 0.2878787878787879,
+            "deletion_rate": 0.030303030303030304,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 3.819321689982497,
+            "pesq_wb": 1.4480772097905477,
+            "stoi": 0.9057263678442583
+          },
+          "asr": {
+            "N": 756,
+            "S": 95,
+            "D": 13,
+            "I": 8,
+            "correct": 648,
+            "errors": 116,
+            "utterances": 120,
+            "wer": 0.15343915343915343,
+            "deletion_rate": 0.017195767195767195,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.763713950397683,
+            "pesq_wb": 1.60040341924738,
+            "stoi": 0.8603925561980856
+          },
+          "asr": {
+            "N": 912,
+            "S": 264,
+            "D": 29,
+            "I": 50,
+            "correct": 619,
+            "errors": 343,
+            "utterances": 108,
+            "wer": 0.37609649122807015,
+            "deletion_rate": 0.03179824561403509,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.92871120129945,
+            "pesq_wb": 1.507318507300483,
+            "stoi": 0.8805893899439974
+          },
+          "asr": {
+            "N": 1338,
+            "S": 321,
+            "D": 33,
+            "I": 54,
+            "correct": 984,
+            "errors": 408,
+            "utterances": 180,
+            "wer": 0.30493273542600896,
+            "deletion_rate": 0.02466367713004484,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.4116101176649383,
+            "pesq_wb": 1.4435575935575697,
+            "stoi": 0.8471085216121566
+          },
+          "asr": {
+            "N": 1338,
+            "S": 327,
+            "D": 60,
+            "I": 50,
+            "correct": 951,
+            "errors": 437,
+            "utterances": 180,
+            "wer": 0.3266068759342302,
+            "deletion_rate": 0.04484304932735426,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "complete_s20261112": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.201916108153914,
+            "pesq_wb": 1.4995227860079872,
+            "stoi": 0.9010052651376526
+          },
+          "asr": {
+            "N": 1338,
+            "S": 224,
+            "D": 18,
+            "I": 37,
+            "correct": 1096,
+            "errors": 279,
+            "utterances": 180,
+            "wer": 0.2085201793721973,
+            "deletion_rate": 0.013452914798206279,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.930737804169591,
+            "pesq_wb": 1.5219101574685838,
+            "stoi": 0.8291528815403151
+          },
+          "asr": {
+            "N": 1338,
+            "S": 395,
+            "D": 83,
+            "I": 90,
+            "correct": 860,
+            "errors": 568,
+            "utterances": 180,
+            "wer": 0.42451420029895365,
+            "deletion_rate": 0.06203288490284006,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.8305172166044015,
+            "pesq_wb": 1.5529122902287378,
+            "stoi": 0.8872374881245817
+          },
+          "asr": {
+            "N": 1338,
+            "S": 249,
+            "D": 24,
+            "I": 71,
+            "correct": 1065,
+            "errors": 344,
+            "utterances": 180,
+            "wer": 0.2571001494768311,
+            "deletion_rate": 0.017937219730941704,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.302136695719101,
+            "pesq_wb": 1.4685206532478332,
+            "stoi": 0.8429206585533864
+          },
+          "asr": {
+            "N": 1338,
+            "S": 370,
+            "D": 77,
+            "I": 56,
+            "correct": 891,
+            "errors": 503,
+            "utterances": 180,
+            "wer": 0.3759342301943199,
+            "deletion_rate": 0.05754857997010463,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.23996402699800434,
+            "pesq_wb": 1.2334600607554118,
+            "stoi": 0.7962339790318275
+          },
+          "asr": {
+            "N": 892,
+            "S": 348,
+            "D": 72,
+            "I": 73,
+            "correct": 472,
+            "errors": 493,
+            "utterances": 120,
+            "wer": 0.5526905829596412,
+            "deletion_rate": 0.08071748878923767,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.0348913502841284,
+            "pesq_wb": 1.3675113797187806,
+            "stoi": 0.8564788194489256
+          },
+          "asr": {
+            "N": 892,
+            "S": 193,
+            "D": 26,
+            "I": 41,
+            "correct": 673,
+            "errors": 260,
+            "utterances": 120,
+            "wer": 0.2914798206278027,
+            "deletion_rate": 0.02914798206278027,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 10.42412549120312,
+            "pesq_wb": 1.931177974740664,
+            "stoi": 0.9425244215361984
+          },
+          "asr": {
+            "N": 892,
+            "S": 78,
+            "D": 3,
+            "I": 13,
+            "correct": 811,
+            "errors": 94,
+            "utterances": 120,
+            "wer": 0.10538116591928251,
+            "deletion_rate": 0.0033632286995515697,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.966316464290849,
+            "pesq_wb": 1.4138309150934218,
+            "stoi": 0.830376933707074
+          },
+          "asr": {
+            "N": 876,
+            "S": 242,
+            "D": 37,
+            "I": 42,
+            "correct": 597,
+            "errors": 321,
+            "utterances": 120,
+            "wer": 0.3664383561643836,
+            "deletion_rate": 0.04223744292237443,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.691052812402855,
+            "pesq_wb": 1.5682520469029744,
+            "stoi": 0.816258930901395
+          },
+          "asr": {
+            "N": 132,
+            "S": 36,
+            "D": 3,
+            "I": 6,
+            "correct": 93,
+            "errors": 45,
+            "utterances": 12,
+            "wer": 0.3409090909090909,
+            "deletion_rate": 0.022727272727272728,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 3.677930001851559,
+            "pesq_wb": 1.4770786881446838,
+            "stoi": 0.9050098687230509
+          },
+          "asr": {
+            "N": 756,
+            "S": 95,
+            "D": 25,
+            "I": 11,
+            "correct": 636,
+            "errors": 131,
+            "utterances": 120,
+            "wer": 0.17328042328042328,
+            "deletion_rate": 0.03306878306878307,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.872921245669515,
+            "pesq_wb": 1.6493495636516147,
+            "stoi": 0.8646939161074302
+          },
+          "asr": {
+            "N": 912,
+            "S": 246,
+            "D": 36,
+            "I": 68,
+            "correct": 630,
+            "errors": 350,
+            "utterances": 108,
+            "wer": 0.38377192982456143,
+            "deletion_rate": 0.039473684210526314,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.816027131986827,
+            "pesq_wb": 1.5757307880454594,
+            "stoi": 0.8869847823253622
+          },
+          "asr": {
+            "N": 1338,
+            "S": 286,
+            "D": 28,
+            "I": 70,
+            "correct": 1024,
+            "errors": 384,
+            "utterances": 180,
+            "wer": 0.28699551569506726,
+            "deletion_rate": 0.02092675635276532,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.3166267803366782,
+            "pesq_wb": 1.4457021554311116,
+            "stoi": 0.8431733643526057
+          },
+          "asr": {
+            "N": 1338,
+            "S": 333,
+            "D": 73,
+            "I": 57,
+            "correct": 932,
+            "errors": 463,
+            "utterances": 180,
+            "wer": 0.3460388639760837,
+            "deletion_rate": 0.05455904334828102,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_stratification_s20261112": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 1.3492710963181047,
+            "pesq_wb": 1.4362540854348076,
+            "stoi": 0.8940325588865891
+          },
+          "asr": {
+            "N": 1338,
+            "S": 263,
+            "D": 28,
+            "I": 45,
+            "correct": 1047,
+            "errors": 336,
+            "utterances": 180,
+            "wer": 0.25112107623318386,
+            "deletion_rate": 0.02092675635276532,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.846338268050883,
+            "pesq_wb": 1.4504017644458347,
+            "stoi": 0.8219197635958643
+          },
+          "asr": {
+            "N": 1338,
+            "S": 417,
+            "D": 82,
+            "I": 66,
+            "correct": 839,
+            "errors": 565,
+            "utterances": 180,
+            "wer": 0.42227204783258593,
+            "deletion_rate": 0.061285500747384154,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.491336438451769,
+            "pesq_wb": 1.4536398046546513,
+            "stoi": 0.8720487563689179
+          },
+          "asr": {
+            "N": 1338,
+            "S": 316,
+            "D": 38,
+            "I": 52,
+            "correct": 984,
+            "errors": 406,
+            "utterances": 180,
+            "wer": 0.3034379671150972,
+            "deletion_rate": 0.028400597907324365,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.704272925917217,
+            "pesq_wb": 1.4330160452259912,
+            "stoi": 0.8439035661135355
+          },
+          "asr": {
+            "N": 1338,
+            "S": 364,
+            "D": 72,
+            "I": 59,
+            "correct": 902,
+            "errors": 495,
+            "utterances": 180,
+            "wer": 0.36995515695067266,
+            "deletion_rate": 0.053811659192825115,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.31154682168831005,
+            "pesq_wb": 1.1863279749949773,
+            "stoi": 0.7806232063051051
+          },
+          "asr": {
+            "N": 892,
+            "S": 386,
+            "D": 79,
+            "I": 63,
+            "correct": 427,
+            "errors": 528,
+            "utterances": 120,
+            "wer": 0.5919282511210763,
+            "deletion_rate": 0.08856502242152467,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.590511487043423,
+            "pesq_wb": 1.3318294952313106,
+            "stoi": 0.8539354510155948
+          },
+          "asr": {
+            "N": 892,
+            "S": 208,
+            "D": 27,
+            "I": 33,
+            "correct": 657,
+            "errors": 268,
+            "utterances": 120,
+            "wer": 0.3004484304932735,
+            "deletion_rate": 0.030269058295964126,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 10.014449381198368,
+            "pesq_wb": 1.8118263045946756,
+            "stoi": 0.9393698264029804
+          },
+          "asr": {
+            "N": 892,
+            "S": 86,
+            "D": 4,
+            "I": 15,
+            "correct": 802,
+            "errors": 105,
+            "utterances": 120,
+            "wer": 0.11771300448430494,
+            "deletion_rate": 0.004484304932735426,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.491192234621815,
+            "pesq_wb": 1.352887515227,
+            "stoi": 0.8220191923573928
+          },
+          "asr": {
+            "N": 876,
+            "S": 266,
+            "D": 44,
+            "I": 44,
+            "correct": 566,
+            "errors": 354,
+            "utterances": 120,
+            "wer": 0.4041095890410959,
+            "deletion_rate": 0.0502283105022831,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.89634658120205,
+            "pesq_wb": 1.4628423651059468,
+            "stoi": 0.8115373863746568
+          },
+          "asr": {
+            "N": 132,
+            "S": 32,
+            "D": 9,
+            "I": 2,
+            "correct": 91,
+            "errors": 43,
+            "utterances": 12,
+            "wer": 0.32575757575757575,
+            "deletion_rate": 0.06818181818181818,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 3.3429777454953498,
+            "pesq_wb": 1.4202604214350383,
+            "stoi": 0.9003318916166658
+          },
+          "asr": {
+            "N": 756,
+            "S": 112,
+            "D": 25,
+            "I": 10,
+            "correct": 619,
+            "errors": 147,
+            "utterances": 120,
+            "wer": 0.19444444444444445,
+            "deletion_rate": 0.03306878306878307,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.299566009240122,
+            "pesq_wb": 1.5672795573870342,
+            "stoi": 0.8560262901246176
+          },
+          "asr": {
+            "N": 912,
+            "S": 270,
+            "D": 32,
+            "I": 55,
+            "correct": 610,
+            "errors": 357,
+            "utterances": 108,
+            "wer": 0.39144736842105265,
+            "deletion_rate": 0.03508771929824561,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.413088115403232,
+            "pesq_wb": 1.479130616452959,
+            "stoi": 0.8748807086578321
+          },
+          "asr": {
+            "N": 1338,
+            "S": 350,
+            "D": 35,
+            "I": 57,
+            "correct": 953,
+            "errors": 442,
+            "utterances": 180,
+            "wer": 0.3303437967115097,
+            "deletion_rate": 0.026158445440956652,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.7825212489657547,
+            "pesq_wb": 1.4075252334276835,
+            "stoi": 0.8410716138246215
+          },
+          "asr": {
+            "N": 1338,
+            "S": 330,
+            "D": 75,
+            "I": 54,
+            "correct": 933,
+            "errors": 459,
+            "utterances": 180,
+            "wer": 0.3430493273542601,
+            "deletion_rate": 0.05605381165919283,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_clean_identity_s20261112": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.473631644884459,
+            "pesq_wb": 1.6007916788260141,
+            "stoi": 0.9029391423908699
+          },
+          "asr": {
+            "N": 1338,
+            "S": 208,
+            "D": 26,
+            "I": 42,
+            "correct": 1104,
+            "errors": 276,
+            "utterances": 180,
+            "wer": 0.2062780269058296,
+            "deletion_rate": 0.01943198804185351,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.153409887651565,
+            "pesq_wb": 1.535631741417779,
+            "stoi": 0.8369170829403013
+          },
+          "asr": {
+            "N": 1338,
+            "S": 358,
+            "D": 78,
+            "I": 272,
+            "correct": 902,
+            "errors": 708,
+            "utterances": 180,
+            "wer": 0.5291479820627802,
+            "deletion_rate": 0.05829596412556054,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.911989457280524,
+            "pesq_wb": 1.6289180292023553,
+            "stoi": 0.8951334005483416
+          },
+          "asr": {
+            "N": 1338,
+            "S": 217,
+            "D": 24,
+            "I": 256,
+            "correct": 1097,
+            "errors": 497,
+            "utterances": 180,
+            "wer": 0.37144992526158443,
+            "deletion_rate": 0.017937219730941704,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.715052075255499,
+            "pesq_wb": 1.5075053910414378,
+            "stoi": 0.8447228247828297
+          },
+          "asr": {
+            "N": 1338,
+            "S": 349,
+            "D": 80,
+            "I": 58,
+            "correct": 909,
+            "errors": 487,
+            "utterances": 180,
+            "wer": 0.3639760837070254,
+            "deletion_rate": 0.059790732436472344,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.6124405075488863,
+            "pesq_wb": 1.285257171591123,
+            "stoi": 0.8053570609559315
+          },
+          "asr": {
+            "N": 892,
+            "S": 323,
+            "D": 71,
+            "I": 275,
+            "correct": 498,
+            "errors": 669,
+            "utterances": 120,
+            "wer": 0.75,
+            "deletion_rate": 0.0795964125560538,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.348053877557635,
+            "pesq_wb": 1.4074665119250616,
+            "stoi": 0.8603676058522958
+          },
+          "asr": {
+            "N": 892,
+            "S": 175,
+            "D": 32,
+            "I": 26,
+            "correct": 685,
+            "errors": 233,
+            "utterances": 120,
+            "wer": 0.26121076233183854,
+            "deletion_rate": 0.03587443946188341,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.980067913697516,
+            "pesq_wb": 2.011911446849505,
+            "stoi": 0.9440596711885294
+          },
+          "asr": {
+            "N": 892,
+            "S": 68,
+            "D": 1,
+            "I": 13,
+            "correct": 823,
+            "errors": 82,
+            "utterances": 120,
+            "wer": 0.09192825112107623,
+            "deletion_rate": 0.0011210762331838565,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.918095433548886,
+            "pesq_wb": 1.45517755150795,
+            "stoi": 0.8366417040089901
+          },
+          "asr": {
+            "N": 876,
+            "S": 221,
+            "D": 43,
+            "I": 44,
+            "correct": 612,
+            "errors": 308,
+            "utterances": 120,
+            "wer": 0.3515981735159817,
+            "deletion_rate": 0.04908675799086758,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 9.484144699317461,
+            "pesq_wb": 1.688506801923116,
+            "stoi": 0.8227112412042245
+          },
+          "asr": {
+            "N": 132,
+            "S": 30,
+            "D": 6,
+            "I": 4,
+            "correct": 96,
+            "errors": 40,
+            "utterances": 12,
+            "wer": 0.30303030303030304,
+            "deletion_rate": 0.045454545454545456,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.282480344514384,
+            "pesq_wb": 1.5415685256322225,
+            "stoi": 0.9095699643242411
+          },
+          "asr": {
+            "N": 756,
+            "S": 86,
+            "D": 20,
+            "I": 13,
+            "correct": 650,
+            "errors": 119,
+            "utterances": 120,
+            "wer": 0.1574074074074074,
+            "deletion_rate": 0.026455026455026454,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.435080056454469,
+            "pesq_wb": 1.710042636703562,
+            "stoi": 0.8681128283812256
+          },
+          "asr": {
+            "N": 912,
+            "S": 229,
+            "D": 35,
+            "I": 253,
+            "correct": 648,
+            "errors": 517,
+            "utterances": 108,
+            "wer": 0.5668859649122807,
+            "deletion_rate": 0.03837719298245614,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.939945884438553,
+            "pesq_wb": 1.6543219943841299,
+            "stoi": 0.8939264779912816
+          },
+          "asr": {
+            "N": 1338,
+            "S": 242,
+            "D": 34,
+            "I": 256,
+            "correct": 1062,
+            "errors": 532,
+            "utterances": 180,
+            "wer": 0.3976083707025411,
+            "deletion_rate": 0.025411061285500747,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.68709564809747,
+            "pesq_wb": 1.4821014258596632,
+            "stoi": 0.8459297473398895
+          },
+          "asr": {
+            "N": 1338,
+            "S": 324,
+            "D": 70,
+            "I": 58,
+            "correct": 944,
+            "errors": 452,
+            "utterances": 180,
+            "wer": 0.33781763826606875,
+            "deletion_rate": 0.052316890881913304,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "ordinary_s20261113": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.138534776181281,
+            "pesq_wb": 1.5104754123422834,
+            "stoi": 0.8989538519284331
+          },
+          "asr": {
+            "N": 1338,
+            "S": 237,
+            "D": 26,
+            "I": 45,
+            "correct": 1075,
+            "errors": 308,
+            "utterances": 180,
+            "wer": 0.23019431988041852,
+            "deletion_rate": 0.01943198804185351,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.107729211966509,
+            "pesq_wb": 1.4613903277450138,
+            "stoi": 0.8254427196196316
+          },
+          "asr": {
+            "N": 1338,
+            "S": 416,
+            "D": 86,
+            "I": 73,
+            "correct": 836,
+            "errors": 575,
+            "utterances": 180,
+            "wer": 0.429745889387145,
+            "deletion_rate": 0.06427503736920777,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.97356964945514,
+            "pesq_wb": 1.505591873327891,
+            "stoi": 0.879346746478057
+          },
+          "asr": {
+            "N": 1338,
+            "S": 291,
+            "D": 38,
+            "I": 51,
+            "correct": 1009,
+            "errors": 380,
+            "utterances": 180,
+            "wer": 0.28400597907324365,
+            "deletion_rate": 0.028400597907324365,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.272694338692651,
+            "pesq_wb": 1.4662738667594062,
+            "stoi": 0.8450498250700077
+          },
+          "asr": {
+            "N": 1338,
+            "S": 362,
+            "D": 74,
+            "I": 67,
+            "correct": 902,
+            "errors": 503,
+            "utterances": 180,
+            "wer": 0.3759342301943199,
+            "deletion_rate": 0.05530642750373692,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 1.6914965547874152,
+            "pesq_wb": 1.225232752164205,
+            "stoi": 0.7895216491349879
+          },
+          "asr": {
+            "N": 892,
+            "S": 388,
+            "D": 81,
+            "I": 67,
+            "correct": 423,
+            "errors": 536,
+            "utterances": 120,
+            "wer": 0.600896860986547,
+            "deletion_rate": 0.09080717488789238,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.731873900963917,
+            "pesq_wb": 1.3716918657223383,
+            "stoi": 0.8562468116654938
+          },
+          "asr": {
+            "N": 892,
+            "S": 188,
+            "D": 29,
+            "I": 33,
+            "correct": 675,
+            "errors": 250,
+            "utterances": 120,
+            "wer": 0.2802690582959641,
+            "deletion_rate": 0.032511210762331835,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.44602552647035,
+            "pesq_wb": 1.8608739922444026,
+            "stoi": 0.9408263965216157
+          },
+          "asr": {
+            "N": 892,
+            "S": 77,
+            "D": 2,
+            "I": 18,
+            "correct": 813,
+            "errors": 97,
+            "utterances": 120,
+            "wer": 0.10874439461883408,
+            "deletion_rate": 0.002242152466367713,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.09557029921498,
+            "pesq_wb": 1.3881096849838892,
+            "stoi": 0.8269339828097001
+          },
+          "asr": {
+            "N": 876,
+            "S": 251,
+            "D": 51,
+            "I": 49,
+            "correct": 574,
+            "errors": 351,
+            "utterances": 120,
+            "wer": 0.4006849315068493,
+            "deletion_rate": 0.05821917808219178,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 7.775846398741521,
+            "pesq_wb": 1.5565969447294872,
+            "stoi": 0.8142050778537969
+          },
+          "asr": {
+            "N": 132,
+            "S": 34,
+            "D": 2,
+            "I": 3,
+            "correct": 96,
+            "errors": 39,
+            "utterances": 12,
+            "wer": 0.29545454545454547,
+            "deletion_rate": 0.015151515151515152,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.784344013337416,
+            "pesq_wb": 1.4706674913565319,
+            "stoi": 0.9037072236921463
+          },
+          "asr": {
+            "N": 756,
+            "S": 102,
+            "D": 21,
+            "I": 15,
+            "correct": 633,
+            "errors": 138,
+            "utterances": 120,
+            "wer": 0.18253968253968253,
+            "deletion_rate": 0.027777777777777776,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.790996699772372,
+            "pesq_wb": 1.6037352659084179,
+            "stoi": 0.8605923811498569
+          },
+          "asr": {
+            "N": 912,
+            "S": 266,
+            "D": 38,
+            "I": 51,
+            "correct": 608,
+            "errors": 355,
+            "utterances": 108,
+            "wer": 0.3892543859649123,
+            "deletion_rate": 0.041666666666666664,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.134545336014942,
+            "pesq_wb": 1.5313078396850162,
+            "stoi": 0.8813814474118401
+          },
+          "asr": {
+            "N": 1338,
+            "S": 307,
+            "D": 47,
+            "I": 50,
+            "correct": 984,
+            "errors": 404,
+            "utterances": 180,
+            "wer": 0.30194319880418535,
+            "deletion_rate": 0.035127055306427506,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.111718652132847,
+            "pesq_wb": 1.440557900402281,
+            "stoi": 0.8430151241362248
+          },
+          "asr": {
+            "N": 1338,
+            "S": 346,
+            "D": 65,
+            "I": 68,
+            "correct": 927,
+            "errors": 479,
+            "utterances": 180,
+            "wer": 0.3579970104633782,
+            "deletion_rate": 0.04857997010463378,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "complete_s20261113": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.593429616358433,
+            "pesq_wb": 1.504184407658047,
+            "stoi": 0.9014323034336349
+          },
+          "asr": {
+            "N": 1338,
+            "S": 207,
+            "D": 20,
+            "I": 37,
+            "correct": 1111,
+            "errors": 264,
+            "utterances": 180,
+            "wer": 0.19730941704035873,
+            "deletion_rate": 0.014947683109118086,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.103233093259145,
+            "pesq_wb": 1.526062900490231,
+            "stoi": 0.8342935048819825
+          },
+          "asr": {
+            "N": 1338,
+            "S": 353,
+            "D": 77,
+            "I": 60,
+            "correct": 908,
+            "errors": 490,
+            "utterances": 180,
+            "wer": 0.3662182361733931,
+            "deletion_rate": 0.05754857997010463,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.299328417223773,
+            "pesq_wb": 1.5779160837332407,
+            "stoi": 0.8932299154171097
+          },
+          "asr": {
+            "N": 1338,
+            "S": 211,
+            "D": 21,
+            "I": 48,
+            "correct": 1106,
+            "errors": 280,
+            "utterances": 180,
+            "wer": 0.20926756352765322,
+            "deletion_rate": 0.01569506726457399,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.397334292393806,
+            "pesq_wb": 1.4523312244150373,
+            "stoi": 0.8424958928985079
+          },
+          "asr": {
+            "N": 1338,
+            "S": 349,
+            "D": 76,
+            "I": 49,
+            "correct": 913,
+            "errors": 474,
+            "utterances": 180,
+            "wer": 0.3542600896860987,
+            "deletion_rate": 0.05680119581464873,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.5379924362972895,
+            "pesq_wb": 1.2406971762577692,
+            "stoi": 0.8003871780265709
+          },
+          "asr": {
+            "N": 892,
+            "S": 317,
+            "D": 71,
+            "I": 54,
+            "correct": 504,
+            "errors": 442,
+            "utterances": 120,
+            "wer": 0.49551569506726456,
+            "deletion_rate": 0.0795964125560538,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.158322288513875,
+            "pesq_wb": 1.3696134040753047,
+            "stoi": 0.8604361869957048
+          },
+          "asr": {
+            "N": 892,
+            "S": 174,
+            "D": 25,
+            "I": 31,
+            "correct": 693,
+            "errors": 230,
+            "utterances": 120,
+            "wer": 0.257847533632287,
+            "deletion_rate": 0.028026905829596414,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 10.8486793396152,
+            "pesq_wb": 1.9350603818893433,
+            "stoi": 0.9427653474511506
+          },
+          "asr": {
+            "N": 892,
+            "S": 69,
+            "D": 1,
+            "I": 12,
+            "correct": 822,
+            "errors": 82,
+            "utterances": 120,
+            "wer": 0.09192825112107623,
+            "deletion_rate": 0.0011210762331838565,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.274296180063747,
+            "pesq_wb": 1.406594411532084,
+            "stoi": 0.8346687639365524
+          },
+          "asr": {
+            "N": 876,
+            "S": 220,
+            "D": 30,
+            "I": 40,
+            "correct": 626,
+            "errors": 290,
+            "utterances": 120,
+            "wer": 0.3310502283105023,
+            "deletion_rate": 0.03424657534246575,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.94487750576662,
+            "pesq_wb": 1.580071856578191,
+            "stoi": 0.8202873931710548
+          },
+          "asr": {
+            "N": 132,
+            "S": 29,
+            "D": 5,
+            "I": 5,
+            "correct": 98,
+            "errors": 39,
+            "utterances": 12,
+            "wer": 0.29545454545454547,
+            "deletion_rate": 0.03787878787878788,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 3.98649100589089,
+            "pesq_wb": 1.484096418817838,
+            "stoi": 0.9076556550325833
+          },
+          "asr": {
+            "N": 756,
+            "S": 81,
+            "D": 23,
+            "I": 7,
+            "correct": 652,
+            "errors": 111,
+            "utterances": 120,
+            "wer": 0.14682539682539683,
+            "deletion_rate": 0.03042328042328042,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.09968791988341,
+            "pesq_wb": 1.6629699402385287,
+            "stoi": 0.8658172824302056
+          },
+          "asr": {
+            "N": 912,
+            "S": 230,
+            "D": 39,
+            "I": 45,
+            "correct": 643,
+            "errors": 314,
+            "utterances": 108,
+            "wer": 0.3442982456140351,
+            "deletion_rate": 0.04276315789473684,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.25676384200967,
+            "pesq_wb": 1.591978637377421,
+            "stoi": 0.8904600067663612
+          },
+          "asr": {
+            "N": 1338,
+            "S": 249,
+            "D": 30,
+            "I": 43,
+            "correct": 1059,
+            "errors": 322,
+            "utterances": 180,
+            "wer": 0.2406576980568012,
+            "deletion_rate": 0.02242152466367713,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.439898867607908,
+            "pesq_wb": 1.438268670770857,
+            "stoi": 0.8452658015492568
+          },
+          "asr": {
+            "N": 1338,
+            "S": 311,
+            "D": 67,
+            "I": 54,
+            "correct": 960,
+            "errors": 432,
+            "utterances": 180,
+            "wer": 0.32286995515695066,
+            "deletion_rate": 0.05007473841554559,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "ordinary_s20261114": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.8526731091683852,
+            "pesq_wb": 1.4899659938282437,
+            "stoi": 0.8988072489615979
+          },
+          "asr": {
+            "N": 1338,
+            "S": 235,
+            "D": 23,
+            "I": 39,
+            "correct": 1080,
+            "errors": 297,
+            "utterances": 180,
+            "wer": 0.2219730941704036,
+            "deletion_rate": 0.0171898355754858,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.201478495551092,
+            "pesq_wb": 1.4810539801915488,
+            "stoi": 0.8289123277194228
+          },
+          "asr": {
+            "N": 1338,
+            "S": 402,
+            "D": 80,
+            "I": 67,
+            "correct": 856,
+            "errors": 549,
+            "utterances": 180,
+            "wer": 0.4103139013452915,
+            "deletion_rate": 0.059790732436472344,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.402202502732843,
+            "pesq_wb": 1.5000282751189338,
+            "stoi": 0.8815408826716151
+          },
+          "asr": {
+            "N": 1338,
+            "S": 293,
+            "D": 29,
+            "I": 53,
+            "correct": 1016,
+            "errors": 375,
+            "utterances": 180,
+            "wer": 0.2802690582959641,
+            "deletion_rate": 0.021674140508221227,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.6519491019866335,
+            "pesq_wb": 1.4709916989008585,
+            "stoi": 0.8461786940094056
+          },
+          "asr": {
+            "N": 1338,
+            "S": 344,
+            "D": 74,
+            "I": 53,
+            "correct": 920,
+            "errors": 471,
+            "utterances": 180,
+            "wer": 0.35201793721973096,
+            "deletion_rate": 0.05530642750373692,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.8550292338185307,
+            "pesq_wb": 1.2140514185031255,
+            "stoi": 0.7903949262898771
+          },
+          "asr": {
+            "N": 892,
+            "S": 376,
+            "D": 75,
+            "I": 59,
+            "correct": 441,
+            "errors": 510,
+            "utterances": 120,
+            "wer": 0.5717488789237668,
+            "deletion_rate": 0.08408071748878924,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.325652801716826,
+            "pesq_wb": 1.371312712629636,
+            "stoi": 0.8589185928463821
+          },
+          "asr": {
+            "N": 892,
+            "S": 184,
+            "D": 25,
+            "I": 32,
+            "correct": 683,
+            "errors": 241,
+            "utterances": 120,
+            "wer": 0.2701793721973094,
+            "deletion_rate": 0.028026905829596414,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 10.900545371543858,
+            "pesq_wb": 1.871165829896927,
+            "stoi": 0.9422658458852721
+          },
+          "asr": {
+            "N": 892,
+            "S": 77,
+            "D": 3,
+            "I": 15,
+            "correct": 812,
+            "errors": 95,
+            "utterances": 120,
+            "wer": 0.10650224215246637,
+            "deletion_rate": 0.0033632286995515697,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.539655280478283,
+            "pesq_wb": 1.389236530661583,
+            "stoi": 0.8289657884895067
+          },
+          "asr": {
+            "N": 876,
+            "S": 249,
+            "D": 42,
+            "I": 53,
+            "correct": 585,
+            "errors": 344,
+            "utterances": 120,
+            "wer": 0.3926940639269406,
+            "deletion_rate": 0.04794520547945205,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 7.00906252406961,
+            "pesq_wb": 1.5171381731828053,
+            "stoi": 0.8147782582441772
+          },
+          "asr": {
+            "N": 132,
+            "S": 33,
+            "D": 3,
+            "I": 2,
+            "correct": 96,
+            "errors": 38,
+            "utterances": 12,
+            "wer": 0.2878787878787879,
+            "deletion_rate": 0.022727272727272728,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.1816714267499995,
+            "pesq_wb": 1.4648480455080668,
+            "stoi": 0.9051032683306458
+          },
+          "asr": {
+            "N": 756,
+            "S": 98,
+            "D": 18,
+            "I": 12,
+            "correct": 640,
+            "errors": 128,
+            "utterances": 120,
+            "wer": 0.1693121693121693,
+            "deletion_rate": 0.023809523809523808,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.176660497159968,
+            "pesq_wb": 1.611923963935287,
+            "stoi": 0.8622583137521788
+          },
+          "asr": {
+            "N": 912,
+            "S": 257,
+            "D": 40,
+            "I": 39,
+            "correct": 615,
+            "errors": 336,
+            "utterances": 108,
+            "wer": 0.3684210526315789,
+            "deletion_rate": 0.043859649122807015,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.457493426616999,
+            "pesq_wb": 1.525669589969847,
+            "stoi": 0.8827509056990521
+          },
+          "asr": {
+            "N": 1338,
+            "S": 303,
+            "D": 36,
+            "I": 55,
+            "correct": 999,
+            "errors": 394,
+            "utterances": 180,
+            "wer": 0.2944693572496263,
+            "deletion_rate": 0.026905829596412557,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.596658178102479,
+            "pesq_wb": 1.4453503840499453,
+            "stoi": 0.8449686709819686
+          },
+          "asr": {
+            "N": 1338,
+            "S": 334,
+            "D": 67,
+            "I": 51,
+            "correct": 937,
+            "errors": 452,
+            "utterances": 180,
+            "wer": 0.33781763826606875,
+            "deletion_rate": 0.05007473841554559,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "complete_s20261114": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 1.3327625886752836,
+            "pesq_wb": 1.4569098863336776,
+            "stoi": 0.900185020566344
+          },
+          "asr": {
+            "N": 1338,
+            "S": 204,
+            "D": 24,
+            "I": 38,
+            "correct": 1110,
+            "errors": 266,
+            "utterances": 180,
+            "wer": 0.19880418535127056,
+            "deletion_rate": 0.017937219730941704,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.760692992385776,
+            "pesq_wb": 1.503422267569436,
+            "stoi": 0.8304214031861983
+          },
+          "asr": {
+            "N": 1338,
+            "S": 368,
+            "D": 96,
+            "I": 60,
+            "correct": 874,
+            "errors": 524,
+            "utterances": 180,
+            "wer": 0.39162929745889385,
+            "deletion_rate": 0.07174887892376682,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.301300936601533,
+            "pesq_wb": 1.5324324932363298,
+            "stoi": 0.8902605289683471
+          },
+          "asr": {
+            "N": 1338,
+            "S": 223,
+            "D": 27,
+            "I": 44,
+            "correct": 1088,
+            "errors": 294,
+            "utterances": 180,
+            "wer": 0.21973094170403587,
+            "deletion_rate": 0.020179372197309416,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.7921546444595275,
+            "pesq_wb": 1.4278996606667838,
+            "stoi": 0.8403458947841953
+          },
+          "asr": {
+            "N": 1338,
+            "S": 349,
+            "D": 93,
+            "I": 54,
+            "correct": 896,
+            "errors": 496,
+            "utterances": 180,
+            "wer": 0.37070254110612855,
+            "deletion_rate": 0.06950672645739911,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": -0.4659581013401108,
+            "pesq_wb": 1.2116639812787373,
+            "stoi": 0.7938945445966713
+          },
+          "asr": {
+            "N": 892,
+            "S": 320,
+            "D": 88,
+            "I": 61,
+            "correct": 484,
+            "errors": 469,
+            "utterances": 120,
+            "wer": 0.5257847533632287,
+            "deletion_rate": 0.09865470852017937,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.6892263564127368,
+            "pesq_wb": 1.3558709015448889,
+            "stoi": 0.8607227707106131
+          },
+          "asr": {
+            "N": 892,
+            "S": 176,
+            "D": 29,
+            "I": 25,
+            "correct": 687,
+            "errors": 230,
+            "utterances": 120,
+            "wer": 0.257847533632287,
+            "deletion_rate": 0.032511210762331835,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 9.916915116518965,
+            "pesq_wb": 1.872963348031044,
+            "stoi": 0.9412923203215292
+          },
+          "asr": {
+            "N": 892,
+            "S": 76,
+            "D": 3,
+            "I": 12,
+            "correct": 813,
+            "errors": 91,
+            "utterances": 120,
+            "wer": 0.10201793721973094,
+            "deletion_rate": 0.0033632286995515697,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.388758073673567,
+            "pesq_wb": 1.3830425024032593,
+            "stoi": 0.8309528344813285
+          },
+          "asr": {
+            "N": 876,
+            "S": 221,
+            "D": 44,
+            "I": 41,
+            "correct": 611,
+            "errors": 306,
+            "utterances": 120,
+            "wer": 0.3493150684931507,
+            "deletion_rate": 0.0502283105022831,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.945934618829451,
+            "pesq_wb": 1.5116404592990875,
+            "stoi": 0.8151879563953277
+          },
+          "asr": {
+            "N": 132,
+            "S": 36,
+            "D": 4,
+            "I": 9,
+            "correct": 92,
+            "errors": 49,
+            "utterances": 12,
+            "wer": 0.3712121212121212,
+            "deletion_rate": 0.030303030303030304,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 3.2620275565823063,
+            "pesq_wb": 1.452081670363744,
+            "stoi": 0.9056519676261237
+          },
+          "asr": {
+            "N": 756,
+            "S": 95,
+            "D": 19,
+            "I": 11,
+            "correct": 642,
+            "errors": 125,
+            "utterances": 120,
+            "wer": 0.16534391534391535,
+            "deletion_rate": 0.02513227513227513,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.32756031050308,
+            "pesq_wb": 1.615788902397509,
+            "stoi": 0.8642067087575873
+          },
+          "asr": {
+            "N": 912,
+            "S": 220,
+            "D": 53,
+            "I": 37,
+            "correct": 639,
+            "errors": 310,
+            "utterances": 108,
+            "wer": 0.3399122807017544,
+            "deletion_rate": 0.0581140350877193,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.206504045284096,
+            "pesq_wb": 1.5424315902921888,
+            "stoi": 0.886122559696187
+          },
+          "asr": {
+            "N": 1338,
+            "S": 263,
+            "D": 34,
+            "I": 45,
+            "correct": 1041,
+            "errors": 342,
+            "utterances": 180,
+            "wer": 0.2556053811659193,
+            "deletion_rate": 0.025411061285500747,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.886951535776964,
+            "pesq_wb": 1.4179005636109245,
+            "stoi": 0.8444838640563556
+          },
+          "asr": {
+            "N": 1338,
+            "S": 309,
+            "D": 86,
+            "I": 53,
+            "correct": 943,
+            "errors": 448,
+            "utterances": 180,
+            "wer": 0.33482810164424515,
+            "deletion_rate": 0.06427503736920777,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_stratification_s20261113": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.919247344591364,
+            "pesq_wb": 1.4724392930666605,
+            "stoi": 0.8971893853917423
+          },
+          "asr": {
+            "N": 1338,
+            "S": 226,
+            "D": 21,
+            "I": 39,
+            "correct": 1091,
+            "errors": 286,
+            "utterances": 180,
+            "wer": 0.21375186846038863,
+            "deletion_rate": 0.01569506726457399,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.207234239852923,
+            "pesq_wb": 1.4698869307835898,
+            "stoi": 0.824499753834559
+          },
+          "asr": {
+            "N": 1338,
+            "S": 399,
+            "D": 90,
+            "I": 77,
+            "correct": 849,
+            "errors": 566,
+            "utterances": 180,
+            "wer": 0.42301943198804187,
+            "deletion_rate": 0.06726457399103139,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.444711372572763,
+            "pesq_wb": 1.4981512824694316,
+            "stoi": 0.878391452448495
+          },
+          "asr": {
+            "N": 1338,
+            "S": 284,
+            "D": 36,
+            "I": 57,
+            "correct": 1018,
+            "errors": 377,
+            "utterances": 180,
+            "wer": 0.28176382660687593,
+            "deletion_rate": 0.026905829596412557,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.681770211871525,
+            "pesq_wb": 1.4441749413808187,
+            "stoi": 0.8432976867778065
+          },
+          "asr": {
+            "N": 1338,
+            "S": 341,
+            "D": 75,
+            "I": 59,
+            "correct": 922,
+            "errors": 475,
+            "utterances": 180,
+            "wer": 0.35500747384155457,
+            "deletion_rate": 0.05605381165919283,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.8641459774943436,
+            "pesq_wb": 1.2083808779716492,
+            "stoi": 0.7875864497715658
+          },
+          "asr": {
+            "N": 892,
+            "S": 358,
+            "D": 80,
+            "I": 62,
+            "correct": 454,
+            "errors": 500,
+            "utterances": 120,
+            "wer": 0.5605381165919282,
+            "deletion_rate": 0.08968609865470852,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.16192314112762,
+            "pesq_wb": 1.3489383588234583,
+            "stoi": 0.8544470548050492
+          },
+          "asr": {
+            "N": 892,
+            "S": 195,
+            "D": 28,
+            "I": 38,
+            "correct": 669,
+            "errors": 261,
+            "utterances": 120,
+            "wer": 0.29260089686098656,
+            "deletion_rate": 0.03139013452914798,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.163653258044468,
+            "pesq_wb": 1.8561700989802679,
+            "stoi": 0.9405002042628372
+          },
+          "asr": {
+            "N": 892,
+            "S": 72,
+            "D": 3,
+            "I": 16,
+            "correct": 817,
+            "errors": 91,
+            "utterances": 120,
+            "wer": 0.10201793721973094,
+            "deletion_rate": 0.0033632286995515697,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.476506545761712,
+            "pesq_wb": 1.3757484743992487,
+            "stoi": 0.8249152638171938
+          },
+          "asr": {
+            "N": 876,
+            "S": 237,
+            "D": 50,
+            "I": 43,
+            "correct": 589,
+            "errors": 330,
+            "utterances": 120,
+            "wer": 0.3767123287671233,
+            "deletion_rate": 0.05707762557077625,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.806581622906198,
+            "pesq_wb": 1.5153672099113464,
+            "stoi": 0.8131923494748827
+          },
+          "asr": {
+            "N": 132,
+            "S": 24,
+            "D": 7,
+            "I": 3,
+            "correct": 101,
+            "errors": 34,
+            "utterances": 12,
+            "wer": 0.25757575757575757,
+            "deletion_rate": 0.05303030303030303,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.304479928828345,
+            "pesq_wb": 1.4528222461541493,
+            "stoi": 0.9023840999008745
+          },
+          "asr": {
+            "N": 756,
+            "S": 99,
+            "D": 23,
+            "I": 12,
+            "correct": 634,
+            "errors": 134,
+            "utterances": 120,
+            "wer": 0.17724867724867724,
+            "deletion_rate": 0.03042328042328042,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.25341971087306,
+            "pesq_wb": 1.5926465491453807,
+            "stoi": 0.8599056779709954
+          },
+          "asr": {
+            "N": 912,
+            "S": 265,
+            "D": 31,
+            "I": 58,
+            "correct": 616,
+            "errors": 354,
+            "utterances": 108,
+            "wer": 0.3881578947368421,
+            "deletion_rate": 0.03399122807017544,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.576580318592397,
+            "pesq_wb": 1.5203970968723297,
+            "stoi": 0.8806381223997969
+          },
+          "asr": {
+            "N": 1338,
+            "S": 291,
+            "D": 44,
+            "I": 51,
+            "correct": 1003,
+            "errors": 386,
+            "utterances": 180,
+            "wer": 0.2884902840059791,
+            "deletion_rate": 0.03288490284005979,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.5499012658518887,
+            "pesq_wb": 1.4219291269779206,
+            "stoi": 0.8410510168265047
+          },
+          "asr": {
+            "N": 1338,
+            "S": 334,
+            "D": 67,
+            "I": 65,
+            "correct": 937,
+            "errors": 466,
+            "utterances": 180,
+            "wer": 0.3482810164424514,
+            "deletion_rate": 0.05007473841554559,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_clean_identity_s20261113": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.095137515545769,
+            "pesq_wb": 1.5833768433994717,
+            "stoi": 0.903360795606039
+          },
+          "asr": {
+            "N": 1338,
+            "S": 215,
+            "D": 20,
+            "I": 39,
+            "correct": 1103,
+            "errors": 274,
+            "utterances": 180,
+            "wer": 0.20478325859491778,
+            "deletion_rate": 0.014947683109118086,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.191149107762274,
+            "pesq_wb": 1.5151347253057692,
+            "stoi": 0.8362628052472614
+          },
+          "asr": {
+            "N": 1338,
+            "S": 329,
+            "D": 84,
+            "I": 48,
+            "correct": 925,
+            "errors": 461,
+            "utterances": 180,
+            "wer": 0.3445440956651719,
+            "deletion_rate": 0.06278026905829596,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.801996355012812,
+            "pesq_wb": 1.622975579235289,
+            "stoi": 0.8960778168710907
+          },
+          "asr": {
+            "N": 1338,
+            "S": 197,
+            "D": 20,
+            "I": 38,
+            "correct": 1121,
+            "errors": 255,
+            "utterances": 180,
+            "wer": 0.1905829596412556,
+            "deletion_rate": 0.014947683109118086,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.48429026829523,
+            "pesq_wb": 1.475535989469952,
+            "stoi": 0.84354578398221
+          },
+          "asr": {
+            "N": 1338,
+            "S": 347,
+            "D": 84,
+            "I": 49,
+            "correct": 907,
+            "errors": 480,
+            "utterances": 180,
+            "wer": 0.35874439461883406,
+            "deletion_rate": 0.06278026905829596,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 2.278083350425311,
+            "pesq_wb": 1.2753168324629465,
+            "stoi": 0.8055837119172841
+          },
+          "asr": {
+            "N": 892,
+            "S": 296,
+            "D": 73,
+            "I": 45,
+            "correct": 523,
+            "errors": 414,
+            "utterances": 120,
+            "wer": 0.4641255605381166,
+            "deletion_rate": 0.08183856502242152,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.29463815312802,
+            "pesq_wb": 1.3953444540500641,
+            "stoi": 0.8608921026975225
+          },
+          "asr": {
+            "N": 892,
+            "S": 174,
+            "D": 31,
+            "I": 28,
+            "correct": 687,
+            "errors": 233,
+            "utterances": 120,
+            "wer": 0.26121076233183854,
+            "deletion_rate": 0.034753363228699555,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.85670843140873,
+            "pesq_wb": 1.9771060665448508,
+            "stoi": 0.9429595866651445
+          },
+          "asr": {
+            "N": 892,
+            "S": 74,
+            "D": 0,
+            "I": 14,
+            "correct": 818,
+            "errors": 88,
+            "utterances": 120,
+            "wer": 0.09865470852017937,
+            "deletion_rate": 0.0,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.73857524062576,
+            "pesq_wb": 1.4407635390758515,
+            "stoi": 0.8373759834001594
+          },
+          "asr": {
+            "N": 876,
+            "S": 216,
+            "D": 36,
+            "I": 34,
+            "correct": 624,
+            "errors": 286,
+            "utterances": 120,
+            "wer": 0.3264840182648402,
+            "deletion_rate": 0.0410958904109589,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 8.998141120832612,
+            "pesq_wb": 1.6916839679082234,
+            "stoi": 0.8224414121524873
+          },
+          "asr": {
+            "N": 132,
+            "S": 32,
+            "D": 6,
+            "I": 6,
+            "correct": 94,
+            "errors": 44,
+            "utterances": 12,
+            "wer": 0.3333333333333333,
+            "deletion_rate": 0.045454545454545456,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.209158780384731,
+            "pesq_wb": 1.5221113463242848,
+            "stoi": 0.9095433798237115
+          },
+          "asr": {
+            "N": 756,
+            "S": 92,
+            "D": 19,
+            "I": 11,
+            "correct": 645,
+            "errors": 122,
+            "utterances": 120,
+            "wer": 0.16137566137566137,
+            "deletion_rate": 0.02513227513227513,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.202090890964791,
+            "pesq_wb": 1.6841378565187808,
+            "stoi": 0.8669687742675902
+          },
+          "asr": {
+            "N": 912,
+            "S": 204,
+            "D": 43,
+            "I": 36,
+            "correct": 665,
+            "errors": 283,
+            "utterances": 108,
+            "wer": 0.31030701754385964,
+            "deletion_rate": 0.047149122807017545,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.728237960335514,
+            "pesq_wb": 1.6382344835334355,
+            "stoi": 0.8937864206072056
+          },
+          "asr": {
+            "N": 1338,
+            "S": 223,
+            "D": 31,
+            "I": 32,
+            "correct": 1084,
+            "errors": 286,
+            "utterances": 180,
+            "wer": 0.21375186846038863,
+            "deletion_rate": 0.023168908819133034,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.558048662972529,
+            "pesq_wb": 1.4602770851718054,
+            "stoi": 0.845837180246095
+          },
+          "asr": {
+            "N": 1338,
+            "S": 321,
+            "D": 73,
+            "I": 55,
+            "correct": 944,
+            "errors": 449,
+            "utterances": 180,
+            "wer": 0.33557548579970103,
+            "deletion_rate": 0.05455904334828102,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_stratification_s20261114": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.005627298812864,
+            "pesq_wb": 1.4995033807224698,
+            "stoi": 0.898153699559783
+          },
+          "asr": {
+            "N": 1338,
+            "S": 227,
+            "D": 24,
+            "I": 38,
+            "correct": 1087,
+            "errors": 289,
+            "utterances": 180,
+            "wer": 0.21599402092675635,
+            "deletion_rate": 0.017937219730941704,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.148335154700596,
+            "pesq_wb": 1.5028179109096527,
+            "stoi": 0.8282445599434671
+          },
+          "asr": {
+            "N": 1338,
+            "S": 389,
+            "D": 87,
+            "I": 75,
+            "correct": 862,
+            "errors": 551,
+            "utterances": 180,
+            "wer": 0.4118086696562033,
+            "deletion_rate": 0.06502242152466367,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.461046882113735,
+            "pesq_wb": 1.5300323254532284,
+            "stoi": 0.8813911265966164
+          },
+          "asr": {
+            "N": 1338,
+            "S": 265,
+            "D": 30,
+            "I": 55,
+            "correct": 1043,
+            "errors": 350,
+            "utterances": 180,
+            "wer": 0.2615844544095665,
+            "deletion_rate": 0.02242152466367713,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.692915571399725,
+            "pesq_wb": 1.472288966178894,
+            "stoi": 0.8450071329066333
+          },
+          "asr": {
+            "N": 1338,
+            "S": 351,
+            "D": 81,
+            "I": 58,
+            "correct": 906,
+            "errors": 490,
+            "utterances": 180,
+            "wer": 0.3662182361733931,
+            "deletion_rate": 0.06053811659192825,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 0.8789335709983046,
+            "pesq_wb": 1.225211145480474,
+            "stoi": 0.7917919975575862
+          },
+          "asr": {
+            "N": 892,
+            "S": 356,
+            "D": 81,
+            "I": 65,
+            "correct": 455,
+            "errors": 502,
+            "utterances": 120,
+            "wer": 0.5627802690582959,
+            "deletion_rate": 0.09080717488789238,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.1685247938392993,
+            "pesq_wb": 1.3646704643964767,
+            "stoi": 0.855995358145231
+          },
+          "asr": {
+            "N": 892,
+            "S": 186,
+            "D": 27,
+            "I": 34,
+            "correct": 679,
+            "errors": 247,
+            "utterances": 120,
+            "wer": 0.2769058295964126,
+            "deletion_rate": 0.030269058295964126,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.183485315432586,
+            "pesq_wb": 1.9136003275712332,
+            "stoi": 0.9418100335520575
+          },
+          "asr": {
+            "N": 892,
+            "S": 74,
+            "D": 3,
+            "I": 14,
+            "correct": 815,
+            "errors": 91,
+            "utterances": 120,
+            "wer": 0.10201793721973094,
+            "deletion_rate": 0.0033632286995515697,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.543533181960135,
+            "pesq_wb": 1.3986524224281311,
+            "stoi": 0.828430274408808
+          },
+          "asr": {
+            "N": 876,
+            "S": 241,
+            "D": 42,
+            "I": 44,
+            "correct": 593,
+            "errors": 327,
+            "utterances": 120,
+            "wer": 0.3732876712328767,
+            "deletion_rate": 0.04794520547945205,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 6.894075579356883,
+            "pesq_wb": 1.548123945792516,
+            "stoi": 0.8160523692986482
+          },
+          "asr": {
+            "N": 132,
+            "S": 29,
+            "D": 6,
+            "I": 2,
+            "correct": 97,
+            "errors": 37,
+            "utterances": 12,
+            "wer": 0.2803030303030303,
+            "deletion_rate": 0.045454545454545456,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.265014711779002,
+            "pesq_wb": 1.479146699110667,
+            "stoi": 0.9039932502982925
+          },
+          "asr": {
+            "N": 756,
+            "S": 94,
+            "D": 26,
+            "I": 16,
+            "correct": 636,
+            "errors": 136,
+            "utterances": 120,
+            "wer": 0.17989417989417988,
+            "deletion_rate": 0.03439153439153439,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.258875809550404,
+            "pesq_wb": 1.6343004681445934,
+            "stoi": 0.8617429195754549
+          },
+          "asr": {
+            "N": 912,
+            "S": 252,
+            "D": 37,
+            "I": 51,
+            "correct": 623,
+            "errors": 340,
+            "utterances": 108,
+            "wer": 0.37280701754385964,
+            "deletion_rate": 0.04057017543859649,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.5756238847680075,
+            "pesq_wb": 1.5573018021053737,
+            "stoi": 0.8835917630482333
+          },
+          "asr": {
+            "N": 1338,
+            "S": 285,
+            "D": 37,
+            "I": 51,
+            "correct": 1016,
+            "errors": 373,
+            "utterances": 180,
+            "wer": 0.2787742899850523,
+            "deletion_rate": 0.02765321375186846,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.578338568745452,
+            "pesq_wb": 1.4450194895267487,
+            "stoi": 0.8428064964550166
+          },
+          "asr": {
+            "N": 1338,
+            "S": 331,
+            "D": 74,
+            "I": 62,
+            "correct": 933,
+            "errors": 467,
+            "utterances": 180,
+            "wer": 0.34902840059790735,
+            "deletion_rate": 0.05530642750373692,
+            "scored_cases": 180
+          }
+        }
+      }
+    },
+    "without_clean_identity_s20261114": {
+      "noise_id": {
+        "OOFFICE": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.537961152772536,
+            "pesq_wb": 1.5476832462681664,
+            "stoi": 0.9035029281395816
+          },
+          "asr": {
+            "N": 1338,
+            "S": 213,
+            "D": 23,
+            "I": 33,
+            "correct": 1102,
+            "errors": 269,
+            "utterances": 180,
+            "wer": 0.20104633781763825,
+            "deletion_rate": 0.0171898355754858,
+            "scored_cases": 180
+          }
+        },
+        "PCAFETER": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 7.137128721194371,
+            "pesq_wb": 1.5246257232295142,
+            "stoi": 0.8350927752356502
+          },
+          "asr": {
+            "N": 1338,
+            "S": 338,
+            "D": 94,
+            "I": 54,
+            "correct": 906,
+            "errors": 486,
+            "utterances": 180,
+            "wer": 0.3632286995515695,
+            "deletion_rate": 0.07025411061285501,
+            "scored_cases": 180
+          }
+        }
+      },
+      "noise_field": {
+        "point": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 5.826837705909058,
+            "pesq_wb": 1.6056962529818217,
+            "stoi": 0.8965360940303235
+          },
+          "asr": {
+            "N": 1338,
+            "S": 209,
+            "D": 18,
+            "I": 41,
+            "correct": 1111,
+            "errors": 268,
+            "utterances": 180,
+            "wer": 0.20029895366218237,
+            "deletion_rate": 0.013452914798206279,
+            "scored_cases": 180
+          }
+        },
+        "multi8": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 4.84825216805785,
+            "pesq_wb": 1.466612716515859,
+            "stoi": 0.8420596093449085
+          },
+          "asr": {
+            "N": 1338,
+            "S": 342,
+            "D": 99,
+            "I": 46,
+            "correct": 897,
+            "errors": 487,
+            "utterances": 180,
+            "wer": 0.3639760837070254,
+            "deletion_rate": 0.07399103139013453,
+            "scored_cases": 180
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 1.2192319042726907,
+            "pesq_wb": 1.256311559677124,
+            "stoi": 0.803065316519559
+          },
+          "asr": {
+            "N": 892,
+            "S": 303,
+            "D": 81,
+            "I": 48,
+            "correct": 508,
+            "errors": 432,
+            "utterances": 120,
+            "wer": 0.484304932735426,
+            "deletion_rate": 0.09080717488789238,
+            "scored_cases": 120
+          }
+        },
+        "0": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.708452954800493,
+            "pesq_wb": 1.3927713761727014,
+            "stoi": 0.861980512271856
+          },
+          "asr": {
+            "N": 892,
+            "S": 176,
+            "D": 34,
+            "I": 27,
+            "correct": 682,
+            "errors": 237,
+            "utterances": 120,
+            "wer": 0.265695067264574,
+            "deletion_rate": 0.03811659192825112,
+            "scored_cases": 120
+          }
+        },
+        "5": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 11.084949951877176,
+            "pesq_wb": 1.9593805183966955,
+            "stoi": 0.9428477262714331
+          },
+          "asr": {
+            "N": 892,
+            "S": 72,
+            "D": 2,
+            "I": 12,
+            "correct": 818,
+            "errors": 86,
+            "utterances": 120,
+            "wer": 0.09641255605381166,
+            "deletion_rate": 0.002242152466367713,
+            "scored_cases": 120
+          }
+        }
+      },
+      "speaker_id": {
+        "84": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.836345978315494,
+            "pesq_wb": 1.4311424444119136,
+            "stoi": 0.8359107411599399
+          },
+          "asr": {
+            "N": 876,
+            "S": 218,
+            "D": 36,
+            "I": 42,
+            "correct": 622,
+            "errors": 296,
+            "utterances": 120,
+            "wer": 0.3378995433789954,
+            "deletion_rate": 0.0410958904109589,
+            "scored_cases": 120
+          }
+        },
+        "1673": {
+          "cases": 12,
+          "successful": 12,
+          "failures": 0,
+          "sources": 1,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 7.824851603467135,
+            "pesq_wb": 1.6293249130249023,
+            "stoi": 0.8196358664117674
+          },
+          "asr": {
+            "N": 132,
+            "S": 33,
+            "D": 11,
+            "I": 3,
+            "correct": 88,
+            "errors": 47,
+            "utterances": 12,
+            "wer": 0.3560606060606061,
+            "deletion_rate": 0.08333333333333333,
+            "scored_cases": 12
+          }
+        },
+        "8297": {
+          "cases": 120,
+          "successful": 120,
+          "failures": 0,
+          "sources": 10,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 4.391706708449633,
+            "pesq_wb": 1.5031483034292856,
+            "stoi": 0.9091479671107605
+          },
+          "asr": {
+            "N": 756,
+            "S": 85,
+            "D": 22,
+            "I": 6,
+            "correct": 649,
+            "errors": 113,
+            "utterances": 120,
+            "wer": 0.14947089947089948,
+            "deletion_rate": 0.0291005291005291,
+            "scored_cases": 120
+          }
+        },
+        "5536": {
+          "cases": 108,
+          "successful": 108,
+          "failures": 0,
+          "sources": 9,
+          "speakers": 1,
+          "metrics": {
+            "si_sdr_db": 5.557885515376134,
+            "pesq_wb": 1.6791557945587017,
+            "stoi": 0.8676347335010788
+          },
+          "asr": {
+            "N": 912,
+            "S": 215,
+            "D": 48,
+            "I": 36,
+            "correct": 649,
+            "errors": 299,
+            "utterances": 108,
+            "wer": 0.32785087719298245,
+            "deletion_rate": 0.05263157894736842,
+            "scored_cases": 108
+          }
+        }
+      },
+      "noise_azimuth": {
+        "-60": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 6.743921617450062,
+            "pesq_wb": 1.614295169379976,
+            "stoi": 0.89243093544157
+          },
+          "asr": {
+            "N": 1338,
+            "S": 241,
+            "D": 32,
+            "I": 38,
+            "correct": 1065,
+            "errors": 311,
+            "utterances": 180,
+            "wer": 0.23243647234678624,
+            "deletion_rate": 0.02391629297458894,
+            "scored_cases": 180
+          }
+        },
+        "45": {
+          "cases": 180,
+          "successful": 180,
+          "failures": 0,
+          "sources": 30,
+          "speakers": 4,
+          "metrics": {
+            "si_sdr_db": 3.9311682565168447,
+            "pesq_wb": 1.4580138001177045,
+            "stoi": 0.846164767933662
+          },
+          "asr": {
+            "N": 1338,
+            "S": 310,
+            "D": 85,
+            "I": 49,
+            "correct": 943,
+            "errors": 444,
+            "utterances": 180,
+            "wer": 0.33183856502242154,
+            "deletion_rate": 0.06352765321375187,
+            "scored_cases": 180
+          }
+        }
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "label": "原始McNet减带噪",
+      "a": [
+        "mcnet"
+      ],
+      "b": [
+        "noisy"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.17037199249877263,
+          "ci95": [
+            -0.3234660512065529,
+            -0.023826571410927117
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.04063230752944945,
+          "ci95": [
+            0.0280115306791332,
+            0.05758043209711707
+          ]
+        },
+        "stoi": {
+          "delta": 0.0022695760701827595,
+          "ci95": [
+            -0.003247366630139082,
+            0.00794595732238834
+          ]
+        },
+        "wer": {
+          "delta": 0.059790732436472344,
+          "ci95": [
+            -0.09097358791783222,
+            0.22002484669973799
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          -0.18298120587612332,
+          0.025459299484888714,
+          0.0026235598954402937,
+          -0.007575757575757576
+        ],
+        "5536": [
+          -0.6874479518080326,
+          0.04904330770174662,
+          0.008318740133599796,
+          0.09100877192982457
+        ],
+        "8297": [
+          0.15913363710807626,
+          0.032116130987803145,
+          0.01132089731330287,
+          0.04497354497354497
+        ],
+        "84": [
+          -0.033248337389552254,
+          0.04309588472048441,
+          -0.012261391212538433,
+          0.0502283105022831
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": -0.18613596449140798,
+        "pesq_wb": 0.03742865572373072,
+        "stoi": 0.0025004515324511313,
+        "wer": 0.04465871745747377
+      }
+    },
+    {
+      "label": "普通适配减原始McNet",
+      "a": [
+        "ordinary_s20261112"
+      ],
+      "b": [
+        "mcnet"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 6.279223747320899,
+          "ci95": [
+            6.037844336593288,
+            6.524826398808801
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.3135639157560136,
+          "ci95": [
+            0.2676847707149055,
+            0.353437499312891
+          ]
+        },
+        "stoi": {
+          "delta": 0.1877046843057493,
+          "ci95": [
+            0.17733642043690337,
+            0.19753926165215646
+          ]
+        },
+        "wer": {
+          "delta": -0.35575485799701045,
+          "ci95": [
+            -0.47640819937214146,
+            -0.27396852576647096
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          7.781107392198372,
+          0.4178606669108073,
+          0.16746934791582593,
+          -0.30303030303030304
+        ],
+        "5536": [
+          6.443831840818898,
+          0.4000384917965642,
+          0.1947970647706355,
+          -0.35635964912280704
+        ],
+        "8297": [
+          5.695651034114995,
+          0.27883864839871725,
+          0.1646204470700753,
+          -0.27645502645502645
+        ],
+        "84": [
+          6.564460811890854,
+          0.26003238956133523,
+          0.20642931276201798,
+          -0.4315068493150685
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": 6.62126276975578,
+        "pesq_wb": 0.339192549166856,
+        "stoi": 0.18332904312963866,
+        "wer": -0.34183795698080127
+      }
+    },
+    {
+      "label": "首种子完整方案减普通适配",
+      "a": [
+        "complete_s20261112"
+      ],
+      "b": [
+        "ordinary_s20261112"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.10383370332044267,
+          "ci95": [
+            -0.17248801326971927,
+            -0.028790903272297393
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.0352784213092592,
+          "ci95": [
+            0.02774267984761132,
+            0.04343333415687084
+          ]
+        },
+        "stoi": {
+          "delta": 0.0012301175609067498,
+          "ci95": [
+            6.153879280960602e-05,
+            0.0024095374718786696
+          ]
+        },
+        "wer": {
+          "delta": 0.0007473841554559044,
+          "ci95": [
+            -0.01681641298723698,
+            0.02214841752232581
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          -0.041085841534140743,
+          0.04315042495727539,
+          -0.00010710934016933127,
+          0.05303030303030303
+        ],
+        "5536": [
+          0.10920729527182942,
+          0.048946144404234705,
+          0.00430135990934442,
+          0.007675438596491228
+        ],
+        "8297": [
+          -0.141391688130938,
+          0.02900147835413615,
+          -0.0007164991212074976,
+          0.01984126984126984
+        ],
+        "84": [
+          -0.26428740342162244,
+          0.02846721311410268,
+          0.0005463388195347021,
+          -0.030821917808219176
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": -0.08438940945371794,
+        "pesq_wb": 0.03739131520743723,
+        "stoi": 0.0010060225668755733,
+        "wer": 0.012431273414961232
+      }
+    },
+    {
+      "label": "配对种子平均：完整方案减普通适配",
+      "a": [
+        "complete_s20261112",
+        "complete_s20261113",
+        "complete_s20261114"
+      ],
+      "b": [
+        "ordinary_s20261112",
+        "ordinary_s20261113",
+        "ordinary_s20261114"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.6196607848049188,
+          "ci95": [
+            -0.67247007827571,
+            -0.5668972722581516
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.019708431760470067,
+          "ci95": [
+            0.01311830465440397,
+            0.026837602506081255
+          ]
+        },
+        "stoi": {
+          "delta": 0.002779386493481311,
+          "ci95": [
+            0.001905158381044161,
+            0.0036597933811401287
+          ]
+        },
+        "wer": {
+          "delta": -0.022795216741405083,
+          "ci95": [
+            -0.039751432561986266,
+            -0.005781384880996427
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          -0.6450608799164005,
+          0.02037587430742052,
+          0.0021283013760797502,
+          0.045454545454545456
+        ],
+        "5536": [
+          -0.4770672237580072,
+          0.03734858573218923,
+          0.003824885398367161,
+          -0.021929824561403508
+        ],
+        "8297": [
+          -0.6196295219150525,
+          0.009888010223706563,
+          0.0012602105049024722,
+          -0.006613756613756613
+        ],
+        "84": [
+          -0.7454862431258575,
+          0.013585970467991298,
+          0.00342272197940304,
+          -0.04794520547945205
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": -0.6218109671788294,
+        "pesq_wb": 0.020299610182826906,
+        "stoi": 0.002659029814688106,
+        "wer": -0.007758560300016679
+      }
+    },
+    {
+      "label": "空间分层消融：三种子，后两种子为验证触发扩展",
+      "a": [
+        "complete_s20261112",
+        "complete_s20261113",
+        "complete_s20261114"
+      ],
+      "b": [
+        "without_stratification_s20261112",
+        "without_stratification_s20261113",
+        "without_stratification_s20261114"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.258880199887432,
+          "ci95": [
+            -0.3095224821675367,
+            -0.21104815231377785
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.03011817336082458,
+          "ci95": [
+            0.024343321433773737,
+            0.0360203710888271
+          ]
+        },
+        "stoi": {
+          "delta": 0.005408442922353863,
+          "ci95": [
+            0.004472671752011494,
+            0.0063083782596992915
+          ]
+        },
+        "wer": {
+          "delta": -0.025161933233682116,
+          "ci95": [
+            -0.04199123420901522,
+            -0.00828785979401717
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          -0.005046282155401771,
+          0.04454361399014791,
+          0.0036507251065299195,
+          0.047979797979797977
+        ],
+        "5536": [
+          -0.17056401786919484,
+          0.044627277203548095,
+          0.005681006541385181,
+          -0.02814327485380117
+        ],
+        "8297": [
+          -0.32867460725931413,
+          0.020342470208803816,
+          0.0038694165219751104,
+          -0.022045855379188715
+        ],
+        "84": [
+          -0.2939537481051664,
+          0.025393138991461856,
+          0.006877933847186828,
+          -0.03576864535768646
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": -0.19955966384726928,
+        "pesq_wb": 0.03372662509849042,
+        "stoi": 0.00501977050426926,
+        "wer": -0.009494494402719593
+      }
+    },
+    {
+      "label": "干净约束消融：三种子，后两种子为验证触发扩展",
+      "a": [
+        "complete_s20261112",
+        "complete_s20261113",
+        "complete_s20261114"
+      ],
+      "b": [
+        "without_clean_identity_s20261112",
+        "without_clean_identity_s20261113",
+        "without_clean_identity_s20261114"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -1.4442743044681385,
+          "ci95": [
+            -1.533739799403935,
+            -1.3608908952591132
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.04920525881979201,
+          "ci95": [
+            -0.05864729579952027,
+            -0.04091461779618704
+          ]
+        },
+        "stoi": {
+          "delta": -0.0035975251355960186,
+          "ci95": [
+            -0.004438587674629089,
+            -0.0028457639334080495
+          ]
+        },
+        "wer": {
+          "delta": -0.010338814150473339,
+          "ci95": [
+            -0.057541495198902594,
+            0.018249434389140257
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          -2.241757495539427,
+          -0.11651710669199628,
+          -0.004351413100233789,
+          0.005050505050505051
+        ],
+        "5536": [
+          -1.2982956622464634,
+          -0.04840929383113061,
+          -0.0026661429515572347,
+          -0.04568713450292397
+        ],
+        "8297": [
+          -1.3189657563413306,
+          -0.05119046601984236,
+          -0.0033146066256517204,
+          0.005731922398589064
+        ],
+        "84": [
+          -1.6212153114873256,
+          -0.04120523532231649,
+          -0.004643298814711444,
+          0.010273972602739725
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": -1.6200585564036367,
+        "pesq_wb": -0.06433052546632144,
+        "stoi": -0.003743865373038547,
+        "wer": -0.006157683612772533
+      }
+    },
+    {
+      "label": "无干净约束时的空间分层效果：三种子，验证触发扩展",
+      "a": [
+        "without_clean_identity_s20261112",
+        "without_clean_identity_s20261113",
+        "without_clean_identity_s20261114"
+      ],
+      "b": [
+        "ordinary_s20261112",
+        "ordinary_s20261113",
+        "ordinary_s20261114"
+      ],
+      "delta_definition": "A minus B; SI/PESQ/STOI higher is better; WER lower is better",
+      "source_clusters": 30,
+      "speaker_clusters": 4,
+      "source_paired_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 0.8246135196632198,
+          "ci95": [
+            0.751765466889345,
+            0.9021419164699035
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.06891369058026207,
+          "ci95": [
+            0.05913768391090411,
+            0.07874777730968263
+          ]
+        },
+        "stoi": {
+          "delta": 0.00637691162907733,
+          "ci95": [
+            0.005328951836498537,
+            0.007463348117702494
+          ]
+        },
+        "wer": {
+          "delta": -0.012456402590931738,
+          "ci95": [
+            -0.05344687958224856,
+            0.04815401669274904
+          ]
+        }
+      },
+      "caution": "Conditional exploratory intervals over source utterances, only four test speakers and two noise recordings. Multiple conditions/seeds do not create independent sources. No broad significance or novelty claim.",
+      "per_speaker_deltas_order_si_pesq_stoi_wer": {
+        "1673": [
+          1.5966966156230267,
+          0.13689298099941677,
+          0.006479714476313538,
+          0.0404040404040404
+        ],
+        "5536": [
+          0.8212284384884558,
+          0.08575787956331984,
+          0.006491028349924396,
+          0.023757309941520463
+        ],
+        "8297": [
+          0.6993362344262782,
+          0.06107847624354893,
+          0.004574817130554193,
+          -0.012345679012345677
+        ],
+        "84": [
+          0.8757290683614682,
+          0.05479120579030779,
+          0.008066020794114483,
+          -0.05821917808219178
+        ]
+      },
+      "speaker_equal_weight_sensitivity": {
+        "si_sdr_db": 0.9982475892248073,
+        "pesq_wb": 0.08463013564914833,
+        "stoi": 0.006402895187726652,
+        "wer": -0.001600876687244148
+      }
+    }
+  ],
+  "coverage": {
+    "signal_rows": 5850,
+    "asr_rows": 5850,
+    "signal_status": {
+      "ok": 5850
+    },
+    "test_sources": 30,
+    "test_speakers": 4,
+    "test_mixtures_per_system": 360,
+    "clean_controls_per_system": 30,
+    "paired_seeds": [
+      20261112,
+      20261113,
+      20261114
+    ],
+    "test_source_counts_per_speaker": {
+      "84": 10,
+      "1673": 1,
+      "8297": 10,
+      "5536": 9
+    }
+  },
+  "limitations": [
+    "Short 1–3.8s English clean-source utterances, four held-out speakers, two test noise recordings.",
+    "No room reverberation or real microphone recordings; nominal far-field plane-wave simulation only.",
+    "Point-source test angle is coupled with SNR: +45 degrees only at 0 dB, -60 degrees at +/-5 dB; angle-specific causal conclusions are invalid.",
+    "Multi8 is an unconditioned eight independent-segment sum, not a measured diffuse field.",
+    "Single ASR is recognizer-specific and cannot prove acoustic word deletion.",
+    "Test source counts per speaker are 10,10,9,1; the fourth speaker has only one utterance. Speaker-macro sensitivity is secondary and highly variable.",
+    "LoRA, balancing, replay, and clean identity constraints are known ideas. Novelty is not established by beating original McNet.",
+    "Source bootstrap intervals are exploratory given only four speakers; ablation seeds 2 and 3 were registered after first-seed validation, before any final-test evaluation."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "total_cases": 128,
+  "successful_cases": 128,
+  "failed_cases": 0,
+  "metrics": {
+    "si_sdr_db": {
+      "noisy": {
+        "n": 128,
+        "mean": -0.6097710379050931,
+        "median": -0.2208276149675739
+      },
+      "enhanced": {
+        "n": 128,
+        "mean": 0.002200035904428993,
+        "median": -0.21593570448603028
+      },
+      "paired_improvement": {
+        "n": 128,
+        "mean": 0.611971073809522,
+        "median": 0.11837988186790535
+      }
+    },
+    "stoi": {
+      "noisy": {
+        "n": 128,
+        "mean": 0.8248537709008774,
+        "median": 0.8651011089789671
+      },
+      "enhanced": {
+        "n": 128,
+        "mean": 0.8372677265864426,
+        "median": 0.8933331371867594
+      },
+      "paired_improvement": {
+        "n": 128,
+        "mean": 0.012413955685565288,
+        "median": 0.009646075043324598
+      }
+    },
+    "pesq_wb": {
+      "noisy": {
+        "n": 128,
+        "mean": 1.59420857578516,
+        "median": 1.1304383277893066
+      },
+      "enhanced": {
+        "n": 128,
+        "mean": 1.8513882346451283,
+        "median": 1.2523630261421204
+      },
+      "paired_improvement": {
+        "n": 128,
+        "mean": 0.2571796588599682,
+        "median": 0.08941590785980225
+      }
+    }
+  },
+  "human_content_loss_judgement": "not_assessed",
+  "status": "ok",
+  "input_manifest_sha256": "fe4634899ea3eadbdbbce3899f4a7e07118104dc2a5175f8db5f7797afebc4ea",
+  "model_loaded_once": true,
+  "unique_sources": 8,
+  "unique_speakers": 6,
+  "metric_backends": {
+    "stoi": {
+      "status": "available",
+      "package": "pystoi",
+      "version": "0.4.1"
+    },
+    "pesq_wb": {
+      "status": "available",
+      "package": "pesq",
+      "version": "0.0.4"
+    }
+  },
+  "training_performed": false,
+  "cuda_peak_allocated_bytes": 1756643840,
+  "cuda_peak_reserved_bytes": 5565841408,
+  "asr_performed": false,
+  "notice": "Exploratory signal-level diagnostics only. No human content-loss event has been adjudicated."
+}

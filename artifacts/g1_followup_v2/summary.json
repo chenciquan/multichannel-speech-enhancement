@@ -1,0 +1,100 @@
+{
+  "status": "ok",
+  "all_cases": 48,
+  "selected_cases": 13,
+  "forward_calls": 52,
+  "selection": [
+    "1988-147956-0013__DKITCHEN_ch01__snr5",
+    "1988-147956-0018__DKITCHEN_ch01__snr0",
+    "2035-147960-0006__DKITCHEN_ch01__snr5",
+    "2035-147960-0006__DWASHING_ch01__snr0",
+    "2035-147960-0013__DKITCHEN_ch01__snr5",
+    "2086-149220-0020__DKITCHEN_ch01__snr5",
+    "2086-149220-0032__DWASHING_ch01__snr0",
+    "2277-149896-0012__DKITCHEN_ch01__snr5",
+    "2277-149896-0033__DKITCHEN_ch01__snr0",
+    "777-126732-0021__DKITCHEN_ch01__snr5",
+    "777-126732-0074__DWASHING_ch01__snr5",
+    "7976-110124-0000__DKITCHEN_ch01__snr5",
+    "7976-110124-0021__DWASHING_ch01__snr5"
+  ],
+  "all_case_output_input": {
+    "correlation": {
+      "n": 48,
+      "min": 0.9934960083182797,
+      "median": 0.9977569719325137,
+      "mean": 0.9973242980523302,
+      "max": 0.9990532880089391
+    },
+    "projection_gain": {
+      "n": 48,
+      "min": 0.9289927347241119,
+      "median": 0.9620559729923828,
+      "mean": 0.9622268239503025,
+      "max": 0.9814700978639038
+    },
+    "rms_gain_db": {
+      "n": 48,
+      "min": -0.5831505342979686,
+      "median": -0.32043163085582416,
+      "mean": -0.3119069403738243,
+      "max": -0.153554521890074
+    },
+    "difference_energy_relative_db": {
+      "n": 48,
+      "min": -25.804159423899222,
+      "median": -22.439811564653283,
+      "mean": -22.27059411346853,
+      "max": -17.856445963712712
+    }
+  },
+  "all_case_best_lag_samples": {
+    "0": 48
+  },
+  "all_case_projection": {
+    "speech_coefficient": {
+      "n": 48,
+      "min": 0.9058979678362932,
+      "median": 0.9737251971918719,
+      "mean": 0.9708005516366495,
+      "max": 0.9925818557923277
+    },
+    "noise_coefficient": {
+      "n": 48,
+      "min": 0.9356650965076103,
+      "median": 0.9493252433739034,
+      "mean": 0.9493878215822026,
+      "max": 0.9653115898755619
+    },
+    "unexplained_energy_fraction": {
+      "n": 48,
+      "min": 0.0015190390792677324,
+      "median": 0.0043823711577481075,
+      "mean": 0.005170493613874553,
+      "max": 0.012565852685530088
+    }
+  },
+  "max_feature_error": 0.0,
+  "max_independent_decoder_error": 5.960464477539062e-07,
+  "max_original_decoder_error": 0.0,
+  "max_stored_repeat_error": 0.0,
+  "max_gain_restored_difference_db": -88.62975508002069,
+  "permuted_relative_difference_db": {
+    "n": 13,
+    "min": -18.26387191706019,
+    "median": -10.416152273839414,
+    "mean": -10.806754093148273,
+    "max": -6.885947327529967
+  },
+  "clean_input_relative_difference_db": {
+    "n": 13,
+    "min": -27.125683092376267,
+    "median": -23.773969842904176,
+    "mean": -22.323394628576903,
+    "max": -17.77007057714572
+  },
+  "human_feedback_cases": 1,
+  "confirmed_word_deletion": null,
+  "training": false,
+  "notice": "Descriptive engineering probes, not independent method validation or evidence of human word loss"
+}

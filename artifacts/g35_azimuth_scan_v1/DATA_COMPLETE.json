@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 1064,
+  "noisy": 912,
+  "clean": 152,
+  "groups": 56,
+  "manifest_sha256": "ef744f7388c957bfbb1d817119224982e766fd52476fbf17fec34f2dec979123",
+  "seconds": 97.49708900399999,
+  "natural_reference_all_groups_exact": true,
+  "all_saved_SNR_within_0p002dB": true
+}

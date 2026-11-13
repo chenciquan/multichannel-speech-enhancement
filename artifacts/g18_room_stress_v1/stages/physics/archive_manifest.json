@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T10:12:31.643066+00:00",
+  "files": [
+    {
+      "source": "docs/G18A_固定房间物理协议与容量验证.md",
+      "snapshot": "00_G18A_固定房间物理协议与容量验证.md",
+      "sha256": "d1eb02d1530f038789f1943a1fa58fe806c385848ca8f020eca1859af952bf5c"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "0eb86985b545445d7f01ef28b3dbf2cde795da24604530848224377fa9fb817a"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/PHYSICS_COMPLETE.json",
+      "snapshot": "02_PHYSICS_COMPLETE.json",
+      "sha256": "90c01eb402efd32cb13a7616af11aaf3ef2c69082d1531b5b9eb52ca5fb432b6"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/ASSET_COMPLETE.json",
+      "snapshot": "03_ASSET_COMPLETE.json",
+      "sha256": "2c1bdffe56f6514394d31ebc334076e7f719b848e6f19eb8470120405505124e"
+    },
+    {
+      "source": "scripts/g18_physics.py",
+      "snapshot": "04_g18_physics.py",
+      "sha256": "84346e71e9d7c22f2577c4716c3ff305588eee9f9fbe30db4edeac770affca51"
+    }
+  ]
+}

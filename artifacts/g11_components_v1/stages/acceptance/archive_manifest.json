@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T07:53:14.658855+00:00",
+  "files": [
+    {
+      "source": "docs/G11_验收与分量诊断简明读回.md",
+      "snapshot": "00_G11_验收与分量诊断简明读回.md",
+      "sha256": "4d37324bf87ed0eee2e906253442e9b1a6e5c3812fafefeb51d9c0010616e486"
+    },
+    {
+      "source": "artifacts/g11_components_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "365f7896d0f1900241a461c0faf1216174e04e5afcca1eeb4655e7c47a4f3a7f"
+    },
+    {
+      "source": "artifacts/g11_components_v1/verification/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "1a45102f09b785214d8e85dfead5b4f8f81c6768b240bdb9fd459aefea25ddf7"
+    },
+    {
+      "source": "scripts/g11_accept.py",
+      "snapshot": "03_g11_accept.py",
+      "sha256": "324f15046e03785c547f80eac2eec6977ff8f6a896ac3c60f5c0901b9026569b"
+    }
+  ]
+}

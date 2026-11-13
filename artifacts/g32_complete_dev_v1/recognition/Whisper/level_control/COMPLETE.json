@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T01:15:49.849469+00:00",
+  "rows": 468,
+  "dry_anchors": 4,
+  "fresh": {
+    "dry_anchor": 4,
+    "reference": 20,
+    "output": 456
+  },
+  "score_sha256": "fbcf2dac88442d407559b1d74540a2065f347ac50ab4024c93f171a2bf25c592",
+  "cache_sha256": "2891b2cc08eb2c3a944fce31c62891e665eda2670cc468c6d9892bfbf78abe48",
+  "anchors_sha256": "947b17714da73c45b2509cad04256582ddc87efe98ac5d409a0190f3ab5649d4"
+}

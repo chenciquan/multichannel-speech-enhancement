@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T10:26:14.493601+00:00",
+  "cases": 504,
+  "noisy_cases": 432,
+  "clean_cases": 72,
+  "reused_sources": 8,
+  "speakers": 4,
+  "RIRs": 99,
+  "manifest_sha256": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc",
+  "max_saved_active_SNR_error_db": 7.962099109853224e-06,
+  "max_frames": 63759,
+  "elapsed_seconds": 266.621330253
+}

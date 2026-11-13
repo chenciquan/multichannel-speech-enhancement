@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:32:17.781734+00:00",
+  "files": [
+    {
+      "source": "docs/G16C_正确训练直接输出信号报告.md",
+      "snapshot": "00_G16C_正确训练直接输出信号报告.md",
+      "sha256": "e42ed85f3910a0df6e502b698c12576c18a521eb64b98e09e13d5be690cc989a"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/DIRECT_COMPLETE.json",
+      "snapshot": "01_DIRECT_COMPLETE.json",
+      "sha256": "361a1832a58b5c503aa7f5712442230a20a6e125ae18d956839d06c100dc436f"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "6812aad3085268136fc4294062dfe93ad33485c054c119670f2765ba954d33a8"
+    },
+    {
+      "source": "scripts/g16_signal.py",
+      "snapshot": "03_g16_signal.py",
+      "sha256": "6b423e66848b08ed2ff41377569481a20e7ed1e5fca60dfe7af2455af74bb4c6"
+    }
+  ]
+}

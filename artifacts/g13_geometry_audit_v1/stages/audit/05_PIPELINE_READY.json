@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-11-12T08:21:19.277709+00:00",
+  "files": {
+    "scripts/g12_common.py": "eecd0b80d6abacdf8ef2c8229d8bd2094d89da018d1569c0bca68234865ba100",
+    "scripts/g12_queue.py": "d9d2b5fde2f80a3276a8a4cfa746c856e165767812cf79eaf1b0bc280fc514c2",
+    "scripts/g12_build.py": "e363a26efc9cb5036261a6bfea3d981739c4e61a573118fce2db920c09a50f82",
+    "scripts/g12_signal.py": "eba51378321914bb937610bb2e480f590a633dfbd5f28fd057df10694f3766eb",
+    "scripts/g12_asr.py": "afc30c298af9582e9a777166b0e502d1205dd777f8bf9ce4b5be5be6aeef0c38",
+    "scripts/g12_finish.py": "3596c084249644ab73f26cc24f5972ce1eaa9689fe1559922f7c9e4d029800cb",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/runtime.py": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "tests/test_reverberation.py": "ad350a68f42dab31d57d2815311d2b443ddb2acdfbd9b8b82c2573f9130a517e"
+  },
+  "full_tests_before_room_scores": 91,
+  "asset_report_archived": true
+}

@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-11-12T20:09:26.619712+00:00",
+  "base_pairs": 480,
+  "normalized_waveforms": 480,
+  "expected_observations_each_ASR": 960,
+  "normalization": {
+    "target_rms": 0.05,
+    "peak_limit": 0.95,
+    "formula": "min(target_rms/RMS(x),peak_limit/maxabs(x)); zero remains zero",
+    "precision": "float32 input -> float64 coefficient and multiply -> float32 output",
+    "code_sha256": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "preprocessing_id": "e59590ff50880d9e470ac27cde90b1087bb5293d009f01fbfe455dd309c76851"
+  },
+  "gain_variants_checked_per_base": 4,
+  "observations": [
+    "normalized_first",
+    "normalized_second"
+  ],
+  "fresh_ASR_every_observation": true,
+  "apply_to_enhancement_outputs": false,
+  "raw_results_preserved": true,
+  "selection": "Exactly all G24 base pairs, no new sample selection or performance-based normalization parameters",
+  "hashes": {
+    "scripts/g25_prepare.py": "d6c7d10f7b8ef99916120d5a3ed639060b4b7205d98ce4064892d4bc5c7f5afd",
+    "src/mcse/asr_level.py": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "tests/test_asr_level.py": "44716189ef338d9c629bac20ba9ad41ca9f21061c1d1480930526eb1cd093575",
+    "artifacts/g24_gain_repeat_v1/manifest.jsonl": "307753b1b677c506832bc19341cdf0a6f4c75a09abd1bbce3bbb5b08b3c57cc5",
+    "artifacts/g24_gain_repeat_v1/FINAL_ACCEPTANCE_AUDIT.json": "a8b41fe51107ca383e2b71e8b48003f866fb9b03332bb9266c051226d2500e90"
+  }
+}

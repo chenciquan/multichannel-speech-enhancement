@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "variant": "without_clean_identity",
+  "seed": 20261112,
+  "completed_steps": 3000,
+  "selected": {
+    "step": 3000,
+    "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+    "si_sdr_db": 1.788902548479182,
+    "stoi": 0.8586823646206534
+  },
+  "stoi_gate_passed": true,
+  "history": [
+    {
+      "step": 500,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_00500.pt",
+      "si_sdr_db": -3.9699788299555645,
+      "stoi": 0.781205281358246
+    },
+    {
+      "step": 1000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_01000.pt",
+      "si_sdr_db": -0.32285722690754565,
+      "stoi": 0.8432395350234122
+    },
+    {
+      "step": 1500,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_01500.pt",
+      "si_sdr_db": 0.500969681369888,
+      "stoi": 0.8528437248321039
+    },
+    {
+      "step": 2000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_02000.pt",
+      "si_sdr_db": 1.0858529193178323,
+      "stoi": 0.8575914658892582
+    },
+    {
+      "step": 2500,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_02500.pt",
+      "si_sdr_db": 1.5543683561919517,
+      "stoi": 0.8613369936477189
+    },
+    {
+      "step": 3000,
+      "path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+      "si_sdr_db": 1.788902548479182,
+      "stoi": 0.8586823646206534
+    }
+  ],
+  "initial_si_sdr_db": -2.194675438628423,
+  "initial_stoi": 0.7705404418814349,
+  "base_digest_before": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "base_digest_after": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "base_unchanged": true,
+  "elapsed_seconds": 244.753404346,
+  "peak_allocated_bytes": 1558007808,
+  "peak_reserved_bytes": 3498049536,
+  "sampler_counts": {
+    "multi8": 1541,
+    "multi8:90": 240,
+    "point": 1459,
+    "point:-90": 205,
+    "point:90": 212,
+    "point:-30": 234,
+    "point:30": 179,
+    "multi8:-90": 244,
+    "multi8:0": 207,
+    "point:-60": 214,
+    "multi8:-60": 175,
+    "multi8:30": 233,
+    "multi8:60": 193,
+    "point:60": 206,
+    "multi8:-30": 249,
+    "point:0": 209
+  },
+  "finished_at": "2026-11-12T09:12:28.384449+00:00"
+}

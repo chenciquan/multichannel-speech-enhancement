@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-13T00:37:45.185410+00:00",
+  "max_seconds": 1200,
+  "data_complete_sha256": "e7acbe4d3d0d10eece6ac230a2f7b8024bfa10d6bb559ba6d56a909ea93a38cb",
+  "plan_sha256": "4c41fd85fc345e972456bd8a8711b05cb16200ce7107e07762713120175976bd",
+  "code_sha256": "d503ed7febcdbd47aeba5191d1d246c6b6e702aff88417cbc6bb171c023f4abb",
+  "scope": "All684 inputs and labels exact reconstruction from sources, RIRs, intervals,gain,scale; all split and source checks"
+}

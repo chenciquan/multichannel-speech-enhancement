@@ -1,0 +1,4492 @@
+{
+  "created_at": "2026-11-11T21:38:47.550067+08:00",
+  "status": "passed",
+  "scope": "automated G1 evidence delivery, not full G1 problem-confirmation gate",
+  "checks": [
+    {
+      "requirement": "48 unique cases shared by manifest, inference, ASR and full metrics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "all inference, ASR and metric cases succeeded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "24 unique source utterances, six speakers, discovery only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "four noise/SNR cells each contain 12 cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "frozen input bytes: source_manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "frozen input bytes: noise_manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "frozen input bytes: geometry_file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2277-149896-0033",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2277-149896-0021",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2277-149896-0015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2277-149896-0012",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2035-147960-0013",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2035-147960-0015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2035-147960-0006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2035-147960-0009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2086-149220-0028",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2086-149220-0042",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2086-149220-0020",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 2086-149220-0032",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 7976-110124-0019",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 7976-110124-0000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 7976-110124-0017",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 7976-110124-0021",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 1988-147956-0018",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 1988-147956-0024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 1988-147956-0025",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 1988-147956-0013",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 777-126732-0074",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 777-126732-0072",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 777-126732-0029",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: 777-126732-0021",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: DWASHING_ch01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered source bytes: DKITCHEN_ch01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "generated manifest and canonical frozen-input hashes match current bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "registered frozen protocol is byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "canonical protocol matches generation hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: shared source_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: shared speaker_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: shared noise_id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: shared transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: reference hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: reference manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: reference audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: noisy hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: noisy manifest path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: noisy audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: enhanced hash chain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: enhanced audio metadata and finite samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: FLOAT enhancement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: complete real backend metric si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: complete real backend metric stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: complete real backend metric pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "all audio within four-second probe; enhanced outputs within full scale",
+      "passed": true,
+      "detail": {
+        "max_seconds": 3.768,
+        "max_enhanced_abs_peak": 0.8947480916976929
+      }
+    },
+    {
+      "requirement": "aggregate noisy si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "aggregate enhanced si_sdr_db",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "aggregate noisy stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "aggregate enhanced stoi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "aggregate noisy pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "aggregate enhanced pesq_wb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "ASR corpus edits and denominator: reference",
+      "passed": true,
+      "detail": {
+        "N": 450,
+        "S": 40,
+        "D": 2,
+        "I": 8,
+        "errors": 50
+      }
+    },
+    {
+      "requirement": "ASR corpus edits and denominator: noisy",
+      "passed": true,
+      "detail": {
+        "N": 450,
+        "S": 56,
+        "D": 3,
+        "I": 10,
+        "errors": 69
+      }
+    },
+    {
+      "requirement": "ASR corpus edits and denominator: enhanced",
+      "passed": true,
+      "detail": {
+        "N": 450,
+        "S": 59,
+        "D": 4,
+        "I": 9,
+        "errors": 72
+      }
+    },
+    {
+      "requirement": "repeated clean-reference hypotheses identical; unique word denominator 225",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "review CSV retains all48; no human judgement fabricated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "seven ASR regression candidates and one added ASR-deletion candidate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "offline review has 144 local audio links, all resources present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "all browser playback paths are mono 16k",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "48 registered reference-microphone listening copies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0013__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0018__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0024__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "1988-147956-0025__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0006__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0009__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0013__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2035-147960-0015__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0020__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0028__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0032__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2086-149220-0042__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0012__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0015__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0021__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "2277-149896-0033__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0021__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0029__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0072__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "777-126732-0074__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0000__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0017__DWASHING_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DKITCHEN_ch01__snr5: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0019__DWASHING_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "7976-110124-0021__DKITCHEN_ch01__snr0: listening copy preserves mic5 exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "12 selected figures present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/model/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/util/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/model/mc_net.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/util/acoustic_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/util/cal_metrics.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/util/git_tools.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: src/util/my_json_encoder.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official code unchanged: config/mc_net_offline.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official checkpoint unchanged and strict load recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "official checkout pinned and clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "single ASR weight matches registered SHA256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "inference, ASR, rescoring and review source hashes chained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "no training claimed; all human decisions pending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "Chinese stage report and status match actual delivery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "40 unit tests passed with no skips in saved execution evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "saved dependency consistency and full manifest verification passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "requirement": "G1 dependency lock equals resolved environment snapshot",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed_checks": 887,
+  "error": null,
+  "evidence": {
+    "manifest": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g1_v1/manifest.jsonl",
+      "sha256": "c09282b305d0eefa961e7af8b711306399071e32bfb147bc034eed4dd16642cf"
+    },
+    "cases": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g1_v1/mcnet/cases.jsonl",
+      "sha256": "274b61a2555149c49f8da8206f9a8f3590a8a3ae47cc883295941bbfb92c0cae"
+    },
+    "asr": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g1_v1/asr/transcriptions.jsonl",
+      "sha256": "c706ae85d9197b82519f398551dfa90a1c760fa60bf68ebd199d9b982176b772"
+    },
+    "scores": {
+      "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g1_v1/signal_scores/scores.jsonl",
+      "sha256": "bead56a8c11fd31a4cc49c844ec478ed2ff12c54578759e86992404791896286"
+    }
+  },
+  "not_verified": [
+    "Human listening and word/time adjudication",
+    "Independent confirmation set",
+    "Exact original CHiME-domain performance",
+    "Training feasibility and method gains",
+    "Browser audio playback on a physical listening device"
+  ],
+  "human_deletions_confirmed": null,
+  "training_performed": false
+}

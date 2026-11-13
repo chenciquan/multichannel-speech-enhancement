@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T18:33:18.730498+00:00",
+  "files": [
+    {
+      "source": "docs/G22A_新房间物理核查.md",
+      "snapshot": "00_G22A_新房间物理核查.md",
+      "sha256": "92db9f969a199a1730dc6f11a0f3a05eb3a69517adc975cd4af8051ce1ab22d2"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/RIR_manifest.json",
+      "snapshot": "01_RIR_manifest.json",
+      "sha256": "8fe058785d7fcda88b707c0542a18975bdf2c264da7020b17e927da05f77f6ac"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/frozen_plan.json",
+      "snapshot": "02_frozen_plan.json",
+      "sha256": "d083483db07de0121fc91a4b76596ba9c142273ef6e08cf295b5b013887fe327"
+    },
+    {
+      "source": "artifacts/g12_room_stress_v2/ASSET_COMPLETE.json",
+      "snapshot": "03_ASSET_COMPLETE.json",
+      "sha256": "2c1bdffe56f6514394d31ebc334076e7f719b848e6f19eb8470120405505124e"
+    }
+  ]
+}

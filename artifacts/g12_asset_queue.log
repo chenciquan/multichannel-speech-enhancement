@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_start_asset.py", line 21, in <module>
+    try:main()
+        ^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_start_asset.py", line 15, in main
+    if r.returncode:raise RuntimeError('G12 asset stage failed; preserve log and environment evidence before retry')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: G12 asset stage failed; preserve log and environment evidence before retry

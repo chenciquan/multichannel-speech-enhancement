@@ -1,0 +1,3101 @@
+{
+  "coverage": {
+    "signal_rows": 9072,
+    "asr_rows": 9072,
+    "sources": 12,
+    "speakers": 3,
+    "systems": 14,
+    "cases_per_system": 648,
+    "seeds": [
+      20261112,
+      20261113,
+      20261114
+    ]
+  },
+  "cells": {
+    "fixed_without_clean_identity": {
+      "NPARK": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -10.980931241372856,
+            "pesq_wb": 1.0681822380901855,
+            "stoi": 0.47537033386781
+          },
+          "asr": {
+            "N": 2673,
+            "S": 945,
+            "D": 1415,
+            "I": 308,
+            "correct": 313,
+            "errors": 2668,
+            "utterances": 324,
+            "wer": 0.998129442573887,
+            "deletion_rate": 0.5293677515899738
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 7.350507043270665,
+            "pesq_wb": 1.4392177234461279,
+            "stoi": 0.817355283364205
+          },
+          "asr": {
+            "N": 2673,
+            "S": 704,
+            "D": 121,
+            "I": 448,
+            "correct": 1848,
+            "errors": 1273,
+            "utterances": 324,
+            "wer": 0.47624392068836513,
+            "deletion_rate": 0.04526748971193416
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.6160776213519745,
+            "pesq_wb": 1.2529714836014643,
+            "stoi": 0.7168339457438918
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1233,
+            "D": 297,
+            "I": 465,
+            "correct": 1143,
+            "errors": 1995,
+            "utterances": 324,
+            "wer": 0.7463524130190797,
+            "deletion_rate": 0.1111111111111111
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -11.500005078756141,
+            "pesq_wb": 1.0590076700404838,
+            "stoi": 0.5229622793337623
+          },
+          "asr": {
+            "N": 2673,
+            "S": 992,
+            "D": 1264,
+            "I": 534,
+            "correct": 417,
+            "errors": 2790,
+            "utterances": 324,
+            "wer": 1.0437710437710437,
+            "deletion_rate": 0.4728769173213618
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 8.87963337641558,
+            "pesq_wb": 1.5341955861191692,
+            "stoi": 0.8136544157080313
+          },
+          "asr": {
+            "N": 2673,
+            "S": 677,
+            "D": 89,
+            "I": 104,
+            "correct": 1907,
+            "errors": 870,
+            "utterances": 324,
+            "wer": 0.3254769921436588,
+            "deletion_rate": 0.033295922184811075
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.651130318855718,
+            "pesq_wb": 1.311055415942345,
+            "stoi": 0.7314097208478477
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1204,
+            "D": 254,
+            "I": 384,
+            "correct": 1215,
+            "errors": 1842,
+            "utterances": 324,
+            "wer": 0.6891133557800224,
+            "deletion_rate": 0.09502431724653947
+          }
+        }
+      }
+    },
+    "fixed_complete": {
+      "NPARK": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -9.204004419736721,
+            "pesq_wb": 1.0672739950227148,
+            "stoi": 0.4911218234410248
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1013,
+            "D": 1313,
+            "I": 411,
+            "correct": 347,
+            "errors": 2737,
+            "utterances": 324,
+            "wer": 1.023943135054246,
+            "deletion_rate": 0.49120838009726897
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 5.9354241240533785,
+            "pesq_wb": 1.3826748842810408,
+            "stoi": 0.8135113693539198
+          },
+          "asr": {
+            "N": 2673,
+            "S": 699,
+            "D": 141,
+            "I": 139,
+            "correct": 1833,
+            "errors": 979,
+            "utterances": 324,
+            "wer": 0.3662551440329218,
+            "deletion_rate": 0.052749719416386086
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 2.1830989992245553,
+            "pesq_wb": 1.2610428888856628,
+            "stoi": 0.7215154142346493
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1195,
+            "D": 292,
+            "I": 293,
+            "correct": 1186,
+            "errors": 1780,
+            "utterances": 324,
+            "wer": 0.6659184436962214,
+            "deletion_rate": 0.10924055368499813
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -9.419674901653174,
+            "pesq_wb": 1.0602112022446997,
+            "stoi": 0.5317211998291141
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1065,
+            "D": 1163,
+            "I": 1451,
+            "correct": 445,
+            "errors": 3679,
+            "utterances": 324,
+            "wer": 1.376356154133932,
+            "deletion_rate": 0.43509165731387955
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 8.85310554598733,
+            "pesq_wb": 1.516399120475039,
+            "stoi": 0.8128787363668856
+          },
+          "asr": {
+            "N": 2673,
+            "S": 654,
+            "D": 100,
+            "I": 112,
+            "correct": 1919,
+            "errors": 866,
+            "utterances": 324,
+            "wer": 0.32398054620276845,
+            "deletion_rate": 0.03741114852225964
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 3.1249032005295176,
+            "pesq_wb": 1.3616077664457722,
+            "stoi": 0.7396087170157569
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1199,
+            "D": 263,
+            "I": 701,
+            "correct": 1211,
+            "errors": 2163,
+            "utterances": 324,
+            "wer": 0.8092031425364759,
+            "deletion_rate": 0.09839132061354283
+          }
+        }
+      }
+    },
+    "rotated_without_clean_identity": {
+      "NPARK": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.6895078200884774,
+            "pesq_wb": 1.1713724824381464,
+            "stoi": 0.6939113782697589
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1132,
+            "D": 496,
+            "I": 318,
+            "correct": 1045,
+            "errors": 1946,
+            "utterances": 324,
+            "wer": 0.7280209502431725,
+            "deletion_rate": 0.18555929667040777
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 4.439124203055034,
+            "pesq_wb": 1.3057650283530906,
+            "stoi": 0.788330589026884
+          },
+          "asr": {
+            "N": 2673,
+            "S": 879,
+            "D": 183,
+            "I": 368,
+            "correct": 1611,
+            "errors": 1430,
+            "utterances": 324,
+            "wer": 0.5349794238683128,
+            "deletion_rate": 0.06846240179573512
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.0880383529816295,
+            "pesq_wb": 1.1726026523996282,
+            "stoi": 0.693292970706674
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1424,
+            "D": 323,
+            "I": 535,
+            "correct": 926,
+            "errors": 2282,
+            "utterances": 324,
+            "wer": 0.8537224092779648,
+            "deletion_rate": 0.12083800972689862
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 2.0690337527177722,
+            "pesq_wb": 1.1853086860091597,
+            "stoi": 0.6722237630102499
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1116,
+            "D": 566,
+            "I": 831,
+            "correct": 991,
+            "errors": 2513,
+            "utterances": 324,
+            "wer": 0.9401421623643846,
+            "deletion_rate": 0.21174710063598953
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 6.829200358843115,
+            "pesq_wb": 1.380383359061347,
+            "stoi": 0.7804267698385399
+          },
+          "asr": {
+            "N": 2673,
+            "S": 876,
+            "D": 171,
+            "I": 119,
+            "correct": 1626,
+            "errors": 1166,
+            "utterances": 324,
+            "wer": 0.43621399176954734,
+            "deletion_rate": 0.06397306397306397
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.2167330008798998,
+            "pesq_wb": 1.1809952737372598,
+            "stoi": 0.6885428806980161
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1273,
+            "D": 523,
+            "I": 420,
+            "correct": 877,
+            "errors": 2216,
+            "utterances": 324,
+            "wer": 0.8290310512532735,
+            "deletion_rate": 0.19566030677141788
+          }
+        }
+      }
+    },
+    "rotated_complete": {
+      "NPARK": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.1937359883829388,
+            "pesq_wb": 1.1553424302442574,
+            "stoi": 0.6862252421942782
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1159,
+            "D": 488,
+            "I": 496,
+            "correct": 1026,
+            "errors": 2143,
+            "utterances": 324,
+            "wer": 0.801720912832024,
+            "deletion_rate": 0.182566404788627
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 3.4634159482073463,
+            "pesq_wb": 1.2694394809228402,
+            "stoi": 0.7813421358728848
+          },
+          "asr": {
+            "N": 2673,
+            "S": 849,
+            "D": 210,
+            "I": 548,
+            "correct": 1614,
+            "errors": 1607,
+            "utterances": 324,
+            "wer": 0.6011971567527123,
+            "deletion_rate": 0.07856341189674523
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 1.1598817529538632,
+            "pesq_wb": 1.16813188901654,
+            "stoi": 0.6956600551147132
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1432,
+            "D": 282,
+            "I": 232,
+            "correct": 959,
+            "errors": 1946,
+            "utterances": 324,
+            "wer": 0.7280209502431725,
+            "deletion_rate": 0.10549943883277217
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 2.1041919761581376,
+            "pesq_wb": 1.1691484752996468,
+            "stoi": 0.6686546601919232
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1083,
+            "D": 625,
+            "I": 634,
+            "correct": 965,
+            "errors": 2342,
+            "utterances": 324,
+            "wer": 0.8761690983913206,
+            "deletion_rate": 0.2338196782641227
+          }
+        },
+        "20": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 5.905378463080211,
+            "pesq_wb": 1.3495135156460751,
+            "stoi": 0.7718408095632027
+          },
+          "asr": {
+            "N": 2673,
+            "S": 894,
+            "D": 204,
+            "I": 140,
+            "correct": 1575,
+            "errors": 1238,
+            "utterances": 324,
+            "wer": 0.46315001870557426,
+            "deletion_rate": 0.07631874298540965
+          }
+        },
+        "70": {
+          "cases": 324,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": 2.3391016907016637,
+            "pesq_wb": 1.2059587711169395,
+            "stoi": 0.6957142778944776
+          },
+          "asr": {
+            "N": 2673,
+            "S": 1220,
+            "D": 500,
+            "I": 442,
+            "correct": 953,
+            "errors": 2162,
+            "utterances": 324,
+            "wer": 0.8088290310512533,
+            "deletion_rate": 0.18705574261129818
+          }
+        }
+      }
+    }
+  },
+  "baselines": {
+    "noisy": {
+      "NPARK": {
+        "-40": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3549513682517818,
+            "pesq_wb": 1.0652153337443317,
+            "stoi": 0.6634221539526467
+          },
+          "asr": {
+            "N": 891,
+            "S": 421,
+            "D": 143,
+            "I": 172,
+            "correct": 327,
+            "errors": 736,
+            "utterances": 108,
+            "wer": 0.8260381593714927,
+            "deletion_rate": 0.16049382716049382
+          }
+        },
+        "20": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3549513682517818,
+            "pesq_wb": 1.0652153337443317,
+            "stoi": 0.6634221539526467
+          },
+          "asr": {
+            "N": 891,
+            "S": 421,
+            "D": 143,
+            "I": 172,
+            "correct": 327,
+            "errors": 736,
+            "utterances": 108,
+            "wer": 0.8260381593714927,
+            "deletion_rate": 0.16049382716049382
+          }
+        },
+        "70": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3549513682517818,
+            "pesq_wb": 1.0652153337443317,
+            "stoi": 0.6634221539526467
+          },
+          "asr": {
+            "N": 891,
+            "S": 421,
+            "D": 143,
+            "I": 172,
+            "correct": 327,
+            "errors": 736,
+            "utterances": 108,
+            "wer": 0.8260381593714927,
+            "deletion_rate": 0.16049382716049382
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3176173932536377,
+            "pesq_wb": 1.07080896364318,
+            "stoi": 0.6587600074339428
+          },
+          "asr": {
+            "N": 891,
+            "S": 366,
+            "D": 117,
+            "I": 29,
+            "correct": 408,
+            "errors": 512,
+            "utterances": 108,
+            "wer": 0.574635241301908,
+            "deletion_rate": 0.13131313131313133
+          }
+        },
+        "20": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3176173932536377,
+            "pesq_wb": 1.07080896364318,
+            "stoi": 0.6587600074339428
+          },
+          "asr": {
+            "N": 891,
+            "S": 366,
+            "D": 117,
+            "I": 29,
+            "correct": 408,
+            "errors": 512,
+            "utterances": 108,
+            "wer": 0.574635241301908,
+            "deletion_rate": 0.13131313131313133
+          }
+        },
+        "70": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.3176173932536377,
+            "pesq_wb": 1.07080896364318,
+            "stoi": 0.6587600074339428
+          },
+          "asr": {
+            "N": 891,
+            "S": 366,
+            "D": 117,
+            "I": 29,
+            "correct": 408,
+            "errors": 512,
+            "utterances": 108,
+            "wer": 0.574635241301908,
+            "deletion_rate": 0.13131313131313133
+          }
+        }
+      }
+    },
+    "mcnet": {
+      "NPARK": {
+        "-40": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -2.8552678530304347,
+            "pesq_wb": 1.0836714616528265,
+            "stoi": 0.6103119232189086
+          },
+          "asr": {
+            "N": 891,
+            "S": 332,
+            "D": 296,
+            "I": 131,
+            "correct": 263,
+            "errors": 759,
+            "utterances": 108,
+            "wer": 0.8518518518518519,
+            "deletion_rate": 0.33221099887766553
+          }
+        },
+        "20": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.5986628348214127,
+            "pesq_wb": 1.0839134995584134,
+            "stoi": 0.6725578369712911
+          },
+          "asr": {
+            "N": 891,
+            "S": 346,
+            "D": 206,
+            "I": 38,
+            "correct": 339,
+            "errors": 590,
+            "utterances": 108,
+            "wer": 0.6621773288439955,
+            "deletion_rate": 0.23120089786756454
+          }
+        },
+        "70": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -9.353799185015186,
+            "pesq_wb": 1.0501241794338934,
+            "stoi": 0.5066181657461242
+          },
+          "asr": {
+            "N": 891,
+            "S": 279,
+            "D": 515,
+            "I": 328,
+            "correct": 97,
+            "errors": 1122,
+            "utterances": 108,
+            "wer": 1.2592592592592593,
+            "deletion_rate": 0.5780022446689114
+          }
+        }
+      },
+      "PSTATION": {
+        "-40": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -3.4534587752776607,
+            "pesq_wb": 1.0836592217286427,
+            "stoi": 0.615040009847983
+          },
+          "asr": {
+            "N": 891,
+            "S": 257,
+            "D": 333,
+            "I": 19,
+            "correct": 301,
+            "errors": 609,
+            "utterances": 108,
+            "wer": 0.6835016835016835,
+            "deletion_rate": 0.37373737373737376
+          }
+        },
+        "20": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -1.9128108747826376,
+            "pesq_wb": 1.087900545861986,
+            "stoi": 0.6489182621382098
+          },
+          "asr": {
+            "N": 891,
+            "S": 337,
+            "D": 218,
+            "I": 236,
+            "correct": 336,
+            "errors": 791,
+            "utterances": 108,
+            "wer": 0.8877665544332211,
+            "deletion_rate": 0.244668911335578
+          }
+        },
+        "70": {
+          "cases": 108,
+          "sources": 12,
+          "metrics": {
+            "si_sdr_db": -8.357111494317587,
+            "pesq_wb": 1.0605968755704385,
+            "stoi": 0.5338225777372698
+          },
+          "asr": {
+            "N": 891,
+            "S": 314,
+            "D": 427,
+            "I": 33,
+            "correct": 150,
+            "errors": 774,
+            "utterances": 108,
+            "wer": 0.8686868686868687,
+            "deletion_rate": 0.4792368125701459
+          }
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "without_clean_identity|NPARK|-40": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 12.67043906146133,
+          "ci95": [
+            9.436055892661992,
+            15.738754248991564
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.10319024434796085,
+          "ci95": [
+            0.07945938109431738,
+            0.12328930703210242
+          ]
+        },
+        "stoi": {
+          "delta": 0.21854104440194902,
+          "ci95": [
+            0.18233935460686015,
+            0.25403941115017026
+          ]
+        },
+        "wer": {
+          "delta": -0.2701084923307145,
+          "ci95": [
+            -0.43608246165849857,
+            -0.08248811645870471
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "without_clean_identity|NPARK|20": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -2.9113828402156305,
+          "ci95": [
+            -3.6005530270443677,
+            -2.1724577335642765
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.13345269509303717,
+          "ci95": [
+            -0.16938213008789374,
+            -0.09548775886679874
+          ]
+        },
+        "stoi": {
+          "delta": -0.029024694337321032,
+          "ci95": [
+            -0.03823940070171752,
+            -0.020593823213551413
+          ]
+        },
+        "wer": {
+          "delta": 0.058735503179947614,
+          "ci95": [
+            -0.21584456309856775,
+            0.2940437624325093
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "without_clean_identity|NPARK|70": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.5280392683703448,
+          "ci95": [
+            -1.313311971176543,
+            0.27812747522640724
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.08036883120183591,
+          "ci95": [
+            -0.1010194167310809,
+            -0.05775342416248203
+          ]
+        },
+        "stoi": {
+          "delta": -0.02354097503721789,
+          "ci95": [
+            -0.040921445686060556,
+            -0.005424034684979186
+          ]
+        },
+        "wer": {
+          "delta": 0.10736999625888512,
+          "ci95": [
+            -0.030480115621625066,
+            0.2403103222143919
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "without_clean_identity|PSTATION|-40": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 13.56903883147391,
+          "ci95": [
+            10.069313128355956,
+            16.955045882313165
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.12630101596867593,
+          "ci95": [
+            0.09564857915227797,
+            0.1574744276978351
+          ]
+        },
+        "stoi": {
+          "delta": 0.14926148367648767,
+          "ci95": [
+            0.12844426775822781,
+            0.17071390437621872
+          ]
+        },
+        "wer": {
+          "delta": -0.10362888140665916,
+          "ci95": [
+            -0.21380550790928146,
+            0.02251662159116519
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "without_clean_identity|PSTATION|20": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -2.050433017572465,
+          "ci95": [
+            -2.6755295160881847,
+            -1.4079057830974606
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.15381222705782197,
+          "ci95": [
+            -0.20068558420480032,
+            -0.10444487171408574
+          ]
+        },
+        "stoi": {
+          "delta": -0.033227645869491486,
+          "ci95": [
+            -0.03942753341326525,
+            -0.026779584345031242
+          ]
+        },
+        "wer": {
+          "delta": 0.11073699962588852,
+          "ci95": [
+            0.07825720977894891,
+            0.14604494014216238
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "without_clean_identity|PSTATION|70": {
+      "a": [
+        "rotated_without_clean_identity_s20261112",
+        "rotated_without_clean_identity_s20261113",
+        "rotated_without_clean_identity_s20261114"
+      ],
+      "b": [
+        "fixed_without_clean_identity_s20261112",
+        "fixed_without_clean_identity_s20261113",
+        "fixed_without_clean_identity_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.43439731797581826,
+          "ci95": [
+            -1.0838930686676225,
+            0.2635098388212752
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.1300601422050853,
+          "ci95": [
+            -0.15696700554755,
+            -0.10320605367973999
+          ]
+        },
+        "stoi": {
+          "delta": -0.042866840149831574,
+          "ci95": [
+            -0.05331640397579078,
+            -0.030902670436540002
+          ]
+        },
+        "wer": {
+          "delta": 0.13991769547325103,
+          "ci95": [
+            0.04620270360369368,
+            0.28983597209055667
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|NPARK|-40": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 10.397740408119661,
+          "ci95": [
+            7.534842900164779,
+            13.157402661314462
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.08806843522154252,
+          "ci95": [
+            0.07103883975449903,
+            0.1022816543869766
+          ]
+        },
+        "stoi": {
+          "delta": 0.19510341875325343,
+          "ci95": [
+            0.16383314982571384,
+            0.225433329670434
+          ]
+        },
+        "wer": {
+          "delta": -0.2222222222222222,
+          "ci95": [
+            -0.42437694704049844,
+            0.021734098228663415
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|NPARK|20": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -2.4720081758460313,
+          "ci95": [
+            -2.9617868347754643,
+            -1.9485971842811676
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.11323540335820044,
+          "ci95": [
+            -0.14147576458844138,
+            -0.08286144688357541
+          ]
+        },
+        "stoi": {
+          "delta": -0.032169233481035044,
+          "ci95": [
+            -0.04224696871128388,
+            -0.022998425296808053
+          ]
+        },
+        "wer": {
+          "delta": 0.23494201271979046,
+          "ci95": [
+            0.05840192043895747,
+            0.5058107112794612
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|NPARK|70": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -1.0232172462706923,
+          "ci95": [
+            -1.6962560637419393,
+            -0.37996847438110604
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.09291099986912292,
+          "ci95": [
+            -0.11346480474795825,
+            -0.06981281395311707
+          ]
+        },
+        "stoi": {
+          "delta": -0.02585535911993612,
+          "ci95": [
+            -0.041716153850881024,
+            -0.008067401263664661
+          ]
+        },
+        "wer": {
+          "delta": 0.062102506546951,
+          "ci95": [
+            -0.03671746968207146,
+            0.14904061624649856
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|PSTATION|-40": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": 11.523866877811313,
+          "ci95": [
+            8.48647943524282,
+            14.405840927634038
+          ]
+        },
+        "pesq_wb": {
+          "delta": 0.1089372730549471,
+          "ci95": [
+            0.08038714548319945,
+            0.13575927155253326
+          ]
+        },
+        "stoi": {
+          "delta": 0.136933460362809,
+          "ci95": [
+            0.11896876027213404,
+            0.15536156664761647
+          ]
+        },
+        "wer": {
+          "delta": -0.5001870557426114,
+          "ci95": [
+            -0.8700210562885009,
+            -0.254870042401668
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|PSTATION|20": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -2.9477270829071194,
+          "ci95": [
+            -3.6229604363714945,
+            -2.24723548408359
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.166885604828964,
+          "ci95": [
+            -0.21167770678430425,
+            -0.11852413824311009
+          ]
+        },
+        "stoi": {
+          "delta": -0.04103792680368285,
+          "ci95": [
+            -0.04841994408001577,
+            -0.033978742852128506
+          ]
+        },
+        "wer": {
+          "delta": 0.13916947250280584,
+          "ci95": [
+            0.08791526374859707,
+            0.1953266946191474
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    },
+    "complete|PSTATION|70": {
+      "a": [
+        "rotated_complete_s20261112",
+        "rotated_complete_s20261113",
+        "rotated_complete_s20261114"
+      ],
+      "b": [
+        "fixed_complete_s20261112",
+        "fixed_complete_s20261113",
+        "fixed_complete_s20261114"
+      ],
+      "off_target_only": false,
+      "sources": 12,
+      "conditional_source_bootstrap_2000": {
+        "si_sdr_db": {
+          "delta": -0.7858015098278539,
+          "ci95": [
+            -1.5527176340903315,
+            0.00994548081939115
+          ]
+        },
+        "pesq_wb": {
+          "delta": -0.15564899532883256,
+          "ci95": [
+            -0.1881564236257547,
+            -0.11900895088911055
+          ]
+        },
+        "stoi": {
+          "delta": -0.043894439121279265,
+          "ci95": [
+            -0.05481027459337085,
+            -0.032381351939866666
+          ]
+        },
+        "wer": {
+          "delta": -0.00037411148522258704,
+          "ci95": [
+            -0.17878445305770885,
+            0.1452705156136527
+          ]
+        }
+      },
+      "caution": "12 source clusters, only3 speakers; descriptive/exploratory intervals, no broad significance or novelty claim"
+    }
+  },
+  "recognizer_warnings": {
+    "noisy": {
+      "cases": 648,
+      "WER_over100_cases": 48,
+      "insertions_exceed_reference_words": 12,
+      "more_errors_than_noisy_cases": 0,
+      "more_deletions_than_noisy_cases": 0
+    },
+    "mcnet": {
+      "cases": 648,
+      "WER_over100_cases": 37,
+      "insertions_exceed_reference_words": 8,
+      "more_errors_than_noisy_cases": 304,
+      "more_deletions_than_noisy_cases": 322
+    },
+    "fixed_without_clean_identity_s20261112": {
+      "cases": 648,
+      "WER_over100_cases": 39,
+      "insertions_exceed_reference_words": 8,
+      "more_errors_than_noisy_cases": 234,
+      "more_deletions_than_noisy_cases": 201
+    },
+    "rotated_without_clean_identity_s20261112": {
+      "cases": 648,
+      "WER_over100_cases": 54,
+      "insertions_exceed_reference_words": 13,
+      "more_errors_than_noisy_cases": 216,
+      "more_deletions_than_noisy_cases": 154
+    },
+    "fixed_complete_s20261112": {
+      "cases": 648,
+      "WER_over100_cases": 48,
+      "insertions_exceed_reference_words": 11,
+      "more_errors_than_noisy_cases": 250,
+      "more_deletions_than_noisy_cases": 201
+    },
+    "rotated_complete_s20261112": {
+      "cases": 648,
+      "WER_over100_cases": 58,
+      "insertions_exceed_reference_words": 10,
+      "more_errors_than_noisy_cases": 215,
+      "more_deletions_than_noisy_cases": 155
+    },
+    "fixed_without_clean_identity_s20261113": {
+      "cases": 648,
+      "WER_over100_cases": 47,
+      "insertions_exceed_reference_words": 4,
+      "more_errors_than_noisy_cases": 233,
+      "more_deletions_than_noisy_cases": 192
+    },
+    "rotated_without_clean_identity_s20261113": {
+      "cases": 648,
+      "WER_over100_cases": 55,
+      "insertions_exceed_reference_words": 10,
+      "more_errors_than_noisy_cases": 214,
+      "more_deletions_than_noisy_cases": 149
+    },
+    "fixed_complete_s20261113": {
+      "cases": 648,
+      "WER_over100_cases": 45,
+      "insertions_exceed_reference_words": 6,
+      "more_errors_than_noisy_cases": 228,
+      "more_deletions_than_noisy_cases": 186
+    },
+    "rotated_complete_s20261113": {
+      "cases": 648,
+      "WER_over100_cases": 59,
+      "insertions_exceed_reference_words": 7,
+      "more_errors_than_noisy_cases": 213,
+      "more_deletions_than_noisy_cases": 162
+    },
+    "fixed_without_clean_identity_s20261114": {
+      "cases": 648,
+      "WER_over100_cases": 51,
+      "insertions_exceed_reference_words": 5,
+      "more_errors_than_noisy_cases": 235,
+      "more_deletions_than_noisy_cases": 187
+    },
+    "rotated_without_clean_identity_s20261114": {
+      "cases": 648,
+      "WER_over100_cases": 52,
+      "insertions_exceed_reference_words": 4,
+      "more_errors_than_noisy_cases": 229,
+      "more_deletions_than_noisy_cases": 142
+    },
+    "fixed_complete_s20261114": {
+      "cases": 648,
+      "WER_over100_cases": 50,
+      "insertions_exceed_reference_words": 9,
+      "more_errors_than_noisy_cases": 239,
+      "more_deletions_than_noisy_cases": 192
+    },
+    "rotated_complete_s20261114": {
+      "cases": 648,
+      "WER_over100_cases": 58,
+      "insertions_exceed_reference_words": 7,
+      "more_errors_than_noisy_cases": 213,
+      "more_deletions_than_noisy_cases": 147
+    }
+  },
+  "per_snr_direction": {
+    "fixed_without_clean_identity": {
+      "NPARK": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -21.61959757981958,
+              "pesq_wb": 1.05731686618593,
+              "stoi": 0.37974649938558924
+            },
+            "asr": {
+              "N": 891,
+              "S": 197,
+              "D": 661,
+              "I": 20,
+              "correct": 33,
+              "errors": 878,
+              "utterances": 108,
+              "wer": 0.9854096520763187,
+              "deletion_rate": 0.7418630751964085
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 2.342473318788239,
+              "pesq_wb": 1.1827058990796406,
+              "stoi": 0.7351002922469709
+            },
+            "asr": {
+              "N": 891,
+              "S": 374,
+              "D": 97,
+              "I": 272,
+              "correct": 420,
+              "errors": 743,
+              "utterances": 108,
+              "wer": 0.8338945005611672,
+              "deletion_rate": 0.10886644219977554
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -1.905178998827905,
+              "pesq_wb": 1.1051975400359542,
+              "stoi": 0.6407671077764413
+            },
+            "asr": {
+              "N": 891,
+              "S": 462,
+              "D": 179,
+              "I": 204,
+              "correct": 250,
+              "errors": 845,
+              "utterances": 108,
+              "wer": 0.9483726150392817,
+              "deletion_rate": 0.20089786756453423
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -9.985816574232091,
+              "pesq_wb": 1.0585384479275457,
+              "stoi": 0.4620368871022621
+            },
+            "asr": {
+              "N": 891,
+              "S": 323,
+              "D": 496,
+              "I": 37,
+              "correct": 72,
+              "errors": 856,
+              "utterances": 108,
+              "wer": 0.9607182940516273,
+              "deletion_rate": 0.5566778900112234
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.526209759386786,
+              "pesq_wb": 1.384771344838319,
+              "stoi": 0.8254686060213361
+            },
+            "asr": {
+              "N": 891,
+              "S": 209,
+              "D": 17,
+              "I": 160,
+              "correct": 665,
+              "errors": 386,
+              "utterances": 108,
+              "wer": 0.4332210998877666,
+              "deletion_rate": 0.019079685746352413
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.8658507078383844,
+              "pesq_wb": 1.212439489585382,
+              "stoi": 0.7203528538544001
+            },
+            "asr": {
+              "N": 891,
+              "S": 440,
+              "D": 83,
+              "I": 213,
+              "correct": 368,
+              "errors": 736,
+              "utterances": 108,
+              "wer": 0.8260381593714927,
+              "deletion_rate": 0.0931537598204265
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -1.337379570066896,
+              "pesq_wb": 1.0886914001570807,
+              "stoi": 0.5843276151155785
+            },
+            "asr": {
+              "N": 891,
+              "S": 425,
+              "D": 258,
+              "I": 251,
+              "correct": 208,
+              "errors": 934,
+              "utterances": 108,
+              "wer": 1.0482603815937148,
+              "deletion_rate": 0.2895622895622896
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 12.182838051636974,
+              "pesq_wb": 1.7501759264204237,
+              "stoi": 0.8914969518243079
+            },
+            "asr": {
+              "N": 891,
+              "S": 121,
+              "D": 7,
+              "I": 16,
+              "correct": 763,
+              "errors": 144,
+              "utterances": 108,
+              "wer": 0.16161616161616163,
+              "deletion_rate": 0.007856341189674524
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 4.887561155045445,
+              "pesq_wb": 1.4412774211830564,
+              "stoi": 0.7893818756008342
+            },
+            "asr": {
+              "N": 891,
+              "S": 331,
+              "D": 35,
+              "I": 48,
+              "correct": 525,
+              "errors": 414,
+              "utterances": 108,
+              "wer": 0.46464646464646464,
+              "deletion_rate": 0.03928170594837262
+            }
+          }
+        }
+      },
+      "PSTATION": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -19.463052036777643,
+              "pesq_wb": 1.0472281630392428,
+              "stoi": 0.4470022427176635
+            },
+            "asr": {
+              "N": 891,
+              "S": 202,
+              "D": 655,
+              "I": 30,
+              "correct": 34,
+              "errors": 887,
+              "utterances": 108,
+              "wer": 0.9955106621773289,
+              "deletion_rate": 0.7351290684624018
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 4.788373428796015,
+              "pesq_wb": 1.2594380257306275,
+              "stoi": 0.7347780139034628
+            },
+            "asr": {
+              "N": 891,
+              "S": 375,
+              "D": 65,
+              "I": 31,
+              "correct": 451,
+              "errors": 471,
+              "utterances": 108,
+              "wer": 0.5286195286195287,
+              "deletion_rate": 0.07295173961840629
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -1.3313208690586906,
+              "pesq_wb": 1.1200752335566062,
+              "stoi": 0.6466154024732629
+            },
+            "asr": {
+              "N": 891,
+              "S": 478,
+              "D": 191,
+              "I": 256,
+              "correct": 222,
+              "errors": 925,
+              "utterances": 108,
+              "wer": 1.0381593714927049,
+              "deletion_rate": 0.2143658810325477
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -11.33830213832492,
+              "pesq_wb": 1.0481199390358396,
+              "stoi": 0.5183941730067951
+            },
+            "asr": {
+              "N": 891,
+              "S": 357,
+              "D": 428,
+              "I": 348,
+              "correct": 106,
+              "errors": 1133,
+              "utterances": 108,
+              "wer": 1.271604938271605,
+              "deletion_rate": 0.48035914702581367
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 9.120242718370267,
+              "pesq_wb": 1.4942728854991771,
+              "stoi": 0.8213723701351557
+            },
+            "asr": {
+              "N": 891,
+              "S": 196,
+              "D": 20,
+              "I": 41,
+              "correct": 675,
+              "errors": 257,
+              "utterances": 108,
+              "wer": 0.2884399551066218,
+              "deletion_rate": 0.02244668911335578
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.9228007396815883,
+              "pesq_wb": 1.2614030639330547,
+              "stoi": 0.7381675901390188
+            },
+            "asr": {
+              "N": 891,
+              "S": 431,
+              "D": 42,
+              "I": 70,
+              "correct": 418,
+              "errors": 543,
+              "utterances": 108,
+              "wer": 0.6094276094276094,
+              "deletion_rate": 0.04713804713804714
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -3.698661061165858,
+              "pesq_wb": 1.0816749080463692,
+              "stoi": 0.6034904222768283
+            },
+            "asr": {
+              "N": 891,
+              "S": 433,
+              "D": 181,
+              "I": 156,
+              "correct": 277,
+              "errors": 770,
+              "utterances": 108,
+              "wer": 0.8641975308641975,
+              "deletion_rate": 0.2031425364758698
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 12.730283982080456,
+              "pesq_wb": 1.8488758471277025,
+              "stoi": 0.8848128630854757
+            },
+            "asr": {
+              "N": 891,
+              "S": 106,
+              "D": 4,
+              "I": 32,
+              "correct": 781,
+              "errors": 142,
+              "utterances": 108,
+              "wer": 0.15937149270482603,
+              "deletion_rate": 0.004489337822671156
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 4.361911085944256,
+              "pesq_wb": 1.5516879503373746,
+              "stoi": 0.8094461699312612
+            },
+            "asr": {
+              "N": 891,
+              "S": 295,
+              "D": 21,
+              "I": 58,
+              "correct": 575,
+              "errors": 374,
+              "utterances": 108,
+              "wer": 0.41975308641975306,
+              "deletion_rate": 0.02356902356902357
+            }
+          }
+        }
+      }
+    },
+    "fixed_complete": {
+      "NPARK": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -19.80911237083139,
+              "pesq_wb": 1.0494133399592505,
+              "stoi": 0.3800591324534646
+            },
+            "asr": {
+              "N": 891,
+              "S": 198,
+              "D": 661,
+              "I": 221,
+              "correct": 32,
+              "errors": 1080,
+              "utterances": 108,
+              "wer": 1.2121212121212122,
+              "deletion_rate": 0.7418630751964085
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 0.36939081302145926,
+              "pesq_wb": 1.1406428438645821,
+              "stoi": 0.729409150739509
+            },
+            "asr": {
+              "N": 891,
+              "S": 370,
+              "D": 110,
+              "I": 70,
+              "correct": 411,
+              "errors": 550,
+              "utterances": 108,
+              "wer": 0.6172839506172839,
+              "deletion_rate": 0.12345679012345678
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -2.3060889760827177,
+              "pesq_wb": 1.0943762847670802,
+              "stoi": 0.6421130087879271
+            },
+            "asr": {
+              "N": 891,
+              "S": 491,
+              "D": 161,
+              "I": 186,
+              "correct": 239,
+              "errors": 838,
+              "utterances": 108,
+              "wer": 0.9405162738496072,
+              "deletion_rate": 0.18069584736251404
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -8.317561649393626,
+              "pesq_wb": 1.052334588986856,
+              "stoi": 0.48014962449855075
+            },
+            "asr": {
+              "N": 891,
+              "S": 347,
+              "D": 463,
+              "I": 129,
+              "correct": 81,
+              "errors": 939,
+              "utterances": 108,
+              "wer": 1.0538720538720538,
+              "deletion_rate": 0.5196408529741863
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.004371630072842,
+              "pesq_wb": 1.3206702570120494,
+              "stoi": 0.8216632383414558
+            },
+            "asr": {
+              "N": 891,
+              "S": 203,
+              "D": 22,
+              "I": 53,
+              "correct": 666,
+              "errors": 278,
+              "utterances": 108,
+              "wer": 0.31200897867564537,
+              "deletion_rate": 0.024691358024691357
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 2.440859204109762,
+              "pesq_wb": 1.2121692189463862,
+              "stoi": 0.7251893037619169
+            },
+            "asr": {
+              "N": 891,
+              "S": 404,
+              "D": 94,
+              "I": 62,
+              "correct": 393,
+              "errors": 560,
+              "utterances": 108,
+              "wer": 0.6285072951739619,
+              "deletion_rate": 0.10549943883277217
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 0.5146607610148515,
+              "pesq_wb": 1.1000740561220381,
+              "stoi": 0.6131567133710588
+            },
+            "asr": {
+              "N": 891,
+              "S": 468,
+              "D": 189,
+              "I": 61,
+              "correct": 234,
+              "errors": 718,
+              "utterances": 108,
+              "wer": 0.8058361391694725,
+              "deletion_rate": 0.21212121212121213
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 11.432509929065835,
+              "pesq_wb": 1.6867115519664906,
+              "stoi": 0.8894617189807946
+            },
+            "asr": {
+              "N": 891,
+              "S": 126,
+              "D": 9,
+              "I": 16,
+              "correct": 756,
+              "errors": 151,
+              "utterances": 108,
+              "wer": 0.16947250280583614,
+              "deletion_rate": 0.010101010101010102
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.414526769646623,
+              "pesq_wb": 1.4765831629435222,
+              "stoi": 0.797243930154104
+            },
+            "asr": {
+              "N": 891,
+              "S": 300,
+              "D": 37,
+              "I": 45,
+              "correct": 554,
+              "errors": 382,
+              "utterances": 108,
+              "wer": 0.4287317620650954,
+              "deletion_rate": 0.04152637485970819
+            }
+          }
+        }
+      },
+      "PSTATION": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -18.804777253793,
+              "pesq_wb": 1.0465002093050215,
+              "stoi": 0.4449123528620558
+            },
+            "asr": {
+              "N": 891,
+              "S": 224,
+              "D": 628,
+              "I": 569,
+              "correct": 39,
+              "errors": 1421,
+              "utterances": 108,
+              "wer": 1.5948372615039281,
+              "deletion_rate": 0.7048260381593715
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 4.2558724564352355,
+              "pesq_wb": 1.2318271740719124,
+              "stoi": 0.7322760986809328
+            },
+            "asr": {
+              "N": 891,
+              "S": 353,
+              "D": 74,
+              "I": 40,
+              "correct": 464,
+              "errors": 467,
+              "utterances": 108,
+              "wer": 0.5241301907968574,
+              "deletion_rate": 0.08305274971941638
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -0.47713776327709884,
+              "pesq_wb": 1.1335906872042902,
+              "stoi": 0.6496492638022615
+            },
+            "asr": {
+              "N": 891,
+              "S": 488,
+              "D": 191,
+              "I": 424,
+              "correct": 212,
+              "errors": 1103,
+              "utterances": 108,
+              "wer": 1.2379349046015713,
+              "deletion_rate": 0.2143658810325477
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -8.698242581882102,
+              "pesq_wb": 1.0428187902326937,
+              "stoi": 0.5269231284583751
+            },
+            "asr": {
+              "N": 891,
+              "S": 403,
+              "D": 359,
+              "I": 479,
+              "correct": 129,
+              "errors": 1241,
+              "utterances": 108,
+              "wer": 1.3928170594837261,
+              "deletion_rate": 0.40291806958473625
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 9.065730538710794,
+              "pesq_wb": 1.4693683838402782,
+              "stoi": 0.8206155225417722
+            },
+            "asr": {
+              "N": 891,
+              "S": 191,
+              "D": 18,
+              "I": 33,
+              "correct": 682,
+              "errors": 242,
+              "utterances": 108,
+              "wer": 0.2716049382716049,
+              "deletion_rate": 0.020202020202020204
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 3.503915624883561,
+              "pesq_wb": 1.305079553966169,
+              "stoi": 0.7477568778621633
+            },
+            "asr": {
+              "N": 891,
+              "S": 414,
+              "D": 53,
+              "I": 236,
+              "correct": 424,
+              "errors": 703,
+              "utterances": 108,
+              "wer": 0.7890011223344556,
+              "deletion_rate": 0.05948372615039282
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -0.7560048692844218,
+              "pesq_wb": 1.091314607196384,
+              "stoi": 0.6233281181669118
+            },
+            "asr": {
+              "N": 891,
+              "S": 438,
+              "D": 176,
+              "I": 403,
+              "correct": 277,
+              "errors": 1017,
+              "utterances": 108,
+              "wer": 1.1414141414141414,
+              "deletion_rate": 0.19753086419753085
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 13.237713642815963,
+              "pesq_wb": 1.8480018035129264,
+              "stoi": 0.8857445878779517
+            },
+            "asr": {
+              "N": 891,
+              "S": 110,
+              "D": 8,
+              "I": 39,
+              "correct": 773,
+              "errors": 157,
+              "utterances": 108,
+              "wer": 0.17620650953984288,
+              "deletion_rate": 0.008978675645342313
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.347931739982089,
+              "pesq_wb": 1.646153058166857,
+              "stoi": 0.8214200093828461
+            },
+            "asr": {
+              "N": 891,
+              "S": 297,
+              "D": 19,
+              "I": 41,
+              "correct": 575,
+              "errors": 357,
+              "utterances": 108,
+              "wer": 0.4006734006734007,
+              "deletion_rate": 0.02132435465768799
+            }
+          }
+        }
+      }
+    },
+    "rotated_without_clean_identity": {
+      "NPARK": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.4051404630143205,
+              "pesq_wb": 1.0592770201188546,
+              "stoi": 0.5738314225948001
+            },
+            "asr": {
+              "N": 891,
+              "S": 443,
+              "D": 306,
+              "I": 196,
+              "correct": 142,
+              "errors": 945,
+              "utterances": 108,
+              "wer": 1.0606060606060606,
+              "deletion_rate": 0.3434343434343434
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -1.0473713714023904,
+              "pesq_wb": 1.103954913439574,
+              "stoi": 0.6945329371113159
+            },
+            "asr": {
+              "N": 891,
+              "S": 411,
+              "D": 133,
+              "I": 291,
+              "correct": 347,
+              "errors": 835,
+              "utterances": 108,
+              "wer": 0.9371492704826038,
+              "deletion_rate": 0.14927048260381592
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.112057983160621,
+              "pesq_wb": 1.0660493969917297,
+              "stoi": 0.5907469034232988
+            },
+            "asr": {
+              "N": 891,
+              "S": 566,
+              "D": 176,
+              "I": 180,
+              "correct": 149,
+              "errors": 922,
+              "utterances": 108,
+              "wer": 1.0347923681257014,
+              "deletion_rate": 0.19753086419753085
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.9922322231198932,
+              "pesq_wb": 1.1291760791231085,
+              "stoi": 0.7012451167962561
+            },
+            "asr": {
+              "N": 891,
+              "S": 427,
+              "D": 126,
+              "I": 74,
+              "correct": 338,
+              "errors": 627,
+              "utterances": 108,
+              "wer": 0.7037037037037037,
+              "deletion_rate": 0.1414141414141414
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 4.465447419429667,
+              "pesq_wb": 1.2480071231170937,
+              "stoi": 0.7947869056342834
+            },
+            "asr": {
+              "N": 891,
+              "S": 299,
+              "D": 46,
+              "I": 62,
+              "correct": 546,
+              "errors": 407,
+              "utterances": 108,
+              "wer": 0.4567901234567901,
+              "deletion_rate": 0.051627384960718295
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.2352177501307087,
+              "pesq_wb": 1.1382119589381747,
+              "stoi": 0.6973017408112234
+            },
+            "asr": {
+              "N": 891,
+              "S": 500,
+              "D": 117,
+              "I": 294,
+              "correct": 274,
+              "errors": 911,
+              "utterances": 108,
+              "wer": 1.0224466891133557,
+              "deletion_rate": 0.13131313131313133
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.4814317001598605,
+              "pesq_wb": 1.325664348072476,
+              "stoi": 0.8066575954182206
+            },
+            "asr": {
+              "N": 891,
+              "S": 262,
+              "D": 64,
+              "I": 48,
+              "correct": 565,
+              "errors": 374,
+              "utterances": 108,
+              "wer": 0.41975308641975306,
+              "deletion_rate": 0.0718294051627385
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 9.899296561137827,
+              "pesq_wb": 1.5653330485026042,
+              "stoi": 0.8756719243350529
+            },
+            "asr": {
+              "N": 891,
+              "S": 169,
+              "D": 4,
+              "I": 15,
+              "correct": 718,
+              "errors": 188,
+              "utterances": 108,
+              "wer": 0.21099887766554434,
+              "deletion_rate": 0.004489337822671156
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.1409552919748025,
+              "pesq_wb": 1.3135466012689803,
+              "stoi": 0.7918302678854998
+            },
+            "asr": {
+              "N": 891,
+              "S": 358,
+              "D": 30,
+              "I": 61,
+              "correct": 503,
+              "errors": 449,
+              "utterances": 108,
+              "wer": 0.5039281705948373,
+              "deletion_rate": 0.03367003367003367
+            }
+          }
+        }
+      },
+      "PSTATION": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -3.956834916912758,
+              "pesq_wb": 1.0610151688257854,
+              "stoi": 0.5487775869650797
+            },
+            "asr": {
+              "N": 891,
+              "S": 446,
+              "D": 358,
+              "I": 410,
+              "correct": 87,
+              "errors": 1214,
+              "utterances": 108,
+              "wer": 1.3625140291806959,
+              "deletion_rate": 0.40179573512906847
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.4826639264055503,
+              "pesq_wb": 1.1333663916146313,
+              "stoi": 0.6810121891185922
+            },
+            "asr": {
+              "N": 891,
+              "S": 486,
+              "D": 124,
+              "I": 42,
+              "correct": 281,
+              "errors": 652,
+              "utterances": 108,
+              "wer": 0.7317620650953984,
+              "deletion_rate": 0.13916947250280584
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.0858016134110695,
+              "pesq_wb": 1.0573862029446497,
+              "stoi": 0.5699747439329143
+            },
+            "asr": {
+              "N": 891,
+              "S": 416,
+              "D": 355,
+              "I": 232,
+              "correct": 120,
+              "errors": 1003,
+              "utterances": 108,
+              "wer": 1.1257014590347925,
+              "deletion_rate": 0.3984287317620651
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 2.547439773435969,
+              "pesq_wb": 1.1323905697575323,
+              "stoi": 0.6753192947679617
+            },
+            "asr": {
+              "N": 891,
+              "S": 412,
+              "D": 159,
+              "I": 370,
+              "correct": 320,
+              "errors": 941,
+              "utterances": 108,
+              "wer": 1.0561167227833894,
+              "deletion_rate": 0.17845117845117844
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.006815726551956,
+              "pesq_wb": 1.320362948709064,
+              "stoi": 0.7897322875636945
+            },
+            "asr": {
+              "N": 891,
+              "S": 256,
+              "D": 37,
+              "I": 48,
+              "correct": 598,
+              "errors": 341,
+              "utterances": 108,
+              "wer": 0.38271604938271603,
+              "deletion_rate": 0.04152637485970819
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.5354516942268546,
+              "pesq_wb": 1.1317301094532013,
+              "stoi": 0.6944137719808415
+            },
+            "asr": {
+              "N": 891,
+              "S": 521,
+              "D": 111,
+              "I": 144,
+              "correct": 259,
+              "errors": 776,
+              "utterances": 108,
+              "wer": 0.8709315375982043,
+              "deletion_rate": 0.12457912457912458
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.6164964016301075,
+              "pesq_wb": 1.362520319444162,
+              "stoi": 0.7925744072977083
+            },
+            "asr": {
+              "N": 891,
+              "S": 258,
+              "D": 49,
+              "I": 51,
+              "correct": 584,
+              "errors": 358,
+              "utterances": 108,
+              "wer": 0.40179573512906847,
+              "deletion_rate": 0.05499438832772166
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 11.99812142357184,
+              "pesq_wb": 1.687420736860346,
+              "stoi": 0.8705358328333328
+            },
+            "asr": {
+              "N": 891,
+              "S": 134,
+              "D": 10,
+              "I": 29,
+              "correct": 747,
+              "errors": 173,
+              "utterances": 108,
+              "wer": 0.1941638608305275,
+              "deletion_rate": 0.01122334455667789
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.200548921823914,
+              "pesq_wb": 1.3538695088139288,
+              "stoi": 0.8012401261802926
+            },
+            "asr": {
+              "N": 891,
+              "S": 336,
+              "D": 57,
+              "I": 44,
+              "correct": 498,
+              "errors": 437,
+              "utterances": 108,
+              "wer": 0.4904601571268238,
+              "deletion_rate": 0.06397306397306397
+            }
+          }
+        }
+      }
+    },
+    "rotated_complete": {
+      "NPARK": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.992272415221788,
+              "pesq_wb": 1.0541953312026129,
+              "stoi": 0.562780765184437
+            },
+            "asr": {
+              "N": 891,
+              "S": 460,
+              "D": 296,
+              "I": 389,
+              "correct": 135,
+              "errors": 1145,
+              "utterances": 108,
+              "wer": 1.2850729517396184,
+              "deletion_rate": 0.33221099887766553
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -1.9919126318947318,
+              "pesq_wb": 1.0897806706251922,
+              "stoi": 0.6854172138975698
+            },
+            "asr": {
+              "N": 891,
+              "S": 408,
+              "D": 156,
+              "I": 281,
+              "correct": 327,
+              "errors": 845,
+              "utterances": 108,
+              "wer": 0.9483726150392817,
+              "deletion_rate": 0.1750841750841751
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.249760992011665,
+              "pesq_wb": 1.0614590722101707,
+              "stoi": 0.5900682737806567
+            },
+            "asr": {
+              "N": 891,
+              "S": 573,
+              "D": 169,
+              "I": 93,
+              "correct": 149,
+              "errors": 835,
+              "utterances": 108,
+              "wer": 0.9371492704826038,
+              "deletion_rate": 0.18967452300785634
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.4180919969772527,
+              "pesq_wb": 1.1140146553516388,
+              "stoi": 0.6936502059107637
+            },
+            "asr": {
+              "N": 891,
+              "S": 444,
+              "D": 138,
+              "I": 61,
+              "correct": 309,
+              "errors": 643,
+              "utterances": 108,
+              "wer": 0.7216610549943884,
+              "deletion_rate": 0.15488215488215487
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 3.4693384180781384,
+              "pesq_wb": 1.2119172237537525,
+              "stoi": 0.7882045937496903
+            },
+            "asr": {
+              "N": 891,
+              "S": 284,
+              "D": 49,
+              "I": 253,
+              "correct": 558,
+              "errors": 586,
+              "utterances": 108,
+              "wer": 0.6576879910213244,
+              "deletion_rate": 0.05499438832772166
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 1.2575776223007153,
+              "pesq_wb": 1.1311690564508792,
+              "stoi": 0.700608154969509
+            },
+            "asr": {
+              "N": 891,
+              "S": 510,
+              "D": 86,
+              "I": 73,
+              "correct": 295,
+              "errors": 669,
+              "utterances": 108,
+              "wer": 0.7508417508417509,
+              "deletion_rate": 0.09652076318742986
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.155388383393352,
+              "pesq_wb": 1.2978173041785206,
+              "stoi": 0.8022447554876339
+            },
+            "asr": {
+              "N": 891,
+              "S": 255,
+              "D": 54,
+              "I": 46,
+              "correct": 582,
+              "errors": 355,
+              "utterances": 108,
+              "wer": 0.3984287317620651,
+              "deletion_rate": 0.06060606060606061
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 8.912822058438636,
+              "pesq_wb": 1.506620548389576,
+              "stoi": 0.8704045999713942
+            },
+            "asr": {
+              "N": 891,
+              "S": 157,
+              "D": 5,
+              "I": 14,
+              "correct": 729,
+              "errors": 176,
+              "utterances": 108,
+              "wer": 0.19753086419753085,
+              "deletion_rate": 0.005611672278338945
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.4718286285725375,
+              "pesq_wb": 1.31176753838857,
+              "stoi": 0.7963037365939736
+            },
+            "asr": {
+              "N": 891,
+              "S": 349,
+              "D": 27,
+              "I": 66,
+              "correct": 515,
+              "errors": 442,
+              "utterances": 108,
+              "wer": 0.49607182940516276,
+              "deletion_rate": 0.030303030303030304
+            }
+          }
+        }
+      },
+      "PSTATION": {
+        "-5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -4.293313288166257,
+              "pesq_wb": 1.0558044204005488,
+              "stoi": 0.542682153237753
+            },
+            "asr": {
+              "N": 891,
+              "S": 418,
+              "D": 389,
+              "I": 551,
+              "correct": 84,
+              "errors": 1358,
+              "utterances": 108,
+              "wer": 1.5241301907968574,
+              "deletion_rate": 0.43658810325476993
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 0.31328663507199234,
+              "pesq_wb": 1.1178084943029616,
+              "stoi": 0.6693611550716652
+            },
+            "asr": {
+              "N": 891,
+              "S": 490,
+              "D": 142,
+              "I": 56,
+              "correct": 259,
+              "errors": 688,
+              "utterances": 108,
+              "wer": 0.7721661054994389,
+              "deletion_rate": 0.15937149270482603
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": -3.32929808879555,
+              "pesq_wb": 1.0617084922613922,
+              "stoi": 0.5725648294752154
+            },
+            "asr": {
+              "N": 891,
+              "S": 427,
+              "D": 353,
+              "I": 252,
+              "correct": 111,
+              "errors": 1032,
+              "utterances": 108,
+              "wer": 1.1582491582491583,
+              "deletion_rate": 0.3961840628507295
+            }
+          }
+        },
+        "0": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 2.5131734725763493,
+              "pesq_wb": 1.1181934001269165,
+              "stoi": 0.6727311956773122
+            },
+            "asr": {
+              "N": 891,
+              "S": 383,
+              "D": 183,
+              "I": 46,
+              "correct": 325,
+              "errors": 612,
+              "utterances": 108,
+              "wer": 0.6868686868686869,
+              "deletion_rate": 0.2053872053872054
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 6.01100190907665,
+              "pesq_wb": 1.2859103514088526,
+              "stoi": 0.7810021886069515
+            },
+            "asr": {
+              "N": 891,
+              "S": 278,
+              "D": 50,
+              "I": 54,
+              "correct": 563,
+              "errors": 382,
+              "utterances": 108,
+              "wer": 0.4287317620650954,
+              "deletion_rate": 0.05611672278338945
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 2.6273660526022318,
+              "pesq_wb": 1.1522679019857336,
+              "stoi": 0.7029617188585364
+            },
+            "asr": {
+              "N": 891,
+              "S": 492,
+              "D": 112,
+              "I": 146,
+              "correct": 287,
+              "errors": 750,
+              "utterances": 108,
+              "wer": 0.8417508417508418,
+              "deletion_rate": 0.12570145903479238
+            }
+          }
+        },
+        "5": {
+          "-40": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 8.092715744064321,
+              "pesq_wb": 1.3334476053714752,
+              "stoi": 0.7905506316607045
+            },
+            "asr": {
+              "N": 891,
+              "S": 282,
+              "D": 53,
+              "I": 37,
+              "correct": 556,
+              "errors": 372,
+              "utterances": 108,
+              "wer": 0.4175084175084175,
+              "deletion_rate": 0.05948372615039282
+            }
+          },
+          "20": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 11.39184684509199,
+              "pesq_wb": 1.644821701226411,
+              "stoi": 0.8651590850109913
+            },
+            "asr": {
+              "N": 891,
+              "S": 126,
+              "D": 12,
+              "I": 30,
+              "correct": 753,
+              "errors": 168,
+              "utterances": 108,
+              "wer": 0.18855218855218855,
+              "deletion_rate": 0.013468013468013467
+            }
+          },
+          "70": {
+            "cases": 108,
+            "sources": 12,
+            "metrics": {
+              "si_sdr_db": 7.719237108298308,
+              "pesq_wb": 1.4038999191036932,
+              "stoi": 0.8116162853496811
+            },
+            "asr": {
+              "N": 891,
+              "S": 301,
+              "D": 35,
+              "I": 44,
+              "correct": 555,
+              "errors": 380,
+              "utterances": 108,
+              "wer": 0.4264870931537598,
+              "deletion_rate": 0.03928170594837262
+            }
+          }
+        }
+      }
+    }
+  },
+  "per_field": {
+    "fixed_without_clean_identity": {
+      "point": {
+        "cases": 1296,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": -0.3819327700296257,
+          "pesq_wb": 1.3010105649814194,
+          "stoi": 0.7127645408944648
+        },
+        "asr": {
+          "N": 10692,
+          "S": 3666,
+          "D": 1837,
+          "I": 1129,
+          "correct": 5189,
+          "errors": 6632,
+          "utterances": 1296,
+          "wer": 0.6202768424990647,
+          "deletion_rate": 0.17181069958847736
+        }
+      },
+      "multi8": {
+        "cases": 648,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": -0.7279284400582775,
+          "pesq_wb": 1.2302939286570491,
+          "stoi": 0.6132639076438444
+        },
+        "asr": {
+          "N": 5346,
+          "S": 2089,
+          "D": 1603,
+          "I": 1114,
+          "correct": 1654,
+          "errors": 4806,
+          "utterances": 648,
+          "wer": 0.898989898989899,
+          "deletion_rate": 0.299850355405911
+        }
+      }
+    },
+    "fixed_complete": {
+      "point": {
+        "cases": 1296,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 0.31081063511978047,
+          "pesq_wb": 1.294635816672702,
+          "stoi": 0.7138149394931607
+        },
+        "asr": {
+          "N": 10692,
+          "S": 3643,
+          "D": 1792,
+          "I": 1899,
+          "correct": 5257,
+          "errors": 7334,
+          "utterances": 1296,
+          "wer": 0.6859334081556304,
+          "deletion_rate": 0.16760194537972314
+        }
+      },
+      "multi8": {
+        "cases": 648,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 0.11480500396288257,
+          "pesq_wb": 1.2353332953320608,
+          "stoi": 0.627548751134354
+        },
+        "asr": {
+          "N": 5346,
+          "S": 2182,
+          "D": 1480,
+          "I": 1208,
+          "correct": 1684,
+          "errors": 4870,
+          "utterances": 648,
+          "wer": 0.910961466517022,
+          "deletion_rate": 0.2768424990647213
+        }
+      }
+    },
+    "rotated_without_clean_identity": {
+      "point": {
+        "cases": 1296,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 2.7508711820761027,
+          "pesq_wb": 1.2270527243798162,
+          "stoi": 0.7267166980383454
+        },
+        "asr": {
+          "N": 10692,
+          "S": 4399,
+          "D": 1419,
+          "I": 1659,
+          "correct": 4874,
+          "errors": 7477,
+          "utterances": 1296,
+          "wer": 0.6993078937523381,
+          "deletion_rate": 0.13271604938271606
+        }
+      },
+      "multi8": {
+        "cases": 648,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 3.1640763801307594,
+          "pesq_wb": 1.2441082922396836,
+          "stoi": 0.7049307796983707
+        },
+        "asr": {
+          "N": 5346,
+          "S": 2301,
+          "D": 843,
+          "I": 932,
+          "correct": 2202,
+          "errors": 4076,
+          "utterances": 648,
+          "wer": 0.7624392068836513,
+          "deletion_rate": 0.15768799102132436
+        }
+      }
+    },
+    "rotated_complete": {
+      "point": {
+        "cases": 1296,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 2.6330290471669375,
+          "pesq_wb": 1.214377113054564,
+          "stoi": 0.7224742743915713
+        },
+        "asr": {
+          "N": 10692,
+          "S": 4433,
+          "D": 1424,
+          "I": 1867,
+          "correct": 4835,
+          "errors": 7724,
+          "utterances": 1296,
+          "wer": 0.7224092779648336,
+          "deletion_rate": 0.1331836887392443
+        }
+      },
+      "multi8": {
+        "cases": 648,
+        "sources": 12,
+        "metrics": {
+          "si_sdr_db": 2.816794815408205,
+          "pesq_wb": 1.2300130550140216,
+          "stoi": 0.7047700416325972
+        },
+        "asr": {
+          "N": 5346,
+          "S": 2204,
+          "D": 885,
+          "I": 625,
+          "correct": 2257,
+          "errors": 3714,
+          "utterances": 648,
+          "wer": 0.6947250280583613,
+          "deletion_rate": 0.16554433221099887
+        }
+      }
+    }
+  }
+}

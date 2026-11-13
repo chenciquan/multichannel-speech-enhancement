@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-11-12T17:51:36.211899+00:00",
+  "hashes": {
+    "scripts/g20_filter.py": "f1ba73d3e88a9f8e7b212b9f6fc4d5613628182598076ba8de921482035b2135",
+    "src/mcse/components.py": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "artifacts/g19_room_mwf_v1/evaluation/combined_signals.jsonl": "73e995eb112e0d8af15dbc3ca8e97dcddddb2e509d03c8b2c56dad88218eb1a7",
+    "artifacts/g20_room_components_v1/REPLAY_COMPLETE.json": "923b8253763e67da8d2048118f449a05456b84e3d4db100c230f6cd09912bffc",
+    "data/g18_v1/manifest.jsonl": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc"
+  },
+  "expected_rows": 8640,
+  "max_seconds": 3600,
+  "saved_output_tolerance": 1e-06,
+  "linearity_relative_peak_tolerance": 1e-06,
+  "scope": "432 noisy cases x 10 fixed frontends x 2 filters; no clean reference in weights",
+  "preflight_rule": "first source, OOFFICE point -80, target20, all RT, ten frontends, both filters:60 rows"
+}

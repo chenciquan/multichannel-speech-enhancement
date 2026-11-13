@@ -1,0 +1,7 @@
+test_equal_speaker_effect_interval_has_known_answer (test_g11_analysis.ComponentSummaryTests.test_equal_speaker_effect_interval_has_known_answer) ... ok
+test_undefined_SI_and_power_floors_remain_counted (test_g11_analysis.ComponentSummaryTests.test_undefined_SI_and_power_floors_remain_counted) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK

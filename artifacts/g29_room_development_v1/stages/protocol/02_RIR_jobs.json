@@ -1,0 +1,6338 @@
+[
+  {
+    "id": 0,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 1,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 2,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 3,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 4,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 5,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 6,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 7,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 8,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 9,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 10,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 11,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 12,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 13,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 14,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 15,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 16,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 17,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 18,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 19,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 20,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 21,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 1,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 22,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 23,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 24,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 25,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 26,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 27,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 28,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 29,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 30,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 31,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 32,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 33,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 34,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 35,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 36,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 37,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 38,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 39,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 40,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 41,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 42,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 43,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 3,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 44,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 45,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 46,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 47,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 48,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 49,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 50,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 51,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 52,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 53,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 54,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 55,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 56,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 57,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 58,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 59,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 60,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 61,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 62,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 63,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 64,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 65,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 5,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 66,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 67,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 68,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 69,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 70,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 71,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 72,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 73,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 74,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 75,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 76,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 6,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 77,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 78,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 79,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 80,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 81,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 82,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 83,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 84,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 85,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 86,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 87,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 7,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 88,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 89,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 90,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 91,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 92,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 93,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 94,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 95,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 96,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 97,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 98,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 8,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 99,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 100,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 101,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 102,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 103,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 104,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 105,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 106,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 107,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 108,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 109,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 9,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 110,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 111,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 112,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 113,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 114,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 115,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 116,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 117,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 118,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 119,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 120,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 10,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 121,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 122,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 123,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 124,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 125,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 126,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 127,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 128,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 129,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 130,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 131,
+    "dimensions": [
+      7,
+      5.5,
+      3.2
+    ],
+    "reference": [
+      3.5,
+      2.75,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train1",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 11,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 132,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 133,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 134,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 135,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 136,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 137,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 138,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 139,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 140,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 141,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 142,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 12,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 143,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 144,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 145,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 146,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 147,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 148,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 149,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 150,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 151,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 152,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 153,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0,
+    "angle": 50,
+    "template_id": 13,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 154,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 155,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 156,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 157,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 158,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 159,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 160,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 161,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 162,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 163,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 164,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 14,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 165,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 166,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 167,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 168,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 169,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 170,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 171,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 172,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 173,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 174,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 175,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.16,
+    "angle": 50,
+    "template_id": 15,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 176,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 177,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 178,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "point_plus25",
+    "direction": [
+      -0.40821789367673483,
+      0.875426098065593,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 179,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi0",
+    "direction": [
+      -0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 180,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi1",
+    "direction": [
+      0.779886374956019,
+      0.03394469263316213,
+      0.625
+    ]
+  },
+  {
+    "id": 181,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi2",
+    "direction": [
+      -0.6556831588274887,
+      -0.6553278532383667,
+      0.375
+    ]
+  },
+  {
+    "id": 182,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi3",
+    "direction": [
+      0.043680217998284754,
+      0.9911947530912492,
+      0.125
+    ]
+  },
+  {
+    "id": 183,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi4",
+    "direction": [
+      0.6373340020964744,
+      -0.7603817263530807,
+      -0.125
+    ]
+  },
+  {
+    "id": 184,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi5",
+    "direction": [
+      -0.9190117909923621,
+      0.12162371486273155,
+      -0.375
+    ]
+  },
+  {
+    "id": 185,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi6",
+    "direction": [
+      0.6398141894471907,
+      0.44722790943995705,
+      -0.625
+    ]
+  },
+  {
+    "id": 186,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 16,
+    "kind": "multi7",
+    "direction": [
+      -0.10523166351107421,
+      -0.47254766637313117,
+      -0.875
+    ]
+  },
+  {
+    "id": 187,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "speech",
+    "direction": [
+      0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ]
+  },
+  {
+    "id": 188,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "point_minus80",
+    "direction": [
+      -0.4829629131445341,
+      0.8365163037378079,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 189,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "point_plus25",
+    "direction": [
+      0.9330127018922194,
+      0.24999999999999997,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 190,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi0",
+    "direction": [
+      0.3708596713318171,
+      0.311188213433055,
+      0.875
+    ]
+  },
+  {
+    "id": 191,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi1",
+    "direction": [
+      -0.10199685131962649,
+      -0.7739325825424861,
+      0.625
+    ]
+  },
+  {
+    "id": 192,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi2",
+    "direction": [
+      -0.5315137649767001,
+      0.7595183458220699,
+      0.375
+    ]
+  },
+  {
+    "id": 193,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi3",
+    "direction": [
+      0.9685512873337871,
+      -0.21513577992529254,
+      0.125
+    ]
+  },
+  {
+    "id": 194,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi4",
+    "direction": [
+      -0.8595017073905453,
+      -0.49561256541045984,
+      -0.125
+    ]
+  },
+  {
+    "id": 195,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi5",
+    "direction": [
+      0.27936070010720965,
+      0.8839302004319174,
+      -0.375
+    ]
+  },
+  {
+    "id": 196,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi6",
+    "direction": [
+      0.32933094453696266,
+      -0.7077542857308546,
+      -0.625
+    ]
+  },
+  {
+    "id": 197,
+    "dimensions": [
+      4.5,
+      3.8,
+      2.8
+    ],
+    "reference": [
+      2.25,
+      1.9,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train2",
+    "rt": 0.28,
+    "angle": 50,
+    "template_id": 17,
+    "kind": "multi7",
+    "direction": [
+      -0.44709531891052817,
+      0.18568999921453258,
+      -0.875
+    ]
+  },
+  {
+    "id": 198,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 199,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 200,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "point_plus25",
+    "direction": [
+      -0.08418598282936919,
+      0.9622501868990583,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 201,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi0",
+    "direction": [
+      -0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 202,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi1",
+    "direction": [
+      0.7444632402371829,
+      -0.2348392725579656,
+      0.625
+    ]
+  },
+  {
+    "id": 203,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi2",
+    "direction": [
+      -0.8402759522136749,
+      -0.39154989992515904,
+      0.375
+    ]
+  },
+  {
+    "id": 204,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi3",
+    "direction": [
+      0.3800545500432279,
+      0.9164788808212875,
+      0.125
+    ]
+  },
+  {
+    "id": 205,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi4",
+    "direction": [
+      0.33883219171650747,
+      -0.932506163977798,
+      -0.125
+    ]
+  },
+  {
+    "id": 206,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi5",
+    "direction": [
+      -0.8219908380216124,
+      0.4286094518422655,
+      -0.375
+    ]
+  },
+  {
+    "id": 207,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi6",
+    "direction": [
+      0.7541896261835357,
+      0.20142742553371135,
+      -0.625
+    ]
+  },
+  {
+    "id": 208,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "multi7",
+    "direction": [
+      -0.2605062382555308,
+      -0.4080582064239765,
+      -0.875
+    ]
+  },
+  {
+    "id": 209,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "speech",
+    "direction": [
+      0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 210,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 211,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "point_plus25",
+    "direction": [
+      0.7912401152362238,
+      0.5540322932223235,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 212,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi0",
+    "direction": [
+      0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 213,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi1",
+    "direction": [
+      0.16885484427713565,
+      -0.7621437145080607,
+      0.625
+    ]
+  },
+  {
+    "id": 214,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi2",
+    "direction": [
+      -0.7592301362912799,
+      0.5319253708436218,
+      0.375
+    ]
+  },
+  {
+    "id": 215,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi3",
+    "direction": [
+      0.9837212678447798,
+      0.12910254524934428,
+      0.125
+    ]
+  },
+  {
+    "id": 216,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi4",
+    "direction": [
+      -0.6381579313320966,
+      -0.7596903676353538,
+      -0.125
+    ]
+  },
+  {
+    "id": 217,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi5",
+    "direction": [
+      -0.0398087454132815,
+      0.9261696733259087,
+      -0.375
+    ]
+  },
+  {
+    "id": 218,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi6",
+    "direction": [
+      0.5515360806228602,
+      -0.5524336627787756,
+      -0.625
+    ]
+  },
+  {
+    "id": 219,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": 30,
+    "template_id": 19,
+    "kind": "multi7",
+    "direction": [
+      -0.48364189211364345,
+      0.02157591696162292,
+      -0.875
+    ]
+  },
+  {
+    "id": 220,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 221,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 222,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "point_plus25",
+    "direction": [
+      -0.08418598282936919,
+      0.9622501868990583,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 223,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi0",
+    "direction": [
+      -0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 224,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi1",
+    "direction": [
+      0.7444632402371829,
+      -0.2348392725579656,
+      0.625
+    ]
+  },
+  {
+    "id": 225,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi2",
+    "direction": [
+      -0.8402759522136749,
+      -0.39154989992515904,
+      0.375
+    ]
+  },
+  {
+    "id": 226,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi3",
+    "direction": [
+      0.3800545500432279,
+      0.9164788808212875,
+      0.125
+    ]
+  },
+  {
+    "id": 227,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi4",
+    "direction": [
+      0.33883219171650747,
+      -0.932506163977798,
+      -0.125
+    ]
+  },
+  {
+    "id": 228,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi5",
+    "direction": [
+      -0.8219908380216124,
+      0.4286094518422655,
+      -0.375
+    ]
+  },
+  {
+    "id": 229,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi6",
+    "direction": [
+      0.7541896261835357,
+      0.20142742553371135,
+      -0.625
+    ]
+  },
+  {
+    "id": 230,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "multi7",
+    "direction": [
+      -0.2605062382555308,
+      -0.4080582064239765,
+      -0.875
+    ]
+  },
+  {
+    "id": 231,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "speech",
+    "direction": [
+      0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 232,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 233,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "point_plus25",
+    "direction": [
+      0.7912401152362238,
+      0.5540322932223235,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 234,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi0",
+    "direction": [
+      0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 235,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi1",
+    "direction": [
+      0.16885484427713565,
+      -0.7621437145080607,
+      0.625
+    ]
+  },
+  {
+    "id": 236,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi2",
+    "direction": [
+      -0.7592301362912799,
+      0.5319253708436218,
+      0.375
+    ]
+  },
+  {
+    "id": 237,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi3",
+    "direction": [
+      0.9837212678447798,
+      0.12910254524934428,
+      0.125
+    ]
+  },
+  {
+    "id": 238,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi4",
+    "direction": [
+      -0.6381579313320966,
+      -0.7596903676353538,
+      -0.125
+    ]
+  },
+  {
+    "id": 239,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi5",
+    "direction": [
+      -0.0398087454132815,
+      0.9261696733259087,
+      -0.375
+    ]
+  },
+  {
+    "id": 240,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi6",
+    "direction": [
+      0.5515360806228602,
+      -0.5524336627787756,
+      -0.625
+    ]
+  },
+  {
+    "id": 241,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": 30,
+    "template_id": 21,
+    "kind": "multi7",
+    "direction": [
+      -0.48364189211364345,
+      0.02157591696162292,
+      -0.875
+    ]
+  },
+  {
+    "id": 242,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 243,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 244,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "point_plus25",
+    "direction": [
+      -0.08418598282936919,
+      0.9622501868990583,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 245,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi0",
+    "direction": [
+      -0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 246,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi1",
+    "direction": [
+      0.7444632402371829,
+      -0.2348392725579656,
+      0.625
+    ]
+  },
+  {
+    "id": 247,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi2",
+    "direction": [
+      -0.8402759522136749,
+      -0.39154989992515904,
+      0.375
+    ]
+  },
+  {
+    "id": 248,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi3",
+    "direction": [
+      0.3800545500432279,
+      0.9164788808212875,
+      0.125
+    ]
+  },
+  {
+    "id": 249,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi4",
+    "direction": [
+      0.33883219171650747,
+      -0.932506163977798,
+      -0.125
+    ]
+  },
+  {
+    "id": 250,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi5",
+    "direction": [
+      -0.8219908380216124,
+      0.4286094518422655,
+      -0.375
+    ]
+  },
+  {
+    "id": 251,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi6",
+    "direction": [
+      0.7541896261835357,
+      0.20142742553371135,
+      -0.625
+    ]
+  },
+  {
+    "id": 252,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "multi7",
+    "direction": [
+      -0.2605062382555308,
+      -0.4080582064239765,
+      -0.875
+    ]
+  },
+  {
+    "id": 253,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "speech",
+    "direction": [
+      0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ]
+  },
+  {
+    "id": 254,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      0.6208851530148457,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 255,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "point_plus25",
+    "direction": [
+      0.7912401152362238,
+      0.5540322932223235,
+      -0.25881904510252074
+    ]
+  },
+  {
+    "id": 256,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi0",
+    "direction": [
+      0.24206145913796354,
+      0.4192627457812106,
+      0.875
+    ]
+  },
+  {
+    "id": 257,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi1",
+    "direction": [
+      0.16885484427713565,
+      -0.7621437145080607,
+      0.625
+    ]
+  },
+  {
+    "id": 258,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi2",
+    "direction": [
+      -0.7592301362912799,
+      0.5319253708436218,
+      0.375
+    ]
+  },
+  {
+    "id": 259,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi3",
+    "direction": [
+      0.9837212678447798,
+      0.12910254524934428,
+      0.125
+    ]
+  },
+  {
+    "id": 260,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi4",
+    "direction": [
+      -0.6381579313320966,
+      -0.7596903676353538,
+      -0.125
+    ]
+  },
+  {
+    "id": 261,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi5",
+    "direction": [
+      -0.0398087454132815,
+      0.9261696733259087,
+      -0.375
+    ]
+  },
+  {
+    "id": 262,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi6",
+    "direction": [
+      0.5515360806228602,
+      -0.5524336627787756,
+      -0.625
+    ]
+  },
+  {
+    "id": 263,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": 30,
+    "template_id": 23,
+    "kind": "multi7",
+    "direction": [
+      -0.48364189211364345,
+      0.02157591696162292,
+      -0.875
+    ]
+  }
+]

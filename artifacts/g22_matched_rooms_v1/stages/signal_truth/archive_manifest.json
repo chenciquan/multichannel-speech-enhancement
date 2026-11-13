@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:18:44.044288+00:00",
+  "files": [
+    {
+      "source": "docs/G22_真值协方差诊断信号阶段报告.md",
+      "snapshot": "00_G22_真值协方差诊断信号阶段报告.md",
+      "sha256": "26070a1c5145aac9cf90c60986710d22919569be61f645775fb75333ca44770b"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/TRUTH_COMPLETE.json",
+      "snapshot": "01_TRUTH_COMPLETE.json",
+      "sha256": "7273ed381b23becf0f90cb77cd1b304bd889817e78d5bd9c0e2b182882428710"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "26802db8469d5f45628d699e12f559d45ef08db3f4627c3d3517afbb68f575d5"
+    },
+    {
+      "source": "scripts/g22_signal.py",
+      "snapshot": "03_g22_signal.py",
+      "sha256": "3228dc2f916452aa2136d941dc3a76e15d8282515adaf3dc6fe9c80cdc776d7f"
+    },
+    {
+      "source": "scripts/g22_filter_worker.py",
+      "snapshot": "04_g22_filter_worker.py",
+      "sha256": "cebbfce3073aad96f7f2b983018baf14218e0af7a499c7697406731898fa5807"
+    }
+  ]
+}

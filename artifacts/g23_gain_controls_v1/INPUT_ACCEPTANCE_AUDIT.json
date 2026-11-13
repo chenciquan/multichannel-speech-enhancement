@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T19:48:26.943046+00:00",
+  "records": 1440,
+  "cases": 48,
+  "all_scaled_samples_exact_reconstruction": true,
+  "max_relative_roundtrip_error": 2.6481525391205736e-08,
+  "manifest_sha256": "db142a1cb671edddbeb87a9f521428bb6c73d8c312615777720eb152ec29c31b"
+}

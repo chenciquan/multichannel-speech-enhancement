@@ -1,0 +1,14 @@
+{
+  "rule": "first lexical source ID, both noise IDs,all3 targets,SNR0,point relative-80,seed20261112",
+  "source_id": "6295-244435-0000",
+  "sample_ids": [
+    "g7_0381_6295-244435-0000",
+    "g7_0382_6295-244435-0000",
+    "g7_0383_6295-244435-0000",
+    "g7_0408_6295-244435-0000",
+    "g7_0409_6295-244435-0000",
+    "g7_0410_6295-244435-0000"
+  ],
+  "common_gain": 1.0,
+  "audio_count": 42
+}

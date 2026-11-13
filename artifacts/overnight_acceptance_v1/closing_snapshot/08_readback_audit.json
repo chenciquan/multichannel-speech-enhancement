@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "checked_utc": "2026-11-12T02:27:22.906258+00:00",
+  "role": "Readback, checksums and arithmetic only after the authorized window; no new inference, metric estimation, training or download",
+  "checks": {
+    "G3_stage_audit_passed": true,
+    "G3_finished_before_deadline": true,
+    "G3_stage_snapshots_hash_match": true,
+    "G3_exact_signal_asr_coverage": true,
+    "G3_all_saved_scores_valid": true,
+    "G3_all_output_audio_unchanged": true,
+    "G3_wer_arithmetic": true,
+    "G3_summary_recomputed_from_saved_rows": true,
+    "G3_report_matches_completion_snapshot": true,
+    "G4_stage_audit_passed": true,
+    "G4_finished_before_deadline": true,
+    "G4_stage_snapshots_hash_match": true,
+    "G4_exact_signal_asr_coverage": true,
+    "G4_all_saved_scores_valid": true,
+    "G4_all_output_audio_unchanged": true,
+    "G4_wer_arithmetic": true,
+    "G4_report_matches_completion_snapshot": true,
+    "G5_stage_audit_passed": true,
+    "G5_finished_before_deadline": true,
+    "G5_stage_snapshots_hash_match": true,
+    "G5_exact_signal_asr_coverage": true,
+    "G5_all_saved_scores_valid": true,
+    "G5_all_output_audio_unchanged": true,
+    "G5_wer_arithmetic": true,
+    "G5_report_matches_completion_snapshot": true,
+    "all24_selected_checkpoints_unchanged": true,
+    "all24_runs_3000_effective_updates_and_frozen_base": true,
+    "G5_saved_array_hashes_unchanged": true,
+    "official_source_and_weight_hashes_unchanged": true,
+    "failed_AMP_evidence_preserved": true
+  },
+  "stages": {
+    "G3": {
+      "completed_utc": "2026-11-11T19:26:51.258116+00:00",
+      "signal_pairs": 5850,
+      "asr_pairs": 5850,
+      "systems": 15,
+      "report": "docs/G3_五小时实验验收报告.md"
+    },
+    "G4": {
+      "completed_utc": "2026-11-11T19:42:21.167196+00:00",
+      "signal_pairs": 2832,
+      "asr_pairs": 2832,
+      "systems": 6,
+      "report": "docs/G4_空间泛化压力测试报告.md"
+    },
+    "G5": {
+      "completed_utc": "2026-11-11T20:57:51.791990+00:00",
+      "signal_pairs": 3528,
+      "asr_pairs": 3528,
+      "systems": 14,
+      "report": "docs/G5_整场景旋转与新说话人确认报告.md"
+    }
+  },
+  "formal_training_runs": 24,
+  "effective_optimizer_updates": 72000,
+  "training_program_minutes_total": 106.66796780013335,
+  "signal_pairs": 12210,
+  "asr_pairs": 12210,
+  "stage_snapshot_files_checked": 79,
+  "unique_files_hashed": 12329,
+  "G6_proposal_executed": false,
+  "quota_percent_verified": false,
+  "time_window": "2026-11-12 01:54:15 to05:54:15 Asia/Shanghai; G3 began earlier under initial five-hour authorization"
+}

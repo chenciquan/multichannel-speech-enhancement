@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T04:48:49.887860+00:00",
+  "files": [
+    {
+      "source": "docs/G10B_新说话人匹配模拟协议与数据.md",
+      "snapshot": "00_G10B_新说话人匹配模拟协议与数据.md",
+      "sha256": "33afb23419755d43f0a5d0c0f7648618581640044b80255a64b528d9df324899"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "d5792011563d2ba542541216fb1d4c82808a169ae83a2933c21d7cbfcd9c9e8f"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/systems.json",
+      "snapshot": "02_systems.json",
+      "sha256": "8031196852a13a7faf435c85b95ca92e51d7fe0455a45868fd1b1a1f6aef8b7b"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/noise_sources.json",
+      "snapshot": "03_noise_sources.json",
+      "sha256": "64c1119d78f7f559013e200adc9c0796ea1f453ba579dc87a0928df09cba310b"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "04_PREPARATION_COMPLETE.json",
+      "sha256": "0643556af71c934028bc9e644ec007fa4b5f0d8cf577dc8bc6733c194a97cd30"
+    },
+    {
+      "source": "data/g10_v1/manifest.jsonl",
+      "snapshot": "05_manifest.jsonl",
+      "sha256": "623849b19269963fef2dc9c2e6603a54cfffd72f7c893941f50f13f013c8bdd4"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/analysis_unit_tests.log",
+      "snapshot": "06_analysis_unit_tests.log",
+      "sha256": "68865657a43c3af8fe83970558087dddba2c2c5a0195201e467f1a352c7e0292"
+    },
+    {
+      "source": "tests/test_g10_analysis.py",
+      "snapshot": "07_test_g10_analysis.py",
+      "sha256": "8e556539c53202ac4f908f8020ec9f342bc3899c2d4b2309637c7c3122880988"
+    },
+    {
+      "source": "scripts/g10_finish.py",
+      "snapshot": "08_g10_finish.py",
+      "sha256": "58a65a420990f528409420c8d47d294e5319128015b942c1d346e0f5dffed6fb"
+    },
+    {
+      "source": "scripts/g10_build.py",
+      "snapshot": "09_g10_build.py",
+      "sha256": "0e41c9b314c7de6a1bd73011a1d136ec1f108f8ad035788b1a672e114f6a7724"
+    }
+  ]
+}

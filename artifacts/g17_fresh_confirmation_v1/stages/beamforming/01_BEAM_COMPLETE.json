@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "beam_rows": 1680,
+  "combined_rows": 3528,
+  "completed_utc": "2026-11-12T09:57:12.672388+00:00",
+  "combined_sha256": "7a5a031d930223aa7c05ee9303963f8c70b3661e8248aa312322617108a1b17d",
+  "elapsed_direct_plus_beam_seconds": 473.27056955800003
+}

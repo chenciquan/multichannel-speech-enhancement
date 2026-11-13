@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "sources": 6,
+  "mixtures": 48,
+  "reference_matched_groups": 12,
+  "all_spatial_noisy_references_bit_identical": true,
+  "max_snr_error_db": 1.3875398733422142e-07,
+  "manifest_sha256": "4e4b0194a99b7b42bc32782dfcd2685a567d1d68ae29723a88c14c8d5f078933",
+  "training": false
+}

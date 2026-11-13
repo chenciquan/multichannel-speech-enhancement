@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T20:19:34.338920+00:00",
+  "files": [
+    {
+      "source": "docs/G25_识别输入电平控制与原始评分对照报告.md",
+      "snapshot": "00_G25_识别输入电平控制与原始评分对照报告.md",
+      "sha256": "6b7c2956c1b28ce58463104c187a0360f565871889ab0cd235fa8c8c6e4c120c"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "d25e4ebc2b82753f7c72e58ed1ac92aff212dc4d90e73e400464b9ece78171b2"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "5f41c6e454fa891e7afe039260ce14845cc70926971c139e05e2fe2e37998df6"
+    },
+    {
+      "source": "artifacts/g25_asr_level_control_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "5eb1ebff4c967316a9fd332ea5cbc12a422aad5b6bf538b5d7fd151e752f828e"
+    },
+    {
+      "source": "scripts/g25_finish.py",
+      "snapshot": "04_g25_finish.py",
+      "sha256": "e334925c34613abd9252d29ad363395f155924941919eb3fa035bddfad9ece36"
+    }
+  ]
+}

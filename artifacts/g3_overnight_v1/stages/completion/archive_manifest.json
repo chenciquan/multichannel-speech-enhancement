@@ -1,0 +1,76 @@
+{
+  "stage": "completion",
+  "saved_at_utc": "2026-11-11T19:26:51.252929+00:00",
+  "report": "docs/G3_\u4e94\u5c0f\u65f6\u5b9e\u9a8c\u9a8c\u6536\u62a5\u544a.md",
+  "files": [
+    {
+      "source": "artifacts/g3_overnight_v1/completion_audit.json",
+      "snapshot": "00_completion_audit.json",
+      "sha256": "1996a0d6d27d92480334d4f26b7e0a9753ceb4a4213452ab899146bccb0c4db4"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/selected_checkpoints_extended.json",
+      "snapshot": "01_selected_checkpoints_extended.json",
+      "sha256": "84aa3c231ffd96c5184fba232e2d13bd895c20a256ca027b2c1fa3ee4413f4fd"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "462ec7b053eac9521c72a265628b4eb3a3c6158f46b97bf2d2e98609321724dc"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/evaluation/asr_provenance.json",
+      "snapshot": "03_asr_provenance.json",
+      "sha256": "1faba26097b6d54671f3a848f7d01f49105e3731bf5ab0fc04eb7f2cbac1ef4f"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/review/selection.json",
+      "snapshot": "04_selection.json",
+      "sha256": "c8cb79d1c4ec09cfdbd36190b624fe5fa93d026cd7f15d980b0ceb45972af54a"
+    },
+    {
+      "source": "artifacts/g3_overnight_v1/review/index.html",
+      "snapshot": "05_index.html",
+      "sha256": "747071d62672da3d456300b8391d199d7bd0688985060fadb9a5f833da8e2198"
+    },
+    {
+      "source": "scripts/g3_summarize.py",
+      "snapshot": "06_g3_summarize.py",
+      "sha256": "c63d56600f7b6f60c1b7ebb9d7564305c0afa8487656fe48900c3bf594675aaf"
+    },
+    {
+      "source": "scripts/g3_audit.py",
+      "snapshot": "07_g3_audit.py",
+      "sha256": "067ef3145cb85e59b25539784697e37019ba0d8a71c7f88779dd2808b1d9c48e"
+    },
+    {
+      "source": "scripts/g3_report.py",
+      "snapshot": "08_g3_report.py",
+      "sha256": "1de6c82e98021d3211420d236b4827c5035d1131155b80381fb253845212fa46"
+    },
+    {
+      "source": "docs/G3_\u4e94\u5c0f\u65f6\u5b9e\u9a8c\u9a8c\u6536\u62a5\u544a.md",
+      "snapshot": "09_G3_\u4e94\u5c0f\u65f6\u5b9e\u9a8c\u9a8c\u6536\u62a5\u544a.md",
+      "sha256": "1ef4e868689e8aaa38d3fe9e4f1f4ac32ff8f3498ed9f413317b987a0c555c92"
+    }
+  ],
+  "referenced_artifacts": [
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/asr_scores.jsonl",
+      "sha256": "bc18f55f55b7fe3370f5bb15f41bd2c5fd5422b6a82be8e55bac9adbe4642acb",
+      "role": "completed_evaluation_evidence"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/asr_cache.jsonl",
+      "sha256": "611c43b5e3fce381f612927df81dce35453b3e36e40960d6045aa2374b03fb1c",
+      "role": "completed_evaluation_evidence"
+    },
+    {
+      "path": "artifacts/g3_overnight_v1/evaluation/signals.jsonl",
+      "sha256": "797c0773c79fb97b1dec8cddc3a121ff3af7f1168baf04e05d1461a951ebfdba",
+      "role": "completed_evaluation_evidence"
+    }
+  ],
+  "large_audio_checkpoints_copied": false,
+  "large_outputs": "Kept in original per-run directories; hashes and exact checkpoint paths in manifests, no evidence deleted."
+}

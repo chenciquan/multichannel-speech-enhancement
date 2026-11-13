@@ -1,0 +1,7 @@
+{
+  "stage": "G6",
+  "completed_utc": "2026-11-12T03:23:15.189275+00:00",
+  "report": "docs/G6B_本地推理命令与一致性验证.md",
+  "resource_report": "docs/G6A_本地推理资源实测.md",
+  "audit": "prototype/qa_results.json"
+}

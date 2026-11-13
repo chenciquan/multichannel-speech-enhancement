@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:46:28.043477+00:00",
+  "variant": "cirm_shape",
+  "steps": 1500,
+  "optimizer_updates": 1500,
+  "initial_digests": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "final_base_digest": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "final_adapter_digest": "bf8e601937a0eb09ab71671eab3f221f27179b818df7acce21306f5273af4548",
+  "schedule_sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+  "actual_indices_sha256": "e9bae9124dd68b5f85425e06182c4a6fe35a25644ce4643fadf5b781c9e6cdad",
+  "coefficients": {
+    "mask": 0.02405955302683184,
+    "shape": 0.060971830837972876
+  },
+  "checkpoints": [
+    {
+      "step": 500,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_00500.pt",
+      "sha256": "d6eb918c69cd346fa827bee67b218bca0b7fbb91355b98553ba314f8c2e86c21"
+    },
+    {
+      "step": 1000,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_01000.pt",
+      "sha256": "fd266f7493f618fb908d09204bf9f8fb38f47fcc7ff7bf5c661130abf1e8b9a1"
+    },
+    {
+      "step": 1500,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_01500.pt",
+      "sha256": "876a4c789ad749ff61b02b59decaa4dfb3f8682479e450a761bd280ae28b7a58"
+    }
+  ],
+  "registered": {
+    "step": 1500,
+    "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_01500.pt",
+    "sha256": "876a4c789ad749ff61b02b59decaa4dfb3f8682479e450a761bd280ae28b7a58"
+  },
+  "peak_allocated_bytes": 1694953984,
+  "peak_reserved_bytes": 2350907392,
+  "elapsed_seconds": 124.48305717400012,
+  "development_or_test_access": false,
+  "training_log_sha256": "28544d6d01f627c4250ff6098b0f618831c983a33679b86990b7790ac6313437"
+}

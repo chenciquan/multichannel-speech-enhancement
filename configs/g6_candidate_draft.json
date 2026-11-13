@@ -1,0 +1,12 @@
+{
+  "status": "proposal_only_not_run",
+  "entry_gate": "G5 major report, audit and completion archive saved; enough time before21:54:15Z",
+  "purpose": "Verify local usability and measured inference cost of validated adapters, then consolidate actual thesis evidence. No new model or novelty claim.",
+  "benchmark": "Original McNet and four G5 first-seed cells. Same fixed historical six-channel input crops at1/3s; FP32, batch1, warmup5, timed20 calls with CUDA synchronization, mean/p50/p95, allocated/reserved memory and compute-only RTF. Offline bidirectional McNet is not streaming; RTF<1 does not prove real-time algorithmic latency.",
+  "prototype": "One local command-line entry for six-channel16kHz WAV <=4s, original or registered G3/G5 adapter IDs. Verify official base and adapter manifest SHA before loading, exact adapter keys/finite tensors, FLOAT output without normalization/resampling/chunking, refuse overwriting output, local-only provenance JSON. No Web service or public deployment.",
+  "prototype_validation": "Fixed fresh G5 sample and first-seed cells; compare CLI outputs with saved G5 inference to numerical tolerance, no new quality claim. Reuse existing validators/decoder/library rather than rewrite a model.",
+  "report_gate": "Save resource report and raw timings before prototype stage, then save prototype QA and usage report before final synthesis.",
+  "final_synthesis": "Short Chinese overnight acceptance summary, thesis chapter/evidence outline based on actual results, rejected hypotheses and strong-baseline requirements; links to each immutable stage report. Update README/status/research-route implementation note without replacing historical evidence.",
+  "hard_deadline_utc": "2026-11-11T21:54:15Z",
+  "cleanup": "Stop only verified task processes and release keep-awake helper PID19648 (creation2026-11-12 01:16:34, exact script+deadline command) if still alive; no system power-plan changes or broad process kills. Never delete old evidence."
+}

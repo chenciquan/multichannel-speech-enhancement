@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "created_utc": "2026-11-12T03:22:21.440736+00:00",
+  "model": {
+    "system_id": "g5/fixed_complete_s20261112",
+    "kind": "adapter",
+    "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+    "adapter_sha256": "a26504f8c54be7d3890fa388faef56a9c87aed7b00ef1054550587b1764ab3da",
+    "adapter_path": "artifacts/g5_rotation_v1/fixed/train/complete_s20261112/adapter_03000.pt",
+    "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+    "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+    "adapter_parameters": 3584,
+    "base_parameters": 3328706,
+    "device": "cuda",
+    "dtype": "float32",
+    "load_seconds_in_shared_process": 16.67047678600001,
+    "ref_channel_zero_based": 4,
+    "streaming": false,
+    "resampling": false,
+    "per_utterance_normalization": false,
+    "chunking": false,
+    "lora_merge": false
+  },
+  "input": {
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g5_v1/confirmation/noisy/g5_confirmation_0000_6345-93302-0006.wav",
+    "sha256": "9f0314f5f1d9c88e9ee287ab37f8cf374ea999c685a50bed8307cf99251ba164",
+    "channels": 6,
+    "frames": 49168,
+    "sample_rate": 16000,
+    "duration_seconds": 3.073
+  },
+  "output": {
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/artifacts/g6_local_runtime_v1/prototype/g5_fixed_complete_s20261112_cuda.wav",
+    "sha256": "8bf91ea197a137277ddde8b3209be6f831cea8ff1025a1ca7a05c38f36ecc08f",
+    "channels": 1,
+    "frames": 49168,
+    "sample_rate": 16000,
+    "subtype": "FLOAT",
+    "abs_peak": 0.18324598670005798,
+    "samples_above_one": 0
+  },
+  "array_to_array_seconds_including_transfers": 0.4828192070000057,
+  "inference_rtf_excluding_load_and_file_io": 0.15711656589651993,
+  "quality_metrics_computed": false,
+  "ASR_run": false,
+  "limitations": "Offline model,<=4s interface, nominal microphone ordering, no quality/generalization guarantee. Local research use; not public redistribution."
+}

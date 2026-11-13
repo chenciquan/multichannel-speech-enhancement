@@ -1,0 +1,55 @@
+{
+  "stage": "G2_spectral_spatial_cause_confirmation",
+  "split": "confirmation",
+  "frozen_after_discovery_before_new_source_evaluation": true,
+  "discovery_evidence": "artifacts/g2_factorial_v1/mcnet/cases.jsonl",
+  "observed_contrast": "After removing sub40Hz noise and restoring SNR0, directional-point noise produces weaker/negative McNet gains than reference-matched conditioned12wave; raw fullband SNR was dominated by subaudible energy",
+  "source_selection": "first new complete1.0-3.8s utterances in official archive traversal for existing six speakers; exclude all original24 source IDs and byte hashes",
+  "speaker_quotas": {
+    "1988": 2,
+    "2035": 2,
+    "2086": 1,
+    "2277": 1,
+    "777": 1,
+    "7976": 1
+  },
+  "sources": 8,
+  "speech_archive_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+  "speech_license": "CC-BY-4.0",
+  "max_stream_bytes": 100663296,
+  "noise_spectrum_conditions": [
+    "raw",
+    "highpass40_then_snr0"
+  ],
+  "spatial_conditions": [
+    "original_point",
+    "conditioned_12wave"
+  ],
+  "noises": [
+    "DWASHING_ch01",
+    "DKITCHEN_ch01"
+  ],
+  "snr_db": 0,
+  "seed": 2026111121,
+  "seed_replicas": [
+    0,
+    1
+  ],
+  "expected_mixtures": 128,
+  "primary_contrast": "enhanced SI-SDR(conditioned12wave)-enhanced SI-SDR(original_point), after highpass40-noise renormalization, paired on source/noise/seed; noisy reference is identical",
+  "confirmation_rule": "For each of two noise recordings and both seeds: mean primary contrast>0 and at least6/8 source contrasts>0. Report all values and failures, no population-significance or unseen-speaker claim",
+  "secondary_checks": [
+    "fixed40Hz highpass comparator on raw input explains metric sensitivity",
+    "PESQ/STOI and one fixed ASR verify that a numerical gain is not assumed to preserve words"
+  ],
+  "limits": [
+    "same six speakers but all new source utterances",
+    "same two long noise recordings with new segments, not unseen noise types",
+    "synthetic conditional finite-wave field, not real multichannel recording",
+    "no training or proposed-module implementation"
+  ],
+  "training": false,
+  "new_dependencies": false,
+  "noise_segment_policy": "new-source segments do not overlap any original24 segment or each other within the same recording; 4000-sample margin; each segment reused across spectral/spatial/seeds",
+  "source_selection_plan_frozen_in_download": "configs/g2_confirmation_plan.json; render-only nonoverlap amendment does not change utterance selection or model hypothesis"
+}

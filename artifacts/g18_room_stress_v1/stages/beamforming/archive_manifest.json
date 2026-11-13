@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T11:01:01.395619+00:00",
+  "files": [
+    {
+      "source": "docs/G18D_房间MVDR信号报告.md",
+      "snapshot": "00_G18D_房间MVDR信号报告.md",
+      "sha256": "050a084c8a00a372542f93e6e756c750dd71df4b2a03cb02c9485261cdd58a71"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/BEAM_COMPLETE.json",
+      "snapshot": "01_BEAM_COMPLETE.json",
+      "sha256": "a1192c207ca68cdee097ff9975c019167b948f661acb788671987254a6476f57"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/beam_provenance.json",
+      "snapshot": "02_beam_provenance.json",
+      "sha256": "5e00355a7e8c046abee11eb1519b0a85f733a44d47c73e9e87102b77874adf51"
+    },
+    {
+      "source": "scripts/g18_signal.py",
+      "snapshot": "03_g18_signal.py",
+      "sha256": "c55fd5e66cf98ddc05d1ea8aec206d01b89628dd547bee5980700f48132045de"
+    }
+  ]
+}

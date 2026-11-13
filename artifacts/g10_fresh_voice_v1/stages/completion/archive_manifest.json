@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T05:48:49.027945+00:00",
+  "files": [
+    {
+      "source": "docs/G10_新说话人直接输出与MVDR机制验证报告.md",
+      "snapshot": "00_G10_新说话人直接输出与MVDR机制验证报告.md",
+      "sha256": "b29100a87e4ab7add8b334f11dc5485ad174dd763b79dd0c1b37c796330cb046"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "146485add8f6582c9016c35c03bc03117f21cc004ad9445604e80dca33560d75"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "aa56ef7b9e527c894381c23e3fecd2d523ecb0ffcaf899988422c549b2ed75b1"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "bfde57e807883923fb7c43db1acd6682952e221cdda6aa366a8933c288be840d"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "0413d143c724f02eb3fe368e7a162e2028b791f9aab96a5b248de8c962707e7e"
+    },
+    {
+      "source": "scripts/g10_finish.py",
+      "snapshot": "05_g10_finish.py",
+      "sha256": "58a65a420990f528409420c8d47d294e5319128015b942c1d346e0f5dffed6fb"
+    }
+  ]
+}

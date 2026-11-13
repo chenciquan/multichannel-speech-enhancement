@@ -1,0 +1,692 @@
+{
+  "utc": "2026-11-12T23:54:10.853205+00:00",
+  "raw_accepted_anchor_checks": {
+    "Whisper": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f",
+    "CTC": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89"
+  },
+  "normalized_hypothesis_changes": {
+    "Whisper": 3730,
+    "CTC": 8165
+  },
+  "method_sign_flips": {
+    "Whisper": [],
+    "CTC": []
+  },
+  "method_preferences": {
+    "Whisper": {
+      "raw": {
+        "MVDR_better": 26,
+        "MWF_better": 4
+      },
+      "level_control": {
+        "MVDR_better": 26,
+        "MWF_better": 4
+      }
+    },
+    "CTC": {
+      "raw": {
+        "MVDR_better": 26,
+        "tie": 2,
+        "MWF_better": 2
+      },
+      "level_control": {
+        "MVDR_better": 26,
+        "tie": 2,
+        "MWF_better": 2
+      }
+    }
+  },
+  "rigid_selected": [
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 210,
+          "D": 0,
+          "I": 45,
+          "correct": 1140,
+          "errors": 255,
+          "utterances": 216,
+          "wer": 0.18888888888888888,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 207,
+          "D": 0,
+          "I": 43,
+          "correct": 1143,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 106,
+          "D": 0,
+          "I": 5,
+          "correct": 1244,
+          "errors": 111,
+          "utterances": 216,
+          "wer": 0.08222222222222222,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 113,
+          "D": 0,
+          "I": 6,
+          "correct": 1237,
+          "errors": 119,
+          "utterances": 216,
+          "wer": 0.08814814814814814,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 280,
+          "D": 0,
+          "I": 62,
+          "correct": 1070,
+          "errors": 342,
+          "utterances": 216,
+          "wer": 0.25333333333333335,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 275,
+          "D": 0,
+          "I": 64,
+          "correct": 1075,
+          "errors": 339,
+          "utterances": 216,
+          "wer": 0.2511111111111111,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 215,
+          "D": 1,
+          "I": 33,
+          "correct": 1134,
+          "errors": 249,
+          "utterances": 216,
+          "wer": 0.18444444444444444,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 217,
+          "D": 1,
+          "I": 29,
+          "correct": 1132,
+          "errors": 247,
+          "utterances": 216,
+          "wer": 0.18296296296296297,
+          "deletion_rate": 0.0007407407407407407
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 337,
+          "D": 5,
+          "I": 68,
+          "correct": 1008,
+          "errors": 410,
+          "utterances": 216,
+          "wer": 0.3037037037037037,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 331,
+          "D": 10,
+          "I": 64,
+          "correct": 1009,
+          "errors": 405,
+          "utterances": 216,
+          "wer": 0.3,
+          "deletion_rate": 0.007407407407407408
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 318,
+          "D": 11,
+          "I": 9,
+          "correct": 1021,
+          "errors": 338,
+          "utterances": 216,
+          "wer": 0.25037037037037035,
+          "deletion_rate": 0.008148148148148147
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 342,
+          "D": 6,
+          "I": 11,
+          "correct": 1002,
+          "errors": 359,
+          "utterances": 216,
+          "wer": 0.2659259259259259,
+          "deletion_rate": 0.0044444444444444444
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.15,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 357,
+          "D": 7,
+          "I": 90,
+          "correct": 986,
+          "errors": 454,
+          "utterances": 216,
+          "wer": 0.3362962962962963,
+          "deletion_rate": 0.005185185185185185
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 360,
+          "D": 7,
+          "I": 91,
+          "correct": 983,
+          "errors": 458,
+          "utterances": 216,
+          "wer": 0.33925925925925926,
+          "deletion_rate": 0.005185185185185185
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 388,
+          "D": 44,
+          "I": 30,
+          "correct": 918,
+          "errors": 462,
+          "utterances": 216,
+          "wer": 0.3422222222222222,
+          "deletion_rate": 0.03259259259259259
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 392,
+          "D": 39,
+          "I": 33,
+          "correct": 919,
+          "errors": 464,
+          "utterances": 216,
+          "wer": 0.3437037037037037,
+          "deletion_rate": 0.028888888888888888
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 710,
+          "D": 117,
+          "I": 170,
+          "correct": 523,
+          "errors": 997,
+          "utterances": 216,
+          "wer": 0.7385185185185185,
+          "deletion_rate": 0.08666666666666667
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 745,
+          "D": 71,
+          "I": 179,
+          "correct": 534,
+          "errors": 995,
+          "utterances": 216,
+          "wer": 0.737037037037037,
+          "deletion_rate": 0.052592592592592594
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 634,
+          "D": 234,
+          "I": 9,
+          "correct": 482,
+          "errors": 877,
+          "utterances": 216,
+          "wer": 0.6496296296296297,
+          "deletion_rate": 0.17333333333333334
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 614,
+          "D": 259,
+          "I": 13,
+          "correct": 477,
+          "errors": 886,
+          "utterances": 216,
+          "wer": 0.6562962962962963,
+          "deletion_rate": 0.19185185185185186
+        }
+      }
+    },
+    {
+      "room": "reference",
+      "rt": 0.35,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 772,
+          "D": 132,
+          "I": 387,
+          "correct": 446,
+          "errors": 1291,
+          "utterances": 216,
+          "wer": 0.9562962962962963,
+          "deletion_rate": 0.09777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 756,
+          "D": 142,
+          "I": 170,
+          "correct": 452,
+          "errors": 1068,
+          "utterances": 216,
+          "wer": 0.7911111111111111,
+          "deletion_rate": 0.10518518518518519
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 747,
+          "D": 290,
+          "I": 15,
+          "correct": 313,
+          "errors": 1052,
+          "utterances": 216,
+          "wer": 0.7792592592592592,
+          "deletion_rate": 0.21481481481481482
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 737,
+          "D": 283,
+          "I": 17,
+          "correct": 330,
+          "errors": 1037,
+          "utterances": 216,
+          "wer": 0.7681481481481481,
+          "deletion_rate": 0.20962962962962964
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 210,
+          "D": 0,
+          "I": 45,
+          "correct": 1140,
+          "errors": 255,
+          "utterances": 216,
+          "wer": 0.18888888888888888,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 207,
+          "D": 0,
+          "I": 43,
+          "correct": 1143,
+          "errors": 250,
+          "utterances": 216,
+          "wer": 0.18518518518518517,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 106,
+          "D": 0,
+          "I": 5,
+          "correct": 1244,
+          "errors": 111,
+          "utterances": 216,
+          "wer": 0.08222222222222222,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 113,
+          "D": 0,
+          "I": 6,
+          "correct": 1237,
+          "errors": 119,
+          "utterances": 216,
+          "wer": 0.08814814814814814,
+          "deletion_rate": 0.0
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 280,
+          "D": 0,
+          "I": 62,
+          "correct": 1070,
+          "errors": 342,
+          "utterances": 216,
+          "wer": 0.25333333333333335,
+          "deletion_rate": 0.0
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 275,
+          "D": 0,
+          "I": 64,
+          "correct": 1075,
+          "errors": 339,
+          "utterances": 216,
+          "wer": 0.2511111111111111,
+          "deletion_rate": 0.0
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 215,
+          "D": 1,
+          "I": 33,
+          "correct": 1134,
+          "errors": 249,
+          "utterances": 216,
+          "wer": 0.18444444444444444,
+          "deletion_rate": 0.0007407407407407407
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 217,
+          "D": 1,
+          "I": 29,
+          "correct": 1132,
+          "errors": 247,
+          "utterances": 216,
+          "wer": 0.18296296296296297,
+          "deletion_rate": 0.0007407407407407407
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 424,
+          "D": 12,
+          "I": 69,
+          "correct": 914,
+          "errors": 505,
+          "utterances": 216,
+          "wer": 0.37407407407407406,
+          "deletion_rate": 0.008888888888888889
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 431,
+          "D": 8,
+          "I": 77,
+          "correct": 911,
+          "errors": 516,
+          "utterances": 216,
+          "wer": 0.38222222222222224,
+          "deletion_rate": 0.005925925925925926
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 389,
+          "D": 21,
+          "I": 23,
+          "correct": 940,
+          "errors": 433,
+          "utterances": 216,
+          "wer": 0.3207407407407407,
+          "deletion_rate": 0.015555555555555555
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 414,
+          "D": 26,
+          "I": 17,
+          "correct": 910,
+          "errors": 457,
+          "utterances": 216,
+          "wer": 0.3385185185185185,
+          "deletion_rate": 0.01925925925925926
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.15,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 509,
+          "D": 5,
+          "I": 141,
+          "correct": 836,
+          "errors": 655,
+          "utterances": 216,
+          "wer": 0.48518518518518516,
+          "deletion_rate": 0.003703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 510,
+          "D": 5,
+          "I": 121,
+          "correct": 835,
+          "errors": 636,
+          "utterances": 216,
+          "wer": 0.4711111111111111,
+          "deletion_rate": 0.003703703703703704
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 507,
+          "D": 51,
+          "I": 17,
+          "correct": 792,
+          "errors": 575,
+          "utterances": 216,
+          "wer": 0.42592592592592593,
+          "deletion_rate": 0.03777777777777778
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 516,
+          "D": 46,
+          "I": 18,
+          "correct": 788,
+          "errors": 580,
+          "utterances": 216,
+          "wer": 0.42962962962962964,
+          "deletion_rate": 0.034074074074074076
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mvdr",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 731,
+          "D": 190,
+          "I": 171,
+          "correct": 429,
+          "errors": 1092,
+          "utterances": 216,
+          "wer": 0.8088888888888889,
+          "deletion_rate": 0.14074074074074075
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 753,
+          "D": 155,
+          "I": 177,
+          "correct": 442,
+          "errors": 1085,
+          "utterances": 216,
+          "wer": 0.8037037037037037,
+          "deletion_rate": 0.11481481481481481
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 712,
+          "D": 306,
+          "I": 30,
+          "correct": 332,
+          "errors": 1048,
+          "utterances": 216,
+          "wer": 0.7762962962962963,
+          "deletion_rate": 0.22666666666666666
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 689,
+          "D": 348,
+          "I": 32,
+          "correct": 313,
+          "errors": 1069,
+          "utterances": 216,
+          "wer": 0.7918518518518518,
+          "deletion_rate": 0.2577777777777778
+        }
+      }
+    },
+    {
+      "room": "new",
+      "rt": 0.35,
+      "method": "mwf",
+      "rows": 216,
+      "Whisper": {
+        "raw": {
+          "N": 1350,
+          "S": 824,
+          "D": 158,
+          "I": 1086,
+          "correct": 368,
+          "errors": 2068,
+          "utterances": 216,
+          "wer": 1.5318518518518518,
+          "deletion_rate": 0.11703703703703704
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 809,
+          "D": 176,
+          "I": 609,
+          "correct": 365,
+          "errors": 1594,
+          "utterances": 216,
+          "wer": 1.1807407407407406,
+          "deletion_rate": 0.13037037037037036
+        }
+      },
+      "CTC": {
+        "raw": {
+          "N": 1350,
+          "S": 778,
+          "D": 380,
+          "I": 35,
+          "correct": 192,
+          "errors": 1193,
+          "utterances": 216,
+          "wer": 0.8837037037037037,
+          "deletion_rate": 0.2814814814814815
+        },
+        "level_control": {
+          "N": 1350,
+          "S": 771,
+          "D": 376,
+          "I": 39,
+          "correct": 203,
+          "errors": 1186,
+          "utterances": 216,
+          "wer": 0.8785185185185185,
+          "deletion_rate": 0.2785185185185185
+        }
+      }
+    }
+  ],
+  "scope": "Four reused speakers, one utterance each, two noises; dependent cells, not independent replications",
+  "accepted_sha256": "c22f6025e1a4d796bbbd72b875962b9df145b2a7037f63423fc1890cd1438332",
+  "summary_sha256": "652df806992e443f88b3fc3a9e2e0c10f374b8c25179a7bbec46ea91925924d7"
+}

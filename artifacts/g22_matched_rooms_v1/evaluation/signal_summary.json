@@ -1,0 +1,4586 @@
+[
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.056393757735286,
+    "pesq_wb": 1.2809057335058849,
+    "stoi": 0.7894197056186244
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.251663977089002,
+    "pesq_wb": 3.583481470743815,
+    "stoi": 0.9800095500721372,
+    "levels": {
+      "rms_gain_ratio": 0.9107793995317873,
+      "reference_normalized_squared_error": 0.03781815040672336
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.640237175659184,
+    "pesq_wb": 1.4129918432897992,
+    "stoi": 0.8644306462613479
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.404692279094881,
+    "pesq_wb": 4.176371554533641,
+    "stoi": 0.9851964323198378,
+    "levels": {
+      "rms_gain_ratio": 0.6020981922048515,
+      "reference_normalized_squared_error": 0.19206770625197114
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.757915417917817,
+    "pesq_wb": 1.6090472572379642,
+    "stoi": 0.8451149472200594
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 27.371484022853696,
+    "pesq_wb": 4.532178521156311,
+    "stoi": 0.9968825431333487,
+    "levels": {
+      "rms_gain_ratio": 0.954998939769482,
+      "reference_normalized_squared_error": 0.024732852182478355
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4429956000709736,
+    "pesq_wb": 1.2483470804161496,
+    "stoi": 0.8065533948651501
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.136949877474304,
+    "pesq_wb": 3.6405385732650757,
+    "stoi": 0.9789682785544391,
+    "levels": {
+      "rms_gain_ratio": 0.9074789382766576,
+      "reference_normalized_squared_error": 0.03815493809296186
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.824513469309576,
+    "pesq_wb": 1.3768199963702097,
+    "stoi": 0.877836231418406
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.247136686624103,
+    "pesq_wb": 4.14135221640269,
+    "stoi": 0.9824743555833254,
+    "levels": {
+      "rms_gain_ratio": 0.606776264906289,
+      "reference_normalized_squared_error": 0.19066599688076555
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.427105711379851,
+    "pesq_wb": 1.4160592688454523,
+    "stoi": 0.855558530656655
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 27.339275138790935,
+    "pesq_wb": 4.524262587229411,
+    "stoi": 0.9962648784962145,
+    "levels": {
+      "rms_gain_ratio": 0.9531736044885776,
+      "reference_normalized_squared_error": 0.024946463988871972
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.7432471227994626,
+    "pesq_wb": 1.2894251777066126,
+    "stoi": 0.7964757810509773
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.642136158161076,
+    "pesq_wb": 3.558593819538752,
+    "stoi": 0.9781383053909608,
+    "levels": {
+      "rms_gain_ratio": 0.9005809799235583,
+      "reference_normalized_squared_error": 0.04288959232765107
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.750684207871347,
+    "pesq_wb": 1.408048293656773,
+    "stoi": 0.8679465832563352
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.20641748545354,
+    "pesq_wb": 4.166084408760071,
+    "stoi": 0.9834630217294965,
+    "levels": {
+      "rms_gain_ratio": 0.5950616701404838,
+      "reference_normalized_squared_error": 0.19973676473841964
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.522986345109178,
+    "pesq_wb": 1.5455380462937884,
+    "stoi": 0.8500931399194206
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 26.257058757223657,
+    "pesq_wb": 4.560012539227803,
+    "stoi": 0.9960074748986715,
+    "levels": {
+      "rms_gain_ratio": 0.9482100788508397,
+      "reference_normalized_squared_error": 0.02879179394193715
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.270932879648359,
+    "pesq_wb": 1.0965994513697095,
+    "stoi": 0.7350846210085585
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 25.127378982182123,
+    "pesq_wb": 4.412183006604512,
+    "stoi": 0.9962159050381653,
+    "levels": {
+      "rms_gain_ratio": 0.984662516080443,
+      "reference_normalized_squared_error": 0.00822426810913211
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.18374892520081104,
+    "pesq_wb": 1.1220857716268964,
+    "stoi": 0.7655712714185879
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.631964011138415,
+    "pesq_wb": 4.250474592049916,
+    "stoi": 0.9879694743885031,
+    "levels": {
+      "rms_gain_ratio": 0.6729052517502451,
+      "reference_normalized_squared_error": 0.13458105654583088
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -2.1631344228020932,
+    "pesq_wb": 1.060093058480157,
+    "stoi": 0.7607206204229838
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 46.48734915921927,
+    "pesq_wb": 4.6190623839696245,
+    "stoi": 0.9990085756739581,
+    "levels": {
+      "rms_gain_ratio": 0.9896200809932543,
+      "reference_normalized_squared_error": 0.003267635424901542
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.750686600267144,
+    "pesq_wb": 1.046560178200404,
+    "stoi": 0.7530615372589679
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999997,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6802419346828251,
+    "pesq_wb": 1.2275281018680997,
+    "stoi": 0.8285885894571645
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.49804869586977,
+    "pesq_wb": 4.16699880361557,
+    "stoi": 0.9932870249393618,
+    "levels": {
+      "rms_gain_ratio": 0.9726897774871935,
+      "reference_normalized_squared_error": 0.007498618971013376
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.633659023401211,
+    "pesq_wb": 1.443768658571773,
+    "stoi": 0.9076072839613774
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.612864223731279,
+    "pesq_wb": 4.284969707330068,
+    "stoi": 0.9893962414969711,
+    "levels": {
+      "rms_gain_ratio": 0.663218446514133,
+      "reference_normalized_squared_error": 0.14016504609084796
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.9043098294766532,
+    "pesq_wb": 1.2596484273672104,
+    "stoi": 0.8724469015557269
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.17939026025902,
+    "pesq_wb": 4.639424085617065,
+    "stoi": 0.999867610183987,
+    "levels": {
+      "rms_gain_ratio": 0.9898758876763386,
+      "reference_normalized_squared_error": 0.0012938231652255985
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9199119362072593,
+    "pesq_wb": 1.2468960583209991,
+    "stoi": 0.8330520613007332
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.41009988956233,
+    "pesq_wb": 4.145532210667928,
+    "stoi": 0.9918182224544762,
+    "levels": {
+      "rms_gain_ratio": 0.9769319837061733,
+      "reference_normalized_squared_error": 0.007730355656604459
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.913293678198313,
+    "pesq_wb": 1.4723968075381384,
+    "stoi": 0.9112731861488265
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.5175508742091,
+    "pesq_wb": 4.266277313232422,
+    "stoi": 0.9892368968205559,
+    "levels": {
+      "rms_gain_ratio": 0.6630756011145277,
+      "reference_normalized_squared_error": 0.14070116766450322
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.5876635388762828,
+    "pesq_wb": 1.292061060667038,
+    "stoi": 0.8781427162471309
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.076579866324174,
+    "pesq_wb": 4.636744419733684,
+    "stoi": 0.9997868564006328,
+    "levels": {
+      "rms_gain_ratio": 0.9896462043328413,
+      "reference_normalized_squared_error": 0.0016570318096627453
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.270960297403659,
+    "pesq_wb": 1.2562165839804544,
+    "stoi": 0.8309018910586372
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.284659179683985,
+    "pesq_wb": 4.166278978188832,
+    "stoi": 0.9924633988541469,
+    "levels": {
+      "rms_gain_ratio": 0.97132464013506,
+      "reference_normalized_squared_error": 0.007694032120270376
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 6.037897172419315,
+    "pesq_wb": 1.4746156997150845,
+    "stoi": 0.9100756225387853
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.408863024915078,
+    "pesq_wb": 4.266824781894684,
+    "stoi": 0.9888834581972593,
+    "levels": {
+      "rms_gain_ratio": 0.6680726829408655,
+      "reference_normalized_squared_error": 0.13825558888405046
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.0629948636735342,
+    "pesq_wb": 1.3075845390558243,
+    "stoi": 0.8769765537692308
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 39.48092377185687,
+    "pesq_wb": 4.636956016222636,
+    "stoi": 0.9998449682365619,
+    "levels": {
+      "rms_gain_ratio": 0.989524800150714,
+      "reference_normalized_squared_error": 0.001202193281636738
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.3844896394747133,
+    "pesq_wb": 1.2471940053833857,
+    "stoi": 0.8288085138985432
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 22.83803153719464,
+    "pesq_wb": 4.121174891789754,
+    "stoi": 0.9924717507435394,
+    "levels": {
+      "rms_gain_ratio": 0.9688407270482976,
+      "reference_normalized_squared_error": 0.008817427027417666
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.926928706189383,
+    "pesq_wb": 1.4721453537543614,
+    "stoi": 0.9072348274706373
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.360308076511222,
+    "pesq_wb": 4.2795462012290955,
+    "stoi": 0.9891069851256459,
+    "levels": {
+      "rms_gain_ratio": 0.671476046851459,
+      "reference_normalized_squared_error": 0.1361668487447105
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.2746409155107745,
+    "pesq_wb": 1.3141712811258104,
+    "stoi": 0.8753236497249431
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 38.06556720662653,
+    "pesq_wb": 4.634012699127197,
+    "stoi": 0.9998280266242857,
+    "levels": {
+      "rms_gain_ratio": 0.9881177272047973,
+      "reference_normalized_squared_error": 0.0017704555011405422
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6753946759697735,
+    "pesq_wb": 1.2620078888204362,
+    "stoi": 0.8301987122502137
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.42694121268336,
+    "pesq_wb": 4.1761724551518755,
+    "stoi": 0.9920173017472419,
+    "levels": {
+      "rms_gain_ratio": 0.9780524980182673,
+      "reference_normalized_squared_error": 0.008010417274624376
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.662647870784866,
+    "pesq_wb": 1.479450859957271,
+    "stoi": 0.9083413210713611
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.690185692555422,
+    "pesq_wb": 4.272852261861165,
+    "stoi": 0.9901997240527177,
+    "levels": {
+      "rms_gain_ratio": 0.6627693526667988,
+      "reference_normalized_squared_error": 0.14072910657015977
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.5337906032088586,
+    "pesq_wb": 1.3188946263657675,
+    "stoi": 0.8799461236783723
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.30319400943609,
+    "pesq_wb": 4.6367760101954145,
+    "stoi": 0.9997892136502281,
+    "levels": {
+      "rms_gain_ratio": 0.9890871715806467,
+      "reference_normalized_squared_error": 0.0017588991320617489
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.7717152803946576,
+    "pesq_wb": 1.255976312690311,
+    "stoi": 0.8323181483929916
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 22.67776522670714,
+    "pesq_wb": 4.074384609858195,
+    "stoi": 0.9915654237997457,
+    "levels": {
+      "rms_gain_ratio": 0.9702275517728262,
+      "reference_normalized_squared_error": 0.009064643244853381
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.907949917232029,
+    "pesq_wb": 1.4802028801706102,
+    "stoi": 0.9110899722977867
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.14600638453601,
+    "pesq_wb": 4.250065644582112,
+    "stoi": 0.988886883509081,
+    "levels": {
+      "rms_gain_ratio": 0.6654209529245314,
+      "reference_normalized_squared_error": 0.14218390202807238
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.494049603181834,
+    "pesq_wb": 1.3147389325830672,
+    "stoi": 0.882469799190083
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 38.66342725320814,
+    "pesq_wb": 4.636640151341756,
+    "stoi": 0.9997743927803325,
+    "levels": {
+      "rms_gain_ratio": 0.987874439261477,
+      "reference_normalized_squared_error": 0.0019529766972374964
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 25.238856391595537,
+    "pesq_wb": 3.623137359817823,
+    "stoi": 0.9875437063752821
+  },
+  {
+    "room_id": "reference",
+    "rt": 0,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 30.94535042893055,
+    "pesq_wb": 3.6844383743074207,
+    "stoi": 0.9880483931824726
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.0535299138838237,
+    "pesq_wb": 1.2664987941582997,
+    "stoi": 0.6999447716210769
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.277896272657992,
+    "pesq_wb": 3.093078315258026,
+    "stoi": 0.9502848491968807,
+    "levels": {
+      "rms_gain_ratio": 0.8417765738989699,
+      "reference_normalized_squared_error": 0.0843284247571653
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.9562747134536957,
+    "pesq_wb": 1.3000160091453128,
+    "stoi": 0.7807857728049993
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.230047980670413,
+    "pesq_wb": 3.4992307225863137,
+    "stoi": 0.9559038074301421,
+    "levels": {
+      "rms_gain_ratio": 0.3735579990294064,
+      "reference_normalized_squared_error": 0.4518518871737241
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.5383018445279186,
+    "pesq_wb": 1.5498810675409105,
+    "stoi": 0.7568313471410172
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 19.381778981450484,
+    "pesq_wb": 4.432228644688924,
+    "stoi": 0.9877153493709527,
+    "levels": {
+      "rms_gain_ratio": 0.8927395559796961,
+      "reference_normalized_squared_error": 0.05873639153786517
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.2669277667586002,
+    "pesq_wb": 1.2551126347647772,
+    "stoi": 0.725120345588895
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.841619582453298,
+    "pesq_wb": 3.1350013812383017,
+    "stoi": 0.9576378240857144,
+    "levels": {
+      "rms_gain_ratio": 0.8462333722891257,
+      "reference_normalized_squared_error": 0.07572662957904498
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.2562710380489865,
+    "pesq_wb": 1.292599191268285,
+    "stoi": 0.7921998624743486
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.05796858543087,
+    "pesq_wb": 3.509579380353292,
+    "stoi": 0.9568400354834297,
+    "levels": {
+      "rms_gain_ratio": 0.37026030660439063,
+      "reference_normalized_squared_error": 0.45702170963438116
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.158998583932253,
+    "pesq_wb": 1.4525002108679876,
+    "stoi": 0.7757797893760725
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 21.404438043835935,
+    "pesq_wb": 4.4610002636909485,
+    "stoi": 0.990125392731991,
+    "levels": {
+      "rms_gain_ratio": 0.9011933051251866,
+      "reference_normalized_squared_error": 0.04929766140404209
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.6188619336242014,
+    "pesq_wb": 1.2723056740230985,
+    "stoi": 0.7107762182000156
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.771668319447537,
+    "pesq_wb": 3.043805162111918,
+    "stoi": 0.9504913129400676,
+    "levels": {
+      "rms_gain_ratio": 0.8224088765305219,
+      "reference_normalized_squared_error": 0.09421389904056443
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.0315446259872565,
+    "pesq_wb": 1.3110873765415616,
+    "stoi": 0.784179683969318
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.999417484817106,
+    "pesq_wb": 3.546203056971232,
+    "stoi": 0.9564921468249462,
+    "levels": {
+      "rms_gain_ratio": 0.35531365458847475,
+      "reference_normalized_squared_error": 0.4743662045364368
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.9617687220505131,
+    "pesq_wb": 1.5454471740457747,
+    "stoi": 0.7626280163029675
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.97721853278652,
+    "pesq_wb": 4.421112974484761,
+    "stoi": 0.9876739537011591,
+    "levels": {
+      "rms_gain_ratio": 0.8777542279336009,
+      "reference_normalized_squared_error": 0.06643362557745282
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.948206097725331,
+    "pesq_wb": 1.0783926414118872,
+    "stoi": 0.66449652068718
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.79598157060967,
+    "pesq_wb": 4.152779479821523,
+    "stoi": 0.9877978076003738,
+    "levels": {
+      "rms_gain_ratio": 0.9490855821655964,
+      "reference_normalized_squared_error": 0.02628905857439674
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.357024784765872,
+    "pesq_wb": 1.0861912717421849,
+    "stoi": 0.7045845358875079
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.7771704407383,
+    "pesq_wb": 3.6389690240224204,
+    "stoi": 0.9629808031144864,
+    "levels": {
+      "rms_gain_ratio": 0.47371073118241186,
+      "reference_normalized_squared_error": 0.33983120570148895
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.0831327408756817,
+    "pesq_wb": 1.0663847476243973,
+    "stoi": 0.6934669468361475
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 28.84884767132479,
+    "pesq_wb": 4.558598319689433,
+    "stoi": 0.9965158802941029,
+    "levels": {
+      "rms_gain_ratio": 0.966520357696619,
+      "reference_normalized_squared_error": 0.014253628924611891
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.501649449267954,
+    "pesq_wb": 1.0485352045959897,
+    "stoi": 0.6990472796544354
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999997,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.3646308066296367,
+    "pesq_wb": 1.2232512633005779,
+    "stoi": 0.7623158273976871
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 19.87818400369761,
+    "pesq_wb": 3.982837120691935,
+    "stoi": 0.987498013191297,
+    "levels": {
+      "rms_gain_ratio": 0.9434081655132073,
+      "reference_normalized_squared_error": 0.016794444875218188
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.336912570060245,
+    "pesq_wb": 1.3175647026962705,
+    "stoi": 0.8440034945089229
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.462389182609485,
+    "pesq_wb": 3.7822885314623513,
+    "stoi": 0.9708092501997464,
+    "levels": {
+      "rms_gain_ratio": 0.45712199850777235,
+      "reference_normalized_squared_error": 0.3479771139630718
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.3336410227263027,
+    "pesq_wb": 1.3291808648241892,
+    "stoi": 0.8194753142676481
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 32.28233510270504,
+    "pesq_wb": 4.610501925150554,
+    "stoi": 0.9992091233743506,
+    "levels": {
+      "rms_gain_ratio": 0.977016454706879,
+      "reference_normalized_squared_error": 0.003503734106039424
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.7838470567759555,
+    "pesq_wb": 1.2292317748069763,
+    "stoi": 0.7657893372468791
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 20.05958034967378,
+    "pesq_wb": 3.9628204902013144,
+    "stoi": 0.9871846419620697,
+    "levels": {
+      "rms_gain_ratio": 0.9512400321940396,
+      "reference_normalized_squared_error": 0.015772322368854657
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.623657294601587,
+    "pesq_wb": 1.3301519685321384,
+    "stoi": 0.8479865682228989
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.492680058492976,
+    "pesq_wb": 3.8306844830513,
+    "stoi": 0.9726090886255752,
+    "levels": {
+      "rms_gain_ratio": 0.46284131530519407,
+      "reference_normalized_squared_error": 0.34142076831403556
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.151877362292763,
+    "pesq_wb": 1.3498499542474747,
+    "stoi": 0.8251920229852578
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 32.755011103181,
+    "pesq_wb": 4.610430598258972,
+    "stoi": 0.9992971903104447,
+    "levels": {
+      "rms_gain_ratio": 0.978583815052691,
+      "reference_normalized_squared_error": 0.0033468062415389975
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.22402438020095,
+    "pesq_wb": 1.2306182665957346,
+    "stoi": 0.7642946634397091
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 19.53201870982619,
+    "pesq_wb": 3.945355931917826,
+    "stoi": 0.9863207679675078,
+    "levels": {
+      "rms_gain_ratio": 0.9421188973289741,
+      "reference_normalized_squared_error": 0.017639363527329525
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.739231760166778,
+    "pesq_wb": 1.337903971473376,
+    "stoi": 0.8472124562217392
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.368410994031205,
+    "pesq_wb": 3.8168137669563293,
+    "stoi": 0.971680417168079,
+    "levels": {
+      "rms_gain_ratio": 0.45747382271753456,
+      "reference_normalized_squared_error": 0.34801840643855303
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.538732364666446,
+    "pesq_wb": 1.3765851424800024,
+    "stoi": 0.8237976933173754
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 31.541624016037364,
+    "pesq_wb": 4.609236518541972,
+    "stoi": 0.999216413168362,
+    "levels": {
+      "rms_gain_ratio": 0.9758536327109023,
+      "reference_normalized_squared_error": 0.003580504348022021
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.9084325440033372,
+    "pesq_wb": 1.2492740899324417,
+    "stoi": 0.7617964577392241
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 19.619755771165234,
+    "pesq_wb": 3.901267886161804,
+    "stoi": 0.9858988635821632,
+    "levels": {
+      "rms_gain_ratio": 0.9411148449725902,
+      "reference_normalized_squared_error": 0.017549766274865587
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.67344905256476,
+    "pesq_wb": 1.3360879355006747,
+    "stoi": 0.8445469250676059
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.434957771961566,
+    "pesq_wb": 3.800052762031555,
+    "stoi": 0.9718777105965523,
+    "levels": {
+      "rms_gain_ratio": 0.4553308482159862,
+      "reference_normalized_squared_error": 0.34923403549864657
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.666563661502498,
+    "pesq_wb": 1.3867385420534346,
+    "stoi": 0.8214619718145177
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 31.645206721843,
+    "pesq_wb": 4.61291229724884,
+    "stoi": 0.9993447852485362,
+    "levels": {
+      "rms_gain_ratio": 0.9758128720836398,
+      "reference_normalized_squared_error": 0.003400479825025315
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4782295791171867,
+    "pesq_wb": 1.2404042614830866,
+    "stoi": 0.7613201531995192
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 20.057232033274282,
+    "pesq_wb": 3.9707855582237244,
+    "stoi": 0.9866501701824598,
+    "levels": {
+      "rms_gain_ratio": 0.9499747944326574,
+      "reference_normalized_squared_error": 0.016453136703828707
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.423956512173654,
+    "pesq_wb": 1.3326817403237026,
+    "stoi": 0.8414096408568653
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.451348994413728,
+    "pesq_wb": 3.8392456769943237,
+    "stoi": 0.9727028102864316,
+    "levels": {
+      "rms_gain_ratio": 0.46402340320727725,
+      "reference_normalized_squared_error": 0.34034093620600997
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.014667851130309,
+    "pesq_wb": 1.3805726054641936,
+    "stoi": 0.8232501998519326
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 32.68520117307102,
+    "pesq_wb": 4.615207473436992,
+    "stoi": 0.999263375114097,
+    "levels": {
+      "rms_gain_ratio": 0.9773431307267013,
+      "reference_normalized_squared_error": 0.0038824869684761384
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.5313628515074533,
+    "pesq_wb": 1.2381198124753103,
+    "stoi": 0.7634958604085454
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 19.389424136934483,
+    "pesq_wb": 3.8336464961369834,
+    "stoi": 0.9853340612643042,
+    "levels": {
+      "rms_gain_ratio": 0.9428893233906256,
+      "reference_normalized_squared_error": 0.01807491494896242
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.5742194844289354,
+    "pesq_wb": 1.335642056332694,
+    "stoi": 0.8469664681554034
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.398049878127408,
+    "pesq_wb": 3.82092813650767,
+    "stoi": 0.9715319989213921,
+    "levels": {
+      "rms_gain_ratio": 0.4571056468173939,
+      "reference_normalized_squared_error": 0.34821391565630994
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.9355032807440073,
+    "pesq_wb": 1.3812015586429172,
+    "stoi": 0.8280309371545156
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 31.661640912557953,
+    "pesq_wb": 4.61355706055959,
+    "stoi": 0.9992803986034571,
+    "levels": {
+      "rms_gain_ratio": 0.975366374844521,
+      "reference_normalized_squared_error": 0.0037686552773964106
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 10.107528230744245,
+    "pesq_wb": 2.4603008694118924,
+    "stoi": 0.9442359426168453
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.15,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 18.564172679882905,
+    "pesq_wb": 2.3681291424565845,
+    "stoi": 0.9517523584137566
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.688090932147705,
+    "pesq_wb": 1.1423908952209685,
+    "stoi": 0.4989816425220993
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.61819857388294,
+    "pesq_wb": 2.021190414826075,
+    "stoi": 0.8508561573291233,
+    "levels": {
+      "rms_gain_ratio": 0.6627994870419694,
+      "reference_normalized_squared_error": 0.2522102299721479
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.7605305769874784,
+    "pesq_wb": 1.133706412381596,
+    "stoi": 0.5863920377399178
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 5.235267197632885,
+    "pesq_wb": 2.6893589893976846,
+    "stoi": 0.8929116225017153,
+    "levels": {
+      "rms_gain_ratio": 0.3335855659843514,
+      "reference_normalized_squared_error": 0.5290839077247993
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.9282071138401864,
+    "pesq_wb": 1.3337062961525388,
+    "stoi": 0.5674227527303278
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.189518572606561,
+    "pesq_wb": 3.872004191080729,
+    "stoi": 0.9314217618913313,
+    "levels": {
+      "rms_gain_ratio": 0.698504738890497,
+      "reference_normalized_squared_error": 0.22773515208323572
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -2.810859303204307,
+    "pesq_wb": 1.165912590093083,
+    "stoi": 0.5374799537102037
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.497581875399971,
+    "pesq_wb": 2.1686953008174896,
+    "stoi": 0.8730929731763061,
+    "levels": {
+      "rms_gain_ratio": 0.6835330718588163,
+      "reference_normalized_squared_error": 0.21987916748139988
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.9645088571375808,
+    "pesq_wb": 1.1422052532434464,
+    "stoi": 0.596939571277673
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 5.358883402497184,
+    "pesq_wb": 2.771730293830236,
+    "stoi": 0.8998336940692998,
+    "levels": {
+      "rms_gain_ratio": 0.3296114397181569,
+      "reference_normalized_squared_error": 0.5313820999831557
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.17128195447437,
+    "pesq_wb": 1.325371844900979,
+    "stoi": 0.5878133905403322
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 10.359390442738405,
+    "pesq_wb": 3.995447119077047,
+    "stoi": 0.9446206633516178,
+    "levels": {
+      "rms_gain_ratio": 0.7280141412347083,
+      "reference_normalized_squared_error": 0.18887470420423735
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.533329872534898,
+    "pesq_wb": 1.1553345306052103,
+    "stoi": 0.5141664093497715
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.269205828617743,
+    "pesq_wb": 2.004254639148712,
+    "stoi": 0.8519090993799914,
+    "levels": {
+      "rms_gain_ratio": 0.6406180287776966,
+      "reference_normalized_squared_error": 0.26583446501256014
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.4300924442453737,
+    "pesq_wb": 1.1406752930747137,
+    "stoi": 0.5898028339849931
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 5.268068203916067,
+    "pesq_wb": 2.7107718090216317,
+    "stoi": 0.8927075255252596,
+    "levels": {
+      "rms_gain_ratio": 0.32058000126954417,
+      "reference_normalized_squared_error": 0.5431088012636441
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.8474233802532,
+    "pesq_wb": 1.3472743696636624,
+    "stoi": 0.5736235656276938
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.58746601669238,
+    "pesq_wb": 3.8437532981236777,
+    "stoi": 0.9307369569795759,
+    "levels": {
+      "rms_gain_ratio": 0.6767210403574007,
+      "reference_normalized_squared_error": 0.24107549340896053
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -6.920769685811856,
+    "pesq_wb": 1.1113814264535904,
+    "stoi": 0.49188425887995696
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.406374229113117,
+    "pesq_wb": 2.803571879863739,
+    "stoi": 0.9174268098307327,
+    "levels": {
+      "rms_gain_ratio": 0.8264101541524399,
+      "reference_normalized_squared_error": 0.13187286128213405
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.3207386088755433,
+    "pesq_wb": 1.077060482568211,
+    "stoi": 0.554220936565303
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.008170394871576,
+    "pesq_wb": 3.233337958653768,
+    "stoi": 0.9246468370034231,
+    "levels": {
+      "rms_gain_ratio": 0.39135274347242555,
+      "reference_normalized_squared_error": 0.44434768835601096
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -6.379396980070556,
+    "pesq_wb": 1.0930228730042775,
+    "stoi": 0.5460411674318963
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 15.010675464516273,
+    "pesq_wb": 4.215744157632192,
+    "stoi": 0.9662044221468541,
+    "levels": {
+      "rms_gain_ratio": 0.8461511903791861,
+      "reference_normalized_squared_error": 0.1100079946679401
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.2377120865169182,
+    "pesq_wb": 1.06228496796555,
+    "stoi": 0.5941534096626484
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999996,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.310443114668929,
+    "pesq_wb": 1.1795569492710962,
+    "stoi": 0.5792019070932378
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.619822127660784,
+    "pesq_wb": 2.619797001282374,
+    "stoi": 0.9263286030153483,
+    "levels": {
+      "rms_gain_ratio": 0.826347594640584,
+      "reference_normalized_squared_error": 0.09848835271042901
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6588836463799699,
+    "pesq_wb": 1.1395794947942097,
+    "stoi": 0.6317927425915885
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.968540842874808,
+    "pesq_wb": 3.283340573310852,
+    "stoi": 0.9309053765920994,
+    "levels": {
+      "rms_gain_ratio": 0.3998679998707899,
+      "reference_normalized_squared_error": 0.4361912437355029
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6208853751733971,
+    "pesq_wb": 1.2982057399219937,
+    "stoi": 0.6272432922087481
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.38396446650562,
+    "pesq_wb": 4.472282767295837,
+    "stoi": 0.9807837575077593,
+    "levels": {
+      "rms_gain_ratio": 0.8745846433952855,
+      "reference_normalized_squared_error": 0.06276001392918694
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.46372958071763964,
+    "pesq_wb": 1.1645726164182026,
+    "stoi": 0.5861361583830718
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.957821820431448,
+    "pesq_wb": 2.721431384483973,
+    "stoi": 0.9341045743969749,
+    "levels": {
+      "rms_gain_ratio": 0.8400403815008834,
+      "reference_normalized_squared_error": 0.08942082567737397
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.8885985399937278,
+    "pesq_wb": 1.14159566991859,
+    "stoi": 0.6373035066804661
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.064976423608169,
+    "pesq_wb": 3.3192519346872964,
+    "stoi": 0.9334384129220711,
+    "levels": {
+      "rms_gain_ratio": 0.40571245757800883,
+      "reference_normalized_squared_error": 0.4285460564556845
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4972962956449911,
+    "pesq_wb": 1.3079124291737874,
+    "stoi": 0.6339184918503026
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.008624864304377,
+    "pesq_wb": 4.496269981066386,
+    "stoi": 0.9840815435377589,
+    "levels": {
+      "rms_gain_ratio": 0.8862011644931065,
+      "reference_normalized_squared_error": 0.054647428211146536
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.042031492959265386,
+    "pesq_wb": 1.1639639056391187,
+    "stoi": 0.5856373939416946
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.525503986882791,
+    "pesq_wb": 2.6440904239813485,
+    "stoi": 0.9282082226128772,
+    "levels": {
+      "rms_gain_ratio": 0.8233524712220679,
+      "reference_normalized_squared_error": 0.09926733357367308
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.0033575084706317,
+    "pesq_wb": 1.1448910468154483,
+    "stoi": 0.6374000270841014
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.997036191933397,
+    "pesq_wb": 3.3027769525845847,
+    "stoi": 0.9315469044631178,
+    "levels": {
+      "rms_gain_ratio": 0.3964685656357619,
+      "reference_normalized_squared_error": 0.43863159516419037
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4987676255884315,
+    "pesq_wb": 1.3290059483713574,
+    "stoi": 0.6321704366289507
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.112300197261586,
+    "pesq_wb": 4.476769685745239,
+    "stoi": 0.9812336556399922,
+    "levels": {
+      "rms_gain_ratio": 0.8722316609535713,
+      "reference_normalized_squared_error": 0.06306655338947549
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.46260198537639163,
+    "pesq_wb": 1.1870568560229406,
+    "stoi": 0.581426410879826
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.720978992935924,
+    "pesq_wb": 2.627344399690628,
+    "stoi": 0.9281424802448256,
+    "levels": {
+      "rms_gain_ratio": 0.8265839254469999,
+      "reference_normalized_squared_error": 0.09658755589604522
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9440709875706774,
+    "pesq_wb": 1.1439289781782362,
+    "stoi": 0.6352934753582312
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.065042137447933,
+    "pesq_wb": 3.331620156764984,
+    "stoi": 0.9329758645709071,
+    "levels": {
+      "rms_gain_ratio": 0.39482297093038693,
+      "reference_normalized_squared_error": 0.4395742782291878
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.6118603148461779,
+    "pesq_wb": 1.3361235360304515,
+    "stoi": 0.6294900422872954
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.58849100553618,
+    "pesq_wb": 4.48182475566864,
+    "stoi": 0.9814796429428118,
+    "levels": {
+      "rms_gain_ratio": 0.8759488654344505,
+      "reference_normalized_squared_error": 0.059938121534743205
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.1153900274673527,
+    "pesq_wb": 1.1723299043046103,
+    "stoi": 0.5791535022805109
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.562009654886914,
+    "pesq_wb": 2.743553638458252,
+    "stoi": 0.932583291573955,
+    "levels": {
+      "rms_gain_ratio": 0.830032553123112,
+      "reference_normalized_squared_error": 0.0979708332565367
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.8177173003688224,
+    "pesq_wb": 1.1412157515684764,
+    "stoi": 0.6320583053672597
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.184874401066106,
+    "pesq_wb": 3.348680396874746,
+    "stoi": 0.9334814408205765,
+    "levels": {
+      "rms_gain_ratio": 0.3992062836170979,
+      "reference_normalized_squared_error": 0.4338176481816336
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1554918060698236,
+    "pesq_wb": 1.3075329860051472,
+    "stoi": 0.6275172251019682
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.06932729876621,
+    "pesq_wb": 4.484963417053223,
+    "stoi": 0.9816341590259853,
+    "levels": {
+      "rms_gain_ratio": 0.8761928510661267,
+      "reference_normalized_squared_error": 0.06371038230649026
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.7279110348210802,
+    "pesq_wb": 1.1638093888759613,
+    "stoi": 0.5799929650981659
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.590967909677657,
+    "pesq_wb": 2.6254204511642456,
+    "stoi": 0.9294470980884514,
+    "levels": {
+      "rms_gain_ratio": 0.8263599726867858,
+      "reference_normalized_squared_error": 0.09825072228195285
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.8811453294140711,
+    "pesq_wb": 1.1426098545392354,
+    "stoi": 0.6360973648382166
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.071141826482489,
+    "pesq_wb": 3.3511630296707153,
+    "stoi": 0.9335084743638414,
+    "levels": {
+      "rms_gain_ratio": 0.3915825030139209,
+      "reference_normalized_squared_error": 0.4425240367599789
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1098902981673493,
+    "pesq_wb": 1.320160706837972,
+    "stoi": 0.6312152838720352
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.34983864855041,
+    "pesq_wb": 4.485547065734863,
+    "stoi": 0.9815481659123724,
+    "levels": {
+      "rms_gain_ratio": 0.8752299616509878,
+      "reference_normalized_squared_error": 0.061965062730332
+    }
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.529139314953815,
+    "pesq_wb": 1.4260136054621801,
+    "stoi": 0.7856481016548078
+  },
+  {
+    "room_id": "reference",
+    "rt": 0.35,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 10.171132786466634,
+    "pesq_wb": 1.5479155845112271,
+    "stoi": 0.8027329373751357
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.056393757735286,
+    "pesq_wb": 1.2809057335058849,
+    "stoi": 0.7894197056186244
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.251663977089002,
+    "pesq_wb": 3.583481470743815,
+    "stoi": 0.9800095500721372,
+    "levels": {
+      "rms_gain_ratio": 0.9107793995317873,
+      "reference_normalized_squared_error": 0.03781815040672336
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.640237175659184,
+    "pesq_wb": 1.4129918432897992,
+    "stoi": 0.8644306462613479
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.404692279094881,
+    "pesq_wb": 4.176371554533641,
+    "stoi": 0.9851964323198378,
+    "levels": {
+      "rms_gain_ratio": 0.6020981922048515,
+      "reference_normalized_squared_error": 0.19206770625197114
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.757915417917817,
+    "pesq_wb": 1.6090472572379642,
+    "stoi": 0.8451149472200594
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 27.371484022853696,
+    "pesq_wb": 4.532178521156311,
+    "stoi": 0.9968825431333487,
+    "levels": {
+      "rms_gain_ratio": 0.954998939769482,
+      "reference_normalized_squared_error": 0.024732852182478355
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4429956000709736,
+    "pesq_wb": 1.2483470804161496,
+    "stoi": 0.8065533948651501
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 18.136949877474304,
+    "pesq_wb": 3.6405385732650757,
+    "stoi": 0.9789682785544391,
+    "levels": {
+      "rms_gain_ratio": 0.9074789382766576,
+      "reference_normalized_squared_error": 0.03815493809296186
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.824513469309576,
+    "pesq_wb": 1.3768199963702097,
+    "stoi": 0.877836231418406
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.247136686624103,
+    "pesq_wb": 4.14135221640269,
+    "stoi": 0.9824743555833254,
+    "levels": {
+      "rms_gain_ratio": 0.606776264906289,
+      "reference_normalized_squared_error": 0.19066599688076555
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.427105711379851,
+    "pesq_wb": 1.4160592688454523,
+    "stoi": 0.855558530656655
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 27.339275138790935,
+    "pesq_wb": 4.524262587229411,
+    "stoi": 0.9962648784962145,
+    "levels": {
+      "rms_gain_ratio": 0.9531736044885776,
+      "reference_normalized_squared_error": 0.024946463988871972
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.7432471227994626,
+    "pesq_wb": 1.2894251777066126,
+    "stoi": 0.7964757810509773
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.642136158161076,
+    "pesq_wb": 3.558593819538752,
+    "stoi": 0.9781383053909608,
+    "levels": {
+      "rms_gain_ratio": 0.9005809799235583,
+      "reference_normalized_squared_error": 0.04288959232765107
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.750684207871347,
+    "pesq_wb": 1.408048293656773,
+    "stoi": 0.8679465832563352
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.20641748545354,
+    "pesq_wb": 4.166084408760071,
+    "stoi": 0.9834630217294965,
+    "levels": {
+      "rms_gain_ratio": 0.5950616701404838,
+      "reference_normalized_squared_error": 0.19973676473841964
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.522986345109178,
+    "pesq_wb": 1.5455380462937884,
+    "stoi": 0.8500931399194206
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 26.257058757223657,
+    "pesq_wb": 4.560012539227803,
+    "stoi": 0.9960074748986715,
+    "levels": {
+      "rms_gain_ratio": 0.9482100788508397,
+      "reference_normalized_squared_error": 0.02879179394193715
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.270932879648359,
+    "pesq_wb": 1.0965994513697095,
+    "stoi": 0.7350846210085585
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 25.127378982182123,
+    "pesq_wb": 4.412183006604512,
+    "stoi": 0.9962159050381653,
+    "levels": {
+      "rms_gain_ratio": 0.984662516080443,
+      "reference_normalized_squared_error": 0.00822426810913211
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.18374892520081104,
+    "pesq_wb": 1.1220857716268964,
+    "stoi": 0.7655712714185879
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.631964011138415,
+    "pesq_wb": 4.250474592049916,
+    "stoi": 0.9879694743885031,
+    "levels": {
+      "rms_gain_ratio": 0.6729052517502451,
+      "reference_normalized_squared_error": 0.13458105654583088
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -2.1631344228020932,
+    "pesq_wb": 1.060093058480157,
+    "stoi": 0.7607206204229838
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 46.48734915921927,
+    "pesq_wb": 4.6190623839696245,
+    "stoi": 0.9990085756739581,
+    "levels": {
+      "rms_gain_ratio": 0.9896200809932543,
+      "reference_normalized_squared_error": 0.003267635424901542
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.750686600267144,
+    "pesq_wb": 1.046560178200404,
+    "stoi": 0.7530615372589679
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999997,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6802419346828251,
+    "pesq_wb": 1.2275281018680997,
+    "stoi": 0.8285885894571645
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.49804869586977,
+    "pesq_wb": 4.16699880361557,
+    "stoi": 0.9932870249393618,
+    "levels": {
+      "rms_gain_ratio": 0.9726897774871935,
+      "reference_normalized_squared_error": 0.007498618971013376
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.633659023401211,
+    "pesq_wb": 1.443768658571773,
+    "stoi": 0.9076072839613774
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.612864223731279,
+    "pesq_wb": 4.284969707330068,
+    "stoi": 0.9893962414969711,
+    "levels": {
+      "rms_gain_ratio": 0.663218446514133,
+      "reference_normalized_squared_error": 0.14016504609084796
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.9043098294766532,
+    "pesq_wb": 1.2596484273672104,
+    "stoi": 0.8724469015557269
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.17939026025902,
+    "pesq_wb": 4.639424085617065,
+    "stoi": 0.999867610183987,
+    "levels": {
+      "rms_gain_ratio": 0.9898758876763386,
+      "reference_normalized_squared_error": 0.0012938231652255985
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9199119362072593,
+    "pesq_wb": 1.2468960583209991,
+    "stoi": 0.8330520613007332
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.41009988956233,
+    "pesq_wb": 4.145532210667928,
+    "stoi": 0.9918182224544762,
+    "levels": {
+      "rms_gain_ratio": 0.9769319837061733,
+      "reference_normalized_squared_error": 0.007730355656604459
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.913293678198313,
+    "pesq_wb": 1.4723968075381384,
+    "stoi": 0.9112731861488265
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.5175508742091,
+    "pesq_wb": 4.266277313232422,
+    "stoi": 0.9892368968205559,
+    "levels": {
+      "rms_gain_ratio": 0.6630756011145277,
+      "reference_normalized_squared_error": 0.14070116766450322
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.5876635388762828,
+    "pesq_wb": 1.292061060667038,
+    "stoi": 0.8781427162471309
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.076579866324174,
+    "pesq_wb": 4.636744419733684,
+    "stoi": 0.9997868564006328,
+    "levels": {
+      "rms_gain_ratio": 0.9896462043328413,
+      "reference_normalized_squared_error": 0.0016570318096627453
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.270960297403659,
+    "pesq_wb": 1.2562165839804544,
+    "stoi": 0.8309018910586372
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.284659179683985,
+    "pesq_wb": 4.166278978188832,
+    "stoi": 0.9924633988541469,
+    "levels": {
+      "rms_gain_ratio": 0.97132464013506,
+      "reference_normalized_squared_error": 0.007694032120270376
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 6.037897172419315,
+    "pesq_wb": 1.4746156997150845,
+    "stoi": 0.9100756225387853
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.408863024915078,
+    "pesq_wb": 4.266824781894684,
+    "stoi": 0.9888834581972593,
+    "levels": {
+      "rms_gain_ratio": 0.6680726829408655,
+      "reference_normalized_squared_error": 0.13825558888405046
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.0629948636735342,
+    "pesq_wb": 1.3075845390558243,
+    "stoi": 0.8769765537692308
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 39.48092377185687,
+    "pesq_wb": 4.636956016222636,
+    "stoi": 0.9998449682365619,
+    "levels": {
+      "rms_gain_ratio": 0.989524800150714,
+      "reference_normalized_squared_error": 0.001202193281636738
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.3844896394747133,
+    "pesq_wb": 1.2471940053833857,
+    "stoi": 0.8288085138985432
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 22.83803153719464,
+    "pesq_wb": 4.121174891789754,
+    "stoi": 0.9924717507435394,
+    "levels": {
+      "rms_gain_ratio": 0.9688407270482976,
+      "reference_normalized_squared_error": 0.008817427027417666
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.926928706189383,
+    "pesq_wb": 1.4721453537543614,
+    "stoi": 0.9072348274706373
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.360308076511222,
+    "pesq_wb": 4.2795462012290955,
+    "stoi": 0.9891069851256459,
+    "levels": {
+      "rms_gain_ratio": 0.671476046851459,
+      "reference_normalized_squared_error": 0.1361668487447105
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.2746409155107745,
+    "pesq_wb": 1.3141712811258104,
+    "stoi": 0.8753236497249431
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 38.06556720662653,
+    "pesq_wb": 4.634012699127197,
+    "stoi": 0.9998280266242857,
+    "levels": {
+      "rms_gain_ratio": 0.9881177272047973,
+      "reference_normalized_squared_error": 0.0017704555011405422
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6753946759697735,
+    "pesq_wb": 1.2620078888204362,
+    "stoi": 0.8301987122502137
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 23.42694121268336,
+    "pesq_wb": 4.1761724551518755,
+    "stoi": 0.9920173017472419,
+    "levels": {
+      "rms_gain_ratio": 0.9780524980182673,
+      "reference_normalized_squared_error": 0.008010417274624376
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.662647870784866,
+    "pesq_wb": 1.479450859957271,
+    "stoi": 0.9083413210713611
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.690185692555422,
+    "pesq_wb": 4.272852261861165,
+    "stoi": 0.9901997240527177,
+    "levels": {
+      "rms_gain_ratio": 0.6627693526667988,
+      "reference_normalized_squared_error": 0.14072910657015977
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.5337906032088586,
+    "pesq_wb": 1.3188946263657675,
+    "stoi": 0.8799461236783723
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 40.30319400943609,
+    "pesq_wb": 4.6367760101954145,
+    "stoi": 0.9997892136502281,
+    "levels": {
+      "rms_gain_ratio": 0.9890871715806467,
+      "reference_normalized_squared_error": 0.0017588991320617489
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.7717152803946576,
+    "pesq_wb": 1.255976312690311,
+    "stoi": 0.8323181483929916
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 22.67776522670714,
+    "pesq_wb": 4.074384609858195,
+    "stoi": 0.9915654237997457,
+    "levels": {
+      "rms_gain_ratio": 0.9702275517728262,
+      "reference_normalized_squared_error": 0.009064643244853381
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 5.907949917232029,
+    "pesq_wb": 1.4802028801706102,
+    "stoi": 0.9110899722977867
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.14600638453601,
+    "pesq_wb": 4.250065644582112,
+    "stoi": 0.988886883509081,
+    "levels": {
+      "rms_gain_ratio": 0.6654209529245314,
+      "reference_normalized_squared_error": 0.14218390202807238
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.494049603181834,
+    "pesq_wb": 1.3147389325830672,
+    "stoi": 0.882469799190083
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 38.66342725320814,
+    "pesq_wb": 4.636640151341756,
+    "stoi": 0.9997743927803325,
+    "levels": {
+      "rms_gain_ratio": 0.987874439261477,
+      "reference_normalized_squared_error": 0.0019529766972374964
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 25.238856391595537,
+    "pesq_wb": 3.623137359817823,
+    "stoi": 0.9875437063752821
+  },
+  {
+    "room_id": "new",
+    "rt": 0,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 30.94535042893055,
+    "pesq_wb": 3.6844383743074207,
+    "stoi": 0.9880483931824726
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.3374106968507513,
+    "pesq_wb": 1.225592972503768,
+    "stoi": 0.6413322577013405
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 10.872118564934043,
+    "pesq_wb": 2.7466115951538086,
+    "stoi": 0.933088372703431,
+    "levels": {
+      "rms_gain_ratio": 0.7836734425268425,
+      "reference_normalized_squared_error": 0.1358482018997926
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.3941247012475655,
+    "pesq_wb": 1.267549408806695,
+    "stoi": 0.7209608759992848
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.057506571356973,
+    "pesq_wb": 2.8428696592648826,
+    "stoi": 0.9361538229390738,
+    "levels": {
+      "rms_gain_ratio": 0.38731833906354596,
+      "reference_normalized_squared_error": 0.46499113267284087
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.6787272454783642,
+    "pesq_wb": 1.5253780997461743,
+    "stoi": 0.7002121511325325
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.724965085124671,
+    "pesq_wb": 4.004568258921306,
+    "stoi": 0.9759318874315297,
+    "levels": {
+      "rms_gain_ratio": 0.8265051262513547,
+      "reference_normalized_squared_error": 0.10167406249068646
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.8144432602998122,
+    "pesq_wb": 1.2223259492052927,
+    "stoi": 0.6666960788106011
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.654663020566767,
+    "pesq_wb": 2.806497246026993,
+    "stoi": 0.9416642175120105,
+    "levels": {
+      "rms_gain_ratio": 0.7966323940370866,
+      "reference_normalized_squared_error": 0.11702804930260252
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4451836394688284,
+    "pesq_wb": 1.2748107297552957,
+    "stoi": 0.7315484808575997
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.2965935297155795,
+    "pesq_wb": 2.85396808385849,
+    "stoi": 0.9370990341560906,
+    "levels": {
+      "rms_gain_ratio": 0.37697688084669867,
+      "reference_normalized_squared_error": 0.4717724277081911
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9320548056445559,
+    "pesq_wb": 1.4409341547224257,
+    "stoi": 0.7156234999786949
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 15.122883776949202,
+    "pesq_wb": 4.057436486085256,
+    "stoi": 0.980016976652374,
+    "levels": {
+      "rms_gain_ratio": 0.8476680044304298,
+      "reference_normalized_squared_error": 0.08182830628072821
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.220650814334937,
+    "pesq_wb": 1.245298895570967,
+    "stoi": 0.6506037985459678
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 10.646665327058509,
+    "pesq_wb": 2.6891972919305167,
+    "stoi": 0.9317181255692129,
+    "levels": {
+      "rms_gain_ratio": 0.7717915924792322,
+      "reference_normalized_squared_error": 0.1418600337923899
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.262828655636633,
+    "pesq_wb": 1.2779418743318982,
+    "stoi": 0.7249126017355043
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.020967781984557,
+    "pesq_wb": 2.866271495819092,
+    "stoi": 0.9381172984987004,
+    "levels": {
+      "rms_gain_ratio": 0.3750729475927401,
+      "reference_normalized_squared_error": 0.47596374032262734
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.7303636134229357,
+    "pesq_wb": 1.5199888712830014,
+    "stoi": 0.7054994519190063
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 13.193970694316013,
+    "pesq_wb": 4.009085655212402,
+    "stoi": 0.9749309473737843,
+    "levels": {
+      "rms_gain_ratio": 0.8178583313826624,
+      "reference_normalized_squared_error": 0.10807309364226399
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -4.3519755634107025,
+    "pesq_wb": 1.1157303121354845,
+    "stoi": 0.6022863616917216
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 15.279783399777012,
+    "pesq_wb": 3.779524882634481,
+    "stoi": 0.9700041774765129,
+    "levels": {
+      "rms_gain_ratio": 0.9153386178189572,
+      "reference_normalized_squared_error": 0.05287639570829611
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.9746080652469082,
+    "pesq_wb": 1.1013830055793126,
+    "stoi": 0.650736393223503
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.501385158556864,
+    "pesq_wb": 3.349859813849131,
+    "stoi": 0.9558520373678624,
+    "levels": {
+      "rms_gain_ratio": 0.46377622258884843,
+      "reference_normalized_squared_error": 0.3634682254693999
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.077837065974886,
+    "pesq_wb": 1.1001917206578784,
+    "stoi": 0.642112906213374
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 20.944632929724865,
+    "pesq_wb": 4.363123277823131,
+    "stoi": 0.989611996522915,
+    "levels": {
+      "rms_gain_ratio": 0.9361711345514337,
+      "reference_normalized_squared_error": 0.03521736836684813
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.4985157380263874,
+    "pesq_wb": 1.0491914335224364,
+    "stoi": 0.6690004506197078
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999996,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.566233408375086,
+    "pesq_wb": 1.2440237651268642,
+    "stoi": 0.7087465406844736
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 16.934770885681957,
+    "pesq_wb": 3.558685064315796,
+    "stoi": 0.9741475600930213,
+    "levels": {
+      "rms_gain_ratio": 0.9147792025124405,
+      "reference_normalized_squared_error": 0.034807955998254723
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.9059021230755127,
+    "pesq_wb": 1.28108911216259,
+    "stoi": 0.7809913226472165
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.166529481585384,
+    "pesq_wb": 3.5086870193481445,
+    "stoi": 0.9608872866460164,
+    "levels": {
+      "rms_gain_ratio": 0.4693009216031256,
+      "reference_normalized_squared_error": 0.3538334795034188
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 2.833666894178459,
+    "pesq_wb": 1.3705838074286778,
+    "stoi": 0.7635263359792105
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 25.102397693754934,
+    "pesq_wb": 4.561497807502747,
+    "stoi": 0.9966305857997523,
+    "levels": {
+      "rms_gain_ratio": 0.9540614504772171,
+      "reference_normalized_squared_error": 0.013895774802112258
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.5353769797670466,
+    "pesq_wb": 1.2632199194696214,
+    "stoi": 0.7129865941337088
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 17.001840963090935,
+    "pesq_wb": 3.5703117648760476,
+    "stoi": 0.9756081487881048,
+    "levels": {
+      "rms_gain_ratio": 0.9226814677146157,
+      "reference_normalized_squared_error": 0.03321147546228865
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.175020015175953,
+    "pesq_wb": 1.2857002168893814,
+    "stoi": 0.7840082965350111
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.223561490934783,
+    "pesq_wb": 3.5324446757634482,
+    "stoi": 0.9616170280552495,
+    "levels": {
+      "rms_gain_ratio": 0.4754003819186414,
+      "reference_normalized_squared_error": 0.34792091164878136
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.4990410931097253,
+    "pesq_wb": 1.3881889184315999,
+    "stoi": 0.7678914813570495
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 25.228247026951227,
+    "pesq_wb": 4.567817211151123,
+    "stoi": 0.9970066550778437,
+    "levels": {
+      "rms_gain_ratio": 0.9560283305474261,
+      "reference_normalized_squared_error": 0.012835371251372725
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9396681104376755,
+    "pesq_wb": 1.262015966905488,
+    "stoi": 0.7110611609780852
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 16.618660015302634,
+    "pesq_wb": 3.5767726500829062,
+    "stoi": 0.9739052538222447,
+    "levels": {
+      "rms_gain_ratio": 0.9122660007159119,
+      "reference_normalized_squared_error": 0.036525557248138045
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.196745457970683,
+    "pesq_wb": 1.290560472342703,
+    "stoi": 0.7849081137588628
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.126801468906036,
+    "pesq_wb": 3.506971756617228,
+    "stoi": 0.9603680726648856,
+    "levels": {
+      "rms_gain_ratio": 0.4670160504386954,
+      "reference_normalized_squared_error": 0.3566731084433598
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.6182717638279036,
+    "pesq_wb": 1.41222664879428,
+    "stoi": 0.7673170620319936
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 24.424140182401445,
+    "pesq_wb": 4.557438492774963,
+    "stoi": 0.9967255230040536,
+    "levels": {
+      "rms_gain_ratio": 0.9510682212714935,
+      "reference_normalized_squared_error": 0.014220967163470455
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.8574260624484222,
+    "pesq_wb": 1.2769789497057598,
+    "stoi": 0.7100542653159577
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 16.758287311252378,
+    "pesq_wb": 3.4831699430942535,
+    "stoi": 0.973242142212232,
+    "levels": {
+      "rms_gain_ratio": 0.9112236913628863,
+      "reference_normalized_squared_error": 0.035855028906032455
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.193776707370095,
+    "pesq_wb": 1.2923780762486987,
+    "stoi": 0.7837849911762337
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.171660860699564,
+    "pesq_wb": 3.5302850802739463,
+    "stoi": 0.9619490210389222,
+    "levels": {
+      "rms_gain_ratio": 0.46414391681055295,
+      "reference_normalized_squared_error": 0.3588461938384784
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.7960713356745455,
+    "pesq_wb": 1.419581025838852,
+    "stoi": 0.7659916995750543
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 24.82379061066457,
+    "pesq_wb": 4.562306920687358,
+    "stoi": 0.9967823852835761,
+    "levels": {
+      "rms_gain_ratio": 0.9516308204501184,
+      "reference_normalized_squared_error": 0.013439660999434826
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.3549884824394011,
+    "pesq_wb": 1.2785033401515749,
+    "stoi": 0.7087557579749169
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 16.930313018861035,
+    "pesq_wb": 3.586463212966919,
+    "stoi": 0.9751105792909338,
+    "levels": {
+      "rms_gain_ratio": 0.9198976621185379,
+      "reference_normalized_squared_error": 0.03519388111993763
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.092249582353777,
+    "pesq_wb": 1.2996072984404035,
+    "stoi": 0.7798153291172228
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.373119669529117,
+    "pesq_wb": 3.639110585053762,
+    "stoi": 0.9638077677821727,
+    "levels": {
+      "rms_gain_ratio": 0.47298045897604113,
+      "reference_normalized_squared_error": 0.3465472423576703
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.3862801792111012,
+    "pesq_wb": 1.4150567236873839,
+    "stoi": 0.7646640255094275
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 25.121395035226808,
+    "pesq_wb": 4.573388854662578,
+    "stoi": 0.9966672202112693,
+    "levels": {
+      "rms_gain_ratio": 0.9529437018446685,
+      "reference_normalized_squared_error": 0.014790800386234019
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.41213584727001434,
+    "pesq_wb": 1.271024180783166,
+    "stoi": 0.7102205071416537
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 16.634176153517927,
+    "pesq_wb": 3.452484001715978,
+    "stoi": 0.9726841486970798,
+    "levels": {
+      "rms_gain_ratio": 0.9144316324511524,
+      "reference_normalized_squared_error": 0.03605367176475227
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 4.127163231137522,
+    "pesq_wb": 1.2967809157239065,
+    "stoi": 0.7839203521155116
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.33836784044878,
+    "pesq_wb": 3.599181036154429,
+    "stoi": 0.9625149469576034,
+    "levels": {
+      "rms_gain_ratio": 0.462985368952518,
+      "reference_normalized_squared_error": 0.3569141130044578
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.181095993872584,
+    "pesq_wb": 1.4224903020593855,
+    "stoi": 0.7682996023769992
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 24.70617565129727,
+    "pesq_wb": 4.567557414372762,
+    "stoi": 0.996697022347182,
+    "levels": {
+      "rms_gain_ratio": 0.9521226409691748,
+      "reference_normalized_squared_error": 0.014182004294690452
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 8.66243414023929,
+    "pesq_wb": 2.0926605231232114,
+    "stoi": 0.9117676138145142
+  },
+  {
+    "room_id": "new",
+    "rt": 0.15,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 15.802191482616447,
+    "pesq_wb": 2.082104467683368,
+    "stoi": 0.9211178317303053
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -4.399677610599091,
+    "pesq_wb": 1.1247144672605727,
+    "stoi": 0.45908527974528407
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.75509554983839,
+    "pesq_wb": 1.9317315419514973,
+    "stoi": 0.8270929250623437,
+    "levels": {
+      "rms_gain_ratio": 0.6306760223097327,
+      "reference_normalized_squared_error": 0.27884601242338874
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.233099502074449,
+    "pesq_wb": 1.1204275041818619,
+    "stoi": 0.5549866687259936
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 5.993670095789113,
+    "pesq_wb": 2.6724584499994912,
+    "stoi": 0.8887962878587662,
+    "levels": {
+      "rms_gain_ratio": 0.2931346248669005,
+      "reference_normalized_squared_error": 0.562931753356476
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.109787834535364,
+    "pesq_wb": 1.2727499968475766,
+    "stoi": 0.5357884762906674
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.110525472112483,
+    "pesq_wb": 3.5728528598944345,
+    "stoi": 0.9163043911947689,
+    "levels": {
+      "rms_gain_ratio": 0.655570447069979,
+      "reference_normalized_squared_error": 0.2510492404456162
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -3.251719792481624,
+    "pesq_wb": 1.1488582558102078,
+    "stoi": 0.5001959736135244
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.50400994147568,
+    "pesq_wb": 2.0728574693202972,
+    "stoi": 0.8571573261151629,
+    "levels": {
+      "rms_gain_ratio": 0.654356451022547,
+      "reference_normalized_squared_error": 0.2461298984732898
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.8136233017504222,
+    "pesq_wb": 1.11804594596227,
+    "stoi": 0.564991382735421
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.164400865739434,
+    "pesq_wb": 2.8014886180559793,
+    "stoi": 0.8937066457254468,
+    "levels": {
+      "rms_gain_ratio": 0.29142012272186035,
+      "reference_normalized_squared_error": 0.5626785685118961
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.3820789270118778,
+    "pesq_wb": 1.263417747285631,
+    "stoi": 0.5532473979653914
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 8.79977049333843,
+    "pesq_wb": 3.7820774714152017,
+    "stoi": 0.930154483523766,
+    "levels": {
+      "rms_gain_ratio": 0.6949879847622821,
+      "reference_normalized_squared_error": 0.21353722305983935
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -4.2298361163380696,
+    "pesq_wb": 1.1362789058023028,
+    "stoi": 0.47021000992063894
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.411031708733613,
+    "pesq_wb": 1.8471458653608959,
+    "stoi": 0.8293409154211188,
+    "levels": {
+      "rms_gain_ratio": 0.6181966919505006,
+      "reference_normalized_squared_error": 0.2887660721645275
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.1688024057846158,
+    "pesq_wb": 1.1267387419939041,
+    "stoi": 0.5552835481662854
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 5.960797003761811,
+    "pesq_wb": 2.695028801759084,
+    "stoi": 0.8870716117904012,
+    "levels": {
+      "rms_gain_ratio": 0.2837271924250951,
+      "reference_normalized_squared_error": 0.5743196659760986
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -2.7720032296993287,
+    "pesq_wb": 1.2677563097741869,
+    "stoi": 0.5378399295432446
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "fixed_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.424199740349569,
+    "pesq_wb": 3.5830442309379578,
+    "stoi": 0.9136281309845625,
+    "levels": {
+      "rms_gain_ratio": 0.6453420929196346,
+      "reference_normalized_squared_error": 0.2629059123349399
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -5.671129746490432,
+    "pesq_wb": 1.10232974588871,
+    "stoi": 0.44328014263806553
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 9.640497289257711,
+    "pesq_wb": 2.4513689378897348,
+    "stoi": 0.8856185049992792,
+    "levels": {
+      "rms_gain_ratio": 0.8085592555726012,
+      "reference_normalized_squared_error": 0.15588236256256607
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -2.7237083447347583,
+    "pesq_wb": 1.0729660673273935,
+    "stoi": 0.5188702031153204
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.260747340060398,
+    "pesq_wb": 3.0461408694585166,
+    "stoi": 0.9137422886952943,
+    "levels": {
+      "rms_gain_ratio": 0.36444687471705545,
+      "reference_normalized_squared_error": 0.48070614601969225
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -5.398160338828472,
+    "pesq_wb": 1.0962445454465017,
+    "stoi": 0.5130041733837332
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "mcnet_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 12.050654224382436,
+    "pesq_wb": 3.939061224460602,
+    "stoi": 0.9481043599805176,
+    "levels": {
+      "rms_gain_ratio": 0.8371186991084761,
+      "reference_normalized_squared_error": 0.13295060549498997
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "noisy",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.3849150075715835,
+    "pesq_wb": 1.0527037183443706,
+    "stoi": 0.5735829472796837
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "noisy",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 156.53559774527022,
+    "pesq_wb": 4.643888473510742,
+    "stoi": 0.9999999999999996,
+    "levels": {
+      "rms_gain_ratio": 1.0,
+      "reference_normalized_squared_error": 0.0
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.9887505268688683,
+    "pesq_wb": 1.2095275902085834,
+    "stoi": 0.5522942157895537
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.027255645558405,
+    "pesq_wb": 2.46041410168012,
+    "stoi": 0.9089874316535046,
+    "levels": {
+      "rms_gain_ratio": 0.7886127853122474,
+      "reference_normalized_squared_error": 0.1288743641567222
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.7978944504338986,
+    "pesq_wb": 1.1233853035502963,
+    "stoi": 0.5995990096980098
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.947601433419282,
+    "pesq_wb": 3.1840689380963645,
+    "stoi": 0.9220924428102135,
+    "levels": {
+      "rms_gain_ratio": 0.35347349974335057,
+      "reference_normalized_squared_error": 0.4825553214599078
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 0.9184586446671648,
+    "pesq_wb": 1.280410087770886,
+    "stoi": 0.5947133965694046
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.472795501255973,
+    "pesq_wb": 4.330777724583943,
+    "stoi": 0.9735876060469572,
+    "levels": {
+      "rms_gain_ratio": 0.8421167578320777,
+      "reference_normalized_squared_error": 0.09220796761958731
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.9122712029501575,
+    "pesq_wb": 1.178476454483138,
+    "stoi": 0.5615775850650532
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.360653540775404,
+    "pesq_wb": 2.563816318909327,
+    "stoi": 0.9190401808874739,
+    "levels": {
+      "rms_gain_ratio": 0.8040003186699729,
+      "reference_normalized_squared_error": 0.1180032493998317
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1680341979126794,
+    "pesq_wb": 1.1264689763387044,
+    "stoi": 0.6047707271019014
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.94882335356742,
+    "pesq_wb": 3.24165948232015,
+    "stoi": 0.9258385804631071,
+    "levels": {
+      "rms_gain_ratio": 0.35736432961355313,
+      "reference_normalized_squared_error": 0.478394145245568
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.6890375545994083,
+    "pesq_wb": 1.290943024886979,
+    "stoi": 0.6015590019933479
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 15.162875883206688,
+    "pesq_wb": 4.3943825562795,
+    "stoi": 0.9783304667235527,
+    "levels": {
+      "rms_gain_ratio": 0.8540557625894906,
+      "reference_normalized_squared_error": 0.08166407738859471
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.7727393403052994,
+    "pesq_wb": 1.1840041478474934,
+    "stoi": 0.5589765531515507
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 10.9698692919957,
+    "pesq_wb": 2.5263673067092896,
+    "stoi": 0.9157984190587837,
+    "levels": {
+      "rms_gain_ratio": 0.7875036834474786,
+      "reference_normalized_squared_error": 0.12899227779366287
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1689620215884933,
+    "pesq_wb": 1.128795274429851,
+    "stoi": 0.6045704535300773
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.944440969712249,
+    "pesq_wb": 3.2273882826169333,
+    "stoi": 0.9231388567372663,
+    "levels": {
+      "rms_gain_ratio": 0.3511548276367908,
+      "reference_normalized_squared_error": 0.48569197628508426
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.6179279429287006,
+    "pesq_wb": 1.3028530312909021,
+    "stoi": 0.5993012885947798
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rigid_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.298519389260187,
+    "pesq_wb": 4.3487160205841064,
+    "stoi": 0.9747744468856769,
+    "levels": {
+      "rms_gain_ratio": 0.8396707454354416,
+      "reference_normalized_squared_error": 0.0922950060649388
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -0.7735357051409069,
+    "pesq_wb": 1.191708481974072,
+    "stoi": 0.5586283160625231
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.215291616839638,
+    "pesq_wb": 2.4638517697652182,
+    "stoi": 0.9134143002966604,
+    "levels": {
+      "rms_gain_ratio": 0.7862470433686556,
+      "reference_normalized_squared_error": 0.12743644499699744
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.167626522171705,
+    "pesq_wb": 1.1278712020979986,
+    "stoi": 0.6051874356099359
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.112218681716505,
+    "pesq_wb": 3.24155193567276,
+    "stoi": 0.9256547754019208,
+    "levels": {
+      "rms_gain_ratio": 0.3470107874542622,
+      "reference_normalized_squared_error": 0.48788877721787416
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.6807489071608759,
+    "pesq_wb": 1.3098672131697338,
+    "stoi": 0.5986762581905269
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261112_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.793176665117542,
+    "pesq_wb": 4.369519313176473,
+    "stoi": 0.9757583863035272,
+    "levels": {
+      "rms_gain_ratio": 0.8398869241517466,
+      "reference_normalized_squared_error": 0.08963180078651793
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.2046263748118458,
+    "pesq_wb": 1.19180256790585,
+    "stoi": 0.5593466301980645
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.180190185173752,
+    "pesq_wb": 2.6010736425717673,
+    "stoi": 0.9198518699431201,
+    "levels": {
+      "rms_gain_ratio": 0.7928980556215798,
+      "reference_normalized_squared_error": 0.12622406783629425
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1151044659545288,
+    "pesq_wb": 1.1297786583503087,
+    "stoi": 0.6040224309412271
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 6.933304690358269,
+    "pesq_wb": 3.286482830842336,
+    "stoi": 0.9262929544881388,
+    "levels": {
+      "rms_gain_ratio": 0.3560475724541326,
+      "reference_normalized_squared_error": 0.48004589335750225
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.57928938282113,
+    "pesq_wb": 1.310743843515714,
+    "stoi": 0.6003385936288732
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261113_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.666670708380133,
+    "pesq_wb": 4.394308090209961,
+    "stoi": 0.9767583386192347,
+    "levels": {
+      "rms_gain_ratio": 0.8444012213090412,
+      "reference_normalized_squared_error": 0.09085665019689891
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": -1.3800794573182504,
+    "pesq_wb": 1.1974400298462973,
+    "stoi": 0.5599061847955042
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 11.041911931897587,
+    "pesq_wb": 2.4760751724243164,
+    "stoi": 0.9147467042853417,
+    "levels": {
+      "rms_gain_ratio": 0.7902033979496802,
+      "reference_normalized_squared_error": 0.12741637272254255
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.1619039670691547,
+    "pesq_wb": 1.1314928283294041,
+    "stoi": 0.6059779925588781
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mvdr",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 7.050066155685323,
+    "pesq_wb": 3.2828604181607566,
+    "stoi": 0.9259866652417889,
+    "levels": {
+      "rms_gain_ratio": 0.3473712605069971,
+      "reference_normalized_squared_error": 0.48754062351262156
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 1.4553291447839503,
+    "pesq_wb": 1.3108723395400577,
+    "stoi": 0.6002074312494676
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "rotated_without_clean_identity_s20261114_mask_mwf",
+    "clean": true,
+    "rows": 12,
+    "si_sdr_db": 14.575968990415944,
+    "pesq_wb": 4.369429270426433,
+    "stoi": 0.9757018338261273,
+    "levels": {
+      "rms_gain_ratio": 0.8432983648528952,
+      "reference_normalized_squared_error": 0.09023392452696277
+    }
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "truth_covariance_mvdr",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 3.832233267694957,
+    "pesq_wb": 1.3218533198038738,
+    "stoi": 0.7578968341439568
+  },
+  {
+    "room_id": "new",
+    "rt": 0.35,
+    "system": "truth_covariance_mwf",
+    "clean": false,
+    "rows": 72,
+    "si_sdr_db": 9.519712991132678,
+    "pesq_wb": 1.4919604394170973,
+    "stoi": 0.779424859107211
+  }
+]

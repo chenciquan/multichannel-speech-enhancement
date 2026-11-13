@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "checks": {
+    "all9360_unique_signal_ASR_pairs": true,
+    "all_metrics_ok": true,
+    "all_saved_file_hashes_match": true,
+    "all_input_reference_angle_groups_identical": true,
+    "all16_fresh_sources4_new_speakers": true,
+    "fresh_source_files_match": true,
+    "all6_frozen_adapters_match": true,
+    "beam_code_unchanged": true,
+    "both_ASR_edit_scores_recompute": true,
+    "every_MVDR_mask_from_corresponding_neural_estimate": true,
+    "data_archived_before_neural": true,
+    "direct_report_before_MVDR": true,
+    "MVDR_report_before_Whisper": true,
+    "Whisper_report_before_CTC": true,
+    "original_base_unchanged": true
+  },
+  "coverage": {
+    "systems": 15,
+    "conditions_per_system": 624,
+    "signal_and_each_ASR_rows": 9360,
+    "sources": 16,
+    "speakers": 4,
+    "SNR_db": [
+      0
+    ]
+  },
+  "completed_utc": "2026-11-12T05:48:47.173175+00:00",
+  "new_training": false
+}

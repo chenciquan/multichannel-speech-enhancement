@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "completed_utc": "2026-11-12T09:30:38.844532+00:00",
+  "cases": 168,
+  "reused_baseline_rows": 2520,
+  "manifest_sha256": "55e6b0c51f3050e6e999140826774862b3b92a76fb946c5b13c051c672783e97",
+  "baseline_rows_sha256": "e06b8741ac30e8028e6a4cf097728b72b46104165d49db2cbe6dedb2abdd4602",
+  "all_baseline_audio_hashes_match": true
+}

@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-13T00:01:13.548589+00:00",
+  "files": [
+    {
+      "source": "docs/G27_真值掩码信号验收与瓶颈读回.md",
+      "snapshot": "00_G27_真值掩码信号验收与瓶颈读回.md",
+      "sha256": "801c5ca402cfbba81e22b2d9ec2a6f12f1741133484976e5933d46ad89044dd4"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/SIGNAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_SIGNAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "7467cd52ca83777a9300a318c1d8a6f02e02cd28bd5f82b91efcf9c31b6dccad"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/paired_comparison.json",
+      "snapshot": "02_paired_comparison.json",
+      "sha256": "d0b6bd0d8b8aae7eaa8eea32b9000eda0d6e5134c275c8a12890fad89a918cb0"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/paired_deltas.json",
+      "snapshot": "03_paired_deltas.json",
+      "sha256": "6efeb3d7e95443b0330b5ab5e56abacedc94d69e40b37f31878614a84a2c2fda"
+    },
+    {
+      "source": "scripts/g27_readback.py",
+      "snapshot": "04_g27_readback.py",
+      "sha256": "524ff287b4d6df54d677d41fc12ed21ccf2cdfaa0fa26f9a03161cf18794b864"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/power_helper.json",
+      "snapshot": "05_power_helper.json",
+      "sha256": "302bf273306cc6d346301024f8f29d2f53f5fb026c2449a7eb9752e33605fff8"
+    }
+  ]
+}

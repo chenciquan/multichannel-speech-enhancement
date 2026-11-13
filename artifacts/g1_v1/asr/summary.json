@@ -1,0 +1,53 @@
+{
+  "status": "ok",
+  "input_cases": 48,
+  "case_status_counts": {
+    "ok": 48
+  },
+  "completed_cases": 48,
+  "unique_source_utterances_input": 24,
+  "unique_speakers_input": 6,
+  "corpus": {
+    "reference": {
+      "N": 450,
+      "S": 40,
+      "D": 2,
+      "I": 8,
+      "correct": 408,
+      "errors": 50,
+      "utterances": 48,
+      "wer": 0.1111111111111111,
+      "deletion_rate": 0.0044444444444444444
+    },
+    "noisy": {
+      "N": 450,
+      "S": 56,
+      "D": 3,
+      "I": 10,
+      "correct": 391,
+      "errors": 69,
+      "utterances": 48,
+      "wer": 0.15333333333333332,
+      "deletion_rate": 0.006666666666666667
+    },
+    "enhanced": {
+      "N": 450,
+      "S": 59,
+      "D": 4,
+      "I": 9,
+      "correct": 387,
+      "errors": 72,
+      "utterances": 48,
+      "wer": 0.16,
+      "deletion_rate": 0.008888888888888889
+    }
+  },
+  "wer_delta_enhanced_minus_noisy": 0.006666666666666682,
+  "clean_reference_asr_error_cases": 22,
+  "asr_regression_review_candidates": 7,
+  "human_speech_loss_confirmed_cases": null,
+  "training_performed": false,
+  "denominator_notice": "Corpus editing counts use only matched cases with all three ASR passes; skipped/errors remain listed",
+  "evidence_notice": "Machine-recognizer screening only; no acoustic or human-intelligibility verdict",
+  "cuda_peak_allocated_bytes": 228704256
+}

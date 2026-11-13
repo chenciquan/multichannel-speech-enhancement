@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:59:42.690962+00:00",
+  "cases": 36,
+  "noisy": 24,
+  "clean": 12,
+  "sources": 4,
+  "speakers": 2,
+  "unique_reference_word_tokens": 16,
+  "manifest_sha256": "57bd5b2370fc249fcb0a01da12c10d33be191c290c6cc65a3c41454f221bff0f",
+  "used_RIRs": 60,
+  "used_RIR_hashes_sha256": "7aa5f5b75d7ec8a0f8ac710e254b23c179699707f59f68747e33a4b0f07bd5b4",
+  "elapsed_seconds": 2.846734467999994
+}

@@ -1,0 +1,11 @@
+test_common_covariance_scale_invariance_without_absolute_floor (test_wiener.WienerTests.test_common_covariance_scale_invariance_without_absolute_floor) ... ok
+test_complex_rankone_reference_phase (test_wiener.WienerTests.test_complex_rankone_reference_phase) ... ok
+test_constant_mask_preserves_fraction_not_half (test_wiener.WienerTests.test_constant_mask_preserves_fraction_not_half) ... ok
+test_diagonal_scalar_solution (test_wiener.WienerTests.test_diagonal_scalar_solution) ... ok
+test_invalid_input_does_not_fallback (test_wiener.WienerTests.test_invalid_input_does_not_fallback) ... ok
+test_zero_and_rank_deficient_remain_finite (test_wiener.WienerTests.test_zero_and_rank_deficient_remain_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.204s
+
+OK

@@ -1,0 +1,28 @@
+{
+  "date_local": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "report": "docs/毕设最终研究主线与精简实施方案.md",
+  "version": "R1",
+  "original_same_name_file_existed": false,
+  "report_sha256": "1d4be15feb26353fc0b85603cf2565c575f01eb496d3037e5e95c35b45a85d23",
+  "historical_text_files_checked": 575,
+  "historical_text_changed_or_missing": [],
+  "official_model_commit": "9c194032659a3047a4b4c244a9f541f4d34b1682",
+  "official_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+  "registered_lora_files_verified": 27,
+  "registered_lora_verification_source": "implementation_evidence.md",
+  "new_training_runs": 0,
+  "new_enhancement_inference_runs": 0,
+  "new_asr_decodes": 0,
+  "angle_scan_executed": false,
+  "g34_resumed": false,
+  "dependencies_installed": false,
+  "model_or_dataset_downloaded": false,
+  "independent_document_reviews": [
+    "geometry_evidence: facts, numeric values, naming, data isolation checked",
+    "implementation_audit: model IDs, 19-angle counts, matched comparisons checked; candidate comparator ambiguity resolved"
+  ],
+  "scope_note": "Document and evidence audit only; historical files preserved. Hash manifest covers selected original text files, not full data/artifact inventory.",
+  "wsl_note": "Read-only Linux process inspection started existing WSL system services; no project job started.",
+  "status": "report_delivered_stop_waiting_for_user_review"
+}

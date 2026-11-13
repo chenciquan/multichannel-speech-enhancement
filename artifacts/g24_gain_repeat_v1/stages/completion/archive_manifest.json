@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T20:02:57.714450+00:00",
+  "files": [
+    {
+      "source": "docs/G24_独立重复与精确增益识别验证报告.md",
+      "snapshot": "00_G24_独立重复与精确增益识别验证报告.md",
+      "sha256": "98dbe151a46c4e96ab288624ada604626466dab395b3f83e92dcba34b6af9c63"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "75ff0ec721d7d5f197f4ee80d79376139a6af0bef2cbfc7826b79c4c11055483"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "6ea9c155d098d9de681c352d98c004164d275e7f0e01c907a12a38c21572f157"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/recognition/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "38b04e5b5ffd004e8098163118c51ad924c5825ef13ba454732ffae92a2baa41"
+    },
+    {
+      "source": "scripts/g24_finish.py",
+      "snapshot": "04_g24_finish.py",
+      "sha256": "900ad50d808be7cd184325248271bcf584dff3ef169afe090344101cafaa9503"
+    }
+  ]
+}

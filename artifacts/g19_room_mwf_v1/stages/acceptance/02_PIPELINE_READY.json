@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-11-12T13:10:39.048494+00:00",
+  "files": {
+    "scripts/g19_common.py": "79f477a856ebbe021b681e0c12caa97555640d948f77a2fb61bb02f43af9a634",
+    "scripts/g19_signal.py": "83efda34eea0be6ad3787da6c1efe7d33655813f976c3d30366516d6ab85ec19",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g19_finish.py": "3b34bf6d83f0e9703591beb7bb3b288f9673e08fb3a3f8bc06ffa8e5b4842e84",
+    "scripts/g19_queue.py": "d40cba16fc2335b544aa6a37970e471c7b6882108020cb30849c08d2fcddb733",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+  },
+  "frozen_plan_sha256": "3f6d1d9c6923e6530d0b3b828cbb90ffc252532659586d163513a92651f96011",
+  "preflight_archive_sha256": "6281c01682da3992c7da1f567bfa902e4a0aaf1e95120290cd75f04853d051a3",
+  "clarification_archive_sha256": "3dadbd221a8f36a6b441e2efab03923d2d2dc5a6d590dbea47edb27e85974ee1"
+}

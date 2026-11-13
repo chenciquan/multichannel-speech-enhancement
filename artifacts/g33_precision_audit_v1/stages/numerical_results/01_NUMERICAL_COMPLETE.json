@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T02:03:55.350919+00:00",
+  "forwards": 240,
+  "comparisons": 240,
+  "optimizer_updates": 0,
+  "parameters_unchanged": true,
+  "elapsed_seconds_after_verification": 304.431062762,
+  "G33_original_acceptance_still_failed": true,
+  "all_initial_parameter_digests_unchanged": {
+    "full": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "lora": "9904ccc5fa6f3a4ac1de463d94fcb9b86817445bb7c81ba74c9905f0fc6b0068"
+  },
+  "hashes": {
+    "forward_records.json": "55167322c86d216ce8aa60a43fc9f32af31f12d9b40fa76947ff55b9c92ef43e",
+    "predictions.npz": "dda91d08bc5e7b1a801addd0877dbd3650ba6885ec9acc5e4d60e83f789019e6",
+    "waveforms.npz": "ab331ebd1abe914a4cef9899dcaca89419f255aa97f25c1c79ec4ce01048e9c4",
+    "comparisons.json": "841a7abea33c4077b886fce7d5fd8d258dc7e6aa3493429f7d4ea713f469bbe3",
+    "old_G33_replay.json": "90ca6ae6c2f85133b47c72ed4f24150a2dd9225d14751079fedc0e28921fa392",
+    "summary.json": "3cbac72a9815ec785a521fbdc3786e571d809be403598d2bf937289013cdb927",
+    "actual_profile_settings.json": "6e4e44e158ac2815c0901730264826cdd542cec9f13e82c39c58c43d86814652"
+  }
+}

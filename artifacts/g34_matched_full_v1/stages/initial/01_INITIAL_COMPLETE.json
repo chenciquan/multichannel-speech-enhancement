@@ -1,0 +1,347 @@
+{
+  "utc": "2026-11-13T02:36:54.272795+00:00",
+  "status": "ok",
+  "backend": {
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "matmul_tf32": false,
+    "global_deterministic": false,
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cudnn_version": 90100
+  },
+  "initial": {
+    "full": {
+      "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+      "all": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+      "adapter": null
+    },
+    "lora": {
+      "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+      "all": "9904ccc5fa6f3a4ac1de463d94fcb9b86817445bb7c81ba74c9905f0fc6b0068",
+      "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+    }
+  },
+  "state_schema": {
+    "full": {
+      "freq.sequence_model.weight_ih_l0": [
+        512,
+        12
+      ],
+      "freq.sequence_model.weight_hh_l0": [
+        512,
+        128
+      ],
+      "freq.sequence_model.bias_ih_l0": [
+        512
+      ],
+      "freq.sequence_model.bias_hh_l0": [
+        512
+      ],
+      "freq.sequence_model.weight_ih_l0_reverse": [
+        512,
+        12
+      ],
+      "freq.sequence_model.weight_hh_l0_reverse": [
+        512,
+        128
+      ],
+      "freq.sequence_model.bias_ih_l0_reverse": [
+        512
+      ],
+      "freq.sequence_model.bias_hh_l0_reverse": [
+        512
+      ],
+      "freq.fc_output_layer.weight": [
+        64,
+        256
+      ],
+      "freq.fc_output_layer.bias": [
+        64
+      ],
+      "narr.sequence_model.weight_ih_l0": [
+        1024,
+        76
+      ],
+      "narr.sequence_model.weight_hh_l0": [
+        1024,
+        256
+      ],
+      "narr.sequence_model.bias_ih_l0": [
+        1024
+      ],
+      "narr.sequence_model.bias_hh_l0": [
+        1024
+      ],
+      "narr.sequence_model.weight_ih_l0_reverse": [
+        1024,
+        76
+      ],
+      "narr.sequence_model.weight_hh_l0_reverse": [
+        1024,
+        256
+      ],
+      "narr.sequence_model.bias_ih_l0_reverse": [
+        1024
+      ],
+      "narr.sequence_model.bias_hh_l0_reverse": [
+        1024
+      ],
+      "narr.fc_output_layer.weight": [
+        64,
+        512
+      ],
+      "narr.fc_output_layer.bias": [
+        64
+      ],
+      "sub.sequence_model.weight_ih_l0": [
+        1536,
+        327
+      ],
+      "sub.sequence_model.weight_hh_l0": [
+        1536,
+        384
+      ],
+      "sub.sequence_model.bias_ih_l0": [
+        1536
+      ],
+      "sub.sequence_model.bias_hh_l0": [
+        1536
+      ],
+      "sub.sequence_model.weight_ih_l0_reverse": [
+        1536,
+        327
+      ],
+      "sub.sequence_model.weight_hh_l0_reverse": [
+        1536,
+        384
+      ],
+      "sub.sequence_model.bias_ih_l0_reverse": [
+        1536
+      ],
+      "sub.sequence_model.bias_hh_l0_reverse": [
+        1536
+      ],
+      "sub.fc_output_layer.weight": [
+        64,
+        768
+      ],
+      "sub.fc_output_layer.bias": [
+        64
+      ],
+      "full.sequence_model.weight_ih_l0": [
+        512,
+        75
+      ],
+      "full.sequence_model.weight_hh_l0": [
+        512,
+        128
+      ],
+      "full.sequence_model.bias_ih_l0": [
+        512
+      ],
+      "full.sequence_model.bias_hh_l0": [
+        512
+      ],
+      "full.sequence_model.weight_ih_l0_reverse": [
+        512,
+        75
+      ],
+      "full.sequence_model.weight_hh_l0_reverse": [
+        512,
+        128
+      ],
+      "full.sequence_model.bias_ih_l0_reverse": [
+        512
+      ],
+      "full.sequence_model.bias_hh_l0_reverse": [
+        512
+      ],
+      "full.fc_output_layer.weight": [
+        2,
+        256
+      ],
+      "full.fc_output_layer.bias": [
+        2
+      ],
+      "io.window": [
+        512
+      ]
+    },
+    "lora": {
+      "freq.sequence_model.weight_ih_l0": [
+        512,
+        12
+      ],
+      "freq.sequence_model.weight_hh_l0": [
+        512,
+        128
+      ],
+      "freq.sequence_model.bias_ih_l0": [
+        512
+      ],
+      "freq.sequence_model.bias_hh_l0": [
+        512
+      ],
+      "freq.sequence_model.weight_ih_l0_reverse": [
+        512,
+        12
+      ],
+      "freq.sequence_model.weight_hh_l0_reverse": [
+        512,
+        128
+      ],
+      "freq.sequence_model.bias_ih_l0_reverse": [
+        512
+      ],
+      "freq.sequence_model.bias_hh_l0_reverse": [
+        512
+      ],
+      "freq.fc_output_layer.weight": [
+        64,
+        256
+      ],
+      "freq.fc_output_layer.bias": [
+        64
+      ],
+      "freq.fc_output_layer.lora_A": [
+        4,
+        256
+      ],
+      "freq.fc_output_layer.lora_B": [
+        64,
+        4
+      ],
+      "narr.sequence_model.weight_ih_l0": [
+        1024,
+        76
+      ],
+      "narr.sequence_model.weight_hh_l0": [
+        1024,
+        256
+      ],
+      "narr.sequence_model.bias_ih_l0": [
+        1024
+      ],
+      "narr.sequence_model.bias_hh_l0": [
+        1024
+      ],
+      "narr.sequence_model.weight_ih_l0_reverse": [
+        1024,
+        76
+      ],
+      "narr.sequence_model.weight_hh_l0_reverse": [
+        1024,
+        256
+      ],
+      "narr.sequence_model.bias_ih_l0_reverse": [
+        1024
+      ],
+      "narr.sequence_model.bias_hh_l0_reverse": [
+        1024
+      ],
+      "narr.fc_output_layer.weight": [
+        64,
+        512
+      ],
+      "narr.fc_output_layer.bias": [
+        64
+      ],
+      "narr.fc_output_layer.lora_A": [
+        4,
+        512
+      ],
+      "narr.fc_output_layer.lora_B": [
+        64,
+        4
+      ],
+      "sub.sequence_model.weight_ih_l0": [
+        1536,
+        327
+      ],
+      "sub.sequence_model.weight_hh_l0": [
+        1536,
+        384
+      ],
+      "sub.sequence_model.bias_ih_l0": [
+        1536
+      ],
+      "sub.sequence_model.bias_hh_l0": [
+        1536
+      ],
+      "sub.sequence_model.weight_ih_l0_reverse": [
+        1536,
+        327
+      ],
+      "sub.sequence_model.weight_hh_l0_reverse": [
+        1536,
+        384
+      ],
+      "sub.sequence_model.bias_ih_l0_reverse": [
+        1536
+      ],
+      "sub.sequence_model.bias_hh_l0_reverse": [
+        1536
+      ],
+      "sub.fc_output_layer.weight": [
+        64,
+        768
+      ],
+      "sub.fc_output_layer.bias": [
+        64
+      ],
+      "full.sequence_model.weight_ih_l0": [
+        512,
+        75
+      ],
+      "full.sequence_model.weight_hh_l0": [
+        512,
+        128
+      ],
+      "full.sequence_model.bias_ih_l0": [
+        512
+      ],
+      "full.sequence_model.bias_hh_l0": [
+        512
+      ],
+      "full.sequence_model.weight_ih_l0_reverse": [
+        512,
+        75
+      ],
+      "full.sequence_model.weight_hh_l0_reverse": [
+        512,
+        128
+      ],
+      "full.sequence_model.bias_ih_l0_reverse": [
+        512
+      ],
+      "full.sequence_model.bias_hh_l0_reverse": [
+        512
+      ],
+      "full.fc_output_layer.weight": [
+        2,
+        256
+      ],
+      "full.fc_output_layer.bias": [
+        2
+      ],
+      "io.window": [
+        512
+      ]
+    }
+  },
+  "records": 6,
+  "wave_passes": 6,
+  "cirm_passes": 3,
+  "optimizer_updates": 0,
+  "old_G33_gate_still_failed": true,
+  "checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+  "elapsed_seconds": 347.42507413000004,
+  "hashes": {
+    "initial_records.json": "9b0b07d42ee3f899a32b1abfaff98e2c38037a4dad39f0e5ebd8cd72be8820cf",
+    "initial_predictions.npz": "2bdec0c373825ceef98a8076333df75b559fc0331d19691147f1c5f6c6ed96e7",
+    "initial_waveforms.npz": "0bf8611eec8dd0ee196d99f138c87ff32c5dd8fb34e7910da05f2ed51b0bc6e7"
+  }
+}

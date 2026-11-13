@@ -1,0 +1,49 @@
+{
+  "source": "https://pypi.org/pypi/rir-generator/0.3.0/json",
+  "version": "0.3.0",
+  "requires_python": ">=3.8",
+  "requires_dist": [
+    "numpy>=1.17.0",
+    "scipy>=1.0.0",
+    "cffi>=1.1.0",
+    "pytest>=6.0; extra == \"dev\"",
+    "pytest-cov>=2.0; extra == \"dev\"",
+    "pytest-black; extra == \"dev\"",
+    "build>=0.7.0; extra == \"dev\"",
+    "twine>=3.0.0; extra == \"dev\"",
+    "sphinx>=4.0.0; extra == \"docs\"",
+    "sphinxcontrib-napoleon; extra == \"docs\"",
+    "sphinxcontrib-bibtex; extra == \"docs\"",
+    "sphinx_rtd_theme; extra == \"docs\"",
+    "numpydoc>=1.0.0; extra == \"docs\"",
+    "pytest>=6.0; extra == \"tests\"",
+    "pytest-cov>=2.0; extra == \"tests\"",
+    "pytest-black; extra == \"tests\""
+  ],
+  "license": "MIT",
+  "selected_wheel": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "0917dd56c3be48df59e9f14b18f97e1b056e3774e5028d03fbf04ec99b006abf"
+    },
+    "digests": {
+      "blake2b_256": "d99908d6175e603019ab568635ec6e90f85924cc17954bfa5a9772917ff2e721",
+      "md5": "473197cc5208970d4c2472cb663201fd",
+      "sha256": "8b595fa8de553b9b151f361851418d3fcd446aa22f1c1af9564fe78c0c115e9c"
+    },
+    "downloads": -1,
+    "filename": "rir_generator-0.3.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "473197cc5208970d4c2472cb663201fd",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": ">=3.8",
+    "size": 36773,
+    "upload_time": "2025-10-26T01:10:37",
+    "upload_time_iso_8601": "2025-10-26T01:10:37.879626Z",
+    "url": "https://files.pythonhosted.org/packages/d9/99/08d6175e603019ab568635ec6e90f85924cc17954bfa5a9772917ff2e721/rir_generator-0.3.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "retrieved_utc": "2026-11-12T08:08:06.331434+00:00"
+}

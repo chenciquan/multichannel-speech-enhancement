@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T13:02:03.737613+00:00",
+  "files": [
+    {
+      "source": "docs/G18_房间结果与滤波对照决策.md",
+      "snapshot": "00_G18_房间结果与滤波对照决策.md",
+      "sha256": "45544e43b6734c2b003b6a155742c2a8467d9af07a4dcb08bf295b5722975f12"
+    },
+    {
+      "source": "configs/g19_mwf_plan.json",
+      "snapshot": "01_g19_mwf_plan.json",
+      "sha256": "de2cde7dca28db6cb2dc8befd4ffefb37c385397a7729d43c1cbf2c89cb33308"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "02_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "da1f50c19a992592f6f3e7133648d061249c62d936ef9bb937fb2931ae5f846b"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/posthoc_ASR_insertions.json",
+      "snapshot": "03_posthoc_ASR_insertions.json",
+      "sha256": "51720c61149ad6103fad976e744a60513123a75887dbb3bcf5a6f75af4b0ad98"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/timing_clock_observation.json",
+      "snapshot": "04_timing_clock_observation.json",
+      "sha256": "230de19f83394203240805af014337f2304c599afe17318eb51a9e2dc11dd053"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:05:27.378876+00:00",
+  "files": [
+    {
+      "source": "docs/G27_完整真值掩码诊断验收.md",
+      "snapshot": "00_G27_完整真值掩码诊断验收.md",
+      "sha256": "028e3799322843208417bafbda48d4e67a0b2321d711c5c3080b6b5b4beaeca2"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "33514872e4f8eddeaaa3eafc9eb0aa9c3174e9178d22fa4a431c2144e92d751c"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/power_asr_helper.json",
+      "snapshot": "02_power_asr_helper.json",
+      "sha256": "a0d8ab243c19d0ac160f127082d2d6d680166256e7a56a70f315e2f54a9bf114"
+    },
+    {
+      "source": "scripts/g27_asr_finish.py",
+      "snapshot": "03_g27_asr_finish.py",
+      "sha256": "c489c43c5f30780ba7b602086cfe60d236de0ea98938d1d004f954084ddda96a"
+    }
+  ]
+}

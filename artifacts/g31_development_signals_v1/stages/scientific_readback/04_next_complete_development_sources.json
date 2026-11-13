@@ -1,0 +1,50 @@
+[
+  {
+    "source_id": "1988-147956-0014",
+    "speaker_id": "1988",
+    "split": "validation",
+    "path": "speech/1988-147956-0014.flac",
+    "samples": 34960,
+    "duration_seconds": 2.185,
+    "sha256": "dc974b44b14fbd3c779509b837ae38fd74c8d0b2300915471450e72277d490e2",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "AMBROSCH HE MAKE GOOD FARMER"
+  },
+  {
+    "source_id": "1988-147956-0003",
+    "speaker_id": "1988",
+    "split": "validation",
+    "path": "speech/1988-147956-0003.flac",
+    "samples": 39920,
+    "duration_seconds": 2.495,
+    "sha256": "ed36822f33be73c914abb5ec40c2c0c533dcec3f5c9f5ea0814cd4a625250b4b",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "NOW WHY IS THAT OTTO"
+  },
+  {
+    "source_id": "777-126732-0049",
+    "speaker_id": "777",
+    "split": "validation",
+    "path": "speech/777-126732-0049.flac",
+    "samples": 36000,
+    "duration_seconds": 2.25,
+    "sha256": "cd33b59323d1cf021ed8480752ef7ad97f9e362d92531b908bd746674420f9eb",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "THIS SURVEY WAS UNFAVOURABLE"
+  },
+  {
+    "source_id": "777-126732-0081",
+    "speaker_id": "777",
+    "split": "validation",
+    "path": "speech/777-126732-0081.flac",
+    "samples": 24080,
+    "duration_seconds": 1.505,
+    "sha256": "80e22d9e18af66dd827d0510b031de894ee77f11328a5608033cea7d648e8d8d",
+    "license": "CC-BY-4.0",
+    "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+    "transcript": "COMFORTABLE DEAR"
+  }
+]

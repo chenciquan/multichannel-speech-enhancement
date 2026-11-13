@@ -1,0 +1,644 @@
+{
+  "cells": {
+    "noisy": {
+      "-40": {
+        "si_sdr_db": -0.8130827367698437,
+        "Whisper_WER": 0.41798941798941797,
+        "CTC_WER": 0.5396825396825397
+      },
+      "20": {
+        "si_sdr_db": -0.8130827367698437,
+        "Whisper_WER": 0.41798941798941797,
+        "CTC_WER": 0.5396825396825397
+      },
+      "70": {
+        "si_sdr_db": -0.8130827367698437,
+        "Whisper_WER": 0.41798941798941797,
+        "CTC_WER": 0.5396825396825397
+      }
+    },
+    "mcnet": {
+      "-40": {
+        "si_sdr_db": -1.2550578834577835,
+        "Whisper_WER": 0.5502645502645502,
+        "CTC_WER": 0.5476190476190477
+      },
+      "20": {
+        "si_sdr_db": -1.2042231864716624,
+        "Whisper_WER": 0.4894179894179894,
+        "CTC_WER": 0.5502645502645502
+      },
+      "70": {
+        "si_sdr_db": -2.862234374336577,
+        "Whisper_WER": 1.1402116402116402,
+        "CTC_WER": 0.7513227513227513
+      }
+    },
+    "fixed": {
+      "-40": {
+        "si_sdr_db": -0.30816816295923316,
+        "Whisper_WER": 0.7680776014109347,
+        "CTC_WER": 0.6181657848324515
+      },
+      "20": {
+        "si_sdr_db": 7.070518762667403,
+        "Whisper_WER": 0.2001763668430335,
+        "CTC_WER": 0.11728395061728394
+      },
+      "70": {
+        "si_sdr_db": 3.626516547062481,
+        "Whisper_WER": 0.7328042328042328,
+        "CTC_WER": 0.3747795414462081
+      }
+    },
+    "counter": {
+      "-40": {
+        "si_sdr_db": 3.7334980940187013,
+        "Whisper_WER": 0.36596119929453264,
+        "CTC_WER": 0.3403880070546737
+      },
+      "20": {
+        "si_sdr_db": 4.603661877219058,
+        "Whisper_WER": 0.2962962962962963,
+        "CTC_WER": 0.2054673721340388
+      },
+      "70": {
+        "si_sdr_db": 3.0701313800337897,
+        "Whisper_WER": 0.49029982363315694,
+        "CTC_WER": 0.4462081128747795
+      }
+    },
+    "rigid": {
+      "-40": {
+        "si_sdr_db": 3.507600395629822,
+        "Whisper_WER": 0.36243386243386244,
+        "CTC_WER": 0.3474426807760141
+      },
+      "20": {
+        "si_sdr_db": 4.330890330541585,
+        "Whisper_WER": 0.30246913580246915,
+        "CTC_WER": 0.21075837742504408
+      },
+      "70": {
+        "si_sdr_db": 3.0857854690038,
+        "Whisper_WER": 0.45943562610229277,
+        "CTC_WER": 0.4435626102292769
+      }
+    },
+    "mcnet_mvdr": {
+      "-40": {
+        "si_sdr_db": -0.04566832967470136,
+        "Whisper_WER": 0.4444444444444444,
+        "CTC_WER": 0.48148148148148145
+      },
+      "20": {
+        "si_sdr_db": 0.10756496530779963,
+        "Whisper_WER": 0.3888888888888889,
+        "CTC_WER": 0.37566137566137564
+      },
+      "70": {
+        "si_sdr_db": -2.053978111885331,
+        "Whisper_WER": 1.17989417989418,
+        "CTC_WER": 0.6111111111111112
+      }
+    },
+    "fixed_mvdr": {
+      "-40": {
+        "si_sdr_db": 2.229733861872391,
+        "Whisper_WER": 0.335978835978836,
+        "CTC_WER": 0.2874779541446208
+      },
+      "20": {
+        "si_sdr_db": 8.155903053898069,
+        "Whisper_WER": 0.07760141093474426,
+        "CTC_WER": 0.030864197530864196
+      },
+      "70": {
+        "si_sdr_db": 5.1310624864331436,
+        "Whisper_WER": 0.21252204585537918,
+        "CTC_WER": 0.18253968253968253
+      }
+    },
+    "counter_mvdr": {
+      "-40": {
+        "si_sdr_db": 6.307115508387673,
+        "Whisper_WER": 0.16490299823633156,
+        "CTC_WER": 0.09435626102292768
+      },
+      "20": {
+        "si_sdr_db": 7.04932263631499,
+        "Whisper_WER": 0.10846560846560846,
+        "CTC_WER": 0.059082892416225746
+      },
+      "70": {
+        "si_sdr_db": 5.494703335634044,
+        "Whisper_WER": 0.20899470899470898,
+        "CTC_WER": 0.1710758377425044
+      }
+    },
+    "rigid_mvdr": {
+      "-40": {
+        "si_sdr_db": 6.1804918819897985,
+        "Whisper_WER": 0.1693121693121693,
+        "CTC_WER": 0.09347442680776014
+      },
+      "20": {
+        "si_sdr_db": 6.922313617832193,
+        "Whisper_WER": 0.10846560846560846,
+        "CTC_WER": 0.059964726631393295
+      },
+      "70": {
+        "si_sdr_db": 5.526971093954084,
+        "Whisper_WER": 0.20987654320987653,
+        "CTC_WER": 0.1657848324514991
+      }
+    }
+  },
+  "all_seed_contrasts": {
+    "20261112": {
+      "fixed": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 3.6355868491246315,
+            "Whisper_WER": -0.6825396825396826,
+            "CTC_WER": -0.283068783068783
+          },
+          "20": {
+            "si_sdr_db": -4.024413691355411,
+            "Whisper_WER": 0.1164021164021164,
+            "CTC_WER": 0.09788359788359788
+          },
+          "70": {
+            "si_sdr_db": -1.1509162171876763,
+            "Whisper_WER": -0.6375661375661377,
+            "CTC_WER": 0.050264550264550234
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 4.123711697963402,
+            "Whisper_WER": -0.18253968253968253,
+            "CTC_WER": -0.23015873015873015
+          },
+          "20": {
+            "si_sdr_db": -1.7895172282856482,
+            "Whisper_WER": 0.04497354497354497,
+            "CTC_WER": 0.037037037037037035
+          },
+          "70": {
+            "si_sdr_db": 0.17105013460931318,
+            "Whisper_WER": 0.007936507936507936,
+            "CTC_WER": -0.021164021164021163
+          }
+        }
+      },
+      "rotated": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.7206936059480924,
+            "Whisper_WER": 0.0026455026455026176,
+            "CTC_WER": 0.023809523809523836
+          },
+          "20": {
+            "si_sdr_db": -0.8774757689801445,
+            "Whisper_WER": 0.02380952380952378,
+            "CTC_WER": 0.023809523809523808
+          },
+          "70": {
+            "si_sdr_db": -0.6567629543796953,
+            "Whisper_WER": -0.0582010582010582,
+            "CTC_WER": 0.013227513227513199
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.24840205018610018,
+            "Whisper_WER": 0.0026455026455026454,
+            "CTC_WER": -0.010582010582010581
+          },
+          "20": {
+            "si_sdr_db": -0.3122370787450066,
+            "Whisper_WER": 0.015873015873015872,
+            "CTC_WER": 0.0026455026455026454
+          },
+          "70": {
+            "si_sdr_db": -0.2351380294203711,
+            "Whisper_WER": 0.013227513227513227,
+            "CTC_WER": -0.005291005291005291
+          }
+        }
+      }
+    },
+    "20261113": {
+      "fixed": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 3.6653354321381393,
+            "Whisper_WER": -0.2698412698412698,
+            "CTC_WER": -0.23809523809523808
+          },
+          "20": {
+            "si_sdr_db": -1.5418829146919375,
+            "Whisper_WER": 0.08465608465608468,
+            "CTC_WER": 0.09788359788359788
+          },
+          "70": {
+            "si_sdr_db": 0.04901410131581052,
+            "Whisper_WER": -0.04232804232804238,
+            "CTC_WER": 0.06878306878306878
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 3.534373562851994,
+            "Whisper_WER": -0.14285714285714285,
+            "CTC_WER": -0.1349206349206349
+          },
+          "20": {
+            "si_sdr_db": -0.6301791380993285,
+            "Whisper_WER": 0.015873015873015872,
+            "CTC_WER": 0.021164021164021163
+          },
+          "70": {
+            "si_sdr_db": 0.5194138117154612,
+            "Whisper_WER": -0.0026455026455026454,
+            "CTC_WER": -0.026455026455026454
+          }
+        }
+      },
+      "rotated": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": -0.1511017988860308,
+            "Whisper_WER": 0.0,
+            "CTC_WER": 0.013227513227513199
+          },
+          "20": {
+            "si_sdr_db": -0.06698909571103773,
+            "Whisper_WER": 0.005291005291005291,
+            "CTC_WER": 0.026455026455026454
+          },
+          "70": {
+            "si_sdr_db": 0.2327255154783172,
+            "Whisper_WER": -0.015873015873015872,
+            "CTC_WER": 0.005291005291005291
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.10141208536150881,
+            "Whisper_WER": 0.010582010582010581,
+            "CTC_WER": 0.005291005291005291
+          },
+          "20": {
+            "si_sdr_db": -0.03473931734083546,
+            "Whisper_WER": -0.015873015873015872,
+            "CTC_WER": 0.0
+          },
+          "70": {
+            "si_sdr_db": 0.16502578559339653,
+            "Whisper_WER": -0.013227513227513227,
+            "CTC_WER": -0.015873015873015872
+          }
+        }
+      }
+    },
+    "20261114": {
+      "fixed": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 4.146383394504394,
+            "Whisper_WER": -0.2645502645502646,
+            "CTC_WER": -0.291005291005291
+          },
+          "20": {
+            "si_sdr_db": -2.652588690330105,
+            "Whisper_WER": 0.10582010582010581,
+            "CTC_WER": 0.08465608465608465
+          },
+          "70": {
+            "si_sdr_db": -0.520291118304177,
+            "Whisper_WER": -0.14021164021164023,
+            "CTC_WER": 0.08730158730158727
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": 4.194188799536823,
+            "Whisper_WER": -0.17460317460317462,
+            "CTC_WER": -0.21693121693121692
+          },
+          "20": {
+            "si_sdr_db": -1.2810719418126464,
+            "Whisper_WER": 0.031746031746031744,
+            "CTC_WER": 0.0291005291005291
+          },
+          "70": {
+            "si_sdr_db": 0.4972618762380465,
+            "Whisper_WER": -0.013227513227513227,
+            "CTC_WER": -0.0026455026455026454
+          }
+        }
+      },
+      "rotated": {
+        "direct": {
+          "-40": {
+            "si_sdr_db": 0.19410230966748454,
+            "Whisper_WER": -0.013227513227513199,
+            "CTC_WER": -0.015873015873015872
+          },
+          "20": {
+            "si_sdr_db": 0.12615022465876802,
+            "Whisper_WER": -0.010582010582010581,
+            "CTC_WER": -0.03439153439153439
+          },
+          "70": {
+            "si_sdr_db": 0.47099970581140704,
+            "Whisper_WER": -0.01851851851851849,
+            "CTC_WER": -0.026455026455026454
+          }
+        },
+        "_mask_mvdr": {
+          "-40": {
+            "si_sdr_db": -0.030056743646018624,
+            "Whisper_WER": 0.0,
+            "CTC_WER": 0.0026455026455026454
+          },
+          "20": {
+            "si_sdr_db": -0.0340506593625447,
+            "Whisper_WER": 0.0,
+            "CTC_WER": 0.0
+          },
+          "70": {
+            "si_sdr_db": 0.16691551878709276,
+            "Whisper_WER": 0.0026455026455026454,
+            "CTC_WER": 0.005291005291005291
+          }
+        }
+      }
+    }
+  },
+  "resources_all_neural_models": [
+    {
+      "system": "mcnet",
+      "elapsed_seconds_with_metrics": 37.427649238000015,
+      "peak_allocated_bytes": 1712467968,
+      "peak_reserved_bytes": 3183476736,
+      "metadata": {
+        "system_id": "mcnet",
+        "kind": "mcnet",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": null,
+        "adapter_path": null,
+        "registry_source": null,
+        "registry_sha256": null,
+        "adapter_parameters": 0,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 17.39439048699998,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 18.916452970999984,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "117cb69f05daf10e437db1db6022dd64f97f356ad28fe41c05d5960d3dfe7881",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2477483239999856,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 19.77842018999999,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "c64661ea5158882ebeb5e6ec1688aa8a27a0bfd7416ac9733e22508025447522",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.19183327799999006,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 19.893511905000025,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "780c6ee32cda78d0eb0d994a1302ae1e3572838af1dfd6cce2789b9f245e2fd7",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.16944873899998925,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 19.913497096000015,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "a9af5016b0253c1348cb71814c0edcba2c86d1d6f7f3ba5bfcc5f0ea9b695f12",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.16394199000001208,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "fixed_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 19.785520261000016,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/fixed_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "77e525e9aa58d5604e69948c85bceb2be56b87b739a48efcfb2c18167813022d",
+        "adapter_path": "artifacts/g5_rotation_v1/fixed/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.2042079919999935,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rotated_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 20.059279439999955,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g5/rotated_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "558e2812fc31833ee87e6e9dbd3f5963ce62a83982ffbef3f8d6af7983ac2f4c",
+        "adapter_path": "artifacts/g5_rotation_v1/rotated/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g5_rotation_v1/selected_checkpoints.json",
+        "registry_sha256": "4b914da331e865051e5b53491c0f52786687046b02f9a0a6e4e8dd15a259ff30",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.17112476599999127,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261112",
+      "elapsed_seconds_with_metrics": 20.254187411999965,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261112",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "8ec1d74ade15fe02285386fa638c6272491b506a338f575464772c538aba82dc",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.16443215600003214,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261113",
+      "elapsed_seconds_with_metrics": 20.091008039999963,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261113",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "9928379fe782ca418967a9d42454b77dc17631f2dd067e0cd55c607f057d6a31",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.1753233330000512,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    },
+    {
+      "system": "rigid_without_clean_identity_s20261114",
+      "elapsed_seconds_with_metrics": 19.930130604,
+      "peak_allocated_bytes": 1711745024,
+      "peak_reserved_bytes": 3118465024,
+      "metadata": {
+        "system_id": "g15/rigid_without_clean_identity_s20261114",
+        "kind": "adapter",
+        "base_checkpoint_sha256": "24b8c556cc52990e4d7db83da4909b7e8a1dc4a0c14880b98381bb62818beecf",
+        "adapter_sha256": "73e32015d4abc5617dd2b9a4dcefdde868014d717b04500c36928d226123e38f",
+        "adapter_path": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/adapter_03000.pt",
+        "registry_source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+        "registry_sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f",
+        "adapter_parameters": 3584,
+        "base_parameters": 3328706,
+        "device": "cuda",
+        "dtype": "float32",
+        "load_seconds_in_shared_process": 0.20129031499999428,
+        "ref_channel_zero_based": 4,
+        "streaming": false,
+        "resampling": false,
+        "per_utterance_normalization": false,
+        "chunking": false,
+        "lora_merge": false
+      }
+    }
+  ],
+  "scope": "Fresh8utterances4project speakers;old2noiserecordings;correct nominalfreefield;not broadrealroomconfirmation"
+}

@@ -1,0 +1,10 @@
+test_identical_channels_preserve_reference (test_beamforming.BeamformingTests.test_identical_channels_preserve_reference) ... ok
+test_invalid_shapes_and_nonfinite_rejected (test_beamforming.BeamformingTests.test_invalid_shapes_and_nonfinite_rejected) ... ok
+test_oracle_delay_sign_and_reference (test_beamforming.BeamformingTests.test_oracle_delay_sign_and_reference) ... ok
+test_silence_degenerate_covariance_finite (test_beamforming.BeamformingTests.test_silence_degenerate_covariance_finite) ... ok
+test_stft_roundtrip_exact_length (test_beamforming.BeamformingTests.test_stft_roundtrip_exact_length) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.220s
+
+OK

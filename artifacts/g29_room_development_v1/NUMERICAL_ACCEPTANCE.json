@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:38:10.976346+00:00",
+  "summary": {
+    "train": {
+      "rows": 576,
+      "exact_input_replays": 576,
+      "exact_target_replays": 576,
+      "speaker_counts": {
+        "2035": 144,
+        "2086": 144,
+        "2277": 144,
+        "7976": 144
+      },
+      "field_counts": {
+        "point": 288,
+        "multi8": 288
+      },
+      "max_recomputed_activity_SNR_error_db": 3.539690496268122e-08,
+      "unique_sources": 191
+    },
+    "validation": {
+      "rows": 108,
+      "exact_input_replays": 108,
+      "exact_target_replays": 108,
+      "speaker_counts": {
+        "1988": 54,
+        "777": 54
+      },
+      "field_counts": {
+        "point": 36,
+        "multi8": 36,
+        "clean": 36
+      },
+      "max_recomputed_activity_SNR_error_db": 2.7780512112940414e-08,
+      "unique_sources": 12
+    }
+  },
+  "RIRs_verified": 264,
+  "full_replays": 684,
+  "frozen_audit_sha256": "5ebf8b7a54455b0bd23adf9fd4ec4966d3c7401f02f43c126d7551691efacd22",
+  "data_complete_sha256": "e7acbe4d3d0d10eece6ac230a2f7b8024bfa10d6bb559ba6d56a909ea93a38cb",
+  "training_or_ASR_performed": false,
+  "elapsed_seconds": 27.734238677000008
+}

@@ -1,0 +1,9 @@
+{
+  "status": "documented_preinstall_failure",
+  "package_versions_unchanged": true,
+  "wheel_files": 0,
+  "room_lock_created": false,
+  "reason": "Existing uv-managed venv has no pip module; script stopped at freeze_before,prior to HTTP wheel fetch or install.",
+  "existing_package_manager": ".tools/uv-x86_64-unknown-linux-gnu/uv",
+  "closed_utc": "2026-11-12T08:07:08.888552+00:00"
+}

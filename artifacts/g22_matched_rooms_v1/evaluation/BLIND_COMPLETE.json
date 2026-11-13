@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "rows": 10080,
+  "completed_utc": "2026-11-12T19:16:02.225821+00:00",
+  "signals_sha256": "f7dc34e3d779604094c120949a4faa10c51f55aff79b6933f46257b820d16de9",
+  "elapsed_seconds": 1535.3589397540002,
+  "training": false,
+  "oracle": false
+}

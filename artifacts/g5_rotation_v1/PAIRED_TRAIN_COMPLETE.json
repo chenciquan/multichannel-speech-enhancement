@@ -1,0 +1,5 @@
+{
+  "examples": 2048,
+  "paired_reference_mic_and_target_equal": true,
+  "source_crops_and_noise_intervals_shared": true
+}

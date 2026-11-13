@@ -1,0 +1,806 @@
+[
+  {
+    "id": 0,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/000.npy",
+    "sha256": "ebf88a4f51b6da4e8d77771c504bbce44f1bdc472d2d7819052bc098c4586577",
+    "source_position": [
+      1.5807466682572264,
+      2.771345131623847,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": 0.48900352407105885,
+    "measured_T20_extrapolated_RT60": null,
+    "last20ms_energy_fraction": 0.0,
+    "Sabine_absorption_for_requested_RT": null
+  },
+  {
+    "id": 1,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0,
+    "angle": -50,
+    "template_id": 0,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/001.npy",
+    "sha256": "7388cb20c162ad33ddc27a736662cea6f7f720af36a66a9685645fbc7d520598",
+    "source_position": [
+      1.6120694659673824,
+      1.2549378163821852,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": 0.488917565518868,
+    "measured_T20_extrapolated_RT60": null,
+    "last20ms_energy_fraction": 0.0,
+    "Sabine_absorption_for_requested_RT": null
+  },
+  {
+    "id": 22,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/022.npy",
+    "sha256": "2d7c00f4ae19c6a43a47f37b9238b2e83e0989884744bfa531e8aedf70e91216",
+    "source_position": [
+      1.5807466682572264,
+      2.771345131623847,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.12812347323193526,
+    "last20ms_energy_fraction": 3.884706395684735e-18,
+    "Sabine_absorption_for_requested_RT": 0.6427413261257494
+  },
+  {
+    "id": 23,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.16,
+    "angle": -50,
+    "template_id": 2,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/023.npy",
+    "sha256": "ae89fd60dae5c4a8711637bdcfe33b29a2e76322c6128ad14b468af960afa9b2",
+    "source_position": [
+      1.6120694659673824,
+      1.2549378163821852,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.12908560796444793,
+    "last20ms_energy_fraction": 3.601183997415947e-18,
+    "Sabine_absorption_for_requested_RT": 0.6427413261257494
+  },
+  {
+    "id": 44,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "speech",
+    "direction": [
+      -0.766044443118978,
+      0.6427876096865394,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/044.npy",
+    "sha256": "1251fc1ae160ea2a0aa4c3c593ad610c5969b9583304333fcd682fa862aa6781",
+    "source_position": [
+      1.5807466682572264,
+      2.771345131623847,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.3342036532091544,
+    "last20ms_energy_fraction": 2.931344640050403e-09,
+    "Sabine_absorption_for_requested_RT": 0.36728075778614255
+  },
+  {
+    "id": 45,
+    "dimensions": [
+      5,
+      4,
+      3
+    ],
+    "reference": [
+      2.5,
+      2.0,
+      1.4
+    ],
+    "split": "train",
+    "room_id": "train0",
+    "rt": 0.28,
+    "angle": -50,
+    "template_id": 4,
+    "kind": "point_minus80",
+    "direction": [
+      -0.739942111693848,
+      -0.6208851530148457,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/045.npy",
+    "sha256": "7d5678fceba01e6754dbdfba414134a36eda6eabc6e4d1ad9ca81cdf772a378a",
+    "source_position": [
+      1.6120694659673824,
+      1.2549378163821852,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.4,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.5,
+        1.99,
+        1.5899999999999999
+      ],
+      [
+        2.6,
+        2.0,
+        1.5899999999999999
+      ],
+      [
+        2.4,
+        2.0,
+        1.4
+      ],
+      [
+        2.5,
+        2.0,
+        1.4
+      ],
+      [
+        2.6,
+        2.0,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.3348137861750145,
+    "last20ms_energy_fraction": 2.8217388344523714e-09,
+    "Sabine_absorption_for_requested_RT": 0.36728075778614255
+  },
+  {
+    "id": 198,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/198.npy",
+    "sha256": "438b28b092f131c9c742a33d455912a44617bdad39ba2e54a86def59d55ea829",
+    "source_position": [
+      2.1500000000000004,
+      3.3392304845413263,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": 0.4785862953381752,
+    "measured_T20_extrapolated_RT60": null,
+    "last20ms_energy_fraction": 0.0,
+    "Sabine_absorption_for_requested_RT": null
+  },
+  {
+    "id": 199,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0,
+    "angle": -30,
+    "template_id": 18,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/199.npy",
+    "sha256": "793a37e5c3fa54c47e65ab449b5a6988c8e9b29ec3830a6053f731508b82cc06",
+    "source_position": [
+      1.6607919545715575,
+      1.9035606925407773,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": 0.24869398521162367,
+    "measured_T20_extrapolated_RT60": null,
+    "last20ms_energy_fraction": 0.0,
+    "Sabine_absorption_for_requested_RT": null
+  },
+  {
+    "id": 220,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/220.npy",
+    "sha256": "5e935367a699b716e3b1d90f345403977d5f87967eb1b335c29bd37eae0aafe6",
+    "source_position": [
+      2.1500000000000004,
+      3.3392304845413263,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.11676530396531036,
+    "last20ms_energy_fraction": 4.854683001094771e-19,
+    "Sabine_absorption_for_requested_RT": 0.6975444573332152
+  },
+  {
+    "id": 221,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.16,
+    "angle": -30,
+    "template_id": 20,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/221.npy",
+    "sha256": "f54067aed650da1a790d7a37fd6b7a876a30d4f0e78a024ff3840e1ab4d0b5b5",
+    "source_position": [
+      1.6607919545715575,
+      1.9035606925407773,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.11588875804909833,
+    "last20ms_energy_fraction": 4.924228936450754e-19,
+    "Sabine_absorption_for_requested_RT": 0.6975444573332152
+  },
+  {
+    "id": 242,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "speech",
+    "direction": [
+      -0.49999999999999994,
+      0.8660254037844387,
+      0.0
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/242.npy",
+    "sha256": "a830b2e924d01f9632fcbe80c4ff362a1aaf745c5782334e3d5075b22c04026d",
+    "source_position": [
+      2.1500000000000004,
+      3.3392304845413263,
+      1.4
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.30829564925454483,
+    "last20ms_energy_fraction": 1.9108136519163606e-09,
+    "Sabine_absorption_for_requested_RT": 0.39859683276183727
+  },
+  {
+    "id": 243,
+    "dimensions": [
+      5.5,
+      4.6,
+      3.1
+    ],
+    "reference": [
+      2.75,
+      2.3,
+      1.4
+    ],
+    "split": "validation",
+    "room_id": "dev0",
+    "rt": 0.28,
+    "angle": -30,
+    "template_id": 22,
+    "kind": "point_minus80",
+    "direction": [
+      -0.9076733711903687,
+      -0.33036608954935215,
+      -0.25881904510252074
+    ],
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g29_v1/rir/243.npy",
+    "sha256": "c8540eedeaf823417a92ecd7dafe2ad577fb69a7b2f1c3f864946ad9d28b0e93",
+    "source_position": [
+      1.6607919545715575,
+      1.9035606925407773,
+      1.089417145876975
+    ],
+    "receivers": [
+      [
+        2.65,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.75,
+        2.29,
+        1.5899999999999999
+      ],
+      [
+        2.85,
+        2.3,
+        1.5899999999999999
+      ],
+      [
+        2.65,
+        2.3,
+        1.4
+      ],
+      [
+        2.75,
+        2.3,
+        1.4
+      ],
+      [
+        2.85,
+        2.3,
+        1.4
+      ]
+    ],
+    "RT0_arrival_error_max_samples": null,
+    "measured_T20_extrapolated_RT60": 0.3334943643193272,
+    "last20ms_energy_fraction": 2.2312726562944266e-09,
+    "Sabine_absorption_for_requested_RT": 0.39859683276183727
+  }
+]

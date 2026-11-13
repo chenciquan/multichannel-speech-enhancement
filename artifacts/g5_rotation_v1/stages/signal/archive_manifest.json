@@ -1,0 +1,25 @@
+{
+  "saved_at_utc": "2026-11-11T20:52:52.873369+00:00",
+  "files": [
+    {
+      "source": "docs/G5C_新说话人信号指标报告.md",
+      "snapshot": "00_G5C_新说话人信号指标报告.md",
+      "sha256": "399f1a25b8e466d49cd0bb6350646b6622a7cdad8d8eed9744faa612c4c51093"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "73b2198f341e97402bd8e444ead76f7be093df6263c1cd752a61fc4203f874f2"
+    },
+    {
+      "source": "artifacts/g5_rotation_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "0f3cfbac4fd7c647ccc14f62e54974407865ab3cba08f396bcbb879977f4ac65"
+    },
+    {
+      "source": "scripts/g4_run.py",
+      "snapshot": "03_g4_run.py",
+      "sha256": "1583c8d26e60b0a9abdce56fab6cb9a07d1fdefb9cd9e9d7e3d7833a250f643d"
+    }
+  ]
+}

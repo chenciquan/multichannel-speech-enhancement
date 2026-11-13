@@ -1,0 +1,10 @@
+{
+  "train_examples": 2048,
+  "train_seconds": 1448.3250625,
+  "validation_sources": 12,
+  "test_sources": 30,
+  "heldout_test_noise": "PCAFETER",
+  "test_speaker_disjoint": true,
+  "all_previous32_source_ids_and_hashes_excluded": true,
+  "finished_at": 1794418043.5294473
+}

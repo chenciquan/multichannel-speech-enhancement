@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T01:02:42.395215+00:00",
+  "files": [
+    {
+      "source": "docs/G32_mcnet_整句直接输出覆盖.md",
+      "snapshot": "00_G32_mcnet_整句直接输出覆盖.md",
+      "sha256": "abff99644274255f471a74b034e6f8d1326e6ac417f6ea2e101039d6b654cfb0"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/mcnet_resource.json",
+      "snapshot": "01_mcnet_resource.json",
+      "sha256": "dab71ccbcf244d54ae831e45202763b22aa71334492691d8ade1def62ae17423"
+    }
+  ]
+}

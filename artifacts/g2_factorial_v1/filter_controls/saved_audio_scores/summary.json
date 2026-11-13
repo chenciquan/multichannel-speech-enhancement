@@ -1,0 +1,89 @@
+{
+  "status": "ok",
+  "evaluations": 144,
+  "grouped": {
+    "highpass40_then_snr0": {
+      "highpass_clean_sanity": {
+        "n": 12,
+        "si_sdr_db": 38.935616132591825,
+        "pesq_wb": 4.640817403793335,
+        "stoi": 0.9999468009471166
+      },
+      "highpass_noisy": {
+        "n": 12,
+        "si_sdr_db": -0.6573120110283409,
+        "pesq_wb": 1.0550160904725392,
+        "stoi": 0.7608360863587124
+      },
+      "highpass_then_mcnet": {
+        "n": 12,
+        "si_sdr_db": -1.8875786014741056,
+        "pesq_wb": 1.048369288444519,
+        "stoi": 0.7200214053695975
+      },
+      "mcnet": {
+        "n": 12,
+        "si_sdr_db": -2.1057631937587797,
+        "pesq_wb": 1.0481865008672078,
+        "stoi": 0.7196082973093145
+      },
+      "mcnet_then_highpass": {
+        "n": 12,
+        "si_sdr_db": -1.9132732654083817,
+        "pesq_wb": 1.0485485990842183,
+        "stoi": 0.7196161053600978
+      },
+      "noisy": {
+        "n": 12,
+        "si_sdr_db": -0.8225149581071468,
+        "pesq_wb": 1.0547134975592296,
+        "stoi": 0.7608294722827885
+      }
+    },
+    "raw": {
+      "highpass_clean_sanity": {
+        "n": 12,
+        "si_sdr_db": 38.935616132591825,
+        "pesq_wb": 4.640817403793335,
+        "stoi": 0.9999468009471166
+      },
+      "highpass_noisy": {
+        "n": 12,
+        "si_sdr_db": 18.62311975855142,
+        "pesq_wb": 2.1292718251546225,
+        "stoi": 0.9512204263614427
+      },
+      "highpass_then_mcnet": {
+        "n": 12,
+        "si_sdr_db": 16.51579817655514,
+        "pesq_wb": 2.171302934487661,
+        "stoi": 0.9496525368653782
+      },
+      "mcnet": {
+        "n": 12,
+        "si_sdr_db": -0.8315724987666527,
+        "pesq_wb": 2.2680247724056244,
+        "stoi": 0.9500285981436076
+      },
+      "mcnet_then_highpass": {
+        "n": 12,
+        "si_sdr_db": 16.19328195520309,
+        "pesq_wb": 2.2441111902395883,
+        "stoi": 0.951067552378526
+      },
+      "noisy": {
+        "n": 12,
+        "si_sdr_db": -0.9795101323311335,
+        "pesq_wb": 2.175379286209742,
+        "stoi": 0.9499879490714752
+      }
+    }
+  },
+  "source_cases_sha256": "b24a0fe16a45aac5c9b558722e4b40d93736ab74079359c785bcdc8a3e728a7b",
+  "maximum_si_sdr_difference_from_prewrite_scoring_db": 1.6076320719093928e-07,
+  "metrics_on_serialized_audio": true,
+  "audio_altered": false,
+  "model_rerun": false,
+  "training": false,
+  "reason": "Original controls evaluated float64 filter output before FLOAT WAV float32 quantization; rescore actual stored bytes for exact evidence consistency"
+}

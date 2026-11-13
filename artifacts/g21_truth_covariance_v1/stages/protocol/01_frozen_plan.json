@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-11-12T18:11:11.458811+00:00",
+  "cases": 432,
+  "new_outputs": 864,
+  "mu": 1,
+  "max_seconds": 1800,
+  "oracle_information": true,
+  "deployable": false,
+  "theoretical_upper_bound": false,
+  "covariance": "True quantized S and effective N=X-S, common T; finite-sample cross-correlation measured",
+  "hashes": {
+    "scripts/g21_truth_covariance.py": "950fe804cbd0e7c4c63dd1ff71cde68f4b2243d310cc8a4ea28c31f19e2a68dc",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/components.py": "8421de07439a5e9d1a45a14e689f11af7db501610ff1077ab6953b06d8404d2a",
+    "src/mcse/reverberation.py": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "data/g18_v1/manifest.jsonl": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc",
+    "artifacts/g18_room_stress_v1/selected_sources.json": "861f96a684e525e4eefd91cf088a8e85ee73ad4fc607769f2e962901065239c2",
+    "artifacts/g20_room_components_v1/FINAL_ACCEPTANCE_AUDIT.json": "cf2155f869d40fa1948ad7e95161df6557b22c7f99db1c11ae86e7ae4ae3b7d1"
+  }
+}

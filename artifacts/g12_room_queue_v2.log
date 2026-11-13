@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_queue.py", line 29, in <module>
+    try:main()
+        ^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_queue.py", line 22, in main
+    run('g12_build.py',plan['max_data_seconds'],'build.log');assert (OUT/'stages/preparation/archive_manifest.json').exists()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/scripts/g12_queue.py", line 21, in run
+    if r.returncode:raise RuntimeError(script+' failed; retain exact logs/no silent retries')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: g12_build.py failed; retain exact logs/no silent retries

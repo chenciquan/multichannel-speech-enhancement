@@ -1,0 +1,278 @@
+{
+  "retrieved_utc": "2026-11-12 04:54:09 UTC",
+  "scope": [
+    "2023-01-01",
+    "2026-11-12"
+  ],
+  "search_workstreams": 3,
+  "successful_search_calls": 6,
+  "successful_requested_results": 45,
+  "returned_result_rows_parsed": 45,
+  "exact_URL_deduplicated": 44,
+  "invalid_parameter_calls": 3,
+  "invalid_parameter_requested_slots": 30,
+  "skill_count_including_invalid_retries": 75,
+  "notice": "75 is requested slots including3 pre-execution schema failures,not75 reviewed sources.45 successful result rows include duplicates and irrelevant candidates.5 selected primary studies verified; no exhaustive novelty clearance.",
+  "candidates": [
+    {
+      "title": "Universal Score-based Speech Enhancement with High Content Preservation",
+      "url": "https://doi.org/10.48550/arxiv.2406.12194",
+      "search": "low_rank"
+    },
+    {
+      "title": "Parameter-efficient adaptation with multi-channel adversarial training for far-field speech recognition",
+      "url": "https://doi.org/10.1186/s13636-025-00406-5",
+      "search": "low_rank"
+    },
+    {
+      "title": "Towards Lightweight Adaptation of Speech Enhancement Models…",
+      "url": "https://lacuna.tiptreesystems.com/work/towards-lightweight-adaptation-of-speech-enhancement-models",
+      "search": "low_rank"
+    },
+    {
+      "title": "LABNet: A Lightweight Attentive Beamforming Network for Ad-hoc Multichannel Microphone Invariant Real-Time Speech Enhancement",
+      "url": "https://www.alphaxiv.org/abs/2507.16190",
+      "search": "low_rank"
+    },
+    {
+      "title": "Recovering speech intelligibility with deep learning and multiple microphones in noisy-reverberant situations for people using cochlear implants",
+      "url": "https://pubs.aip.org/asa/jasa/article-split/155/6/3833/3298523/Recovering-speech-intelligibility-with-deep",
+      "search": "low_rank"
+    },
+    {
+      "title": "Speech Enhancement Algorithm Based on Microphone ...",
+      "url": "https://www.mdpi.com/2079-9292/14/4/681",
+      "search": "low_rank"
+    },
+    {
+      "title": "Microphone-Array-Generalization-for-Multichannel ...",
+      "url": "https://github.com/Audio-WestlakeU/Microphone-Array-Generalization-for-Multichannel-Narrowband-Deep-Speech-Enhancement-",
+      "search": "low_rank"
+    },
+    {
+      "title": "Geometry-Conditioned Pair Representation and Covariance Reconstruction for Multi-Source Direction-of-Arrival Estimation with Microphone Arrays",
+      "url": "https://www.mdpi.com/1424-8220/26/21/7004",
+      "search": "low_rank"
+    },
+    {
+      "title": "Low-Rank Adaptation of Deep Prior Neural Networks For Room Impulse Response Reconstruction",
+      "url": "https://doi.org/10.1109/waspaa66052.2025.11230985",
+      "search": "low_rank"
+    },
+    {
+      "title": "Advances in Microphone Array Processing and Multichannel Speech Enhancement",
+      "url": "https://www.semanticscholar.org/paper/Advances-in-Microphone-Array-Processing-and-Speech-Huang-Jensen/5786a927075bf700d9096f9e70d16093152d6c1d",
+      "search": "low_rank"
+    },
+    {
+      "title": "Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming",
+      "url": "https://arxiv.org/html/2606.24137",
+      "search": "wng_venue"
+    },
+    {
+      "title": "Integrated DNN-Based Parameter Estimation for Multichannel Speech Enhancement",
+      "url": "https://sapl.gist.ac.kr/wp-content/uploads/2025/08/Integrated_DNN-Based_Parameter_Estimation_for_Multichannel_Speech_Enhancement.pdf",
+      "search": "beamforming"
+    },
+    {
+      "title": "DNN-based Parameter Estimation for MVDR Beamforming and Post-filtering",
+      "url": "https://www.isca-archive.org/interspeech_2023/kim23b_interspeech.pdf",
+      "search": "beamforming"
+    },
+    {
+      "title": "Deep Neural Network Based Adaptive Beamforming for Real-Time Speech Enhancement",
+      "url": "https://doi.org/10.1109/dicta63115.2024.00047",
+      "search": "beamforming"
+    },
+    {
+      "title": "An MVDR-Embedded U-Net Beamformer for Effective and Robust Multichannel Speech Enhancement",
+      "url": "https://doi.org/10.1109/icassp48485.2024.10448366",
+      "search": "beamforming"
+    },
+    {
+      "title": "Attention-Based Beamformer For Multi-Channel Speech Enhancement",
+      "url": "https://doi.org/10.1109/icassp49660.2025.10890720",
+      "search": "beamforming"
+    },
+    {
+      "title": "Flexible multichannel speech enhancement for noise-robust frontend",
+      "url": "https://arxiv.org/html/2406.04552v1",
+      "search": "beamforming"
+    },
+    {
+      "title": "Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising",
+      "url": "https://arxiv.org/html/2410.22805",
+      "search": "beamforming"
+    },
+    {
+      "title": "PhysMVNet: Physics-Informed End-to-End MVDR Beamformer with Residual Spectral Mapping for Multichannel Speech Enhancement",
+      "url": "https://doi.org/10.1109/asru65441.2025.11434652",
+      "search": "beamforming"
+    },
+    {
+      "title": "Transformer-based Neural Beamforming for Real-Time Speech Enhancement on Smart Low-Power Hearable Devices",
+      "url": "https://arxiv.org/abs/2609.33755",
+      "search": "beamforming"
+    },
+    {
+      "title": "Towards Lightweight Adaptation of Speech Enhancement Models in Real-World Environments",
+      "url": "https://arxiv.org/html/2603.07471v1",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "AmbiDrop: Array-Agnostic Speech Enhancement Using Ambisonics Encoding And Dropout-Based Learning",
+      "url": "https://arxiv.org/html/2509.14855",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "SpatialEmb: Extract and Encode Spatial Information for 1-Stage Multi-channel Multi-speaker ASR on Arbitrary Microphone Arrays",
+      "url": "https://arxiv.org/html/2601.18037",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "HyBeam: Hybrid Microphone–Beamforming Array-Agnostic Speech Enhancement for Wearables",
+      "url": "https://arxiv.org/html/2510.22637",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "[2507.16190] LABNet: A Lightweight Attentive Beamforming Network for Ad-hoc Multichannel Microphone Invariant Real-Time Speech Enhancement",
+      "url": "https://ar5iv.labs.arxiv.org/html/2507.16190",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "Spatial-Filter-Bank-Based Neural Method for Multichannel Speech Enhancement",
+      "url": "https://arxiv.org/html/2504.01392",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "Adapting Pre-Trained Self-Supervised Learning Model for Speech Recognition with Light-Weight Adapters",
+      "url": "https://www.mdpi.com/2079-9292/13/1/190",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "AGADIR: Towards Array-Geometry Agnostic Directional Speech Recognition",
+      "url": "https://arxiv.org/html/2401.10411",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "DeFTAN-AA: Array Geometry Agnostic Multichannel Speech Enhancement — Lacuna",
+      "url": "https://lacuna.tiptreesystems.com/work/deftan-aa-array-geometry-agnostic-multichannel-speech",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "Improving Design of Input Condition Invariant Speech Enhancement",
+      "url": "https://arxiv.org/html/2401.14271",
+      "search": "spatial_generalization"
+    },
+    {
+      "title": "ISCA Archive - Universal Score-based Speech Enhancement with High Content Preservation",
+      "url": "https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.html",
+      "search": "universe_venue"
+    },
+    {
+      "title": "Universal Score-based Speech Enhancement with High Content Preservation",
+      "url": "https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.pdf",
+      "search": "universe_venue"
+    },
+    {
+      "title": "Universal Score-based Speech Enhancement with High Content Preservation",
+      "url": "https://doi.org/10.21437/interspeech.2024-138",
+      "search": "universe_venue"
+    },
+    {
+      "title": "ISCA Archive",
+      "url": "https://www.isca-archive.org/interspeech_2024/index.html",
+      "search": "universe_venue"
+    },
+    {
+      "title": "Universal Score-based Speech Enhancement with High Content Preservation - LY Corporation R&D - LY Corporation",
+      "url": "https://research.lycorp.co.jp/en/publications/2050",
+      "search": "universe_venue"
+    },
+    {
+      "title": "Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising | IEEE Conference Publication | IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/10849318",
+      "search": "runtime_venue"
+    },
+    {
+      "title": "Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising",
+      "url": "https://doi.org/10.1109/apsipaasc63619.2025.10849318",
+      "search": "runtime_venue"
+    },
+    {
+      "title": "吉井 和佳 (Kazuyoshi Yoshii) - Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising - 論文 - researchmap",
+      "url": "https://researchmap.jp/k.yoshii/published_papers/50285765",
+      "search": "runtime_venue"
+    },
+    {
+      "title": "2024 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2024) (Table of Contents)",
+      "url": "https://www.proceedings.com/content/078/078476webtoc.pdf",
+      "search": "runtime_venue"
+    },
+    {
+      "title": "Papers and Proceedings | Publications | Biological Function Engineering Lab., Department of Electrical Engineering, Graduate School of Engineering, Kyoto University",
+      "url": "https://bfe.kuee.kyoto-u.ac.jp/en/publications.html",
+      "search": "runtime_venue"
+    },
+    {
+      "title": "Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming | Interspeech 2026 Wiki",
+      "url": "https://interspeech-2026-wiki.vercel.app/papers/deng26d_interspeech/",
+      "search": "wng_venue"
+    },
+    {
+      "title": "Joint Learning of Covariance Estimation and White Noise ...",
+      "url": "https://arxiv.org/abs/2606.24137",
+      "search": "wng_venue"
+    },
+    {
+      "title": "Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming | Cool Papers - Immersive Paper Discovery",
+      "url": "https://papers.cool/venue/deng26d@interspeech_2026@ISCA",
+      "search": "wng_venue"
+    },
+    {
+      "title": "ISCA Archive",
+      "url": "https://www.isca-archive.org/interspeech_2026",
+      "search": "wng_venue"
+    }
+  ],
+  "primary_selected": [
+    {
+      "title": "Towards Lightweight Adaptation of Speech Enhancement Models in Real-World Environments",
+      "year": 2026,
+      "venue": "arXiv preprint; formal venue not verified",
+      "url": "https://arxiv.org/abs/2603.07471",
+      "quality": "Author primary paper; explicit single-channel task confirmed in HTML"
+    },
+    {
+      "title": "Universal Score-based Speech Enhancement with High Content Preservation",
+      "year": 2024,
+      "venue": "Interspeech2024",
+      "doi": "10.21437/Interspeech.2024-138",
+      "url": "https://www.isca-archive.org/interspeech_2024/scheibler24_interspeech.html",
+      "quality": "Official ISCA abstract/BibTeX and paper3.3; author corporate publication links official code"
+    },
+    {
+      "title": "Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising",
+      "year": 2024,
+      "venue": "APSIPA ASC2024",
+      "doi": "10.1109/APSIPAASC63619.2025.10849318",
+      "url": "https://arxiv.org/abs/2410.22805",
+      "quality": "Author paper and Kyoto laboratory list venue2024; DOI string includes2025,not used to infer conference year"
+    },
+    {
+      "title": "Flexible Multichannel Speech Enhancement for Noise-Robust Frontend",
+      "year": 2023,
+      "venue": "WASPAA2023 per arXiv journal-reference; publisher metadata not separately checked",
+      "url": "https://arxiv.org/abs/2406.04552",
+      "quality": "Author primary paper; arXiv uploaded2024,distinguished from stated2023 venue"
+    },
+    {
+      "title": "Joint Learning of Covariance Estimation and White Noise Gain for Robust MVDR Beamforming",
+      "year": 2026,
+      "venue": "Interspeech2026",
+      "doi": "10.21437/Interspeech.2026-2212",
+      "url": "https://www.isca-archive.org/interspeech_2026/deng26d_interspeech.html",
+      "quality": "Official ISCA BibTeX and arXiv author metadata verified; third-party AI wiki not used as evidence"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T01:02:45.512200+00:00",
+  "files": [
+    {
+      "source": "docs/G32_cirm_整句直接输出覆盖.md",
+      "snapshot": "00_G32_cirm_整句直接输出覆盖.md",
+      "sha256": "feca1b102a03a5931bc2b6bba6d504f294fbda97cac4572deb9dc0f09b2037d4"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/cirm_resource.json",
+      "snapshot": "01_cirm_resource.json",
+      "sha256": "3bb31c410b25e1ef42033224905b5b924b2730e3dcba3f450661c4699dfd8ff6"
+    }
+  ]
+}

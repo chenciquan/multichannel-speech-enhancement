@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T19:09:53.372164+00:00",
+  "files": [
+    {
+      "source": "docs/研究补查_TSOS来源与尺度控制_20261113.md",
+      "snapshot": "00_研究补查_TSOS来源与尺度控制_20261113.md",
+      "sha256": "c29134847d0ca0a6622f62545628068210e3b7071b377b2c0a59b85d4d559069"
+    },
+    {
+      "source": "artifacts/tsos_metric_literature_20261113_v1/verification_record.json",
+      "snapshot": "01_verification_record.json",
+      "sha256": "384029eff4dbeefbc7090d3d84a677339ad8efcd33ea38f2544c7620e53ec6e1"
+    }
+  ]
+}

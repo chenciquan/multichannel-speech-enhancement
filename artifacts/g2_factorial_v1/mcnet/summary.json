@@ -1,0 +1,81 @@
+{
+  "total_cases": 48,
+  "successful_cases": 48,
+  "failed_cases": 0,
+  "metrics": {
+    "si_sdr_db": {
+      "noisy": {
+        "n": 48,
+        "mean": -0.9010125452191401,
+        "median": -0.5755088252647543
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": -0.16149968413895285,
+        "median": -0.3742831909275103
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.7395128610801872,
+        "median": 0.1963329303335032
+      }
+    },
+    "stoi": {
+      "noisy": {
+        "n": 48,
+        "mean": 0.8554087106771316,
+        "median": 0.8596358181608352
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 0.8661929074656903,
+        "median": 0.8929249047218188
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.010784196788558452,
+        "median": 0.0031884898998015276
+      }
+    },
+    "pesq_wb": {
+      "noisy": {
+        "n": 48,
+        "mean": 1.615046391884486,
+        "median": 1.1148865222930908
+      },
+      "enhanced": {
+        "n": 48,
+        "mean": 1.8157877922058105,
+        "median": 1.2595077753067017
+      },
+      "paired_improvement": {
+        "n": 48,
+        "mean": 0.20074140032132468,
+        "median": 0.0677611231803894
+      }
+    }
+  },
+  "human_content_loss_judgement": "not_assessed",
+  "status": "ok",
+  "input_manifest_sha256": "0b133f18dbe59e2b7dcd548e77af1cb078ec4266991d6bf6bfc004676f87e006",
+  "model_loaded_once": true,
+  "unique_sources": 6,
+  "unique_speakers": 6,
+  "metric_backends": {
+    "stoi": {
+      "status": "available",
+      "package": "pystoi",
+      "version": "0.4.1"
+    },
+    "pesq_wb": {
+      "status": "available",
+      "package": "pesq",
+      "version": "0.0.4"
+    }
+  },
+  "training_performed": false,
+  "cuda_peak_allocated_bytes": 1772049408,
+  "cuda_peak_reserved_bytes": 5282725888,
+  "asr_performed": false,
+  "notice": "Exploratory signal-level diagnostics only. No human content-loss event has been adjudicated."
+}

@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T02:10:08.951286+00:00",
+  "files": [
+    {
+      "source": "docs/G33B_数值矩阵独立验收.md",
+      "snapshot": "00_G33B_数值矩阵独立验收.md",
+      "sha256": "3a88a31f4fdbb92f4da3288c62ab3b577a7a93098c731f3f72f56e15075ab98b"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/FINAL_DIAGNOSTIC_AUDIT.json",
+      "snapshot": "01_FINAL_DIAGNOSTIC_AUDIT.json",
+      "sha256": "610ab567ab1f605d030c96db397bda0677b6102629cfc10ab0927af9fe0ae703"
+    },
+    {
+      "source": "scripts/g33b_accept.py",
+      "snapshot": "02_g33b_accept.py",
+      "sha256": "58df64ce981b21c41aa9f18c062c32469e7bf567036c9b6337cbd08849aa8e21"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "6e4f8581d3900034e15f61892ecb08fb2e4c3039f1cce806db8bb7eaa14468b5"
+    }
+  ]
+}

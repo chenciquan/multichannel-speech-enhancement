@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "adapter_parameters": 3584,
+  "zero_initialization_max_error": 0.0,
+  "attempts": [
+    {
+      "status": "ok",
+      "amp": true,
+      "segment_samples": 16000,
+      "batch_size": 1,
+      "mean_step_seconds": 0.04046809874999724,
+      "peak_allocated_bytes": 616559616,
+      "peak_reserved_bytes": 987758592,
+      "loss": 0.17442023754119873,
+      "backward_passes": 5,
+      "optimizer_steps": 0
+    }
+  ],
+  "selected": {
+    "amp": true,
+    "segment_samples": 16000,
+    "batch_size": 1,
+    "mean_step_seconds": 0.04046809874999724,
+    "peak_allocated_bytes": 616559616,
+    "peak_reserved_bytes": 987758592,
+    "loss": 0.17442023754119873,
+    "backward_passes": 5,
+    "optimizer_steps": 0
+  },
+  "original_checkpoint_unchanged": true,
+  "capacity_input_role": "existing diagnostic waveform only; no optimization; actual training reloads pristine base",
+  "model_parameters": 3328706
+}

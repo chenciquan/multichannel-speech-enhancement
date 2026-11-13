@@ -1,0 +1,12 @@
+{
+  "status":"auxiliary_listening_rule_fixed_before_G10_ASR_not_a_blind_test",
+  "entry_gate":"G10 major completion report and audit saved before derivative audio export",
+  "selection":"G10 source manifest speaker order:first eligible utterance per each of4 speakers. Use OOFFICE,point relative-80,SNR0; assign target angles[-40,20,70,-40] in that order. No score/hypothesis based case selection.",
+  "roles":["clean_reference","noisy_refmic4","original_McNet","fixed_adapter_seed20261112","rotated_adapter_seed20261112","original_McNet_mask_MVDR","fixed_adapter_mask_MVDR_seed20261112","rotated_adapter_mask_MVDR_seed20261112"],
+  "cases":4,
+  "audio_players":32,
+  "waveform_export":"Full clips only,mono16k FLOAT WAV,one common page-wide attenuation if any output peak exceeds1; no per-model gain matching,trimming or overwriting source waves",
+  "display":"Labels and official transcript visible,ASR texts behind optional details. Explicit researcher-assisted nonblind listening,not a formal perceptual experiment or automatic word-deletion proof.",
+  "human_review":"No feedback inferred or requested during unattended run; optional follow-up after user returns",
+  "note":"This auxiliary UI rule was fixed while SE inference was already ongoing and before ASR started; not claimed preregistered before all G10 computation. Does not affect method/weight/data/metric analysis."
+}

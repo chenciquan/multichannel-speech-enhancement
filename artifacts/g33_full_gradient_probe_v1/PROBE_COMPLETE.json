@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T01:42:59.184325+00:00",
+  "modes": [
+    "lora",
+    "full"
+  ],
+  "optimizer_updates": 0,
+  "elapsed_seconds": 942.7338939220001,
+  "result_hashes": {
+    "lora": "c94781817bbfca1e08d28ba23ff12d78b7584e3853c025aa8de48c2a547b55d2",
+    "full": "5432bcb00d336aa621b09830a911ca684fcce546bc657432098bafad664b0118"
+  }
+}

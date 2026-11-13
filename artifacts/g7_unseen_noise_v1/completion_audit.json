@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "checks": {
+    "all9072_signal_and_asr_pairs": true,
+    "all_metric_rows_ok": true,
+    "input_hashes_match": true,
+    "counterfactual_raw_and_reference_equal": true,
+    "all_output_hashes_match": true,
+    "frozen_adapter_hashes_match": true,
+    "new_noise_ids_and_files_not_previously_used": true,
+    "bounded_noise_member_downloads": true,
+    "data_archived_before_inference": true,
+    "signal_report_archived_before_ASR": true,
+    "no_training_or_new_selection": true,
+    "official_base_unchanged": true,
+    "42_mono_review_links": true
+  },
+  "coverage": {
+    "signal_rows": 9072,
+    "asr_rows": 9072,
+    "sources": 12,
+    "speakers": 3,
+    "systems": 14,
+    "cases_per_system": 648,
+    "seeds": [
+      20261112,
+      20261113,
+      20261114
+    ]
+  },
+  "counterfactual_groups": 216
+}

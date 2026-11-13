@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-11-12T17:49:14.752212+00:00",
+  "files": [
+    {
+      "source": "docs/G20A_房间分量还原协议.md",
+      "snapshot": "00_G20A_房间分量还原协议.md",
+      "sha256": "a0d7663296eac4cd77e52e2f383439dcbb889bf90eda3be2e120f9b2b732c975"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/frozen_replay_plan.json",
+      "snapshot": "01_frozen_replay_plan.json",
+      "sha256": "b3e3f04bff78d715452a922a4b90d0a0b47af984a1a35e562c608d58c39339d3"
+    },
+    {
+      "source": "scripts/g20_replay.py",
+      "snapshot": "02_g20_replay.py",
+      "sha256": "45c309894f890c5af2803c0683fd815a308175ba6cd24ee0ffdac3fd9cd89076"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pesq_identity": 4.643888473510742,
+  "stoi_identity": 0.9999999999999997,
+  "sample_rate": 16000,
+  "source_id": "2277-149896-0033",
+  "purpose": "metric backend self-match sanity only; not enhancement performance"
+}

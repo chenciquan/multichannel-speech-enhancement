@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T18:13:43.270878+00:00",
+  "files": [
+    {
+      "source": "docs/G21B_真值协方差信号报告.md",
+      "snapshot": "00_G21B_真值协方差信号报告.md",
+      "sha256": "b3913b14b2d30867469a892caed6a80dc64922a5707d86058f09fd4407d4f1ac"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "16a506d8aa5813e94c3dd2ab7a3657ae0cfe717a2c41566ce88bfd63cce9ad32"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "4fd4403fd339ded29cfccb9a5454c0cce5215fa514d4540af9aff8bc6c559ea4"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/verified_files.json",
+      "snapshot": "03_verified_files.json",
+      "sha256": "2ac7cee9e2c7cdc4a8602a9edb60a7c45d005525fcdb9c4e16dd989cd27772eb"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/frozen_plan.json",
+      "snapshot": "04_frozen_plan.json",
+      "sha256": "6cfd518eec953166dab62a42d1db8a6d00a69b57ebffe06b07e379b951bd2a1f"
+    },
+    {
+      "source": "scripts/g21_truth_covariance.py",
+      "snapshot": "05_g21_truth_covariance.py",
+      "sha256": "950fe804cbd0e7c4c63dd1ff71cde68f4b2243d310cc8a4ea28c31f19e2a68dc"
+    }
+  ]
+}

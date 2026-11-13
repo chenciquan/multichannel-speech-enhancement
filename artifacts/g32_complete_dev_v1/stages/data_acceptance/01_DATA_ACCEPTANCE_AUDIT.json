@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "utc": "2026-11-13T00:59:45.515457+00:00",
+  "exact_input_replays": 36,
+  "exact_target_replays": 36,
+  "full_transcript_cases": 36,
+  "unique_original_word_tokens": 16,
+  "max_recomputed_SNR_error_db": 1.404219052147937e-08,
+  "used_RIRs_verified": 60,
+  "stages": {
+    "bootstrap_failure": "adbc2168f1838e845e50873e590ef050e2968b900707ac4b8359613785763dca",
+    "data_complete": "c6c6da06f9b47863a799a82b8123a02a6fcab0cfefee128340c4337b742124ef",
+    "data_protocol": "1f52bc720bd2dc0fe7157cede7482ae3c46e81d48230b8e56f377e34c7c0ae30"
+  },
+  "manifest_sha256": "57bd5b2370fc249fcb0a01da12c10d33be191c290c6cc65a3c41454f221bff0f",
+  "training_or_ASR_performed": false,
+  "long_running_awake_helper_requested": false
+}

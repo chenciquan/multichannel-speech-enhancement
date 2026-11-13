@@ -1,0 +1,122 @@
+[
+  {
+    "mode": "full",
+    "index": 0,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "full",
+    "index": 3,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "full",
+    "index": 10,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "full",
+    "index": 5,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "full",
+    "index": 7,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "full",
+    "index": 2,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 0,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 3,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 10,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 5,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 7,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  },
+  {
+    "mode": "lora",
+    "index": 2,
+    "exact": true,
+    "within_original_tolerance": true,
+    "max_abs": 0.0,
+    "relative_RMS": 0.0,
+    "failing_elements": 0,
+    "elements": 23901
+  }
+]

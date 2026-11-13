@@ -1,0 +1,22 @@
+{
+  "stage": "G2_spectral_spatial_factorial_discovery",
+  "reason_for_followup": "The 48-case spatial-only probe has small SI-SDR contrast; raw-noise spectral inspection finds strong ~16.4Hz energy in both recordings. Test low-frequency dominance and residual spatial sensitivity separately.",
+  "source_selection": "same six sources as g2_spatial_v1; discovery only",
+  "noise_spectrum_conditions": ["raw", "highpass40_then_snr0"],
+  "spatial_conditions": ["original_point", "conditioned_12wave"],
+  "noise_prefilter": {"cutoff_hz":40,"order":4,"type":"Butterworth SOS forward-backward on source noise before rendering","not_a_proposed_innovation":true},
+  "speech_field": "unchanged raw source and geometry; filter applies only to synthetic noise for the factorial data intervention",
+  "snr_db":0,
+  "sources":6,
+  "noises":["DWASHING_ch01", "DKITCHEN_ch01"],
+  "seed":2026111103,
+  "expected_mixtures":48,
+  "fixed_reference_policy":"within each spectral condition, point and12wave have bit-identical noisy reference; spectral interventions intentionally change the reference noise waveform and restore active SNR0",
+  "scale":"one common anti-clipping scale across both spectral types, spatial types and both noises per source",
+  "processing_controls_on_original_point": ["noisy reference", "McNet", "fixed highpass40 on noisy reference", "McNet then fixed highpass40", "fixed highpass40 on all input channels then McNet"],
+  "processing_reference":"all controls scored against the same original unfiltered clean target; no peak normalization or fitting delay",
+  "interpretation":"A highpass baseline is a diagnostic/simple comparator, not an innovation. If it explains original metric gains, do not present this as a new neural method.",
+  "confirmation":"freeze observed contrast, then eight complete new utterances excluded from original24 and two new random seeds; reuse same noise recordings must be disclosed",
+  "training":false,
+  "new_dependencies":false
+}

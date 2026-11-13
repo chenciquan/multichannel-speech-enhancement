@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T23:53:55.706629+00:00",
+  "ASR": {
+    "Whisper": {
+      "rows": 16488,
+      "reference_cases": 504,
+      "compatible_seed_entries": 480,
+      "new_decodes": {
+        "reference": 186,
+        "output": 13200
+      }
+    },
+    "CTC": {
+      "rows": 16488,
+      "reference_cases": 504,
+      "compatible_seed_entries": 480,
+      "new_decodes": {
+        "reference": 186,
+        "output": 13200
+      }
+    }
+  },
+  "stages": {
+    "completion": "1674c020c276c1df469d06b137c802df05cc5dc243ee2909969abb620181406f",
+    "ctc": "c8ee8e6dff60674ba88d629e52b153390b3af5dfd43744c0895ea531ad516304",
+    "preparation": "18cb01f2371588c4d6186e05f686d934575b5a807493c9092be1bf2238912c91",
+    "protocol": "9fb7cf709242f09c0ca9112b00cd9d71b8d8eabfcb4430443062fa6154588adb",
+    "recognition_protocol": "734fbee4391f51fe87cf6fc16a9aefef5fddb654f85e5934185ff025d4d46e05",
+    "whisper": "cc5453d59c47ca955e4ff93f84796d2ce27c20036f594f12dd3739ee03e19ff4"
+  },
+  "RT0_pairs": 2748,
+  "method_sign_flips": {
+    "Whisper": 0,
+    "CTC": 0
+  },
+  "completion_audit_sha256": "19bf0243f3ddb03bc3032a8d3fb0417c7d9d2d7d4d2fedd021104a1aa8febe64"
+}

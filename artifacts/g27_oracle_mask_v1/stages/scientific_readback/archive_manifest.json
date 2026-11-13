@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:08:21.418150+00:00",
+  "files": [
+    {
+      "source": "docs/G27_科学结论与训练可行性门槛.md",
+      "snapshot": "00_G27_科学结论与训练可行性门槛.md",
+      "sha256": "29a675b4484178d3d7dc133017e7a8b10015008dc325a96ca4065b9a88c9ce18"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/scientific_readback.json",
+      "snapshot": "01_scientific_readback.json",
+      "sha256": "52667e1e7fb7a93adb2db50186009907c3edd51fdffd918319e9e516d3772d1e"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/oracle_mask_diagnostic.png",
+      "snapshot": "02_oracle_mask_diagnostic.png",
+      "sha256": "507a3359e3c8cdafe3550abea3b25322ae2ea85293e4657be2226ea6e1bdb2cd"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/recognition/oracle_mask_diagnostic.pdf",
+      "snapshot": "03_oracle_mask_diagnostic.pdf",
+      "sha256": "57fc87d271cce46a215402693452d440e19cb89d5bd5a6ddedb30af6120ce635"
+    },
+    {
+      "source": "scripts/g27_scientific.py",
+      "snapshot": "04_g27_scientific.py",
+      "sha256": "b11d041ea123ca7ef97fdff7e717a458974ebdad2df12d2f2417114dddf4f7bf"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc":"2026-11-12T04:55:32Z",
+  "command":"wsl.exe -d Ubuntu --exec /usr/lib/wsl/lib/nvidia-smi --query-gpu=utilization.gpu,memory.used,temperature.gpu,power.draw --format=csv,noheader",
+  "output":"76 %, 7830 MiB, 79, 34.02 W",
+  "scope":"GPU device-wide observed use,not torch.memory_allocated or a measured process peak",
+  "followup_compute_process":"PID546,verified g10_signal.py; WSL process memory N/A in nvidia-smi",
+  "followup_other_processes":"Only current queue,signal worker and two CPU metric children observed; unrelated unattended-upgrades shutdown service was not touched",
+  "inference_rows_at_observation":1465,
+  "all_completed_rows_ok_at_observation":true,
+  "OOM_observed":false,
+  "interpretation":"High device-wide use during varied-length batch; cache-versus-active allocation not established. Do not extrapolate fixed-length G6 probe memory to this whole run. No driver/CUDA/power-plan change or process restart made."
+}

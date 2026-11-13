@@ -1,0 +1,15 @@
+{
+  "status": "proposal_only_not_downloaded_or_run",
+  "entry_gate": "Read and archive G9 total report, audit and acceptance before freezing G10 protocol",
+  "motivation": "G5/G7/G8/G9 repeatedly evaluate the same12 utterances3 speakers. Prioritize genuinely new speakers before further training or module complexity. Test whether adapter speech estimates help a mature MVDR pipeline, rather than only comparing neural waveform outputs.",
+  "source_candidate": "Official LibriSpeech dev-clean; CC-BY4.0 verified https://www.openslr.org/12 . Bounded tar streaming, save only16 selected short FLACs and transcripts, no full archive/data dependency installation.",
+  "selection_if_activated": "First4 complete eligible speakers in archive stream,4 complete1-3.8s mono16k utterances each. Exclude every G1/G2/G3/G5 speaker, sourceID and source-file SHA. No quality/ASR/model-output based source selection; no old-source fallback.",
+  "possible_stream_cap_bytes": 234881024,
+  "possible_time_cap_seconds": 1200,
+  "conditions_candidate": "16 new sources,4 existing noise recordings,3 target angles(-40/20/70),3 spatial fields(point relative-80/+25,multi8),0dB only, plus3-angle clean controls:576 noisy+48 clean=624 cases. Match reference-mic input across target angles, same HPF40 and active-SNR convention. New voices, not new noise recordings or real rooms.",
+  "frozen_systems_candidate": "Noisy,originalMcNet,all3 seeds of fixed/rotated without-clean-identity G5 adapters, each corresponding estimated-mask MVDR output including originalMcNet mask.15 systems,624 per system=9360 signal pairs and each ASR backend9360 scores. Freeze exact subset before new-source outputs. Existing clean-identity cells excluded as a declared narrower mechanism question, not claimed universally inferior.",
+  "hypothesis": "Some spatial adaptation effects may differ between directly emitted waveforms and covariance masks used by standard beamforming. Test paired output-form by fixed/rotated training interaction and direction tradeoffs on fresh voices. No promised gain or novelty.",
+  "analysis_candidate": "Both fixed ASR backends, SI-SDR/PESQ/STOI, per noise/direction/field/speaker, all3 seeds retained. Only4 independent speakers; use speaker-cluster or hierarchical exploratory intervals, not thousands of condition rows as independent sentences. Report negative results.",
+  "no_training_new_SE_or_ASR_weights_dependencies": true,
+  "claim_limits": "Standard neural-mask beamforming plus frozen standard LoRA is a mature composition; evidence could inform an undergraduate comparative study but does not establish algorithmic innovation or a publishable result. Not activated yet."
+}

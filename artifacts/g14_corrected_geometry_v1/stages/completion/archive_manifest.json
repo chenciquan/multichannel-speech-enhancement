@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T08:54:54.618355+00:00",
+  "files": [
+    {
+      "source": "docs/G14_正确几何配对自由场诊断报告.md",
+      "snapshot": "00_G14_正确几何配对自由场诊断报告.md",
+      "sha256": "6084a9a0c656394158e480898a66732336de031885598778573c88722d84083d"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/completion_audit.json",
+      "snapshot": "01_completion_audit.json",
+      "sha256": "301e2fd74f6dbcd2dba657476fddc4204dbaca8530c19ce03a122014c7abfaac"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "9d87442fea81c66e85241ecd595d72df85155cb8a5c253a28ac031682f0af453"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "03_provenance.json",
+      "sha256": "ed4cf5a53bfa91c79e96d9efac20b3040cc8d6f48e711333fac154f3586fb47c"
+    },
+    {
+      "source": "artifacts/g14_corrected_geometry_v1/evaluation/CTC/provenance.json",
+      "snapshot": "04_provenance.json",
+      "sha256": "c13c7877f3ada0467e66b78162d570a955402884e555fd61bf882fe2b27632cf"
+    },
+    {
+      "source": "scripts/g14_finish.py",
+      "snapshot": "05_g14_finish.py",
+      "sha256": "90ba4e3ecc1f380fd382b1f2a62d3f364155c084ca3257665e4e5fd73a5cf747"
+    }
+  ]
+}

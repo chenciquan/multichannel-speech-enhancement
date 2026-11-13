@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T01:03:01.376109+00:00",
+  "files": [
+    {
+      "source": "docs/G32D_整句直接输出完整覆盖.md",
+      "snapshot": "00_G32D_整句直接输出完整覆盖.md",
+      "sha256": "d8fb3b7f3981a60b0d0486ae0aaee865c72472c8965abdfaecb95d42fe0a225b"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/direct_signals.jsonl",
+      "snapshot": "01_direct_signals.jsonl",
+      "sha256": "2e6a6bc8996ed39664c16f0b8e98d048fb657b76aeb6b0dc6014d72a1b20ab45"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-11-12T23:38:18.544884+00:00",
+  "max_seconds": 7200,
+  "manifest_sha256": "6f5a42384a2e54e3fcc8ef8080fd60784cea014ced339132557ff736cb08e93e",
+  "hashes": {
+    "scripts/g26_asr.py": "0f5f6e8537c0bdf4b3d83234128d0b496231c1ec6988e0c3cb215776aa8f6795",
+    "scripts/g26_finish.py": "b730875565571d6dbf7ea5ead963b629b0464df533d050751ed41a43556b2ea3",
+    "scripts/g26_accept.py": "d5ea11d3e33d74752727cdcd7e796f57e7b92bc7858d1ab83e278e893d641a88",
+    "scripts/g26_prepare.py": "85756a4dc84cb657df10a6f620b6713becbd58ea63d8279840f0a3e1dbf584bc",
+    "src/mcse/asr_level.py": "5c45c16191addb475778aba03a977e69dc03eb2e818419ea06a6cf25db2a00c3",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+  },
+  "seed": {
+    "Whisper": {
+      "provenance_sha256": "c30fcc9b7b69a4d701316b89f667bb9cf8a298ebaae6c7fe61d2017bfd48907f",
+      "observations_sha256": "fbbc633bd70d4799f603b66724228fee2d8400e247153fa0d9ed4088177964e5"
+    },
+    "CTC": {
+      "provenance_sha256": "337fefa5f49b564f17d9d22646b958b455687130c9b97f05d258d34c224d7499",
+      "observations_sha256": "7d15dcbf1bbd6d60b47e325c17360ee0c1e59149802bff682e08dc58b94e9f0a"
+    }
+  },
+  "raw_comparators": {
+    "Whisper": "8d976650aa20f03e6b754cc58a1b37300028229ca1a8201fccfaf62dc8b9672f",
+    "CTC": "18eec1abf4d360b5bbecb5179f4e389535bb14cf40f59011e3abfd6fe2d08a89"
+  }
+}

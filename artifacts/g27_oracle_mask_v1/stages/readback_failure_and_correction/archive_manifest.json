@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:00:57.387435+00:00",
+  "files": [
+    {
+      "source": "docs/G27_验收文件哈希假设更正.md",
+      "snapshot": "00_G27_验收文件哈希假设更正.md",
+      "sha256": "ea92b54e511af580719bd6c521e9ca13f71b3aee40d8351c0b5b44f96d631fdd"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/readback_failure_v1/g27_readback_original.py",
+      "snapshot": "01_g27_readback_original.py",
+      "sha256": "740e16fc201de3f1995dcffc3d3428aa42b1dd7b97e7ade304b56effc3cd0c7d"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/readback_failure_v1/header_differences.json",
+      "snapshot": "02_header_differences.json",
+      "sha256": "ca503c692ea6e6d5625a99bbdbd9e5f30652355e8e9798798bed0bacab1ef3b6"
+    },
+    {
+      "source": "artifacts/g27_oracle_mask_v1/rt0_file_vs_pcm_probe.json",
+      "snapshot": "03_rt0_file_vs_pcm_probe.json",
+      "sha256": "67e0122232817bd65bef41da4a4fcb229cb3e521a0a49f2959ebfcf5ae731562"
+    }
+  ]
+}

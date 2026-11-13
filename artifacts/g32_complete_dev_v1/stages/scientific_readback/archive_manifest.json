@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-13T01:22:01.029983+00:00",
+  "files": [
+    {
+      "source": "docs/G32_科学读回与完整语句试听入口.md",
+      "snapshot": "00_G32_科学读回与完整语句试听入口.md",
+      "sha256": "3989a5298ed3c1fd1ca01781701a16f894dcd4978b3d422c8b4a7470fb08e786"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/recognition/scientific_contrasts.json",
+      "snapshot": "01_scientific_contrasts.json",
+      "sha256": "4524343dc8de15560d6ce95c65297a3077a76add528b5b52031508f3ce3ca090"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/ASR_contrasts.png",
+      "snapshot": "02_ASR_contrasts.png",
+      "sha256": "b6e4e5d758e475ab60f98637277a5769c2858aac6eeb80eaf907b20398299a3f"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/ASR_contrasts.pdf",
+      "snapshot": "03_ASR_contrasts.pdf",
+      "sha256": "e26316aa5c2d9737d3829df760f8c68299da1c1dffff9fa9035cae273c3a694f"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/review/index.html",
+      "snapshot": "04_index.html",
+      "sha256": "99eeaec1033b3e581e77dd7796ace3e16765b7abaf0c6132c11fda64a088f9dd"
+    },
+    {
+      "source": "artifacts/g32_complete_dev_v1/review/audio_links.json",
+      "snapshot": "05_audio_links.json",
+      "sha256": "d98a481b14b26d8f2b6c768ad0759774da98c1b81d318a8062b681c463233161"
+    },
+    {
+      "source": "scripts/g32_readback.py",
+      "snapshot": "06_g32_readback.py",
+      "sha256": "4c24599c9e7b428a551a9e4a335777594fa533dc3b896a01e2d787d7dded3d57"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-13T01:56:54.340494+00:00",
+  "indices": [
+    0,
+    3,
+    10,
+    5,
+    7,
+    2
+  ],
+  "seed": 20261113,
+  "max_seconds_after_verification": 900,
+  "profiles": [
+    {
+      "id": "cudnn_tf32_nondet",
+      "enabled": true,
+      "tf32": true,
+      "deterministic": false
+    },
+    {
+      "id": "cudnn_fp32_nondet",
+      "enabled": true,
+      "tf32": false,
+      "deterministic": false
+    },
+    {
+      "id": "cudnn_tf32_det",
+      "enabled": true,
+      "tf32": true,
+      "deterministic": true
+    },
+    {
+      "id": "cudnn_fp32_det",
+      "enabled": true,
+      "tf32": false,
+      "deterministic": true
+    },
+    {
+      "id": "native_fp32",
+      "enabled": false,
+      "tf32": false,
+      "deterministic": true
+    }
+  ],
+  "model_modes": [
+    "full",
+    "lora"
+  ],
+  "grad_enabled": [
+    true,
+    false
+  ],
+  "repeats": 2,
+  "forwards": 240,
+  "rtol": 1e-05,
+  "atol": 1e-06,
+  "training_mode": true,
+  "matmul_allow_tf32": false,
+  "cudnn_benchmark": false,
+  "optimizer_updates": 0,
+  "no_development_or_test_audio": true,
+  "hashes": {
+    "scripts/g33b_precision_audit.py": "a1b8ab528569535755b0944ae729e272c07cd3c94ee64f290777945cede50652",
+    "scripts/mcnet_infer.py": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95",
+    "scripts/g28_gradient_v2.py": "f990a9b0c2800433840e6d2c9a2f387333dea0be8cc1b12dbd6ecfab65a29b82",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "artifacts/g33_full_gradient_probe_v1/frozen_plan.json": "4dda4cce45a9cd0ca646c3ee258dfd94e40b872849c78dfac6e6ebf7e1e0b3c8",
+    "artifacts/g33_full_gradient_probe_v1/PROBE_COMPLETE.json": "d54c4ec63b6dcde08333eb4ffa2cdf7fa0e893fbe465f7e6b3be59c108f6d046",
+    "artifacts/g33_full_gradient_probe_v1/lora/initial_forward_outputs.npz": "edb2b3d6bd4749c9fc1a96dfd4867778bb2ec0259a2b65aee5e27c80fd9037c6",
+    "artifacts/g33_full_gradient_probe_v1/full/initial_forward_outputs.npz": "70ab1d6d5e79562e71ca7de3807c3ec909b2b50b1999a149a5bef164617202b3",
+    "artifacts/g33_full_gradient_probe_v1/acceptance_failure_v1/forward_differences.json": "e58fe37088da34b9de3a5a7c30fbb9ffc4bd723d554579ae12b1ef63fc6abe76",
+    "data/g29_v1/train_x.npy": "9be99bf914f8cd341eed52ef34e845b081d63b18c811ff56b177b7d77e3dd701",
+    "data/g29_v1/train_manifest.jsonl": "f18bde8a94a656a9fa0ee322dfd91e61648427627b7e792d1cdb315450d3f568"
+  }
+}

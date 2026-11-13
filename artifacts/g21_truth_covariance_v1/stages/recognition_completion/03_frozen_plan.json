@@ -1,0 +1,35 @@
+{
+  "frozen_utc": "2026-11-12T18:19:10.791019+00:00",
+  "max_seconds": 1800,
+  "rows": 864,
+  "cases": 432,
+  "new_decoding_options": false,
+  "signal_sha256": "f488c3456b28c9cdb9e273ebdbe790cb5a1a5e9bea8b7c085d4828b5fd365160",
+  "hashes": {
+    "scripts/g21_asr.py": "8a633629f4612015b9510bcaa7ffb3d97091e17add4da2d2f1cfa51e550c13a8",
+    "scripts/g21_asr_finish.py": "c5bf5387f7c5cafcbba8cd63f0758c77614d13278c6ea7f45f32a9af7db9ed2c",
+    "scripts/g19_scores.py": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a",
+    "scripts/g8_common.py": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf",
+    "src/mcse/asr_scoring.py": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415",
+    "src/mcse/ctc.py": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537",
+    "artifacts/g21_truth_covariance_v1/SIGNAL_ACCEPTANCE_AUDIT.json": "0fd862c6492b3dbc94dd94c2d0a0a5e8eec839962267d4ba84ae240b21748cbb"
+  },
+  "history_sha256": {
+    "Whisper": {
+      "g18_provenance.json": "d86858e2c2dd10d0c854e61a3370ccf45c2f68fc9aa0a84c5989e859f99a1fd5",
+      "g18_asr_scores.jsonl": "46de59c4e1568b9b8e937107e6d2f05ff7143be3b8c4f7444c857de1183c7ce5",
+      "g18_cache_new.jsonl": "61d43b54cceadf7ed31ec005f6304c18de3429467bdb163d3a0f7ef33c415e08",
+      "g19_provenance.json": "372332dbb99abcafce42e0dc996f4bf27074943084e35a346e6782d7b8456ca1",
+      "g19_asr_scores.jsonl": "76a5be1c4e859d57d7d8713d377dfec15ae03896a8c7ec74e4b40f2358202ab8",
+      "g19_cache_new.jsonl": "d28b63752d4fb0297cf9829f5e72ad959452b1a426002fe327edb8fda05bbd4b"
+    },
+    "CTC": {
+      "g18_provenance.json": "cb9ee8cf3508252d112708e6231eb5b7ab679a2bc8264c923a67b3d48ca22b14",
+      "g18_asr_scores.jsonl": "ff0a546e840a0d2733f8882935766f8fea49ae4a98bde91e93defdaac00bf5f5",
+      "g18_cache_new.jsonl": "abd172e7f5f7987ee8bbc36e161852d20adebd4b9ce323412108f5ee1903c741",
+      "g19_provenance.json": "d1ea5e0eaff6c45e0a68e237dd0b6be462346775505a9a653d5e4e06b61f8395",
+      "g19_asr_scores.jsonl": "1b3e1a68a741f898cea525e98da0e9258a4e17fe7d3293de0da069e45713f615",
+      "g19_cache_new.jsonl": "b267c3ff3a03285c079ff93d8591c72a5e180fcf1cbed8e898d4c090e980eeff"
+    }
+  }
+}

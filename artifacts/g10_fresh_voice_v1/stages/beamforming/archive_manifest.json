@@ -1,0 +1,35 @@
+{
+  "saved_utc": "2026-11-12T05:34:19.937796+00:00",
+  "files": [
+    {
+      "source": "docs/G10D_新说话人MVDR输出信号报告.md",
+      "snapshot": "00_G10D_新说话人MVDR输出信号报告.md",
+      "sha256": "4f9b76a5229c53366cb41688265fe3bdef3ea45be241826bb422ccd30a5fe288"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/beam_provenance.json",
+      "snapshot": "01_beam_provenance.json",
+      "sha256": "08d75341f72fffa6177a2a9c07409f2f6cfa84f282b82d70cdf6fdb5c54800a3"
+    },
+    {
+      "source": "artifacts/g10_fresh_voice_v1/evaluation/BEAM_COMPLETE.json",
+      "snapshot": "02_BEAM_COMPLETE.json",
+      "sha256": "6de1e0cbfc3183cd9dc06497d309e8c7297affd942924bac2a649f43100d7c30"
+    },
+    {
+      "source": "scripts/g10_signal.py",
+      "snapshot": "03_g10_signal.py",
+      "sha256": "6957ed5971b29f062adce0e43b5f741540d0ffbdc2266267a46824c8e728a6b1"
+    },
+    {
+      "source": "scripts/g10_asr.py",
+      "snapshot": "04_g10_asr.py",
+      "sha256": "7460bb8937118201de2f6cb03dac19d400f78d99f12913b7505354ce87c3ccd9"
+    },
+    {
+      "source": "scripts/g10_finish.py",
+      "snapshot": "05_g10_finish.py",
+      "sha256": "58a65a420990f528409420c8d47d294e5319128015b942c1d346e0f5dffed6fb"
+    }
+  ]
+}

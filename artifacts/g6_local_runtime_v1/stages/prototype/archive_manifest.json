@@ -1,0 +1,45 @@
+{
+  "saved_utc": "2026-11-12T03:23:15.187159+00:00",
+  "files": [
+    {
+      "source": "docs/G6B_本地推理命令与一致性验证.md",
+      "snapshot": "00_G6B_本地推理命令与一致性验证.md",
+      "sha256": "466435124a5d4d0672ec7f5f5335948648b4ecb6fbdd47772af5689ab910f369"
+    },
+    {
+      "source": "artifacts/g6_local_runtime_v1/prototype/qa_results.json",
+      "snapshot": "01_qa_results.json",
+      "sha256": "2b5f7ebf2719dbeebff4d83a158c7b38143dde5e137f464e16973c395aacf52d"
+    },
+    {
+      "source": "artifacts/g6_local_runtime_v1/prototype/unit_tests.log",
+      "snapshot": "02_unit_tests.log",
+      "sha256": "f6c39fd78175507345eaa9a5f98ea92a2c1b05d40d94235d6d535d7d26f73eb0"
+    },
+    {
+      "source": "configs/g6_cli_plan.json",
+      "snapshot": "03_g6_cli_plan.json",
+      "sha256": "191a0cc93c25bc045574c5317c86edc3bbefe1cea627442fa167e5aedd89a4fc"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "04_runtime.py",
+      "sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead"
+    },
+    {
+      "source": "scripts/enhance_registered.py",
+      "snapshot": "05_enhance_registered.py",
+      "sha256": "cc4d9f816219ae8a76f5403f0e9e8abb6450d2caa8941b5a5e54f933f86266e4"
+    },
+    {
+      "source": "tests/test_runtime_interface.py",
+      "snapshot": "06_test_runtime_interface.py",
+      "sha256": "2a57b7715c6774b761209c761f610eb965c7759d219fd92813a2f7a10596f2f2"
+    },
+    {
+      "source": "scripts/g6_cli_qa.py",
+      "snapshot": "07_g6_cli_qa.py",
+      "sha256": "45e085604c299d2d6894931ca468f07e24c34d6240236e0668a665717234d2ff"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-12T04:55:07.979790+00:00",
+  "files": [
+    {
+      "source": "docs/研究补查_轻量适配与神经波束形成先例_20261112.md",
+      "snapshot": "00_研究补查_轻量适配与神经波束形成先例_20261112.md",
+      "sha256": "094f4a17864177de59fd587349d890d559f99620295bc76dcdca57be452a15bf"
+    },
+    {
+      "source": "artifacts/literature_followup_20261112_v1/search_manifest.json",
+      "snapshot": "01_search_manifest.json",
+      "sha256": "02123e74f9213e58c5c92e36627e7797878ab61eafe12d3aed7f01613ef2c259"
+    }
+  ]
+}

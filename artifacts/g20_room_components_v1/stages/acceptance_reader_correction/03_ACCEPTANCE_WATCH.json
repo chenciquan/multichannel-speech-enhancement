@@ -1,0 +1,8 @@
+{
+  "pid": 388,
+  "observed_cmdline": ".venv/bin/python -u scripts/g20_filter.py ",
+  "started_utc": "2026-11-12T17:58:03.567055+00:00",
+  "max_wait_seconds": 3600,
+  "accept_code_sha256": "4ee0cbd43adf321c61ab17c8369241817e6b80cd1af0502080fcdbaafcf7da13",
+  "monitor_code_sha256": "dc78214d36e16f2651950e79118866044d4521f1d08941fc490cc9fea944b25a"
+}

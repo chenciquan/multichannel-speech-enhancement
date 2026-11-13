@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:29:44.227838+00:00",
+  "files": [
+    {
+      "source": "docs/G22_Whisper识别覆盖.md",
+      "snapshot": "00_G22_Whisper识别覆盖.md",
+      "sha256": "b316b6f5dd3906af5014f3f6e6f6f616c970bcdf2ea6b0256be33176e59b4119"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "a616953501d2e78fec05f4e08048bdf57b68ff3ff2d903304630a67cdbb9e8c6"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "4992aed55b5466c698970e34c6bda29646d5265b3967955bae4aab0759f8ea6b"
+    },
+    {
+      "source": "scripts/g22_asr.py",
+      "snapshot": "03_g22_asr.py",
+      "sha256": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{"stage": "noise", "noise_id": "NPARK", "range_bytes": 5377865}
+{"stage": "noise", "noise_id": "PSTATION", "range_bytes": 7476093}
+{"stage": "render", "sources_completed": 1, "cases": 54}
+{"stage": "render", "sources_completed": 2, "cases": 108}
+{"stage": "render", "sources_completed": 3, "cases": 162}
+{"stage": "render", "sources_completed": 4, "cases": 216}
+{"stage": "render", "sources_completed": 5, "cases": 270}
+{"stage": "render", "sources_completed": 6, "cases": 324}
+{"stage": "render", "sources_completed": 7, "cases": 378}
+{"stage": "render", "sources_completed": 8, "cases": 432}
+{"stage": "render", "sources_completed": 9, "cases": 486}
+{"stage": "render", "sources_completed": 10, "cases": 540}
+{"stage": "render", "sources_completed": 11, "cases": 594}
+{"stage": "render", "sources_completed": 12, "cases": 648}
+G7 data archived

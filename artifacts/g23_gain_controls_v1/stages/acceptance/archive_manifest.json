@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:49:50.168628+00:00",
+  "files": [
+    {
+      "source": "docs/G23_增益控制阶段验收.md",
+      "snapshot": "00_G23_增益控制阶段验收.md",
+      "sha256": "f51ad61ccbcdebf9c42c4057684af7b6b780c10a50648314de39f34f67e2c713"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "3eb722b302ef09d1098597867adb61ccce7e7b9026d9dca205200dae34842b18"
+    },
+    {
+      "source": "scripts/g23_accept.py",
+      "snapshot": "02_g23_accept.py",
+      "sha256": "42255bd2b94b8a745f0f7ceee11c6fab6b76c50b8e4ee40cd75ebc6b67bf4d77"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "dddabe5eeaadd92646e3561a156ca78c8c75db43a35cd55cd176099b18401185"
+    }
+  ]
+}

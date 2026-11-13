@@ -1,0 +1,102 @@
+[
+  {
+    "source_id": "1988-147956-0014",
+    "speaker_id": "1988",
+    "transcript": "AMBROSCH HE MAKE GOOD FARMER",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/1988-147956-0014.flac",
+    "sha256": "dc974b44b14fbd3c779509b837ae38fd74c8d0b2300915471450e72277d490e2",
+    "inputs": {
+      "raw": {
+        "key": "6e91bf42775f828e5485285c2e8c2985ef3d42b27861668d7f8d04d5a801c2ef",
+        "level": null
+      },
+      "level_control": {
+        "key": "f99ed689a111edee3c1ea6353906ad914a3c02c71daa637d75accc6821d1ba8b",
+        "level": {
+          "silent": false,
+          "gain": 0.6689088120019013,
+          "input_rms": 0.07474860414883858,
+          "input_peak": 0.419189453125,
+          "output_rms": 0.05000000004730383,
+          "output_peak": 0.28039953112602234,
+          "peak_limited": false
+        }
+      }
+    }
+  },
+  {
+    "source_id": "1988-147956-0003",
+    "speaker_id": "1988",
+    "transcript": "NOW WHY IS THAT OTTO",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/1988-147956-0003.flac",
+    "sha256": "ed36822f33be73c914abb5ec40c2c0c533dcec3f5c9f5ea0814cd4a625250b4b",
+    "inputs": {
+      "raw": {
+        "key": "08927647550effa98b938af4c470220dec844cece3ee9498211b5a67aa2bc7bb",
+        "level": null
+      },
+      "level_control": {
+        "key": "d7915c17df5624f5587643ee7b51f8138cd234b76c7db85d46e67c450b0d9655",
+        "level": {
+          "silent": false,
+          "gain": 0.6915685537439434,
+          "input_rms": 0.0722994122987737,
+          "input_peak": 0.407379150390625,
+          "output_rms": 0.05000000000461439,
+          "output_peak": 0.28173062205314636,
+          "peak_limited": false
+        }
+      }
+    }
+  },
+  {
+    "source_id": "777-126732-0049",
+    "speaker_id": "777",
+    "transcript": "THIS SURVEY WAS UNFAVOURABLE",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/777-126732-0049.flac",
+    "sha256": "cd33b59323d1cf021ed8480752ef7ad97f9e362d92531b908bd746674420f9eb",
+    "inputs": {
+      "raw": {
+        "key": "86e4b52c95eed2432313f0f9ff8378a6dd01a0456e882758b3cc1bb4971ac3a9",
+        "level": null
+      },
+      "level_control": {
+        "key": "43b1fc7c36c4052345de8a9d9c93c924240f85395d934803e6c7dab5e638930d",
+        "level": {
+          "silent": false,
+          "gain": 2.280615540557345,
+          "input_rms": 0.02192390567845592,
+          "input_peak": 0.160797119140625,
+          "output_rms": 0.05000000000529757,
+          "output_peak": 0.3667164146900177,
+          "peak_limited": false
+        }
+      }
+    }
+  },
+  {
+    "source_id": "777-126732-0081",
+    "speaker_id": "777",
+    "transcript": "COMFORTABLE DEAR",
+    "path": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/g3_v1/sources/speech/777-126732-0081.flac",
+    "sha256": "80e22d9e18af66dd827d0510b031de894ee77f11328a5608033cea7d648e8d8d",
+    "inputs": {
+      "raw": {
+        "key": "8788c8f96ce72b261664b897715c91bf4b965f4102867c96de837247059cee9b",
+        "level": null
+      },
+      "level_control": {
+        "key": "8ae99f72666b2b481f8312f04491eb28ff1982029ac6fe96f90050b102280458",
+        "level": {
+          "silent": false,
+          "gain": 2.480610479285259,
+          "input_rms": 0.020156328620528345,
+          "input_peak": 0.1282958984375,
+          "output_rms": 0.05000000002926923,
+          "output_peak": 0.3182521462440491,
+          "peak_limited": false
+        }
+      }
+    }
+  }
+]

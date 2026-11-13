@@ -1,0 +1,8 @@
+﻿{
+    "pid":  50512,
+    "started_utc":  "2026-11-12T19:20:20.1406619+00:00",
+    "deadline_utc":  "2026-11-12T22:20:18.9455640+00:00",
+    "status":  "released",
+    "power_plan_modified":  false,
+    "released_utc":  "2026-11-12T19:33:01.4630219+00:00"
+}

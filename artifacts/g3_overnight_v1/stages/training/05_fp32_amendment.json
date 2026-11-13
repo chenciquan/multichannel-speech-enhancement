@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-11T17:33:05Z",
+  "reason": "Initial AMP resource probe passed five backward passes, but first ordinary training failed with nonfinite gradients after the last logged update 1750 (1500-step checkpoint preserved). No subsequent variants or test evaluation had started.",
+  "failed_run": "train/failed_amp_ordinary_s20261112",
+  "failed_log": "train_first.log",
+  "decision": "Restart every scientific comparison from pristine official weights with all training in float32, same seeds/steps/selection/data. The failed AMP run is an engineering failure, not a scientific comparison result.",
+  "test_used_in_decision": false,
+  "earlier_failed_checkpoints_eligible_for_selection": false
+}

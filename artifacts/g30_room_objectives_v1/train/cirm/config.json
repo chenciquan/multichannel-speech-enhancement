@@ -1,0 +1,22 @@
+{
+  "variant": "cirm",
+  "seed": 20261113,
+  "steps": 1500,
+  "batch": 1,
+  "learning_rate": 0.0003,
+  "initial_digests": {
+    "base": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "adapter": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef"
+  },
+  "calibration_sha256": "ff0e984310341618770bc6ec3ac8d4205503d0a4885a069c4c05813972cb0ef3",
+  "plan_sha256": "7e1ccd8321e5a083c65811ba0d47e086a9578301be71f159e33e825667d266a7",
+  "schedule_sha256": "df153a523e861e6c60fbff7f01bd1bf364c259c61817b917325b0a5701d611be",
+  "coefficients": {
+    "mask": 0.02405955302683184,
+    "shape": 0.060971830837972876
+  },
+  "development_or_test_access": false,
+  "registration_step": 1500,
+  "selection": false,
+  "started_utc": "2026-11-13T00:40:38.734217+00:00"
+}

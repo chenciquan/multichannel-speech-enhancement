@@ -1,0 +1,19 @@
+{
+  "authorization_utc": "2026-11-12T03:10:18Z",
+  "authorization": "User reviewed/listened and accepts continuing the original research plan, stage reports/evidence saved before advancing, until account quota exhausted.",
+  "status": "active",
+  "fixed_session_deadline": null,
+  "supersedes_previous_window_for_new_work": true,
+  "old_session_file_preserved": "configs/continuous_experiment_session.json",
+  "user_review_record": "General review/listening acceptance only; no per-sample labels, word-time annotations or blind-listening verdict inferred.",
+  "current_stage": "G18fixedroom21system10584record pressure test",
+  "next_stages": [
+    "G18whole stage report/readback/acceptance",
+    "Choose next meaningful question from room evidence;MWFliterature only,not implemented"
+  ],
+  "stage_gate": "Freeze each protocol, bounded local jobs, preserve failures, save Chinese report plus source/config/result hashes before next stage.",
+  "boundaries": "Single local project and original venv. No driver/CUDA changes, no deletion or overwrite of past evidence, no public publishing/messages, no test-driven rewriting of completed results. New quota authorization does not reopen old frozen tests for tuning.",
+  "quota_percent_visible": false,
+  "compute_policy": "Use local bounded queues; meaningful experiments only, no deliberate token burning. Do not claim a remaining percentage. No subagents requested.",
+  "scientific_correction": "docs/G13A_旋转坐标审计与历史结论更正.md"
+}

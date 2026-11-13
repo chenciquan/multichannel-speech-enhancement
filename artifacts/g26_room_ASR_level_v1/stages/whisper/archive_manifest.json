@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T23:50:33.035271+00:00",
+  "files": [
+    {
+      "source": "docs/G26_Whisper完整电平辅评分覆盖.md",
+      "snapshot": "00_G26_Whisper完整电平辅评分覆盖.md",
+      "sha256": "529c3ec33ada49c5b588d4fd992826cd34c3797eb237ac36bf8cedf4a9e81dab"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "505007602e467f806543e6542ac911daae80eb2a05444eab52414512a42f68fa"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "7c6266fab707fb99d159a79c6e18b0e6eb52da31b1b4549ce79e5139a34906e0"
+    },
+    {
+      "source": "scripts/g26_asr.py",
+      "snapshot": "03_g26_asr.py",
+      "sha256": "0f5f6e8537c0bdf4b3d83234128d0b496231c1ec6988e0c3cb215776aa8f6795"
+    }
+  ]
+}

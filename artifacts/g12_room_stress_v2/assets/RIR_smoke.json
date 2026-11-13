@@ -1,0 +1,68 @@
+[
+  {
+    "requested_RT60": 0,
+    "Schroeder_T20_extrapolated_RT60": null,
+    "tail_energy_fraction_after20ms": 0.0,
+    "direct_expected_samples": [
+      70.71584366613071,
+      69.4242289195583,
+      67.5350299541741,
+      71.67673259537965,
+      69.97084548104955,
+      68.54052612176328
+    ],
+    "largest_peak_samples": [
+      71,
+      69,
+      68,
+      72,
+      70,
+      69
+    ],
+    "deterministic_repeat_exact": true
+  },
+  {
+    "requested_RT60": 0.15,
+    "Schroeder_T20_extrapolated_RT60": 0.10422444916800234,
+    "tail_energy_fraction_after20ms": 0.03142685067323014,
+    "direct_expected_samples": [
+      70.71584366613071,
+      69.4242289195583,
+      67.5350299541741,
+      71.67673259537965,
+      69.97084548104955,
+      68.54052612176328
+    ],
+    "largest_peak_samples": [
+      71,
+      69,
+      68,
+      72,
+      70,
+      69
+    ],
+    "deterministic_repeat_exact": true
+  },
+  {
+    "requested_RT60": 0.35,
+    "Schroeder_T20_extrapolated_RT60": 0.4576677065051179,
+    "tail_energy_fraction_after20ms": 0.49405011484202666,
+    "direct_expected_samples": [
+      70.71584366613071,
+      69.4242289195583,
+      67.5350299541741,
+      71.67673259537965,
+      69.97084548104955,
+      68.54052612176328
+    ],
+    "largest_peak_samples": [
+      71,
+      69,
+      68,
+      72,
+      70,
+      69
+    ],
+    "deterministic_repeat_exact": true
+  }
+]

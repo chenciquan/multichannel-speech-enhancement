@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T18:20:10.647087+00:00",
+  "files": [
+    {
+      "source": "docs/G21_Whisper识别覆盖.md",
+      "snapshot": "00_G21_Whisper识别覆盖.md",
+      "sha256": "857b067ab41d0a7913604fc78853b8f240998fda15e772d7d820ba92bbf45e28"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/recognition/Whisper/COMPLETE.json",
+      "snapshot": "01_COMPLETE.json",
+      "sha256": "4ba0689bc404343739f8d4cd7baa5a4eca9cedbad847b52a1595d46186b56ce6"
+    },
+    {
+      "source": "artifacts/g21_truth_covariance_v1/recognition/Whisper/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "a5534411f8fceaf683694b4be28383f5f90b2748b60a5be41641bc801d4ea154"
+    },
+    {
+      "source": "scripts/g21_asr.py",
+      "snapshot": "03_g21_asr.py",
+      "sha256": "8a633629f4612015b9510bcaa7ffb3d97091e17add4da2d2f1cfa51e550c13a8"
+    }
+  ]
+}

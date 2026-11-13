@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T03:16:14.287410+00:00",
+  "files": [
+    {
+      "source": "docs/G6A_本地推理资源实测.md",
+      "snapshot": "00_G6A_本地推理资源实测.md",
+      "sha256": "b904989636296f3423536c41e7fbba900ef73ef913627ad7fc5fed511e4547be"
+    },
+    {
+      "source": "artifacts/g6_local_runtime_v1/benchmark/raw_timings.json",
+      "snapshot": "01_raw_timings.json",
+      "sha256": "3588cf6d2cd49b092edda1094462573ab8583ae26ad9c55362b0e3e9383cbb4c"
+    },
+    {
+      "source": "configs/g6_runtime_plan.json",
+      "snapshot": "02_g6_runtime_plan.json",
+      "sha256": "06b45405bdbc103cee7b358b95ef73e4d4e1b33cfadc15e99d3923e5b51a4a7c"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "03_runtime.py",
+      "sha256": "a9132efd334e4403d7eb91e46f74058e1246e8f6aeb5a1ad623f585fd7cc09ab"
+    },
+    {
+      "source": "scripts/g6_benchmark.py",
+      "snapshot": "04_g6_benchmark.py",
+      "sha256": "749cdbf4d62142fde26dc9b67a331843b960d76eab74d0a177f8c4f618609250"
+    }
+  ]
+}

@@ -1,0 +1,1298 @@
+[
+  {
+    "index": 0,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.09996070712804794,
+    "gradient_norm": 1.16505567521592,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.060928571176908926
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.06901765750141305
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.08629633181803702
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.08629633181803702
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.196278544158125
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.25146007925676284
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.4248436438418574
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.4248436438418574
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.0934141772678483
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.09459294267154228
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.09087227793740892
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.027870036775050407
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.026011164390744437
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.026011164390744437
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.07701719863531124
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.014935616024979878
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02538049761856535
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02538049761856535
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.24305798782263324
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.24393530805786753
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.06564256905504157
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.03165536143068747
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.02078741914991359
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.02078741914991359
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.06921097156334716
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.031281646612646236
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.022925766370150022
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.022925766370150022
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.24634610536139162
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.12368642063316242
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.1336926983516408
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.030836060476014192
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.023841378045861825
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.023841378045861825
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.17686941451240684
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.03973131821281127
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.0320094905678032
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.0320094905678032
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.6602465489229599
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.370647337620726
+      }
+    ],
+    "peak_allocated_bytes": 1838189056,
+    "peak_reserved_bytes": 1897922560,
+    "free_GPU_bytes_before": 7398752256,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 3.8472114430001056,
+    "forward_sha256": "dfd1c39a0000d76e626e7a975c5edec694b7484827fc8580371ff05ed29eacb7"
+  },
+  {
+    "index": 3,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.04828134924173355,
+    "gradient_norm": 0.5210066981800467,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.05905260075351781
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.040562287462736206
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.0841411504498567
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.0841411504498567
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.040223150847563525
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.034761334546871185
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.07466246599321301
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.07466246599321301
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.06004820231752702
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.08260602313983477
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.07304255488310311
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.020359842049524055
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.024896917881929263
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.024896917881929263
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.06546139374384029
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.014507712935198668
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.021990513325472923
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.021990513325472923
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.2501034557173118
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.25367377581387773
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.07222968984962942
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.032335367844701444
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.022254488250945677
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.022254488250945677
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.07940275431236757
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.02968863265155231
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.024473002234606085
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.024473002234606085
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.1594212913123724
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.08343565885199418
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.10569144855945758
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.020088662646609468
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.01759492686537032
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.01759492686537032
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.09507323641546116
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.014810592852536405
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.018336536562894964
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.018336536562894964
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.11015661613371498
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.0782577208511069
+      }
+    ],
+    "peak_allocated_bytes": 1837498368,
+    "peak_reserved_bytes": 2472542208,
+    "free_GPU_bytes_before": 6608125952,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.15041653900004803,
+    "forward_sha256": "a5db76704e4eecb7819b8479f034414986296f736f6e2b8a02e140c1fc464e12"
+  },
+  {
+    "index": 10,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.059726499021053314,
+    "gradient_norm": 0.8144442453137454,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.13891935768130106
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.1000279242128163
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.19086659889319585
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.19086659889319585
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.10793570247600341
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.0794682210826644
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.16770411544740238
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.16770411544740238
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.12079474883370275
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.1527881120978659
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.1377727896699102
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.034828275107049056
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.04863075830389801
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.04863075830389801
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.07560950385989558
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.014477081655896833
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02697349009134031
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02697349009134031
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.2564648811317861
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.36641357963789467
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.06895546957141373
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.0329420252024766
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.021358569519807108
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.021358569519807108
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.08168559335343548
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.03365334886062919
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.025754936237141868
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.025754936237141868
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.14881256731540723
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.07326817230487255
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.07898118885145806
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.01921117436711705
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.014592185264920864
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.014592185264920864
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.10230994257409941
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.023299268246380202
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.018818665241196398
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.018818665241196398
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.34409322158710287
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.1900444179179443
+      }
+    ],
+    "peak_allocated_bytes": 1837498368,
+    "peak_reserved_bytes": 2472542208,
+    "free_GPU_bytes_before": 6608125952,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.17620034599997325,
+    "forward_sha256": "7c439d7ba391da25a67ee73ea0786dc8a9cb7e300dd9a157ac8001da340b0672"
+  },
+  {
+    "index": 5,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.10360132157802582,
+    "gradient_norm": 0.30404169306982126,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.06685721195325862
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.031239253900836643
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.0828621574519625
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.0828621574519625
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.06390647496417988
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.015227134595261857
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.03321588626791604
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.03321588626791604
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.03404237983972248
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.05177431924430984
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.052054217659639516
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.008763626785407283
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.012617781605870357
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.012617781605870357
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.04406910736746044
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.0060528469592806096
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.010926669133735054
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.010926669133735054
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.08692442071939456
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.1236538240774761
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.11196946652389335
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.018496890401432636
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.012314215204774583
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.012314215204774583
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.060937413296718916
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.01422728717903433
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.011682516287652508
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.011682516287652508
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.07211180339859592
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.0387655652877418
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.06966695905745375
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.009995057565506142
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.010412144234900195
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.010412144234900195
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.05328513977104026
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.007110672032204109
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.008523156441940778
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.008523156441940778
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.045754620973623004
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.018968254698740028
+      }
+    ],
+    "peak_allocated_bytes": 1837498368,
+    "peak_reserved_bytes": 2472542208,
+    "free_GPU_bytes_before": 6608125952,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.16574187700007315,
+    "forward_sha256": "676905edfc82e48c3282450fca0c7d431e3f050daab6c2611f5def2637858692"
+  },
+  {
+    "index": 7,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.08642898499965668,
+    "gradient_norm": 1.0456953342985043,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.13350184774056387
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.12876757182028475
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.22505486038411177
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.22505486038411177
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.06743650268836343
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.0426300795024051
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.09526358287377262
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.09526358287377262
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.14621201195239655
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.19385434109110225
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.15689832168872808
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.043645952940535235
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.05802774445646624
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.05802774445646624
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.10169701703844404
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.019938043793625095
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.03657330367415249
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.03657330367415249
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.36842000930593644
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.49845990080621033
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.06780324813963977
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.03252712998731099
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.02164162652521252
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.02164162652521252
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.12528252027634618
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.05269746592479366
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.04045607980409626
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.04045607980409626
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.1624993717926465
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.08050465532753513
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.10179553069799266
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.024158629645805313
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.018638502519290123
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.018638502519290123
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.12882186816971747
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.029998459624041348
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.02382220267359472
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.02382220267359472
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.5190256031276993
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.28731894626319826
+      }
+    ],
+    "peak_allocated_bytes": 1837498368,
+    "peak_reserved_bytes": 2472542208,
+    "free_GPU_bytes_before": 6608125952,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.13781162600002972,
+    "forward_sha256": "ea2105feb41587bce51dee2510eb6a8596992e66954296e08f74673de4c83a21"
+  },
+  {
+    "index": 2,
+    "mode": "full",
+    "frames": 23679,
+    "loss": 0.08202272653579712,
+    "gradient_norm": 0.5485165231238148,
+    "connected_parameters": 3328706,
+    "parameter_grad_norms": [
+      {
+        "name": "freq.sequence_model.weight_ih_l0",
+        "parameters": 6144,
+        "norm": 0.06257268469261242
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.048395726173158016
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.12569460171550365
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.12569460171550365
+      },
+      {
+        "name": "freq.sequence_model.weight_ih_l0_reverse",
+        "parameters": 6144,
+        "norm": 0.056073731286292894
+      },
+      {
+        "name": "freq.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.029249651372822195
+      },
+      {
+        "name": "freq.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.07142177418046304
+      },
+      {
+        "name": "freq.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.07142177418046304
+      },
+      {
+        "name": "freq.fc_output_layer.weight",
+        "parameters": 16384,
+        "norm": 0.06249063523691792
+      },
+      {
+        "name": "freq.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.10428339187132263
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0",
+        "parameters": 77824,
+        "norm": 0.08253034875258687
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0",
+        "parameters": 262144,
+        "norm": 0.019911433879453596
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0",
+        "parameters": 1024,
+        "norm": 0.02788480657689339
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0",
+        "parameters": 1024,
+        "norm": 0.02788480657689339
+      },
+      {
+        "name": "narr.sequence_model.weight_ih_l0_reverse",
+        "parameters": 77824,
+        "norm": 0.07053196391843258
+      },
+      {
+        "name": "narr.sequence_model.weight_hh_l0_reverse",
+        "parameters": 262144,
+        "norm": 0.010872345954702132
+      },
+      {
+        "name": "narr.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02374274873948383
+      },
+      {
+        "name": "narr.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1024,
+        "norm": 0.02374274873948383
+      },
+      {
+        "name": "narr.fc_output_layer.weight",
+        "parameters": 32768,
+        "norm": 0.19731688769468345
+      },
+      {
+        "name": "narr.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.2625535624339653
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0",
+        "parameters": 502272,
+        "norm": 0.05336385657353347
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0",
+        "parameters": 589824,
+        "norm": 0.02734167849692374
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0",
+        "parameters": 1536,
+        "norm": 0.019922648041346504
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0",
+        "parameters": 1536,
+        "norm": 0.019922648041346504
+      },
+      {
+        "name": "sub.sequence_model.weight_ih_l0_reverse",
+        "parameters": 502272,
+        "norm": 0.06222564250740231
+      },
+      {
+        "name": "sub.sequence_model.weight_hh_l0_reverse",
+        "parameters": 589824,
+        "norm": 0.030362933298118157
+      },
+      {
+        "name": "sub.sequence_model.bias_ih_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.02534462319428232
+      },
+      {
+        "name": "sub.sequence_model.bias_hh_l0_reverse",
+        "parameters": 1536,
+        "norm": 0.02534462319428232
+      },
+      {
+        "name": "sub.fc_output_layer.weight",
+        "parameters": 49152,
+        "norm": 0.15636800236847426
+      },
+      {
+        "name": "sub.fc_output_layer.bias",
+        "parameters": 64,
+        "norm": 0.083273493059034
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0",
+        "parameters": 38400,
+        "norm": 0.1255436923904825
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0",
+        "parameters": 65536,
+        "norm": 0.0235617358613114
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0",
+        "parameters": 512,
+        "norm": 0.021650388421256685
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0",
+        "parameters": 512,
+        "norm": 0.021650388421256685
+      },
+      {
+        "name": "full.sequence_model.weight_ih_l0_reverse",
+        "parameters": 38400,
+        "norm": 0.0984416205359919
+      },
+      {
+        "name": "full.sequence_model.weight_hh_l0_reverse",
+        "parameters": 65536,
+        "norm": 0.02073071986572301
+      },
+      {
+        "name": "full.sequence_model.bias_ih_l0_reverse",
+        "parameters": 512,
+        "norm": 0.01936335200959847
+      },
+      {
+        "name": "full.sequence_model.bias_hh_l0_reverse",
+        "parameters": 512,
+        "norm": 0.01936335200959847
+      },
+      {
+        "name": "full.fc_output_layer.weight",
+        "parameters": 512,
+        "norm": 0.17013020548911864
+      },
+      {
+        "name": "full.fc_output_layer.bias",
+        "parameters": 2,
+        "norm": 0.1107217400125941
+      }
+    ],
+    "peak_allocated_bytes": 1837498368,
+    "peak_reserved_bytes": 2472542208,
+    "free_GPU_bytes_before": 6608125952,
+    "GPU_total_bytes": 8585216000,
+    "synchronized_compute_seconds": 0.13688076599999022,
+    "forward_sha256": "4ca9b9d4bbe2ee9eccb906a6fcc2f9e296967f136c453340933f010c08747eb3"
+  }
+]

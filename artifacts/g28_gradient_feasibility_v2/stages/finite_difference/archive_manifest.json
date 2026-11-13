@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-13T00:12:03.000321+00:00",
+  "files": [
+    {
+      "source": "docs/G28A_v2_协方差形状损失梯度数值核对.md",
+      "snapshot": "00_G28A_v2_协方差形状损失梯度数值核对.md",
+      "sha256": "f9f485a6dd8e6a7ce99cfe1ecf978e3a5c5fc9d02552023a113eb92d388cd618"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/finite_difference.json",
+      "snapshot": "01_finite_difference.json",
+      "sha256": "ede424dae54d5689c35d186c6e4892782c7566f13a83fbcb57b77d6c434c317a"
+    }
+  ]
+}

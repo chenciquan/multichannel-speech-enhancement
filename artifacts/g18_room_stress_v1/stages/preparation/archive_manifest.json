@@ -1,0 +1,135 @@
+{
+  "saved_utc": "2026-11-12T10:26:15.051176+00:00",
+  "files": [
+    {
+      "source": "docs/G18B_单房间反射压力数据与几何协议.md",
+      "snapshot": "00_G18B_单房间反射压力数据与几何协议.md",
+      "sha256": "059fd58fad5b70da899c0856a0b334612aba4161e2bdda114dcf606535043ddd"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "0eb86985b545445d7f01ef28b3dbf2cde795da24604530848224377fa9fb817a"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/systems.json",
+      "snapshot": "02_systems.json",
+      "sha256": "7d2782767c81400819b599ff895c8c95117b62f37766beea870a15f827648a6f"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/PIPELINE_READY.json",
+      "snapshot": "03_PIPELINE_READY.json",
+      "sha256": "a1b6245a2bca8510c8447d48bbd313517bb097021a27d21067daaf43a10fc33a"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/field_directions.json",
+      "snapshot": "04_field_directions.json",
+      "sha256": "c5f480bf64a2f2ed2e8b41707cbe3ff19ceb5f725fb7e74ead20439d54ca033f"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/noise_sources.json",
+      "snapshot": "05_noise_sources.json",
+      "sha256": "3abca9a3e629a0d48083d26c540c0fccfbfc55576a605c6ffe29e22c5413f491"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/selected_sources.json",
+      "snapshot": "06_selected_sources.json",
+      "sha256": "861f96a684e525e4eefd91cf088a8e85ee73ad4fc607769f2e962901065239c2"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/RIR_manifest.json",
+      "snapshot": "07_RIR_manifest.json",
+      "sha256": "d1f26fa98503ade62b9f28c87947e971e02ca33b0f2fa24bcdeec164e9cb243d"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "08_PREPARATION_COMPLETE.json",
+      "sha256": "f6989d3ebff5b1dfa1f3bd25d8d3c4f53ff5f193d3e061b7abca07077ac02f1c"
+    },
+    {
+      "source": "data/g18_v1/manifest.jsonl",
+      "snapshot": "09_manifest.jsonl",
+      "sha256": "7992d8539e2fc3e9b1d4dda414b37bb80bbc6176c46aaab459d3f4ff681206fc"
+    },
+    {
+      "source": "scripts/g18_common.py",
+      "snapshot": "10_g18_common.py",
+      "sha256": "7a41d63e37df2ce5b3233dfe42eb9ae6b7d0ce6e45548dd81eb7400d7d4b01ef"
+    },
+    {
+      "source": "scripts/g18_start_physics.py",
+      "snapshot": "11_g18_start_physics.py",
+      "sha256": "3efeb96dbba985506b130760bff8c1f47188f355f50ceb2214c7b75024d8217b"
+    },
+    {
+      "source": "scripts/g18_physics.py",
+      "snapshot": "12_g18_physics.py",
+      "sha256": "84346e71e9d7c22f2577c4716c3ff305588eee9f9fbe30db4edeac770affca51"
+    },
+    {
+      "source": "scripts/g18_queue.py",
+      "snapshot": "13_g18_queue.py",
+      "sha256": "3a855ae8e9035153a195a205b60f0a910f6db68e7763e10327da6a85abc7fd50"
+    },
+    {
+      "source": "scripts/g18_build.py",
+      "snapshot": "14_g18_build.py",
+      "sha256": "16ce33f952ca844b2ed2ddb81b3e5e5dd8f6bb31057b9d8be815c3494a3b0430"
+    },
+    {
+      "source": "scripts/g18_signal.py",
+      "snapshot": "15_g18_signal.py",
+      "sha256": "c55fd5e66cf98ddc05d1ea8aec206d01b89628dd547bee5980700f48132045de"
+    },
+    {
+      "source": "scripts/g18_asr.py",
+      "snapshot": "16_g18_asr.py",
+      "sha256": "137692284e0d512c12afa171f3fda0c00d0525b0d4ab5421089c46e73ed6ec5e"
+    },
+    {
+      "source": "scripts/g18_finish.py",
+      "snapshot": "17_g18_finish.py",
+      "sha256": "820b27eca200e8401e35aec638b888a01720063b348771abf11d1c4b1c4ba760"
+    },
+    {
+      "source": "src/mcse/reverberation.py",
+      "snapshot": "18_reverberation.py",
+      "sha256": "0295e2b37dc7fc807b9fb3a60b93650292e118b74aaf39faba1f022ba8d26f1c"
+    },
+    {
+      "source": "src/mcse/geometry.py",
+      "snapshot": "19_geometry.py",
+      "sha256": "90d483a7481da4b3f4a3c8d7818047f4c19924cd53b7d5443913294c6c42b832"
+    },
+    {
+      "source": "src/mcse/runtime.py",
+      "snapshot": "20_runtime.py",
+      "sha256": "3e7b891b9a4169e73d2f7e4ceaaf4500cd7a0ecad70f4344a54db22450e5f7a0"
+    },
+    {
+      "source": "src/mcse/beamforming.py",
+      "snapshot": "21_beamforming.py",
+      "sha256": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84"
+    },
+    {
+      "source": "src/mcse/adaptation.py",
+      "snapshot": "22_adaptation.py",
+      "sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9"
+    },
+    {
+      "source": "src/mcse/simulation.py",
+      "snapshot": "23_simulation.py",
+      "sha256": "01fe79cfe4b6514e2a0c26fc15c666cbb25893b0681c976cb4b20d21ad79daa0"
+    },
+    {
+      "source": "src/mcse/spatial_noise.py",
+      "snapshot": "24_spatial_noise.py",
+      "sha256": "27065ee92268a6a1a1a85fa9021ca62681b2337a9e51c6e80fb172ab02778d2b"
+    },
+    {
+      "source": "configs/g18_room_candidate.json",
+      "snapshot": "25_g18_room_candidate.json",
+      "sha256": "674fca0bc875ecb67cb89f31301e7eb4ea62704b6484c6a4c0485f3245c44aad"
+    }
+  ]
+}

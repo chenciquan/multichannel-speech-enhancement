@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-12T04:11:46.578031+00:00",
+  "download_completed_utc": "2026-11-12T04:11:58.698334+00:00",
+  "official_url": "https://download.pytorch.org/torchaudio/models/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+  "final_url": "https://download.pytorch.org/torchaudio/models/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+  "bytes": 377664473,
+  "content_length": 377664473,
+  "ETag": "\"ac14bf300dff9b8d21560e4a1a465d36-23\"",
+  "local_sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+  "publisher_SHA256_verified": false,
+  "license": "MIT per official bundle documentation",
+  "download_seconds": 10.84022211499996,
+  "integrity_notice": "Official HTTPS transport and local pin; no independently published full publisher SHA256 verified.",
+  "dependency_installations": false,
+  "reference_text_used_as_prompt": false,
+  "torch_version": "2.5.1+cu121",
+  "torchaudio_version": "2.5.1+cu121",
+  "installed_source_sha256": {
+    "requirements-adaptation.lock.txt": "369f79f66474f4d62369a69db9f1bdf26635d147580dc1375b25646658830057",
+    ".venv/lib/python3.12/site-packages/torchaudio/pipelines/_wav2vec2/impl.py": "cdd5c58f2b493b932f9c1fb76b283351414ac424e440653f397feb85487d7349",
+    ".venv/lib/python3.12/site-packages/torchaudio/pipelines/_wav2vec2/utils.py": "43cfdf58e4762439c7bb44d34661f346323704e25ad21188025d1c8ed00b82c4"
+  }
+}

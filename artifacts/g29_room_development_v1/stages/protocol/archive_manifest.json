@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-13T00:23:27.174757+00:00",
+  "files": [
+    {
+      "source": "docs/G29A_小规模混响训练开发数据冻结协议.md",
+      "snapshot": "00_G29A_小规模混响训练开发数据冻结协议.md",
+      "sha256": "671e110c377b4bb219f17d0b02c28613c945f040c2bd0cbb5435cdf1764ad84b"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "4c41fd85fc345e972456bd8a8711b05cb16200ce7107e07762713120175976bd"
+    },
+    {
+      "source": "artifacts/g29_room_development_v1/RIR_jobs.json",
+      "snapshot": "02_RIR_jobs.json",
+      "sha256": "e3d9b84ca3ee569e18ed845518eee19391ac4a18f53569e222e7693080d1d74c"
+    },
+    {
+      "source": "scripts/g29_prepare.py",
+      "snapshot": "03_g29_prepare.py",
+      "sha256": "1aadf8d097699cd3e111f68ec2b954d70adf2d954d4a0414e5a3dc01c5446979"
+    },
+    {
+      "source": "scripts/g29_common.py",
+      "snapshot": "04_g29_common.py",
+      "sha256": "0cba92d54ef641337a1aed53b115d21214a5e03783f44050bb6d0d98eb007bc2"
+    }
+  ]
+}

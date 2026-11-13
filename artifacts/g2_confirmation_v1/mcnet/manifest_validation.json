@@ -1,0 +1,21 @@
+{
+  "manifest": "/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/data/diagnostic/g2_confirmation_v1/manifest.jsonl",
+  "valid": true,
+  "audio_checked": true,
+  "row_count": 128,
+  "schema_valid_records": 128,
+  "unique_sources": 8,
+  "unique_speakers": 6,
+  "by_split": {
+    "confirmation": 128
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "PROVENANCE_REVIEW_REQUIRED",
+      "message": "Channel count does not verify a real array. Review geometry, timing, noise/RIR splits and permissions separately.",
+      "line": null,
+      "sample_id": null
+    }
+  ]
+}

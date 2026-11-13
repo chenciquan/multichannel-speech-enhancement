@@ -1,0 +1,90 @@
+{
+  "saved_utc": "2026-11-12T09:21:03.925533+00:00",
+  "files": [
+    {
+      "source": "docs/G15B_正确旋转三种子训练与注册报告.md",
+      "snapshot": "00_G15B_正确旋转三种子训练与注册报告.md",
+      "sha256": "9db1cacc03545c7b969726b84ee32dc49d02c1bc7bc2ba77e5291ea81bcde15a"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/training_audit.json",
+      "snapshot": "01_training_audit.json",
+      "sha256": "5fcb587bf260cc2c74cad8b89c5558f168f3ac804c44bd64abf47b62234c5694"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/registered_checkpoints.json",
+      "snapshot": "02_registered_checkpoints.json",
+      "sha256": "50d29d9235a6e0c75ce24701ed58df2b60119bf61a89cd70193c7c203287388f"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/data_file_hashes.json",
+      "snapshot": "03_data_file_hashes.json",
+      "sha256": "01d95d1981b271dde5a350e2fb3cede4a070a83b8a1782ee8bd89825a9e10d3a"
+    },
+    {
+      "source": "scripts/g15_finish.py",
+      "snapshot": "04_g15_finish.py",
+      "sha256": "e270f703b59668b2e83cb18a239e609e896278a18fb08a855d39a1148e9b8470"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/config.json",
+      "snapshot": "05_config.json",
+      "sha256": "ddc298e4cf47c48a321cfc584c8a15347199b37e806320dc524274840c5f3c00"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/result.json",
+      "snapshot": "06_result.json",
+      "sha256": "3dec1d13ae72d7b06efb418da091a99eb62ba24b9c3e77cf866116cf41caa6ba"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/steps.jsonl",
+      "snapshot": "07_steps.jsonl",
+      "sha256": "18fb8a179263c36245d1ca1d0792268710b94e3dbb5155e682aefb0d1ac7ee2f"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261112/validation_03000.json",
+      "snapshot": "08_validation_03000.json",
+      "sha256": "4f785bf5c5ae7370154a17b011b21c67207132a9cb1d9ad9148b5014d8a32044"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/config.json",
+      "snapshot": "09_config.json",
+      "sha256": "893872859a3b471ef9cbe211585493f2a501c9d79a52e4e780dab17749f0035c"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/result.json",
+      "snapshot": "10_result.json",
+      "sha256": "e18f87c00bf4a7c337d581d2b608c1c4d5f459a92bd60d4f2d8bfd077c4b0a20"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/steps.jsonl",
+      "snapshot": "11_steps.jsonl",
+      "sha256": "b342dd053d9bc2c97c5f48286cc46cfd8d324e3dd59ea4fd9bed72dfa5604fc3"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261113/validation_03000.json",
+      "snapshot": "12_validation_03000.json",
+      "sha256": "7cd72049856d5ef36b4271e4100959c19b5e074b3221efcd85e247bc871c3a70"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/config.json",
+      "snapshot": "13_config.json",
+      "sha256": "a10210c160d2630315cd1660681493518a3eddd85e005e515bb9b20893b286ab"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/result.json",
+      "snapshot": "14_result.json",
+      "sha256": "83f93cc0855e10ebf80d2524087bb116cdba8254c856973498d74d4cabf76fcb"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/steps.jsonl",
+      "snapshot": "15_steps.jsonl",
+      "sha256": "c16ea45b1c984e880227da2bb1180f92966d0dcfe98da6483417ae85d2327507"
+    },
+    {
+      "source": "artifacts/g15_rigid_training_v1/train/without_clean_identity_s20261114/validation_03000.json",
+      "snapshot": "16_validation_03000.json",
+      "sha256": "a66f79a437751f788cdcf6b36e517ed893a3c644e1c90e9867a494a851bea18c"
+    }
+  ]
+}

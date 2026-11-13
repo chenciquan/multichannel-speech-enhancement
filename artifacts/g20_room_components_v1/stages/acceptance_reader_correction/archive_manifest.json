@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T18:11:06.923428+00:00",
+  "files": [
+    {
+      "source": "docs/G20_验收读取错误更正.md",
+      "snapshot": "00_G20_验收读取错误更正.md",
+      "sha256": "5b4adffb1a1862b662ace27d1ab3aee0550a7183315893208793768af353fc16"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/acceptance_failed_v1/g20_accept.py",
+      "snapshot": "01_g20_accept.py",
+      "sha256": "4ee0cbd43adf321c61ab17c8369241817e6b80cd1af0502080fcdbaafcf7da13"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/acceptance_failed_v1/acceptance.log",
+      "snapshot": "02_acceptance.log",
+      "sha256": "a44a4ef2018ba9baf871b6fb61a77c87c11dd21ee9a99589bb2a82ca4df6847a"
+    },
+    {
+      "source": "artifacts/g20_room_components_v1/acceptance_failed_v1/ACCEPTANCE_WATCH.json",
+      "snapshot": "03_ACCEPTANCE_WATCH.json",
+      "sha256": "86cce24eea49346cf9bcbf07596629b3f8891d89bcec8f743d9b93873461a2fa"
+    }
+  ]
+}

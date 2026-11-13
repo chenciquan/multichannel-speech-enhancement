@@ -1,0 +1,40 @@
+{
+  "saved_utc": "2026-11-13T02:03:59.485815+00:00",
+  "files": [
+    {
+      "source": "docs/G33B_自动求导与后端数值定位结果.md",
+      "snapshot": "00_G33B_自动求导与后端数值定位结果.md",
+      "sha256": "26837e80b279aa627ca029c4469c4360dd67c19ab968d3061c36e44d84d6c0ca"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/NUMERICAL_COMPLETE.json",
+      "snapshot": "01_NUMERICAL_COMPLETE.json",
+      "sha256": "2505f58b27478f2918ac82160daab5d6a0898b5fda413f02d39557104f04f8dd"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/summary.json",
+      "snapshot": "02_summary.json",
+      "sha256": "3cbac72a9815ec785a521fbdc3786e571d809be403598d2bf937289013cdb927"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/comparisons.json",
+      "snapshot": "03_comparisons.json",
+      "sha256": "841a7abea33c4077b886fce7d5fd8d258dc7e6aa3493429f7d4ea713f469bbe3"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/old_G33_replay.json",
+      "snapshot": "04_old_G33_replay.json",
+      "sha256": "90ca6ae6c2f85133b47c72ed4f24150a2dd9225d14751079fedc0e28921fa392"
+    },
+    {
+      "source": "artifacts/g33_precision_audit_v1/actual_initial_backend_settings.json",
+      "snapshot": "05_actual_initial_backend_settings.json",
+      "sha256": "bf22909b3178c12c730da482e85910b1d9fed5b9fbd3d3353f0ecac4c976a507"
+    },
+    {
+      "source": "scripts/g33b_precision_audit.py",
+      "snapshot": "06_g33b_precision_audit.py",
+      "sha256": "a1b8ab528569535755b0944ae729e272c07cd3c94ee64f290777945cede50652"
+    }
+  ]
+}

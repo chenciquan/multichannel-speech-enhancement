@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T12:49:27.133400+00:00",
+  "files": [
+    {
+      "source": "docs/G18_单房间压力验收与简明读回.md",
+      "snapshot": "00_G18_单房间压力验收与简明读回.md",
+      "sha256": "23ba789f1a861e3c5c21ddf69db25e25c791c306cbf75f2351f5a6eec3015a4c"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "da1f50c19a992592f6f3e7133648d061249c62d936ef9bb937fb2931ae5f846b"
+    },
+    {
+      "source": "artifacts/g18_room_stress_v1/evaluation/readback.json",
+      "snapshot": "02_readback.json",
+      "sha256": "8ee274447223e586d5318045d5b8e80f63ba47e524faa479feb6574c8fb2d222"
+    },
+    {
+      "source": "scripts/g18_accept.py",
+      "snapshot": "03_g18_accept.py",
+      "sha256": "f6a9678663b29f5441a5f1a9c1ddcf76c399d7033199d5e7eba4e37e7510b996"
+    }
+  ]
+}

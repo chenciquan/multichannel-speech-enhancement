@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "utc": "2026-11-12T19:33:00.238008+00:00",
+  "stage": "G22",
+  "report": "docs/G22_双房间配对信号与识别综合报告.md",
+  "report_sha256": "24b15cbd38594eb32916225aaab5c61c04a30333252a0ab2a8a06e6604dcad77",
+  "archive_sha256": "b90a9246e02b454ada4495996d566724761ce1a467d6b18ef79f967361981ba7"
+}

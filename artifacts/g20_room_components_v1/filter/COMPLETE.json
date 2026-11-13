@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "rows": 8640,
+  "completed_utc": "2026-11-12T18:06:33.552905+00:00",
+  "CPU_only": true,
+  "saved_output_max_abs": 0.0,
+  "linearity_max_abs": 5.960464477539063e-08,
+  "elapsed_seconds": 931.1215257939999,
+  "components_sha256": "8293f628d51c60462689d50611fbaa6ccffef1586ca8eb921597222228fc1f3a",
+  "summary_sha256": "44e1dc0f79e37eafa70deff0cbb6986a519e912e8610aa445d8eddb7217a7b08"
+}

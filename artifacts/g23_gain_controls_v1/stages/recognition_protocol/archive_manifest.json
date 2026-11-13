@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T19:48:27.473285+00:00",
+  "files": [
+    {
+      "source": "docs/G23C_固定双识别器执行协议.md",
+      "snapshot": "00_G23C_固定双识别器执行协议.md",
+      "sha256": "e455bb8b5755527b6a5d1baa26ce1cb68311c4e3c9173b9b6d9a8400226aa522"
+    },
+    {
+      "source": "artifacts/g23_gain_controls_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "383d3076336c14436da7cc03a3e38312b2464c9611d3ae4991c7ce004d9a5f40"
+    },
+    {
+      "source": "scripts/g23_asr.py",
+      "snapshot": "02_g23_asr.py",
+      "sha256": "bf71b3257a0a183315d286a05798e6bea0c658e4f3c28814294c30814ef4b1a2"
+    },
+    {
+      "source": "scripts/g23_finish.py",
+      "snapshot": "03_g23_finish.py",
+      "sha256": "8798cd4f4157f1c29d0229194db135e11b0195afd544df02d775d0a2ea1a9371"
+    },
+    {
+      "source": "scripts/g23_accept.py",
+      "snapshot": "04_g23_accept.py",
+      "sha256": "42255bd2b94b8a745f0f7ceee11c6fab6b76c50b8e4ee40cd75ebc6b67bf4d77"
+    },
+    {
+      "source": "scripts/g23_prepare.py",
+      "snapshot": "05_g23_prepare.py",
+      "sha256": "ef523fb6e04b93fc2d6410e21e8210c11b415817e06c9f8ec92704b511f89f17"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "06_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "07_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "08_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "09_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    }
+  ]
+}

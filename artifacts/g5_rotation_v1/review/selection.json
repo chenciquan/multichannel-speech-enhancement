@@ -1,0 +1,23 @@
+{
+  "sample_ids": [
+    "g5_confirmation_0147_6295-244435-0000",
+    "g5_confirmation_0148_6295-244435-0000",
+    "g5_confirmation_0149_6295-244435-0000",
+    "g5_confirmation_0210_6313-66125-0000",
+    "g5_confirmation_0211_6313-66125-0000",
+    "g5_confirmation_0212_6313-66125-0000",
+    "g5_confirmation_0000_6345-93302-0006",
+    "g5_confirmation_0001_6345-93302-0006",
+    "g5_confirmation_0002_6345-93302-0006"
+  ],
+  "rule": "first source per fresh speaker, all directions, first seed",
+  "common_gain": 1.0,
+  "systems": [
+    "noisy",
+    "mcnet",
+    "fixed_without_clean_identity_s20261112",
+    "rotated_without_clean_identity_s20261112",
+    "fixed_complete_s20261112",
+    "rotated_complete_s20261112"
+  ]
+}

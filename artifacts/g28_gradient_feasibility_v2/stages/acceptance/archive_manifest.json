@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-13T00:14:18.950360+00:00",
+  "files": [
+    {
+      "source": "docs/G28_梯度预检验收与后续边界.md",
+      "snapshot": "00_G28_梯度预检验收与后续边界.md",
+      "sha256": "bfc1c594f7fb3c5bf44ed4978229616fa51a58f17f1a511dc6f187a63d892e7d"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "adc08f12ec84c387eec85dcbaecaac930e045711dd992acd6446d0873766dc81"
+    },
+    {
+      "source": "scripts/g28_accept.py",
+      "snapshot": "02_g28_accept.py",
+      "sha256": "d45ccf71e63b698fe17f19e5090d05140373b73292902670ebcf34289a5eed62"
+    },
+    {
+      "source": "artifacts/g28_gradient_feasibility_v2/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "4ccb3cefec2436466d3844c0a36968440de981d8b554d5958813103cd7fc1abd"
+    }
+  ]
+}

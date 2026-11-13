@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T19:54:20.344514+00:00",
+  "files": [
+    {
+      "source": "docs/G24B_二进制增益精确还原验证.md",
+      "snapshot": "00_G24B_二进制增益精确还原验证.md",
+      "sha256": "5f7e915d845fdaf4c814a69d3080da3c571ee88f5cd09723f5fd72307b28c76b"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/PREPARATION_COMPLETE.json",
+      "snapshot": "01_PREPARATION_COMPLETE.json",
+      "sha256": "1fcd5ca9ae8b79f9c4d2d3c58da5fc9ab869f70666ac9a19b4f26475dfb8a41c"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/manifest.jsonl",
+      "snapshot": "02_manifest.jsonl",
+      "sha256": "307753b1b677c506832bc19341cdf0a6f4c75a09abd1bbce3bbb5b08b3c57cc5"
+    },
+    {
+      "source": "artifacts/g24_gain_repeat_v1/frozen_plan.json",
+      "snapshot": "03_frozen_plan.json",
+      "sha256": "e7f3d0a94294da129ffb66ba56a867f4ed9b3b63e948960fe46ecf946bdcf516"
+    },
+    {
+      "source": "scripts/g24_prepare.py",
+      "snapshot": "04_g24_prepare.py",
+      "sha256": "b6e51bdc8ca6d7de2e6850e34e96332b2d228b267fef9fe1c18e1cc2933af633"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "variant": "complete",
+  "seed": 20261112,
+  "completed_steps": 3000,
+  "selected": {
+    "step": 3000,
+    "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_03000.pt",
+    "si_sdr_db": 1.533789666123006,
+    "stoi": 0.8620420299492354
+  },
+  "stoi_gate_passed": true,
+  "history": [
+    {
+      "step": 500,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_00500.pt",
+      "si_sdr_db": -0.7892307942149182,
+      "stoi": 0.8406282332884526
+    },
+    {
+      "step": 1000,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_01000.pt",
+      "si_sdr_db": 0.45582022747406303,
+      "stoi": 0.8524081583002746
+    },
+    {
+      "step": 1500,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_01500.pt",
+      "si_sdr_db": 0.512767704760835,
+      "stoi": 0.8540883872155488
+    },
+    {
+      "step": 2000,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_02000.pt",
+      "si_sdr_db": 0.7899624658883688,
+      "stoi": 0.854698285790716
+    },
+    {
+      "step": 2500,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_02500.pt",
+      "si_sdr_db": 1.1267231187604005,
+      "stoi": 0.8581700252975155
+    },
+    {
+      "step": 3000,
+      "path": "artifacts/g3_overnight_v1/train/complete_s20261112/adapter_03000.pt",
+      "si_sdr_db": 1.533789666123006,
+      "stoi": 0.8620420299492354
+    }
+  ],
+  "initial_si_sdr_db": -3.9374183072519684,
+  "initial_stoi": 0.7549665739125055,
+  "base_digest_before": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "base_digest_after": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "base_unchanged": true,
+  "elapsed_seconds": 291.11332669,
+  "peak_allocated_bytes": 1942758400,
+  "peak_reserved_bytes": 4422893568,
+  "sampler_counts": {
+    "multi8": 1541,
+    "multi8:90": 240,
+    "point": 1459,
+    "point:-90": 205,
+    "point:90": 212,
+    "point:-30": 234,
+    "point:30": 179,
+    "multi8:-90": 244,
+    "multi8:0": 207,
+    "point:-60": 214,
+    "multi8:-60": 175,
+    "multi8:30": 233,
+    "multi8:60": 193,
+    "point:60": 206,
+    "multi8:-30": 249,
+    "point:0": 209
+  },
+  "finished_at": "2026-11-11T17:42:39.587118+00:00"
+}

@@ -1,0 +1,6 @@
+/mnt/c/Users/chenciquan/Desktop/multichannel_speech_enhancement/.venv/lib/python3.12/site-packages/torch/functional.py:704: UserWarning: stft with return_complex=False is deprecated. In a future pytorch release, stft will return complex tensors for all inputs, and return_complex=False will raise an error.
+Note: you can still call torch.view_as_real on the complex output to recover the old return format. (Triggered internally at ../aten/src/ATen/native/SpectralOps.cpp:873.)
+  return _VF.stft(  # type: ignore[attr-defined]
+{'variant': 'cirm', 'step': 500, 'elapsed_seconds': 51.03183175699996}
+{'variant': 'cirm', 'step': 1000, 'elapsed_seconds': 83.67994746199997}
+{'variant': 'cirm', 'step': 1500, 'elapsed_seconds': 115.81162251499995}

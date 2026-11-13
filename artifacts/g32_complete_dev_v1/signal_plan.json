@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-13T01:02:13.558080+00:00",
+  "max_seconds": 1800,
+  "cases": 36,
+  "outputs": 468,
+  "FP32": true,
+  "batch": 1,
+  "workers": 2,
+  "registered": {
+    "cirm": {
+      "step": 1500,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm/adapter_01500.pt",
+      "sha256": "8ff7a3f0a10d957acd83d30f17a4d16fcbde7c567c8ad47e05a319ce34b3f622"
+    },
+    "cirm_mask": {
+      "step": 1500,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm_mask/adapter_01500.pt",
+      "sha256": "15ea422c2eb2a39de724f79774a2a8715bdbf13cea7cc35e30dda67bb3ee44b6"
+    },
+    "cirm_shape": {
+      "step": 1500,
+      "path": "artifacts/g30_room_objectives_v1/train/cirm_shape/adapter_01500.pt",
+      "sha256": "876a4c789ad749ff61b02b59decaa4dfb3f8682479e450a761bd280ae28b7a58"
+    }
+  },
+  "hashes": {
+    "scripts/g32_signal.py": "6805bdc9dd6bac1e4adeaf59c5aefbb9b99dc75849ac5cd66983178d2ddd7d5c",
+    "scripts/g32_worker.py": "faff95d02c7a4a89456949dfab5ca48c3593d2e939fe8dee4a7375bbaa440c94",
+    "scripts/g32_signal_finish.py": "6957b6f0220dedf584294e7e784594e5ca1116fd6770f02d61df783f90c1caeb",
+    "scripts/g32_common.py": "ccb0b58b141819dd5710bf2c8aff9aad6e180987b20a2e6207a77fa7f88b8b8a",
+    "scripts/mcnet_infer.py": "29954df2d74c537a3b13d2bd8ea3bb240719ae856e1bd01ea780369c05663a95",
+    "src/mcse/adaptation.py": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+    "src/mcse/beamforming.py": "42069bb65c3767873782753d295a5740521146124304de366c1e3a513957ba84",
+    "src/mcse/wiener.py": "9fc63ded2b2f7ccc83e36324fc3971f8b9e3bd1e056f4454d57ca9997b204752",
+    "src/mcse/evaluation.py": "3dbe3ea5f09c18c9a8c8991b62024d124b51e8eca650e2f5080476de46e56526",
+    "data/g32_v1/manifest.jsonl": "57bd5b2370fc249fcb0a01da12c10d33be191c290c6cc65a3c41454f221bff0f",
+    "artifacts/g32_complete_dev_v1/DATA_ACCEPTANCE_AUDIT.json": "8bccddc0b4f56130c10c94029c576218c81fbedf47dd83dc51e67aabcb59441c",
+    "artifacts/g30_room_objectives_v1/FINAL_TRAINING_ACCEPTANCE.json": "86856fa2c9d1870d3c2a0987ce6754d4da3d647da31b9c2f79de3f45eff94984"
+  }
+}

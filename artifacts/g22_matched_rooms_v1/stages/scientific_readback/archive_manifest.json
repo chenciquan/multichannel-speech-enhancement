@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T19:37:54.978599+00:00",
+  "files": [
+    {
+      "source": "docs/G22_科学结论与下一阶段问题.md",
+      "snapshot": "00_G22_科学结论与下一阶段问题.md",
+      "sha256": "baaffd40c9bf54a4617eda3574f550587f2e79ed5a8cbf3db6c45f64b6678005"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/readback_error_types.json",
+      "snapshot": "01_readback_error_types.json",
+      "sha256": "5b7d991aec3170700b1b5007aa8c4d846f2f0e3696172088f2ce45ee13579a96"
+    },
+    {
+      "source": "scripts/g22_readback.py",
+      "snapshot": "02_g22_readback.py",
+      "sha256": "4daa4ef1159c91a98388dcd7877c74c819ac4531e45abc7de4117fe472fdf269"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "03_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "aa87e6b7baf82dde2dbc7fcec37d733ee65e642f2fc591f64afd62c7e70ed116"
+    }
+  ]
+}

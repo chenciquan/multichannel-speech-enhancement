@@ -1,0 +1,55 @@
+{
+  "saved_utc": "2026-11-12T19:20:28.726311+00:00",
+  "files": [
+    {
+      "source": "docs/G22D_新房间固定双识别器协议.md",
+      "snapshot": "00_G22D_新房间固定双识别器协议.md",
+      "sha256": "6fe48aeb916afd038e185a34ee34edd155d37e8b34a760493900ecbd3d051245"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/recognition/frozen_plan.json",
+      "snapshot": "01_frozen_plan.json",
+      "sha256": "ae633de321883f291011c4b945ed21c4330000184e0b92d6ad91ca74c734d7c6"
+    },
+    {
+      "source": "scripts/g22_asr.py",
+      "snapshot": "02_g22_asr.py",
+      "sha256": "60076a0b9164ac65ad2302852d6869b06f5637394769508d6422b6a7f1ba407e"
+    },
+    {
+      "source": "scripts/g22_asr_finish.py",
+      "snapshot": "03_g22_asr_finish.py",
+      "sha256": "f927ad60c3a59b49001242ea9b6dd4902e9761bd550b4385a179c3560ed51ab8"
+    },
+    {
+      "source": "scripts/g22_final_accept.py",
+      "snapshot": "04_g22_final_accept.py",
+      "sha256": "3b5037e5e1b37607b4708f179e00c7b4a5fb292a8152154f015bb1a046f5aaa2"
+    },
+    {
+      "source": "scripts/g19_scores.py",
+      "snapshot": "05_g19_scores.py",
+      "sha256": "d6f963528d66c8448751083891f5cdea1c67529808a63154c5416b20ca69f17a"
+    },
+    {
+      "source": "scripts/g8_common.py",
+      "snapshot": "06_g8_common.py",
+      "sha256": "3e2ec360647332caddabe62825feffdc5d2ad9c2dc35d38dcee4f12ee64031bf"
+    },
+    {
+      "source": "src/mcse/asr_scoring.py",
+      "snapshot": "07_asr_scoring.py",
+      "sha256": "2e0e0e9bb3cef751adfd9779dc3897d612c75420c0b3a4636d386940dad47415"
+    },
+    {
+      "source": "src/mcse/ctc.py",
+      "snapshot": "08_ctc.py",
+      "sha256": "49e8462792e34e5d5b897252b2196190e984fae40ced02bd44715a4ac384f537"
+    },
+    {
+      "source": "artifacts/g22_matched_rooms_v1/SIGNAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "09_SIGNAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "c4a4cd110df990d7b3b4a969eb104d3c0acc61110f89faf9a4422cf7fe146d1f"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "status": "pilot_completed_direction_sensitivity_and_tradeoffs_no_overall_winner",
+  "record_date_local": "2026-11-12",
+  "title": "面向空间噪声条件变化的多通道语音增强轻量适配与语音保真研究",
+  "baseline": "pinned official six-channel offline McNet",
+  "confirmed_problem": "quality degradation under the tested directional noise/spatial conditions after correcting sub40Hz noise dominance; effects depend on angle and spectrum",
+  "confirmation_evidence": "artifacts/g2_confirmation_v1/analysis_asr/summary.json",
+  "confirmation_evidence_sha256": "de1e2a8e002b6ea1c046096ad82d07aa367d835673580f5cbb6a1897af9cf04c",
+  "confirmed_scope": "eight new complete utterances, same six speakers and two noise recordings, nominal array, two spatial seeds; not real-world or unseen-speaker generalization",
+  "mechanism": {
+    "adapter": "standard LoRA residual W+BA on two spatial-module output Linear layers",
+    "layers": [
+      {
+        "module": "freq.fc_output_layer",
+        "weight_shape": [
+          64,
+          256
+        ],
+        "rank": 4,
+        "additional_parameters": 1280,
+        "initialization": "zero B; frozen base W and biases"
+      },
+      {
+        "module": "narr.fc_output_layer",
+        "weight_shape": [
+          64,
+          512
+        ],
+        "rank": 4,
+        "additional_parameters": 2304,
+        "initialization": "zero B; frozen base W and biases"
+      }
+    ],
+    "trainable_parameters": 3584,
+    "fraction_of_base_parameters": 0.0010766946675374756,
+    "training_sampler": "stratify noise direction and coherence/source-count; same data pool for ordinary-LoRA control",
+    "losses": [
+      "original supervised compressed-cIRM loss",
+      "clean-input reference-speech reconstruction constraint",
+      "supervised replay of lower-coherence/easier conditions"
+    ],
+    "asr_backpropagation": false,
+    "teacher_targets_from_failing_baseline": false
+  },
+  "required_comparators": [
+    "noisy reference",
+    "unmodified McNet",
+    "fixed40Hz highpass DSP controls",
+    "same-rank same-position ordinary LoRA with uniform sampling/original loss",
+    "selected full recipe"
+  ],
+  "ablations": [
+    "without spatial-condition stratification",
+    "without clean-speech preservation constraint",
+    "spectral-module placement control if spatial-placement advantage is claimed"
+  ],
+  "component_reuse": {
+    "library": "Microsoft loralib",
+    "source": "https://github.com/microsoft/LoRA",
+    "license": "MIT verified",
+    "installed": true,
+    "speech_pretrained_adapter_weights_available": false
+  },
+  "novelty_status": "Not established; LoRA, balancing, rotation and clean reconstruction are prior art. No global advantage and no stable acoustic word-deletion conclusion.",
+  "training_performed": true,
+  "adapter_implemented": true,
+  "training_memory_verified": true,
+  "next_stage": "review G5 paired listening and tradeoffs; retain ordinary LoRA and scene rotation as strong controls; register new validation/confirmation before further tuning",
+  "execution_protocol": "configs/g3_overnight_plan.json",
+  "factorial_extension": "configs/g3_factorial_extension.json",
+  "latest_reports": [
+    "docs/G3_五小时实验验收报告.md",
+    "docs/G4_空间泛化压力测试报告.md",
+    "docs/G5_整场景旋转与新说话人确认报告.md",
+    "docs/夜间实验_验收汇总.md"
+  ],
+  "overall_winner_established": false
+}

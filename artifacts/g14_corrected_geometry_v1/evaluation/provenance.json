@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-12T08:40:04.603073+00:00",
+  "manifest_sha256": "cf0fd2c36e8c173ab42366db12bae17c8791648400024c0f8f39389804b1bbea",
+  "systems_sha256": "8031196852a13a7faf435c85b95ca92e51d7fe0455a45868fd1b1a1f6aef8b7b",
+  "previous_archive_sha256": "fc97dcedc3a46d28cf9405e8ecdbf0aabbdd885f9d8dac4324ae4a37acfb73dc",
+  "training": false,
+  "batch": 1,
+  "FP32": true,
+  "runtime_sha256": "03fafbe032faa6cd3f524a13021ebc5278db81335c78f97471d19a9f69fc9ead",
+  "device": "cuda",
+  "metric_workers": 2,
+  "per_system_release": true
+}

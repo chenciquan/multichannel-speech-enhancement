@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T17:57:19.678958+00:00",
+  "files": [
+    {
+      "source": "docs/G19_配对差值图说明.md",
+      "snapshot": "00_G19_配对差值图说明.md",
+      "sha256": "a9780a3edd56f3325cbb6484890548e9f3715d84530a275efb4cbec0d74f1e4b"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/filter_deltas.png",
+      "snapshot": "01_filter_deltas.png",
+      "sha256": "ae0a3aa0841d6ea62c7d4f3ed3baefab22dbdd1c9ce8b8592964f7bcafa73ed3"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/filter_deltas.pdf",
+      "snapshot": "02_filter_deltas.pdf",
+      "sha256": "afa2e65830bb5c522ef5d90ff3cba0ebb26900b5c48f233718bcf7b0bdca57d6"
+    },
+    {
+      "source": "scripts/g19_plot.py",
+      "snapshot": "03_g19_plot.py",
+      "sha256": "3bf5d5ddd896ba4186ec722bcee96de29baeaf4a36e320f5d18a02e4c68dd508"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "saved_utc": "2026-11-12T09:38:47.736736+00:00",
+  "files": [
+    {
+      "source": "docs/G16_开发负结果与新语音确认决策.md",
+      "snapshot": "00_G16_开发负结果与新语音确认决策.md",
+      "sha256": "e7e05d7634f5fb14a77da203ba2da5934ae7e796a90b7b62d65c6ff5d7bf9daa"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/NEXT_CONFIRMATION_DECISION.json",
+      "snapshot": "01_NEXT_CONFIRMATION_DECISION.json",
+      "sha256": "bc2af3e07000c89a37a81d583e60260e2984e31e221f16ad6483ee1655687165"
+    },
+    {
+      "source": "configs/g17_fresh_confirmation_plan.json",
+      "snapshot": "02_g17_fresh_confirmation_plan.json",
+      "sha256": "d7e03db83f4ee8e9009bcf59f519a7f3fab979a7aa7fbe9ae0ebf84effe9ebe9"
+    },
+    {
+      "source": "artifacts/g17_source_endpoint_v1.json",
+      "snapshot": "03_g17_source_endpoint_v1.json",
+      "sha256": "17f342fa0d8e3e47a1b3700d5d26d97344d8dd092c857dfd3253850d70164a7a"
+    },
+    {
+      "source": "scripts/g16_decision.py",
+      "snapshot": "04_g16_decision.py",
+      "sha256": "3d32d7b9a59a11a04c77d7886daa653c812c126934a87abbe1592d9c163d1ecb"
+    }
+  ]
+}

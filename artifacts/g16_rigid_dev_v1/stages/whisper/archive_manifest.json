@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T09:34:55.936866+00:00",
+  "files": [
+    {
+      "source": "docs/G16E_Whisper正确训练开发初评.md",
+      "snapshot": "00_G16E_Whisper正确训练开发初评.md",
+      "sha256": "7801f45bd11e7ef2ce2f737dbef9958eb030ac7e7e018fee1de11131d06a35a2"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/Whisper/provenance.json",
+      "snapshot": "01_provenance.json",
+      "sha256": "f48f4abcac010c5e7d3b3f4537f68ac24a3b2a0815d97c798f0eb1bdfea4e622"
+    },
+    {
+      "source": "artifacts/g16_rigid_dev_v1/evaluation/Whisper/COMPLETE.json",
+      "snapshot": "02_COMPLETE.json",
+      "sha256": "44ed6b2922c25182780d3b6acccd0f80f6eb763e465bf8beba948242277e3d31"
+    },
+    {
+      "source": "scripts/g16_asr.py",
+      "snapshot": "03_g16_asr.py",
+      "sha256": "3d7f8d56c2faa2da8827fb6101578da1d45a5f53ae330e9df2ce4533265caa46"
+    }
+  ]
+}

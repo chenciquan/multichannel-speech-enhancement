@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T23:53:55.774974+00:00",
+  "files": [
+    {
+      "source": "docs/G26_完整电平辅评分阶段验收.md",
+      "snapshot": "00_G26_完整电平辅评分阶段验收.md",
+      "sha256": "66bb8e925cecf9acd45d2c073d363bfe173ea3cf4230670c9f5053c378927aa3"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/FINAL_ACCEPTANCE_AUDIT.json",
+      "snapshot": "01_FINAL_ACCEPTANCE_AUDIT.json",
+      "sha256": "c22f6025e1a4d796bbbd72b875962b9df145b2a7037f63423fc1890cd1438332"
+    },
+    {
+      "source": "scripts/g26_accept.py",
+      "snapshot": "02_g26_accept.py",
+      "sha256": "d5ea11d3e33d74752727cdcd7e796f57e7b92bc7858d1ab83e278e893d641a88"
+    },
+    {
+      "source": "artifacts/g26_room_ASR_level_v1/power_helper.json",
+      "snapshot": "03_power_helper.json",
+      "sha256": "8aa358b3e6bcef3bad2a7caf0c825b3af23ae61af3231375a4941097c9ea56cf"
+    }
+  ]
+}

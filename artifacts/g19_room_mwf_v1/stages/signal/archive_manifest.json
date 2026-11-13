@@ -1,0 +1,25 @@
+{
+  "saved_utc": "2026-11-12T13:24:44.627527+00:00",
+  "files": [
+    {
+      "source": "docs/G19B_房间MWF信号报告.md",
+      "snapshot": "00_G19B_房间MWF信号报告.md",
+      "sha256": "d66d02ac6f4b5c77f4ca4ed304ad60f32a49be9170d226f53e882c52bea99d7e"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/SIGNAL_COMPLETE.json",
+      "snapshot": "01_SIGNAL_COMPLETE.json",
+      "sha256": "5fcd4901407523697ed7baa535e1d90c2e9865d7e758c2448ac919f3f3897290"
+    },
+    {
+      "source": "artifacts/g19_room_mwf_v1/evaluation/provenance.json",
+      "snapshot": "02_provenance.json",
+      "sha256": "533d97caa40743352d35af424e5cac4422dd6ccf3e9f669b71339e1c6367215a"
+    },
+    {
+      "source": "scripts/g19_signal.py",
+      "snapshot": "03_g19_signal.py",
+      "sha256": "83efda34eea0be6ad3787da6c1efe7d33655813f976c3d30366516d6ab85ec19"
+    }
+  ]
+}

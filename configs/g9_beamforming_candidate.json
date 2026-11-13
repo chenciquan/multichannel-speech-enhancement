@@ -1,0 +1,24 @@
+{
+  "status": "proposal_only_not_implemented_not_run",
+  "entry_gate": "G8 report, audit and immutable stage snapshot saved; review cross-recognizer findings before freezing any new experiment",
+  "rationale": "The light adaptation has only been compared with other neural adaptation controls. Add a mature signal-processing comparator before proposing a new module or calling the result innovative.",
+  "source_api": "https://docs.pytorch.org/audio/2.5.0/generated/torchaudio.functional.mvdr_weights_souden.html",
+  "source_tutorial": "https://docs.pytorch.org/audio/2.5.0/tutorials/mvdr_tutorial.html",
+  "classical_paper": "Souden, Benesty and Affes. On Optimal Frequency-Domain Multichannel Linear Filtering for Noise Reduction. IEEE Transactions on Audio, Speech, and Language Processing18(2),260-276,February2010; DOI online record2009. https://doi.org/10.1109/TASL.2009.2025790",
+  "author_paper_copy": "https://www.wirelesslab.ca/File/pdf_files/journals/J042.pdf",
+  "existing_library": "Installed torchaudio2.5.1+cu121, use official PSD/SoudenMVDR implementation; no new dependency or trained weights",
+  "main_candidate": "McNet-estimated speech/noise masks -> multichannel speech/noise PSD -> official Souden MVDR at reference channel4. Estimated residual is noisy reference minus saved McNet waveform. Fix squared-ratio mask, STFT and diagonal loading before scoring; no use of clean target or true target angle in this main comparator.",
+  "optional_diagnostics": [
+    "Oracle-DOA delay-and-sum using simulator direction; explicitly privileged information, not deployable blind baseline",
+    "Oracle-reference IRM Souden MVDR using true reference and residual; diagnostic of mask limitations only, never a fair learned-system competitor"
+  ],
+  "scope_if_activated": "Reuse frozen G5/G7 waves/inputs and registered scoring rules; no new data/training/weight selection. Analyze direction/noise/SNR and both fixed ASR backends. Predeclare exact subset and all numerical settings before outputs.",
+  "required_checks": [
+    "STFT/ISTFT identity and exact lengths, reference index and complex conjugation",
+    "Finite weights/output for silent or degenerate covariance cases, predetermined diagonal loading; failures retained rather than metric-based fallback",
+    "Unit response on a synthetic plane-wave target, interference attenuation measured without scoring-driven tuning",
+    "Explicit separation of estimated-mask main result and oracle diagnostics",
+    "Report both computation and prior McNet-mask generation cost"
+  ],
+  "novelty": "Mature baseline addition and mechanism diagnosis, not a proposed new algorithm or publication guarantee"
+}

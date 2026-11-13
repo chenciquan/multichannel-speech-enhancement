@@ -1,0 +1,123 @@
+{
+  "record_date_local": "2026-11-11",
+  "scope": "focused follow-up, not exhaustive novelty proof",
+  "search_provider": "Exa plus primary pages and official GitHub connector reads",
+  "effective_search_return_counts": [
+    8,
+    8,
+    6,
+    8
+  ],
+  "notes": [
+    "Two initial schema-validation failures produced no sources; corrected objective parameter and retried",
+    "Returned search candidates are not all validated papers",
+    "No new packages or model/data downloads for literature verification"
+  ],
+  "sources": [
+    {
+      "title": "Towards Lightweight Adaptation of Speech Enhancement Models in Real-World Environments",
+      "authors": [
+        "Longbiao Cheng",
+        "Shih-Chii Liu"
+      ],
+      "year": 2026,
+      "venue": "ICASSP 2026 (author lab publication page verified)",
+      "doi": "10.1109/ICASSP55912.2026.11462756",
+      "links": [
+        "https://arxiv.org/abs/2603.07471",
+        "https://sensors.ini.ch/publications"
+      ],
+      "verified_facts": [
+        "Single-channel GRU/DPRNN",
+        "Self-supervised pseudo-target remixing",
+        "LoRA on FC layers with frozen backbone"
+      ],
+      "official_code_status": "not verified; no speech-specific code or weights assumed",
+      "relevance": "Low-rank speech adaptation is prior art, not project novelty"
+    },
+    {
+      "title": "Learning Noise Adapters for Incremental Speech Enhancement",
+      "authors": [
+        "Ziye Yang",
+        "Xiang Song",
+        "Jie Chen",
+        "Cédric Richard",
+        "Israel Cohen"
+      ],
+      "year": 2024,
+      "venue": "IEEE Signal Processing Letters, vol31, p2915 onward",
+      "doi": "10.1109/LSP.2024.3482171",
+      "links": [
+        "https://www.cedric-richard.fr/Articles/yang2024learning.pdf"
+      ],
+      "verified_facts": [
+        "Frozen pretrained model plus domain adapters",
+        "MHA/FFL bottleneck adapters",
+        "Training-free noise/domain selector"
+      ],
+      "official_code_status": "not verified in this focused search; do not claim full reproduction",
+      "relevance": "Adapters and domain routing are established"
+    },
+    {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "authors": [
+        "Edward J. Hu",
+        "Yelong Shen",
+        "Phillip Wallis",
+        "Zeyuan Allen-Zhu",
+        "Yuanzhi Li",
+        "Shean Wang",
+        "Lu Wang",
+        "Weizhu Chen"
+      ],
+      "year": 2022,
+      "venue": "ICLR 2022 (official repository citation verified)",
+      "links": [
+        "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "https://github.com/microsoft/LoRA"
+      ],
+      "official_code_status": "Microsoft loralib, MIT LICENSE.md verified; Linear supported; no McNet speech adaptation weights",
+      "verified_facts": [
+        "Freeze base weights, train rank-decomposed residual",
+        "nn.Linear supported"
+      ],
+      "relevance": "Reuse mature adapter component; compare ordinary LoRA on same McNet/data/budget"
+    },
+    {
+      "title": "DeFTAN-AA: Array Geometry Agnostic Multichannel Speech Enhancement",
+      "authors": [
+        "Dongheon Lee",
+        "Jung-Woo Choi"
+      ],
+      "year": 2024,
+      "venue": "Interspeech 2024",
+      "links": [
+        "https://www.isca-archive.org/interspeech_2024/lee24g_interspeech.pdf"
+      ],
+      "verified_facts": [
+        "Geometry-agnostic architecture with spatial and object feature interactions"
+      ],
+      "official_code_status": "not verified here; not an immediately usable replacement",
+      "relevance": "Spatial generalization is established, architecture change is larger than the present resource scope"
+    },
+    {
+      "title": "Microphone Array Generalization for Multichannel Narrowband Deep Speech Enhancement",
+      "authors": [
+        "Siyuan Zhang",
+        "Xiaofei Li"
+      ],
+      "year": 2021,
+      "venue": "Interspeech 2021, author repository states acceptance",
+      "links": [
+        "https://arxiv.org/abs/2107.12601",
+        "https://github.com/audio-westlakeu/microphone-array-generalization-for-multichannel-narrowband-deep-speech-enhancement-"
+      ],
+      "verified_facts": [
+        "Array/magnitude augmentation and narrowband network variants",
+        "Paper discusses limits of ideally diffuse noise relative to complex real fields"
+      ],
+      "official_code_status": "author repository found; license and checkpoints not verified in this follow-up",
+      "relevance": "Diverse spatial training and generalization are prior art"
+    }
+  ]
+}

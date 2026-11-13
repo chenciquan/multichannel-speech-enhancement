@@ -1,0 +1,668 @@
+[
+  {
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0000_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": -40,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "fixed",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.4166491849189215,
+      "target_gain_db": -5.863694817772584,
+      "noise_reduction_db": 9.130209796619202,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 2.2590828167655905,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0009064578227763711,
+      "output_noise_power": 0.0005388145560156893,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 3.3677195045723787,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0,
+      "linearity_max_abs": 1.4901161193847656e-08,
+      "weight_norm_squared_mean": 224.64152000114464,
+      "weight_norm_squared_max": 6187.499687810227
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.222521051764488e-06,
+    "source_record_sha256": "e592ae6714a0497cf6d0bc57e3bc594f5759f9a4665028dcfb0e6f6e9d588544",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": -1.2089452917816321,
+      "stoi": 0.5862059874620582,
+      "pesq_wb": 1.0305571556091309,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 6,
+      "D": 0,
+      "I": 3,
+      "correct": 3,
+      "errors": 9,
+      "wer": 1.0
+    },
+    "CTC": {
+      "N": 9,
+      "S": 4,
+      "D": 5,
+      "I": 0,
+      "correct": 0,
+      "errors": 9,
+      "wer": 1.0
+    }
+  },
+  {
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0001_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "fixed",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.04557685212076838,
+      "target_gain_db": -1.5540405553695116,
+      "noise_reduction_db": 8.164467699966627,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 5.602994982516087,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0024451923452281513,
+      "output_noise_power": 0.0006729976214127581,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 16.422106251112712,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 8.881784197001252e-16,
+      "linearity_max_abs": 2.7939677238464355e-08,
+      "weight_norm_squared_mean": 313.798639030642,
+      "weight_norm_squared_max": 14346.108871197168
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.3531429469585418e-06,
+    "source_record_sha256": "a11860535eefc0e55c0f5ed9e257e4589818fa596862b76cda0cc06440f324e8",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": 5.143695296385199,
+      "stoi": 0.9802143360402474,
+      "pesq_wb": 1.4917316436767578,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 1,
+      "D": 0,
+      "I": 0,
+      "correct": 8,
+      "errors": 1,
+      "wer": 0.1111111111111111
+    },
+    "CTC": {
+      "N": 9,
+      "S": 1,
+      "D": 0,
+      "I": 0,
+      "correct": 8,
+      "errors": 1,
+      "wer": 0.1111111111111111
+    }
+  },
+  {
+    "system": "fixed_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0002_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 70,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "fixed",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.1034552005063632,
+      "target_gain_db": -2.2082061054920192,
+      "noise_reduction_db": 7.758395091351511,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 4.542756823778463,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.002103276999136205,
+      "output_noise_power": 0.0007389597610027868,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 11.420700394613998,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 1.7763568394002505e-15,
+      "linearity_max_abs": 2.60770320892334e-08,
+      "weight_norm_squared_mean": 299.70382407777777,
+      "weight_norm_squared_max": 4567.814745968988
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.3285961747169494e-06,
+    "source_record_sha256": "955255641f481be0f49f5acc77c89b0c8ac8c5713ff65fb0ec2f650a750de008",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": 3.4652380496106354,
+      "stoi": 0.8710729189937133,
+      "pesq_wb": 1.153627872467041,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 3,
+      "D": 0,
+      "I": 0,
+      "correct": 6,
+      "errors": 3,
+      "wer": 0.3333333333333333
+    },
+    "CTC": {
+      "N": 9,
+      "S": 0,
+      "D": 0,
+      "I": 0,
+      "correct": 9,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "system": "mcnet_mask_mvdr",
+    "sample_id": "g10_0000_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": -40,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "original",
+    "seed": null,
+    "metrics": {
+      "speech_error_nmse": 0.406507671449512,
+      "target_gain_db": -6.88104461111127,
+      "noise_reduction_db": 7.267353784255275,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": -0.6211229889370237,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0007171543251249797,
+      "output_noise_power": 0.0008274179168870542,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 5.43183101949086,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 7.771561172376096e-16,
+      "linearity_max_abs": 1.4901161193847656e-08,
+      "weight_norm_squared_mean": 151.581151045355,
+      "weight_norm_squared_max": 3235.7561597545787
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.2088690549135208e-06,
+    "source_record_sha256": "dd3b4d1a6bb34804ace5063093a8a36e43fea90bcf615854111ebf6751e02f79",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": -2.524998247882194,
+      "stoi": 0.45458608872212325,
+      "pesq_wb": 1.0273524522781372,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 4,
+      "D": 5,
+      "I": 0,
+      "correct": 0,
+      "errors": 9,
+      "wer": 1.0
+    },
+    "CTC": {
+      "N": 9,
+      "S": 1,
+      "D": 8,
+      "I": 0,
+      "correct": 0,
+      "errors": 9,
+      "wer": 1.0
+    }
+  },
+  {
+    "system": "mcnet_mask_mvdr",
+    "sample_id": "g10_0001_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "original",
+    "seed": null,
+    "metrics": {
+      "speech_error_nmse": 0.20933066583776136,
+      "target_gain_db": -3.565296629208154,
+      "noise_reduction_db": 5.825200768642931,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 1.2524719773537494,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0015388185755210609,
+      "output_noise_power": 0.0011532945040330005,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 7.902783495981521,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0,
+      "linearity_max_abs": 1.862645149230957e-08,
+      "weight_norm_squared_mean": 226.57301686140008,
+      "weight_norm_squared_max": 13163.240249726621
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.302707016468048e-06,
+    "source_record_sha256": "fdc3bb804a6334f261d63cbabb75c4516b16c5384a89bf5c083fcc74399f7ba0",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": -0.1522538305289794,
+      "stoi": 0.7108815956915896,
+      "pesq_wb": 1.0406169891357422,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 7,
+      "D": 0,
+      "I": 2,
+      "correct": 2,
+      "errors": 9,
+      "wer": 1.0
+    },
+    "CTC": {
+      "N": 9,
+      "S": 4,
+      "D": 3,
+      "I": 0,
+      "correct": 2,
+      "errors": 7,
+      "wer": 0.7777777777777778
+    }
+  },
+  {
+    "system": "mcnet_mask_mvdr",
+    "sample_id": "g10_0002_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 70,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "original",
+    "seed": null,
+    "metrics": {
+      "speech_error_nmse": 0.4857597878764023,
+      "target_gain_db": -7.543952607049247,
+      "noise_reduction_db": 5.652955771759719,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": -2.898428997370555,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0006156329021141285,
+      "output_noise_power": 0.0011999543435493932,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 3.2074890616136313,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 1.1102230246251565e-15,
+      "linearity_max_abs": 1.4901161193847656e-08,
+      "weight_norm_squared_mean": 185.4795586536497,
+      "weight_norm_squared_max": 4721.94982390019
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.209263488650322e-06,
+    "source_record_sha256": "10d9151536437483063435f4e74364cb052fef1ddd85670f940e1662378f2b32",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": -5.264819187803233,
+      "stoi": 0.48707806397322984,
+      "pesq_wb": 1.0248804092407227,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 3,
+      "D": 4,
+      "I": 0,
+      "correct": 2,
+      "errors": 7,
+      "wer": 0.7777777777777778
+    },
+    "CTC": {
+      "N": 9,
+      "S": 1,
+      "D": 8,
+      "I": 0,
+      "correct": 0,
+      "errors": 9,
+      "wer": 1.0
+    }
+  },
+  {
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0000_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": -40,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "rotated",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.18865416026246323,
+      "target_gain_db": -4.507895235336999,
+      "noise_reduction_db": 9.248889029006826,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 3.733561631588798,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0012385899721112656,
+      "output_noise_power": 0.0005242897852033738,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 13.677317009676193,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 8.881784197001252e-16,
+      "linearity_max_abs": 1.4901161193847656e-08,
+      "weight_norm_squared_mean": 120.42376256066365,
+      "weight_norm_squared_max": 1490.0574556033357
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.2457695752382279e-06,
+    "source_record_sha256": "dab36fd06ac42232b9ac34d5dcbbe4338188306d49aef0eb82eb6446c75eb7b4",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": 3.12557840186955,
+      "stoi": 0.8379330685891044,
+      "pesq_wb": 1.1518992185592651,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 3,
+      "D": 0,
+      "I": 2,
+      "correct": 6,
+      "errors": 5,
+      "wer": 0.5555555555555556
+    },
+    "CTC": {
+      "N": 9,
+      "S": 0,
+      "D": 0,
+      "I": 0,
+      "correct": 9,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0001_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 20,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "rotated",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.042484834435656885,
+      "target_gain_db": -1.4424169694043236,
+      "noise_reduction_db": 7.648997129330014,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 5.199147997844663,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.002508853984865521,
+      "output_noise_power": 0.000757810444019672,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 16.40070088480234,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 0.0,
+      "linearity_max_abs": 2.7939677238464355e-08,
+      "weight_norm_squared_mean": 467.9638848047286,
+      "weight_norm_squared_max": 16899.12021503252
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.3545091748237609e-06,
+    "source_record_sha256": "c60a6b2c1b78df019eeb9f8180a08f7ce3e376a8b70fe96d76fd43eb86119319",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": 4.771480704588557,
+      "stoi": 0.9732240093977387,
+      "pesq_wb": 1.2749828100204468,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 1,
+      "D": 0,
+      "I": 0,
+      "correct": 8,
+      "errors": 1,
+      "wer": 0.1111111111111111
+    },
+    "CTC": {
+      "N": 9,
+      "S": 1,
+      "D": 0,
+      "I": 0,
+      "correct": 8,
+      "errors": 1,
+      "wer": 0.1111111111111111
+    }
+  },
+  {
+    "system": "rotated_without_clean_identity_s20261112_mask_mvdr",
+    "sample_id": "g10_0002_5338-284437-0012",
+    "source_id": "5338-284437-0012",
+    "speaker_id": "5338",
+    "condition": "point",
+    "noise_id": "OOFFICE",
+    "relative_angle": -80,
+    "target_azimuth": 70,
+    "snr_db": 0,
+    "common_scale": 1.0,
+    "group": "rotated",
+    "seed": 20261112,
+    "metrics": {
+      "speech_error_nmse": 0.0995833724419006,
+      "target_gain_db": -2.629743819902517,
+      "noise_reduction_db": 7.736194103813981,
+      "component_input_snr_db": -1.0074321620810276,
+      "component_output_snr_db": 4.099018121830436,
+      "input_speech_power": 0.0034971727288819103,
+      "input_noise_power": 0.004410220455721549,
+      "output_speech_power": 0.0019087220960865494,
+      "output_noise_power": 0.0007427469701901862,
+      "output_speech_power_floored": false,
+      "output_noise_power_floored": false,
+      "power_floor": 1e-30,
+      "target_component_si_sdr_db": 13.583450774444765,
+      "target_component_si_sdr_status": "ok",
+      "snr_accounting_error_db": 8.881784197001252e-16,
+      "linearity_max_abs": 2.421438694000244e-08,
+      "weight_norm_squared_mean": 277.13363571717616,
+      "weight_norm_squared_max": 3708.757236722378
+    },
+    "reference_reconstruction_max_abs": 0.0,
+    "reproduced_beam_max_abs": 0.0,
+    "linearity_tolerance": 1.3177752792835234e-06,
+    "source_record_sha256": "27c0eb821a26898578d4aa9b81f25d6bb0ca384d11b672262eb47bed423c48a9",
+    "speech_reference_samples_sha256": "79c9596fe34c43da51db2e7686d7f8574d2f6eba4f0be7d17223169a857db9c6",
+    "status": "ok",
+    "original_signal_metrics": {
+      "si_sdr_db": 3.4535373694584957,
+      "stoi": 0.9191593295250622,
+      "pesq_wb": 1.1494601964950562,
+      "status": {
+        "si_sdr_db": {
+          "status": "ok"
+        },
+        "stoi": {
+          "status": "ok"
+        },
+        "pesq_wb": {
+          "status": "ok"
+        }
+      }
+    },
+    "Whisper": {
+      "N": 9,
+      "S": 3,
+      "D": 0,
+      "I": 0,
+      "correct": 6,
+      "errors": 3,
+      "wer": 0.3333333333333333
+    },
+    "CTC": {
+      "N": 9,
+      "S": 0,
+      "D": 0,
+      "I": 0,
+      "correct": 9,
+      "errors": 0,
+      "wer": 0.0
+    }
+  }
+]

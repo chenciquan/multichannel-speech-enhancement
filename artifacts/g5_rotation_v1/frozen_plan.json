@@ -1,0 +1,42 @@
+{
+  "status": "registered_before_G5_training_and_confirmation",
+  "hypothesis": "Whole-scene azimuth rotation may improve held-out target-direction transfer. Keep relative source geometry/content/noise clips paired; compare with a fixed-scene control, and test clean identity as a separate factor. This is a mature augmentation control, not a claimed innovation.",
+  "entry_gate": "G4 major report, audit and completion archive saved",
+  "training_cells": [
+    "fixed_without_clean_identity",
+    "rotated_without_clean_identity",
+    "fixed_complete",
+    "rotated_complete"
+  ],
+  "training_pool": "Regenerate 2048 paired cases from G3 crop/noise-interval catalogue. Shared new multi-source directions and shared anti-clipping scale; rotate all speech/noise directions together. Exact reference-mic inputs and clean targets must match between paired pools.",
+  "random_target_azimuth_degrees": [
+    -45,
+    75
+  ],
+  "base_target_azimuth_degrees": 20,
+  "target_elevation_degrees": 10,
+  "rank": 4,
+  "alpha": 4,
+  "trainable_parameters": 3584,
+  "steps_per_run": 3000,
+  "learning_rate": 0.0003,
+  "fp32_training": true,
+  "mandatory_seed": 20261112,
+  "optional_seeds": [
+    20261113,
+    20261114
+  ],
+  "extension_rule": "Add only a complete four-cell seed block if projected 4 * largest completed run duration + 10-minute margin fits before training cutoff. Decision based on time, not metric outcomes.",
+  "training_cutoff_utc": "2026-11-11T21:09:15Z",
+  "data_cutoff_utc": "2026-11-11T20:06:15Z",
+  "source_url": "https://www.openslr.org/resources/12/dev-clean.tar.gz",
+  "compressed_stream_cap_bytes": 201326592,
+  "fresh_confirmation": "First three eligible new speakers with four complete 1-3.8s utterances each; exclude ALL G1/G2/G3 speakers and all previous source hashes. 12 sources, equal4 per speaker. No fallback to old discovery sources if retrieval fails.",
+  "validation": "Six existing G3 validation sources, three per speaker by sorted ID; target -30/20/60, relative noise azimuth -80/+25 or multi8, OOFFICE 0dB, time125-175s. Same 54 cases for every cell.",
+  "selection": "Same G3 validation SI-SDR with initial-STOI-minus0.005 gate, checkpoints every500; no WER selection",
+  "confirmation_conditions": "Target -40/20/70deg; OOFFICE/PCAFETER; 0dB; point relative angles -80/+25 and multi8; noise clips250-295s. 216 noisy cases +36 clean cases per system. Point source angles are relative to target, not confounded across target changes.",
+  "test_use": "Only after all training/checkpoint selection/report archives complete. All completed cells and seeds plus noisy/McNet; no best-seed selection; exact duplicate checkpoints may share inference but remain visible as systems.",
+  "no_ASR_backpropagation": true,
+  "report_before_next_stage": true,
+  "session_deadline_utc": "2026-11-11T21:54:15Z"
+}
