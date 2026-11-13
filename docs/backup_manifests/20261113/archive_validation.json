@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "files": 106409,
+  "parts": 29,
+  "all_CRC_and_SHA256_verified": true,
+  "seconds": 163.125,
+  "part_results": [
+    {
+      "part": "research-part-001-of-029.zip",
+      "files_verified": 1809,
+      "passed": true
+    },
+    {
+      "part": "research-part-002-of-029.zip",
+      "files_verified": 1057,
+      "passed": true
+    },
+    {
+      "part": "research-part-003-of-029.zip",
+      "files_verified": 232,
+      "passed": true
+    },
+    {
+      "part": "research-part-004-of-029.zip",
+      "files_verified": 1801,
+      "passed": true
+    },
+    {
+      "part": "research-part-005-of-029.zip",
+      "files_verified": 1378,
+      "passed": true
+    },
+    {
+      "part": "research-part-006-of-029.zip",
+      "files_verified": 1739,
+      "passed": true
+    },
+    {
+      "part": "research-part-007-of-029.zip",
+      "files_verified": 186,
+      "passed": true
+    },
+    {
+      "part": "research-part-008-of-029.zip",
+      "files_verified": 2348,
+      "passed": true
+    },
+    {
+      "part": "research-part-009-of-029.zip",
+      "files_verified": 5,
+      "passed": true
+    },
+    {
+      "part": "research-part-010-of-029.zip",
+      "files_verified": 223,
+      "passed": true
+    },
+    {
+      "part": "research-part-011-of-029.zip",
+      "files_verified": 1316,
+      "passed": true
+    },
+    {
+      "part": "research-part-012-of-029.zip",
+      "files_verified": 4989,
+      "passed": true
+    },
+    {
+      "part": "research-part-013-of-029.zip",
+      "files_verified": 5434,
+      "passed": true
+    },
+    {
+      "part": "research-part-014-of-029.zip",
+      "files_verified": 5711,
+      "passed": true
+    },
+    {
+      "part": "research-part-015-of-029.zip",
+      "files_verified": 4947,
+      "passed": true
+    },
+    {
+      "part": "research-part-016-of-029.zip",
+      "files_verified": 5058,
+      "passed": true
+    },
+    {
+      "part": "research-part-017-of-029.zip",
+      "files_verified": 4586,
+      "passed": true
+    },
+    {
+      "part": "research-part-018-of-029.zip",
+      "files_verified": 5073,
+      "passed": true
+    },
+    {
+      "part": "research-part-019-of-029.zip",
+      "files_verified": 4824,
+      "passed": true
+    },
+    {
+      "part": "research-part-020-of-029.zip",
+      "files_verified": 5557,
+      "passed": true
+    },
+    {
+      "part": "research-part-021-of-029.zip",
+      "files_verified": 5557,
+      "passed": true
+    },
+    {
+      "part": "research-part-022-of-029.zip",
+      "files_verified": 4302,
+      "passed": true
+    },
+    {
+      "part": "research-part-023-of-029.zip",
+      "files_verified": 5894,
+      "passed": true
+    },
+    {
+      "part": "research-part-024-of-029.zip",
+      "files_verified": 5961,
+      "passed": true
+    },
+    {
+      "part": "research-part-025-of-029.zip",
+      "files_verified": 5742,
+      "passed": true
+    },
+    {
+      "part": "research-part-026-of-029.zip",
+      "files_verified": 5895,
+      "passed": true
+    },
+    {
+      "part": "research-part-027-of-029.zip",
+      "files_verified": 5935,
+      "passed": true
+    },
+    {
+      "part": "research-part-028-of-029.zip",
+      "files_verified": 5943,
+      "passed": true
+    },
+    {
+      "part": "research-part-029-of-029.zip",
+      "files_verified": 2907,
+      "passed": true
+    }
+  ]
+}
