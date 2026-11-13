@@ -21,8 +21,9 @@ def atomic(p,v):
             if attempt==29:raise
             time.sleep(.1)
 
-def main(check_only=False,workers=3):
+def main(check_only=False,workers=3,direct=False):
     assert 1<=workers<=6
+    open_request=urllib.request.build_opener(urllib.request.ProxyHandler({})).open if direct else urllib.request.urlopen
     env=__import__('os').environ.copy();env.update(GIT_TERMINAL_PROMPT='0',GCM_INTERACTIVE='Never')
     raw=subprocess.check_output(['git','credential','fill'],input=b'protocol=https\nhost=github.com\n\n',env=env,cwd=ROOT)
     credential=dict(line.split('=',1) for line in raw.decode().splitlines() if '=' in line)
@@ -33,7 +34,7 @@ def main(check_only=False,workers=3):
         req=urllib.request.Request(url,data=payload,headers={**headers,'Content-Type':'application/json'},method=method)
         for attempt in range(3):
             try:
-                with urllib.request.urlopen(req,timeout=60) as response:
+                with open_request(req,timeout=60) as response:
                     data=response.read();return json.loads(data) if data else None
             except urllib.error.URLError as e:
                 if isinstance(e,urllib.error.HTTPError) and e.code<500 and e.code not in (408,429):raise
@@ -60,6 +61,7 @@ def main(check_only=False,workers=3):
     payload_hashes={p.name:h for p,h in payloads}
     state={'status':'uploading','repository':'chenciquan/multichannel-speech-enhancement','private':True,
            'release_id':release['id'],'tag':release['tag_name'],'workers':workers,'assets':[],
+           'network_mode':'direct_this_process_only' if direct else 'existing_proxy_settings',
            'resumed_completed_assets':len(verified),'removed_unfinished_draft_assets':removed,
            'transport_version':2,'source_zip_count':29,'transport_asset_count':len(payloads)}
     started=time.monotonic();completed={};inflight={};checksums={}
@@ -80,7 +82,7 @@ def main(check_only=False,workers=3):
             try:
                 req=urllib.request.Request(upload_base+'?name='+urllib.parse.quote(name),data=chunks(),method='POST',
                     headers={**headers,'Content-Type':'application/octet-stream','Content-Length':str(size)})
-                with urllib.request.urlopen(req,timeout=120) as response:a=json.loads(response.read())
+                with open_request(req,timeout=120) as response:a=json.loads(response.read())
                 break
             except (urllib.error.URLError,TimeoutError,ConnectionError,ssl.SSLError) as e:
                 if isinstance(e,urllib.error.HTTPError) and e.code<500 and e.code not in (408,422,429):raise
@@ -147,5 +149,7 @@ def main(check_only=False,workers=3):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--check-only',action='store_true')
-    parser.add_argument('--workers',type=int,choices=range(1,7),default=3);args=parser.parse_args()
-    main(args.check_only,args.workers)
+    parser.add_argument('--workers',type=int,choices=range(1,7),default=3)
+    parser.add_argument('--direct',action='store_true',help='Bypass proxy for this process only; retain TLS verification')
+    args=parser.parse_args()
+    main(args.check_only,args.workers,args.direct)
