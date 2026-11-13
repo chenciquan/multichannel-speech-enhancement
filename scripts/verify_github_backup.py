@@ -45,6 +45,13 @@ def main():
     assert remote_head == local_head, 'Local HEAD and remote main differ'
     release = get(API + '/releases/tags/research-snapshot-g35-20261113')
     assert release['draft'] is False and release['prerelease'] is False
+    tag = get(API + '/git/ref/tags/research-snapshot-g35-20261113')['object']
+    while tag['type'] == 'tag':
+        tag = get(API + '/git/tags/' + tag['sha'])['object']
+    assert tag['type'] == 'commit'
+    tag_commit = tag['sha']
+    subprocess.check_call(['git', 'merge-base', '--is-ancestor', tag_commit, local_head], cwd=ROOT)
+    subprocess.check_call(['git', 'cat-file', '-e', tag_commit + ':scripts/release_transport.py'], cwd=ROOT)
     transport = json.loads((CACHE / 'release-transport-manifest.json').read_text(encoding='utf-8'))
     expected = {asset['name']: (asset['bytes'], asset['sha256'])
                 for part in transport['parts'] for asset in part['assets']}
@@ -62,6 +69,7 @@ def main():
                          'provider_digest': asset['digest'], 'url': asset['browser_download_url']})
     result = {'status': 'passed', 'verified_at_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
               'repository': REPO, 'private': True, 'local_and_remote_commit': local_head,
+              'release_tag_commit': tag_commit, 'restoration_tool_exists_in_tag': True,
               'release_url': release['html_url'], 'draft': False, 'release_asset_count': len(assets),
               'research_payload_bytes': transport['archive_bytes'],
               'assets_bytes_with_manifests': sum(a['bytes'] for a in verified), 'assets': verified}
