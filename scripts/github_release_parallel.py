@@ -11,7 +11,15 @@ def sha(p):
         for b in iter(lambda:f.read(1024**2),b''):h.update(b)
     return h.hexdigest()
 def atomic(p,v):
-    tmp=p.with_suffix('.json.tmp');tmp.write_text(json.dumps(v,ensure_ascii=False,indent=2),encoding='utf-8');tmp.replace(p)
+    tmp=p.with_suffix('.json.tmp');tmp.write_text(json.dumps(v,ensure_ascii=False,indent=2),encoding='utf-8')
+    # Windows readers can briefly hold a file without FILE_SHARE_DELETE.
+    # Retry replacement only; never relax checks or rewrite research files.
+    for attempt in range(30):
+        try:
+            tmp.replace(p);return
+        except PermissionError:
+            if attempt==29:raise
+            time.sleep(.1)
 
 def main(check_only=False,workers=3):
     assert 1<=workers<=6
