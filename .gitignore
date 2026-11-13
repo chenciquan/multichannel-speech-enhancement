@@ -13,3 +13,10 @@ artifacts/
 *.pth
 *.pt
 
+# Credentials must never enter Git or research archives.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+

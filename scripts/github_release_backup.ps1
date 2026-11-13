@@ -16,8 +16,16 @@ $repo=Invoke-RestMethod $api -Headers $headers
 if(!$repo.private -or !$repo.permissions.push) { throw 'Requires intended private repository and push permission' }
 $targetCommit=(& git -C $taskRoot rev-parse HEAD).Trim()
 $release=$null
-try { $release=Invoke-RestMethod "$api/releases/tags/$Tag" -Headers $headers }
-catch { if([int]$_.Exception.Response.StatusCode -ne 404) {throw} }
+$priorStatePath=Join-Path $cacheRoot 'upload_state.json'
+if(Test-Path -LiteralPath $priorStatePath) {
+    $prior=Get-Content -LiteralPath $priorStatePath -Raw -Encoding UTF8|ConvertFrom-Json
+    if($prior.tag -ne $Tag) {throw 'Existing upload state uses another tag'}
+    $release=Invoke-RestMethod "$api/releases/$($prior.release_id)" -Headers $headers
+}
+if(!$release) {
+    try { $release=Invoke-RestMethod "$api/releases/tags/$Tag" -Headers $headers }
+    catch { if([int]$_.Exception.Response.StatusCode -ne 404) {throw} }
+}
 if(!$release) {
     $body=@{tag_name=$Tag;target_commitish=$targetCommit;name='Research snapshot through G35 (2026-11-13)';draft=$true;prerelease=$false;body='Lossless research archive. Code and readable evidence are in the repository. ZIP parts restore data/, artifacts/, third_party/. Environment and caches excluded. SHA256 manifest included. No experiments rerun.'}|ConvertTo-Json
     $release=Invoke-RestMethod "$api/releases" -Method Post -Headers $headers -ContentType application/json -Body $body
@@ -33,7 +41,9 @@ $client.DefaultRequestHeaders.UserAgent.ParseAdd('mcse-research-backup')
 $client.DefaultRequestHeaders.Accept.ParseAdd('application/vnd.github+json')
 $uploadBase=($release.upload_url -split '\{')[0]
 $uploaded=@{}
-foreach($a in @(Invoke-RestMethod "$api/releases/$($release.id)/assets?per_page=100" -Headers $headers)) { $uploaded[$a.name]=$a }
+foreach($a in (Invoke-RestMethod "$api/releases/$($release.id)/assets?per_page=100" -Headers $headers)) {
+    if($null -ne $a -and $a.name) {$uploaded[$a.name]=$a}
+}
 function Upload-File([string]$filePath,[string]$expectedHash) {
     $file=Get-Item -LiteralPath $filePath
     if($uploaded.ContainsKey($file.Name)) {
