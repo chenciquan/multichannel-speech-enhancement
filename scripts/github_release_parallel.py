@@ -1,9 +1,9 @@
 """Three streaming uploads; resumes verified assets, never stores credentials."""
-import argparse,concurrent.futures,hashlib,json,subprocess,threading,time,urllib.request,urllib.error
+import argparse,concurrent.futures,hashlib,json,subprocess,threading,time,urllib.request,urllib.error,ssl
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];CACHE=ROOT/'.cache/github_upload_20261113'
 API='https://api.github.com/repos/chenciquan/multichannel-speech-enhancement'
-LOCK=threading.Lock();TRANSFERS={}
+LOCK=threading.Lock();TRANSFERS={};RETRIES=[]
 
 def sha(p):
     h=hashlib.sha256()
@@ -22,8 +22,14 @@ def main(check_only=False):
     def api(url,method='GET',body=None):
         payload=json.dumps(body).encode() if body is not None else None
         req=urllib.request.Request(url,data=payload,headers={**headers,'Content-Type':'application/json'},method=method)
-        with urllib.request.urlopen(req,timeout=60) as response:
-            data=response.read();return json.loads(data) if data else None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req,timeout=60) as response:
+                    data=response.read();return json.loads(data) if data else None
+            except urllib.error.URLError as e:
+                if isinstance(e,urllib.error.HTTPError) and e.code<500 and e.code not in (408,429):raise
+                if attempt==2:raise
+                time.sleep(2**(attempt+1))
     assert api('https://api.github.com/user')['login']=='chenciquan'
     assert api(API)['private'] is True
     previous=json.loads((CACHE/'upload_state.json').read_text(encoding='utf-8-sig'))
@@ -51,21 +57,40 @@ def main(check_only=False):
             a=verified[name]
             assert a['size']==size and a['digest']=='sha256:'+expected
             return {'name':name,'bytes':size,'sha256':expected,'url':a['browser_download_url'],'id':a['id'],'provider_digest':a['digest']}
-        with LOCK:TRANSFERS[name]={'sent':0,'bytes':size}
         def chunks():
             with p.open('rb') as f:
                 for block in iter(lambda:f.read(1024**2),b''):
                     yield block
                     with LOCK:TRANSFERS[name]['sent']+=len(block)
-        req=urllib.request.Request(upload_base+'?name='+urllib.parse.quote(name),data=chunks(),method='POST',
-            headers={**headers,'Content-Type':'application/octet-stream','Content-Length':str(size)})
-        with urllib.request.urlopen(req,timeout=5400) as response:a=json.loads(response.read())
+        for attempt in range(3):
+            with LOCK:TRANSFERS[name]={'sent':0,'bytes':size,'attempt':attempt+1}
+            try:
+                req=urllib.request.Request(upload_base+'?name='+urllib.parse.quote(name),data=chunks(),method='POST',
+                    headers={**headers,'Content-Type':'application/octet-stream','Content-Length':str(size)})
+                with urllib.request.urlopen(req,timeout=120) as response:a=json.loads(response.read())
+                break
+            except (urllib.error.URLError,TimeoutError,ConnectionError,ssl.SSLError) as e:
+                if isinstance(e,urllib.error.HTTPError) and e.code<500 and e.code not in (408,422,429):raise
+                with LOCK:RETRIES.append({'file':name,'attempt':attempt+1,'error':str(e)})
+                # A lost response may already have produced a complete asset.
+                time.sleep(2**(attempt+1))
+                matches=[x for x in api(API+'/releases/'+str(release['id'])+'/assets?per_page=100') if x['name']==name]
+                if matches:
+                    existing=matches[0]
+                    if existing['state']=='uploaded':
+                        assert existing['size']==size and existing.get('digest')=='sha256:'+expected
+                        a=existing;break
+                    if not release['draft']:raise RuntimeError('Refuse replacing a published asset')
+                    api(API+'/releases/assets/'+str(existing['id']),method='DELETE')
+                if attempt==2:raise
         assert a['state']=='uploaded' and a['size']==size and a.get('digest')=='sha256:'+expected
         with LOCK:TRANSFERS.pop(name,None)
         return {'name':name,'bytes':size,'sha256':expected,'url':a['browser_download_url'],'id':a['id'],'provider_digest':a['digest']}
     def status():
         state['assets']=list(completed.values());state['elapsed_seconds']=time.monotonic()-started
-        with LOCK:state['transfers']={k:dict(v) for k,v in TRANSFERS.items()}
+        with LOCK:
+            state['transfers']={k:dict(v) for k,v in TRANSFERS.items()}
+            state['network_retries']=list(RETRIES)
         atomic(CACHE/'upload_state.json',state)
     status()
     try:

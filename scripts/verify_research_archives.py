@@ -3,7 +3,7 @@ import hashlib,json,time,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];CACHE=ROOT/'.cache/github_upload_20261113'
 def main():
-    start=time.monotonic();manifest=json.loads((CACHE/'research-file-manifest.json').read_text())
+    start=time.monotonic();manifest=json.loads((CACHE/'research-file-manifest.json').read_text(encoding='utf-8'))
     expected={r['path']:r for r in manifest['files']};seen=set();results=[]
     assert len(expected)==len(manifest['files'])
     for part in manifest['parts']:
