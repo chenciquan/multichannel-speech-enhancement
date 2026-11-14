@@ -1,0 +1,1595 @@
+{
+  "index_sha256_i64le": "37649e65e2de339b2add3987dad9f306c4932eaf57ce62e2b526fb6bea0bd7ff",
+  "description": {
+    "rows": 3000,
+    "unique_indices": 1395,
+    "max_repetition": 11,
+    "target_group_counts": {
+      "focus_-40": 300,
+      "focus_+0": 300,
+      "focus_+10": 300,
+      "focus_+30": 300,
+      "focus_+70": 300,
+      "background": 1500
+    },
+    "field_counts": {
+      "multi8": 1482,
+      "point": 1518
+    },
+    "noise_counts": {
+      "DWASHING": 1000,
+      "OOFFICE": 990,
+      "DKITCHEN": 1010
+    },
+    "SNR_counts": {
+      "-5": 912,
+      "5": 1048,
+      "0": 1040
+    },
+    "speaker_counts": {
+      "7976": 881,
+      "2035": 723,
+      "2086": 456,
+      "2277": 940
+    },
+    "source_counts": {
+      "7976-105575-0000": 33,
+      "7976-105575-0016": 20,
+      "7976-105575-0020": 18,
+      "2035-152373-0009": 15,
+      "2086-149220-0013": 12,
+      "7976-105575-0011": 15,
+      "2035-147960-0002": 18,
+      "2277-149897-0030": 7,
+      "7976-105575-0027": 17,
+      "2086-149214-0003": 21,
+      "2035-147961-0008": 18,
+      "7976-105575-0003": 16,
+      "2277-149897-0036": 6,
+      "2035-147960-0008": 19,
+      "7976-105575-0021": 18,
+      "2086-149220-0027": 16,
+      "2277-149897-0026": 16,
+      "2086-149220-0035": 16,
+      "2086-149220-0000": 19,
+      "2277-149896-0017": 22,
+      "2277-149896-0008": 12,
+      "2277-149896-0031": 21,
+      "2035-152373-0011": 29,
+      "2035-152373-0012": 16,
+      "7976-105575-0008": 12,
+      "7976-105575-0028": 22,
+      "2086-149220-0004": 16,
+      "2035-152373-0016": 23,
+      "7976-110124-0014": 12,
+      "2277-149897-0024": 10,
+      "2035-152373-0000": 13,
+      "2277-149897-0000": 13,
+      "2035-152373-0004": 11,
+      "2035-147961-0035": 15,
+      "7976-110523-0009": 10,
+      "2277-149897-0021": 29,
+      "2035-147961-0040": 16,
+      "2035-147961-0022": 17,
+      "2086-149220-0002": 19,
+      "2035-152373-0015": 15,
+      "2035-147961-0032": 12,
+      "2035-147961-0010": 23,
+      "2277-149897-0007": 15,
+      "7976-110523-0000": 17,
+      "2277-149896-0001": 19,
+      "2035-147960-0014": 15,
+      "7976-110124-0009": 21,
+      "2277-149897-0023": 23,
+      "7976-105575-0012": 5,
+      "7976-110124-0022": 16,
+      "2035-147961-0034": 10,
+      "2035-147960-0011": 19,
+      "2277-149896-0032": 17,
+      "2277-149896-0022": 23,
+      "2086-149220-0033": 4,
+      "2277-149896-0006": 10,
+      "2086-149220-0030": 15,
+      "7976-110124-0015": 18,
+      "2277-149897-0011": 11,
+      "2035-147960-0010": 15,
+      "2277-149896-0026": 11,
+      "2086-149214-0004": 25,
+      "7976-110124-0012": 41,
+      "2277-149897-0016": 17,
+      "2277-149897-0004": 14,
+      "7976-105575-0005": 24,
+      "2035-147960-0001": 15,
+      "2086-149214-0001": 13,
+      "2277-149897-0012": 7,
+      "2086-149220-0049": 13,
+      "2035-147961-0015": 6,
+      "7976-110124-0010": 21,
+      "2277-149897-0022": 12,
+      "2277-149896-0004": 9,
+      "2086-149220-0041": 7,
+      "2035-147961-0005": 11,
+      "2277-149896-0005": 19,
+      "2035-147961-0026": 10,
+      "2035-147960-0016": 27,
+      "2277-149896-0014": 17,
+      "2277-149897-0033": 8,
+      "2277-149897-0017": 8,
+      "2277-149896-0034": 13,
+      "7976-110124-0001": 23,
+      "2277-149897-0009": 9,
+      "7976-105575-0006": 18,
+      "7976-110124-0013": 12,
+      "7976-105575-0002": 23,
+      "2277-149897-0028": 18,
+      "7976-105575-0029": 10,
+      "7976-110523-0002": 22,
+      "2035-147961-0006": 15,
+      "2277-149896-0020": 7,
+      "2277-149897-0006": 10,
+      "2035-152373-0014": 14,
+      "2277-149896-0000": 25,
+      "2035-147960-0007": 17,
+      "7976-110124-0006": 17,
+      "7976-110124-0008": 10,
+      "2277-149896-0030": 15,
+      "2277-149896-0002": 33,
+      "7976-105575-0018": 10,
+      "2035-152373-0003": 20,
+      "2035-147961-0039": 12,
+      "2086-149214-0002": 32,
+      "2277-149896-0018": 27,
+      "7976-110124-0003": 21,
+      "2277-149897-0025": 17,
+      "2035-152373-0018": 14,
+      "7976-105575-0024": 19,
+      "7976-110523-0007": 13,
+      "2035-147961-0031": 15,
+      "7976-110124-0025": 19,
+      "7976-105575-0014": 13,
+      "7976-110124-0011": 10,
+      "2277-149896-0007": 18,
+      "2277-149897-0019": 13,
+      "2035-147960-0000": 21,
+      "7976-110523-0011": 12,
+      "2086-149220-0011": 13,
+      "2277-149897-0018": 13,
+      "7976-110523-0019": 13,
+      "2277-149896-0029": 12,
+      "2277-149874-0008": 15,
+      "2086-149220-0001": 16,
+      "2277-149897-0031": 23,
+      "2277-149897-0002": 13,
+      "2035-147961-0013": 18,
+      "2035-152373-0005": 11,
+      "2277-149896-0009": 15,
+      "7976-105575-0025": 24,
+      "7976-110124-0004": 8,
+      "2086-149220-0010": 4,
+      "7976-110124-0024": 13,
+      "2035-152373-0017": 28,
+      "2086-149214-0000": 9,
+      "2035-147961-0027": 10,
+      "7976-110124-0023": 19,
+      "2035-152373-0010": 11,
+      "2086-149220-0008": 21,
+      "2086-149220-0037": 23,
+      "7976-105575-0001": 9,
+      "2277-149897-0032": 8,
+      "7976-105575-0009": 11,
+      "2035-152373-0002": 14,
+      "2035-147960-0003": 15,
+      "2035-147960-0012": 6,
+      "2086-149220-0038": 16,
+      "7976-110523-0012": 10,
+      "7976-105575-0013": 13,
+      "7976-105575-0004": 15,
+      "2035-147961-0024": 17,
+      "7976-110124-0016": 13,
+      "2277-149897-0013": 22,
+      "2086-149220-0022": 22,
+      "2086-149220-0048": 5,
+      "2086-149220-0012": 15,
+      "2035-152373-0001": 10,
+      "7976-110124-0018": 10,
+      "7976-110124-0005": 9,
+      "2086-149220-0005": 4,
+      "2035-152373-0013": 5,
+      "2277-149896-0028": 7,
+      "2277-149896-0019": 15,
+      "2086-149220-0007": 13,
+      "2277-149896-0003": 17,
+      "7976-110124-0002": 3,
+      "2277-149897-0001": 12,
+      "2277-149897-0034": 13,
+      "2035-152373-0006": 12,
+      "2277-149897-0037": 7,
+      "2277-149897-0020": 18,
+      "2086-149220-0019": 9,
+      "2086-149220-0024": 16,
+      "2086-149220-0040": 9,
+      "2035-152373-0007": 9,
+      "2277-149897-0003": 11,
+      "2086-149220-0014": 11,
+      "2277-149897-0005": 13,
+      "7976-105575-0010": 7,
+      "2035-147960-0005": 6,
+      "7976-105575-0023": 12,
+      "2277-149897-0035": 7,
+      "2277-149897-0015": 7,
+      "2277-149897-0010": 16,
+      "2277-149897-0008": 7,
+      "7976-105575-0017": 9,
+      "2277-149897-0014": 9,
+      "2277-149896-0013": 21,
+      "7976-105575-0015": 18,
+      "7976-105575-0019": 24,
+      "2086-149220-0044": 6,
+      "2035-147961-0007": 9,
+      "2277-149897-0027": 12,
+      "7976-110124-0020": 7,
+      "7976-105575-0022": 4,
+      "7976-105575-0007": 11,
+      "2277-149896-0016": 4,
+      "2277-149896-0023": 9,
+      "2277-149896-0010": 11,
+      "2277-149897-0029": 9,
+      "2277-149896-0024": 2,
+      "2035-152373-0008": 11,
+      "2035-147961-0029": 5,
+      "2035-147960-0004": 10,
+      "2277-149874-0000": 1,
+      "2277-149896-0011": 6,
+      "2086-149220-0047": 7,
+      "2086-149220-0003": 4,
+      "7976-105575-0026": 11,
+      "2086-149220-0025": 5,
+      "2277-149896-0025": 4
+    },
+    "stratum_counts": {
+      "[\"multi8\", null, \"DWASHING\", -5]": 152,
+      "[\"point\", -60, \"OOFFICE\", 5]": 33,
+      "[\"multi8\", null, \"OOFFICE\", -5]": 172,
+      "[\"point\", 90, \"DWASHING\", -5]": 25,
+      "[\"point\", 90, \"DWASHING\", 5]": 28,
+      "[\"multi8\", null, \"DWASHING\", 0]": 184,
+      "[\"point\", 0, \"DWASHING\", 5]": 21,
+      "[\"point\", -30, \"DKITCHEN\", 0]": 27,
+      "[\"point\", 0, \"OOFFICE\", 0]": 34,
+      "[\"point\", 60, \"DKITCHEN\", -5]": 29,
+      "[\"point\", 30, \"DWASHING\", -5]": 25,
+      "[\"multi8\", null, \"OOFFICE\", 0]": 163,
+      "[\"point\", 60, \"DWASHING\", 5]": 25,
+      "[\"point\", 90, \"DKITCHEN\", 0]": 26,
+      "[\"multi8\", null, \"DKITCHEN\", 0]": 139,
+      "[\"point\", 0, \"DKITCHEN\", 5]": 25,
+      "[\"point\", -60, \"DKITCHEN\", -5]": 20,
+      "[\"point\", -60, \"OOFFICE\", 0]": 39,
+      "[\"multi8\", null, \"DKITCHEN\", -5]": 181,
+      "[\"point\", 30, \"DKITCHEN\", 0]": 37,
+      "[\"point\", -90, \"OOFFICE\", -5]": 19,
+      "[\"point\", 90, \"DKITCHEN\", 5]": 49,
+      "[\"multi8\", null, \"DKITCHEN\", 5]": 165,
+      "[\"point\", -90, \"DWASHING\", 0]": 26,
+      "[\"multi8\", null, \"OOFFICE\", 5]": 171,
+      "[\"point\", 30, \"OOFFICE\", -5]": 30,
+      "[\"point\", 30, \"DKITCHEN\", 5]": 39,
+      "[\"point\", -60, \"DKITCHEN\", 5]": 21,
+      "[\"point\", -90, \"OOFFICE\", 5]": 30,
+      "[\"point\", 30, \"OOFFICE\", 5]": 24,
+      "[\"point\", 30, \"DKITCHEN\", -5]": 7,
+      "[\"point\", -90, \"DKITCHEN\", 5]": 30,
+      "[\"point\", -30, \"DKITCHEN\", 5]": 32,
+      "[\"multi8\", null, \"DWASHING\", 5]": 155,
+      "[\"point\", 30, \"OOFFICE\", 0]": 12,
+      "[\"point\", -90, \"DKITCHEN\", 0]": 23,
+      "[\"point\", 30, \"DWASHING\", 0]": 15,
+      "[\"point\", -60, \"DWASHING\", 0]": 30,
+      "[\"point\", 60, \"DKITCHEN\", 5]": 18,
+      "[\"point\", -60, \"DWASHING\", 5]": 37,
+      "[\"point\", 30, \"DWASHING\", 5]": 31,
+      "[\"point\", 0, \"OOFFICE\", 5]": 28,
+      "[\"point\", 60, \"OOFFICE\", -5]": 23,
+      "[\"point\", -30, \"DWASHING\", 5]": 20,
+      "[\"point\", 60, \"DKITCHEN\", 0]": 33,
+      "[\"point\", -60, \"DKITCHEN\", 0]": 15,
+      "[\"point\", 60, \"OOFFICE\", 0]": 40,
+      "[\"point\", -30, \"DWASHING\", -5]": 23,
+      "[\"point\", 90, \"DKITCHEN\", -5]": 27,
+      "[\"point\", 60, \"DWASHING\", 0]": 6,
+      "[\"point\", -30, \"OOFFICE\", 0]": 34,
+      "[\"point\", -30, \"OOFFICE\", 5]": 22,
+      "[\"point\", -90, \"DWASHING\", 5]": 27,
+      "[\"point\", 90, \"DWASHING\", 0]": 28,
+      "[\"point\", -90, \"DWASHING\", -5]": 12,
+      "[\"point\", 0, \"DKITCHEN\", -5]": 18,
+      "[\"point\", -90, \"DKITCHEN\", -5]": 15,
+      "[\"point\", 60, \"DWASHING\", -5]": 23,
+      "[\"point\", 0, \"DWASHING\", 0]": 44,
+      "[\"point\", -90, \"OOFFICE\", 0]": 18,
+      "[\"point\", 90, \"OOFFICE\", 0]": 20,
+      "[\"point\", -30, \"OOFFICE\", -5]": 21,
+      "[\"point\", -30, \"DWASHING\", 0]": 33,
+      "[\"point\", 0, \"OOFFICE\", -5]": 24,
+      "[\"point\", -60, \"DWASHING\", -5]": 18,
+      "[\"point\", 0, \"DWASHING\", -5]": 12,
+      "[\"point\", -30, \"DKITCHEN\", -5]": 20,
+      "[\"point\", -60, \"OOFFICE\", -5]": 11,
+      "[\"point\", 60, \"OOFFICE\", 5]": 11,
+      "[\"point\", 90, \"OOFFICE\", -5]": 5,
+      "[\"point\", 0, \"DKITCHEN\", 0]": 14,
+      "[\"point\", 90, \"OOFFICE\", 5]": 6
+    },
+    "target_histogram_10deg": {
+      "-45": 300,
+      "-35": 248,
+      "-25": 230,
+      "-15": 187,
+      "-5": 300,
+      "5": 300,
+      "15": 193,
+      "25": 300,
+      "35": 215,
+      "45": 202,
+      "55": 225,
+      "65": 300
+    }
+  },
+  "original_rng_final": null,
+  "allocation": {
+    "rng_final_state": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 180975578293888069140162153324237915,
+        "inc": 274483652850218095570889617165157216799
+      },
+      "has_uint32": 1,
+      "uinteger": 988867579
+    },
+    "field_quotas": {
+      "point": [
+        152,
+        152,
+        152,
+        152,
+        151,
+        759
+      ],
+      "multi8": [
+        148,
+        148,
+        148,
+        148,
+        149,
+        741
+      ]
+    },
+    "categorical_allocation": [
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 15,
+        "counts_by_target_group": [
+          4,
+          0,
+          0,
+          3,
+          2,
+          6
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 23,
+        "counts_by_target_group": [
+          0,
+          5,
+          0,
+          0,
+          5,
+          13
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 30,
+        "counts_by_target_group": [
+          0,
+          6,
+          0,
+          0,
+          7,
+          17
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 12,
+        "counts_by_target_group": [
+          0,
+          2,
+          0,
+          4,
+          0,
+          6
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 26,
+        "counts_by_target_group": [
+          0,
+          4,
+          0,
+          6,
+          4,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 27,
+        "counts_by_target_group": [
+          0,
+          0,
+          5,
+          5,
+          4,
+          13
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 19,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          5,
+          4,
+          10
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 18,
+        "counts_by_target_group": [
+          5,
+          2,
+          3,
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -90,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 30,
+        "counts_by_target_group": [
+          0,
+          3,
+          5,
+          5,
+          3,
+          14
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 20,
+        "counts_by_target_group": [
+          0,
+          0,
+          8,
+          0,
+          0,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 15,
+        "counts_by_target_group": [
+          0,
+          3,
+          5,
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 21,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          14
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 18,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          7,
+          0,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 30,
+        "counts_by_target_group": [
+          0,
+          5,
+          6,
+          0,
+          4,
+          15
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 37,
+        "counts_by_target_group": [
+          7,
+          5,
+          0,
+          7,
+          0,
+          18
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 11,
+        "counts_by_target_group": [
+          4,
+          0,
+          0,
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 39,
+        "counts_by_target_group": [
+          0,
+          5,
+          6,
+          6,
+          4,
+          18
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -60,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 33,
+        "counts_by_target_group": [
+          6,
+          4,
+          5,
+          0,
+          3,
+          15
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 20,
+        "counts_by_target_group": [
+          0,
+          7,
+          0,
+          0,
+          0,
+          13
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 27,
+        "counts_by_target_group": [
+          5,
+          0,
+          4,
+          4,
+          2,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 32,
+        "counts_by_target_group": [
+          5,
+          3,
+          4,
+          4,
+          2,
+          14
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 23,
+        "counts_by_target_group": [
+          6,
+          0,
+          5,
+          0,
+          0,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 33,
+        "counts_by_target_group": [
+          0,
+          5,
+          7,
+          0,
+          5,
+          16
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 20,
+        "counts_by_target_group": [
+          0,
+          0,
+          4,
+          4,
+          3,
+          9
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 21,
+        "counts_by_target_group": [
+          0,
+          5,
+          0,
+          0,
+          5,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 34,
+        "counts_by_target_group": [
+          7,
+          0,
+          5,
+          6,
+          0,
+          16
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          -30,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 22,
+        "counts_by_target_group": [
+          6,
+          3,
+          0,
+          0,
+          3,
+          10
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 18,
+        "counts_by_target_group": [
+          0,
+          6,
+          0,
+          0,
+          0,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 14,
+        "counts_by_target_group": [
+          0,
+          5,
+          0,
+          0,
+          0,
+          9
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 25,
+        "counts_by_target_group": [
+          0,
+          4,
+          5,
+          0,
+          4,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 12,
+        "counts_by_target_group": [
+          5,
+          2,
+          0,
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 44,
+        "counts_by_target_group": [
+          7,
+          5,
+          0,
+          7,
+          5,
+          20
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 21,
+        "counts_by_target_group": [
+          0,
+          2,
+          4,
+          4,
+          2,
+          9
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 24,
+        "counts_by_target_group": [
+          7,
+          0,
+          0,
+          0,
+          5,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 34,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          0,
+          11,
+          23
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          0,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 28,
+        "counts_by_target_group": [
+          0,
+          9,
+          0,
+          0,
+          0,
+          19
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 7,
+        "counts_by_target_group": [
+          3,
+          0,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 37,
+        "counts_by_target_group": [
+          5,
+          3,
+          5,
+          5,
+          3,
+          16
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 39,
+        "counts_by_target_group": [
+          6,
+          0,
+          5,
+          6,
+          4,
+          18
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 25,
+        "counts_by_target_group": [
+          6,
+          3,
+          5,
+          0,
+          0,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 15,
+        "counts_by_target_group": [
+          0,
+          2,
+          0,
+          4,
+          2,
+          7
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 31,
+        "counts_by_target_group": [
+          0,
+          6,
+          8,
+          0,
+          0,
+          17
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 30,
+        "counts_by_target_group": [
+          6,
+          3,
+          0,
+          5,
+          3,
+          13
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 12,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          5,
+          0,
+          7
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          30,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 24,
+        "counts_by_target_group": [
+          5,
+          0,
+          4,
+          4,
+          0,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 29,
+        "counts_by_target_group": [
+          0,
+          0,
+          7,
+          0,
+          6,
+          16
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 33,
+        "counts_by_target_group": [
+          0,
+          7,
+          0,
+          0,
+          7,
+          19
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 18,
+        "counts_by_target_group": [
+          5,
+          2,
+          3,
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 23,
+        "counts_by_target_group": [
+          5,
+          2,
+          0,
+          4,
+          2,
+          10
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 6,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 25,
+        "counts_by_target_group": [
+          5,
+          2,
+          0,
+          4,
+          3,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 23,
+        "counts_by_target_group": [
+          0,
+          0,
+          4,
+          5,
+          3,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 40,
+        "counts_by_target_group": [
+          7,
+          4,
+          6,
+          0,
+          4,
+          19
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          60,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 11,
+        "counts_by_target_group": [
+          0,
+          4,
+          0,
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 27,
+        "counts_by_target_group": [
+          7,
+          0,
+          6,
+          0,
+          0,
+          14
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 26,
+        "counts_by_target_group": [
+          5,
+          0,
+          4,
+          5,
+          0,
+          12
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 49,
+        "counts_by_target_group": [
+          8,
+          6,
+          0,
+          7,
+          5,
+          23
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 25,
+        "counts_by_target_group": [
+          5,
+          2,
+          0,
+          4,
+          3,
+          11
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 28,
+        "counts_by_target_group": [
+          0,
+          0,
+          5,
+          6,
+          4,
+          13
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 28,
+        "counts_by_target_group": [
+          0,
+          6,
+          0,
+          0,
+          6,
+          16
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 5,
+        "counts_by_target_group": [
+          0,
+          0,
+          2,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 20,
+        "counts_by_target_group": [
+          0,
+          0,
+          5,
+          5,
+          0,
+          10
+        ]
+      },
+      {
+        "stratum": [
+          "point",
+          90,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 6,
+        "counts_by_target_group": [
+          0,
+          0,
+          0,
+          4,
+          0,
+          2
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DKITCHEN",
+          -5
+        ],
+        "baseline_count": 181,
+        "counts_by_target_group": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          91
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DKITCHEN",
+          0
+        ],
+        "baseline_count": 139,
+        "counts_by_target_group": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          69
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DKITCHEN",
+          5
+        ],
+        "baseline_count": 165,
+        "counts_by_target_group": [
+          16,
+          17,
+          17,
+          16,
+          17,
+          82
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DWASHING",
+          -5
+        ],
+        "baseline_count": 152,
+        "counts_by_target_group": [
+          15,
+          15,
+          15,
+          16,
+          15,
+          76
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DWASHING",
+          0
+        ],
+        "baseline_count": 184,
+        "counts_by_target_group": [
+          18,
+          19,
+          18,
+          18,
+          19,
+          92
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "DWASHING",
+          5
+        ],
+        "baseline_count": 155,
+        "counts_by_target_group": [
+          16,
+          15,
+          16,
+          16,
+          15,
+          77
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "OOFFICE",
+          -5
+        ],
+        "baseline_count": 172,
+        "counts_by_target_group": [
+          17,
+          17,
+          17,
+          17,
+          18,
+          86
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "OOFFICE",
+          0
+        ],
+        "baseline_count": 163,
+        "counts_by_target_group": [
+          17,
+          16,
+          16,
+          16,
+          16,
+          82
+        ]
+      },
+      {
+        "stratum": [
+          "multi8",
+          null,
+          "OOFFICE",
+          5
+        ],
+        "baseline_count": 171,
+        "counts_by_target_group": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          86
+        ]
+      }
+    ],
+    "global_and_per_step_strata_exact": true
+  }
+}

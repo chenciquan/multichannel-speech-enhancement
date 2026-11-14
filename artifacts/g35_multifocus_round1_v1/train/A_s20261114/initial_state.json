@@ -1,0 +1,6 @@
+{
+  "base_digest": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+  "adapter_digest": "1c7701e421ec3e6ea83dd4f67cc35eb310d258bb959072ae113346af3b512a8f",
+  "CPU_rng_sha256": "a2f39d6631b53524791cf32d6a5dc971cf98a5d77d01a0fd48d1070e129dc719",
+  "CUDA_rng_sha256": "13876ff1eba78e26f657e00757dbdb3be07aca33efd9d37815c8d3da0705536b"
+}

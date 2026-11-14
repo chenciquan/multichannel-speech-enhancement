@@ -1,0 +1,18 @@
+{
+  "focus_center_differences": {
+    "si_sdr_db": 0.13199852866756706,
+    "pesq_wb": 0.0005365323689248136,
+    "stoi": 0.0008857650401576267
+  },
+  "positive_angle_counts": {
+    "si_sdr_db": 13,
+    "pesq_wb": 9,
+    "stoi": 10
+  },
+  "clean_B_minus_A": {
+    "NMSE": 0.0008784787655294682,
+    "RMS_gain": -0.0031573468842646113
+  },
+  "no_preregistered_performance_success_threshold": true,
+  "report_sha256_at_generation": "742a1b718a7c2d00afd02188e31ec5171df45675d579475397a4f3f7e2ab1909"
+}

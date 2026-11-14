@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "seconds": 162.74742539700037,
+  "runs": 6,
+  "optimizer_updates": 18000,
+  "evaluation_outputs": 6384,
+  "signals_rows": 6384,
+  "all_19_angles_all_6_models": true,
+  "all_input_reference_output_hashes_verified": true,
+  "protected_files": 287,
+  "protected_files_unchanged": true,
+  "output_bytes_before_summary": 1196439227,
+  "ASR_executed": false,
+  "parameter_search": false,
+  "G34_resumed": false
+}

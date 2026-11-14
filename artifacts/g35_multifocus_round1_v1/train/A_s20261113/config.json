@@ -1,0 +1,44 @@
+{
+  "arm": "A",
+  "seed": 20261113,
+  "steps": 3000,
+  "schedule_sha256": "cef9e6ea332e0e3efe0bef5a3bd1f6014d9153ae020f4871259c78b79a4b1dbf",
+  "initial": {
+    "base_digest": "ac8e5ec85f4dc02e545a817b8f636627918efc2c4288da48af7f2f8b71d6a6d8",
+    "adapter_digest": "958f11af331c1664cf7acbe4f7c650b89553beb4642bb2df8f8b9fcf3b2e86ef",
+    "CPU_rng_sha256": "f358344c9902a52299e15c47c3335610715a34c0490ed173187e4c84cece081e",
+    "CUDA_rng_sha256": "7cf63d0160c954ca0b002e14f5c4056bc8d95cf9debca36b2ec5983a41045560"
+  },
+  "backend": {
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "cudnn_enabled": true,
+    "benchmark": false,
+    "cudnn_deterministic": false,
+    "global_deterministic": false,
+    "AMP": false,
+    "dtype": "float32",
+    "CPU_threads": 2
+  },
+  "optimizer_defaults": {
+    "lr": 0.0003,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "amsgrad": false,
+    "maximize": false,
+    "foreach": null,
+    "capturable": false,
+    "differentiable": false,
+    "fused": null
+  },
+  "loss_source_sha256": "5213804063db3a4c4bd31f2c1c1a1d16ccf2092e644f41078ac39826ff787fa9",
+  "execution_manifest_sha256": "75dfa419ee7a708762ecc5592da7d0490f3735109551dc41fc5391e362f11562"
+}

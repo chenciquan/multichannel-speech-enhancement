@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "backend": {
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "cudnn_enabled": true,
+    "benchmark": false,
+    "cudnn_deterministic": false,
+    "global_deterministic": false,
+    "AMP": false,
+    "dtype": "float32",
+    "CPU_threads": 2
+  },
+  "cirm_loss": 0.1438615620136261,
+  "training_forward_calls": 1,
+  "backward_calls": 1,
+  "optimizer_updates": 0,
+  "enhancement_calls": 1,
+  "seconds": 65.603106931,
+  "peak_allocated_bytes": 1723640320,
+  "peak_reserved_bytes": 3875536896,
+  "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 4663 MiB, 69 %, 47",
+  "base_unchanged": true,
+  "input_channels": 6,
+  "output_channels": 1
+}

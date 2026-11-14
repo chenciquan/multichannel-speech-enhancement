@@ -1,0 +1,44 @@
+[
+  {
+    "step": 500,
+    "elapsed_seconds": 37.97909578300005,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2251 MiB, 81 %, 65",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  },
+  {
+    "step": 1000,
+    "elapsed_seconds": 77.31656277300004,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2251 MiB, 87 %, 65",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  },
+  {
+    "step": 1500,
+    "elapsed_seconds": 116.23143319600001,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2251 MiB, 87 %, 67",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  },
+  {
+    "step": 2000,
+    "elapsed_seconds": 153.386207399,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2252 MiB, 92 %, 66",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  },
+  {
+    "step": 2500,
+    "elapsed_seconds": 189.70080391700003,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2251 MiB, 88 %, 67",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  },
+  {
+    "step": 3000,
+    "elapsed_seconds": 227.92887804600002,
+    "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 2251 MiB, 89 %, 66",
+    "peak_allocated_bytes": 1185671168,
+    "peak_reserved_bytes": 1346371584
+  }
+]

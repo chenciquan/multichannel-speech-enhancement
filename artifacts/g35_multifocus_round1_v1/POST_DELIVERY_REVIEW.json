@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "all_6_runs_completed": true,
+  "evaluation_rows": 6384,
+  "no_model_or_metric_rerun": true,
+  "summary_B_minus_A": {
+    "si_sdr_db": 0.07671099630932919,
+    "pesq_wb": -0.0005790210868182701,
+    "stoi": -2.521568707571452e-05
+  },
+  "per_seed_mean_B_minus_A": {
+    "20261112": {
+      "si_sdr_db": 0.636307780071284,
+      "pesq_wb": 0.011815609116303305,
+      "stoi": 0.002451728833303579
+    },
+    "20261113": {
+      "si_sdr_db": 0.1138355499024768,
+      "pesq_wb": -0.00044954006086306286,
+      "stoi": 0.001597026391564671
+    },
+    "20261114": {
+      "si_sdr_db": -0.520010341045773,
+      "pesq_wb": -0.013103132315894994,
+      "stoi": -0.004124402286095341
+    }
+  },
+  "clean_A": {
+    "si_sdr_db": 21.404127643136302,
+    "pesq_wb": 3.799874238800584,
+    "stoi": 0.9912224929698153,
+    "NMSE": 0.012262797933505999,
+    "RMS_gain": 0.94992717449614
+  },
+  "clean_B": {
+    "si_sdr_db": 21.10670467544719,
+    "pesq_wb": 3.7575080572513113,
+    "stoi": 0.9912384585892612,
+    "NMSE": 0.013141276699035467,
+    "RMS_gain": 0.9467698276118753
+  },
+  "recommendation": "Do not promote this fixed 50% scheme or expand training; retain mixed/negative development evidence and wait for user review.",
+  "initial_report_sha256": "742a1b718a7c2d00afd02188e31ec5171df45675d579475397a4f3f7e2ab1909",
+  "final_report_sha256": "47b1721c941ee1ba4b77956e23988c451f0a9fe05b17b7e0229159cae71d95f5",
+  "plot_revision": "CSV-only layout revision; original figures retained",
+  "launcher_error_before_python": true,
+  "new_ASR": false,
+  "registered_final_weights": [
+    {
+      "system": "A_s20261112",
+      "path": "artifacts/g35_multifocus_round1_v1/train/A_s20261112/adapter_03000.pt",
+      "sha256": "8422e8c16171516c9b29a61deebdf625329f96c6d3a337e6ab5cfb7ce27c7792"
+    },
+    {
+      "system": "B_s20261112",
+      "path": "artifacts/g35_multifocus_round1_v1/train/B_s20261112/adapter_03000.pt",
+      "sha256": "b14c34ef01e043a7655d7a140eb7728197ac9e256d3f50fea9545e9f0daa30a6"
+    },
+    {
+      "system": "A_s20261113",
+      "path": "artifacts/g35_multifocus_round1_v1/train/A_s20261113/adapter_03000.pt",
+      "sha256": "586c696f668743722025f29f5fdf02018e0b850c1bb8f0bd45f3e7ab08c019f0"
+    },
+    {
+      "system": "B_s20261113",
+      "path": "artifacts/g35_multifocus_round1_v1/train/B_s20261113/adapter_03000.pt",
+      "sha256": "c6aa1a6ad1b3ac33fd62a5b7955b35d44f8de415ecbbf9223eed942d8cd6b54a"
+    },
+    {
+      "system": "A_s20261114",
+      "path": "artifacts/g35_multifocus_round1_v1/train/A_s20261114/adapter_03000.pt",
+      "sha256": "b25fa4238dbd880b97c0d98dbf764c098a5b4c8d44c6c8a7e513cdda8dbeb12d"
+    },
+    {
+      "system": "B_s20261114",
+      "path": "artifacts/g35_multifocus_round1_v1/train/B_s20261114/adapter_03000.pt",
+      "sha256": "98d006bb134941ed85e0a97a71d42b93e9a3c04db6f4aa967e304696e77b37a5"
+    }
+  ],
+  "layout_review_sha256": {
+    "artifacts/g35_multifocus_round1_v1/curves/groups_pesq_wb_layout_r1.pdf": "dc5696d2017618b8b54b5a77faf2f717c854253254bd316e5dbf8f50e29d38e2",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_pesq_wb_layout_r1.png": "7843a01c2324f15d8d65c8aeebd9e0d87f912a75dfe4cdd4582a468b4681cb9d",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_pesq_wb_layout_r1.svg": "62916ab73c61b85509a26fc809d9867eda25366e80eb5165dd718b9f8b4f4921",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_si_sdr_db_layout_r1.pdf": "49d94d9cfbae12936316554f0ddbc5eff1e91493ade75fbeee0a99ec51f970b4",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_si_sdr_db_layout_r1.png": "ce602bc96c7b8bd8201cfe1ab435675e7eb7546bfafd72785ae20f3836af5a97",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_si_sdr_db_layout_r1.svg": "3582af7c8c0c6f0f6e6131f6b92ca1c62651b9dfd8c7711f6106375d4e3d8a6c",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_stoi_layout_r1.pdf": "5793d47e10227499ad2cf71678cc08e639a00362043bf7d1f64dfdbf78175b7e",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_stoi_layout_r1.png": "fc6054a8d3d37c8250ada75f335743b22f6a554c88636c5d94e20a1486051cb6",
+    "artifacts/g35_multifocus_round1_v1/curves/groups_stoi_layout_r1.svg": "c4fe4d57d7a8cba0bbfdb16eb969bb15603c34fd36e1877764b533ba8772e0e1",
+    "artifacts/g35_multifocus_round1_v1/curves/three_seeds_separate.pdf": "928d175d89ca61ea44fccaa89ef1169039cf2d4413fe30577f96e184410d0770",
+    "artifacts/g35_multifocus_round1_v1/curves/three_seeds_separate.png": "f9703806cd6b7b2d173be574611e08169784566e6ee9824d5a030db24a6ebd1d",
+    "artifacts/g35_multifocus_round1_v1/curves/three_seeds_separate.svg": "9b1aff6fb6ca39b9f1619adf2962075d25ff10d79230dd31d0ffdba7d15b51ee"
+  },
+  "report_relative_links_all_present": true
+}

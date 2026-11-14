@@ -1,0 +1,65 @@
+{
+  "authorization": "User approved exactly A/B, 3 seeds each, 3000 updates; G35 19-angle signal/clean evaluation; no ASR/search",
+  "git_base": "33765db60c04c34da5d8aefccc247faefac609ff",
+  "centers": [
+    -40,
+    0,
+    10,
+    30,
+    70
+  ],
+  "half_width": 5,
+  "intervals": "left-closed/right-open; disjoint; complement is background",
+  "B_group_steps": {
+    "focus_-40": 300,
+    "focus_+0": 300,
+    "focus_+10": 300,
+    "focus_+30": 300,
+    "focus_+70": 300,
+    "background": 1500
+  },
+  "A_sampler": "exact original G15 index algorithm",
+  "categorical_matching": "Per-step A/B same field, noise_id, SNR, and point baseline noise angle; multi8 angle label ignored as nonphysical",
+  "allocation": "Integer network transport minimizing squared departure from baseline conditional class proportions; no neural loss change",
+  "group_field_quota": "Largest remainder of A observed point fraction; exact global field counts; no forced ideal 50/50 for A",
+  "initialization": "Fresh official checkpoint plus same-seed initial LoRA for each A/B pair; no continuation",
+  "seeds": [
+    20261112,
+    20261113,
+    20261114
+  ],
+  "steps_per_run": 3000,
+  "runs": 6,
+  "batch_size": 1,
+  "gradient_accumulation": 1,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam defaults",
+  "gradient_clip_norm": 5.0,
+  "identity_weight": 0.0,
+  "loss": "unchanged mcse.adaptation.mask_loss compressed cIRM MSE",
+  "rank": 4,
+  "alpha": 4,
+  "parameters": 3584,
+  "checkpoints": "save each500; uniformly register step3000, no metric selection; no intermediate validation forwards",
+  "train_max_seconds_per_run": 1800,
+  "evaluation_max_seconds": 5400,
+  "smoke_max_seconds": 600,
+  "new_artifact_limit_bytes": 6442450944,
+  "catalog_sha256": "e69cc0a3e6c3d5fe9242e7bcee04b85950ce2708d6fad4149c73dcaea30381d3",
+  "G35_manifest_sha256": "ef744f7388c957bfbb1d817119224982e766fd52476fbf17fec34f2dec979123",
+  "code_hashes": {
+    "scripts/g35_multifocus_r1.py": "e67a8f27b871a5a9834d75f17b9d9d9204f7091d5ebd1893d3ea3e03b5f371b8",
+    "scripts/g35_multifocus_r1_sampling.py": "6b64261cc7e0d38cf79e7f359c616d23ed33eac40615bb289ce52baaea19d4c4",
+    "scripts/g35_multifocus_r1_summary.py": "895a78ae1f942cbc2545717a2af6c1c0926ed3210e9a5847461a46c7c06ef191",
+    "scripts/run_g35_multifocus_r1.ps1": "50dccea2fc57ca24f0fb781d333097f146362716459afd5158a6f1280017b8e5"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pesq": "0.0.4",
+    "pystoi": "0.4.1",
+    "torch": "2.5.1+cu121"
+  },
+  "GPU_before": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 837 MiB, 8 %, 46",
+  "no_retries_of_training_or_metrics": true
+}
