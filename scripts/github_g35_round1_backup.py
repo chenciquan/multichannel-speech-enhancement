@@ -199,6 +199,13 @@ def upload(manifest):
     published = api(API + '/releases/' + str(release['id']), 'PATCH', {
         'tag_name': TAG, 'target_commitish': manifest['git_commit'], 'draft': False, 'prerelease': False, 'body': notes})
     assert not published['draft'] and published['tag_name'] == TAG
+    # Draft upload responses can contain temporary untagged download URLs.
+    # Read the published resources back before recording stable restore links.
+    published_assets = {a['name']: a for a in api(API + '/releases/' + str(release['id']) + '/assets?per_page=100')}
+    for a in assets:
+        r = published_assets[a['name']]
+        assert r['state'] == 'uploaded' and r['size'] == a['bytes'] and r['digest'] == a['provider_digest']
+        a['url'] = r['browser_download_url']
     receipt = {'status': 'complete', 'repository': 'chenciquan/multichannel-speech-enhancement', 'private': True,
         'release_url': published['html_url'], 'release_id': release['id'], 'tag': TAG,
         'git_snapshot_commit': manifest['git_commit'], 'files': manifest['file_count'],

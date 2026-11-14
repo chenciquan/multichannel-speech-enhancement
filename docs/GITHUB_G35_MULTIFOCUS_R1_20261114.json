@@ -1,0 +1,117 @@
+{
+  "status": "complete",
+  "repository": "chenciquan/multichannel-speech-enhancement",
+  "private": true,
+  "release_url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/tag/g35-multifocus-r1-20261114",
+  "release_id": 445315103,
+  "tag": "g35-multifocus-r1-20261114",
+  "git_snapshot_commit": "f14bb8f5af6c9808cd1344f5eb200f01e8822547",
+  "files": 6535,
+  "source_bytes": 1210522925,
+  "archive_bytes": 1107105261,
+  "archives": 10,
+  "assets": [
+    {
+      "name": "g35-round1-part-001-of-010.zip",
+      "bytes": 125538053,
+      "sha256": "2a3e560eb4a23a9f41d849b930fca92cdff49fd6d058081d794a17394ace2361",
+      "provider_digest": "sha256:2a3e560eb4a23a9f41d849b930fca92cdff49fd6d058081d794a17394ace2361",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-001-of-010.zip",
+      "id": 747577482
+    },
+    {
+      "name": "g35-round1-part-002-of-010.zip",
+      "bytes": 125360588,
+      "sha256": "800fd37ea3f2d9ba0462a162c2d33fe166920b5249f9c807a53ba5f6f335999f",
+      "provider_digest": "sha256:800fd37ea3f2d9ba0462a162c2d33fe166920b5249f9c807a53ba5f6f335999f",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-002-of-010.zip",
+      "id": 747577483
+    },
+    {
+      "name": "g35-round1-part-003-of-010.zip",
+      "bytes": 125194896,
+      "sha256": "ec208bdde65b25905b03b0d943c6de71f39ca65ec3734d977ecee11ad1ee5c83",
+      "provider_digest": "sha256:ec208bdde65b25905b03b0d943c6de71f39ca65ec3734d977ecee11ad1ee5c83",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-003-of-010.zip",
+      "id": 747577481
+    },
+    {
+      "name": "g35-round1-part-004-of-010.zip",
+      "bytes": 125655883,
+      "sha256": "ac47905d02aef281101dfb0b2c12952933c4b3093ede8f7bd18905f7e640ec19",
+      "provider_digest": "sha256:ac47905d02aef281101dfb0b2c12952933c4b3093ede8f7bd18905f7e640ec19",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-004-of-010.zip",
+      "id": 747579944
+    },
+    {
+      "name": "g35-round1-part-005-of-010.zip",
+      "bytes": 125252230,
+      "sha256": "0039b20c7124251dd270d7446064934471edb5d869057ba7e823821bb62ab38e",
+      "provider_digest": "sha256:0039b20c7124251dd270d7446064934471edb5d869057ba7e823821bb62ab38e",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-005-of-010.zip",
+      "id": 747580059
+    },
+    {
+      "name": "g35-round1-part-006-of-010.zip",
+      "bytes": 125496312,
+      "sha256": "ed7ba69ebe743b62cc9e7da091bc3951039246fc853db4adce0e89f1388d53c2",
+      "provider_digest": "sha256:ed7ba69ebe743b62cc9e7da091bc3951039246fc853db4adce0e89f1388d53c2",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-006-of-010.zip",
+      "id": 747581640
+    },
+    {
+      "name": "g35-round1-part-007-of-010.zip",
+      "bytes": 125603807,
+      "sha256": "24cd6812ef408bd8495e40f8005fd2c5b625eb60e4808eda7e4f0fc05d6d7414",
+      "provider_digest": "sha256:24cd6812ef408bd8495e40f8005fd2c5b625eb60e4808eda7e4f0fc05d6d7414",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-007-of-010.zip",
+      "id": 747581686
+    },
+    {
+      "name": "g35-round1-part-008-of-010.zip",
+      "bytes": 125271200,
+      "sha256": "ebc98ece5533b44975bde97058f5e2a09d983f428a14950aa3602f3267b8ee36",
+      "provider_digest": "sha256:ebc98ece5533b44975bde97058f5e2a09d983f428a14950aa3602f3267b8ee36",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-008-of-010.zip",
+      "id": 747582718
+    },
+    {
+      "name": "g35-round1-part-009-of-010.zip",
+      "bytes": 102571486,
+      "sha256": "34bed6d8a23df6f349e12aabf03bbc2a639f513139ead88bda8ca9a2b2033321",
+      "provider_digest": "sha256:34bed6d8a23df6f349e12aabf03bbc2a639f513139ead88bda8ca9a2b2033321",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-009-of-010.zip",
+      "id": 747584186
+    },
+    {
+      "name": "g35-round1-part-010-of-010.zip",
+      "bytes": 1160806,
+      "sha256": "680926138d049a5e8ee7a84e05acff1f14313859ff3de186844ed17e11ef6a00",
+      "provider_digest": "sha256:680926138d049a5e8ee7a84e05acff1f14313859ff3de186844ed17e11ef6a00",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/g35-round1-part-010-of-010.zip",
+      "id": 747584532
+    },
+    {
+      "name": "round1-file-manifest.json",
+      "bytes": 1830627,
+      "sha256": "1b1080ea3adb1f77663ff3c3ae475fae146e9c3dffe6fceb00cef70d4d222470",
+      "provider_digest": "sha256:1b1080ea3adb1f77663ff3c3ae475fae146e9c3dffe6fceb00cef70d4d222470",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/round1-file-manifest.json",
+      "id": 747584658
+    },
+    {
+      "name": "ROUND1_SHA256SUMS.txt",
+      "bytes": 980,
+      "sha256": "a623370e03b56d457fc72357c817fc1259b70a2ec697d2e50e648e90ff54d559",
+      "provider_digest": "sha256:a623370e03b56d457fc72357c817fc1259b70a2ec697d2e50e648e90ff54d559",
+      "url": "https://github.com/chenciquan/multichannel-speech-enhancement/releases/download/g35-multifocus-r1-20261114/ROUND1_SHA256SUMS.txt",
+      "id": 747584790
+    }
+  ],
+  "all_remote_sizes_and_provider_SHA256_verified": true,
+  "elapsed_upload_seconds": 300.1720000000205,
+  "local_manifest_sha256": "1b1080ea3adb1f77663ff3c3ae475fae146e9c3dffe6fceb00cef70d4d222470",
+  "post_publication_assets_reverified": true,
+  "temporary_draft_urls_replaced_with_published_urls": true,
+  "previous_snapshot_published_asset_count_unchanged": 90
+}
